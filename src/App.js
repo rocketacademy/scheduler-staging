@@ -27,7 +27,7 @@ function App() {
           First Schedule Date: {day.courseDate}
         </p>
         <p>
-          First Schedule DateTime TZ: {day.meetingDateTimeTZ}
+          First Schedule DateTime TZ: {day.meetingDateTimeUTC}
         </p>
         <p>
           First Schedule Genral Schedule In Class:

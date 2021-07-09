@@ -33,7 +33,7 @@ for( let i=0; i<60; i++){
   const dateObj = {
     courseDay: i+1,
     courseDate: dateString, // date of this date - no TZ data
-    meetingDateTimeTZ: date.toISOString(true), // meeting date, time in the timezone *of the zoom meeting leader*
+    meetingDateTimeUTC: date.utc().toISOString(), // meeting date, time in the timezone *of the zoom meeting leader*
     dateTypes:{}
   };
 
@@ -45,6 +45,16 @@ for( let i=0; i<60; i++){
   }
 
   dateObj.dateTypes['general'] = dateObjGen;
+
+  if( i>=10 && i%10 === 0){
+
+    let section = i / 10;
+
+    dateObj.dateTypes['title'] = {
+      type: 'title',
+      text: `Module :${section}`
+    };
+  }
 
   if( i<10 ){
 
@@ -82,7 +92,7 @@ for( let i=0; i<60; i++){
 const jsonContentStr = JSON.stringify(data);
 // Write JSON string to target file
 
-fs.writeFile('data.json', jsonContentStr, (writeErr) => {
+fs.writeFile('src/data/data.json', jsonContentStr, (writeErr) => {
   if (writeErr) {
     console.error('Writing error', writeErr);
   }
