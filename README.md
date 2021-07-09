@@ -12,7 +12,7 @@ To generate test data run:
 node test/index.js
 ```
 
-This will create a file called `data.json` in the repo root. A preprepared version of this file already exists in `/data`.
+This will create a file called `data.json` in `src/data`.
 
 # Getting Started with Create React App
 
