@@ -34,7 +34,7 @@ for( let i=0; i<60; i++){
     courseDay: i+1,
     courseDate: dateString, // date of this date - no TZ data
     meetingDateTimeTZ: date.toISOString(true), // meeting date, time in the timezone *of the zoom meeting leader*
-    dateTypes:[]
+    dateTypes:{}
   };
 
   const dateObjGen = {
@@ -44,7 +44,7 @@ for( let i=0; i<60; i++){
     postClass:createLinkList()
   }
 
-  dateObj.dateTypes.push( dateObjGen );
+  dateObj.dateTypes['general'] = dateObjGen;
 
   if( i<10 ){
 
@@ -54,8 +54,7 @@ for( let i=0; i<60; i++){
       inClass:createLinkList(1),
       postClass:createLinkList()
     }
-
-    dateObj.dateTypes.push( dateObjDsa );
+    dateObj.dateTypes['dsa'] = dateObjDsa;
 
     const dateObjUx = {
       type: 'ux',
@@ -64,7 +63,7 @@ for( let i=0; i<60; i++){
       postClass:createLinkList()
     }
 
-    dateObj.dateTypes.push( dateObjUx );
+    dateObj.dateTypes['ux'] = dateObjUx;
   }
 
   data.dates[dateString] = dateObj;

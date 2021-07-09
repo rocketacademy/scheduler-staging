@@ -1,3 +1,19 @@
+# Scheduler
+
+A front-end app to edit and generate a dated schedule for all Rocket Academy Courses.
+
+The app is Timezone aware.
+
+# Generate Test Data
+
+To generate test data run:
+
+```
+node test/index.js
+```
+
+This will create a file called `data.json` in the repo root. A preprepared version of this file already exists in `/data`.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
