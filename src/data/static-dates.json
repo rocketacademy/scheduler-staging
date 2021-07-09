@@ -1,0 +1,16 @@
+{
+  "PH":{
+    "25-12-2021" : {
+      "date": "25-12-2021",
+      "location" : "singapore",
+      "name" : "christmas"
+    }
+  },
+  "company":{
+    "26-12-2021" : {
+      "date": "26-12-2021",
+      "location" : "singapore",
+      "name" : "winter break"
+    }
+  }
+}

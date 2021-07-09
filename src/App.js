@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import schedule from './data/data.json';
+import holidays from './data/static-dates.json';
 
 function App() {
 
