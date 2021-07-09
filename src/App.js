@@ -15,7 +15,16 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <p>
-          First Schedule Date: {day.courseDay}
+          First Schedule Date: {day.courseDate}
+        </p>
+        <p>
+          First Schedule DateTime TZ: {day.meetingDateTimeTZ}
+        </p>
+        <p>
+          First Schedule Genral Schedule In Class:
+          <a href={day.dateTypes.general.inClass[0].url}>
+            {day.dateTypes.general.inClass[0].name}
+          </a>
         </p>
         <a
           className="App-link"
