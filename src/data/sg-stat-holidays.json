@@ -1,0 +1,106 @@
+{
+  "PH":{
+    "01-01-2021" : {
+      "date": "01-01-2021",
+      "location" : "SG",
+      "name" : "New Year's Day"
+    },
+    "12-02-2021" : {
+      "date": "12-02-2021",
+      "location" : "SG",
+      "name" : "Chinese New Year Day 1"
+    },
+    "13-02-2021" : {
+      "date": "13-02-2021",
+      "location" : "SG",
+      "name" : "Chinese New Year Day 2"
+    },
+    "02-04-2021" : {
+      "date": "02-04-2021",
+      "location" : "SG",
+      "name" : "Good Friday"
+    },
+    "01-05-2021" : {
+      "date": "01-05-2021",
+      "location" : "SG",
+      "name" : "Labour Day"
+    },
+    "13-05-2021" : {
+      "date": "13-05-2021",
+      "location" : "SG",
+      "name" : "Hari Raya Puasa"
+    },
+    "26-05-2021" : {
+      "date": "26-05-2021",
+      "location" : "SG",
+      "name" : "Vesak Day"
+    },
+    "20-07-2021" : {
+      "date": "20-07-2021",
+      "location" : "SG",
+      "name" : "Hari Raya Haji"
+    },
+    "09-08-2021" : {
+      "date": "09-08-2021",
+      "location" : "SG",
+      "name" : "National Day"
+    },
+    "04-11-2021" : {
+      "date": "04-11-2021",
+      "location" : "SG",
+      "name" : "Deepavali"
+    },
+    "25-12-2021" : {
+      "date": "25-12-2021",
+      "location" : "SG",
+      "name" : "Christmas Day"
+    },
+     "01-01-2022" : {
+      "date": "01-01-2022",
+      "location" : "SG",
+      "name" : "New Year's Day"
+    }
+  },
+  "company":{
+    "26-12-2021" : {
+      "date": "26-12-2021",
+      "location" : "SG",
+      "name" : "winter break"
+    },
+    "27-12-2021" : {
+      "date": "27-12-2021",
+      "location" : "SG",
+      "name" : "winter break"
+    },
+    "28-12-2021" : {
+      "date": "28-12-2021",
+      "location" : "SG",
+      "name" : "winter break"
+    },
+    "29-12-2021" : {
+      "date": "29-12-2021",
+      "location" : "SG",
+      "name" : "winter break"
+    },
+    "30-12-2021" : {
+      "date": "30-12-2021",
+      "location" : "SG",
+      "name" : "winter break"
+    },
+    "31-12-2021" : {
+      "date": "31-12-2021",
+      "location" : "SG",
+      "name" : "winter break"
+    },
+    "01-01-2022" : {
+      "date": "01-01-2022",
+      "location" : "SG",
+      "name" : "winter break"
+    }
+  }
+}
+
+
+
+
+
