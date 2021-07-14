@@ -1,166 +1,122 @@
-import React, { useState, useEffect } from 'react';
+import moment from 'moment';
+import React , { useState } from 'react';
+import { DateTime } from 'luxon';
+import fs from 'fs';
 import holidayData from '../data/sg-stat-holidays.json';
 import courseData from '../data/basics-course-days.json';
-import moment from 'moment';
 
-const DataList = () => {
-    const [state, setState] = useState({dates: {}});
+const publicHolidays = holidayData.PH;
+const publicHolidayArray = [];
+// get array of all public holiday dates
+Object.keys(publicHolidays).map((key, index) => {
+    publicHolidayArray.push(key);
+});
+
+const companyHolidays = holidayData.company;
+const companyHolidayArray = [];
+const winterBreak = [];
+// get array of all company holiday dates
+Object.keys(companyHolidays).map((key, index) => {
+    companyHolidayArray.push(key);
+    // get array of winter break dates
+    if(companyHolidays[key].name === 'winter break') {
+        winterBreak.push(companyHolidays[key].date);
+    }
+});
+
+console.log('winter break', winterBreak);
+console.log('public holiday dates', publicHolidayArray);
+console.log('company holiday dates', companyHolidayArray);
+
+const phWithoutCh = [];
+
+// get array of public holidays not including those included in winter break
+publicHolidayArray.forEach((holiday) => {
+    if(!companyHolidayArray.includes(holiday)) {
+        console.log(!companyHolidayArray.includes(holiday));
+        phWithoutCh.push(holiday);
+    }
+});
+console.log('not including comapny holidays', phWithoutCh);
+
+console.log('course data', courseData);
+
+const CourseDataList = () => {
     const [startDate, setStartDate] = useState('');
-    const [classDates, setClassDates] = useState([]);
-    console.log(courseData);
+    const date = moment(startDate);
+    // const utc = moment(startDate + 'T19:00', "YYYY-MM-DDTHH:mm").utc().toISOString();
+    const dateWeek = moment(startDate);
+    let data = {days: []};
+    let courseDayCount = 0;
+    let classDatesCount = 0;
+    let week = 1;
+    let weekDay = 1;
 
-    const publicHolidays = holidayData.PH;
-    const publicHolidayArray = [];
-    // get array of all public holiday dates
-    Object.keys(publicHolidays).map((key, index) => {
-        publicHolidayArray.push(key);
-    });
+    while (courseDayCount < 12) {
+        let dateString = date.format('DD-MM-YYYY');
 
-    const companyHolidays = holidayData.company;
-    const companyHolidayArray = [];
-    const winterBreak = [];
-    // get array of all company holiday dates
-    Object.keys(companyHolidays).map((key, index) => {
-        companyHolidayArray.push(key);
-        // get array of winter break dates
-        if(companyHolidays[key].name === 'winter break') {
-            winterBreak.push(companyHolidays[key].date);
+        // if date is a public holiday
+        if (phWithoutCh.includes(dateString)) {
+            const dateObj = {
+                courseDay: null,
+                courseDate: dateString,
+                dateTypes: {}
+            }
+
+            dateObj.dateTypes = 'public holiday';
+            data.days[dateString] = dateObj;
+        // if date is not a holiday
+        } else {
+            // get whatever index of courseData that is specified by courseDayCount
+            const dateObj = courseData.days[courseDayCount];
+            dateObj.courseDate = dateString;
+            dateObj.courseWeek = week;
+            dateObj.weekDay = weekDay;
+            // dateObj.meetingDateTimeUTC = utc;
+            data.days[dateString] = dateObj;
+            // increase course day count on days that classes are held,
+            // DO NOT increase class day count on holidays
+            courseDayCount += 1;
+            console.log('course day count', courseDayCount);
         }
-    });
 
-    console.log('winter break', winterBreak);
-    console.log('public holiday dates', publicHolidayArray);
-    console.log('company holiday dates', companyHolidayArray);
+        // if there was a public holdays during the course
+        // brings us to monday
+        if (classDatesCount > 12) {
+            date.add(2,'day'); 
+            weekDay += 1;
+        } else {
+            // if days is Tuesday, add 4 days so that the next day will be Saturday
+            // if day is Saturday, add 3 days so that the next day is Tuesday
+            if (date.day() === 2) {
+                date.add(4, 'day'); 
+                weekDay += 1;
+            } else if (date.day() === 6) {
+                date.add(3, 'day');
+                dateWeek.add(1, 'week');
+                week += 1;
+                weekDay = 1;
+            // only happens if course goes past the normal 6 week duration
+            } else if (date.day() === 1) {
+                date.add(2,'day'); 
+                weekDay += 1;
+            }       
 
-    const phWithoutCh = [];
-    
-    publicHolidayArray.forEach((holiday) => {
-        if(!companyHolidayArray.includes(holiday)) {
-            console.log(!companyHolidayArray.includes(holiday));
-            phWithoutCh.push(holiday);
         }
-    });
-    console.log('not including comapny holidays', phWithoutCh);
 
-    useEffect(() => {
-        console.log('inside use effect');
-        const targetDate = new Date(startDate);
-        console.log('target date', targetDate);
-        targetDate.setDate(targetDate.getDate() + 43);
-
-        const dd = ((targetDate.getDate()).toString()).padStart(2, '0');
-        const mm = ((targetDate.getMonth() + 1).toString()).padStart(2, '0'); // 0 is January, so we must add 1
-        const yyyy = targetDate.getFullYear();
-
-        const endDate = yyyy + "-" + mm + "-" + dd;
-
-        console.log('start date', startDate);
-        console.log('end date', endDate);
-
-        const start = moment(startDate);
-        let end = moment(endDate);
-        const noHolidays = end.format('DD-MM-YYYY');
-        console.log('no holidays', noHolidays);
-        const day = 2;                   
-        const day2 = 6;
-
-        let classDates = [];
-        let updatedEnd = end;        
-
-
-        let current = start.clone();
-        let current2 = start.clone();
-
-        classDates.push(start.format('yyyy-MM-DD'));
-        while ((current.day(7 + day).isBefore(end)) && (current2.day(7 + day2).isBefore(end))) {
-            const date = current.clone();
-            const newDate = date.format('yyyy-MM-DD');
-            const dateFormat = date.format('DD-MM-yyyy');
-            console.log('new date', newDate);
-            classDates.push(newDate);
-
-            const date2 = current2.clone();
-            const newDate2 = date2.format('yyyy-MM-DD');
-            const dateFormat2 = date2.format('DD-MM-yyyy');
-            console.log('new date', newDate2);
-            classDates.push(newDate2);
-
-            if (phWithoutCh.includes(dateFormat)) {
-                updatedEnd = end.add(3, 'days');
-                console.log('updated end', end);
-            }
-
-            if (phWithoutCh.includes(dateFormat2)) {
-                updatedEnd = end.add(4, 'days');
-                console.log('updated end', end);
-            }
-
-            if (winterBreak.includes(dateFormat2) && winterBreak.includes(dateFormat)) {
-                updatedEnd = end.add(7, 'days');
-                console.log('updated end', end);
-            } else if (winterBreak.includes(dateFormat)) {
-                updatedEnd = end.add(3, 'days');
-                console.log('updated end', end);
-            }
-
-        };
-
-        const inclHolidays = updatedEnd.format('yyyy-MM-DD');
-        const newEnd = moment(inclHolidays);
-        console.log('new end', newEnd);
-        console.log('included holidays', inclHolidays);
-
-        if (noHolidays !== inclHolidays) {
-            classDates = [];
-            let current3 = start.clone();
-            let current4 = start.clone();
-            classDates.push(start.format('yyyy-MM-DD'));
-                while ((current3.day(7 + day).isBefore(newEnd))) {
-                    console.log('new end', newEnd);
-                    const date = current3.clone();
-                    const newDate = date.format('yyyy-MM-DD');
-                    console.log('new date', newDate);
-                    classDates.push(newDate);
-                }
-
-                while (current4.day(7 + day2).isBefore(newEnd)) {
-                    const date2 = current4.clone();
-                    const newDate2 = date2.format('yyyy-MM-DD');
-                    console.log('new date', newDate2);
-                    classDates.push(newDate2);
-                }
-            }
        
 
-        const sortedClassDates = classDates.sort();
-        console.log('sorted class dates', sortedClassDates);
-        const formattedClassDates = [];
-        sortedClassDates.forEach((date) => {
-            const dateArray = date.split('-');
-            dateArray.reverse();
-            const joined = dateArray.join('-');
-            formattedClassDates.push(joined);
-        })
-        console.log('formatted class dates', formattedClassDates);
-        setClassDates(formattedClassDates);
-    }, [startDate]);
+        // increase classDatesCount regardless of whether it is a public holiday
+        classDatesCount += 1;
+    }
+    console.log('start date', startDate);
+    console.log('data', data);
 
     return (
-        <>
         <div>
-            <input type="date" value={startDate} onChange={(e) => {setStartDate(e.target.value)}}/>
+            <input type="date" value={startDate} onChange={(e) => setStartDate(e.target.value)} />
         </div>
-        <div>
-            {classDates.map((date) => {
-                return (
-                    <div>
-                        {date}
-                    </div>
-                )
-            })}
-        </div>
-        </>
     )
-};
+}
 
-export default DataList;
+export default CourseDataList;
