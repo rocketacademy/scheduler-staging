@@ -49,13 +49,13 @@ const DatePicker = ({setJsonContent}) => {
     let weekDay = 1;
     let data;
     let courseDayCount;
+    // starts from 0 because it's tracking the index of the json data file
     let courseDay = 0;
 
     // based on user input for course type, the following top level info is set
     const handleSubmit = () => {
         let topLevelObject = {
             courseType: courseType,
-            courseName: `${date.toFormat('dd-MM-yyyy')}batch${courseName}`,
             days: {}
         };
 
@@ -91,6 +91,11 @@ const DatePicker = ({setJsonContent}) => {
             const dateString = date.toFormat('dd-MM-yyyy');
             console.log('date', date);
             console.log('date string', dateString);
+
+            if (courseDay + 1 === data.totalCourseDays) {
+                const displayDate = DateTime.fromFormat(startDate, "yyyy-MM-dd");
+                data.courseName = `${displayDate.toFormat('dd-MM-yyyy')}/${dateString}/BATCH${courseName}`;
+            }
 
             // if date is a public holiday
             if (phWithoutCh.includes(dateString) || winterBreak.includes(dateString)) {
