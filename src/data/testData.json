@@ -1,0 +1,473 @@
+{
+    "daysOfWeek": [
+        2,
+        6
+    ],
+    "courseStartIndex": 1,
+    "totalCourseDays": 13,
+    "courseType": "Basics",
+    "days": {
+        "17-07-2021": {
+            "courseDate": "17-07-2021",
+            "courseWeek": 1,
+            "weekDay": 1,
+            "dayNumber": 6,
+            "meetingDateTimeUTC": "2021-07-17T05:00:00.000Z",
+            "courseDay": 1,
+            "dateTypes": "pre-course briefing"
+        },
+        "20-07-2021": {
+            "courseDay": null,
+            "courseDate": "20-07-2021",
+            "courseWeek": 2,
+            "dayNumber": 2,
+            "dateTypes": {
+                "date": "20-07-2021",
+                "location": "SG",
+                "name": "Hari Raya Haji"
+            }
+        },
+        "24-07-2021": {
+            "courseDate": "24-07-2021",
+            "courseWeek": 2,
+            "weekDay": 1,
+            "dayNumber": 6,
+            "meetingDateTimeUTC": "2021-07-20T05:00:00.000Z",
+            "courseDay": 2,
+            "dateTypes": {
+                "general": {
+                    "type": "general",
+                    "preClass": [
+                        {
+                            "name": "1.1: What is coding?",
+                            "url": "https://basics.rocketacademy.co/1-introduction/1.1-what-is-coding"
+                        },
+                        {
+                            "name": "1.2: Web Browsers",
+                            "url": "https://basics.rocketacademy.co/1-introduction/1.2-web-browsers"
+                        },
+                        {
+                            "name": "2.1: Command Line",
+                            "url": "https://basics.rocketacademy.co/2-organising-and-managing-code-files/2.1-command-line"
+                        },
+                        {
+                            "name": "2.2: Git",
+                            "url": "https://basics.rocketacademy.co/2-organising-and-managing-code-files/2.2-git"
+                        },
+                        {
+                            "name": "3.1: Operations",
+                            "url": "https://basics.rocketacademy.co/3-basic-data-manipulation/3.1-operations"
+                        },
+                        {
+                            "name": "3.2: Variables",
+                            "url": "https://basics.rocketacademy.co/3-basic-data-manipulation/3.2-variables"
+                        },
+                        {
+                            "name": "4.1: Introduction to Github",
+                            "url": "https://basics.rocketacademy.co/4-getting-started-with-code/4.1-intro-to-github"
+                        },
+                        {
+                            "name": "4.2: Our First Program",
+                            "url": "https://basics.rocketacademy.co/4-getting-started-with-code/4.2-our-first-program"
+                        }
+                    ],
+                    "inClass": [
+                        {
+                            "name": "Day 1: Basic File and Data Manipulation",
+                            "url": "https://basics.rocketacademy.co/in-class-exercises/day-1-basic-file-and-data-manipulation"
+                        }
+                    ],
+                    "postClass": []
+                }
+            }
+        },
+        "27-07-2021": {
+            "courseDate": "27-07-2021",
+            "courseWeek": 3,
+            "weekDay": 1,
+            "dayNumber": 2,
+            "meetingDateTimeUTC": "2021-07-24T11:00:00.000Z",
+            "courseDay": 3,
+            "dateTypes": {
+                "general": {
+                    "type": "general",
+                    "preClass": [
+                        {
+                            "name": "Review Social Rules",
+                            "url": "https://basics.rocketacademy.co/course-logistics/love-social-rules"
+                        },
+                        {
+                            "name": "5.1: Functions",
+                            "url": "https://basics.rocketacademy.co/5-structuring-and-debugging-code/5.1-functions"
+                        },
+                        {
+                            "name": "5.2: Errors",
+                            "url": "https://basics.rocketacademy.co/5-structuring-and-debugging-code/5.2-errors"
+                        }
+                    ],
+                    "inClass": [
+                        {
+                            "name": "Day 2: Functions",
+                            "url": "https://basics.rocketacademy.co/in-class-exercises/day-2-functions"
+                        }
+                    ],
+                    "postClass": []
+                }
+            }
+        },
+        "31-07-2021": {
+            "courseDate": "31-07-2021",
+            "courseWeek": 3,
+            "weekDay": 2,
+            "dayNumber": 6,
+            "meetingDateTimeUTC": "2021-07-27T05:00:00.000Z",
+            "courseDay": 4,
+            "dateTypes": {
+                "general": {
+                    "type": "general",
+                    "preClass": [
+                        {
+                            "name": "6.1: Introduction to Logic",
+                            "url": "https://basics.rocketacademy.co/6-conditional-logic/6.1-intro-to-logic"
+                        },
+                        {
+                            "name": "6.2: Pseudo Code, Boolean \"Or\" ",
+                            "url": "https://basics.rocketacademy.co/6-conditional-logic/6.2-pseudo-code-boolean-or"
+                        },
+                        {
+                            "name": "6.3: Boolean \"And\", Boolean \"Not\" ",
+                            "url": "https://basics.rocketacademy.co/6-conditional-logic/6.3-boolean-and-not"
+                        }
+                    ],
+                    "inClass": [
+                        {
+                            "name": "Day 3: If Statements, Boolean \"Or\", Boolean \"And\" ",
+                            "url": "https://basics.rocketacademy.co/in-class-exercises/day-3-if-statements-boolean-or"
+                        }
+                    ],
+                    "postClass": [
+                        {
+                            "name": "Project 1: Scissors Paper Stone (Part 1)",
+                            "url": "https://basics.rocketacademy.co/projects/project-1-scissors-paper-stone/project-1-scissors-paper-stone-part-1"
+                        }
+                    ]
+                }
+            }
+        },
+        "03-08-2021": {
+            "courseDate": "03-08-2021",
+            "courseWeek": 4,
+            "weekDay": 1,
+            "dayNumber": 2,
+            "meetingDateTimeUTC": "2021-07-31T11:00:00.000Z",
+            "courseDay": 5,
+            "dateTypes": {
+                "general": {
+                    "type": "general",
+                    "preClass": [
+                        {
+                            "name": "7.1: Github Fork and Pull Request",
+                            "url": "https://basics.rocketacademy.co/7-github/7.1-github-fork-and-pull-request"
+                        },
+                        {
+                            "name": "7.2: Github Navigation",
+                            "url": "https://basics.rocketacademy.co/7-github/7.2-github-repo-browsing"
+                        },
+                        {
+                            "name": "8.1: Program Lifecycle and Global State",
+                            "url": "https://basics.rocketacademy.co/8-managing-state-and-input-validation/8.1-program-lifecycle-and-state"
+                        }
+                    ],
+                    "inClass": [
+                        {
+                            "name": "Day 4: Boolean \"And\", GitHub, Program State",
+                            "url": "https://basics.rocketacademy.co/in-class-exercises/day-4-boolean-and-program-state"
+                        }
+                    ],
+                    "postClass": [
+                        {
+                            "name": "Project 1: Scissors Paper Stone (Part 2)",
+                            "url": "https://basics.rocketacademy.co/projects/project-1-scissors-paper-stone/project-1-scissors-paper-stone-part-2"
+                        }
+                    ]
+                }
+            }
+        },
+        "07-08-2021": {
+            "courseDate": "07-08-2021",
+            "courseWeek": 4,
+            "weekDay": 2,
+            "dayNumber": 6,
+            "meetingDateTimeUTC": "2021-08-03T05:00:00.000Z",
+            "courseDay": 6,
+            "dateTypes": {
+                "general": {
+                    "type": "general",
+                    "preClass": [
+                        {
+                            "name": "8.2: Program State for Game Modes",
+                            "url": "https://basics.rocketacademy.co/8-managing-state-and-input-validation/8.2-program-state-for-game-modes"
+                        },
+                        {
+                            "name": "8.3: Input Validation",
+                            "url": "https://basics.rocketacademy.co/8-managing-state-and-input-validation/8.3-input-validation"
+                        }
+                    ],
+                    "inClass": [
+                        {
+                            "name": "Day 5: Scissors Paper Stone Redux",
+                            "url": "https://basics.rocketacademy.co/in-class-exercises/day-5-scissors-paper-stone-redux"
+                        }
+                    ],
+                    "postClass": [
+                        {
+                            "name": "Project 2: Beat That!",
+                            "url": "https://basics.rocketacademy.co/projects/project-2-beat-that"
+                        }
+                    ]
+                }
+            }
+        },
+        "10-08-2021": {
+            "courseDate": "10-08-2021",
+            "courseWeek": 5,
+            "weekDay": 1,
+            "dayNumber": 2,
+            "meetingDateTimeUTC": "2021-08-07T11:00:00.000Z",
+            "courseDay": 7,
+            "dateTypes": {
+                "general": {
+                    "type": "general",
+                    "preClass": [
+                        {
+                            "name": "Coding Strategies",
+                            "url": "https://basics.rocketacademy.co/course-logistics/coding-strategies"
+                        },
+                        {
+                            "name": "9.1: Arrays",
+                            "url": "https://basics.rocketacademy.co/9-arrays-and-iteration/9.1-arrays"
+                        },
+                        {
+                            "name": "9.2: Loops",
+                            "url": "https://basics.rocketacademy.co/9-arrays-and-iteration/9.2-loops"
+                        }
+                    ],
+                    "inClass": [
+                        {
+                            "name": "Day 6: Loops",
+                            "url": "https://basics.rocketacademy.co/in-class-exercises/day-6-loops"
+                        }
+                    ],
+                    "postClass": [
+                        {
+                            "name": "Project 2: Beat That!",
+                            "url": "https://basics.rocketacademy.co/projects/project-2-beat-that"
+                        }
+                    ]
+                }
+            }
+        },
+        "14-08-2021": {
+            "courseDate": "14-08-2021",
+            "courseWeek": 5,
+            "weekDay": 2,
+            "dayNumber": 6,
+            "meetingDateTimeUTC": "2021-08-10T05:00:00.000Z",
+            "courseDay": 8,
+            "dateTypes": {
+                "general": {
+                    "type": "general",
+                    "preClass": [
+                        {
+                            "name": "9.3: Loops with Arrays",
+                            "url": "https://basics.rocketacademy.co/9-arrays-and-iteration/9.3-loops-with-arrays"
+                        }
+                    ],
+                    "inClass": [
+                        {
+                            "name": "Day 7: Loops and Arrays",
+                            "url": "https://basics.rocketacademy.co/in-class-exercises/day-7-arrays-and-loops"
+                        }
+                    ],
+                    "postClass": [
+                        {
+                            "name": "Project 2: Beat That!",
+                            "url": "https://basics.rocketacademy.co/projects/project-2-beat-that"
+                        }
+                    ]
+                }
+            }
+        },
+        "17-08-2021": {
+            "courseDate": "17-08-2021",
+            "courseWeek": 6,
+            "weekDay": 1,
+            "dayNumber": 2,
+            "meetingDateTimeUTC": "2021-08-14T11:00:00.000Z",
+            "courseDay": 9,
+            "dateTypes": {
+                "general": {
+                    "type": "general",
+                    "preClass": [
+                        {
+                            "name": "10.1: Javascript Objects",
+                            "url": "https://basics.rocketacademy.co/10-javascript-objects/10.1-javascript-objects"
+                        }
+                    ],
+                    "inClass": [
+                        {
+                            "name": "Day 8: Beat That Redux",
+                            "url": "https://basics.rocketacademy.co/in-class-exercises/day-8-beat-that-redux"
+                        }
+                    ],
+                    "postClass": [
+                        {
+                            "name": "Project 3: Blackjack",
+                            "url": "https://basics.rocketacademy.co/projects/project-3-blackjack"
+                        }
+                    ]
+                }
+            }
+        },
+        "21-08-2021": {
+            "courseDate": "21-08-2021",
+            "courseWeek": 6,
+            "weekDay": 2,
+            "dayNumber": 6,
+            "meetingDateTimeUTC": "2021-08-17T05:00:00.000Z",
+            "courseDay": 10,
+            "dateTypes": {
+                "general": {
+                    "type": "general",
+                    "preClass": [
+                        {
+                            "name": "10.2: Card Deck Generation with Loops ",
+                            "url": "https://basics.rocketacademy.co/10-javascript-objects/10.2-card-deck-generation-with-loops"
+                        }
+                    ],
+                    "inClass": [
+                        {
+                            "name": "Day 9: Moar Cards",
+                            "url": "https://basics.rocketacademy.co/in-class-exercises/day-9-moar-cards"
+                        }
+                    ],
+                    "postClass": [
+                        {
+                            "name": "Project 3: Blackjack",
+                            "url": "https://basics.rocketacademy.co/projects/project-3-blackjack"
+                        }
+                    ]
+                }
+            }
+        },
+        "24-08-2021": {
+            "courseDate": "24-08-2021",
+            "courseWeek": 7,
+            "weekDay": 1,
+            "dayNumber": 2,
+            "meetingDateTimeUTC": "2021-08-21T11:00:00.000Z",
+            "courseDay": 11,
+            "dateTypes": {
+                "general": {
+                    "type": "general",
+                    "preClass": [
+                        {
+                            "name": "10.3: War Card Game Sample Implementation",
+                            "url": "https://basics.rocketacademy.co/10-javascript-objects/10.3-card-game-example-war"
+                        }
+                    ],
+                    "inClass": [
+                        {
+                            "name": "Day 10: Chat Bot",
+                            "url": "https://basics.rocketacademy.co/in-class-exercises/day-10-chat-bot"
+                        }
+                    ],
+                    "postClass": [
+                        {
+                            "name": "Project 3: Blackjack",
+                            "url": "https://basics.rocketacademy.co/projects/project-3-blackjack"
+                        }
+                    ]
+                }
+            }
+        },
+        "28-08-2021": {
+            "courseDate": "28-08-2021",
+            "courseWeek": 7,
+            "weekDay": 2,
+            "dayNumber": 6,
+            "meetingDateTimeUTC": "2021-08-24T05:00:00.000Z",
+            "courseDay": 12,
+            "dateTypes": {
+                "general": {
+                    "type": "general",
+                    "preClass": [
+                        {
+                            "name": "11.1: Advanced Debugging with Sources Tab",
+                            "url": "https://basics.rocketacademy.co/11-advanced-debugging/11.1-advanced-debugging-with-sources-tab"
+                        },
+                        {
+                            "name": "12.3: Projuct Deployment",
+                            "url": "https://basics.rocketacademy.co/12-next-steps/12.3-deployment"
+                        }
+                    ],
+                    "inClass": [
+                        {
+                            "name": "Day 11: Blackjack Redux and Debugger",
+                            "url": "https://basics.rocketacademy.co/in-class-exercises/day-11-blackjack-redux-debugger"
+                        }
+                    ],
+                    "postClass": [
+                        {
+                            "name": "Project 3: Blackjack (More Comfortable)",
+                            "url": "https://basics.rocketacademy.co/projects/project-3-blackjack#more-comfortable"
+                        }
+                    ]
+                }
+            }
+        },
+        "30-08-2021": {
+            "courseDate": "30-08-2021",
+            "courseWeek": 7,
+            "weekDay": 3,
+            "dayNumber": 1,
+            "meetingDateTimeUTC": null,
+            "courseDay": 13,
+            "dateTypes": {
+                "general": {
+                    "type": "general",
+                    "preClass": [
+                        {
+                            "name": "12.1: Browser Applications with DOM",
+                            "url": "https://basics.rocketacademy.co/12-next-steps/12.1-browser-applications-with-dom"
+                        },
+                        {
+                            "name": "12.2: HTML, CSS Review",
+                            "url": "https://basics.rocketacademy.co/12-next-steps/12.2-html-css-review"
+                        }
+                    ],
+                    "inClass": [
+                        {
+                            "name": "Course Feedback and Reviews",
+                            "url": ""
+                        },
+                        {
+                            "name": "Project presentations",
+                            "url": "https://basics.rocketacademy.co/course-logistics/course-methodology#project-presentations"
+                        },
+                        {
+                            "name": "LinkedIn certificate presentations",
+                            "url": ""
+                        },
+                        {
+                            "name": "Class Photo",
+                            "url": ""
+                        }
+                    ],
+                    "postClass": []
+                }
+            }
+        }
+    },
+    "courseName": "17-07-2021_30-08-2021_BATCH3"
+}

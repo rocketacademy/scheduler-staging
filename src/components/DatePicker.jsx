@@ -35,7 +35,7 @@ publicHolidayArray.forEach((holiday) => {
 
 
 
-const DatePicker = ({setJsonContent}) => {
+const DatePicker = ({setJsonContent, setFileName}) => {
     const [startDate, setStartDate] = useState('');
     const [courseName, setCourseName] = useState('');
     const [courseType, setCourseType] = useState('');
@@ -44,7 +44,7 @@ const DatePicker = ({setJsonContent}) => {
     let utc = d.toUTC().toISO();
     console.log(d.toUTC().toISO());
     let dateWeek = DateTime.fromFormat(startDate, "yyyy-MM-dd");
-    let classDatesCount = 0;
+    let classDatesCount = 1;
     let week = 1;
     let weekDay = 1;
     let data;
@@ -94,7 +94,9 @@ const DatePicker = ({setJsonContent}) => {
 
             if (courseDay + 1 === data.totalCourseDays) {
                 const displayDate = DateTime.fromFormat(startDate, "yyyy-MM-dd");
-                data.courseName = `${displayDate.toFormat('dd-MM-yyyy')}/${dateString}/BATCH${courseName}`;
+                const displayName = `${displayDate.toFormat('dd-MM-yyyy')}/${dateString}/BATCH${courseName}`;
+                data.courseName = displayName;
+                setFileName(displayName);
             }
 
             // if date is a public holiday
@@ -103,6 +105,7 @@ const DatePicker = ({setJsonContent}) => {
                     courseDay: null,
                     courseDate: dateString,
                     courseWeek: week,
+                    dayNumber: date.weekday,
                     dateTypes: {}
                 }
 
@@ -122,6 +125,7 @@ const DatePicker = ({setJsonContent}) => {
                     courseDate: dateString,
                     courseWeek: week,
                     weekDay: weekDay,
+                    dayNumber: date.weekday,
                     meetingDateTimeUTC: utc,
                     };
             
@@ -142,10 +146,11 @@ const DatePicker = ({setJsonContent}) => {
                 courseDay += 1;
             }
            
-            if (classDatesCount > data.totalCourseDays && courseType === 'Basics') {
+            if (classDatesCount === data.totalCourseDays && courseType === 'Basics') {
                 date = date.plus({ days: 2 }); 
                 utc = null;
                 weekDay += 1;
+                week += 1;
 
             } else {
                 // formatted is for getting utc date/time

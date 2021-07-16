@@ -5,6 +5,7 @@ import schedule from './data/data.json';
 import DatePicker from './components/DatePicker.jsx';
 function App() {
   const [jsonContent, setJsonContent] = useState({});
+  const [fileName, setFileName] = useState('');
   console.log( schedule );
   console.log('data in app.js', jsonContent);
   const day = schedule.dates[Object.keys(schedule.dates)[0]];
@@ -14,7 +15,7 @@ function App() {
     var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(jsonContent);
     var dlAnchorElem = document.createElement('a');
     dlAnchorElem.setAttribute("href",     dataStr     );
-    dlAnchorElem.setAttribute("download", "schedule-data.json");
+    dlAnchorElem.setAttribute("download", `${fileName}.json`);
     dlAnchorElem.click();
   };
 
@@ -43,7 +44,7 @@ function App() {
           </button>
         </p>
         <p>
-          <DatePicker setJsonContent={setJsonContent}/>
+          <DatePicker setJsonContent={setJsonContent} setFileName={setFileName} />
         </p>
         <a
           className="App-link"
