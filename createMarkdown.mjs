@@ -33,7 +33,7 @@ const whenFileIsRead = (error, content) => {
                 let preclass = '';
                 preclass += '### Pre Class:\n';
                 for (let j = 0; j < data.days[dates[i]].dateTypes.general.preClass.length; j +=1 ) {
-                    preclass += `* ${data.days[dates[i]].dateTypes.general.preClass[j].name}\n`;
+                    preclass += `* [${data.days[dates[i]].dateTypes.general.preClass[j].name}](${data.days[dates[i]].dateTypes.general.preClass[j].url})\n`;
                     console.log('preclass', preclass);
                     if (j === data.days[dates[i]].dateTypes.general.preClass.length - 1) {
                         preclass += '### In Class:\n';

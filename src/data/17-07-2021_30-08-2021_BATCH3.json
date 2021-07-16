@@ -11,14 +11,14 @@
 ### Day: Saturday
 ### WeekDay: 2.1
 ### Pre Class:
-* 1.1: What is coding?
-* 1.2: Web Browsers
-* 2.1: Command Line
-* 2.2: Git
-* 3.1: Operations
-* 3.2: Variables
-* 4.1: Introduction to Github
-* 4.2: Our First Program
+* [1.1: What is coding?](https://basics.rocketacademy.co/1-introduction/1.1-what-is-coding)
+* [1.2: Web Browsers](https://basics.rocketacademy.co/1-introduction/1.2-web-browsers)
+* [2.1: Command Line](https://basics.rocketacademy.co/2-organising-and-managing-code-files/2.1-command-line)
+* [2.2: Git](https://basics.rocketacademy.co/2-organising-and-managing-code-files/2.2-git)
+* [3.1: Operations](https://basics.rocketacademy.co/3-basic-data-manipulation/3.1-operations)
+* [3.2: Variables](https://basics.rocketacademy.co/3-basic-data-manipulation/3.2-variables)
+* [4.1: Introduction to Github](https://basics.rocketacademy.co/4-getting-started-with-code/4.1-intro-to-github)
+* [4.2: Our First Program](https://basics.rocketacademy.co/4-getting-started-with-code/4.2-our-first-program)
 ### In Class:
 * Day 1: Basic File and Data Manipulation
 ### Post Class
@@ -27,9 +27,9 @@
 ### Day: Tuesday
 ### WeekDay: 3.1
 ### Pre Class:
-* Review Social Rules
-* 5.1: Functions
-* 5.2: Errors
+* [Review Social Rules](https://basics.rocketacademy.co/course-logistics/love-social-rules)
+* [5.1: Functions](https://basics.rocketacademy.co/5-structuring-and-debugging-code/5.1-functions)
+* [5.2: Errors](https://basics.rocketacademy.co/5-structuring-and-debugging-code/5.2-errors)
 ### In Class:
 * Day 2: Functions
 ### Post Class
@@ -38,9 +38,9 @@
 ### Day: Saturday
 ### WeekDay: 3.2
 ### Pre Class:
-* 6.1: Introduction to Logic
-* 6.2: Pseudo Code, Boolean "Or" 
-* 6.3: Boolean "And", Boolean "Not" 
+* [6.1: Introduction to Logic](https://basics.rocketacademy.co/6-conditional-logic/6.1-intro-to-logic)
+* [6.2: Pseudo Code, Boolean "Or" ](https://basics.rocketacademy.co/6-conditional-logic/6.2-pseudo-code-boolean-or)
+* [6.3: Boolean "And", Boolean "Not" ](https://basics.rocketacademy.co/6-conditional-logic/6.3-boolean-and-not)
 ### In Class:
 * Day 3: If Statements, Boolean "Or", Boolean "And" 
 ### Post Class
@@ -50,9 +50,9 @@
 ### Day: Tuesday
 ### WeekDay: 4.1
 ### Pre Class:
-* 7.1: Github Fork and Pull Request
-* 7.2: Github Navigation
-* 8.1: Program Lifecycle and Global State
+* [7.1: Github Fork and Pull Request](https://basics.rocketacademy.co/7-github/7.1-github-fork-and-pull-request)
+* [7.2: Github Navigation](https://basics.rocketacademy.co/7-github/7.2-github-repo-browsing)
+* [8.1: Program Lifecycle and Global State](https://basics.rocketacademy.co/8-managing-state-and-input-validation/8.1-program-lifecycle-and-state)
 ### In Class:
 * Day 4: Boolean "And", GitHub, Program State
 ### Post Class
@@ -62,8 +62,8 @@
 ### Day: Saturday
 ### WeekDay: 4.2
 ### Pre Class:
-* 8.2: Program State for Game Modes
-* 8.3: Input Validation
+* [8.2: Program State for Game Modes](https://basics.rocketacademy.co/8-managing-state-and-input-validation/8.2-program-state-for-game-modes)
+* [8.3: Input Validation](https://basics.rocketacademy.co/8-managing-state-and-input-validation/8.3-input-validation)
 ### In Class:
 * Day 5: Scissors Paper Stone Redux
 ### Post Class
@@ -73,9 +73,9 @@
 ### Day: Tuesday
 ### WeekDay: 5.1
 ### Pre Class:
-* Coding Strategies
-* 9.1: Arrays
-* 9.2: Loops
+* [Coding Strategies](https://basics.rocketacademy.co/course-logistics/coding-strategies)
+* [9.1: Arrays](https://basics.rocketacademy.co/9-arrays-and-iteration/9.1-arrays)
+* [9.2: Loops](https://basics.rocketacademy.co/9-arrays-and-iteration/9.2-loops)
 ### In Class:
 * Day 6: Loops
 ### Post Class
@@ -85,7 +85,7 @@
 ### Day: Saturday
 ### WeekDay: 5.2
 ### Pre Class:
-* 9.3: Loops with Arrays
+* [9.3: Loops with Arrays](https://basics.rocketacademy.co/9-arrays-and-iteration/9.3-loops-with-arrays)
 ### In Class:
 * Day 7: Loops and Arrays
 ### Post Class
@@ -95,7 +95,7 @@
 ### Day: Tuesday
 ### WeekDay: 6.1
 ### Pre Class:
-* 10.1: Javascript Objects
+* [10.1: Javascript Objects](https://basics.rocketacademy.co/10-javascript-objects/10.1-javascript-objects)
 ### In Class:
 * Day 8: Beat That Redux
 ### Post Class
@@ -105,7 +105,7 @@
 ### Day: Saturday
 ### WeekDay: 6.2
 ### Pre Class:
-* 10.2: Card Deck Generation with Loops 
+* [10.2: Card Deck Generation with Loops ](https://basics.rocketacademy.co/10-javascript-objects/10.2-card-deck-generation-with-loops)
 ### In Class:
 * Day 9: Moar Cards
 ### Post Class
@@ -115,7 +115,7 @@
 ### Day: Tuesday
 ### WeekDay: 7.1
 ### Pre Class:
-* 10.3: War Card Game Sample Implementation
+* [10.3: War Card Game Sample Implementation](https://basics.rocketacademy.co/10-javascript-objects/10.3-card-game-example-war)
 ### In Class:
 * Day 10: Chat Bot
 ### Post Class
@@ -125,8 +125,8 @@
 ### Day: Saturday
 ### WeekDay: 7.2
 ### Pre Class:
-* 11.1: Advanced Debugging with Sources Tab
-* 12.3: Projuct Deployment
+* [11.1: Advanced Debugging with Sources Tab](https://basics.rocketacademy.co/11-advanced-debugging/11.1-advanced-debugging-with-sources-tab)
+* [12.3: Projuct Deployment](https://basics.rocketacademy.co/12-next-steps/12.3-deployment)
 ### In Class:
 * Day 11: Blackjack Redux and Debugger
 ### Post Class
@@ -136,8 +136,8 @@
 ### Day: Monday
 ### WeekDay: 7.3
 ### Pre Class:
-* 12.1: Browser Applications with DOM
-* 12.2: HTML, CSS Review
+* [12.1: Browser Applications with DOM](https://basics.rocketacademy.co/12-next-steps/12.1-browser-applications-with-dom)
+* [12.2: HTML, CSS Review](https://basics.rocketacademy.co/12-next-steps/12.2-html-css-review)
 ### In Class:
 * Course Feedback and Reviews
 * Project presentations

@@ -94,7 +94,7 @@ const DatePicker = ({setJsonContent, setFileName}) => {
 
             if (courseDay + 1 === data.totalCourseDays) {
                 const displayDate = DateTime.fromFormat(startDate, "yyyy-MM-dd");
-                const displayName = `${displayDate.toFormat('dd-MM-yyyy')}/${dateString}/BATCH${courseName}`;
+                const displayName = `${displayDate.toFormat('dd-MM-yyyy')}_${dateString}_BATCH${courseName}`;
                 data.courseName = displayName;
                 setFileName(displayName);
             }
