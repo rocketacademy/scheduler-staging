@@ -6,8 +6,6 @@ import DatePicker from './components/DatePicker.jsx';
 function App() {
   const [jsonContent, setJsonContent] = useState({});
   const [fileName, setFileName] = useState('');
-  console.log( schedule );
-  console.log('data in app.js', jsonContent);
   const day = schedule.dates[Object.keys(schedule.dates)[0]];
 
   const download = () => {

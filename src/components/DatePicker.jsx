@@ -33,14 +33,26 @@ publicHolidayArray.forEach((holiday) => {
     }
 });
 
-
+// helper function for getting utc date/time
+const getUtcDateTime = (utc, timeString, courseName, courseType, changedFormat) => {
+    if (courseType === 'Basics') {
+    utc = DateTime.fromISO(changedFormat + timeString, {zone: 'Singapore'}).toUTC().toISO();
+    } else {
+        if (courseType === 'Bootcamp' && Number(courseName) % 2 === 0) {
+            utc = DateTime.fromISO(changedFormat + 'T13:00', {zone: 'Singapore'}).toUTC().toISO();
+        } else if (courseType === 'Bootcamp' && Number(courseName) % 2 !== 0) {
+            utc = DateTime.fromISO(changedFormat + 'T10:00', {zone: 'Singapore'}).toUTC().toISO();
+        }
+    }
+    return utc;
+}
 
 const DatePicker = ({setJsonContent, setFileName}) => {
     const [startDate, setStartDate] = useState('');
     const [courseName, setCourseName] = useState('');
     const [courseType, setCourseType] = useState('');
     let date = DateTime.fromFormat(startDate, "yyyy-MM-dd");
-    const d = DateTime.fromISO(startDate + 'T13:00', {zone: 'Singapore'});
+    const d = DateTime.fromISO(startDate + 'T16:00', {zone: 'Singapore'});
     let utc = d.toUTC().toISO();
     console.log(d.toUTC().toISO());
     let dateWeek = DateTime.fromFormat(startDate, "yyyy-MM-dd");
@@ -82,15 +94,11 @@ const DatePicker = ({setJsonContent, setFileName}) => {
 
         data = topLevelObject;
         console.log(data);
-        console.log(data.daysOfWeek);
         const dayArray = data.daysOfWeek;
         let dayIndex = data.courseStartIndex;
     
         while (courseDayCount > 0) {
-            // let dateString = date.format('DD-MM-YYYY');
             const dateString = date.toFormat('dd-MM-yyyy');
-            console.log('date', date);
-            console.log('date string', dateString);
 
             if (courseDay + 1 === data.totalCourseDays) {
                 const displayDate = DateTime.fromFormat(startDate, "yyyy-MM-dd");
@@ -99,9 +107,10 @@ const DatePicker = ({setJsonContent, setFileName}) => {
                 setFileName(displayName);
             }
 
+            let dateObj;
             // if date is a public holiday
             if (phWithoutCh.includes(dateString) || winterBreak.includes(dateString)) {
-                const dateObj = {
+                dateObj = {
                     courseDay: null,
                     courseDate: dateString,
                     courseWeek: week,
@@ -116,12 +125,10 @@ const DatePicker = ({setJsonContent, setFileName}) => {
                     dateObj.dateTypes = companyHolidays[dateString];
                 }
 
-                data.days[dateString] = dateObj;
             // if date is not a holiday
             } else {
                 // get whatever index of basicsData that is specified by courseDayCount
-                // 
-                let dateObj = {
+                dateObj = {
                     courseDate: dateString,
                     courseWeek: week,
                     weekDay: weekDay,
@@ -139,12 +146,13 @@ const DatePicker = ({setJsonContent, setFileName}) => {
                     }
                 }
 
-                data.days[dateString] = dateObj;
                 // increase course days on days that classes are held,
                 // DO NOT increase course days on holidays
                 courseDayCount -= 1;
                 courseDay += 1;
             }
+            data.days[dateString] = dateObj;
+
            
             if (classDatesCount === data.totalCourseDays && courseType === 'Basics') {
                 date = date.plus({ days: 2 }); 
@@ -153,32 +161,23 @@ const DatePicker = ({setJsonContent, setFileName}) => {
                 week += 1;
 
             } else {
-                // formatted is for getting utc date/time
-                const formatted = date.toFormat("yyyy-MM-dd");
-                if (courseType === 'Bootcamp' && Number(courseName) % 2 === 0) {
-                    utc = DateTime.fromISO(formatted + 'T13:00', {zone: 'Singapore'}).toUTC().toISO();
-                } else if (courseType === 'Bootcamp' && Number(courseName) % 2 !== 0) {
-                    utc = DateTime.fromISO(formatted + 'T10:00', {zone: 'Singapore'}).toUTC().toISO();
-                }
-
-                // this is the end of the array
+                // this is the end of the dayArray
                 if ( dayIndex === dayArray.length -1) {
-                    if (courseType === 'Basics') {
-                        utc = DateTime.fromISO(formatted + 'T19:00', {zone: 'Singapore'}).toUTC().toISO();
-                    }
                     weekDay = 1;
                     week += 1;
                     dateWeek = dateWeek.plus({ weeks: 1 });
                     // at the end of the array, return to beginning of array
                     dayIndex = 0;
                     date = date.plus({ weeks: 1 }).set({ weekday: dayArray[dayIndex] })
+                    const changedFormat = date.toFormat("yyyy-MM-dd");
+                    utc = getUtcDateTime (utc, 'T19:00', courseName, courseType, changedFormat);
+
                 } else {
-                    if (courseType === 'Basics') {
-                        utc = DateTime.fromISO(formatted + 'T13:00', {zone: 'Singapore'}).toUTC().toISO();
-                    }
                     dayIndex += 1;
                     date = date.set({ weekday: dayArray[dayIndex] })
-                   
+                    const changedFormat2 = date.toFormat("yyyy-MM-dd");
+                    utc = getUtcDateTime (utc, 'T13:00', courseName, courseType, changedFormat2);
+
                     if (!phWithoutCh.includes(dateString)) {
                         weekDay += 1;
                     }
