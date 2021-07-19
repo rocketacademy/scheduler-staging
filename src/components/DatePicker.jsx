@@ -34,7 +34,8 @@ publicHolidayArray.forEach((holiday) => {
 });
 
 // helper function for getting utc date/time
-const getUtcDateTime = (utc, timeString, courseName, courseType, changedFormat) => {
+const getUtcDateTime = (utc, timeString, courseName, courseType, date) => {
+    const changedFormat = date.toFormat("yyyy-MM-dd");
     if (courseType === 'Basics') {
     utc = DateTime.fromISO(changedFormat + timeString, {zone: 'Singapore'}).toUTC().toISO();
     } else {
@@ -156,7 +157,7 @@ const DatePicker = ({setJsonContent, setFileName}) => {
            
             if (classDatesCount === data.totalCourseDays && courseType === 'Basics') {
                 date = date.plus({ days: 2 }); 
-                utc = null;
+                utc = getUtcDateTime (utc, 'T19:00', courseName, courseType, date);
                 weekDay += 1;
                 week += 1;
 
@@ -169,14 +170,12 @@ const DatePicker = ({setJsonContent, setFileName}) => {
                     // at the end of the array, return to beginning of array
                     dayIndex = 0;
                     date = date.plus({ weeks: 1 }).set({ weekday: dayArray[dayIndex] })
-                    const changedFormat = date.toFormat("yyyy-MM-dd");
-                    utc = getUtcDateTime (utc, 'T19:00', courseName, courseType, changedFormat);
+                    utc = getUtcDateTime (utc, 'T19:00', courseName, courseType, date);
 
                 } else {
                     dayIndex += 1;
                     date = date.set({ weekday: dayArray[dayIndex] })
-                    const changedFormat2 = date.toFormat("yyyy-MM-dd");
-                    utc = getUtcDateTime (utc, 'T13:00', courseName, courseType, changedFormat2);
+                    utc = getUtcDateTime (utc, 'T13:00', courseName, courseType, date);
 
                     if (!phWithoutCh.includes(dateString)) {
                         weekDay += 1;

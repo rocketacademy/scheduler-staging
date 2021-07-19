@@ -10,40 +10,19 @@
       "weekDay": 1,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2021-07-17T08:00:00.000Z",
-      "courseDay": 1,
+      "courseDay": 0,
       "dateTypes": {
         "title": "Pre-Course Briefing",
         "general": {
           "type": "general",
           "preClass": {
-            "mdText": [
-              "{% hint style=\"warning\" %}\n",
-              "Day 0's pre-course briefing will run from 4-5pm instead of the usual 1-3pm. This is because the previous batch will be having their last class session from 1-3pm. Thank you for your understanding!\n",
-              "{% endhint %}\n",
-              "1. Instructor introductions\n",
-              "2. Learning goals\n",
-              "3. Learning format\n",
-              "   1. [Pre-Class vs In-Class material](course-methodology.md#self-learning)\n",
-              "   2. [Base vs More Comfortable](course-methodology.md#base-more-comfortable)\n",
-              "4. Deliverables for Day 1\n",
-              "   1. [Required Hardware and Software](required-hardware-and-software.md)\n",
-              "   2. Pre-Class Material\n",
-              "5. Slack tutorial\n",
-              "   1. How to send monospaced code and code snippets in Slack\n",
-              "6. Class photo\n",
-              "7. Break into sections\n",
-              "8. Section introductions and icebreakers\n",
-              "   1. What do you do for work?\n",
-              "   2. Why do you want to learn coding?\n",
-              "   3. What are your career goals?\n",
-              "   4. Fun fact?\n"
-            ],
+            "mdText": "{% hint style=\"warning\" %}\nDay 0's pre-course briefing will run from 4-5pm instead of the usual 1-3pm. This is because the previous batch will be having their last class session from 1-3pm. Thank you for your understanding!\n{% endhint %}\n1. Instructor introductions\n2. Learning goals\n3. Learning format\n   1. [Pre-Class vs In-Class material](course-methodology.md#self-learning)\n   2. [Base vs More Comfortable](course-methodology.md#base-more-comfortable)\n4. Deliverables for Day 1\n   1. [Required Hardware and Software](required-hardware-and-software.md)\n   2. Pre-Class Material\n5. Slack tutorial\n   1. How to send monospaced code and code snippets in Slack\n6. Class photo\n7. Break into sections\n8. Section introductions and icebreakers\n   1. What do you do for work?\n   2. Why do you want to learn coding?\n   3. What are your career goals?\n   4. Fun fact?\n",
             "items": []
           },
-          "inClass": { "mdText": [], "items": [] },
-          "postClass": { "mdText": [], "items": [] },
-          "projectStart": { "mdText": [], "items": [] },
-          "projectDue": { "mdText": [], "items": [] }
+          "inClass": { "items": [] },
+          "postClass": { "items": [] },
+          "projectStart": { "items": [] },
+          "projectDue": { "items": [] }
         }
       }
     },
@@ -53,6 +32,7 @@
       "courseWeek": 2,
       "dayNumber": 2,
       "dateTypes": {
+        "holidayType": "public holiday",
         "date": "20-07-2021",
         "location": "SG",
         "name": "Hari Raya Haji"
@@ -64,18 +44,13 @@
       "weekDay": 1,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2021-07-24T05:00:00.000Z",
-      "courseDay": 2,
+      "courseDay": 1,
       "dateTypes": {
         "title": "Coding Tools ",
         "general": {
           "type": "general",
           "preClass": {
-            "mdText": [
-              "Total Video Watch Time: **~48 mins**\n",
-              "{% hint style=\"warning\" %}\n",
-              "Coding Basics used to be called SWE101 and some of our videos were made before the name change and still reference the old name of SWE101. Please take note!\n",
-              "{% endhint %}\n"
-            ],
+            "mdText": "Total Video Watch Time: **~48 mins**\n{% hint style=\"warning\" %}\nCoding Basics used to be called SWE101 and some of our videos were made before the name change and still reference the old name of SWE101. Please take note!\n{% endhint %}\n",
             "items": [
               {
                 "name": "1.1: What is coding?",
@@ -113,10 +88,7 @@
           },
           "inClass": {
             "mdText": [
-              "Total Video Watch Time: **~48 mins**\n",
-              "{% hint style=\"warning\" %}\n",
-              "Please **do not** attempt in-class material before class for all course days, so that you and your partner can both attempt the problems for the first time during class. If you are looking for more material to work on, we suggest attempting the More Comfortable sections of previous days' exercises. If that is not enough, please message your section leader for more exercises.",
-              "{% endhint %}\n"
+              "Total Video Watch Time: **~48 mins**\n{% hint style=\"warning\" %}\nPlease **do not** attempt in-class material before class for all course days, so that you and your partner can both attempt the problems for the first time during class. If you are looking for more material to work on, we suggest attempting the More Comfortable sections of previous days' exercises. If that is not enough, please message your section leader for more exercises.{% endhint %}\n"
             ],
             "items": [
               {
@@ -125,9 +97,9 @@
               }
             ]
           },
-          "postClass": { "mdText": [], "items": [] },
-          "projectStart": { "mdText": [], "items": [] },
-          "projectDue": { "mdText": [], "items": [] }
+          "postClass": { "items": [] },
+          "projectStart": { "items": [] },
+          "projectDue": { "items": [] }
         }
       }
     },
@@ -137,7 +109,7 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2021-07-27T11:00:00.000Z",
-      "courseDay": 3,
+      "courseDay": 2,
       "dateTypes": {
         "title": "Functions",
         "general": {
@@ -160,7 +132,6 @@
             ]
           },
           "inClass": {
-            "mdText": [],
             "items": [
               {
                 "name": "Day 2: Functions",
@@ -168,9 +139,9 @@
               }
             ]
           },
-          "postClass": { "mdText": [], "items": [] },
-          "projectStart": { "mdText": [], "items": [] },
-          "projectDue": { "mdText": [], "items": [] }
+          "postClass": { "items": [] },
+          "projectStart": { "items": [] },
+          "projectDue": { "items": [] }
         }
       }
     },
@@ -180,13 +151,13 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2021-07-31T05:00:00.000Z",
-      "courseDay": 4,
+      "courseDay": 3,
       "dateTypes": {
         "title": "Logic 1",
         "general": {
           "type": "general",
           "preClass": {
-            "mdText": ["Total Video Watch Time: **~40 mins**\n"],
+            "mdText": "Total Video Watch Time: **~40 mins**\n",
             "items": [
               {
                 "name": "6.1: Introduction to Logic",
@@ -203,7 +174,6 @@
             ]
           },
           "inClass": {
-            "mdText": [],
             "items": [
               {
                 "name": "Day 3: If Statements, Boolean \"Or\", Boolean \"And\" ",
@@ -211,13 +181,9 @@
               }
             ]
           },
-          "postClass": { "mdText": [], "items": [] },
+          "postClass": { "items": [] },
           "projectStart": {
-            "mdText": [
-              "{% hint style=\"warning\" %}\n",
-              "We may want to review [7.1: GitHub Fork and Pull Request](https://basics.rocketacademy.co/7-github/7.1-github-fork-and-pull-request) before starting the project.\n",
-              "{% endhint %}\n"
-            ],
+            "mdText": "{% hint style=\"warning\" %}\nWe may want to review [7.1: GitHub Fork and Pull Request](https://basics.rocketacademy.co/7-github/7.1-github-fork-and-pull-request) before starting the project.\n{% endhint %}\n",
             "items": [
               {
                 "name": "Project 1: Scissors Paper Stone (Part 1)",
@@ -225,7 +191,7 @@
               }
             ]
           },
-          "projectDue": { "mdText": [], "items": [] }
+          "projectDue": { "items": [] }
         }
       }
     },
@@ -235,13 +201,13 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2021-08-03T11:00:00.000Z",
-      "courseDay": 5,
+      "courseDay": 4,
       "dateTypes": {
         "title": "Logic 2, State 1",
         "general": {
           "type": "general",
           "preClass": {
-            "mdText": ["Total Video Watch Time: **~41 mins**\n"],
+            "mdText": "Total Video Watch Time: **~41 mins**\n",
             "items": [
               {
                 "name": "7.1: Github Fork and Pull Request",
@@ -258,7 +224,6 @@
             ]
           },
           "inClass": {
-            "mdText": [],
             "items": [
               {
                 "name": "Day 4: Boolean \"And\", GitHub, Program State",
@@ -266,13 +231,9 @@
               }
             ]
           },
-          "postClass": { "mdText": [], "items": [] },
+          "postClass": { "items": [] },
           "projectStart": {
-            "mdText": [
-              "{% hint style=\"warning\" %}\n",
-              "We may want to review 8.2: Program State for Game Modes before completing the More Comfortable section of SPS Part 2.\n",
-              "{% endhint %}\n"
-            ],
+            "mdText": "{% hint style=\"warning\" %}\nWe may want to review 8.2: Program State for Game Modes before completing the More Comfortable section of SPS Part 2.\n{% endhint %}\n",
             "items": [
               {
                 "name": "Project 1: Scissors Paper Stone (Part 2)",
@@ -281,7 +242,6 @@
             ]
           },
           "projectDue": {
-            "mdText": [],
             "items": [
               {
                 "name": "Project 1: Scissors Paper Stone (Part 1)",
@@ -298,13 +258,13 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2021-08-07T05:00:00.000Z",
-      "courseDay": 6,
+      "courseDay": 5,
       "dateTypes": {
         "title": "State 2",
         "general": {
           "type": "general",
           "preClass": {
-            "mdText": ["Total Video Watch Time: **~17 mins**\n"],
+            "mdText": "Total Video Watch Time: **~17 mins**\n",
             "items": [
               {
                 "name": "8.2: Program State for Game Modes",
@@ -317,7 +277,6 @@
             ]
           },
           "inClass": {
-            "mdText": [],
             "items": [
               {
                 "name": "Day 5: Scissors Paper Stone Redux",
@@ -325,9 +284,8 @@
               }
             ]
           },
-          "postClass": { "mdText": [], "items": [] },
+          "postClass": { "items": [] },
           "projectStart": {
-            "mdText": [],
             "items": [
               {
                 "name": "Project 2: Beat That!",
@@ -335,7 +293,7 @@
               }
             ]
           },
-          "projectDue": { "mdText": [], "items": [] }
+          "projectDue": { "items": [] }
         }
       }
     },
@@ -345,13 +303,13 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2021-08-10T11:00:00.000Z",
-      "courseDay": 7,
+      "courseDay": 6,
       "dateTypes": {
         "title": "Arrays, Loops 1",
         "general": {
           "type": "general",
           "preClass": {
-            "mdText": ["Total Video Watch Time: **~41 mins**\n"],
+            "mdText": "Total Video Watch Time: **~41 mins**\n",
             "items": [
               {
                 "name": "Coding Strategies",
@@ -368,7 +326,6 @@
             ]
           },
           "inClass": {
-            "mdText": [],
             "items": [
               {
                 "name": "Loops",
@@ -376,9 +333,9 @@
               }
             ]
           },
-          "postClass": { "mdText": [], "items": [] },
-          "projectStart": { "mdText": [], "items": [] },
-          "projectDue": { "mdText": [], "items": [] }
+          "postClass": { "items": [] },
+          "projectStart": { "items": [] },
+          "projectDue": { "items": [] }
         }
       }
     },
@@ -388,13 +345,13 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2021-08-14T05:00:00.000Z",
-      "courseDay": 8,
+      "courseDay": 7,
       "dateTypes": {
         "title": "Loops 2",
         "general": {
           "type": "general",
           "preClass": {
-            "mdText": ["Total Video Watch Time: **~11 mins**\n"],
+            "mdText": "Total Video Watch Time: **~11 mins**\n",
             "items": [
               {
                 "name": "9.3: Loops with Arrays",
@@ -403,7 +360,6 @@
             ]
           },
           "inClass": {
-            "mdText": [],
             "items": [
               {
                 "name": "Day 7: Loops and Arrays",
@@ -411,9 +367,9 @@
               }
             ]
           },
-          "postClass": { "mdText": [], "items": [] },
-          "projectStart": { "mdText": [], "items": [] },
-          "projectDue": { "mdText": [], "items": [] }
+          "postClass": { "items": [] },
+          "projectStart": { "items": [] },
+          "projectDue": { "items": [] }
         }
       }
     },
@@ -423,13 +379,13 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2021-08-17T11:00:00.000Z",
-      "courseDay": 9,
+      "courseDay": 8,
       "dateTypes": {
         "title": "Objects",
         "general": {
           "type": "general",
           "preClass": {
-            "mdText": ["Total Video Watch Time: **~15 mins**\n"],
+            "mdText": "Total Video Watch Time: **~15 mins**\n",
             "items": [
               {
                 "name": "10.1: Javascript Objects",
@@ -438,7 +394,6 @@
             ]
           },
           "inClass": {
-            "mdText": [],
             "items": [
               {
                 "name": "Day 8: Beat That Redux",
@@ -446,9 +401,8 @@
               }
             ]
           },
-          "postClass": { "mdText": [], "items": [] },
+          "postClass": { "items": [] },
           "projectStart": {
-            "mdText": [],
             "items": [
               {
                 "name": "Project 3: Blackjack",
@@ -457,7 +411,6 @@
             ]
           },
           "projectDue": {
-            "mdText": [],
             "items": [
               {
                 "name": "Project 2: Beat That!",
@@ -474,13 +427,13 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2021-08-21T05:00:00.000Z",
-      "courseDay": 10,
+      "courseDay": 9,
       "dateTypes": {
         "title": "Card Logic",
         "general": {
           "type": "general",
           "preClass": {
-            "mdText": ["Total Video Watch Time: **~16 mins**\n"],
+            "mdText": "Total Video Watch Time: **~16 mins**\n",
             "items": [
               {
                 "name": "10.2: Card Deck Generation with Loops ",
@@ -489,7 +442,6 @@
             ]
           },
           "inClass": {
-            "mdText": [],
             "items": [
               {
                 "name": "Day 9: Moar Cards",
@@ -497,9 +449,9 @@
               }
             ]
           },
-          "postClass": { "mdText": [], "items": [] },
-          "projectStart": { "mdText": [], "items": [] },
-          "projectDue": { "mdText": [], "items": [] }
+          "postClass": { "items": [] },
+          "projectStart": { "items": [] },
+          "projectDue": { "items": [] }
         }
       }
     },
@@ -509,13 +461,13 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2021-08-24T11:00:00.000Z",
-      "courseDay": 11,
+      "courseDay": 10,
       "dateTypes": {
         "title": "Coding Strategies",
         "general": {
           "type": "general",
           "preClass": {
-            "mdText": ["Total Video Watch Time: **~60 mins**\n"],
+            "mdText": "Total Video Watch Time: **~60 mins**\n",
             "items": [
               {
                 "name": "10.3: War Card Game Sample Implementation",
@@ -524,7 +476,6 @@
             ]
           },
           "inClass": {
-            "mdText": [],
             "items": [
               {
                 "name": "Day 10: Chat Bot",
@@ -532,9 +483,9 @@
               }
             ]
           },
-          "postClass": { "mdText": [], "items": [] },
-          "projectStart": { "mdText": [], "items": [] },
-          "projectDue": { "mdText": [], "items": [] }
+          "postClass": { "items": [] },
+          "projectStart": { "items": [] },
+          "projectDue": { "items": [] }
         }
       }
     },
@@ -544,13 +495,13 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2021-08-28T05:00:00.000Z",
-      "courseDay": 12,
+      "courseDay": 11,
       "dateTypes": {
         "title": "Debugger",
         "general": {
           "type": "general",
           "preClass": {
-            "mdText": ["Total Video Watch Time: **~18 mins**\n"],
+            "mdText": "Total Video Watch Time: **~18 mins**\n",
             "items": [
               {
                 "name": "11.1: Advanced Debugging with Sources Tab",
@@ -563,7 +514,6 @@
             ]
           },
           "inClass": {
-            "mdText": [],
             "items": [
               {
                 "name": "Day 11: Blackjack Redux and Debugger",
@@ -571,9 +521,8 @@
               }
             ]
           },
-          "postClass": { "mdText": [], "items": [] },
+          "postClass": { "items": [] },
           "projectStart": {
-            "mdText": [],
             "items": [
               {
                 "name": "Project 3: Blackjack (More Comfortable)",
@@ -582,7 +531,6 @@
             ]
           },
           "projectDue": {
-            "mdText": [],
             "items": [
               {
                 "name": "Project 3: Blackjack",
@@ -598,14 +546,14 @@
       "courseWeek": 8,
       "weekDay": 3,
       "dayNumber": 1,
-      "meetingDateTimeUTC": null,
-      "courseDay": 13,
+      "meetingDateTimeUTC": "2021-08-30T11:00:00.000Z",
+      "courseDay": 12,
       "dateTypes": {
         "title": "Project Presentations",
         "general": {
           "type": "general",
           "preClass": {
-            "mdText": ["Total Video Watch Time: **~22 mins**\n"],
+            "mdText": "Total Video Watch Time: **~22 mins**\n",
             "items": [
               {
                 "name": "12.1: Browser Applications with DOM",
@@ -618,7 +566,6 @@
             ]
           },
           "inClass": {
-            "mdText": [],
             "items": [
               { "name": "Course Feedback and Reviews" },
               {
@@ -629,10 +576,9 @@
               { "name": "Class Photo 🥳" }
             ]
           },
-          "postClass": { "mdText": [], "items": [] },
-          "projectStart": { "mdText": [], "items": [] },
+          "postClass": { "items": [] },
+          "projectStart": { "items": [] },
           "projectDue": {
-            "mdText": [],
             "items": [
               {
                 "name": "Project 3: Blackjack (More Comfortable)",
@@ -648,5 +594,5 @@
       }
     }
   },
-  "courseName": "17-07-2021_30-08-2021_BATCH45"
+  "courseName": "17-07-2021_30-08-2021_BATCH12"
 }

@@ -1,106 +1,120 @@
 {
-  "PH":{
-    "01-01-2021" : {
+  "PH": {
+    "01-01-2021": {
+      "holidayType": "public holiday",
       "date": "01-01-2021",
-      "location" : "SG",
-      "name" : "New Year's Day"
+      "location": "SG",
+      "name": "New Year's Day"
     },
-    "12-02-2021" : {
+    "12-02-2021": {
+      "holidayType": "public holiday",
       "date": "12-02-2021",
-      "location" : "SG",
-      "name" : "Chinese New Year Day 1"
+      "location": "SG",
+      "name": "Chinese New Year Day 1"
     },
-    "13-02-2021" : {
+    "13-02-2021": {
+      "holidayType": "public holiday",
       "date": "13-02-2021",
-      "location" : "SG",
-      "name" : "Chinese New Year Day 2"
+      "location": "SG",
+      "name": "Chinese New Year Day 2"
     },
-    "02-04-2021" : {
+    "02-04-2021": {
+      "holidayType": "public holiday",
       "date": "02-04-2021",
-      "location" : "SG",
-      "name" : "Good Friday"
+      "location": "SG",
+      "name": "Good Friday"
     },
-    "01-05-2021" : {
+    "01-05-2021": {
+      "holidayType": "public holiday",
       "date": "01-05-2021",
-      "location" : "SG",
-      "name" : "Labour Day"
+      "location": "SG",
+      "name": "Labour Day"
     },
-    "13-05-2021" : {
+    "13-05-2021": {
+      "holidayType": "public holiday",
       "date": "13-05-2021",
-      "location" : "SG",
-      "name" : "Hari Raya Puasa"
+      "location": "SG",
+      "name": "Hari Raya Puasa"
     },
-    "26-05-2021" : {
+    "26-05-2021": {
+      "holidayType": "public holiday",
       "date": "26-05-2021",
-      "location" : "SG",
-      "name" : "Vesak Day"
+      "location": "SG",
+      "name": "Vesak Day"
     },
-    "20-07-2021" : {
+    "20-07-2021": {
+      "holidayType": "public holiday",
       "date": "20-07-2021",
-      "location" : "SG",
-      "name" : "Hari Raya Haji"
+      "location": "SG",
+      "name": "Hari Raya Haji"
     },
-    "09-08-2021" : {
+    "09-08-2021": {
+      "holidayType": "public holiday",
       "date": "09-08-2021",
-      "location" : "SG",
-      "name" : "National Day"
+      "location": "SG",
+      "name": "National Day"
     },
-    "04-11-2021" : {
+    "04-11-2021": {
+      "holidayType": "public holiday",
       "date": "04-11-2021",
-      "location" : "SG",
-      "name" : "Deepavali"
+      "location": "SG",
+      "name": "Deepavali"
     },
-    "25-12-2021" : {
+    "25-12-2021": {
+      "holidayType": "public holiday",
       "date": "25-12-2021",
-      "location" : "SG",
-      "name" : "Christmas Day"
+      "location": "SG",
+      "name": "Christmas Day"
     },
-     "01-01-2022" : {
+    "01-01-2022": {
+      "holidayType": "public holiday",
       "date": "01-01-2022",
-      "location" : "SG",
-      "name" : "New Year's Day"
+      "location": "SG",
+      "name": "New Year's Day"
     }
   },
-  "company":{
-    "26-12-2021" : {
+  "company": {
+    "26-12-2021": {
+      "holidayType": "company holiday",
       "date": "26-12-2021",
-      "location" : "SG",
-      "name" : "winter break"
+      "location": "SG",
+      "name": "winter break"
     },
-    "27-12-2021" : {
+    "27-12-2021": {
+      "holidayType": "company holiday",
       "date": "27-12-2021",
-      "location" : "SG",
-      "name" : "winter break"
+      "location": "SG",
+      "name": "winter break"
     },
-    "28-12-2021" : {
+    "28-12-2021": {
+      "holidayType": "company holiday",
       "date": "28-12-2021",
-      "location" : "SG",
-      "name" : "winter break"
+      "location": "SG",
+      "name": "winter break"
     },
-    "29-12-2021" : {
+    "29-12-2021": {
+      "holidayType": "company holiday",
       "date": "29-12-2021",
-      "location" : "SG",
-      "name" : "winter break"
+      "location": "SG",
+      "name": "winter break"
     },
-    "30-12-2021" : {
+    "30-12-2021": {
+      "holidayType": "company holiday",
       "date": "30-12-2021",
-      "location" : "SG",
-      "name" : "winter break"
+      "location": "SG",
+      "name": "winter break"
     },
-    "31-12-2021" : {
+    "31-12-2021": {
+      "holidayType": "company holiday",
       "date": "31-12-2021",
-      "location" : "SG",
-      "name" : "winter break"
+      "location": "SG",
+      "name": "winter break"
     },
-    "01-01-2022" : {
+    "01-01-2022": {
+      "holidayType": "company holiday",
       "date": "01-01-2022",
-      "location" : "SG",
-      "name" : "winter break"
+      "location": "SG",
+      "name": "winter break"
     }
   }
 }
-
-
-
-
-

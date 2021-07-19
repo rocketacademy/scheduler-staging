@@ -27,20 +27,19 @@ const whenFileIsRead = (error, content) => {
 
     // helper function , generates list for pre-class, in-class, post-class
     const generateClassList = (classList, classType) => {
-        if (classType.mdText.length > 0) {
-                    for (let k = 0; k < classType.mdText.length; k += 1) {
-                        classList += classType.mdText[k];
-                    }
-                }
+        if (classType.mdText) {
+            classList += classType.mdText;
+        }
 
         if ( classType.items.length > 0) {
             for (let j = 0; j < classType.items.length; j +=1 ) {
                 if (classType.items[j].url) {
                     classList += `* [${classType.items[j].name}](${classType.items[j].url})\n`;
                 } else {
-                    classList += `* [${classType.items[j].name}]\n`;
+                    classList += `* ${classType.items[j].name}\n`;
                 }  
             }
+            classList += '\n';
         }
         
         return classList;
@@ -55,23 +54,20 @@ const whenFileIsRead = (error, content) => {
             let localDate;
             if (data.days[dates[i]].meetingDateTimeUTC) {
                 // getting the date/time from utc string
-                localDate = DateTime.fromISO(data.days[dates[i]].meetingDateTimeUTC).toFormat('d MMMM yyyy, t z');
-                output += `# ${localDate}\nweek: ${data.days[dates[i]].courseWeek}, day: ${data.days[dates[i]].courseDay}\n`;
+                localDate = DateTime.fromISO(data.days[dates[i]].meetingDateTimeUTC).toFormat('EEE, d MMM');
+                output += `# ${localDate} - Wk: ${data.days[dates[i]].courseWeek}, Day: ${data.days[dates[i]].courseDay}\n`;
+                let localTime = DateTime.fromISO(data.days[dates[i]].meetingDateTimeUTC).toFormat('t (z)');
+                output += `### Meeting time: ${localTime}\n`;
             } else {
-                localDate = DateTime.fromFormat(data.days[dates[i]].courseDate, 'dd-MM-yyyy').toFormat('d MMMM yyyy');
-                if (data.days[dates[i]].courseDay !== null) {
-                    output += `# ${localDate}\nweek: ${data.days[dates[i]].courseWeek}, day: ${data.days[dates[i]].courseDay}\n`;
-                } else {
-                    output += `# ${localDate}\nweek: ${data.days[dates[i]].courseWeek}\n`;
-
-                }
+                localDate = DateTime.fromFormat(data.days[dates[i]].courseDate, 'dd-MM-yyyy').toFormat('EEE, d MMM');
+                output += `# ${localDate}\nweek: ${data.days[dates[i]].courseWeek}\n`;
             }
 
             // get title of course day
             if (data.days[dates[i]].dateTypes.title) {
                 output += `## ${data.days[dates[i]].dateTypes.title}\n`;
             } else {
-                output += `## ${data.days[dates[i]].dateTypes.name}\n`;
+                output += `\n${data.days[dates[i]].dateTypes.holidayType}: ${data.days[dates[i]].dateTypes.name}\n`;
             }
 
             // generate day's course material
@@ -122,8 +118,8 @@ const whenFileIsRead = (error, content) => {
                     output += generateClassList (projectStart, typeProjectStart);
                 }
             };
+            output += '\n\n';
         } 
-        
         console.log(output);
 
         fs.writeFile(`src/data/${data.courseName}.md`, output, (writeErr) => {
@@ -131,7 +127,6 @@ const whenFileIsRead = (error, content) => {
                 console.error('Writing error', writeErr);
             }
         });
-
     }
 
 fs.readFile(filename, 'utf8', whenFileIsRead);
