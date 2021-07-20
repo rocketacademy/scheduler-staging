@@ -94,79 +94,84 @@ const whenFileIsRead = (error, content) => {
         return classList;
     }
 
-        console.log('dates', dates);
-        console.log('length', Object.keys(data.days).length);
-
-        let output = '';
-        output += '# Course Dates\n| Week |';
-        // schedule table header 
-        for (let p = 0; p < daysOfWeek.length; p += 1) {
-            output += ` ${daysOfWeek[p]} |`;
+    const generateSectionList = (sectionName, sectionType) => {
+        let sectionString = '';
+        if (sectionType.items.length > 0) {
+            if (sectionName === 'preclass') {
+                sectionString = '### Pre Class:\n';
+            } else if (sectionName === 'inclass') {
+                sectionString = '### In Class:\n';
+            } else if (sectionName === 'postclass') {
+                sectionString = '### Post Class:\n';
+            } else if (sectionName === 'projectdue') {
+                sectionString = '### Project Due:\n';
+            } else if (sectionName === 'projectstart') {
+                sectionString = '### Project Start:\n';
+            } 
         }
-        output += '\n| :---: | :---: | :---: | :---: |\n';
-
-        // schedule table content
-        for (let q = 0; q < tableRows.length; q += 1) {
-            output += `| ${q} |`;
-            for (let r = 0; r < tableRows[q].length; r += 1) {
-                output += ` ${tableRows[q][r]} |`;
-            }
-            output += '\n';
-        }
-
-        // loop that generates the main part of the page
-        for (let i = 0; i < Object.keys(data.days).length; i += 1) {
-            let localDate;
-            if (data.days[dates[i]].meetingDateTimeUTC) {
-                // getting the date/time from utc string
-                localDate = DateTime.fromISO(data.days[dates[i]].meetingDateTimeUTC).toFormat('EEE, d MMM');
-                output += `# ${localDate} - Wk: ${data.days[dates[i]].courseWeek} Day: ${data.days[dates[i]].courseDay} {#courseDay${data.days[dates[i]].courseDay}}\n`;
-                let localTime = DateTime.fromISO(data.days[dates[i]].meetingDateTimeUTC).toFormat('t (z)');
-                output += `### Meeting time: ${localTime}\n`;
-            } else {
-                localDate = DateTime.fromFormat(data.days[dates[i]].courseDate, 'dd-MM-yyyy').toFormat('EEE, d MMM');
-                output += `# ${localDate}\nweek: ${data.days[dates[i]].courseWeek} {#date${i}}\n`;
-            }
-
-            // get title of course day
-            if (data.days[dates[i]].dateTypes.title) {
-                output += `## ${data.days[dates[i]].dateTypes.title}\n`;
-            } else {
-                output += `## ${data.days[dates[i]].dateTypes.holidayType}: ${data.days[dates[i]].dateTypes.name}\n`;
-            }
-
-            // generate day's course material
-            const generalDateTypes = data.days[dates[i]].dateTypes.general;
-            if (generalDateTypes) {
-                Object.keys(generalDateTypes).forEach((type) => {
-                    let classtype = '';
-                    if (generalDateTypes[type].items) {
-                        if (generalDateTypes[type].items.length > 0) {
-                            if (generalDateTypes[type] === generalDateTypes.preClass) {
-                                classtype = '#### Pre Class:\n';
-                            } else if (generalDateTypes[type] === generalDateTypes.inClass) {
-                                classtype = '#### In Class:\n';
-                            } else if (generalDateTypes[type] === generalDateTypes.postClass) {
-                                classtype = '#### Post Class:\n';
-                            } else if (generalDateTypes[type] === generalDateTypes.projectStart) {
-                                classtype = '#### Project Start:\n';
-                            } else if (generalDateTypes[type] === generalDateTypes.projectDue) {
-                                classtype = '#### Project Due:\n';
-                            }
-                        }
-                        output += generateClassList (classtype, generalDateTypes[type])
-                    }
-                })
-            };
-            output += '\n\n';
-        } 
-        console.log(output);
-
-        fs.writeFile(`src/data/${data.courseName}.md`, output, (writeErr) => {
-            if (writeErr) {
-                console.error('Writing error', writeErr);
-            }
-        });
+        
+        sectionString = generateClassList (sectionString, sectionType);
+        return sectionString;
     }
+
+    let output = '';
+    output += '# Course Dates\n| Week |';
+    // schedule table header 
+    for (let p = 0; p < daysOfWeek.length; p += 1) {
+        output += ` ${daysOfWeek[p]} |`;
+    }
+    output += '\n| :---: | :---: | :---: | :---: |\n';
+
+    // schedule table content
+    for (let q = 0; q < tableRows.length; q += 1) {
+        output += `| ${q} |`;
+        for (let r = 0; r < tableRows[q].length; r += 1) {
+            output += ` ${tableRows[q][r]} |`;
+        }
+        output += '\n';
+    }
+
+    output += '\n';
+    // loop that generates the main part of the page
+    for (let i = 0; i < Object.keys(data.days).length; i += 1) {
+        let localDate;
+        if (data.days[dates[i]].meetingDateTimeUTC) {
+            // getting the date/time from utc string
+            localDate = DateTime.fromISO(data.days[dates[i]].meetingDateTimeUTC).toFormat('EEE, d MMM');
+            output += `# ${localDate} - Wk: ${data.days[dates[i]].courseWeek} Day: ${data.days[dates[i]].courseDay} {#courseDay${data.days[dates[i]].courseDay}}\n`;
+            let localTime = DateTime.fromISO(data.days[dates[i]].meetingDateTimeUTC).toFormat('t (z)');
+            output += `### Meeting time: ${localTime}\n`;
+        } else {
+            localDate = DateTime.fromFormat(data.days[dates[i]].courseDate, 'dd-MM-yyyy').toFormat('EEE, d MMM');
+            output += `# ${localDate}\nweek: ${data.days[dates[i]].courseWeek}\n`;
+        }
+
+        // get title of course day
+        if (data.days[dates[i]].dateTypes.title) {
+            output += `## ${data.days[dates[i]].dateTypes.title}\n`;
+        } else {
+            output += `## ${data.days[dates[i]].dateTypes.holidayType}: ${data.days[dates[i]].dateTypes.name}\n`;
+        }
+
+        // generate day's course material
+        const generalDateTypes = data.days[dates[i]].dateTypes.general;
+        if (generalDateTypes) {
+            const sectionNames = ['projectdue', 'preclass', 'inclass', 'postclass', 'projectstart'];
+            const sectionTypes = [ generalDateTypes.projectDue, generalDateTypes.preClass, generalDateTypes.inClass, generalDateTypes.postClass, generalDateTypes.projectStart];
+            for (let t = 0; t < sectionNames.length; t += 1) {
+                output += generateSectionList(sectionNames[t], sectionTypes[t]);
+            }
+
+        };
+        output += '\n\n';
+    } 
+    console.log(output);
+
+    fs.writeFile(`src/data/${data.courseName}.md`, output, (writeErr) => {
+        if (writeErr) {
+            console.error('Writing error', writeErr);
+        }
+    });
+}
 
 fs.readFile(filename, 'utf8', whenFileIsRead);

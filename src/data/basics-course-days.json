@@ -276,7 +276,12 @@
             ]
           },
           "projectDue": {
-            "items": []
+            "items": [
+              {
+                "name": "Project 1: Scissors Paper Stone (Part 2)",
+                "url": "https://basics.rocketacademy.co/projects/project-1-scissors-paper-stone/project-1-scissors-paper-stone-part-2"
+              }
+            ]
           }
         }
       }
