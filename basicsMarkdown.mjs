@@ -140,17 +140,19 @@ const whenFileIsRead = (error, content) => {
             if (generalDateTypes) {
                 Object.keys(generalDateTypes).forEach((type) => {
                     let classtype = '';
-                    if (generalDateTypes[type].items && generalDateTypes[type].items.length > 0) {
-                        if (generalDateTypes[type] === generalDateTypes.preClass) {
-                            classtype = '#### Pre Class:\n';
-                        } else if (generalDateTypes[type] === generalDateTypes.inClass) {
-                            classtype = '#### In Class:\n';
-                        } else if (generalDateTypes[type] === generalDateTypes.postClass) {
-                            classtype = '#### Post Class:\n';
-                        } else if (generalDateTypes[type] === generalDateTypes.projectStart) {
-                            classtype = '#### Project Start:\n';
-                        } else if (generalDateTypes[type] === generalDateTypes.projectDue) {
-                            classtype = '#### Project Due:\n';
+                    if (generalDateTypes[type].items) {
+                        if (generalDateTypes[type].items.length > 0) {
+                            if (generalDateTypes[type] === generalDateTypes.preClass) {
+                                classtype = '#### Pre Class:\n';
+                            } else if (generalDateTypes[type] === generalDateTypes.inClass) {
+                                classtype = '#### In Class:\n';
+                            } else if (generalDateTypes[type] === generalDateTypes.postClass) {
+                                classtype = '#### Post Class:\n';
+                            } else if (generalDateTypes[type] === generalDateTypes.projectStart) {
+                                classtype = '#### Project Start:\n';
+                            } else if (generalDateTypes[type] === generalDateTypes.projectDue) {
+                                classtype = '#### Project Due:\n';
+                            }
                         }
                         output += generateClassList (classtype, generalDateTypes[type])
                     }

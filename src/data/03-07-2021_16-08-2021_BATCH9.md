@@ -12,6 +12,26 @@
 # Sat, 3 Jul - Wk: 1 Day: 0 {#courseDay0}
 ### Meeting time: 4:00 PM (Asia/Singapore)
 ## Pre-Course Briefing
+{% hint style="warning" %}
+Day 0's pre-course briefing will run from 4-5pm instead of the usual 1-3pm. This is because the previous batch will be having their last class session from 1-3pm. Thank you for your understanding!
+{% endhint %}
+1. Instructor introductions
+2. Learning goals
+3. Learning format
+   1. [Pre-Class vs In-Class material](course-methodology.md#self-learning)
+   2. [Base vs More Comfortable](course-methodology.md#base-more-comfortable)
+4. Deliverables for Day 1
+   1. [Required Hardware and Software](required-hardware-and-software.md)
+   2. Pre-Class Material
+5. Slack tutorial
+   1. How to send monospaced code and code snippets in Slack
+6. Class photo
+7. Break into sections
+8. Section introductions and icebreakers
+   1. What do you do for work?
+   2. Why do you want to learn coding?
+   3. What are your career goals?
+   4. Fun fact?
 
 
 # Tue, 6 Jul - Wk: 2 Day: 1 {#courseDay1}
