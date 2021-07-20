@@ -72,7 +72,6 @@ const whenFileIsRead = (error, content) => {
                 }
             }
         }
-        console.log('table rows', tableRows);
         tableRows.push(displayWeek);
     }
 
@@ -92,7 +91,6 @@ const whenFileIsRead = (error, content) => {
             }
             classList += '\n';
         }
-        
         return classList;
     }
 
@@ -140,50 +138,23 @@ const whenFileIsRead = (error, content) => {
             // generate day's course material
             const generalDateTypes = data.days[dates[i]].dateTypes.general;
             if (generalDateTypes) {
-                let projectDue = '';
-                const typeProjectDue = generalDateTypes.projectDue;
-                if (typeProjectDue.items.length > 0) {
-                    projectDue += '#### Project Due:\n';
-                }
-                if (typeProjectDue) {
-                    output += generateClassList (projectDue, typeProjectDue);
-                }
-
-                let preclass = '';
-                const typePreClass = generalDateTypes.preClass;
-                if (typePreClass.items.length > 0) {
-                    preclass += '#### Pre Class:\n';
-                }
-                if (typePreClass) {
-                    output += generateClassList (preclass, typePreClass);
-                }
-
-                let inclass = '';
-                const typeInClass = generalDateTypes.inClass;
-                if (typeInClass.items.length > 0) {
-                    inclass += '#### In Class:\n';
-                }
-                if (typeInClass) {
-                    output += generateClassList (inclass, typeInClass);
-                }
-
-                let postclass = '';
-                const typePostClass = generalDateTypes.postClass;
-                if (typePostClass.items.length > 0) {
-                    postclass += '#### Post Class:\n';
-                }
-                if (typePostClass) {
-                    output += generateClassList (postclass, typePostClass);
-                }
-
-                let projectStart = '';
-                const typeProjectStart = generalDateTypes.projectStart;
-                if (typeProjectStart.items.length > 0) {
-                    projectStart += '#### Project Start:\n';
-                }
-                if (typeProjectStart) {
-                    output += generateClassList (projectStart, typeProjectStart);
-                }
+                Object.keys(generalDateTypes).forEach((type) => {
+                    let classtype = '';
+                    if (generalDateTypes[type].items && generalDateTypes[type].items.length > 0) {
+                        if (generalDateTypes[type] === generalDateTypes.preClass) {
+                            classtype = '#### Pre Class:\n';
+                        } else if (generalDateTypes[type] === generalDateTypes.inClass) {
+                            classtype = '#### In Class:\n';
+                        } else if (generalDateTypes[type] === generalDateTypes.postClass) {
+                            classtype = '#### Post Class:\n';
+                        } else if (generalDateTypes[type] === generalDateTypes.projectStart) {
+                            classtype = '#### Project Start:\n';
+                        } else if (generalDateTypes[type] === generalDateTypes.projectDue) {
+                            classtype = '#### Project Due:\n';
+                        }
+                        output += generateClassList (classtype, generalDateTypes[type])
+                    }
+                })
             };
             output += '\n\n';
         } 

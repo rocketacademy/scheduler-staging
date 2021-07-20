@@ -12,26 +12,6 @@
 # Sat, 3 Jul - Wk: 1 Day: 0 {#courseDay0}
 ### Meeting time: 4:00 PM (Asia/Singapore)
 ## Pre-Course Briefing
-{% hint style="warning" %}
-Day 0's pre-course briefing will run from 4-5pm instead of the usual 1-3pm. This is because the previous batch will be having their last class session from 1-3pm. Thank you for your understanding!
-{% endhint %}
-1. Instructor introductions
-2. Learning goals
-3. Learning format
-   1. [Pre-Class vs In-Class material](course-methodology.md#self-learning)
-   2. [Base vs More Comfortable](course-methodology.md#base-more-comfortable)
-4. Deliverables for Day 1
-   1. [Required Hardware and Software](required-hardware-and-software.md)
-   2. Pre-Class Material
-5. Slack tutorial
-   1. How to send monospaced code and code snippets in Slack
-6. Class photo
-7. Break into sections
-8. Section introductions and icebreakers
-   1. What do you do for work?
-   2. Why do you want to learn coding?
-   3. What are your career goals?
-   4. Fun fact?
 
 
 # Tue, 6 Jul - Wk: 2 Day: 1 {#courseDay1}
@@ -96,9 +76,6 @@ We may want to review [7.1: GitHub Fork and Pull Request](https://basics.rocketa
 # Sat, 17 Jul - Wk: 3 Day: 4 {#courseDay4}
 ### Meeting time: 1:00 PM (Asia/Singapore)
 ## Logic 2, State 1
-#### Project Due:
-* [Project 1: Scissors Paper Stone (Part 1)](https://basics.rocketacademy.co/projects/project-1-scissors-paper-stone/project-1-scissors-paper-stone-part-1)
-
 #### Pre Class:
 Total Video Watch Time: **~41 mins**
 * [7.1: Github Fork and Pull Request](https://basics.rocketacademy.co/7-github/7.1-github-fork-and-pull-request)
@@ -113,6 +90,9 @@ Total Video Watch Time: **~41 mins**
 We may want to review 8.2: Program State for Game Modes before completing the More Comfortable section of SPS Part 2.
 {% endhint %}
 * [Project 1: Scissors Paper Stone (Part 2)](https://basics.rocketacademy.co/projects/project-1-scissors-paper-stone/project-1-scissors-paper-stone-part-2)
+
+#### Project Due:
+* [Project 1: Scissors Paper Stone (Part 1)](https://basics.rocketacademy.co/projects/project-1-scissors-paper-stone/project-1-scissors-paper-stone-part-1)
 
 
 
@@ -166,9 +146,6 @@ Total Video Watch Time: **~11 mins**
 # Tue, 3 Aug - Wk: 6 Day: 8 {#courseDay8}
 ### Meeting time: 7:00 PM (Asia/Singapore)
 ## Objects
-#### Project Due:
-* [Project 2: Beat That!](https://basics.rocketacademy.co/projects/project-2-beat-that)
-
 #### Pre Class:
 Total Video Watch Time: **~15 mins**
 * [10.1: Javascript Objects](https://basics.rocketacademy.co/10-javascript-objects/10.1-javascript-objects)
@@ -178,6 +155,9 @@ Total Video Watch Time: **~15 mins**
 
 #### Project Start:
 * [Project 3: Blackjack](https://basics.rocketacademy.co/projects/project-3-blackjack)
+
+#### Project Due:
+* [Project 2: Beat That!](https://basics.rocketacademy.co/projects/project-2-beat-that)
 
 
 
@@ -208,9 +188,6 @@ Total Video Watch Time: **~60 mins**
 # Sat, 14 Aug - Wk: 7 Day: 11 {#courseDay11}
 ### Meeting time: 1:00 PM (Asia/Singapore)
 ## Debugger
-#### Project Due:
-* [Project 3: Blackjack](https://basics.rocketacademy.co/projects/project-3-blackjack)
-
 #### Pre Class:
 Total Video Watch Time: **~18 mins**
 * [11.1: Advanced Debugging with Sources Tab](https://basics.rocketacademy.co/11-advanced-debugging/11.1-advanced-debugging-with-sources-tab)
@@ -222,15 +199,14 @@ Total Video Watch Time: **~18 mins**
 #### Project Start:
 * [Project 3: Blackjack (More Comfortable)](https://basics.rocketacademy.co/projects/project-3-blackjack#more-comfortable)
 
+#### Project Due:
+* [Project 3: Blackjack](https://basics.rocketacademy.co/projects/project-3-blackjack)
+
 
 
 # Mon, 16 Aug - Wk: 8 Day: 12 {#courseDay12}
 ### Meeting time: 7:00 PM (Asia/Singapore)
 ## Project Presentations
-#### Project Due:
-* [Project 3: Blackjack (More Comfortable)](https://basics.rocketacademy.co/projects/project-3-blackjack#more-comfortable)
-* [Deploy Blackjack to the internet with instructions from Module 12.3: Deployment](https://basics.rocketacademy.co/12-next-steps/12.3-deployment)
-
 #### Pre Class:
 Total Video Watch Time: **~22 mins**
 * [12.1: Browser Applications with DOM](https://basics.rocketacademy.co/12-next-steps/12.1-browser-applications-with-dom)
@@ -241,6 +217,10 @@ Total Video Watch Time: **~22 mins**
 * [Project presentations](https://basics.rocketacademy.co/course-logistics/course-methodology#project-presentations)
 * LinkedIn certificate presentations
 * Class Photo 🥳
+
+#### Project Due:
+* [Project 3: Blackjack (More Comfortable)](https://basics.rocketacademy.co/projects/project-3-blackjack#more-comfortable)
+* [Deploy Blackjack to the internet with instructions from Module 12.3: Deployment](https://basics.rocketacademy.co/12-next-steps/12.3-deployment)
 
 
 
