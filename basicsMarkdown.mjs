@@ -11,7 +11,7 @@ const whenFileIsRead = (error, content) => {
 
     const data = JSON.parse(content);
 
-    const day = {
+    const dayNames = {
         1: 'Monday',
         2: 'Tuesday',
         3: 'Wednesday',
@@ -21,9 +21,60 @@ const whenFileIsRead = (error, content) => {
     }
 
     const dates = [];
+    let dayNumbers = [];
+    const daysOfWeek = [];
+
     Object.keys(data.days).forEach((date) => {
         dates.push(date);
     })
+
+    // all possible day numbers that course days fall on
+    dates.forEach((date) => {
+        dayNumbers.push(data.days[date].dayNumber);
+    })
+    dayNumbers = [...new Set(dayNumbers)].sort();
+
+    // all possible names of days of week courdays fall on (this is the table header)
+    dayNumbers.forEach((number) => {
+        daysOfWeek.push(dayNames[number]);
+    })
+
+    const weekDates = [];
+    let weekCount = 1;
+
+    // getting last week of course
+    const lastWeek = data.days[dates[dates.length -1]].courseWeek;
+
+    // getting the dates the coursedays fall on for each week
+    for  (let l = 0; l < lastWeek; l += 1) {
+        const week = [];
+        for (let k = 0; k < dates.length; k += 1) {
+            if (data.days[dates[k]].courseWeek === weekCount) {
+                week.push(data.days[dates[k]].courseDate);
+            }
+        }
+        weekDates.push(week);
+        weekCount += 1;
+    }
+
+    // getting rows of table
+    const tableRows = [];
+    for (let n = 0; n < weekDates.length; n += 1) {
+        let displayWeek = ['-', '-', '-'];
+        for (let m = 0; m < weekDates[n].length; m += 1) {
+            for (let p = 0; p < dayNumbers.length; p += 1) {
+                if (data.days[weekDates[n][m]].dayNumber === dayNumbers[p]) {
+                    if (data.days[weekDates[n][m]].dateTypes.title) {
+                        displayWeek[p] = `[${weekDates[n][m]}](#courseDay${data.days[weekDates[n][m]].courseDay})`;
+                    } else {
+                        displayWeek[p] = data.days[weekDates[n][m]].dateTypes.holidayType;
+                    }
+                }
+            }
+        }
+        console.log('table rows', tableRows);
+        tableRows.push(displayWeek);
+    }
 
     // helper function , generates list for pre-class, in-class, post-class
     const generateClassList = (classList, classType) => {
@@ -49,25 +100,41 @@ const whenFileIsRead = (error, content) => {
         console.log('length', Object.keys(data.days).length);
 
         let output = '';
+        output += '# Course Dates\n| Week |';
+        // schedule table header 
+        for (let p = 0; p < daysOfWeek.length; p += 1) {
+            output += ` ${daysOfWeek[p]} |`;
+        }
+        output += '\n| :---: | :---: | :---: | :---: |\n';
+
+        // schedule table content
+        for (let q = 0; q < tableRows.length; q += 1) {
+            output += `| ${q} |`;
+            for (let r = 0; r < tableRows[q].length; r += 1) {
+                output += ` ${tableRows[q][r]} |`;
+            }
+            output += '\n';
+        }
+
         // loop that generates the main part of the page
         for (let i = 0; i < Object.keys(data.days).length; i += 1) {
             let localDate;
             if (data.days[dates[i]].meetingDateTimeUTC) {
                 // getting the date/time from utc string
                 localDate = DateTime.fromISO(data.days[dates[i]].meetingDateTimeUTC).toFormat('EEE, d MMM');
-                output += `# ${localDate} - Wk: ${data.days[dates[i]].courseWeek}, Day: ${data.days[dates[i]].courseDay}\n`;
+                output += `# ${localDate} - Wk: ${data.days[dates[i]].courseWeek} Day: ${data.days[dates[i]].courseDay} {#courseDay${data.days[dates[i]].courseDay}}\n`;
                 let localTime = DateTime.fromISO(data.days[dates[i]].meetingDateTimeUTC).toFormat('t (z)');
                 output += `### Meeting time: ${localTime}\n`;
             } else {
                 localDate = DateTime.fromFormat(data.days[dates[i]].courseDate, 'dd-MM-yyyy').toFormat('EEE, d MMM');
-                output += `# ${localDate}\nweek: ${data.days[dates[i]].courseWeek}\n`;
+                output += `# ${localDate}\nweek: ${data.days[dates[i]].courseWeek} {#date${i}}\n`;
             }
 
             // get title of course day
             if (data.days[dates[i]].dateTypes.title) {
                 output += `## ${data.days[dates[i]].dateTypes.title}\n`;
             } else {
-                output += `\n${data.days[dates[i]].dateTypes.holidayType}: ${data.days[dates[i]].dateTypes.name}\n`;
+                output += `## ${data.days[dates[i]].dateTypes.holidayType}: ${data.days[dates[i]].dateTypes.name}\n`;
             }
 
             // generate day's course material

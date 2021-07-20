@@ -4,12 +4,12 @@
   "totalCourseDays": 13,
   "courseType": "Basics",
   "days": {
-    "17-07-2021": {
-      "courseDate": "17-07-2021",
+    "03-07-2021": {
+      "courseDate": "03-07-2021",
       "courseWeek": 1,
       "weekDay": 1,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2021-07-17T08:00:00.000Z",
+      "meetingDateTimeUTC": "2021-07-03T08:00:00.000Z",
       "courseDay": 0,
       "dateTypes": {
         "title": "Pre-Course Briefing",
@@ -26,24 +26,12 @@
         }
       }
     },
-    "20-07-2021": {
-      "courseDay": null,
-      "courseDate": "20-07-2021",
-      "courseWeek": 2,
-      "dayNumber": 2,
-      "dateTypes": {
-        "holidayType": "public holiday",
-        "date": "20-07-2021",
-        "location": "SG",
-        "name": "Hari Raya Haji"
-      }
-    },
-    "24-07-2021": {
-      "courseDate": "24-07-2021",
+    "06-07-2021": {
+      "courseDate": "06-07-2021",
       "courseWeek": 2,
       "weekDay": 1,
-      "dayNumber": 6,
-      "meetingDateTimeUTC": "2021-07-24T05:00:00.000Z",
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2021-07-06T11:00:00.000Z",
       "courseDay": 1,
       "dateTypes": {
         "title": "Coding Tools ",
@@ -103,12 +91,12 @@
         }
       }
     },
-    "27-07-2021": {
-      "courseDate": "27-07-2021",
-      "courseWeek": 3,
-      "weekDay": 1,
-      "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-07-27T11:00:00.000Z",
+    "10-07-2021": {
+      "courseDate": "10-07-2021",
+      "courseWeek": 2,
+      "weekDay": 2,
+      "dayNumber": 6,
+      "meetingDateTimeUTC": "2021-07-10T05:00:00.000Z",
       "courseDay": 2,
       "dateTypes": {
         "title": "Functions",
@@ -145,12 +133,12 @@
         }
       }
     },
-    "31-07-2021": {
-      "courseDate": "31-07-2021",
+    "13-07-2021": {
+      "courseDate": "13-07-2021",
       "courseWeek": 3,
-      "weekDay": 2,
-      "dayNumber": 6,
-      "meetingDateTimeUTC": "2021-07-31T05:00:00.000Z",
+      "weekDay": 1,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2021-07-13T11:00:00.000Z",
       "courseDay": 3,
       "dateTypes": {
         "title": "Logic 1",
@@ -195,12 +183,12 @@
         }
       }
     },
-    "03-08-2021": {
-      "courseDate": "03-08-2021",
-      "courseWeek": 4,
-      "weekDay": 1,
-      "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-08-03T11:00:00.000Z",
+    "17-07-2021": {
+      "courseDate": "17-07-2021",
+      "courseWeek": 3,
+      "weekDay": 2,
+      "dayNumber": 6,
+      "meetingDateTimeUTC": "2021-07-17T05:00:00.000Z",
       "courseDay": 4,
       "dateTypes": {
         "title": "Logic 2, State 1",
@@ -252,12 +240,24 @@
         }
       }
     },
-    "07-08-2021": {
-      "courseDate": "07-08-2021",
+    "20-07-2021": {
+      "courseDay": null,
+      "courseDate": "20-07-2021",
       "courseWeek": 4,
-      "weekDay": 2,
+      "dayNumber": 2,
+      "dateTypes": {
+        "holidayType": "public holiday",
+        "date": "20-07-2021",
+        "location": "SG",
+        "name": "Hari Raya Haji"
+      }
+    },
+    "24-07-2021": {
+      "courseDate": "24-07-2021",
+      "courseWeek": 4,
+      "weekDay": 1,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2021-08-07T05:00:00.000Z",
+      "meetingDateTimeUTC": "2021-07-24T05:00:00.000Z",
       "courseDay": 5,
       "dateTypes": {
         "title": "State 2",
@@ -297,12 +297,12 @@
         }
       }
     },
-    "10-08-2021": {
-      "courseDate": "10-08-2021",
+    "27-07-2021": {
+      "courseDate": "27-07-2021",
       "courseWeek": 5,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-08-10T11:00:00.000Z",
+      "meetingDateTimeUTC": "2021-07-27T11:00:00.000Z",
       "courseDay": 6,
       "dateTypes": {
         "title": "Arrays, Loops 1",
@@ -339,12 +339,12 @@
         }
       }
     },
-    "14-08-2021": {
-      "courseDate": "14-08-2021",
+    "31-07-2021": {
+      "courseDate": "31-07-2021",
       "courseWeek": 5,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2021-08-14T05:00:00.000Z",
+      "meetingDateTimeUTC": "2021-07-31T05:00:00.000Z",
       "courseDay": 7,
       "dateTypes": {
         "title": "Loops 2",
@@ -373,12 +373,12 @@
         }
       }
     },
-    "17-08-2021": {
-      "courseDate": "17-08-2021",
+    "03-08-2021": {
+      "courseDate": "03-08-2021",
       "courseWeek": 6,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-08-17T11:00:00.000Z",
+      "meetingDateTimeUTC": "2021-08-03T11:00:00.000Z",
       "courseDay": 8,
       "dateTypes": {
         "title": "Objects",
@@ -421,12 +421,12 @@
         }
       }
     },
-    "21-08-2021": {
-      "courseDate": "21-08-2021",
+    "07-08-2021": {
+      "courseDate": "07-08-2021",
       "courseWeek": 6,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2021-08-21T05:00:00.000Z",
+      "meetingDateTimeUTC": "2021-08-07T05:00:00.000Z",
       "courseDay": 9,
       "dateTypes": {
         "title": "Card Logic",
@@ -455,12 +455,12 @@
         }
       }
     },
-    "24-08-2021": {
-      "courseDate": "24-08-2021",
+    "10-08-2021": {
+      "courseDate": "10-08-2021",
       "courseWeek": 7,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-08-24T11:00:00.000Z",
+      "meetingDateTimeUTC": "2021-08-10T11:00:00.000Z",
       "courseDay": 10,
       "dateTypes": {
         "title": "Coding Strategies",
@@ -489,12 +489,12 @@
         }
       }
     },
-    "28-08-2021": {
-      "courseDate": "28-08-2021",
+    "14-08-2021": {
+      "courseDate": "14-08-2021",
       "courseWeek": 7,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2021-08-28T05:00:00.000Z",
+      "meetingDateTimeUTC": "2021-08-14T05:00:00.000Z",
       "courseDay": 11,
       "dateTypes": {
         "title": "Debugger",
@@ -541,12 +541,12 @@
         }
       }
     },
-    "30-08-2021": {
-      "courseDate": "30-08-2021",
+    "16-08-2021": {
+      "courseDate": "16-08-2021",
       "courseWeek": 8,
       "weekDay": 3,
       "dayNumber": 1,
-      "meetingDateTimeUTC": "2021-08-30T11:00:00.000Z",
+      "meetingDateTimeUTC": "2021-08-16T11:00:00.000Z",
       "courseDay": 12,
       "dateTypes": {
         "title": "Project Presentations",
@@ -594,5 +594,5 @@
       }
     }
   },
-  "courseName": "17-07-2021_30-08-2021_BATCH12"
+  "courseName": "03-07-2021_16-08-2021_BATCH9"
 }
