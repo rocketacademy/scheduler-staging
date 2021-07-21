@@ -4,6 +4,16 @@ A front-end app to edit and generate a dated schedule for all Rocket Academy Cou
 
 The app is Timezone aware.
 
+# Instructions for use
+
+Start the react app with 'npm start'.
+
+Fill in the form with required information, please make sure date picked for Basics start date is a Saturday, and date picked for Bootcamp start date is a Monday.
+
+Click the 'download file' button.
+
+When the file downloads, run 'npm run basics-md <PATH_TO_DOWNLOADED_FILE>'. A markdown file will be created in the `markdown` folder (in `src`).
+
 # Generate Test Data
 
 To generate test data run:
