@@ -8,6 +8,8 @@ const DatePicker = ({setJsonContent, setFileName}) => {
     
     const handleSubmit = () => {
         const data = generateDataObject(startDate, courseName, courseType, setFileName);
+        console.log('data', data);
+
         const jsonContentStr = JSON.stringify(data);
         setJsonContent(jsonContentStr);
     }
