@@ -1,6 +1,15 @@
 {
-  "days": [
-    {
+  "daysOfWeek": [2, 6],
+  "courseStartIndex": 1,
+  "totalCourseDays": 13,
+  "courseType": "Basics",
+  "days": {
+    "03-07-2021": {
+      "courseDate": "03-07-2021",
+      "courseWeek": 1,
+      "weekDay": 1,
+      "dayNumber": 6,
+      "meetingDateTimeUTC": "2021-07-03T08:00:00.000Z",
       "courseDay": 0,
       "dateTypes": {
         "title": "Pre-Course Briefing",
@@ -10,22 +19,19 @@
             "mdText": "{% hint style=\"warning\" %}\nDay 0's pre-course briefing will run from 4-5pm instead of the usual 1-3pm. This is because the previous batch will be having their last class session from 1-3pm. Thank you for your understanding!\n{% endhint %}\n1. Instructor introductions\n2. Learning goals\n3. Learning format\n   1. [Pre-Class vs In-Class material](course-methodology.md#self-learning)\n   2. [Base vs More Comfortable](course-methodology.md#base-more-comfortable)\n4. Deliverables for Day 1\n   1. [Required Hardware and Software](required-hardware-and-software.md)\n   2. Pre-Class Material\n5. Slack tutorial\n   1. How to send monospaced code and code snippets in Slack\n6. Class photo\n7. Break into sections\n8. Section introductions and icebreakers\n   1. What do you do for work?\n   2. Why do you want to learn coding?\n   3. What are your career goals?\n   4. Fun fact?\n",
             "items": []
           },
-          "inClass": {
-            "items": []
-          },
-          "postClass": {
-            "items": []
-          },
-          "projectStart": {
-            "items": []
-          },
-          "projectDue": {
-            "items": []
-          }
+          "inClass": { "items": [] },
+          "postClass": { "items": [] },
+          "projectStart": { "items": [] },
+          "projectDue": { "items": [] }
         }
       }
     },
-    {
+    "06-07-2021": {
+      "courseDate": "06-07-2021",
+      "courseWeek": 2,
+      "weekDay": 1,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2021-07-06T11:00:00.000Z",
       "courseDay": 1,
       "dateTypes": {
         "title": "Coding Tools ",
@@ -79,19 +85,18 @@
               }
             ]
           },
-          "postClass": {
-            "items": []
-          },
-          "projectStart": {
-            "items": []
-          },
-          "projectDue": {
-            "items": []
-          }
+          "postClass": { "items": [] },
+          "projectStart": { "items": [] },
+          "projectDue": { "items": [] }
         }
       }
     },
-    {
+    "10-07-2021": {
+      "courseDate": "10-07-2021",
+      "courseWeek": 2,
+      "weekDay": 2,
+      "dayNumber": 6,
+      "meetingDateTimeUTC": "2021-07-10T05:00:00.000Z",
       "courseDay": 2,
       "dateTypes": {
         "title": "Functions",
@@ -122,19 +127,18 @@
               }
             ]
           },
-          "postClass": {
-            "items": []
-          },
-          "projectStart": {
-            "items": []
-          },
-          "projectDue": {
-            "items": []
-          }
+          "postClass": { "items": [] },
+          "projectStart": { "items": [] },
+          "projectDue": { "items": [] }
         }
       }
     },
-    {
+    "13-07-2021": {
+      "courseDate": "13-07-2021",
+      "courseWeek": 3,
+      "weekDay": 1,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2021-07-13T11:00:00.000Z",
       "courseDay": 3,
       "dateTypes": {
         "title": "Logic 1",
@@ -165,9 +169,7 @@
               }
             ]
           },
-          "postClass": {
-            "items": []
-          },
+          "postClass": { "items": [] },
           "projectStart": {
             "mdText": "{% hint style=\"warning\" %}\nWe may want to review [7.1: GitHub Fork and Pull Request](https://basics.rocketacademy.co/7-github/7.1-github-fork-and-pull-request) before starting the project.\n{% endhint %}\n",
             "items": [
@@ -177,13 +179,16 @@
               }
             ]
           },
-          "projectDue": {
-            "items": []
-          }
+          "projectDue": { "items": [] }
         }
       }
     },
-    {
+    "17-07-2021": {
+      "courseDate": "17-07-2021",
+      "courseWeek": 3,
+      "weekDay": 2,
+      "dayNumber": 6,
+      "meetingDateTimeUTC": "2021-07-17T05:00:00.000Z",
       "courseDay": 4,
       "dateTypes": {
         "title": "Logic 2, State 1",
@@ -214,9 +219,7 @@
               }
             ]
           },
-          "postClass": {
-            "items": []
-          },
+          "postClass": { "items": [] },
           "projectStart": {
             "mdText": "{% hint style=\"warning\" %}\nWe may want to review 8.2: Program State for Game Modes before completing the More Comfortable section of SPS Part 2.\n{% endhint %}\n",
             "items": [
@@ -237,7 +240,24 @@
         }
       }
     },
-    {
+    "20-07-2021": {
+      "courseDay": null,
+      "courseDate": "20-07-2021",
+      "courseWeek": 4,
+      "dayNumber": 2,
+      "dateTypes": {
+        "holidayType": "public holiday",
+        "date": "20-07-2021",
+        "location": "SG",
+        "name": "Hari Raya Haji"
+      }
+    },
+    "24-07-2021": {
+      "courseDate": "24-07-2021",
+      "courseWeek": 4,
+      "weekDay": 1,
+      "dayNumber": 6,
+      "meetingDateTimeUTC": "2021-07-24T05:00:00.000Z",
       "courseDay": 5,
       "dateTypes": {
         "title": "State 2",
@@ -264,9 +284,7 @@
               }
             ]
           },
-          "postClass": {
-            "items": []
-          },
+          "postClass": { "items": [] },
           "projectStart": {
             "items": [
               {
@@ -275,18 +293,16 @@
               }
             ]
           },
-          "projectDue": {
-            "items": [
-              {
-                "name": "Project 1: Scissors Paper Stone (Part 2)",
-                "url": "https://basics.rocketacademy.co/projects/project-1-scissors-paper-stone/project-1-scissors-paper-stone-part-2"
-              }
-            ]
-          }
+          "projectDue": { "items": [] }
         }
       }
     },
-    {
+    "27-07-2021": {
+      "courseDate": "27-07-2021",
+      "courseWeek": 5,
+      "weekDay": 1,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2021-07-27T11:00:00.000Z",
       "courseDay": 6,
       "dateTypes": {
         "title": "Arrays, Loops 1",
@@ -317,19 +333,18 @@
               }
             ]
           },
-          "postClass": {
-            "items": []
-          },
-          "projectStart": {
-            "items": []
-          },
-          "projectDue": {
-            "items": []
-          }
+          "postClass": { "items": [] },
+          "projectStart": { "items": [] },
+          "projectDue": { "items": [] }
         }
       }
     },
-    {
+    "31-07-2021": {
+      "courseDate": "31-07-2021",
+      "courseWeek": 5,
+      "weekDay": 2,
+      "dayNumber": 6,
+      "meetingDateTimeUTC": "2021-07-31T05:00:00.000Z",
       "courseDay": 7,
       "dateTypes": {
         "title": "Loops 2",
@@ -352,19 +367,18 @@
               }
             ]
           },
-          "postClass": {
-            "items": []
-          },
-          "projectStart": {
-            "items": []
-          },
-          "projectDue": {
-            "items": []
-          }
+          "postClass": { "items": [] },
+          "projectStart": { "items": [] },
+          "projectDue": { "items": [] }
         }
       }
     },
-    {
+    "03-08-2021": {
+      "courseDate": "03-08-2021",
+      "courseWeek": 6,
+      "weekDay": 1,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2021-08-03T11:00:00.000Z",
       "courseDay": 8,
       "dateTypes": {
         "title": "Objects",
@@ -387,9 +401,7 @@
               }
             ]
           },
-          "postClass": {
-            "items": []
-          },
+          "postClass": { "items": [] },
           "projectStart": {
             "items": [
               {
@@ -409,7 +421,12 @@
         }
       }
     },
-    {
+    "07-08-2021": {
+      "courseDate": "07-08-2021",
+      "courseWeek": 6,
+      "weekDay": 2,
+      "dayNumber": 6,
+      "meetingDateTimeUTC": "2021-08-07T05:00:00.000Z",
       "courseDay": 9,
       "dateTypes": {
         "title": "Card Logic",
@@ -432,19 +449,18 @@
               }
             ]
           },
-          "postClass": {
-            "items": []
-          },
-          "projectStart": {
-            "items": []
-          },
-          "projectDue": {
-            "items": []
-          }
+          "postClass": { "items": [] },
+          "projectStart": { "items": [] },
+          "projectDue": { "items": [] }
         }
       }
     },
-    {
+    "10-08-2021": {
+      "courseDate": "10-08-2021",
+      "courseWeek": 7,
+      "weekDay": 1,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2021-08-10T11:00:00.000Z",
       "courseDay": 10,
       "dateTypes": {
         "title": "Coding Strategies",
@@ -467,19 +483,18 @@
               }
             ]
           },
-          "postClass": {
-            "items": []
-          },
-          "projectStart": {
-            "items": []
-          },
-          "projectDue": {
-            "items": []
-          }
+          "postClass": { "items": [] },
+          "projectStart": { "items": [] },
+          "projectDue": { "items": [] }
         }
       }
     },
-    {
+    "14-08-2021": {
+      "courseDate": "14-08-2021",
+      "courseWeek": 7,
+      "weekDay": 2,
+      "dayNumber": 6,
+      "meetingDateTimeUTC": "2021-08-14T05:00:00.000Z",
       "courseDay": 11,
       "dateTypes": {
         "title": "Debugger",
@@ -506,9 +521,7 @@
               }
             ]
           },
-          "postClass": {
-            "items": []
-          },
+          "postClass": { "items": [] },
           "projectStart": {
             "items": [
               {
@@ -528,7 +541,12 @@
         }
       }
     },
-    {
+    "16-08-2021": {
+      "courseDate": "16-08-2021",
+      "courseWeek": 8,
+      "weekDay": 3,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2021-08-16T11:00:00.000Z",
       "courseDay": 12,
       "dateTypes": {
         "title": "Project Presentations",
@@ -549,27 +567,17 @@
           },
           "inClass": {
             "items": [
-              {
-                "name": "Course Feedback and Reviews"
-              },
+              { "name": "Course Feedback and Reviews" },
               {
                 "name": "Project presentations",
                 "url": "https://basics.rocketacademy.co/course-logistics/course-methodology#project-presentations"
               },
-              {
-                "name": "LinkedIn certificate presentations"
-              },
-              {
-                "name": "Class Photo 🥳"
-              }
+              { "name": "LinkedIn certificate presentations" },
+              { "name": "Class Photo 🥳" }
             ]
           },
-          "postClass": {
-            "items": []
-          },
-          "projectStart": {
-            "items": []
-          },
+          "postClass": { "items": [] },
+          "projectStart": { "items": [] },
           "projectDue": {
             "items": [
               {
@@ -585,5 +593,6 @@
         }
       }
     }
-  ]
+  },
+  "courseName": "03-07-2021_16-08-2021_BATCH9"
 }

@@ -1,19 +1,19 @@
 import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
 import schedule from './data/data.json';
-import holidays from './data/static-dates.json';
-
+import DatePicker from './components/DatePicker.jsx';
 function App() {
-
-  console.log( schedule );
+  const [jsonContent, setJsonContent] = useState({});
+  const [fileName, setFileName] = useState('');
   const day = schedule.dates[Object.keys(schedule.dates)[0]];
 
   const download = () => {
     // from: https://stackoverflow.com/questions/19721439/download-json-object-as-a-file-from-browser
-    var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(schedule));
+    var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(jsonContent);
     var dlAnchorElem = document.createElement('a');
     dlAnchorElem.setAttribute("href",     dataStr     );
-    dlAnchorElem.setAttribute("download", "schedule-data.json");
+    dlAnchorElem.setAttribute("download", `${fileName}.json`);
     dlAnchorElem.click();
   };
 
@@ -40,6 +40,9 @@ function App() {
           <button onClick={download}>
             download schedule
           </button>
+        </p>
+        <p>
+          <DatePicker setJsonContent={setJsonContent} setFileName={setFileName} />
         </p>
         <a
           className="App-link"
