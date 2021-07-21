@@ -1,5 +1,5 @@
 import React , { useState } from 'react';
-import generateDataObject from '../logicModule';
+import generateDataObject from '../generateCourseDates.js';
 
 const DatePicker = ({setJsonContent, setFileName}) => {
     const [startDate, setStartDate] = useState('');
