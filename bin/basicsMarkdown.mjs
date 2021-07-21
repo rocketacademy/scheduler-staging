@@ -167,7 +167,7 @@ const whenFileIsRead = (error, content) => {
     } 
     console.log(output);
 
-    fs.writeFile(`src/data/${data.courseName}.md`, output, (writeErr) => {
+    fs.writeFile(`src/markdown/${data.courseName}.md`, output, (writeErr) => {
         if (writeErr) {
             console.error('Writing error', writeErr);
         }
