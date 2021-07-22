@@ -1,5 +1,5 @@
 import { DateTime } from 'luxon';
-import holidayData from './data/sg-stat-holidays.json';
+import holidayData from './data/2021-sg-stat-holidays.json';
 import basicsData from './data/basics-course-days.json';
 import bootcampData from './data/bootcamp-course-days.json';
 
