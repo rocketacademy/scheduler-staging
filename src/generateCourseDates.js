@@ -110,7 +110,7 @@ const generateCourseDayObject = (dateObj, dateString, week, weekDay, date, utc, 
     return dateObj;
 }
 
-const generateDataObject = (startDate, courseName, courseType, setFileName) => {
+const generateDataObject = (startDate, courseName, courseType) => {
     let date = DateTime.fromFormat(startDate, "yyyy-MM-dd");
     const d = DateTime.fromISO(startDate + 'T16:00', {zone: 'Singapore'});
     let utc = d.toUTC().toISO();
@@ -152,7 +152,6 @@ const generateDataObject = (startDate, courseName, courseType, setFileName) => {
                 const displayDate = DateTime.fromFormat(startDate, "yyyy-MM-dd");
                 const displayName = `${displayDate.toFormat('dd-MM-yyyy')}_${dateString}_BATCH${courseName}`;
                 data.courseName = displayName;
-                setFileName(displayName);
             }
 
             let dateObj;
