@@ -88,11 +88,12 @@ const generateCourseArrays = (data) => {
                 // if element.dayNumber === element at the same index position in dayNumbers array 
                 if (data.days[weekDates[n][m]].dayNumber === dayNumbers[p]) {
                     if (data.days[weekDates[n][m]].dateTypes.title) {
-                        // the '-' in displayWeek is replaced by the weekDates[n][m]
-                        displayWeek[p] = `[${weekDates[n][m]}](#courseDay${data.days[weekDates[n][m]].courseDay})`;
+                        // the '-' in displayWeek is replaced by the dateString
+                        const dateString = DateTime.fromISO(data.days[weekDates[n][m]].meetingDateTimeUTC).toFormat('d MMM');
+                        displayWeek[p] = `[${dateString}](#courseDay${data.days[weekDates[n][m]].courseDay})`;
                     } else {
                         // if title of the day does not exist, it means it's a public holiday
-                        displayWeek[p] = data.days[weekDates[n][m]].dateTypes.holidayType;
+                        displayWeek[p] = `${data.days[weekDates[n][m]].dateTypes.holidayType} (${data.days[weekDates[n][m]].dateTypes.location})`;
                     }
                 }
             }
@@ -126,22 +127,30 @@ const generateCourseData = (output, data) => {
     // loop that generates the main part of the page
     for (let i = 0; i < Object.keys(data.days).length; i += 1) {
         let localDate;
+        // course day
         if (data.days[dates[i]].meetingDateTimeUTC) {
             // getting the date/time from utc string
-            localDate = DateTime.fromISO(data.days[dates[i]].meetingDateTimeUTC).toFormat('EEE, d MMM');
-            output += `# ${localDate} - Wk: ${data.days[dates[i]].courseWeek} Day: ${data.days[dates[i]].courseDay} {#courseDay${data.days[dates[i]].courseDay}}\n`;
-            let localTime = DateTime.fromISO(data.days[dates[i]].meetingDateTimeUTC).toFormat('t (z)');
-            output += `### Meeting time: ${localTime}\n`;
+            localDate = DateTime.fromISO(data.days[dates[i]].meetingDateTimeUTC).toFormat('EEE d MMM');
+            output += `# ${localDate}, Week ${data.days[dates[i]].courseWeek}, Course Day ${data.days[dates[i]].courseDay} {#courseDay${data.days[dates[i]].courseDay}}:`;
+            // adding title to heading
+            output += ` ${data.days[dates[i]].dateTypes.title}\n`;
+            // getting meeting time
+            const localTime = DateTime.fromISO(data.days[dates[i]].meetingDateTimeUTC).toFormat('t');
+            output += `Meeting time: ${localTime} `;
+            const timeZone = DateTime.fromISO(data.days[dates[i]].meetingDateTimeUTC).toFormat('z');
+            if (timeZone === 'Asia/Singapore') {
+                output += 'SGT ';
+            }
+            const timeOffset = DateTime.fromISO(data.days[dates[i]].meetingDateTimeUTC).toFormat('ZZZZ');
+            output += `(${timeOffset})\n\n`;
         } else {
+            // public holiday, as public holiday has no meeting time
             localDate = DateTime.fromFormat(data.days[dates[i]].courseDate, 'dd-MM-yyyy').toFormat('EEE, d MMM');
-            output += `# ${localDate}\nweek: ${data.days[dates[i]].courseWeek}\n`;
-        }
-
-        // get title of course day
-        if (data.days[dates[i]].dateTypes.title) {
-            output += `## ${data.days[dates[i]].dateTypes.title}\n`;
-        } else {
-            output += `## ${data.days[dates[i]].dateTypes.holidayType}: ${data.days[dates[i]].dateTypes.name}\n`;
+            output += `# ${localDate}: `;
+            if (data.days[dates[i]].dateTypes.location === 'SG') {
+                output += `Singapore `;
+            }
+            output += `${data.days[dates[i]].dateTypes.holidayType}, ${data.days[dates[i]].dateTypes.name}`;
         }
 
         // generate day's course material
