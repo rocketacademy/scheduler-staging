@@ -26,7 +26,6 @@ const phWithoutCh = [];
 // get array of public holidays not including those included in winter break
 publicHolidayArray.forEach((holiday) => {
     if(!companyHolidayArray.includes(holiday)) {
-        console.log(!companyHolidayArray.includes(holiday));
         phWithoutCh.push(holiday);
     }
 });
@@ -112,9 +111,10 @@ const generateCourseDayObject = (dateObj, dateString, week, weekDay, date, utc, 
 
 const generateDataObject = (startDate, courseName, courseType) => {
     let date = DateTime.fromFormat(startDate, "yyyy-MM-dd");
-    const d = DateTime.fromISO(startDate + 'T16:00', {zone: 'Singapore'});
-    let utc = d.toUTC().toISO();
-    console.log(d.toUTC().toISO());
+    // T16:00 is the time of class on the first day
+    let utc = DateTime.fromISO(startDate + 'T16:00', {zone: 'Singapore'}).toUTC().toISO();
+    // utc = utc.toUTC().toISO();
+    console.log('utc string', utc);
     let dateWeek = DateTime.fromFormat(startDate, "yyyy-MM-dd");
     let classDatesCount = 1;
     let week = 1;
@@ -178,12 +178,12 @@ const generateDataObject = (startDate, courseName, courseType) => {
                 week += 1;
 
             } else {
-                // this is the end of the dayArray
+                // this is the end of the dayArray (last day of the week)
                 if ( dayIndex === dayArray.length -1) {
                     weekDay = 1;
                     week += 1;
                     dateWeek = dateWeek.plus({ weeks: 1 });
-                    // at the end of the array, return to beginning of array
+                    // at the end of the array, return to beginning of array (return to beginning of week)
                     dayIndex = 0;
                     date = date.plus({ weeks: 1 }).set({ weekday: dayArray[dayIndex] })
                     utc = getLocalDateTime (utc, 'T19:00', courseName, courseType, date);
