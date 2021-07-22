@@ -4,6 +4,8 @@ A front-end app to edit and generate a dated schedule for all Rocket Academy Cou
 
 The app is Timezone aware.
 
+The app consists of 2 parts, a react app and a node script.
+
 # Instructions for use
 
 Start the react app with 'npm start'.
@@ -12,7 +14,9 @@ Fill in the form with required information, please make sure date picked for Bas
 
 Click the 'download file' button.
 
-When the file downloads, run 'npm run basics-md <PATH_TO_DOWNLOADED_FILE>'. A markdown file will be created in the `markdown` folder (in `src`).
+When the file downloads, start the node script by running 'npm run basics-md <PATH_TO_DOWNLOADED_FILE>'.
+
+A markdown file will be created in the `markdown` folder (in `src`).
 
 # Generate Test Data
 

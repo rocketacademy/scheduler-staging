@@ -484,7 +484,7 @@
               "name": "Project 1 Implementation",
               "url": "https://bootcamp.rocketacademy.co/projects/project-1-video-poker"
             },
-             {
+            {
               "name": "Project 1: Deploy to GitHub Pages",
               "url": "https://basics.rocketacademy.co/12-next-steps/12.3-deployment"
             }
@@ -568,7 +568,7 @@
               "name": "1.POCE.6: CSS Flexbox",
               "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.poce-post-class-exercises/1.poce.6-technical-documentation-page-flexbox-responsive"
             },
-             {
+            {
               "name": "2.POCE.1: Command Line Colour Converter",
               "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.poce-post-class-exercises/2.poce.1-command-line-colour-converter"
             }
@@ -614,7 +614,7 @@
               "name": "1.POCE.7: Flexbox Calendar",
               "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.poce-post-class-exercises/1.poce.7-flexbox-calendar"
             },
-             {
+            {
               "name": "2.POCE.2: CSS Reader",
               "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.poce-post-class-exercises/2.poce.2-css-reader"
             }
@@ -668,7 +668,7 @@
               "name": "1.POCE.8: Flexbox Personal Page",
               "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.poce-post-class-exercises/1.poce.8-flexbox-personal-page"
             },
-             {
+            {
               "name": "2.POCE.3: CSS Processor",
               "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.poce-post-class-exercises/2.poce.3-css-processor"
             }
@@ -716,7 +716,7 @@
               "name": "Review 2.POCE.3: CSS Processor",
               "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#peer-code-review"
             },
-             {
+            {
               "name": "2.ICE.4: Servers and Requests",
               "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.ice-in-class-exercises/2.ice.4-servers-and-requests"
             }
@@ -726,7 +726,7 @@
               "name": "1.POCE.9: Bootstrap",
               "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.poce-post-class-exercises/1.poce.9-bootstrap-columns"
             },
-             {
+            {
               "name": "2.POCE.4: File Server",
               "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.poce-post-class-exercises/2.poce.4-file-server"
             }
@@ -826,7 +826,7 @@
               "name": "1.POCE.10: Bootstrap Adobe",
               "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.poce-post-class-exercises/1.poce.10-bootstrap-adobe"
             },
-             {
+            {
               "name": "2.POCE.6: To-Do List - JSON",
               "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.poce-post-class-exercises/2.poce.6-todo-list-json"
             }
@@ -872,7 +872,7 @@
             }
           ],
           "postClass": [
-             {
+            {
               "name": "2.POCE.6: To-Do List - JSON",
               "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.poce-post-class-exercises/2.poce.6-todo-list-json"
             }
@@ -1124,11 +1124,11 @@
               "name": "3.3: SQL Language",
               "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.3-sql-language"
             },
-             {
+            {
               "name": "3.3.1: Basic SQL Commands",
               "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.3-sql-language/3.3.1-basic-sql-commands"
             },
-             {
+            {
               "name": "3.5.1: Cookies",
               "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.5-authentication/3.5.1-cookies"
             }
@@ -1522,7 +1522,7 @@
               "name": "Project 2 Scrum",
               "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
             },
-             {
+            {
               "name": "Project 2 Planning: Peer Discussion",
               "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
             }
@@ -1564,10 +1564,10 @@
             }
           ],
           "inClass": [
-           {
+            {
               "name": "Project 2 Scrum",
               "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-            }, 
+            },
             {
               "name": "3.ICE.11: DB Schema Design - Uber",
               "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.11-db-schema-design-uber"
@@ -1609,7 +1609,7 @@
             {
               "name": "Project 2 Scrum",
               "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-            }, 
+            },
             {
               "name": "3.ICE.12: DB Schema Design - Instagram",
               "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.12-db-schema-design-instagram"
@@ -2172,7 +2172,7 @@
         }
       }
     },
-     {
+    {
       "courseDay": 45,
       "dateTypes": {
         "general": {
@@ -2210,7 +2210,7 @@
         }
       }
     },
-     {
+    {
       "courseDay": 48,
       "dateTypes": {
         "general": {
@@ -2256,7 +2256,7 @@
         }
       }
     },
-     {
+    {
       "courseDay": 49,
       "dateTypes": {
         "general": {
