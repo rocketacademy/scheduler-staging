@@ -4,26 +4,49 @@ import { DateTime } from 'luxon';
 console.log('filename', process.argv[2]);
 const filename = process.argv[2];
 
-const whenFileIsRead = (error, content) => {
-    if (error) {
-        console.log('read error', error);
+// helper function , generates list for pre-class, in-class, post-class
+const generateClassList = (classList, classType) => {
+    if (classType.mdText) {
+        classList += classType.mdText;
     }
 
-    const data = JSON.parse(content);
-
-    const dayNames = {
-        1: 'Monday',
-        2: 'Tuesday',
-        3: 'Wednesday',
-        4: 'Thursday',
-        5: 'Friday',
-        6: 'Saturday'
+    if ( classType.items.length > 0) {
+        for (let j = 0; j < classType.items.length; j +=1 ) {
+            if (classType.items[j].url) {
+                classList += `* [${classType.items[j].name}](${classType.items[j].url})\n`;
+            } else {
+                classList += `* ${classType.items[j].name}\n`;
+            }  
+        }
+        classList += '\n';
     }
+    return classList;
+}
 
-    const dates = [];
-    let dayNumbers = [];
-    const daysOfWeek = [];
+// helper function, generates content list for each section 
+const generateSectionList = (sectionName, sectionType) => {
+    let sectionString = '';
+    if (sectionType.items.length > 0) {
+        if (sectionName === 'preclass') {
+            sectionString = '### Pre Class:\n';
+        } else if (sectionName === 'inclass') {
+            sectionString = '### In Class:\n';
+        } else if (sectionName === 'postclass') {
+            sectionString = '### Post Class:\n';
+        } else if (sectionName === 'projectdue') {
+            sectionString = '### Project Due:\n';
+        } else if (sectionName === 'projectstart') {
+            sectionString = '### Project Start:\n';
+        } 
+    }
+    
+    sectionString = generateClassList (sectionString, sectionType);
+    return sectionString;
+}
 
+// helper function to get arrays needed to generate markdown
+const generateCourseArrays = (data) => {
+    // get all course dates
     Object.keys(data.days).forEach((date) => {
         dates.push(date);
     })
@@ -39,11 +62,8 @@ const whenFileIsRead = (error, content) => {
         daysOfWeek.push(dayNames[number]);
     })
 
-    const weekDates = [];
-    let weekCount = 1;
-
     // getting last week of course
-    const lastWeek = data.days[dates[dates.length -1]].courseWeek;
+    lastWeek = data.days[dates[dates.length -1]].courseWeek;
 
     // getting the dates the coursedays fall on for each week
     for  (let l = 0; l < lastWeek; l += 1) {
@@ -58,15 +78,20 @@ const whenFileIsRead = (error, content) => {
     }
 
     // getting rows of table
-    const tableRows = [];
+    // for each subarray in the weekDates array, displayWeek is initialised to ['-', '-', '-']
     for (let n = 0; n < weekDates.length; n += 1) {
         let displayWeek = ['-', '-', '-'];
+        // each element in each subarray of weekDates is compared to the element in the same index
+        // position in dayNumbers array
         for (let m = 0; m < weekDates[n].length; m += 1) {
             for (let p = 0; p < dayNumbers.length; p += 1) {
+                // if element.dayNumber === element at the same index position in dayNumbers array 
                 if (data.days[weekDates[n][m]].dayNumber === dayNumbers[p]) {
                     if (data.days[weekDates[n][m]].dateTypes.title) {
+                        // the '-' in displayWeek is replaced by the weekDates[n][m]
                         displayWeek[p] = `[${weekDates[n][m]}](#courseDay${data.days[weekDates[n][m]].courseDay})`;
                     } else {
+                        // if title of the day does not exist, it means it's a public holiday
                         displayWeek[p] = data.days[weekDates[n][m]].dateTypes.holidayType;
                     }
                 }
@@ -74,49 +99,12 @@ const whenFileIsRead = (error, content) => {
         }
         tableRows.push(displayWeek);
     }
+}
 
-    // helper function , generates list for pre-class, in-class, post-class
-    const generateClassList = (classList, classType) => {
-        if (classType.mdText) {
-            classList += classType.mdText;
-        }
-
-        if ( classType.items.length > 0) {
-            for (let j = 0; j < classType.items.length; j +=1 ) {
-                if (classType.items[j].url) {
-                    classList += `* [${classType.items[j].name}](${classType.items[j].url})\n`;
-                } else {
-                    classList += `* ${classType.items[j].name}\n`;
-                }  
-            }
-            classList += '\n';
-        }
-        return classList;
-    }
-
-    const generateSectionList = (sectionName, sectionType) => {
-        let sectionString = '';
-        if (sectionType.items.length > 0) {
-            if (sectionName === 'preclass') {
-                sectionString = '### Pre Class:\n';
-            } else if (sectionName === 'inclass') {
-                sectionString = '### In Class:\n';
-            } else if (sectionName === 'postclass') {
-                sectionString = '### Post Class:\n';
-            } else if (sectionName === 'projectdue') {
-                sectionString = '### Project Due:\n';
-            } else if (sectionName === 'projectstart') {
-                sectionString = '### Project Start:\n';
-            } 
-        }
-        
-        sectionString = generateClassList (sectionString, sectionType);
-        return sectionString;
-    }
-
-    let output = '';
-    output += '# Course Dates\n| Week |';
+// helper function that generates course days table marksown
+const generateCourseDaysTable = (output) => {
     // schedule table header 
+    output += '| Week |';
     for (let p = 0; p < daysOfWeek.length; p += 1) {
         output += ` ${daysOfWeek[p]} |`;
     }
@@ -130,8 +118,11 @@ const whenFileIsRead = (error, content) => {
         }
         output += '\n';
     }
+    return output;
+}
 
-    output += '\n';
+// helper function that produces the main content of the page (in markdown)
+const generateCourseData = (output, data) => {
     // loop that generates the main part of the page
     for (let i = 0; i < Object.keys(data.days).length; i += 1) {
         let localDate;
@@ -161,10 +152,52 @@ const whenFileIsRead = (error, content) => {
             for (let t = 0; t < sectionNames.length; t += 1) {
                 output += generateSectionList(sectionNames[t], sectionTypes[t]);
             }
-
         };
         output += '\n\n';
-    } 
+    }
+    return output;
+}
+
+const dayNames = {
+        1: 'Monday',
+        2: 'Tuesday',
+        3: 'Wednesday',
+        4: 'Thursday',
+        5: 'Friday',
+        6: 'Saturday'
+    }
+
+/* ###################################################
+######################################################
+################################################### */
+
+const dates = [];
+let dayNumbers = [];
+const daysOfWeek = [];
+const weekDates = [];
+let weekCount = 1;
+let lastWeek;
+const tableRows = [];
+
+const whenFileIsRead = (error, content) => {
+    if (error) {
+        console.log('read error', error);
+    }
+
+    const data = JSON.parse(content);
+
+    // generate all arrays needed to produce markdown
+    generateCourseArrays(data);
+    
+    // initialize output
+    let output = '# Course Dates\n';
+
+    // add course table to output
+    output = generateCourseDaysTable(output);
+    output += '\n';
+
+    // add course data to output
+    output = generateCourseData(output, data);
     console.log(output);
 
     fs.writeFile(`src/data/${data.courseName}.md`, output, (writeErr) => {
