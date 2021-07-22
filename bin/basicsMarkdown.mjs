@@ -106,6 +106,7 @@ const generateCourseArrays = (data) => {
 const generateCourseDaysTable = (output) => {
     // schedule table header 
     output += '| Week |';
+  
     for (let p = 0; p < daysOfWeek.length; p += 1) {
         output += ` ${daysOfWeek[p]} |`;
     }
@@ -161,6 +162,7 @@ const generateCourseData = (output, data) => {
             for (let t = 0; t < sectionNames.length; t += 1) {
                 output += generateSectionList(sectionNames[t], sectionTypes[t]);
             }
+
         };
         output += '\n\n';
     }
