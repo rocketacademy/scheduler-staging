@@ -1,7 +1,5 @@
-import logo from './logo.svg';
 import React from 'react';
 import './App.css';
-import schedule from './data/data.json';
 import DatePicker from './components/DatePicker.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 

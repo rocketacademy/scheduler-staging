@@ -49,16 +49,22 @@ const getLocalDateTime = (utc, timeString, courseName, courseType, date) => {
 const generateTopLevelObject = (courseType, topLevelObject) => {
         if (courseType === 'Basics') {
             topLevelObject = {
-                daysOfWeek: [2, 6],
-                courseStartIndex: 1,
-                totalCourseDays: 13,
+                daysOfWeek: basicsData.daysOfWeek,
+                courseStartIndex: basicsData.courseStartIndex,
+                totalCourseDays: basicsData.totalCourseDays,
                 ...topLevelObject
             };
-        } else if (courseType === 'Bootcamp') {
+        } else if (courseType === 'Bootcamp FT' || courseType === 'Bootcamp PT') {
+            let bootcampDays;
+            if (courseType === 'Bootcamp FT') {
+                bootcampDays = bootcampData.daysOfWeek.fullTime;
+            } else {
+                bootcampDays = bootcampData.daysOfWeek.partTime;
+            }
             topLevelObject = {
-                daysOfWeek: [1, 2, 3, 4, 5],
-                courseStartIndex: 0,
-                totalCourseDays: 68,
+                daysOfWeek: bootcampDays,
+                courseStartIndex: bootcampData.courseStartIndex,
+                totalCourseDays: bootcampData.totalCourseDays,
                 ...topLevelObject
             }
         }
@@ -101,7 +107,7 @@ const generateCourseDayObject = (dateObj, dateString, week, weekDay, date, utc, 
         dateObj = {
             ...dateObj, ...basicsData.days[courseDay]
         }
-    } else if (courseType === 'Bootcamp') {
+    } else if (courseType === 'Bootcamp FT' || courseType === 'Bootcamp PT') {
             dateObj = {
             ...dateObj, ...bootcampData.days[courseDay]
         }
@@ -111,10 +117,18 @@ const generateCourseDayObject = (dateObj, dateString, week, weekDay, date, utc, 
 
 const generateDataObject = (startDate, courseName, courseType) => {
     let date = DateTime.fromFormat(startDate, "yyyy-MM-dd");
-    // T16:00 is the time of class on the first day
-    let utc = DateTime.fromISO(startDate + 'T16:00', {zone: 'Singapore'}).toUTC().toISO();
-    // utc = utc.toUTC().toISO();
-    console.log('utc string', utc);
+    let utc;
+    // gets the time of the first class depending on which course it is
+    if (courseType === 'Basics') {
+        utc = DateTime.fromISO(startDate + 'T16:00', {zone: 'Singapore'}).toUTC().toISO();
+    } else if (courseType === 'Bootcamp FT' && Number(courseName) % 2 === 0) {
+        utc = DateTime.fromISO(startDate + 'T13:00', {zone: 'Singapore'}).toUTC().toISO();
+    } else if (courseType === 'Bootcamp FT' && Number(courseName) % 2 === 1) {
+        utc = DateTime.fromISO(startDate + 'T10:00', {zone: 'Singapore'}).toUTC().toISO();
+    } else {
+        utc = DateTime.fromISO(startDate + 'T19:00', {zone: 'Singapore'}).toUTC().toISO();
+    }
+
     let dateWeek = DateTime.fromFormat(startDate, "yyyy-MM-dd");
     let classDatesCount = 1;
     let week = 1;
@@ -130,13 +144,12 @@ const generateDataObject = (startDate, courseName, courseType) => {
         };
 
         data = generateTopLevelObject(courseType, topLevelObject);
-        console.log(data);
 
         // set the number of course days based on course type
         if (courseType === 'Basics') {
             courseDayCount = 13;
-        } else if (courseType === 'Bootcamp') {
-            courseDayCount = 49;
+        } else if (courseType === 'Bootcamp FT' || courseType === 'Bootcamp PT') {
+            courseDayCount = 68;
         }
 
         const dayArray = data.daysOfWeek;
@@ -202,6 +215,7 @@ const generateDataObject = (startDate, courseName, courseType) => {
             classDatesCount += 1;
         }
 
+    console.log('data', data);
     return data;
 }
 

@@ -17,15 +17,16 @@ const DatePicker = () => {
         dlAnchorElem.click();
     };
 
-    const handleSubmit = async () => {
+    const handleSubmit = async (e) => {
+        e.preventDefault();
         try {
-            const data = await generateDataObject(startDate, courseName, courseType);
-            console.log('data', data);
+        const data = await generateDataObject(startDate, courseName, courseType);
+        console.log('data', data);
             
-            download(data);
-        } 
+        download(data);
+        }
         catch (error) {
-            console.log(error);
+            console.log(error)
         }
     }
 
@@ -55,12 +56,13 @@ const DatePicker = () => {
                 <Form.Select aria-label="Default select example" onChange={(e) => setCourseType(e.target.value)}>
                     <option>Select course type</option>
                     <option value="Basics">Basics</option>
-                    <option value="Bootcamp">Bootcamp</option>
+                    <option value="Bootcamp FT">Bootcamp FT</option>
+                    <option value="Bootcamp PT">Bootcamp PT</option>
                 </Form.Select>
                 </Form.Group>
                 <br></br>
                 <div className="submit-button-container">
-                    <Button variant="primary" type="submit" onClick={handleSubmit}>
+                    <Button variant="primary" type="submit" onClick={(e) => {handleSubmit(e)}}>
                         Download File
                     </Button>
                 </div>
