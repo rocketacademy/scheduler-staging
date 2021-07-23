@@ -80,7 +80,11 @@ const generateCourseArrays = (data) => {
     // getting rows of table
     // for each subarray in the weekDates array, displayWeek is initialised to ['-', '-', '-']
     for (let n = 0; n < weekDates.length; n += 1) {
-        let displayWeek = ['-', '-', '-'];
+        let displayWeek = [];
+        dayNumbers.forEach((day) => {
+            displayWeek.push('-');
+        })
+        
         // each element in each subarray of weekDates is compared to the element in the same index
         // position in dayNumbers array
         for (let m = 0; m < weekDates[n].length; m += 1) {
@@ -109,7 +113,13 @@ const generateCourseDaysTable = (output) => {
     for (let p = 0; p < daysOfWeek.length; p += 1) {
         output += ` ${daysOfWeek[p]} |`;
     }
-    output += '\n| :---: | :---: | :---: | :---: |\n';
+
+    output += '\n| :---: |';
+    for (let r = 0; r < daysOfWeek.length; r += 1) {
+        output += ' :---: |';
+    }
+
+    output += '\n';
 
     // schedule table content
     for (let q = 0; q < tableRows.length; q += 1) {
