@@ -65,6 +65,11 @@ const DatePicker = () => {
                     </Button>
                 </div>
                 </Form>
+                <br></br>
+                <br></br>
+                <div>
+                    <a href="https://github.com/rocketacademy/scheduler">link to GitHub repo</a>
+                </div>
             </div>
         </div>
         </>

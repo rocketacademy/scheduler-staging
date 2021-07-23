@@ -1,4 +1,7 @@
 {
+  "daysOfWeek": [2, 6],
+  "courseStartIndex": 1,
+  "totalCourseDays": 13,
   "days": [
     {
       "courseDay": 0,

@@ -8,7 +8,7 @@ The app consists of 2 parts, a react app and a node script.
 
 # Instructions for use
 
-Start the react app with 'npm start'.
+The app is deployed at <https://rocketacademy.github.io/scheduler/>
 
 Fill in the form with required information, please make sure date picked for Basics start date is a Saturday, and date picked for Bootcamp start date is a Monday.
 

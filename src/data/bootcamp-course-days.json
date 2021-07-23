@@ -1,4 +1,10 @@
 {
+  "daysOfWeek": {
+    "fullTime": [1, 2, 3, 4, 5],
+    "partTime": [1, 3, 5]
+  },
+  "courseStartIndex": 0,
+  "totalCourseDays": 68,
   "days": [
     {
       "courseDay": 1,
