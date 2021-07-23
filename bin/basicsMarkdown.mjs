@@ -209,7 +209,7 @@ const whenFileIsRead = (error, content) => {
     generateCourseArrays(data);
     
     // initialize output
-    let output = '# Course Dates\n';
+    let output = '---\nWhat and when we will learn\n---\n# Course Dates\n';
 
     // add course table to output
     output = generateCourseDaysTable(output);
@@ -217,13 +217,16 @@ const whenFileIsRead = (error, content) => {
 
     // add course data to output
     output = generateCourseData(output, data);
+
+    // add further reading section to the end of page
+    output += '# Further Reading\n### Past Projects\n * [Drawing With Emojis](https://basics.rocketacademy.co/past-projects/drawing-with-emojis)\n * [Guess The Word](https://basics.rocketacademy.co/past-projects/guess-the-word)';
     console.log(output);
 
-    fs.writeFile(`src/markdown/${data.courseName}.md`, output, (writeErr) => {
-        if (writeErr) {
-            console.error('Writing error', writeErr);
-        }
-    });
+    // fs.writeFile(`src/markdown/${data.courseName}.md`, output, (writeErr) => {
+    //     if (writeErr) {
+    //         console.error('Writing error', writeErr);
+    //     }
+    // });
 }
 
 fs.readFile(filename, 'utf8', whenFileIsRead);

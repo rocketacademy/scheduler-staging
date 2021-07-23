@@ -34,13 +34,13 @@ publicHolidayArray.forEach((holiday) => {
 const getLocalDateTime = (utc, timeString, courseName, courseType, date) => {
     const changedFormat = date.toFormat("yyyy-MM-dd");
     if (courseType === 'Basics') {
-    utc = DateTime.fromISO(changedFormat + timeString, {zone: 'Singapore'}).toUTC().toISO();
+        utc = DateTime.fromISO(changedFormat + timeString, {zone: 'Singapore'}).toUTC().toISO();
+    } else if (courseType === 'Bootcamp FT' && Number(courseName) % 2 === 0) {
+        utc = DateTime.fromISO(changedFormat + 'T13:00', {zone: 'Singapore'}).toUTC().toISO();
+    } else if (courseType === 'Bootcamp FT' && Number(courseName) % 2 !== 0) {
+        utc = DateTime.fromISO(changedFormat + 'T10:00', {zone: 'Singapore'}).toUTC().toISO();
     } else {
-        if (courseType === 'Bootcamp' && Number(courseName) % 2 === 0) {
-            utc = DateTime.fromISO(changedFormat + 'T13:00', {zone: 'Singapore'}).toUTC().toISO();
-        } else if (courseType === 'Bootcamp' && Number(courseName) % 2 !== 0) {
-            utc = DateTime.fromISO(changedFormat + 'T10:00', {zone: 'Singapore'}).toUTC().toISO();
-        }
+        utc = DateTime.fromISO(changedFormat + 'T19:00', {zone: 'Singapore'}).toUTC().toISO();
     }
     return utc;
 }
@@ -118,17 +118,7 @@ const generateCourseDayObject = (dateObj, dateString, week, weekDay, date, utc, 
 const generateDataObject = (startDate, courseName, courseType) => {
     let date = DateTime.fromFormat(startDate, "yyyy-MM-dd");
     let utc;
-    // gets the time of the first class depending on which course it is
-    if (courseType === 'Basics') {
-        utc = DateTime.fromISO(startDate + 'T16:00', {zone: 'Singapore'}).toUTC().toISO();
-    } else if (courseType === 'Bootcamp FT' && Number(courseName) % 2 === 0) {
-        utc = DateTime.fromISO(startDate + 'T13:00', {zone: 'Singapore'}).toUTC().toISO();
-    } else if (courseType === 'Bootcamp FT' && Number(courseName) % 2 === 1) {
-        utc = DateTime.fromISO(startDate + 'T10:00', {zone: 'Singapore'}).toUTC().toISO();
-    } else {
-        utc = DateTime.fromISO(startDate + 'T19:00', {zone: 'Singapore'}).toUTC().toISO();
-    }
-
+    utc = getLocalDateTime(utc, 'T16:00', courseName, courseType, startDate);
     let dateWeek = DateTime.fromFormat(startDate, "yyyy-MM-dd");
     let classDatesCount = 1;
     let week = 1;
@@ -215,7 +205,6 @@ const generateDataObject = (startDate, courseName, courseType) => {
             classDatesCount += 1;
         }
 
-    console.log('data', data);
     return data;
 }
 
