@@ -58,7 +58,7 @@ const generateTopLevelObject = (courseType, topLevelObject) => {
             topLevelObject = {
                 daysOfWeek: [1, 2, 3, 4, 5],
                 courseStartIndex: 0,
-                totalCourseDays: 49,
+                totalCourseDays: 68,
                 ...topLevelObject
             }
         }
