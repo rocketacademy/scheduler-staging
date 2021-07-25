@@ -94,7 +94,7 @@ const generateCourseArrays = (data) => {
                     if (data.days[weekDates[n][m]].dateTypes.title) {
                         // the '-' in displayWeek is replaced by the dateString
                         const dateString = DateTime.fromISO(data.days[weekDates[n][m]].meetingDateTimeUTC).toFormat('d MMM');
-                        displayWeek[p] = `[${dateString}](#courseDay${data.days[weekDates[n][m]].courseDay})`;
+                        displayWeek[p] = `[${dateString}](#course-day-${data.days[weekDates[n][m]].courseDay})`;
                     } else {
                         // if title of the day does not exist, it means it's a public holiday
                         displayWeek[p] = `${data.days[weekDates[n][m]].dateTypes.holidayType} (${data.days[weekDates[n][m]].dateTypes.location})`;
@@ -141,7 +141,7 @@ const generateCourseData = (output, data) => {
         if (data.days[dates[i]].meetingDateTimeUTC) {
             // getting the date/time from utc string
             localDate = DateTime.fromISO(data.days[dates[i]].meetingDateTimeUTC).toFormat('EEE d MMM');
-            output += `# ${localDate}, Week ${data.days[dates[i]].courseWeek}, Course Day ${data.days[dates[i]].courseDay} {#courseDay${data.days[dates[i]].courseDay}}:`;
+            output += `# ${localDate}, Week ${data.days[dates[i]].courseWeek}, Course Day ${data.days[dates[i]].courseDay} {#course-day-${data.days[dates[i]].courseDay}}:`;
             // adding title to heading
             output += ` ${data.days[dates[i]].dateTypes.title}\n`;
             // getting meeting time
@@ -209,7 +209,7 @@ const whenFileIsRead = (error, content) => {
     generateCourseArrays(data);
     
     // initialize output
-    let output = '---\nWhat and when we will learn\n---\n# Course Dates\n';
+    let output = '---\ndescription: What and when we will learn\n---\n# Course Dates\n';
 
     // add course table to output
     output = generateCourseDaysTable(output);
@@ -222,11 +222,11 @@ const whenFileIsRead = (error, content) => {
     output += '# Further Reading\n### Past Projects\n * [Drawing With Emojis](https://basics.rocketacademy.co/past-projects/drawing-with-emojis)\n * [Guess The Word](https://basics.rocketacademy.co/past-projects/guess-the-word)';
     console.log(output);
 
-    // fs.writeFile(`src/markdown/${data.courseName}.md`, output, (writeErr) => {
-    //     if (writeErr) {
-    //         console.error('Writing error', writeErr);
-    //     }
-    // });
+    fs.writeFile(`src/markdown/${data.courseName}.md`, output, (writeErr) => {
+        if (writeErr) {
+            console.error('Writing error', writeErr);
+        }
+    });
 }
 
 fs.readFile(filename, 'utf8', whenFileIsRead);

@@ -31,7 +31,7 @@
       "courseWeek": 2,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-08-17T11:00:00.000Z",
+      "meetingDateTimeUTC": "2021-08-17T11:30:00.000Z",
       "courseDay": 1,
       "dateTypes": {
         "title": "Coding Tools ",
@@ -138,7 +138,7 @@
       "courseWeek": 3,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-08-24T11:00:00.000Z",
+      "meetingDateTimeUTC": "2021-08-24T11:30:00.000Z",
       "courseDay": 3,
       "dateTypes": {
         "title": "Logic 1",
@@ -245,7 +245,7 @@
       "courseWeek": 4,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-08-31T11:00:00.000Z",
+      "meetingDateTimeUTC": "2021-08-31T11:30:00.000Z",
       "courseDay": 5,
       "dateTypes": {
         "title": "State 2",
@@ -339,7 +339,7 @@
       "courseWeek": 5,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-09-07T11:00:00.000Z",
+      "meetingDateTimeUTC": "2021-09-07T11:30:00.000Z",
       "courseDay": 7,
       "dateTypes": {
         "title": "Loops 2",
@@ -421,7 +421,7 @@
       "courseWeek": 6,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-09-14T11:00:00.000Z",
+      "meetingDateTimeUTC": "2021-09-14T11:30:00.000Z",
       "courseDay": 9,
       "dateTypes": {
         "title": "Card Logic",
@@ -489,7 +489,7 @@
       "courseWeek": 7,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-09-21T11:00:00.000Z",
+      "meetingDateTimeUTC": "2021-09-21T11:30:00.000Z",
       "courseDay": 11,
       "dateTypes": {
         "title": "Debugger",
