@@ -12,18 +12,8 @@
         "module": "Module 1: Frontend Basics",
         "general": {
           "type": "general",
-          "projectStart": {},
-          "projectDue": {},
           "preClass": {
             "items": [
-              {
-                "name": "1.1.0: Wireframes",
-                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.1-html-and-css/1.1.0-wireframes"
-              },
-              {
-                "name": "1.1.1: HTML Basics",
-                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.1-html-and-css/1.1.1-basic-html"
-              },
               {
                 "name": "0.1: New JS Syntax",
                 "url": "https://bootcamp.rocketacademy.co/0-language-and-tooling/0.1-new-js-syntax"
@@ -62,6 +52,23 @@
               }
             ]
           },
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {
+            "items": [
+              {
+                "name": "1.1.0: Wireframes",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.1-html-and-css/1.1.0-wireframes"
+              },
+              {
+                "name": "1.1.1: HTML Basics",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.1-html-and-css/1.1.1-basic-html"
+              }
+            ]
+          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -82,6 +89,12 @@
           "preClass": {},
           "inClass": {},
           "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         }
       }
     },
@@ -91,14 +104,8 @@
         "module": "Module 1: Frontend Basics",
         "general": {
           "type": "general",
-          "projectStart": {},
-          "projectDue": {},
           "preClass": {
             "items": [
-              {
-                "name": "1.1.2: Basic CSS (Exercises Part 1)",
-                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.1-html-and-css/1.1.2-basic-css#part-1"
-              },
               {
                 "name": "1.3: High Card DOM",
                 "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.3-high-card-dom"
@@ -107,10 +114,6 @@
           },
           "inClass": {
             "items": [
-              {
-                "name": "Review 1 student's 1.POCE.1: Noodle Recipe Website",
-                "url": ""
-              },
               {
                 "name": "1.ICE.1: Drawing DOM (continued)",
                 "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.ice-in-class-exercises/1.ice.1-drawing-dom"
@@ -126,6 +129,25 @@
             ]
           }
         },
+        "css": {
+          "type": "css",
+          "preClass": {
+            "items": [
+              {
+                "name": "1.1.2: Basic CSS (Exercises Part 1)",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.1-html-and-css/1.1.2-basic-css#part-1"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "Review 1 student's 1.POCE.1: Noodle Recipe Website"
+              }
+            ]
+          },
+          "postClass": {}
+        },
         "dsa": {
           "type": "dsa",
           "preClass": {},
@@ -134,6 +156,12 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -146,14 +174,8 @@
         "module": "Module 1: Frontend Basics",
         "general": {
           "type": "general",
-          "projectStart": {},
-          "projectDue": {},
           "preClass": {
             "items": [
-              {
-                "name": "1.1.2: Basic CSS (Exercises Part 2, Tribute Page)",
-                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.1-html-and-css/1.1.2-basic-css#part-2-exercises-23-36-skip-last-8-exercises"
-              },
               {
                 "name": "1.5: High Card setTimeout",
                 "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.5-high-card-settimeout"
@@ -189,6 +211,19 @@
             ]
           }
         },
+        "css": {
+          "type": "css",
+          "preClass": {
+            "items": [
+              {
+                "name": "1.1.2: Basic CSS (Exercises Part 2, Tribute Page)",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.1-html-and-css/1.1.2-basic-css#part-2-exercises-23-36-skip-last-8-exercises"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {}
+        },
         "dsa": {
           "type": "dsa",
           "preClass": {},
@@ -197,6 +232,12 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -209,8 +250,6 @@
         "module": "Module 1: Frontend Basics",
         "general": {
           "type": "general",
-          "projectStart": {},
-          "projectDue": {},
           "preClass": {
             "items": [
               {
@@ -220,14 +259,6 @@
               {
                 "name": "1.8: Timer",
                 "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.8-timer"
-              },
-              {
-                "name": "1.1.3.1: CSS No Layout",
-                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.1-html-and-css/1.1.3-css-layout/1.1.3.1-no-layout"
-              },
-              {
-                "name": "1.1.3.2: CSS Display Inline Block",
-                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.1-html-and-css/1.1.3-css-layout/1.1.3.2-display-inline-and-block"
               }
             ]
           },
@@ -252,6 +283,23 @@
             ]
           }
         },
+        "css": {
+          "type": "css",
+          "preClass": {
+            "items": [
+              {
+                "name": "1.1.3.1: CSS No Layout",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.1-html-and-css/1.1.3-css-layout/1.1.3.1-no-layout"
+              },
+              {
+                "name": "1.1.3.2: CSS Display Inline Block",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.1-html-and-css/1.1.3-css-layout/1.1.3.2-display-inline-and-block"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {}
+        },
         "dsa": {
           "type": "dsa",
           "preClass": {},
@@ -260,6 +308,12 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -272,8 +326,6 @@
         "module": "Module 1: Frontend Basics",
         "general": {
           "type": "general",
-          "projectStart": {},
-          "projectDue": {},
           "preClass": {
             "items": [
               {
@@ -283,14 +335,6 @@
               {
                 "name": "1.10: Multi File Refactor",
                 "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.10-multi-file-refactor"
-              },
-              {
-                "name": "1.1.3.3: CSS Box Model",
-                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.1-html-and-css/1.1.3-css-layout/1.1.3.3-box-model"
-              },
-              {
-                "name": "1.1.3.4: CSS Layout Width",
-                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.1-html-and-css/1.1.3-css-layout/1.1.3.4-layout-fixed-width-and-max-width"
               }
             ]
           },
@@ -311,6 +355,23 @@
             ]
           }
         },
+        "css": {
+          "type": "css",
+          "preClass": {
+            "items": [
+              {
+                "name": "1.1.3.3: CSS Box Model",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.1-html-and-css/1.1.3-css-layout/1.1.3.3-box-model"
+              },
+              {
+                "name": "1.1.3.4: CSS Layout Width",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.1-html-and-css/1.1.3-css-layout/1.1.3.4-layout-fixed-width-and-max-width"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {}
+        },
         "dsa": {
           "type": "dsa",
           "preClass": {},
@@ -319,6 +380,12 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -343,14 +410,6 @@
           "preClass": {
             "items": [
               {
-                "name": "1.1.3.5: CSS Display Inline Block",
-                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.1-html-and-css/1.1.3-css-layout/1.1.3.5-display-inline-block"
-              },
-              {
-                "name": "1.1.3.6: CSS Layout Col / Card",
-                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.1-html-and-css/1.1.3-css-layout/1.1.3.6-layout-columns-and-cards"
-              },
-              {
                 "name": "0.4: JS Object as Tally",
                 "url": "https://bootcamp.rocketacademy.co/0-language-and-tooling/0.4-js-object-as-tally"
               }
@@ -359,19 +418,28 @@
           "inClass": {
             "items": [
               {
-                "name": "Review 1 student's 1.POCE.5: Tic Tac Toe",
-                "url": ""
+                "name": "Review 1 student's 1.POCE.5: Tic Tac Toe"
               }
             ]
           },
-          "postClass": {
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {
             "items": [
               {
-                "name": "Project 1 Implementation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-1-video-poker"
+                "name": "1.1.3.5: CSS Display Inline Block",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.1-html-and-css/1.1.3-css-layout/1.1.3.5-display-inline-block"
+              },
+              {
+                "name": "1.1.3.6: CSS Layout Col / Card",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.1-html-and-css/1.1.3-css-layout/1.1.3.6-layout-columns-and-cards"
               }
             ]
-          }
+          },
+          "inClass": {},
+          "postClass": {}
         },
         "dsa": {
           "type": "dsa",
@@ -384,6 +452,28 @@
           "preClass": {},
           "inClass": {},
           "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {
+            "items": [
+              {
+                "name": "Project 1: Video Poker",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-1-video-poker"
+              }
+            ]
+          },
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 1 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-1-video-poker"
+              }
+            ]
+          }
         }
       }
     },
