@@ -33,13 +33,14 @@ publicHolidayArray.forEach((holiday) => {
 // helper function for getting utc date/time
 const getLocalDateTime = (utc, timeString, courseName, courseType, date) => {
     const changedFormat = date.toFormat("yyyy-MM-dd");
+    console.log('changed format day', date.weekday);
     if (courseType === 'Basics') {
         utc = DateTime.fromISO(changedFormat + timeString, {zone: 'Singapore'}).toUTC().toISO();
     } else if (courseType === 'Bootcamp FT' && Number(courseName) % 2 === 0) {
         utc = DateTime.fromISO(changedFormat + 'T13:00', {zone: 'Singapore'}).toUTC().toISO();
-    } else if (courseType === 'Bootcamp FT' && Number(courseName) % 2 !== 0) {
+    } else if ((courseType === 'Bootcamp FT' && Number(courseName) % 2 !== 0) || (courseType === 'Bootcamp PT' && (date.weekday === 6))) {
         utc = DateTime.fromISO(changedFormat + 'T10:00', {zone: 'Singapore'}).toUTC().toISO();
-    } else {
+    } else if (courseType === 'Bootcamp PT' && (date.weekday === 1 || date.weekday === 3)) {
         utc = DateTime.fromISO(changedFormat + 'T19:30', {zone: 'Singapore'}).toUTC().toISO();
     }
     return utc;
