@@ -18,13 +18,12 @@
           },
           "postClass": {
             "items": []
-          },
-          "projectStart": {
-            "items": []
-          },
-          "projectDue": {
-            "items": []
           }
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {}
         }
       }
     },
@@ -84,13 +83,12 @@
           },
           "postClass": {
             "items": []
-          },
-          "projectStart": {
-            "items": []
-          },
-          "projectDue": {
-            "items": []
           }
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {}
         }
       }
     },
@@ -127,13 +125,12 @@
           },
           "postClass": {
             "items": []
-          },
-          "projectStart": {
-            "items": []
-          },
-          "projectDue": {
-            "items": []
           }
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {}
         }
       }
     },
@@ -170,7 +167,10 @@
           },
           "postClass": {
             "items": []
-          },
+          }
+        },
+        "projects": {
+          "type": "projects",
           "projectStart": {
             "mdText": "{% hint style=\"warning\" %}\nWe may want to review [7.1: GitHub Fork and Pull Request](https://basics.rocketacademy.co/7-github/7.1-github-fork-and-pull-request) before starting the project.\n{% endhint %}\n",
             "items": [
@@ -180,9 +180,7 @@
               }
             ]
           },
-          "projectDue": {
-            "items": []
-          }
+          "projectDue": {}
         }
       }
     },
@@ -219,7 +217,10 @@
           },
           "postClass": {
             "items": []
-          },
+          }
+        },
+        "projects": {
+          "type": "projects",
           "projectStart": {
             "mdText": "{% hint style=\"warning\" %}\nWe may want to review 8.2: Program State for Game Modes before completing the More Comfortable section of SPS Part 2.\n{% endhint %}\n",
             "items": [
@@ -269,7 +270,10 @@
           },
           "postClass": {
             "items": []
-          },
+          }
+        },
+        "projects": {
+          "type": "projects",
           "projectStart": {
             "items": [
               {
@@ -329,6 +333,11 @@
           "projectDue": {
             "items": []
           }
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {}
         }
       }
     },
@@ -364,6 +373,11 @@
           "projectDue": {
             "items": []
           }
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {}
         }
       }
     },
@@ -392,7 +406,10 @@
           },
           "postClass": {
             "items": []
-          },
+          }
+        },
+        "projects": {
+          "type": "projects",
           "projectStart": {
             "items": [
               {
@@ -437,14 +454,13 @@
           },
           "postClass": {
             "items": []
-          },
-          "projectStart": {
-            "items": []
-          },
-          "projectDue": {
-            "items": []
           }
         }
+      },
+      "projects": {
+        "type": "projects",
+        "projectStart": {},
+        "projectDue": {}
       }
     },
     {
@@ -472,13 +488,12 @@
           },
           "postClass": {
             "items": []
-          },
-          "projectStart": {
-            "items": []
-          },
-          "projectDue": {
-            "items": []
           }
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {}
         }
       }
     },
@@ -511,7 +526,10 @@
           },
           "postClass": {
             "items": []
-          },
+          }
+        },
+        "projects": {
+          "type": "projects",
           "projectStart": {
             "items": [
               {
@@ -569,10 +587,11 @@
           },
           "postClass": {
             "items": []
-          },
-          "projectStart": {
-            "items": []
-          },
+          }
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
           "projectDue": {
             "items": [
               {

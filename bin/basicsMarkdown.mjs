@@ -33,10 +33,6 @@ const generateSectionList = (sectionName, sectionType) => {
             sectionString = '### In Class:\n';
         } else if (sectionName === 'postclass') {
             sectionString = '### Post Class:\n';
-        } else if (sectionName === 'projectdue') {
-            sectionString = '### Project Due:\n';
-        } else if (sectionName === 'projectstart') {
-            sectionString = '### Project Start:\n';
         } 
     }
     
@@ -165,13 +161,31 @@ const generateCourseData = (output, data) => {
 
         // generate day's course material
         const generalDateTypes = data.days[dates[i]].dateTypes.general;
+        const projectDateTypes = data.days[dates[i]].dateTypes.projects;
+
+        if (projectDateTypes) {
+            if (projectDateTypes.projectDue.items) {
+                output += '### Project Due:\n';
+                output += `[${projectDateTypes.projectDue.items[0].name}](${projectDateTypes.projectDue.items[0].url})\n\n`;
+            }
+        }
+
         if (generalDateTypes) {
-            const sectionNames = ['projectdue', 'preclass', 'inclass', 'postclass', 'projectstart'];
-            const sectionTypes = [ generalDateTypes.projectDue, generalDateTypes.preClass, generalDateTypes.inClass, generalDateTypes.postClass, generalDateTypes.projectStart];
+            const sectionNames = ['preclass', 'inclass', 'postclass'];
+            const sectionTypes = [generalDateTypes.preClass, generalDateTypes.inClass, generalDateTypes.postClass];
             for (let t = 0; t < sectionNames.length; t += 1) {
                 output += generateSectionList(sectionNames[t], sectionTypes[t]);
             }
         };
+
+        if (projectDateTypes) {
+            if (projectDateTypes.projectStart.items) {
+                if (projectDateTypes.projectStart.items.length > 0) {
+                output += '### Project Start:\n';
+                output += `[${projectDateTypes.projectStart.items[0].name}](${projectDateTypes.projectStart.items[0].url})\n\n`;
+                }
+            }
+        }
         output += '\n\n';
     }
     return output;
@@ -222,11 +236,11 @@ const whenFileIsRead = (error, content) => {
     output += '# Further Reading\n### Past Projects\n * [Drawing With Emojis](https://basics.rocketacademy.co/past-projects/drawing-with-emojis)\n * [Guess The Word](https://basics.rocketacademy.co/past-projects/guess-the-word)';
     console.log(output);
 
-    fs.writeFile(`src/markdown/${data.courseName}.md`, output, (writeErr) => {
-        if (writeErr) {
-            console.error('Writing error', writeErr);
-        }
-    });
+    // fs.writeFile(`src/markdown/${data.courseName}.md`, output, (writeErr) => {
+    //     if (writeErr) {
+    //         console.error('Writing error', writeErr);
+    //     }
+    // });
 }
 
 fs.readFile(filename, 'utf8', whenFileIsRead);

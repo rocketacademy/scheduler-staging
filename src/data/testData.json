@@ -4,12 +4,12 @@
   "totalCourseDays": 13,
   "courseType": "Basics",
   "days": {
-    "14-08-2021": {
-      "courseDate": "14-08-2021",
+    "31-07-2021": {
+      "courseDate": "31-07-2021",
       "courseWeek": 1,
       "weekDay": 1,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2021-08-14T08:00:00.000Z",
+      "meetingDateTimeUTC": "2021-07-31T08:00:00.000Z",
       "courseDay": 0,
       "dateTypes": {
         "title": "Pre-Course Briefing",
@@ -20,18 +20,17 @@
             "items": []
           },
           "inClass": { "items": [] },
-          "postClass": { "items": [] },
-          "projectStart": { "items": [] },
-          "projectDue": { "items": [] }
-        }
+          "postClass": { "items": [] }
+        },
+        "projects": { "type": "projects", "projectStart": {}, "projectDue": {} }
       }
     },
-    "17-08-2021": {
-      "courseDate": "17-08-2021",
+    "03-08-2021": {
+      "courseDate": "03-08-2021",
       "courseWeek": 2,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-08-17T11:30:00.000Z",
+      "meetingDateTimeUTC": "2021-08-03T11:30:00.000Z",
       "courseDay": 1,
       "dateTypes": {
         "title": "Coding Tools ",
@@ -85,18 +84,17 @@
               }
             ]
           },
-          "postClass": { "items": [] },
-          "projectStart": { "items": [] },
-          "projectDue": { "items": [] }
-        }
+          "postClass": { "items": [] }
+        },
+        "projects": { "type": "projects", "projectStart": {}, "projectDue": {} }
       }
     },
-    "21-08-2021": {
-      "courseDate": "21-08-2021",
+    "07-08-2021": {
+      "courseDate": "07-08-2021",
       "courseWeek": 2,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2021-08-21T05:00:00.000Z",
+      "meetingDateTimeUTC": "2021-08-07T05:00:00.000Z",
       "courseDay": 2,
       "dateTypes": {
         "title": "Functions",
@@ -127,18 +125,17 @@
               }
             ]
           },
-          "postClass": { "items": [] },
-          "projectStart": { "items": [] },
-          "projectDue": { "items": [] }
-        }
+          "postClass": { "items": [] }
+        },
+        "projects": { "type": "projects", "projectStart": {}, "projectDue": {} }
       }
     },
-    "24-08-2021": {
-      "courseDate": "24-08-2021",
+    "10-08-2021": {
+      "courseDate": "10-08-2021",
       "courseWeek": 3,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-08-24T11:30:00.000Z",
+      "meetingDateTimeUTC": "2021-08-10T11:30:00.000Z",
       "courseDay": 3,
       "dateTypes": {
         "title": "Logic 1",
@@ -169,7 +166,10 @@
               }
             ]
           },
-          "postClass": { "items": [] },
+          "postClass": { "items": [] }
+        },
+        "projects": {
+          "type": "projects",
           "projectStart": {
             "mdText": "{% hint style=\"warning\" %}\nWe may want to review [7.1: GitHub Fork and Pull Request](https://basics.rocketacademy.co/7-github/7.1-github-fork-and-pull-request) before starting the project.\n{% endhint %}\n",
             "items": [
@@ -179,16 +179,16 @@
               }
             ]
           },
-          "projectDue": { "items": [] }
+          "projectDue": {}
         }
       }
     },
-    "28-08-2021": {
-      "courseDate": "28-08-2021",
+    "14-08-2021": {
+      "courseDate": "14-08-2021",
       "courseWeek": 3,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2021-08-28T05:00:00.000Z",
+      "meetingDateTimeUTC": "2021-08-14T05:00:00.000Z",
       "courseDay": 4,
       "dateTypes": {
         "title": "Logic 2, State 1",
@@ -219,7 +219,10 @@
               }
             ]
           },
-          "postClass": { "items": [] },
+          "postClass": { "items": [] }
+        },
+        "projects": {
+          "type": "projects",
           "projectStart": {
             "mdText": "{% hint style=\"warning\" %}\nWe may want to review 8.2: Program State for Game Modes before completing the More Comfortable section of SPS Part 2.\n{% endhint %}\n",
             "items": [
@@ -240,12 +243,12 @@
         }
       }
     },
-    "31-08-2021": {
-      "courseDate": "31-08-2021",
+    "17-08-2021": {
+      "courseDate": "17-08-2021",
       "courseWeek": 4,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-08-31T11:30:00.000Z",
+      "meetingDateTimeUTC": "2021-08-17T11:30:00.000Z",
       "courseDay": 5,
       "dateTypes": {
         "title": "State 2",
@@ -272,7 +275,10 @@
               }
             ]
           },
-          "postClass": { "items": [] },
+          "postClass": { "items": [] }
+        },
+        "projects": {
+          "type": "projects",
           "projectStart": {
             "items": [
               {
@@ -292,12 +298,12 @@
         }
       }
     },
-    "04-09-2021": {
-      "courseDate": "04-09-2021",
+    "21-08-2021": {
+      "courseDate": "21-08-2021",
       "courseWeek": 4,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2021-09-04T05:00:00.000Z",
+      "meetingDateTimeUTC": "2021-08-21T05:00:00.000Z",
       "courseDay": 6,
       "dateTypes": {
         "title": "Arrays, Loops 1",
@@ -331,15 +337,16 @@
           "postClass": { "items": [] },
           "projectStart": { "items": [] },
           "projectDue": { "items": [] }
-        }
+        },
+        "projects": { "type": "projects", "projectStart": {}, "projectDue": {} }
       }
     },
-    "07-09-2021": {
-      "courseDate": "07-09-2021",
+    "24-08-2021": {
+      "courseDate": "24-08-2021",
       "courseWeek": 5,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-09-07T11:30:00.000Z",
+      "meetingDateTimeUTC": "2021-08-24T11:30:00.000Z",
       "courseDay": 7,
       "dateTypes": {
         "title": "Loops 2",
@@ -365,15 +372,16 @@
           "postClass": { "items": [] },
           "projectStart": { "items": [] },
           "projectDue": { "items": [] }
-        }
+        },
+        "projects": { "type": "projects", "projectStart": {}, "projectDue": {} }
       }
     },
-    "11-09-2021": {
-      "courseDate": "11-09-2021",
+    "28-08-2021": {
+      "courseDate": "28-08-2021",
       "courseWeek": 5,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2021-09-11T05:00:00.000Z",
+      "meetingDateTimeUTC": "2021-08-28T05:00:00.000Z",
       "courseDay": 8,
       "dateTypes": {
         "title": "Objects",
@@ -396,7 +404,10 @@
               }
             ]
           },
-          "postClass": { "items": [] },
+          "postClass": { "items": [] }
+        },
+        "projects": {
+          "type": "projects",
           "projectStart": {
             "items": [
               {
@@ -416,12 +427,12 @@
         }
       }
     },
-    "14-09-2021": {
-      "courseDate": "14-09-2021",
+    "31-08-2021": {
+      "courseDate": "31-08-2021",
       "courseWeek": 6,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-09-14T11:30:00.000Z",
+      "meetingDateTimeUTC": "2021-08-31T11:30:00.000Z",
       "courseDay": 9,
       "dateTypes": {
         "title": "Card Logic",
@@ -444,18 +455,17 @@
               }
             ]
           },
-          "postClass": { "items": [] },
-          "projectStart": { "items": [] },
-          "projectDue": { "items": [] }
+          "postClass": { "items": [] }
         }
-      }
+      },
+      "projects": { "type": "projects", "projectStart": {}, "projectDue": {} }
     },
-    "18-09-2021": {
-      "courseDate": "18-09-2021",
+    "04-09-2021": {
+      "courseDate": "04-09-2021",
       "courseWeek": 6,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2021-09-18T05:00:00.000Z",
+      "meetingDateTimeUTC": "2021-09-04T05:00:00.000Z",
       "courseDay": 10,
       "dateTypes": {
         "title": "Coding Strategies",
@@ -478,18 +488,17 @@
               }
             ]
           },
-          "postClass": { "items": [] },
-          "projectStart": { "items": [] },
-          "projectDue": { "items": [] }
-        }
+          "postClass": { "items": [] }
+        },
+        "projects": { "type": "projects", "projectStart": {}, "projectDue": {} }
       }
     },
-    "21-09-2021": {
-      "courseDate": "21-09-2021",
+    "07-09-2021": {
+      "courseDate": "07-09-2021",
       "courseWeek": 7,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-09-21T11:30:00.000Z",
+      "meetingDateTimeUTC": "2021-09-07T11:30:00.000Z",
       "courseDay": 11,
       "dateTypes": {
         "title": "Debugger",
@@ -516,7 +525,10 @@
               }
             ]
           },
-          "postClass": { "items": [] },
+          "postClass": { "items": [] }
+        },
+        "projects": {
+          "type": "projects",
           "projectStart": {
             "items": [
               {
@@ -536,12 +548,12 @@
         }
       }
     },
-    "25-09-2021": {
-      "courseDate": "25-09-2021",
+    "11-09-2021": {
+      "courseDate": "11-09-2021",
       "courseWeek": 7,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2021-09-25T05:00:00.000Z",
+      "meetingDateTimeUTC": "2021-09-11T05:00:00.000Z",
       "courseDay": 12,
       "dateTypes": {
         "title": "Project Presentations",
@@ -571,8 +583,11 @@
               { "name": "Class Photo 🥳" }
             ]
           },
-          "postClass": { "items": [] },
-          "projectStart": { "items": [] },
+          "postClass": { "items": [] }
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
           "projectDue": {
             "items": [
               {
@@ -589,5 +604,5 @@
       }
     }
   },
-  "courseName": "14-08-2021_25-09-2021_BATCH10"
+  "courseName": "31-07-2021_11-09-2021_BATCH45"
 }
