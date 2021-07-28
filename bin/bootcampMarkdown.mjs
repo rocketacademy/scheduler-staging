@@ -45,7 +45,11 @@ const generateProjectNotifications = (projectStatus, projectdue, projectstart, o
                 output += `### Project Start\n`;
             }
             for (let l = 0; l < projectStatus.items.length; l += 1) {
-                output += `* [${projectStatus.items[l].name}](${projectStatus.items[l].url})\n`;
+                if (projectStatus.items[l].url) {
+                    output += `* [${projectStatus.items[l].name}](${projectStatus.items[l].url})\n`;
+                } else {
+                    output += `* ${projectStatus.items[l].name}\n`;
+                }
             }
         }
     }
@@ -92,7 +96,11 @@ const generateDatetypeSections = (datetypeSections, classtype, output) => {
             }
             if (classType.items) {
                 for (let k = 0; k < classType.items.length; k += 1) {
-                    output += `* [${classType.items[k].name}](${classType.items[k].url})\n`;
+                    if (classType.items[k].url) {
+                        output += `* [${classType.items[k].name}](${classType.items[k].url})\n`;
+                    } else {
+                        output += `* ${classType.items[k].name}\n`;
+                    }
                 };
             };
         }
@@ -140,7 +148,7 @@ const whenFileIsRead = (error, content) => {
     })
 
     // initialise output
-    let output = '# Course Schedule';
+    let output = '# Course Schedule\n';
 
     for (let i = 0; i < courseWeeks.length; i += 1) {
         for (let j = 0; j < courseDates.length; j += 1) {
@@ -205,7 +213,7 @@ const whenFileIsRead = (error, content) => {
         }
     
     }
-    console.log('output', output);
+    // console.log('output', output);
     fs.writeFile(`src/markdown/${data.courseName}.md`, output, (writeErr) => {
         if (writeErr) {
             console.error('Writing error', writeErr);

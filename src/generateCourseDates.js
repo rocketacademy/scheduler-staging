@@ -142,7 +142,7 @@ const generateDataObject = (startDate, courseName, courseType) => {
     if (courseType === 'Basics') {
         courseDayCount = 13;
     } else if (courseType === 'Bootcamp FT' || courseType === 'Bootcamp PT') {
-        courseDayCount = 68;
+        courseDayCount = 115;
     }
 
     const dayArray = data.daysOfWeek;

@@ -4,7 +4,7 @@
     "partTime": [1, 3, 6]
   },
   "courseStartIndex": 0,
-  "totalCourseDays": 68,
+  "totalCourseDays": 115,
   "days": [
     {
       "courseDay": 1,
@@ -8084,72 +8084,6 @@
       }
     },
     {
-      "courseDay": 111,
-      "dateTypes": {
-        "module": "Module 9: Advanced Topics",
-        "general": {
-          "type": "general",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "CP.3: Portfolio",
-                "url": "https://bootcamp.rocketacademy.co/career-prep/cp.3-portfolio"
-              }
-            ]
-          }
-        },
-        "css": {
-          "type": "css",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "dsa": {
-          "type": "dsa",
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "DS&A Open Practice",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "DS&A Open Practice",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
-              }
-            ]
-          }
-        },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "projects": {
-          "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 6 Implementation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
       "courseDay": 113,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -8305,22 +8239,8 @@
         "dsa": {
           "type": "dsa",
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "DS&A Open Practice",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "DS&A Open Practice",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
-              }
-            ]
-          }
+          "inClass": {},
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
