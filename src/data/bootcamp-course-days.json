@@ -4935,6 +4935,3422 @@
           }
         }
       }
+    },
+    {
+      "courseDay": 69,
+      "dateTypes": {
+        "module": "Module 7: React",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "7.7.2: useEffect",
+                "url": "https://bootcamp.rocketacademy.co/7-react/7.7-designing-component-hierarchy/7.7.2-useeffect"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "7.POCE.4: Hot Pot Bill Splitter",
+                "url": "https://bootcamp.rocketacademy.co/7-react/7.poce-post-class-exercises/7.poce.4-hot-pot-bill-splitter"
+              }
+            ]
+          }
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "D.7: Recursion - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-2"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "D.7: Recursion - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-2"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 4 Ideation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-1"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 70,
+      "dateTypes": {
+        "module": "Module 7: React",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "7.8: Error Boundaries",
+                "url": "https://bootcamp.rocketacademy.co/7-react/7.8-error-boundaries"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "7.POCE.4: Hot Pot Bill Splitter",
+                "url": "https://bootcamp.rocketacademy.co/7-react/7.poce-post-class-exercises/7.poce.4-hot-pot-bill-splitter"
+              }
+            ]
+          }
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "D.7: Recursion - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-3"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "D.7: Recursion - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-3"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 4 deadline to post ideas to Slack"
+              }
+            ]
+          },
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 4 Ideation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-1"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 71,
+      "dateTypes": {
+        "module": "Module 7: React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Review 7.POCE.4: Hot Pot Bill Splitter",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#peer-code-review"
+              }
+            ]
+          },
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {
+            "items": [
+              {
+                "name": "D.5.6: Trees - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#pre-class"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "D.5.6: Trees - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-1"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "D.5.6: Trees - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-1"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 4 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-2"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 72,
+      "dateTypes": {
+        "module": "Module 7: React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "D.5.6: Trees - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-2"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "D.5.6: Trees - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-2"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 4 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 4 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 73,
+      "dateTypes": {
+        "module": "Module 7: React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "D.5.6: Trees - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-3"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "D.5.6: Trees - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-3"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 4 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 4 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 74,
+      "dateTypes": {
+        "module": "Module 7: React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "D.5.6: Trees - Part 4",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-4"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "D.5.6: Trees - Part 4",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-4"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 4 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 4 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 75,
+      "dateTypes": {
+        "module": "Module 7: React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "D.5.6: Trees - Part 5",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-5"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "D.5.6: Trees - Part 5",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-5"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 4 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 4 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 76,
+      "dateTypes": {
+        "module": "Module 7: React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "D.5.6: Trees - Part 6",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-6"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "D.5.6: Trees - Part 6",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-6"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 4 MVP Deadline (deployed)"
+              }
+            ]
+          },
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 4 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              },
+              {
+                "name": "Project 4 In-Class Code Review"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 4 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 77,
+      "dateTypes": {
+        "module": "Module 7: React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {
+            "items": [
+              {
+                "name": "D.5.7: Graphs - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.7-graphs"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "D.5.7: Graphs - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.7-graphs#part-1"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "D.5.7: Graphs - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.7-graphs#part-1"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 4 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 4 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 78,
+      "dateTypes": {
+        "module": "Module 7: React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "D.5.7: Graphs - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.7-graphs#part-2"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "D.5.7: Graphs - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.7-graphs#part-2"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 4 Feature Freeze"
+              }
+            ]
+          },
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 4 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 4 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 79,
+      "dateTypes": {
+        "module": "Module 7: React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {
+            "items": [
+              {
+                "name": "D.5.8: Heaps - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.8-heaps#pre-class"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "D.5.8: Heaps - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.4-queues#part-1"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "D.5.8: Heaps - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.4-queues#part-1"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 4 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 4 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 80,
+      "dateTypes": {
+        "module": "Module 7: React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "D.5.8: Heaps - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.8-heaps#part-2"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "D.5.8: Heaps - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.8-heaps#part-2"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 4: Full-Stack React App",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app"
+              }
+            ]
+          },
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 4 Presentations",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-presentations"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 4 Post-Mortems",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-post-mortem-meeting"
+              },
+              {
+                "name": "Project 4 Video Demo",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#video-demo"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 81,
+      "dateTypes": {
+        "module": "Module 8: Advanced React",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "8.1: Create React App",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.1-create-react-app"
+              },
+              {
+                "name": "8.1.1: Create React App Full Stack",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.1-create-react-app/8.1.1-create-react-app-full-stack-setup"
+              },
+              {
+                "name": "8.2: Higher Order Components",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.3-higher-order-components"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "D.5.8: Heaps - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.8-heaps#part-3"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "D.5.8: Heaps - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.8-heaps#part-3"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 4 Video Demo",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#video-demo"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 82,
+      "dateTypes": {
+        "module": "Module 8: Advanced React",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "8.3.1: useContext",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.2-usecontext/8.3.1-usecontext"
+              },
+              {
+                "name": "8.3.2: useReducer",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.2-usecontext/8.3.2-usereducer"
+              },
+              {
+                "name": "8.3.3: useContext + useReducer",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.2-usecontext/8.3.3-usecontext-+-usereducer"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "8.ICE.1: useContext",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.ice-in-class-exercises/8.ice.1-usecontext"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "8.POCE.1: Car Rental",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.poce-post-class-exercises/8.poce.1-car-rental"
+              }
+            ]
+          }
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 4 Video Demo",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#video-demo"
+              }
+            ]
+          },
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 83,
+      "dateTypes": {
+        "module": "Module 8: Advanced React",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "8.3.4: React E-Commerce App with Store",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.2-usecontext/8.3.4-react-e-commerce-app-with-store"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "8.POCE.1: Car Rental",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.poce-post-class-exercises/8.poce.1-car-rental"
+              }
+            ]
+          }
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {
+            "items": [
+              {
+                "name": "D.9: Dynamic Programming - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#pre-class"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "D.9: Dynamic Programming - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#part-1"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "D.9: Dynamic Programming - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#part-1"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {
+            "items": [
+              {
+                "name": "Project 5: Group React App",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app"
+              }
+            ]
+          },
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 5 Ideation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 84,
+      "dateTypes": {
+        "module": "Module 8: Advanced React",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "8.4: React Router",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.4-react-router"
+              },
+              {
+                "name": "8.4.1: React Router Shopping",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.4-react-router/8.4.1-react-router-shopping"
+              },
+              {
+                "name": "8.4.2: React Router Deep Linking",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.4-react-router/8.4.2-react-router-deep-linking"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "8.POCE.1: Car Rental",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.poce-post-class-exercises/8.poce.1-car-rental"
+              }
+            ]
+          }
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {
+            "items": [
+              {
+                "name": "D.9: Dynamic Programming - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#pre-class"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "D.9: Dynamic Programming - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#part-2"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "D.9: Dynamic Programming - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#part-2"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 5 Ideation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 85,
+      "dateTypes": {
+        "module": "Module 8: Advanced React",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "8.5: Advanced useEffect",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.5-advanced-useeffect"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "8.POCE.2: (Group Project) Climbing Trip",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.poce-post-class-exercises/8.poce.2-rock-climbing-trip-planner"
+              }
+            ]
+          }
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "D.9: Dynamic Programming - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#part-3"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "D.9: Dynamic Programming - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#part-3"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 5 Ideation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 86,
+      "dateTypes": {
+        "module": "Module 8: Advanced React",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "8.6: Styled Components",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.6-styled-components"
+              },
+              {
+                "name": "8.7: React Portals",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.7-react-portals"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "8.POCE.2: (Group Project) Climbing Trip",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.poce-post-class-exercises/8.poce.2-rock-climbing-trip-planner"
+              }
+            ]
+          }
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {
+            "items": [
+              {
+                "name": "D.10: Bit Manipulation - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.10-bit-manipulation#pre-class"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "D.10: Bit Manipulation - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.10-bit-manipulation#part-1"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "D.10: Bit Manipulation - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.10-bit-manipulation#part-1"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 5 Ideation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 87,
+      "dateTypes": {
+        "module": "Module 8: Advanced React",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "8.8: React NPM Packages",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.8-react-npm-packages"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "8.POCE.2: (Group Project) Climbing Trip",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.poce-post-class-exercises/8.poce.2-rock-climbing-trip-planner"
+              }
+            ]
+          }
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {
+            "items": [
+              {
+                "name": "D.11.1: Recursive Backtracking - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.11-notable-patterns/d.11.1-recursive-backtracking#pre-class"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "D.11.1: Recursive Backtracking - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.11-notable-patterns/d.11.1-recursive-backtracking#part-1"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "D.11.1: Recursive Backtracking - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.11-notable-patterns/d.11.1-recursive-backtracking#part-1"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 5 Ideation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 88,
+      "dateTypes": {
+        "module": "Module 8: Advanced React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "8.POCE.2: (Group Project) Climbing Trip",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.poce-post-class-exercises/8.poce.2-rock-climbing-trip-planner"
+              }
+            ]
+          }
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {
+            "items": [
+              {
+                "name": "D.11.2: Binary Search - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.11-notable-patterns/d.11.2-binary-search#pre-class"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "D.11.2: Binary Search - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.11-notable-patterns/d.11.2-binary-search#part-1"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "D.11.2: Binary Search - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.11-notable-patterns/d.11.2-binary-search#part-1"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 5 deadline to post ideas and teams in Slack"
+              }
+            ]
+          },
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 5 Ideation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 89,
+      "dateTypes": {
+        "module": "Module 8: Advanced React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "8.POCE.2: Climbing Trip Redux",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.poce-post-class-exercises/8.poce.2-rock-climbing-trip-planner"
+              }
+            ]
+          },
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {
+            "items": [
+              {
+                "name": "D.11.3: Sliding Windows - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.11-notable-patterns/d.11.3-sliding-windows#pre-class"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "D.11.3: Sliding Windows - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.11-notable-patterns/d.11.3-sliding-windows#part-1"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "D.11.3: Sliding Windows - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.11-notable-patterns/d.11.3-sliding-windows#part-1"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 5 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-2"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 90,
+      "dateTypes": {
+        "module": "Module 8: Advanced React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 5 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 91,
+      "dateTypes": {
+        "module": "Module 8: Advanced React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 5 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 92,
+      "dateTypes": {
+        "module": "Module 8: Advanced React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 5 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 93,
+      "dateTypes": {
+        "module": "Module 8: Advanced React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 5 MVP (deployed)"
+              }
+            ]
+          },
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 5 MVP Review"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 5 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 94,
+      "dateTypes": {
+        "module": "Module 8: Advanced React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 5 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 95,
+      "dateTypes": {
+        "module": "Module 8: Advanced React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 5 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 96,
+      "dateTypes": {
+        "module": "Module 8: Advanced React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 5 Feature Freeze"
+              }
+            ]
+          },
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 5 Feature Freeze Review"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 5 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 97,
+      "dateTypes": {
+        "module": "Module 8: Advanced React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 5 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 98,
+      "dateTypes": {
+        "module": "Module 8: Advanced React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {
+            "items": [
+              {
+                "name": "Project 6: Capstone",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
+              }
+            ]
+          },
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 5: Group React App",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app"
+              }
+            ]
+          },
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 5 Presentations",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-presentations"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 5 Post-Mortems",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-post-mortem-meeting"
+              },
+              {
+                "name": "Project 5 Video",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#video-demo"
+              },
+              {
+                "name": "Project 6 Ideation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#ideation-phase-1"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 99,
+      "dateTypes": {
+        "module": "Module 8: Advanced React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 5 Video",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#video-demo"
+              },
+              {
+                "name": "Project 6 Ideation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#ideation-phase-1"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 100,
+      "dateTypes": {
+        "module": "Module 9: Advanced Topics",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "9.1 Security",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.2-security"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 5 Video",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#video-demo"
+              }
+            ]
+          },
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 6 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#ideation-phase-2"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 101,
+      "dateTypes": {
+        "module": "Module 9: Advanced Topics",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "9.1: Testing",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.1-testing"
+              },
+              {
+                "name": "9.1.1: Unit Testing",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.1-testing/9.1.1-unit-testing"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "9.ICE.1: Unit Testing",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.ice-in-class-exercises/9.ice.1-unit-testing"
+              }
+            ]
+          },
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 6 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 102,
+      "dateTypes": {
+        "module": "Module 9: Advanced Topics",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "9.1.2: TDD",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.1-testing/9.1.2-tdd"
+              },
+              {
+                "name": "9.1.3: CI",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.1-testing/9.1.3-ci"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 6 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 103,
+      "dateTypes": {
+        "module": "Module 9: Advanced Topics",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "9.2.1: XSS",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.2-security/9.2.1-xss"
+              },
+              {
+                "name": "9.2.2: CSRF",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.2-security/9.2.2-csrf"
+              },
+              {
+                "name": "9.2.3: SQL Injection",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.2-security/9.2.3-sql-injection"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 6 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 104,
+      "dateTypes": {
+        "module": "Module 9: Advanced Topics",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "9.3: Django",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.3-django"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 6 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 105,
+      "dateTypes": {
+        "module": "Module 9: Advanced Topics",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "9.3: Django",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.3-django"
+              },
+              {
+                "name": "9.3.1: Django User Login",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.3-django/9.3.1-django-user-login"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 6 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 106,
+      "dateTypes": {
+        "module": "Module 9: Advanced Topics",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "9.4: React Native",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.4-react-native"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 6 MVP (deployed)"
+              }
+            ]
+          },
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 6 MVP Review"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 6 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 107,
+      "dateTypes": {
+        "module": "Module 9: Advanced Topics",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "9.5: ML - Naive Bayes Theorem",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.5-ml-bayes-theorem"
+              },
+              {
+                "name": "9.5.1: ML - Naive Bayes Classifier JS",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.5-ml-bayes-theorem/9.5.1-ml-naive-bayes-classifier-javascript"
+              },
+              {
+                "name": "9.5.2: ML - Naive Bayes Classifier Python",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.5-ml-bayes-theorem/9.5.2-ml-naive-bayes-classifier-python"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 6 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 108,
+      "dateTypes": {
+        "module": "Module 9: Advanced Topics",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "CP.1: Job Application Strategy",
+                "url": "https://bootcamp.rocketacademy.co/career-prep/cp.1-job-application-strategy"
+              },
+              {
+                "name": "CP.2: Resume",
+                "url": "https://bootcamp.rocketacademy.co/career-prep/cp.2-resume"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "CP.2: Resume",
+                "url": "https://bootcamp.rocketacademy.co/career-prep/cp.2-resume"
+              }
+            ]
+          }
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 6 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 109,
+      "dateTypes": {
+        "module": "Module 9: Advanced Topics",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "CP.2: Resume",
+                "url": "https://bootcamp.rocketacademy.co/career-prep/cp.2-resume"
+              }
+            ]
+          }
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 6 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 110,
+      "dateTypes": {
+        "module": "Module 9: Advanced Topics",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "Resume 1st Draft"
+              },
+              {
+                "name": "CP.3: Portfolio",
+                "url": "https://bootcamp.rocketacademy.co/career-prep/cp.3-portfolio"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "CP.3: Portfolio",
+                "url": "https://bootcamp.rocketacademy.co/career-prep/cp.3-portfolio"
+              }
+            ]
+          }
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 6 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 111,
+      "dateTypes": {
+        "module": "Module 9: Advanced Topics",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "CP.3: Portfolio",
+                "url": "https://bootcamp.rocketacademy.co/career-prep/cp.3-portfolio"
+              }
+            ]
+          }
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 6 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 112,
+      "dateTypes": {
+        "module": "Module 9: Advanced Topics",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "Portfolio 1st Draft"
+              },
+              {
+                "name": "CP.4: Job List",
+                "url": "https://bootcamp.rocketacademy.co/career-prep/cp.4-job-list"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "CP.4: Job List",
+                "url": "https://bootcamp.rocketacademy.co/career-prep/cp.4-job-list"
+              }
+            ]
+          }
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 6 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 111,
+      "dateTypes": {
+        "module": "Module 9: Advanced Topics",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "CP.3: Portfolio",
+                "url": "https://bootcamp.rocketacademy.co/career-prep/cp.3-portfolio"
+              }
+            ]
+          }
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 6 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 113,
+      "dateTypes": {
+        "module": "Module 9: Advanced Topics",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "CP.4: Job List",
+                "url": "https://bootcamp.rocketacademy.co/career-prep/cp.4-job-list"
+              }
+            ]
+          }
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 6 Feature Freeze"
+              }
+            ]
+          },
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 6 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 114,
+      "dateTypes": {
+        "module": "Module 9: Advanced Topics",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "Job List 1st Draft"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 6 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 115,
+      "dateTypes": {
+        "module": "Module 9: Advanced Topics",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 6 Presentations",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-presentations"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 6 Post-Mortems",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-post-mortem-meeting"
+              }
+            ]
+          }
+        }
+      }
     }
   ]
 }
