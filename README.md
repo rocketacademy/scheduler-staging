@@ -14,7 +14,10 @@ Fill in the form with required information, please make sure date picked for Bas
 
 Click the 'download file' button.
 
-When the file downloads, start the node script by running 'npm run basics-md <PATH_TO_DOWNLOADED_FILE>'.
+When the file downloads, start the node script by running:
+
+- 'npm run basics-md <PATH_TO_DOWNLOADED_FILE>' to generate a markdown file for basics
+- 'npm run bootcamp-md <PATH_TO_DOWNLOADED_FILE>' to generate a markdown file for bootcamp
 
 A markdown file will be created in the `markdown` folder (in `src`).
 

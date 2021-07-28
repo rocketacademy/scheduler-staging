@@ -116,9 +116,9 @@ const generateHolidayDays = (datetype, output) => {
         if (datetype.holidayType === 'public holiday') {
         output += ` ${datetype.location} Public Holiday (${datetype.name})\n`;
         } else if (datetype.holidayType === 'company holiday') {
-            output += '## Company Holiday: ';
+            output += ' Company Holiday ';
             if (datetype.name === 'winter break') {
-                output += `Winter Break (${datetype.location})\n`;
+                output += `(Winter Break)\n`;
             } 
         }
     }
