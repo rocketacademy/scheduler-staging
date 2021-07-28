@@ -617,34 +617,9 @@
         "module": "Module 1: Frontend Basics",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "1.1.4: Flexbox Layout",
-                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.1-html-and-css/1.1.4-flexbox#see-how-to-use-flexbox-to-create-css-layouts"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 1 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              },
-              {
-                "name": "1.1: HTML & CSS (Technical Documentation)",
-                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.1-html-and-css#technical-documentation-page"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 1 Implementation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-1-video-poker"
-              }
-            ]
-          }
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         },
         "css": {
           "type": "css",
@@ -729,8 +704,8 @@
           "inClass": {
             "items": [
               {
-                "name": "1.1: HTML & CSS (Product Landing Page)",
-                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.1-html-and-css#product-landing-page"
+                "name": "1.ICE.CSS.5: Trombone Product Page",
+                "url": "https://bootcamp.rocketacademy.co/css/1.ice.css-in-class-css-exercises/1.ice.css.5-trombones"
               }
             ]
           },

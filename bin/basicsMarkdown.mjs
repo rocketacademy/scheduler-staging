@@ -28,11 +28,11 @@ const generateSectionList = (sectionName, sectionType) => {
     let sectionString = '';
     if (sectionType.items.length > 0) {
         if (sectionName === 'preclass') {
-            sectionString = '### Pre Class:\n';
+            sectionString = '### Pre Class\n';
         } else if (sectionName === 'inclass') {
-            sectionString = '### In Class:\n';
+            sectionString = '### In Class\n';
         } else if (sectionName === 'postclass') {
-            sectionString = '### Post Class:\n';
+            sectionString = '### Post Class\n';
         } 
     }
     
@@ -137,7 +137,7 @@ const generateCourseData = (output, data) => {
         if (data.days[dates[i]].meetingDateTimeUTC) {
             // getting the date/time from utc string
             localDate = DateTime.fromISO(data.days[dates[i]].meetingDateTimeUTC).toFormat('EEE d MMM');
-            output += `# ${localDate}, Week ${data.days[dates[i]].courseWeek}, Course Day ${data.days[dates[i]].courseDay} {#course-day-${data.days[dates[i]].courseDay}}:`;
+            output += `# ${localDate}, Week ${data.days[dates[i]].courseWeek}, Course Day ${data.days[dates[i]].courseDay}{#course-day-${data.days[dates[i]].courseDay}}:`;
             // adding title to heading
             output += ` ${data.days[dates[i]].dateTypes.title}\n`;
             // getting meeting time
@@ -165,7 +165,7 @@ const generateCourseData = (output, data) => {
 
         if (projectDateTypes) {
             if (projectDateTypes.projectDue.items) {
-                output += '### Project Due:\n';
+                output += '### Project Due\n';
                 output += `[${projectDateTypes.projectDue.items[0].name}](${projectDateTypes.projectDue.items[0].url})\n\n`;
             }
         }
@@ -181,7 +181,7 @@ const generateCourseData = (output, data) => {
         if (projectDateTypes) {
             if (projectDateTypes.projectStart.items) {
                 if (projectDateTypes.projectStart.items.length > 0) {
-                output += '### Project Start:\n';
+                output += '### Project Start\n';
                 output += `[${projectDateTypes.projectStart.items[0].name}](${projectDateTypes.projectStart.items[0].url})\n\n`;
                 }
             }

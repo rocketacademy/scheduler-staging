@@ -33,7 +33,6 @@ publicHolidayArray.forEach((holiday) => {
 // helper function for getting utc date/time
 const getLocalDateTime = (utc, timeString, courseName, courseType, date) => {
     const changedFormat = date.toFormat("yyyy-MM-dd");
-    console.log('changed format day', date.weekday);
     if (courseType === 'Basics') {
         utc = DateTime.fromISO(changedFormat + timeString, {zone: 'Singapore'}).toUTC().toISO();
     } else if (courseType === 'Bootcamp FT' && Number(courseName) % 2 === 0) {
