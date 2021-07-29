@@ -23,7 +23,7 @@ const DatePicker = () => {
         const data = await generateDataObject(startDate, courseName, courseType);
         console.log('data', data);
             
-        download(data);
+        // download(data);
         }
         catch (error) {
             console.log(error)

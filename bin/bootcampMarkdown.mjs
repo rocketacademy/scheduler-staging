@@ -8,18 +8,20 @@ const filename = process.argv[2];
 const generateCourseDayHeader = (localDate, courseDate, datetype, output, courseweek, date) => {
     // normal course days
     if (courseDate.meetingDateTimeUTC) {
-        localDate = DateTime.fromISO(courseDate.meetingDateTimeUTC)
+        // time zone is manually set to Asia/Singapore, not dependent on user's location 
+        localDate = DateTime.fromISO(courseDate.meetingDateTimeUTC, { zone: 'Asia/Singapore' });
         // date of course day
         const formattedDate = localDate.toFormat('EEE d MMM');
         output += `# ${formattedDate}, Week ${courseweek}, Course Day ${courseDate.courseDay}\n`;
         /// meeting time
-        const meetingTime = DateTime.fromISO(courseDate.meetingDateTimeUTC).toFormat('t');
+        const meetingTime = localDate.toFormat('t');
         output += `Meeting time: ${meetingTime} `;
-        const timeZone = DateTime.fromISO(courseDate.meetingDateTimeUTC).toFormat('z');
+        const timeZone = localDate.toFormat('z');
+        // luxon does not provide abbreviated localised timezones
         if (timeZone === 'Asia/Singapore') {
             output += 'SGT ';
         }
-        const timeOffset = DateTime.fromISO(courseDate.meetingDateTimeUTC).toFormat('ZZZZ');
+        const timeOffset = localDate.toFormat('ZZZZ');
         output += `(${timeOffset})\n\n`;
     // holidays
     } else {
@@ -37,13 +39,17 @@ const generateCourseDayHeader = (localDate, courseDate, datetype, output, course
 
 // helper function for generating project start/ due in page content
 const generateProjectNotifications = (projectStatus, projectdue, projectstart, output) => {
+    // if projectDue/ projectStart does exist
     if (projectStatus) {
+        // and if there are items in projectDue/ projectStart
         if (projectStatus.items) {
+            // a header is created
             if (projectStatus === projectdue) {
                 output += `### Project Due\n`;
             } else if (projectStatus === projectstart) {
                 output += `### Project Start\n`;
             }
+            // content is added
             for (let l = 0; l < projectStatus.items.length; l += 1) {
                 if (projectStatus.items[l].url) {
                     output += `* [${projectStatus.items[l].name}](${projectStatus.items[l].url})\n\n`;
@@ -56,54 +62,57 @@ const generateProjectNotifications = (projectStatus, projectdue, projectstart, o
     return output;
 }
 
-// helper function that generates classType
-const generateClassType = (datetypeSections, classtype, classType) => {
-    for (let p = 0; p < datetypeSections.length; p += 1) {
-        if (datetypeSections[p]) {
-            if (classtype === `### Pre Class\n`) {
-                classType = datetypeSections[p].preClass;
-            } else if (classtype === `### Post Class\n`) {
-                classType = datetypeSections[p].postClass;
-            } else if (classtype === `### In Class\n`) {
-                classType = datetypeSections[p].inClass;
+// helper function that gets all the items in a specified class type
+const getSectionArray = (datetype, classType) => {
+    const sectionArray = [];
+    // for each section in datetypes
+    Object.keys(datetype).forEach((section) => {
+        let classTypeSection;
+        // classTypeSection is determined by what classType is
+        if (classType === 'preClass') {
+            classTypeSection = datetype[section].preClass;
+        } else if (classType === 'inClass') {
+            classTypeSection = datetype[section].inClass;
+        } else {
+            classTypeSection = datetype[section].postClass;
+        }
+
+        if (classTypeSection) {
+            // if there are items in classTypeSection, the items are pushed into sectionArray
+            if (classTypeSection.items) {
+                for (let x = 0; x < classTypeSection.items.length; x += 1) {
+                    sectionArray.push(classTypeSection.items[x]);
+                }
             }
         }
-    }
-    return classType;
+    });
+    return sectionArray;
 }
 
-// check if section exists, if it does, add section heading to output
-const outputSectionHeading = (datetypeSections, classtype, output) => {
-    let classType;
-    let typeExists = false;
-    classType = generateClassType(datetypeSections, classtype, classType);
-    if (classType.items) {
-        typeExists = true;
-    }
-    
-    if (typeExists === true) {
-        output += classtype;
-    } 
-    return output;
-}
-
-// helper function to generate sections of course day content
-const generateDatetypeSections = (datetypeSections, classtype, output) => {
-    output = outputSectionHeading(datetypeSections, classtype, output);
-
-    let classType;
-    classType = generateClassType(datetypeSections, classtype, classType);
-    if (classType.items) {
-        for (let k = 0; k < classType.items.length; k += 1) {
-            if (classType.items[k].url) {
-                output += `* [${classType.items[k].name}](${classType.items[k].url})\n\n`;
+// helper function for generating class type header and content
+const generateDatetypeSections = (dateSections, output, classType) => {
+        // if there are items in the dateSection array 
+        if (dateSections.length > 0) {
+           // a header will be created 
+            if (classType === 'preClass') {
+                output += `### Pre Class\n`;
+            } else if (classType === 'inClass') {
+                output += `### In Class\n`;
             } else {
-                output += `* ${classType.items[k].name}\n\n`;
+                output += `### Post Class\n`;
             }
+        
+            // content is generated
+            for (let t = 0; t < dateSections.length; t += 1) {
+                if (dateSections[t].url) {
+                    output += `* [${dateSections[t].name}](${dateSections[t].url})\n\n`;
+                } else {
+                    output += `* ${dateSections[t].name}\n\n`;
+                }
+            };
         };
+        return output;
     }
-    return output; 
-}
 
 // helper function for generating course day content
 const generateCourseDayContent = (datetype, output) => {
@@ -113,33 +122,17 @@ const generateCourseDayContent = (datetype, output) => {
     // generating project due section from projects
     output = generateProjectNotifications (projectdue, projectdue, projectstart, output); 
     
-    const datetypeSections = [datetype.general, datetype.dsa, datetype.ux, datetype.css, datetype.projects];
-    // generate pre class section
-    if (datetype.general.preClass && 
-        datetype.dsa.preClass && 
-        datetype.ux.preClass && 
-        datetype.css.preClass && 
-        datetype.projects.preClass ) {
-            output = generateDatetypeSections(datetypeSections, `### Pre Class\n`, output);
-    }
+    // generating pre class section of course day's content
+    const preClassDateSections = getSectionArray(datetype, 'preClass');
+    output = generateDatetypeSections(preClassDateSections, output, 'preClass');
+    
+    // generating in class section of course day content
+    const inClassDateSections = getSectionArray(datetype, 'inClass');
+    output = generateDatetypeSections(inClassDateSections, output, 'inClass');
 
-    // generate in class section
-    if (datetype.general.inClass && 
-        datetype.dsa.inClass && 
-        datetype.css.inClass &&
-        datetype.ux.inClass &&
-        datetype.projects.inClass) {
-            output = generateDatetypeSections(datetypeSections, `### In Class\n`, output);
-        }
-
-    // generate post class section
-    if (datetype.general.postClass && 
-        datetype.dsa.postClass && 
-        datetype.css.postClass &&
-        datetype.ux.postClass &&
-        datetype.projects.postClass) {
-            output = generateDatetypeSections(datetypeSections, `### Post Class\n`, output);
-        }
+    // generating post class section of course day content
+    const postClassDateSections = getSectionArray(datetype, 'postClass');
+    output = generateDatetypeSections(postClassDateSections, output, 'postClass');
 
     // generate project start section
     output = generateProjectNotifications (projectstart, projectdue, projectstart, output); 
@@ -199,17 +192,13 @@ const whenFileIsRead = (error, content) => {
                 // generating course day header
                 output = generateCourseDayHeader(localDate, courseDate, datetype, output, courseweek, date);
 
-                // generating course day content
-                if (datetype.general && 
-                    datetype.dsa &&
-                    datetype.ux &&
-                    datetype.css && 
-                    datetype.projects ) {
-                        output = generateCourseDayContent(datetype, output);
-
-                    // generate holidays
-                } else {
+                // generating holidays
+                if (datetype.holidayType) {
                     output = generateHolidayDays(datetype, output);
+                    // generate course day content
+                } else {
+                    output = generateCourseDayContent(datetype, output);
+
                 }
             }
         }

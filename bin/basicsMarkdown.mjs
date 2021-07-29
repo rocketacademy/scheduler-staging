@@ -89,7 +89,7 @@ const generateCourseArrays = (data) => {
                 if (data.days[weekDates[n][m]].dayNumber === dayNumbers[p]) {
                     if (data.days[weekDates[n][m]].dateTypes.title) {
                         // the '-' in displayWeek is replaced by the dateString
-                        const dateString = DateTime.fromISO(data.days[weekDates[n][m]].meetingDateTimeUTC).toFormat('d MMM');
+                        const dateString = DateTime.fromISO(data.days[weekDates[n][m]].meetingDateTimeUTC, { zone: 'Asia/Singapore' }).toFormat('d MMM');
                         displayWeek[p] = `[${dateString}](#course-day-${data.days[weekDates[n][m]].courseDay})`;
                     } else {
                         // if title of the day does not exist, it means it's a public holiday
@@ -135,19 +135,21 @@ const generateCourseData = (output, data) => {
         let localDate;
         // course day
         if (data.days[dates[i]].meetingDateTimeUTC) {
-            // getting the date/time from utc string
-            localDate = DateTime.fromISO(data.days[dates[i]].meetingDateTimeUTC).toFormat('EEE d MMM');
-            output += `# ${localDate}, Week ${data.days[dates[i]].courseWeek}, Course Day ${data.days[dates[i]].courseDay}{#course-day-${data.days[dates[i]].courseDay}}:`;
+            // getting the date/time from utc string, timezone is manually set
+            localDate = DateTime.fromISO(data.days[dates[i]].meetingDateTimeUTC, { zone: 'Asia/Singapore' });
+            const formattedDate = localDate.toFormat('EEE d MMM');
+            output += `# ${formattedDate}, Week ${data.days[dates[i]].courseWeek}, Course Day ${data.days[dates[i]].courseDay}{#course-day-${data.days[dates[i]].courseDay}}:`;
             // adding title to heading
             output += ` ${data.days[dates[i]].dateTypes.title}\n`;
             // getting meeting time
-            const localTime = DateTime.fromISO(data.days[dates[i]].meetingDateTimeUTC).toFormat('t');
+            const localTime = localDate.toFormat('t');
             output += `Meeting time: ${localTime} `;
-            const timeZone = DateTime.fromISO(data.days[dates[i]].meetingDateTimeUTC).toFormat('z');
+            const timeZone = localDate.toFormat('z');
+            // luxon does not provide abbreviated localised timezones
             if (timeZone === 'Asia/Singapore') {
                 output += 'SGT ';
             }
-            const timeOffset = DateTime.fromISO(data.days[dates[i]].meetingDateTimeUTC).toFormat('ZZZZ');
+            const timeOffset = localDate.toFormat('ZZZZ');
             output += `(${timeOffset})\n\n`;
         } else {
             // public holiday, as public holiday has no meeting time
