@@ -87,8 +87,18 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -157,8 +167,17 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -233,8 +252,17 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -308,8 +336,17 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -380,8 +417,17 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -440,6 +486,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -510,6 +563,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -587,6 +647,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -649,6 +716,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -723,6 +797,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -775,6 +856,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -877,6 +965,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -940,6 +1035,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -1020,6 +1122,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -1109,6 +1218,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -1176,6 +1292,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -1254,6 +1377,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -1317,6 +1447,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -1390,6 +1527,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -1455,6 +1599,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -1532,6 +1683,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -1587,6 +1745,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -1659,6 +1824,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -1739,6 +1911,24 @@
           "type": "ux",
           "preClass": {},
           "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "UX.1: Overview",
+                "url": "https://bootcamp.rocketacademy.co/user-experience/ux.1-overview"
+              },
+              {
+                "name": "UX.2: The UX Process",
+                "url": "https://bootcamp.rocketacademy.co/user-experience/ux.2-the-ux-process"
+              }
+            ]
+          }
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
           "postClass": {}
         },
         "projects": {
@@ -1806,6 +1996,20 @@
           "type": "ux",
           "preClass": {},
           "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "UX.3: How to Design Your App",
+                "url": "https://bootcamp.rocketacademy.co/user-experience/ux.3-how-to-design-your-app"
+              }
+            ]
+          }
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
           "postClass": {}
         },
         "projects": {
@@ -1871,6 +2075,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -1952,6 +2163,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -2022,6 +2240,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -2100,6 +2325,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -2166,6 +2398,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -2247,6 +2486,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -2299,6 +2545,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -2377,6 +2630,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -2441,6 +2701,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -2518,6 +2785,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -2566,6 +2840,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -2643,6 +2924,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -2698,6 +2986,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -2761,6 +3056,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -2815,6 +3117,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -2915,6 +3224,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -2985,6 +3301,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -3063,6 +3386,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -3133,6 +3463,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -3188,6 +3525,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -3255,6 +3599,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -3318,6 +3669,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -3377,6 +3735,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -3465,6 +3830,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -3538,6 +3910,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -3619,6 +3998,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -3707,6 +4093,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -3777,6 +4170,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -3860,6 +4260,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -3922,6 +4329,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -3999,6 +4413,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -4061,6 +4482,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -4145,6 +4573,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -4237,6 +4672,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -4299,6 +4741,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -4380,6 +4829,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -4435,6 +4891,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -4527,6 +4990,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -4612,6 +5082,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -4682,6 +5159,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -4748,6 +5232,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -4839,6 +5330,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -4919,6 +5417,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -4992,6 +5497,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -5061,6 +5573,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -5144,6 +5663,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -5199,6 +5725,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -5269,6 +5802,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -5331,6 +5871,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -5401,6 +5948,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -5463,6 +6017,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -5549,6 +6110,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -5611,6 +6179,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -5694,6 +6269,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -5756,6 +6338,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -5852,6 +6441,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -5922,6 +6518,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -6002,6 +6605,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -6101,6 +6711,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -6170,6 +6787,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -6258,6 +6882,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -6338,6 +6969,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -6407,6 +7045,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -6490,6 +7135,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -6545,6 +7197,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -6608,6 +7267,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -6667,6 +7333,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -6722,6 +7395,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -6797,6 +7477,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -6856,6 +7543,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -6911,6 +7605,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -6986,6 +7687,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -7034,6 +7742,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -7126,6 +7841,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -7192,6 +7914,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -7273,6 +8002,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -7339,6 +8075,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -7417,6 +8160,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -7479,6 +8229,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -7553,6 +8310,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -7615,6 +8379,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -7705,6 +8476,13 @@
           "inClass": {},
           "postClass": {}
         },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "projects": {
           "type": "projects",
           "projectStart": {},
@@ -7728,27 +8506,9 @@
         "module": "Module 9: Advanced Topics",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "CP.1: Job Application Strategy",
-                "url": "https://bootcamp.rocketacademy.co/career-prep/cp.1-job-application-strategy"
-              },
-              {
-                "name": "CP.2: Resume",
-                "url": "https://bootcamp.rocketacademy.co/career-prep/cp.2-resume"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "CP.2: Resume",
-                "url": "https://bootcamp.rocketacademy.co/career-prep/cp.2-resume"
-              }
-            ]
-          }
+          "postClass": {}
         },
         "css": {
           "type": "css",
@@ -7781,6 +8541,35 @@
           "preClass": {},
           "inClass": {},
           "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "IP.0: Interview Prep Overview",
+                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.0-interview-prep-overview"
+              },
+              {
+                "name": "IP.1: Job Application Strategy",
+                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.1-job-application-strategy"
+              },
+              {
+                "name": "IP.2: Resume",
+                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.2-resume"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "IP.2: Resume",
+                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.2-resume"
+              }
+            ]
+          }
         },
         "projects": {
           "type": "projects",
@@ -7807,14 +8596,7 @@
           "type": "general",
           "preClass": {},
           "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "CP.2: Resume",
-                "url": "https://bootcamp.rocketacademy.co/career-prep/cp.2-resume"
-              }
-            ]
-          }
+          "postClass": {}
         },
         "css": {
           "type": "css",
@@ -7847,6 +8629,20 @@
           "preClass": {},
           "inClass": {},
           "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "IP.2: Resume",
+                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.2-resume"
+              }
+            ]
+          }
         },
         "projects": {
           "type": "projects",
@@ -7871,26 +8667,9 @@
         "module": "Module 9: Advanced Topics",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "Resume 1st Draft"
-              },
-              {
-                "name": "CP.3: Portfolio",
-                "url": "https://bootcamp.rocketacademy.co/career-prep/cp.3-portfolio"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "CP.3: Portfolio",
-                "url": "https://bootcamp.rocketacademy.co/career-prep/cp.3-portfolio"
-              }
-            ]
-          }
+          "postClass": {}
         },
         "css": {
           "type": "css",
@@ -7923,6 +8702,33 @@
           "preClass": {},
           "inClass": {},
           "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {
+            "items": [
+              {
+                "name": "Resume 1st Draft"
+              }
+            ]
+          },
+          "preClass": {
+            "items": [
+              {
+                "name": "IP.3: Portfolio",
+                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.3-portfolio"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "IP.3: Portfolio",
+                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.3-portfolio"
+              }
+            ]
+          }
         },
         "projects": {
           "type": "projects",
@@ -7949,14 +8755,7 @@
           "type": "general",
           "preClass": {},
           "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "CP.3: Portfolio",
-                "url": "https://bootcamp.rocketacademy.co/career-prep/cp.3-portfolio"
-              }
-            ]
-          }
+          "postClass": {}
         },
         "css": {
           "type": "css",
@@ -7989,6 +8788,20 @@
           "preClass": {},
           "inClass": {},
           "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "IP.3: Portfolio",
+                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.3-portfolio"
+              }
+            ]
+          }
         },
         "projects": {
           "type": "projects",
@@ -8013,26 +8826,9 @@
         "module": "Module 9: Advanced Topics",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "Portfolio 1st Draft"
-              },
-              {
-                "name": "CP.4: Job List",
-                "url": "https://bootcamp.rocketacademy.co/career-prep/cp.4-job-list"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "CP.4: Job List",
-                "url": "https://bootcamp.rocketacademy.co/career-prep/cp.4-job-list"
-              }
-            ]
-          }
+          "postClass": {}
         },
         "css": {
           "type": "css",
@@ -8065,6 +8861,33 @@
           "preClass": {},
           "inClass": {},
           "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {
+            "items": [
+              {
+                "name": "Portfolio 1st Draft"
+              }
+            ]
+          },
+          "preClass": {
+            "items": [
+              {
+                "name": "IP.4: Job List",
+                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.4-job-list"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "IP.4: Job List",
+                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.4-job-list"
+              }
+            ]
+          }
         },
         "projects": {
           "type": "projects",
@@ -8091,14 +8914,7 @@
           "type": "general",
           "preClass": {},
           "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "CP.4: Job List",
-                "url": "https://bootcamp.rocketacademy.co/career-prep/cp.4-job-list"
-              }
-            ]
-          }
+          "postClass": {}
         },
         "css": {
           "type": "css",
@@ -8131,6 +8947,20 @@
           "preClass": {},
           "inClass": {},
           "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "IP.4: Job List",
+                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.4-job-list"
+              }
+            ]
+          }
         },
         "projects": {
           "type": "projects",
@@ -8161,13 +8991,7 @@
         "module": "Module 9: Advanced Topics",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "Job List 1st Draft"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {},
           "postClass": {}
         },
@@ -8199,6 +9023,19 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {
+            "items": [
+              {
+                "name": "Job List 1st Draft"
+              }
+            ]
+          },
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -8244,6 +9081,13 @@
         },
         "ux": {
           "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}

@@ -1,15 +1,16 @@
 import fs from 'fs';
 import { DateTime } from 'luxon';
 
-console.log('filename', process.argv[2]);
 const filename = process.argv[2];
+// time zone is set to 'Asia/Singapore' because of our current location
+const timeZoneSet = 'Asia/Singapore';
 
 // helper function that generates course day header 
 const generateCourseDayHeader = (localDate, courseDate, datetype, output, courseweek, date) => {
     // normal course days
     if (courseDate.meetingDateTimeUTC) {
         // time zone is manually set to Asia/Singapore, not dependent on user's location 
-        localDate = DateTime.fromISO(courseDate.meetingDateTimeUTC, { zone: 'Asia/Singapore' });
+        localDate = DateTime.fromISO(courseDate.meetingDateTimeUTC, { zone: timeZoneSet });
         // date of course day
         const formattedDate = localDate.toFormat('EEE d MMM');
         output += `# ${formattedDate}, Week ${courseweek}, Course Day ${courseDate.courseDay}\n`;

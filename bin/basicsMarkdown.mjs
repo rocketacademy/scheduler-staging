@@ -1,8 +1,9 @@
 import fs from 'fs';
 import { DateTime } from 'luxon';
 
-console.log('filename', process.argv[2]);
 const filename = process.argv[2];
+// timezone is manually set to 'Asia/Singapore' because we are located here
+const timeZoneSet = 'Asia/Singapore';
 
 // helper function , generates list for pre-class, in-class, post-class
 const generateClassList = (classList, classType) => {
@@ -89,7 +90,7 @@ const generateCourseArrays = (data) => {
                 if (data.days[weekDates[n][m]].dayNumber === dayNumbers[p]) {
                     if (data.days[weekDates[n][m]].dateTypes.title) {
                         // the '-' in displayWeek is replaced by the dateString
-                        const dateString = DateTime.fromISO(data.days[weekDates[n][m]].meetingDateTimeUTC, { zone: 'Asia/Singapore' }).toFormat('d MMM');
+                        const dateString = DateTime.fromISO(data.days[weekDates[n][m]].meetingDateTimeUTC, { zone: timeZoneSet }).toFormat('d MMM');
                         displayWeek[p] = `[${dateString}](#course-day-${data.days[weekDates[n][m]].courseDay})`;
                     } else {
                         // if title of the day does not exist, it means it's a public holiday
@@ -136,7 +137,7 @@ const generateCourseData = (output, data) => {
         // course day
         if (data.days[dates[i]].meetingDateTimeUTC) {
             // getting the date/time from utc string, timezone is manually set
-            localDate = DateTime.fromISO(data.days[dates[i]].meetingDateTimeUTC, { zone: 'Asia/Singapore' });
+            localDate = DateTime.fromISO(data.days[dates[i]].meetingDateTimeUTC, { zone: timeZoneSet });
             const formattedDate = localDate.toFormat('EEE d MMM');
             output += `# ${formattedDate}, Week ${data.days[dates[i]].courseWeek}, Course Day ${data.days[dates[i]].courseDay}{#course-day-${data.days[dates[i]].courseDay}}:`;
             // adding title to heading
