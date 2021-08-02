@@ -90,7 +90,6 @@
         "cp": {
           "type": "cp",
           "cpDue": {},
-          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -908,7 +907,7 @@
     {
       "courseDay": 12,
       "dateTypes": {
-        "Module": "Module 2: Backend Basics",
+        "module": "Module 2: Backend Basics",
         "general": {
           "type": "general",
           "preClass": {
@@ -985,7 +984,7 @@
     {
       "courseDay": 13,
       "dateTypes": {
-        "Module": "Module 2: Backend Basics",
+        "module": "Module 2: Backend Basics",
         "general": {
           "type": "general",
           "preClass": {
@@ -1059,7 +1058,7 @@
     {
       "courseDay": 14,
       "dateTypes": {
-        "Module": "Module 2: Backend Basics",
+        "module": "Module 2: Backend Basics",
         "general": {
           "type": "general",
           "projectStart": {},
@@ -1146,7 +1145,7 @@
     {
       "courseDay": 15,
       "dateTypes": {
-        "Module": "Module 2: Backend Basics",
+        "module": "Module 2: Backend Basics",
         "general": {
           "type": "general",
           "preClass": {
@@ -1238,7 +1237,7 @@
     {
       "courseDay": 16,
       "dateTypes": {
-        "Module": "Module 2: Backend Basics",
+        "module": "Module 2: Backend Basics",
         "general": {
           "type": "general",
           "preClass": {
@@ -1316,7 +1315,7 @@
     {
       "courseDay": 17,
       "dateTypes": {
-        "Module": "Module 2: Backend Basics",
+        "module": "Module 2: Backend Basics",
         "general": {
           "type": "general",
           "preClass": {
@@ -1397,7 +1396,7 @@
     {
       "courseDay": 18,
       "dateTypes": {
-        "Module": "Module 2: Backend Basics",
+        "module": "Module 2: Backend Basics",
         "general": {
           "type": "general",
           "preClass": {
