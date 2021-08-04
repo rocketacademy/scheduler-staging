@@ -1,65 +1,36 @@
 import React from 'react';
-import ClassItem from './ClassItem';
-import ClassType from './ClassType';
+import SectionClass from './SectionClass';
 
-function Section({setBootcampDataCopy, section, sectionType, dayIndex, bootcampDataCopy, itemSelected, setItemSelected}) {
+function Section({setBootcampDataCopy, section, sectionType, dayIndex, bootcampDataCopy}) {
+    // if classExists is true, a header for this section will be created
+    let classExists = false;
+    if (sectionType.constructor === Object) {
+        if ((sectionType.preClass.items || sectionType.inClass.items ||sectionType.postClass.items) ||
+           (sectionType === 'projects' && (sectionType.projectDue.items || sectionType.projectStart.items)) ||
+           (sectionType === 'cp' && sectionType.cpDue.items)) {
+            classExists = true;
+        }
+    }
     
+
     return (
         <div>
             {sectionType.constructor === Object && (
             <>
-            <div>
-                {sectionType.type === 'projects' && (
-                    sectionType.projectDue.items && (
-                        <div>
-                            Project Due:
-                            {sectionType.projectDue.items.map((item, classIndex) => {
-                                return (
-                                    <ClassItem setBootcampDataCopy={setBootcampDataCopy} section={section} classType="projectDue" sectionType={sectionType} itemSelected={itemSelected} setItemSelected={setItemSelected} item={item} dayIndex={dayIndex} classIndex={classIndex} />
-                                )
-                            })}
-                        </div>
+                {classExists && (
+                   <>
+                   {sectionType.type}
+                   </>
+                )}
+                {Object.keys(sectionType).map((sectionclass, sectionIndex) => {
+                    return (
+                        <>
+                        {sectionType[sectionclass].items && (
+                            <SectionClass sectionIndex={sectionIndex} sectionclass={sectionclass} sectionType={sectionType} bootcampDataCopy={bootcampDataCopy} setBootcampDataCopy={setBootcampDataCopy} section={section} dayIndex={dayIndex} />
+                        )}
+                        </>
                     )
-                )}
-            </div>
-            <div>
-                {sectionType.type === 'cp' && (
-                    sectionType.cpDue.items && (
-                        <div>
-                            Interview Prep Due:
-                            {sectionType.cpDue.items.map((item, classIndex) => {
-                                return (
-                                    <ClassItem setBootcampDataCopy={setBootcampDataCopy} section={section} classType="cpDue" sectionType={sectionType} itemSelected={itemSelected} setItemSelected={setItemSelected} item={item} dayIndex={dayIndex} classIndex={classIndex} />
-                                )
-                            })}
-                        </div>
-                    )
-                )}
-            </div>
-            <div>
-                {(sectionType.preClass.items ||
-                    sectionType.inClass.items ||
-                    sectionType.postClass.items) && (
-                    <div className="course-day-type">
-                        {sectionType.type}:
-                    </div>
-                )}
-                <ClassType setBootcampDataCopy={setBootcampDataCopy} section={section} sectionType={sectionType} bootcampDataCopy={bootcampDataCopy} dayIndex={dayIndex} itemSelected={itemSelected} setItemSelected={setItemSelected} />
-            </div>
-            <div>
-                {sectionType.type === 'projects' && (
-                    sectionType.projectStart.items && (
-                        <div>
-                            Project Start:
-                            {sectionType.projectStart.items.map((item, classIndex) => {
-                                return (
-                                    <ClassItem setBootcampDataCopy={setBootcampDataCopy} section={section} bootcampDataCopy={bootcampDataCopy} classType="projectStart" sectionType={sectionType} itemSelected={itemSelected} setItemSelected={setItemSelected} item={item} dayIndex={dayIndex} classIndex={classIndex} />
-                                )
-                            })}
-                        </div>
-                    )
-                )}
-            </div>
+                })}
             </>
             )}
         </div>

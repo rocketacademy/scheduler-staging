@@ -39,7 +39,7 @@ body,
 
 .course-day {
   padding: 20px;
-  background-color: lightblue;
+  background-color: lightgray;
 }
 
 .course-day-header {
@@ -59,7 +59,6 @@ button {
 
 button:hover {
   background-color: turquoise;
-  border: solid gray 0.5px;
   border-radius: 5px;
 }
 
@@ -75,25 +74,30 @@ button:hover {
 
 .class-item:hover {
   cursor: pointer;
-  background-color: white;
+  background-color: lightblue;
   border-radius: 10px;
-  border: solid gray 0.5px;
 }
 
-.class-type {
+.section-class {
   padding: 10px;
 }
-.class-type:hover {
+.section-class:hover {
   cursor: pointer;
   background-color: lightcyan;
   padding: 10px;
   border-radius: 10px;
 }
 
-.class-type-header {
+.section-class-header {
   padding-right: 30px;
   height: 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.datashift-button-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
 }
