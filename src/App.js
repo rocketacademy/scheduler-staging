@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import DatePicker from './components/DatePicker.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import TabsContainer from './components/Tabs';
 
 function App() {
   return (
     <div className="App">
-      <DatePicker />      
+      <TabsContainer />
     </div>
   );
 }
