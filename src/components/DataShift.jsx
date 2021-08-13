@@ -28,13 +28,9 @@ const DataShift = () => {
                             <div key={day.dateTypes.module}>{day.dateTypes.module}</div>
                             <br></br>
                             <div>
-                                {Object.keys(day.dateTypes).map((section) => {
-                                    return (
-                                    <>
-                                        <Section setBootcampDataCopy={setBootcampDataCopy} section={section} sectionType={day.dateTypes[section]} dayIndex={dayIndex} bootcampDataCopy={bootcampDataCopy} />
-                                    </> 
-                                    )
-                                })} 
+                                {Object.keys(day.dateTypes).map(section =>                                    
+                                    <Section setBootcampDataCopy={setBootcampDataCopy} section={section} sectionType={day.dateTypes[section]} dayIndex={dayIndex} bootcampDataCopy={bootcampDataCopy} />
+                                )} 
                             </div>
                         </div>
                     )

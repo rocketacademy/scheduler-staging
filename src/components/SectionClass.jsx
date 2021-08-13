@@ -8,7 +8,7 @@ function SectionClass({sectionIndex, sectionclass, sectionType, bootcampDataCopy
     const [classButtonsVisible, setClassButtonsVisible] = useState(false);
 
     // helper function that maps each element in section array to a new course day
-    const shiftSection = (sectionArray, startDay) => {
+    const shiftSection = (sectionArray, startDay, bootcampDataCopy) => {
         sectionArray.forEach((element, index) => {
             console.log('day index', dayIndex);
             if ( element !== null) {
@@ -21,6 +21,7 @@ function SectionClass({sectionIndex, sectionclass, sectionType, bootcampDataCopy
                 }
             }
         })
+        return bootcampDataCopy;
     }
 
     const handleClassShift = (direction, dayIndex) => {
@@ -40,11 +41,11 @@ function SectionClass({sectionIndex, sectionclass, sectionType, bootcampDataCopy
         // when user clicks the down button, items are put into section/class of the next day 
         if (direction === 'down') {
             startDay = dayIndex + 1;
-            shiftSection(sectionArray, startDay);
+            bootcampDataCopy = shiftSection(sectionArray, startDay, bootcampDataCopy);
         } else {
             // when user clicks the up button, items are put into section/class of the previous day
             startDay = dayIndex - 1;
-            shiftSection(sectionArray, startDay);
+            bootcampDataCopy = shiftSection(sectionArray, startDay, bootcampDataCopy);
         }
         
         
@@ -65,11 +66,9 @@ function SectionClass({sectionIndex, sectionclass, sectionType, bootcampDataCopy
                             </div>
                             )}
                         </div>
-                        {sectionType[sectionclass].items.map((item, classIndex) => {
-                            return (
-                                <ClassItem sectionclass={sectionclass} bootcampDataCopy={bootcampDataCopy} setBootcampDataCopy={setBootcampDataCopy} section={section} classType={sectionclass} sectionType={sectionType} item={item} dayIndex={dayIndex} classIndex={classIndex} />
-                            )
-                        })}
+                        {sectionType[sectionclass].items.map((item, classIndex) =>
+                            <ClassItem sectionclass={sectionclass} bootcampDataCopy={bootcampDataCopy} setBootcampDataCopy={setBootcampDataCopy} section={section} classType={sectionclass} sectionType={sectionType} item={item} dayIndex={dayIndex} classIndex={classIndex} />                
+                        )}
                     </div>
                 )}
             </div>
