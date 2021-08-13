@@ -1,7 +1,13 @@
 import React from 'react';
 import SectionClass from './SectionClass';
 
-function Section({setBootcampDataCopy, section, sectionType, dayIndex, bootcampDataCopy}) {
+function Section({
+    setBootcampDataCopy, 
+    section, 
+    sectionType, 
+    dayIndex, 
+    bootcampDataCopy
+}) {
     // variable classExists is created to track if any class of a section exists (it is initially set to false)
     // if any class of a section exists, classExists is set to true
     // if classExists is true, a header for this section will be created
@@ -27,7 +33,15 @@ function Section({setBootcampDataCopy, section, sectionType, dayIndex, bootcampD
                 {Object.keys(sectionType).filter(sectionClass => sectionType[sectionClass].items).map((sectionclass, sectionIndex) => {
                     return (
                         <>
-                            <SectionClass sectionIndex={sectionIndex} sectionclass={sectionclass} sectionType={sectionType} bootcampDataCopy={bootcampDataCopy} setBootcampDataCopy={setBootcampDataCopy} section={section} dayIndex={dayIndex} />
+                            <SectionClass
+                                sectionIndex={sectionIndex} 
+                                sectionclass={sectionclass} 
+                                sectionType={sectionType} 
+                                bootcampDataCopy={bootcampDataCopy} 
+                                setBootcampDataCopy={setBootcampDataCopy} 
+                                section={section} 
+                                dayIndex={dayIndex} 
+                                />
                         </>
                     )
                 })}

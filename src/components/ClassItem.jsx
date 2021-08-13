@@ -2,7 +2,16 @@ import React, { useState } from 'react';
 import ExpandLessIcon from '@material-ui/icons/ExpandLess';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
-function ClassItem({setBootcampDataCopy, section, bootcampDataCopy, classType, sectionType, item, dayIndex, classIndex}) {
+function ClassItem({
+    setBootcampDataCopy, 
+    section, 
+    bootcampDataCopy, 
+    classType, 
+    sectionType, 
+    item, 
+    dayIndex, 
+    classIndex
+}) {
     // toggle visibility of buttons
     const [buttonsVisible, setButtonsVisible] = useState(false);
     

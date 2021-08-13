@@ -4,7 +4,15 @@ import ExpandLessIcon from '@material-ui/icons/ExpandLess';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 
-function SectionClass({sectionIndex, sectionclass, sectionType, bootcampDataCopy, setBootcampDataCopy, section, dayIndex}) {
+function SectionClass({
+    sectionIndex,
+    sectionclass,
+    sectionType, 
+    bootcampDataCopy, 
+    setBootcampDataCopy, 
+    section, 
+    dayIndex
+}) {
     const [classButtonsVisible, setClassButtonsVisible] = useState(false);
 
     // helper function that maps each element in section array to a new course day
@@ -67,7 +75,16 @@ function SectionClass({sectionIndex, sectionclass, sectionType, bootcampDataCopy
                             )}
                         </div>
                         {sectionType[sectionclass].items.map((item, classIndex) =>
-                            <ClassItem sectionclass={sectionclass} bootcampDataCopy={bootcampDataCopy} setBootcampDataCopy={setBootcampDataCopy} section={section} classType={sectionclass} sectionType={sectionType} item={item} dayIndex={dayIndex} classIndex={classIndex} />                
+                            <ClassItem
+                                sectionclass={sectionclass} 
+                                bootcampDataCopy={bootcampDataCopy} 
+                                setBootcampDataCopy={setBootcampDataCopy} 
+                                section={section} classType={sectionclass} 
+                                sectionType={sectionType} 
+                                item={item} 
+                                dayIndex={dayIndex} 
+                                classIndex={classIndex} 
+                                />                
                         )}
                     </div>
                 )}
