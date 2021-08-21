@@ -39,8 +39,10 @@ const getLocalDateTime = (utc, timeString, courseName, courseType, date) => {
         utc = DateTime.fromISO(changedFormat + 'T13:00', {zone: 'Singapore'}).toUTC().toISO();
     } else if ((courseType === 'Bootcamp FT' && Number(courseName) % 2 !== 0) || (courseType === 'Bootcamp PT' && (date.weekday === 6))) {
         utc = DateTime.fromISO(changedFormat + 'T10:00', {zone: 'Singapore'}).toUTC().toISO();
-    } else if (courseType === 'Bootcamp PT' && (date.weekday === 1 || date.weekday === 3)) {
+    } else if (courseType === 'Bootcamp PT' && (date.weekday === 1)) {
         utc = DateTime.fromISO(changedFormat + 'T19:30', {zone: 'Singapore'}).toUTC().toISO();
+    } else if (courseType === 'Bootcamp PT' && (date.weekday === 6)) {
+        utc = DateTime.fromISO(changedFormat + 'T10:00', {zone: 'Singapore'}).toUTC().toISO();
     }
     return utc;
 }

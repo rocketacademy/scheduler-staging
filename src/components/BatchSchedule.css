@@ -1,0 +1,14 @@
+.course-schedule {
+  display: flex;
+  width: 100%;
+}
+
+.sidebar {
+  width: 30%;
+  padding: 20px;
+}
+
+.content {
+  width: 70%;
+  padding: 20px;
+}
