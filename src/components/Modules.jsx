@@ -16,28 +16,35 @@ function Modules({ scheduleData }) {
 
     moduleArray.unshift('Module 0: Language and Tooling');
 
-    console.log(moduleArray);
     return (
-        <div>
-            <h3>Modules</h3>
+        <div className="sidebar-modules">
+            <h4>Modules</h4>
             <Nav className="flex-column">
             {moduleArray.map((moduleName) => {
                 return (
                     <>
-                    <h6>{moduleName}</h6>
+                    <h6 className="sidebar-subheading">{moduleName}</h6>
                     {Object.keys(scheduleData).map((day) => {
                         return (
                             <>
-                            {scheduleData[day].dateTypes.module && (
-                               scheduleData[day].dateTypes.general.preClass.items && (
-                                  scheduleData[day].dateTypes.general.preClass.items.filter(item => Number(item.name.slice(0, 1)) === moduleArray.indexOf(moduleName)).map((item, index) => {
-                                      const id = `week-${scheduleData[day].courseWeek}-day-${scheduleData[day].dayNumber}-gpc-${index}`;
-                                      return (
-                                       <p id={id}>{item.name}</p>
-                                      )
-                               })
-                                  
-                               )
+                            {scheduleData[day].dateTypes.module && 
+                            scheduleData[day].dateTypes.general.preClass.items &&
+                            (
+                            scheduleData[day].dateTypes.general.preClass.items &&
+                                scheduleData[day].dateTypes.general.preClass.items.filter(item => Number(item.name.slice(0, 1)) === moduleArray.indexOf(moduleName)).map((item, index) => {
+                                    const id = `week-${scheduleData[day].courseWeek}-day-${scheduleData[day].dayNumber}-gpc-${index}`;
+                                    return (
+                                    <Nav.Link
+                                    onClick={() => scroller.scrollTo( id, {
+                                        smooth: true,
+                                        offset: -70,
+                                        duration: 100,
+                                    })}
+                                    >
+                                    {item.name}
+                                    </Nav.Link>
+                                    )
+                            })
                             )}
                             </>
                         )

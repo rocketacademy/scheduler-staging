@@ -1,15 +1,20 @@
 import React from 'react';
 
-function DisplaySection({ heading, sectionType}) {
+function DisplaySection({ heading, sectionType, day }) {
     return (
         <div>
-            <h4>{heading}</h4>
+            <h5>{heading}</h5>
                 <ul>
-            {sectionType.map((item) => {
+            {sectionType.map((item, index) => {
+                let id;
+                if (heading === 'Pre Class') {
+                    id = `week-${day.courseWeek}-day-${day.dayNumber}-gpc-${index}`;
+                } 
+
                 return (
                     <>
                     {item.url && (
-                        <li>
+                        <li id={id}>
                             <a href={item.url}>{item.name}</a>
                         </li>
                     )}

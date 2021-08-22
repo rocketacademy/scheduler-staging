@@ -18,18 +18,17 @@ function CourseWeeks({ scheduleData }) {
     }
 
     return (
-        <div>
-            <h3>Course Schedule</h3>
+        <div className="sidebar-courseweeks">
+            <h4>Course Weeks</h4>
             <Nav className="flex-column">
                 {weeksInAMonth.map((month) => {
                     const id = `week-${month[0]}-day-1`;
                     return (
-                        // <Nav.Link eventKey={id}>Course Weeks {month[0]} - {month[month.length - 1]}</Nav.Link>
                         <Nav.Link
                         onClick={() => scroller.scrollTo( id, {
                             smooth: true,
                             offset: -70,
-                            duration: 800,
+                            duration: 100,
                         })}
                         >
                         Course Weeks {month[0]} - {month[month.length - 1]}

@@ -3,7 +3,7 @@ import DisplaySection from './DisplaySection';
 
 // if sections project due/ project start/ cp due exist in a course day, 
 // this function will generate a header and content for these sections
-const GenerateNotifications = ({ status, projectdue, cpdue, projectstart }) => {
+const GenerateNotifications = ({ status, projectdue, cpdue, projectstart, day }) => {
     let heading;
 
     // generates header for the section
@@ -23,7 +23,7 @@ const GenerateNotifications = ({ status, projectdue, cpdue, projectstart }) => {
         <>
         {status && status.items && (
             <>
-            <DisplaySection heading={heading} sectionType={status.items} />
+            <DisplaySection heading={heading} sectionType={status.items} day={day} />
             </>
         )}
     </>

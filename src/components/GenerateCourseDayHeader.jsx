@@ -14,7 +14,7 @@ const NormalCourseDay = ({ day, timeZoneSet }) => {
         <>
             {timeZone === timeZoneSet && (
             <>
-            <h2>{formattedDate}, Week {day.courseWeek}, Course Day {day.courseDay}</h2>
+            <h3 className="day-header">{formattedDate}, Week {day.courseWeek}, Course Day {day.courseDay}</h3>
             {/* luxon does not provide abbreviated localised timezones */}
             <p>Meeting Time: {meetingTime} SGT ({timeOffset})</p>
             <p>{day.dateTypes.module}</p>

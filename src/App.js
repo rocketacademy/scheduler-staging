@@ -2,12 +2,12 @@ import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import TabsContainer from './components/Tabs';
-import BatchSchedule from './components/BatchSchedule';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
+import ScheduleContainer from './components/ScheduleContainer';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
             <TabsContainer />
           </Route>
           <Route path="/schedules">
-            <BatchSchedule />
+            <ScheduleContainer />
           </Route>
         </Switch>
       </Router>
