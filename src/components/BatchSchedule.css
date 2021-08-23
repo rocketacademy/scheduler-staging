@@ -96,7 +96,7 @@ ul {
   height: 60px;
   background-color: #af231c;
   color: #f9f6e7;
-  font-size: 25px;
+  font-size: 100%;
 }
 
 .nav.nav-tabs .nav-link.active {

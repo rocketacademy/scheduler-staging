@@ -14,10 +14,10 @@ const TabsContainer = () => {
       onSelect={(k) => setKey(k)}
       className="mb-3"
     >
-      <Tab eventKey="datePicker" title="Generate schedule">
+      <Tab eventKey="datePicker" title="Generate">
         <DatePicker />
       </Tab>
-      <Tab eventKey="dataShift" title="Edit schedule">
+      <Tab eventKey="dataShift" title="Edit">
         <DataShift />
       </Tab>
     </Tabs>
