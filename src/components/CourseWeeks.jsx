@@ -28,10 +28,22 @@ function CourseWeeks({
         <div className="sidebar-courseweeks">
             <h4>Course Weeks</h4>
             <Nav variant="pills" defaultActiveKey="link-0" className="flex-column" >
+                <Nav.Item>
+                        <Nav.Link eventKey="link-0"
+                        // uses react-scroll library for scroll function
+                        onClick={() => scroller.scrollTo( 'top', {
+                            smooth: true,
+                            offset: -70,
+                            duration: 100,
+                        })}
+                        >
+                        Schedule Table
+                        </Nav.Link>
+                        </Nav.Item>
                 {weeksInAMonth.map((month, index) => {
                     // generating id that is linked to id of an element in main content of page
                     // on click, page will scroll to where the element is
-                    const navId = `link-${index}`;
+                    const navId = `link-${index + 1}`;
                     const id = `${coursetype}-week-${month[0]}-day-1`;
 
                     return (
