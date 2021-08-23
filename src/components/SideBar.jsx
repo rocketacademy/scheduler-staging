@@ -2,12 +2,18 @@ import React from 'react';
 import CourseWeeks from './CourseWeeks';
 import Modules from './Modules';
 
-function SideBar({ scheduleData }) {
+// side navbar 
+function SideBar({ 
+                scheduleData, 
+                coursetype
+             }) {
     
     return (
         <div className="sidebar">
-            <CourseWeeks scheduleData={scheduleData} />
-            <Modules scheduleData={scheduleData} />
+            <CourseWeeks scheduleData={scheduleData}
+                         coursetype={coursetype}
+                         />
+            {/* <Modules scheduleData={scheduleData} /> */}
         </div>
     )
 }

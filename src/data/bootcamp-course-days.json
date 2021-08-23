@@ -7213,7 +7213,14 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 5 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
@@ -7279,7 +7286,14 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 5 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
@@ -7345,7 +7359,14 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 5 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
@@ -7420,7 +7441,12 @@
           "inClass": {
             "items": [
               {
-                "name": "Project 5 MVP Review"
+                "name": "Project 5 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              },
+              {
+                "name": "Project 5 MVP Review",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#mvp-deadline"
               }
             ]
           },
@@ -7489,7 +7515,14 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 5 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
@@ -7555,7 +7588,14 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 5 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
@@ -7622,7 +7662,8 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 5 Feature Freeze"
+                "name": "Project 5 Feature Freeze",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#feature-freeze"
               }
             ]
           },
@@ -7630,7 +7671,12 @@
           "inClass": {
             "items": [
               {
-                "name": "Project 5 Feature Freeze Review"
+                "name": "Project 5 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              },
+              {
+                "name": "Project 5 Feature Freeze Review",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#feature-freeze"
               }
             ]
           },
@@ -7699,7 +7745,14 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 5 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
@@ -7802,11 +7855,29 @@
     {
       "courseDay": 99,
       "dateTypes": {
-        "module": "Module 8: Advanced React",
+        "module": "Module 9: Advanced Topics",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "9.1: Testing",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.1-testing"
+              },
+              {
+                "name": "9.1.1: Unit Testing",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.1-testing/9.1.1-unit-testing"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "9.ICE.1: Unit Testing",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.ice-in-class-exercises/9.ice.1-unit-testing"
+              }
+            ]
+          },
           "postClass": {}
         },
         "css": {
@@ -7878,8 +7949,12 @@
           "preClass": {
             "items": [
               {
-                "name": "9.1 Security",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.2-security"
+                "name": "9.1.2: TDD",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.1-testing/9.1.2-tdd"
+              },
+              {
+                "name": "9.1.3: CI",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.1-testing/9.1.3-ci"
               }
             ]
           },
@@ -7958,160 +8033,6 @@
           "preClass": {
             "items": [
               {
-                "name": "9.1: Testing",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.1-testing"
-              },
-              {
-                "name": "9.1.1: Unit Testing",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.1-testing/9.1.1-unit-testing"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "9.ICE.1: Unit Testing",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.ice-in-class-exercises/9.ice.1-unit-testing"
-              }
-            ]
-          },
-          "postClass": {}
-        },
-        "css": {
-          "type": "css",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "dsa": {
-          "type": "dsa",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "DS&A Open Practice",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
-              }
-            ]
-          }
-        },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "projects": {
-          "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 6 Implementation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "courseDay": 102,
-      "dateTypes": {
-        "module": "Module 9: Advanced Topics",
-        "general": {
-          "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "9.1.2: TDD",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.1-testing/9.1.2-tdd"
-              },
-              {
-                "name": "9.1.3: CI",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.1-testing/9.1.3-ci"
-              }
-            ]
-          },
-          "inClass": {},
-          "postClass": {}
-        },
-        "css": {
-          "type": "css",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "dsa": {
-          "type": "dsa",
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "DS&A Open Practice",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "DS&A Open Practice",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
-              }
-            ]
-          }
-        },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "projects": {
-          "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 6 Implementation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "courseDay": 103,
-      "dateTypes": {
-        "module": "Module 9: Advanced Topics",
-        "general": {
-          "type": "general",
-          "preClass": {
-            "items": [
-              {
                 "name": "9.2.1: XSS",
                 "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.2-security/9.2.1-xss"
               },
@@ -8137,14 +8058,7 @@
         "dsa": {
           "type": "dsa",
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "DS&A Open Practice",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -8172,7 +8086,14 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 6 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
@@ -8185,7 +8106,7 @@
       }
     },
     {
-      "courseDay": 104,
+      "courseDay": 102,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
         "general": {
@@ -8245,7 +8166,14 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 6 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
@@ -8258,17 +8186,13 @@
       }
     },
     {
-      "courseDay": 105,
+      "courseDay": 103,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
         "general": {
           "type": "general",
           "preClass": {
             "items": [
-              {
-                "name": "9.3: Django",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.3-django"
-              },
               {
                 "name": "9.3.1: Django User Login",
                 "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.3-django/9.3.1-django-user-login"
@@ -8322,7 +8246,14 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 6 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
@@ -8335,7 +8266,7 @@
       }
     },
     {
-      "courseDay": 106,
+      "courseDay": 104,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
         "general": {
@@ -8393,18 +8324,13 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Project 6 MVP (deployed)"
-              }
-            ]
-          },
+          "projectDue": {},
           "preClass": {},
           "inClass": {
             "items": [
               {
-                "name": "Project 6 MVP Review"
+                "name": "Project 6 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -8420,7 +8346,7 @@
       }
     },
     {
-      "courseDay": 107,
+      "courseDay": 105,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
         "general": {
@@ -8488,7 +8414,14 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 6 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
@@ -8501,7 +8434,7 @@
       }
     },
     {
-      "courseDay": 108,
+      "courseDay": 106,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
         "general": {
@@ -8574,9 +8507,27 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 6 MVP (deployed)",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#mvp-deadline"
+              }
+            ]
+          },
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 6 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              },
+              {
+                "name": "Project 6 MVP Review",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#mvp-deadline"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
@@ -8589,7 +8540,7 @@
       }
     },
     {
-      "courseDay": 109,
+      "courseDay": 107,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
         "general": {
@@ -8649,7 +8600,14 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 6 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
@@ -8662,7 +8620,7 @@
       }
     },
     {
-      "courseDay": 110,
+      "courseDay": 108,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
         "general": {
@@ -8735,7 +8693,188 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 6 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 6 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 109,
+      "dateTypes": {
+        "module": "Module 9: Advanced Topics",
+        "general": {
+          "type": "general",
+          "preClass": {},
           "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "IP.3: Portfolio",
+                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.3-portfolio"
+              }
+            ]
+          }
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 6 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 6 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 110,
+      "dateTypes": {
+        "module": "Module 9: Advanced Topics",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {
+            "items": [
+              {
+                "name": "IP.3: Portfolio",
+                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.3-portfolio"
+              }
+            ]
+          },
+          "preClass": {
+            "items": [
+              {
+                "name": "IP.4: Job List",
+                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.4-job-list"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "IP.4: Job List",
+                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.4-job-list"
+              }
+            ]
+          }
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 6 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
@@ -8797,8 +8936,8 @@
           "postClass": {
             "items": [
               {
-                "name": "IP.3: Portfolio",
-                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.3-portfolio"
+                "name": "IP.4: Job List",
+                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.4-job-list"
               }
             ]
           }
@@ -8808,7 +8947,14 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 6 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
@@ -8867,34 +9013,27 @@
           "cpDue": {
             "items": [
               {
-                "name": "Portfolio 1st Draft"
+                "name": "Job List 1st Draft"
               }
             ]
           },
-          "preClass": {
-            "items": [
-              {
-                "name": "IP.4: Job List",
-                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.4-job-list"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "IP.4: Job List",
-                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.4-job-list"
-              }
-            ]
-          }
+          "postClass": {}
         },
         "projects": {
           "type": "projects",
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 6 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
@@ -8953,14 +9092,7 @@
           "cpDue": {},
           "preClass": {},
           "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "IP.4: Job List",
-                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.4-job-list"
-              }
-            ]
-          }
+          "postClass": {}
         },
         "projects": {
           "type": "projects",
@@ -8968,12 +9100,24 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 6 Feature Freeze"
+                "name": "Project 6 Feature Freeze",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#feature-freeze"
               }
             ]
           },
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 6 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              },
+              {
+                "name": "Project 6 Feature Freeze Review",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#feature-freeze"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
@@ -9029,13 +9173,7 @@
         },
         "cp": {
           "type": "cp",
-          "cpDue": {
-            "items": [
-              {
-                "name": "Job List 1st Draft"
-              }
-            ]
-          },
+          "cpDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -9045,7 +9183,14 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 6 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {

@@ -3,9 +3,10 @@ import DisplaySection from './DisplaySection';
 import generateSectionArray from '../generateSectionArray';
 
 
-function GenerateDatetypeSections ({ datetype, 
-                                    classType, 
-                                    day 
+function GenerateDatetypeSections ({ 
+                                datetype, 
+                                classType, 
+                                day 
                                 }) { 
     // stores items that are in a particular section of a datetype
     const sectionArray = [];
@@ -27,10 +28,11 @@ function GenerateDatetypeSections ({ datetype,
 
     return (
         <div>
-            <DisplaySection heading={heading} 
-                            sectionType={sectionArray} 
-                            day={day}
-                            />
+            <DisplaySection 
+                        heading={heading} 
+                        sectionType={sectionArray} 
+                        day={day}
+                        />
         </div>
     )
 }

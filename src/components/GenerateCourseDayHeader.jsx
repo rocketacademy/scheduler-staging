@@ -1,9 +1,13 @@
 import React from 'react';
 import { DateTime } from 'luxon';
-
+import ExpandLessIcon from '@material-ui/icons/ExpandLess';
+import { scroller } from 'react-scroll';
 
 // helper function that generates course day header for a normal course day
-const NormalCourseDay = ({ day, timeZoneSet }) => {
+const NormalCourseDay = ({ 
+                        day, 
+                        timeZoneSet
+                        }) => {
     localDate = DateTime.fromISO(day.meetingDateTimeUTC, { zone: timeZoneSet });
     formattedDate = localDate.toFormat('EEE d MMM');
     meetingTime = localDate.toFormat('t');
@@ -14,7 +18,16 @@ const NormalCourseDay = ({ day, timeZoneSet }) => {
         <>
             {timeZone === timeZoneSet && (
             <>
+            <div className="main-header">
             <h3 className="day-header">{formattedDate}, Week {day.courseWeek}, Course Day {day.courseDay}</h3>
+            <div  onClick={() => scroller.scrollTo( 'top', {
+                                    smooth: true,
+                                    offset: -70,
+                                    duration: 100,
+                                })}>
+            <ExpandLessIcon />
+            </div>
+            </div>
             {/* luxon does not provide abbreviated localised timezones */}
             <p>Meeting Time: {meetingTime} SGT ({timeOffset})</p>
             <p>{day.dateTypes.module}</p>
@@ -62,9 +75,15 @@ const GenerateCourseDayHeader = ({ day }) => {
     const timeZoneSet = 'Asia/Singapore';
 
     if (day.meetingDateTimeUTC) {
-        return <NormalCourseDay day={day} timeZoneSet={timeZoneSet} />
+        return <NormalCourseDay 
+                            day={day} 
+                            timeZoneSet={timeZoneSet} 
+                            />
     } else {
-        return <HolidayCourseDay day={day} timeZoneSet={timeZoneSet} />
+        return <HolidayCourseDay 
+                            day={day} 
+                            timeZoneSet={timeZoneSet} 
+                            />
     }
 }
 

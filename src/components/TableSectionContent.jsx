@@ -1,5 +1,6 @@
 import React from 'react'
 
+// renders items in a section
 function TableSectionContent({ sectionArray }) {
     return (
         <ul>

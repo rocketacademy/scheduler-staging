@@ -6,8 +6,10 @@ import ptbc1 from '../data/16-08-2021_10-10-2022_BATCH1.json';
 import ftbc4 from '../data/12-07-2021_22-12-2021_BATCH4.json';
 
 function ScheduleContainer() {
+    // this sets which schedule is shown on page load
     const [key, setKey] = useState('FTBC4');
 
+    // pass individual batch json files into BatchSchedule to generate schedules
   return (
     <Tabs
       id="controlled-tab-example"

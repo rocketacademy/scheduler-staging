@@ -25,6 +25,8 @@
 .sidebar-courseweeks,
 .sidebar-modules {
   padding: 30px 0;
+  position: sticky;
+  top: 40px;
 }
 
 .nav-link {
@@ -106,4 +108,15 @@ ul {
 .mb-3 {
   width: 80%;
   border-bottom: 1px solid #af231c;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav.nav-pills .nav-link.active {
+  background-color: #00567e;
+  color: #f9f6e7;
 }

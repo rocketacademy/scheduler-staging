@@ -10,37 +10,42 @@
     
     return (
         <>
-        <GenerateNotifications status={projectdue} 
-                               cpdue={cpdue} 
-                               projectdue={projectdue} 
-                               projectstart={projectstart} 
-                               day={day}
-                               />
-        <GenerateNotifications status={cpdue} 
-                               cpdue={cpdue} 
-                               projectdue={projectdue} 
-                               projectstart={projectstart} 
-                               day={day}
-                               />
-        <GenerateDatetypeSections datetype={day.dateTypes} 
-                                  classType="preClass" 
-                                   day={day}
-                                  />
-        <GenerateDatetypeSections datetype={day.dateTypes} 
-                                  classType="inClass" 
-                                  day={day}
-                                  />
-        <GenerateDatetypeSections datetype={day.dateTypes} 
-                                  classType="postClass" 
-                                  day={day}
-
-                                  />
-        <GenerateNotifications status={projectstart} 
-                               cpdue={cpdue} 
-                               projectdue={projectdue} 
-                               projectstart={projectstart} 
-                               day={day}
-                               />
+        <GenerateNotifications
+                            status={projectdue} 
+                            cpdue={cpdue} 
+                            projectdue={projectdue} 
+                            projectstart={projectstart} 
+                            day={day}
+                            />
+        <GenerateNotifications
+                            status={cpdue} 
+                            cpdue={cpdue} 
+                            projectdue={projectdue} 
+                            projectstart={projectstart} 
+                            day={day}
+                            />
+        <GenerateDatetypeSections 
+                                datetype={day.dateTypes} 
+                                classType="preClass" 
+                                day={day}
+                                />
+        <GenerateDatetypeSections 
+                                datetype={day.dateTypes} 
+                                classType="inClass" 
+                                day={day}
+                                />
+        <GenerateDatetypeSections 
+                                datetype={day.dateTypes} 
+                                classType="postClass" 
+                                day={day}
+                                />
+        <GenerateNotifications 
+                            status={projectstart} 
+                            cpdue={cpdue} 
+                            projectdue={projectdue} 
+                            projectstart={projectstart} 
+                            day={day}
+                            />
         </>
     )
 }
