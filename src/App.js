@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import TabsContainer from './components/Tabs';
 import {
   BrowserRouter as Router,
+  HashRouter,
   Switch,
   Route,
 } from "react-router-dom";
@@ -13,7 +14,7 @@ function App() {
   return (
     <div className="App">
       {/* <BatchSchedule /> */}
-      <Router>
+      <HashRouter>
         <Switch>
           <Route path="/admin">
             <TabsContainer />
@@ -22,7 +23,7 @@ function App() {
             <ScheduleContainer />
           </Route>
         </Switch>
-      </Router>
+      </HashRouter>
     </div>
   );
 }
