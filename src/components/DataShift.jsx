@@ -16,7 +16,7 @@ const DataShift = () => {
     return (
         <>
             <div className="datashift-button-container">
-                <Button variant="primary" type="submit" onClick={handleDownloadClick}>
+                <Button variant="danger" type="submit" onClick={handleDownloadClick}>
                     Download Modified File
                 </Button>
             </div>

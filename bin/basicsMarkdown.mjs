@@ -239,11 +239,11 @@ const whenFileIsRead = (error, content) => {
     output += '# Further Reading\n### Past Projects\n * [Drawing With Emojis](https://basics.rocketacademy.co/past-projects/drawing-with-emojis)\n * [Guess The Word](https://basics.rocketacademy.co/past-projects/guess-the-word)';
     console.log(output);
 
-    // fs.writeFile(`src/markdown/${data.courseName}.md`, output, (writeErr) => {
-    //     if (writeErr) {
-    //         console.error('Writing error', writeErr);
-    //     }
-    // });
+    fs.writeFile(`src/markdown/${data.courseName}.md`, output, (writeErr) => {
+        if (writeErr) {
+            console.error('Writing error', writeErr);
+        }
+    });
 }
 
 fs.readFile(filename, 'utf8', whenFileIsRead);

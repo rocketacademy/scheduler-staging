@@ -26,7 +26,7 @@ const DatePicker = () => {
         <>
         <div  className="date-picker">
             <div>
-                <h2>Course Schedule Markdown</h2>
+                <h2>Course Schedule Data File</h2>
             </div>
             <div className="input-form-container">
                 <Form className="input-form">
@@ -51,7 +51,7 @@ const DatePicker = () => {
                 </Form.Group>
                 <br></br>
                 <div className="submit-button-container">
-                    <Button variant="primary" type="submit" onClick={(e) => {handleSubmit(e)}}>
+                    <Button variant="danger" type="submit" onClick={(e) => {handleSubmit(e)}}>
                         Download File
                     </Button>
                 </div>

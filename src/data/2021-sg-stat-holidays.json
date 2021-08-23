@@ -71,6 +71,66 @@
       "date": "01-01-2022",
       "location": "SG",
       "name": "New Year's Day"
+    },
+    "01-02-2022": {
+      "holidayType": "public holiday",
+      "date": "01-02-2022",
+      "location": "SG",
+      "name": "Chinese New Year Day 1"
+    },
+    "02-02-2022": {
+      "holidayType": "public holiday",
+      "date": "02-02-2022",
+      "location": "SG",
+      "name": "Chinese New Year Day 2"
+    },
+    "15-04-2022": {
+      "holidayType": "public holiday",
+      "date": "15-04-2022",
+      "location": "SG",
+      "name": "Good Friday"
+    },
+    "03-05-2022": {
+      "holidayType": "public holiday",
+      "date": "03-05-2022",
+      "location": "SG",
+      "name": "Labour Day (observed)"
+    },
+    "02-05-2022": {
+      "holidayType": "public holiday",
+      "date": "02-05-2022",
+      "location": "SG",
+      "name": "Hari Raya Puasa"
+    },
+    "16-05-2022": {
+      "holidayType": "public holiday",
+      "date": "16-05-2022",
+      "location": "SG",
+      "name": "Vesak Day (observed)"
+    },
+    "09-07-2022": {
+      "holidayType": "public holiday",
+      "date": "09-07-2022",
+      "location": "SG",
+      "name": "Hari Raya Haji"
+    },
+    "09-08-2022": {
+      "holidayType": "public holiday",
+      "date": "09-08-2022",
+      "location": "SG",
+      "name": "National Day"
+    },
+    "24-10-2022": {
+      "holidayType": "public holiday",
+      "date": "24-10-2022",
+      "location": "SG",
+      "name": "Deepavali"
+    },
+    "26-12-2022": {
+      "holidayType": "public holiday",
+      "date": "26-12-2022",
+      "location": "SG",
+      "name": "Christmas Day (observed)"
     }
   },
   "company": {

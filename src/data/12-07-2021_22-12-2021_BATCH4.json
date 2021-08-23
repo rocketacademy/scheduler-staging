@@ -1,12 +1,15 @@
 {
-  "daysOfWeek": {
-    "fullTime": [1, 2, 3, 4, 5],
-    "partTime": [1, 6]
-  },
+  "daysOfWeek": [1, 2, 3, 4, 5],
   "courseStartIndex": 0,
   "totalCourseDays": 115,
-  "days": [
-    {
+  "courseType": "Bootcamp FT",
+  "days": {
+    "12-07-2021": {
+      "courseDate": "12-07-2021",
+      "courseWeek": 1,
+      "weekDay": 1,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2021-07-12T05:00:00.000Z",
       "courseDay": 1,
       "dateTypes": {
         "module": "Module 1: Frontend Basics",
@@ -46,14 +49,8 @@
           },
           "inClass": {
             "items": [
-              {
-                "name": "Day 1 Photo!",
-                "url": ""
-              },
-              {
-                "name": "Course and Student Introductions",
-                "url": ""
-              },
+              { "name": "Day 1 Photo!", "url": "" },
+              { "name": "Course and Student Introductions", "url": "" },
               {
                 "name": "1.ICE.1: Drawing DOM",
                 "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.ice-in-class-exercises/1.ice.1-drawing-dom"
@@ -81,12 +78,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -104,7 +96,12 @@
         }
       }
     },
-    {
+    "13-07-2021": {
+      "courseDate": "13-07-2021",
+      "courseWeek": 1,
+      "weekDay": 2,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2021-07-13T05:00:00.000Z",
       "courseDay": 2,
       "dateTypes": {
         "module": "Module 1: Frontend Basics",
@@ -147,9 +144,7 @@
           },
           "inClass": {
             "items": [
-              {
-                "name": "Review 1 student's 1.POCE.1: Noodle Recipe Website"
-              }
+              { "name": "Review 1 student's 1.POCE.1: Noodle Recipe Website" }
             ]
           },
           "postClass": {}
@@ -160,12 +155,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -183,7 +173,12 @@
         }
       }
     },
-    {
+    "14-07-2021": {
+      "courseDate": "14-07-2021",
+      "courseWeek": 1,
+      "weekDay": 3,
+      "dayNumber": 3,
+      "meetingDateTimeUTC": "2021-07-14T05:00:00.000Z",
       "courseDay": 3,
       "dateTypes": {
         "module": "Module 1: Frontend Basics",
@@ -207,10 +202,7 @@
           },
           "inClass": {
             "items": [
-              {
-                "name": "Review 1 student's 1.POCE.2: High Card",
-                "url": ""
-              },
+              { "name": "Review 1 student's 1.POCE.2: High Card", "url": "" },
               {
                 "name": "1.ICE.2: Timeout / High Card Redux",
                 "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.ice-in-class-exercises/1.ice.2-high-card-redux"
@@ -245,12 +237,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -268,7 +255,12 @@
         }
       }
     },
-    {
+    "15-07-2021": {
+      "courseDate": "15-07-2021",
+      "courseWeek": 1,
+      "weekDay": 4,
+      "dayNumber": 4,
+      "meetingDateTimeUTC": "2021-07-15T05:00:00.000Z",
       "courseDay": 4,
       "dateTypes": {
         "module": "Module 1: Frontend Basics",
@@ -288,9 +280,7 @@
           },
           "inClass": {
             "items": [
-              {
-                "name": "Review 1 student's 1.POCE.3: Match Game"
-              },
+              { "name": "Review 1 student's 1.POCE.3: Match Game" },
               {
                 "name": "1.ICE.3: setInterval",
                 "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.ice-in-class-exercises/1.ice.3-setinterval"
@@ -329,12 +319,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -352,7 +337,12 @@
         }
       }
     },
-    {
+    "16-07-2021": {
+      "courseDate": "16-07-2021",
+      "courseWeek": 1,
+      "weekDay": 5,
+      "dayNumber": 5,
+      "meetingDateTimeUTC": "2021-07-16T05:00:00.000Z",
       "courseDay": 5,
       "dateTypes": {
         "module": "Module 1: Frontend Basics",
@@ -372,10 +362,7 @@
           },
           "inClass": {
             "items": [
-              {
-                "name": "Review 1 student's 1.POCE.4: Timer",
-                "url": ""
-              }
+              { "name": "Review 1 student's 1.POCE.4: Timer", "url": "" }
             ]
           },
           "postClass": {
@@ -410,12 +397,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -433,7 +415,12 @@
         }
       }
     },
-    {
+    "19-07-2021": {
+      "courseDate": "19-07-2021",
+      "courseWeek": 2,
+      "weekDay": 1,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2021-07-19T05:00:00.000Z",
       "courseDay": 6,
       "dateTypes": {
         "module": "Module 1: Frontend Basics",
@@ -452,11 +439,7 @@
             ]
           },
           "inClass": {
-            "items": [
-              {
-                "name": "Review 1 student's 1.POCE.5: Tic Tac Toe"
-              }
-            ]
+            "items": [{ "name": "Review 1 student's 1.POCE.5: Tic Tac Toe" }]
           },
           "postClass": {}
         },
@@ -483,12 +466,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -520,7 +498,24 @@
         }
       }
     },
-    {
+    "20-07-2021": {
+      "courseDay": null,
+      "courseDate": "20-07-2021",
+      "courseWeek": 2,
+      "dayNumber": 2,
+      "dateTypes": {
+        "holidayType": "public holiday",
+        "date": "20-07-2021",
+        "location": "SG",
+        "name": "Hari Raya Haji"
+      }
+    },
+    "21-07-2021": {
+      "courseDate": "21-07-2021",
+      "courseWeek": 2,
+      "weekDay": 2,
+      "dayNumber": 3,
+      "meetingDateTimeUTC": "2021-07-21T05:00:00.000Z",
       "courseDay": 7,
       "dateTypes": {
         "module": "Module 1: Frontend Basics",
@@ -560,12 +555,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -597,7 +587,12 @@
         }
       }
     },
-    {
+    "22-07-2021": {
+      "courseDate": "22-07-2021",
+      "courseWeek": 2,
+      "weekDay": 3,
+      "dayNumber": 4,
+      "meetingDateTimeUTC": "2021-07-22T05:00:00.000Z",
       "courseDay": 8,
       "dateTypes": {
         "module": "Module 1: Frontend Basics",
@@ -640,12 +635,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -677,7 +667,12 @@
         }
       }
     },
-    {
+    "23-07-2021": {
+      "courseDate": "23-07-2021",
+      "courseWeek": 2,
+      "weekDay": 4,
+      "dayNumber": 5,
+      "meetingDateTimeUTC": "2021-07-23T05:00:00.000Z",
       "courseDay": 9,
       "dateTypes": {
         "module": "Module 1: Frontend Basics",
@@ -713,12 +708,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -750,7 +740,12 @@
         }
       }
     },
-    {
+    "26-07-2021": {
+      "courseDate": "26-07-2021",
+      "courseWeek": 3,
+      "weekDay": 1,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2021-07-26T05:00:00.000Z",
       "courseDay": 10,
       "dateTypes": {
         "module": "Module 1: Frontend Basics",
@@ -790,12 +785,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -831,7 +821,12 @@
         }
       }
     },
-    {
+    "27-07-2021": {
+      "courseDate": "27-07-2021",
+      "courseWeek": 3,
+      "weekDay": 2,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2021-07-27T05:00:00.000Z",
       "courseDay": 11,
       "dateTypes": {
         "module": "Module 1: Frontend Basics",
@@ -853,12 +848,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -904,7 +894,12 @@
         }
       }
     },
-    {
+    "28-07-2021": {
+      "courseDate": "28-07-2021",
+      "courseWeek": 3,
+      "weekDay": 3,
+      "dayNumber": 3,
+      "meetingDateTimeUTC": "2021-07-28T05:00:00.000Z",
       "courseDay": 12,
       "dateTypes": {
         "module": "Module 2: Backend Basics",
@@ -958,12 +953,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -981,7 +971,12 @@
         }
       }
     },
-    {
+    "29-07-2021": {
+      "courseDate": "29-07-2021",
+      "courseWeek": 3,
+      "weekDay": 4,
+      "dayNumber": 4,
+      "meetingDateTimeUTC": "2021-07-29T05:00:00.000Z",
       "courseDay": 13,
       "dateTypes": {
         "module": "Module 2: Backend Basics",
@@ -1032,12 +1027,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1055,7 +1045,12 @@
         }
       }
     },
-    {
+    "30-07-2021": {
+      "courseDate": "30-07-2021",
+      "courseWeek": 3,
+      "weekDay": 5,
+      "dayNumber": 5,
+      "meetingDateTimeUTC": "2021-07-30T05:00:00.000Z",
       "courseDay": 14,
       "dateTypes": {
         "module": "Module 2: Backend Basics",
@@ -1119,12 +1114,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1142,7 +1132,12 @@
         }
       }
     },
-    {
+    "02-08-2021": {
+      "courseDate": "02-08-2021",
+      "courseWeek": 4,
+      "weekDay": 1,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2021-08-02T05:00:00.000Z",
       "courseDay": 15,
       "dateTypes": {
         "module": "Module 2: Backend Basics",
@@ -1211,12 +1206,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1234,7 +1224,12 @@
         }
       }
     },
-    {
+    "03-08-2021": {
+      "courseDate": "03-08-2021",
+      "courseWeek": 4,
+      "weekDay": 2,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2021-08-03T05:00:00.000Z",
       "courseDay": 16,
       "dateTypes": {
         "module": "Module 2: Backend Basics",
@@ -1289,12 +1284,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1312,7 +1302,12 @@
         }
       }
     },
-    {
+    "04-08-2021": {
+      "courseDate": "04-08-2021",
+      "courseWeek": 4,
+      "weekDay": 3,
+      "dayNumber": 3,
+      "meetingDateTimeUTC": "2021-08-04T05:00:00.000Z",
       "courseDay": 17,
       "dateTypes": {
         "module": "Module 2: Backend Basics",
@@ -1370,12 +1365,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1393,7 +1383,12 @@
         }
       }
     },
-    {
+    "05-08-2021": {
+      "courseDate": "05-08-2021",
+      "courseWeek": 4,
+      "weekDay": 4,
+      "dayNumber": 4,
+      "meetingDateTimeUTC": "2021-08-05T05:00:00.000Z",
       "courseDay": 18,
       "dateTypes": {
         "module": "Module 2: Backend Basics",
@@ -1444,12 +1439,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1467,7 +1457,12 @@
         }
       }
     },
-    {
+    "06-08-2021": {
+      "courseDate": "06-08-2021",
+      "courseWeek": 4,
+      "weekDay": 5,
+      "dayNumber": 5,
+      "meetingDateTimeUTC": "2021-08-06T05:00:00.000Z",
       "courseDay": 19,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -1520,12 +1515,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1543,7 +1533,24 @@
         }
       }
     },
-    {
+    "09-08-2021": {
+      "courseDay": null,
+      "courseDate": "09-08-2021",
+      "courseWeek": 5,
+      "dayNumber": 1,
+      "dateTypes": {
+        "holidayType": "public holiday",
+        "date": "09-08-2021",
+        "location": "SG",
+        "name": "National Day"
+      }
+    },
+    "10-08-2021": {
+      "courseDate": "10-08-2021",
+      "courseWeek": 5,
+      "weekDay": 1,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2021-08-10T05:00:00.000Z",
       "courseDay": 20,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -1596,12 +1603,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1619,7 +1621,12 @@
         }
       }
     },
-    {
+    "11-08-2021": {
+      "courseDate": "11-08-2021",
+      "courseWeek": 5,
+      "weekDay": 2,
+      "dayNumber": 3,
+      "meetingDateTimeUTC": "2021-08-11T05:00:00.000Z",
       "courseDay": 21,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -1676,12 +1683,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1699,7 +1701,12 @@
         }
       }
     },
-    {
+    "12-08-2021": {
+      "courseDate": "12-08-2021",
+      "courseWeek": 5,
+      "weekDay": 3,
+      "dayNumber": 4,
+      "meetingDateTimeUTC": "2021-08-12T05:00:00.000Z",
       "courseDay": 22,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -1742,12 +1749,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1765,7 +1767,12 @@
         }
       }
     },
-    {
+    "13-08-2021": {
+      "courseDate": "13-08-2021",
+      "courseWeek": 5,
+      "weekDay": 4,
+      "dayNumber": 5,
+      "meetingDateTimeUTC": "2021-08-13T05:00:00.000Z",
       "courseDay": 23,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -1821,12 +1828,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1844,7 +1846,12 @@
         }
       }
     },
-    {
+    "16-08-2021": {
+      "courseDate": "16-08-2021",
+      "courseWeek": 6,
+      "weekDay": 1,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2021-08-16T05:00:00.000Z",
       "courseDay": 24,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -1940,7 +1947,12 @@
         }
       }
     },
-    {
+    "17-08-2021": {
+      "courseDate": "17-08-2021",
+      "courseWeek": 6,
+      "weekDay": 2,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2021-08-17T05:00:00.000Z",
       "courseDay": 25,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -2021,7 +2033,12 @@
         }
       }
     },
-    {
+    "18-08-2021": {
+      "courseDate": "18-08-2021",
+      "courseWeek": 6,
+      "weekDay": 3,
+      "dayNumber": 3,
+      "meetingDateTimeUTC": "2021-08-18T05:00:00.000Z",
       "courseDay": 26,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -2072,12 +2089,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2109,7 +2121,12 @@
         }
       }
     },
-    {
+    "19-08-2021": {
+      "courseDate": "19-08-2021",
+      "courseWeek": 6,
+      "weekDay": 4,
+      "dayNumber": 4,
+      "meetingDateTimeUTC": "2021-08-19T05:00:00.000Z",
       "courseDay": 27,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -2156,12 +2173,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2186,7 +2198,12 @@
         }
       }
     },
-    {
+    "20-08-2021": {
+      "courseDate": "20-08-2021",
+      "courseWeek": 6,
+      "weekDay": 5,
+      "dayNumber": 5,
+      "meetingDateTimeUTC": "2021-08-20T05:00:00.000Z",
       "courseDay": 28,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -2237,12 +2254,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2267,7 +2279,12 @@
         }
       }
     },
-    {
+    "23-08-2021": {
+      "courseDate": "23-08-2021",
+      "courseWeek": 7,
+      "weekDay": 1,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2021-08-23T05:00:00.000Z",
       "courseDay": 29,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -2318,12 +2335,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2348,7 +2360,12 @@
         }
       }
     },
-    {
+    "24-08-2021": {
+      "courseDate": "24-08-2021",
+      "courseWeek": 7,
+      "weekDay": 2,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2021-08-24T05:00:00.000Z",
       "courseDay": 30,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -2395,12 +2412,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2412,11 +2424,7 @@
           "type": "projects",
           "projectStart": {},
           "projectDue": {
-            "items": [
-              {
-                "name": "Project 2 deadline to post ideas in Slack"
-              }
-            ]
+            "items": [{ "name": "Project 2 deadline to post ideas in Slack" }]
           },
           "preClass": {},
           "inClass": {},
@@ -2431,7 +2439,12 @@
         }
       }
     },
-    {
+    "25-08-2021": {
+      "courseDate": "25-08-2021",
+      "courseWeek": 7,
+      "weekDay": 3,
+      "dayNumber": 3,
+      "meetingDateTimeUTC": "2021-08-25T05:00:00.000Z",
       "courseDay": 31,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -2479,12 +2492,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2509,7 +2517,12 @@
         }
       }
     },
-    {
+    "26-08-2021": {
+      "courseDate": "26-08-2021",
+      "courseWeek": 7,
+      "weekDay": 4,
+      "dayNumber": 4,
+      "meetingDateTimeUTC": "2021-08-26T05:00:00.000Z",
       "courseDay": 32,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -2542,12 +2555,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2587,7 +2595,12 @@
         }
       }
     },
-    {
+    "27-08-2021": {
+      "courseDate": "27-08-2021",
+      "courseWeek": 7,
+      "weekDay": 5,
+      "dayNumber": 5,
+      "meetingDateTimeUTC": "2021-08-27T05:00:00.000Z",
       "courseDay": 33,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -2623,12 +2636,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2660,7 +2668,12 @@
         }
       }
     },
-    {
+    "30-08-2021": {
+      "courseDate": "30-08-2021",
+      "courseWeek": 8,
+      "weekDay": 1,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2021-08-30T05:00:00.000Z",
       "courseDay": 34,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -2698,12 +2711,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2735,7 +2743,12 @@
         }
       }
     },
-    {
+    "31-08-2021": {
+      "courseDate": "31-08-2021",
+      "courseWeek": 8,
+      "weekDay": 2,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2021-08-31T05:00:00.000Z",
       "courseDay": 35,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -2778,12 +2791,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2815,7 +2823,12 @@
         }
       }
     },
-    {
+    "01-09-2021": {
+      "courseDate": "01-09-2021",
+      "courseWeek": 8,
+      "weekDay": 3,
+      "dayNumber": 3,
+      "meetingDateTimeUTC": "2021-09-01T05:00:00.000Z",
       "courseDay": 36,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -2837,12 +2850,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2853,13 +2861,7 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Project 2 MVP (deployed)"
-              }
-            ]
-          },
+          "projectDue": { "items": [{ "name": "Project 2 MVP (deployed)" }] },
           "preClass": {},
           "inClass": {
             "items": [
@@ -2888,7 +2890,12 @@
         }
       }
     },
-    {
+    "02-09-2021": {
+      "courseDate": "02-09-2021",
+      "courseWeek": 8,
+      "weekDay": 4,
+      "dayNumber": 4,
+      "meetingDateTimeUTC": "2021-09-02T05:00:00.000Z",
       "courseDay": 37,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -2917,12 +2924,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2954,7 +2956,12 @@
         }
       }
     },
-    {
+    "03-09-2021": {
+      "courseDate": "03-09-2021",
+      "courseWeek": 8,
+      "weekDay": 5,
+      "dayNumber": 5,
+      "meetingDateTimeUTC": "2021-09-03T05:00:00.000Z",
       "courseDay": 38,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -2983,12 +2990,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3020,7 +3022,12 @@
         }
       }
     },
-    {
+    "06-09-2021": {
+      "courseDate": "06-09-2021",
+      "courseWeek": 9,
+      "weekDay": 1,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2021-09-06T05:00:00.000Z",
       "courseDay": 39,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -3049,12 +3056,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3065,13 +3067,7 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Project 2 Feature Freeze"
-              }
-            ]
-          },
+          "projectDue": { "items": [{ "name": "Project 2 Feature Freeze" }] },
           "preClass": {},
           "inClass": {
             "items": [
@@ -3092,7 +3088,12 @@
         }
       }
     },
-    {
+    "07-09-2021": {
+      "courseDate": "07-09-2021",
+      "courseWeek": 9,
+      "weekDay": 2,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2021-09-07T05:00:00.000Z",
       "courseDay": 40,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -3114,12 +3115,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3158,7 +3154,12 @@
         }
       }
     },
-    {
+    "08-09-2021": {
+      "courseDate": "08-09-2021",
+      "courseWeek": 9,
+      "weekDay": 3,
+      "dayNumber": 3,
+      "meetingDateTimeUTC": "2021-09-08T05:00:00.000Z",
       "courseDay": 41,
       "dateTypes": {
         "module": "Module 4: Backend Structure",
@@ -3217,12 +3218,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3247,7 +3243,12 @@
         }
       }
     },
-    {
+    "09-09-2021": {
+      "courseDate": "09-09-2021",
+      "courseWeek": 9,
+      "weekDay": 4,
+      "dayNumber": 4,
+      "meetingDateTimeUTC": "2021-09-09T05:00:00.000Z",
       "courseDay": 42,
       "dateTypes": {
         "module": "Module 4: Backend Structure",
@@ -3298,12 +3299,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3328,7 +3324,12 @@
         }
       }
     },
-    {
+    "10-09-2021": {
+      "courseDate": "10-09-2021",
+      "courseWeek": 9,
+      "weekDay": 5,
+      "dayNumber": 5,
+      "meetingDateTimeUTC": "2021-09-10T05:00:00.000Z",
       "courseDay": 43,
       "dateTypes": {
         "module": "Module 4: Backend Structure",
@@ -3379,12 +3380,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3409,7 +3405,12 @@
         }
       }
     },
-    {
+    "13-09-2021": {
+      "courseDate": "13-09-2021",
+      "courseWeek": 10,
+      "weekDay": 1,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2021-09-13T05:00:00.000Z",
       "courseDay": 44,
       "dateTypes": {
         "module": "Module 4: Backend Structure",
@@ -3456,12 +3457,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3479,7 +3475,12 @@
         }
       }
     },
-    {
+    "14-09-2021": {
+      "courseDate": "14-09-2021",
+      "courseWeek": 10,
+      "weekDay": 2,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2021-09-14T05:00:00.000Z",
       "courseDay": 45,
       "dateTypes": {
         "module": "Module 4: Backend Structure",
@@ -3522,12 +3523,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3545,7 +3541,12 @@
         }
       }
     },
-    {
+    "15-09-2021": {
+      "courseDate": "15-09-2021",
+      "courseWeek": 10,
+      "weekDay": 3,
+      "dayNumber": 3,
+      "meetingDateTimeUTC": "2021-09-15T05:00:00.000Z",
       "courseDay": 46,
       "dateTypes": {
         "module": "Module 5: Full-Stack Applications",
@@ -3592,12 +3593,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3615,7 +3611,12 @@
         }
       }
     },
-    {
+    "16-09-2021": {
+      "courseDate": "16-09-2021",
+      "courseWeek": 10,
+      "weekDay": 4,
+      "dayNumber": 4,
+      "meetingDateTimeUTC": "2021-09-16T05:00:00.000Z",
       "courseDay": 47,
       "dateTypes": {
         "module": "Module 5: Full-Stack Applications",
@@ -3662,12 +3663,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3685,7 +3681,12 @@
         }
       }
     },
-    {
+    "17-09-2021": {
+      "courseDate": "17-09-2021",
+      "courseWeek": 10,
+      "weekDay": 5,
+      "dayNumber": 5,
+      "meetingDateTimeUTC": "2021-09-17T05:00:00.000Z",
       "courseDay": 48,
       "dateTypes": {
         "module": "Module 5: Full-Stack Applications",
@@ -3732,12 +3733,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3769,7 +3765,12 @@
         }
       }
     },
-    {
+    "20-09-2021": {
+      "courseDate": "20-09-2021",
+      "courseWeek": 11,
+      "weekDay": 1,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2021-09-20T05:00:00.000Z",
       "courseDay": 49,
       "dateTypes": {
         "module": "Module 5: Full-Stack Applications",
@@ -3823,12 +3824,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3853,7 +3849,12 @@
         }
       }
     },
-    {
+    "21-09-2021": {
+      "courseDate": "21-09-2021",
+      "courseWeek": 11,
+      "weekDay": 2,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2021-09-21T05:00:00.000Z",
       "courseDay": 50,
       "dateTypes": {
         "module": "Module 6: Frontend Infrastructure",
@@ -3907,12 +3908,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3937,7 +3933,12 @@
         }
       }
     },
-    {
+    "22-09-2021": {
+      "courseDate": "22-09-2021",
+      "courseWeek": 11,
+      "weekDay": 3,
+      "dayNumber": 3,
+      "meetingDateTimeUTC": "2021-09-22T05:00:00.000Z",
       "courseDay": 51,
       "dateTypes": {
         "module": "Module 6: Frontend Infrastructure",
@@ -3995,12 +3996,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4025,7 +4021,12 @@
         }
       }
     },
-    {
+    "23-09-2021": {
+      "courseDate": "23-09-2021",
+      "courseWeek": 11,
+      "weekDay": 4,
+      "dayNumber": 4,
+      "meetingDateTimeUTC": "2021-09-23T05:00:00.000Z",
       "courseDay": 52,
       "dateTypes": {
         "module": "Module 6: Frontend Infrastructure",
@@ -4086,12 +4087,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4116,7 +4112,12 @@
         }
       }
     },
-    {
+    "24-09-2021": {
+      "courseDate": "24-09-2021",
+      "courseWeek": 11,
+      "weekDay": 5,
+      "dayNumber": 5,
+      "meetingDateTimeUTC": "2021-09-24T05:00:00.000Z",
       "courseDay": 53,
       "dateTypes": {
         "module": "Module 6: Frontend Infrastructure",
@@ -4130,13 +4131,7 @@
               }
             ]
           },
-          "inClass": {
-            "items": [
-              {
-                "name": "AJAX Cards Redux"
-              }
-            ]
-          },
+          "inClass": { "items": [{ "name": "AJAX Cards Redux" }] },
           "postClass": {}
         },
         "css": {
@@ -4147,9 +4142,7 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": []
-          },
+          "preClass": { "items": [] },
           "inClass": {
             "items": [
               {
@@ -4167,12 +4160,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4184,11 +4172,7 @@
           "type": "projects",
           "projectStart": {},
           "projectDue": {
-            "items": [
-              {
-                "name": "Deadline to post Project 3 ideas in Slack"
-              }
-            ]
+            "items": [{ "name": "Deadline to post Project 3 ideas in Slack" }]
           },
           "preClass": {},
           "inClass": {},
@@ -4203,7 +4187,12 @@
         }
       }
     },
-    {
+    "27-09-2021": {
+      "courseDate": "27-09-2021",
+      "courseWeek": 12,
+      "weekDay": 1,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2021-09-27T05:00:00.000Z",
       "courseDay": 54,
       "dateTypes": {
         "module": "Module 6: Frontend Infrastructure",
@@ -4253,12 +4242,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4290,7 +4274,12 @@
         }
       }
     },
-    {
+    "28-09-2021": {
+      "courseDate": "28-09-2021",
+      "courseWeek": 12,
+      "weekDay": 2,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2021-09-28T05:00:00.000Z",
       "courseDay": 55,
       "dateTypes": {
         "module": "Module 6: Frontend Infrastructure",
@@ -4333,12 +4322,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4370,7 +4354,12 @@
         }
       }
     },
-    {
+    "29-09-2021": {
+      "courseDate": "29-09-2021",
+      "courseWeek": 12,
+      "weekDay": 3,
+      "dayNumber": 3,
+      "meetingDateTimeUTC": "2021-09-29T05:00:00.000Z",
       "courseDay": 56,
       "dateTypes": {
         "module": "Module 6: Frontend Infrastructure",
@@ -4413,12 +4402,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4450,7 +4434,12 @@
         }
       }
     },
-    {
+    "30-09-2021": {
+      "courseDate": "30-09-2021",
+      "courseWeek": 12,
+      "weekDay": 4,
+      "dayNumber": 4,
+      "meetingDateTimeUTC": "2021-09-30T05:00:00.000Z",
       "courseDay": 57,
       "dateTypes": {
         "module": "Module 6: Frontend Infrastructure",
@@ -4486,12 +4475,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4523,7 +4507,12 @@
         }
       }
     },
-    {
+    "01-10-2021": {
+      "courseDate": "01-10-2021",
+      "courseWeek": 12,
+      "weekDay": 5,
+      "dayNumber": 5,
+      "meetingDateTimeUTC": "2021-10-01T05:00:00.000Z",
       "courseDay": 58,
       "dateTypes": {
         "module": "Module 6: Frontend Infrastructure",
@@ -4577,12 +4566,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4625,7 +4609,12 @@
         }
       }
     },
-    {
+    "04-10-2021": {
+      "courseDate": "04-10-2021",
+      "courseWeek": 13,
+      "weekDay": 1,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2021-10-04T05:00:00.000Z",
       "courseDay": 59,
       "dateTypes": {
         "module": "Module 6: Frontend Infrastructure",
@@ -4661,12 +4650,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4698,7 +4682,12 @@
         }
       }
     },
-    {
+    "05-10-2021": {
+      "courseDate": "05-10-2021",
+      "courseWeek": 13,
+      "weekDay": 2,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2021-10-05T05:00:00.000Z",
       "courseDay": 60,
       "dateTypes": {
         "module": "Module 6: Frontend Infrastructure",
@@ -4741,12 +4730,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4789,7 +4773,12 @@
         }
       }
     },
-    {
+    "06-10-2021": {
+      "courseDate": "06-10-2021",
+      "courseWeek": 13,
+      "weekDay": 3,
+      "dayNumber": 3,
+      "meetingDateTimeUTC": "2021-10-06T05:00:00.000Z",
       "courseDay": 61,
       "dateTypes": {
         "module": "Module 6: Frontend Infrastructure",
@@ -4850,12 +4839,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4887,7 +4871,12 @@
         }
       }
     },
-    {
+    "07-10-2021": {
+      "courseDate": "07-10-2021",
+      "courseWeek": 13,
+      "weekDay": 4,
+      "dayNumber": 4,
+      "meetingDateTimeUTC": "2021-10-07T05:00:00.000Z",
       "courseDay": 62,
       "dateTypes": {
         "module": "Module 6: Frontend Infrastructure",
@@ -4909,12 +4898,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4953,7 +4937,12 @@
         }
       }
     },
-    {
+    "08-10-2021": {
+      "courseDate": "08-10-2021",
+      "courseWeek": 13,
+      "weekDay": 5,
+      "dayNumber": 5,
+      "meetingDateTimeUTC": "2021-10-08T05:00:00.000Z",
       "courseDay": 63,
       "dateTypes": {
         "module": "Module 7: React",
@@ -5004,12 +4993,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5034,7 +5018,12 @@
         }
       }
     },
-    {
+    "11-10-2021": {
+      "courseDate": "11-10-2021",
+      "courseWeek": 14,
+      "weekDay": 1,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2021-10-11T05:00:00.000Z",
       "courseDay": 64,
       "dateTypes": {
         "module": "Module 7: React",
@@ -5096,12 +5085,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5126,7 +5110,12 @@
         }
       }
     },
-    {
+    "12-10-2021": {
+      "courseDate": "12-10-2021",
+      "courseWeek": 14,
+      "weekDay": 2,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2021-10-12T05:00:00.000Z",
       "courseDay": 65,
       "dateTypes": {
         "module": "Module 7: React",
@@ -5173,12 +5162,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5203,7 +5187,12 @@
         }
       }
     },
-    {
+    "13-10-2021": {
+      "courseDate": "13-10-2021",
+      "courseWeek": 14,
+      "weekDay": 3,
+      "dayNumber": 3,
+      "meetingDateTimeUTC": "2021-10-13T05:00:00.000Z",
       "courseDay": 66,
       "dateTypes": {
         "module": "Module 7: React",
@@ -5250,12 +5239,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5293,7 +5277,12 @@
         }
       }
     },
-    {
+    "14-10-2021": {
+      "courseDate": "14-10-2021",
+      "courseWeek": 14,
+      "weekDay": 4,
+      "dayNumber": 4,
+      "meetingDateTimeUTC": "2021-10-14T05:00:00.000Z",
       "courseDay": 67,
       "dateTypes": {
         "module": "Module 7: React",
@@ -5344,12 +5333,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5381,7 +5365,12 @@
         }
       }
     },
-    {
+    "15-10-2021": {
+      "courseDate": "15-10-2021",
+      "courseWeek": 14,
+      "weekDay": 5,
+      "dayNumber": 5,
+      "meetingDateTimeUTC": "2021-10-15T05:00:00.000Z",
       "courseDay": 68,
       "dateTypes": {
         "module": "Module 7: React",
@@ -5431,12 +5420,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5461,7 +5445,12 @@
         }
       }
     },
-    {
+    "18-10-2021": {
+      "courseDate": "18-10-2021",
+      "courseWeek": 15,
+      "weekDay": 1,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2021-10-18T05:00:00.000Z",
       "courseDay": 69,
       "dateTypes": {
         "module": "Module 7: React",
@@ -5511,12 +5500,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5541,7 +5525,12 @@
         }
       }
     },
-    {
+    "19-10-2021": {
+      "courseDate": "19-10-2021",
+      "courseWeek": 15,
+      "weekDay": 2,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2021-10-19T05:00:00.000Z",
       "courseDay": 70,
       "dateTypes": {
         "module": "Module 7: React",
@@ -5598,12 +5587,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5615,11 +5599,7 @@
           "type": "projects",
           "projectStart": {},
           "projectDue": {
-            "items": [
-              {
-                "name": "Project 4 deadline to post ideas to Slack"
-              }
-            ]
+            "items": [{ "name": "Project 4 deadline to post ideas to Slack" }]
           },
           "preClass": {},
           "inClass": {},
@@ -5634,7 +5614,12 @@
         }
       }
     },
-    {
+    "20-10-2021": {
+      "courseDate": "20-10-2021",
+      "courseWeek": 15,
+      "weekDay": 3,
+      "dayNumber": 3,
+      "meetingDateTimeUTC": "2021-10-20T05:00:00.000Z",
       "courseDay": 71,
       "dateTypes": {
         "module": "Module 7: React",
@@ -5677,12 +5662,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5707,7 +5687,12 @@
         }
       }
     },
-    {
+    "21-10-2021": {
+      "courseDate": "21-10-2021",
+      "courseWeek": 15,
+      "weekDay": 4,
+      "dayNumber": 4,
+      "meetingDateTimeUTC": "2021-10-21T05:00:00.000Z",
       "courseDay": 72,
       "dateTypes": {
         "module": "Module 7: React",
@@ -5743,12 +5728,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5780,7 +5760,12 @@
         }
       }
     },
-    {
+    "22-10-2021": {
+      "courseDate": "22-10-2021",
+      "courseWeek": 15,
+      "weekDay": 5,
+      "dayNumber": 5,
+      "meetingDateTimeUTC": "2021-10-22T05:00:00.000Z",
       "courseDay": 73,
       "dateTypes": {
         "module": "Module 7: React",
@@ -5823,12 +5808,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5860,7 +5840,12 @@
         }
       }
     },
-    {
+    "25-10-2021": {
+      "courseDate": "25-10-2021",
+      "courseWeek": 16,
+      "weekDay": 1,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2021-10-25T05:00:00.000Z",
       "courseDay": 74,
       "dateTypes": {
         "module": "Module 7: React",
@@ -5903,12 +5888,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5940,7 +5920,12 @@
         }
       }
     },
-    {
+    "26-10-2021": {
+      "courseDate": "26-10-2021",
+      "courseWeek": 16,
+      "weekDay": 2,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2021-10-26T05:00:00.000Z",
       "courseDay": 75,
       "dateTypes": {
         "module": "Module 7: React",
@@ -5976,12 +5961,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6013,7 +5993,12 @@
         }
       }
     },
-    {
+    "27-10-2021": {
+      "courseDate": "27-10-2021",
+      "courseWeek": 16,
+      "weekDay": 3,
+      "dayNumber": 3,
+      "meetingDateTimeUTC": "2021-10-27T05:00:00.000Z",
       "courseDay": 76,
       "dateTypes": {
         "module": "Module 7: React",
@@ -6049,12 +6034,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6066,11 +6046,7 @@
           "type": "projects",
           "projectStart": {},
           "projectDue": {
-            "items": [
-              {
-                "name": "Project 4 MVP Deadline (deployed)"
-              }
-            ]
+            "items": [{ "name": "Project 4 MVP Deadline (deployed)" }]
           },
           "preClass": {},
           "inClass": {
@@ -6079,9 +6055,7 @@
                 "name": "Project 4 Scrum",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
               },
-              {
-                "name": "Project 4 In-Class Code Review"
-              }
+              { "name": "Project 4 In-Class Code Review" }
             ]
           },
           "postClass": {
@@ -6095,7 +6069,12 @@
         }
       }
     },
-    {
+    "28-10-2021": {
+      "courseDate": "28-10-2021",
+      "courseWeek": 16,
+      "weekDay": 4,
+      "dayNumber": 4,
+      "meetingDateTimeUTC": "2021-10-28T05:00:00.000Z",
       "courseDay": 77,
       "dateTypes": {
         "module": "Module 7: React",
@@ -6131,12 +6110,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6168,7 +6142,12 @@
         }
       }
     },
-    {
+    "29-10-2021": {
+      "courseDate": "29-10-2021",
+      "courseWeek": 16,
+      "weekDay": 5,
+      "dayNumber": 5,
+      "meetingDateTimeUTC": "2021-10-29T05:00:00.000Z",
       "courseDay": 78,
       "dateTypes": {
         "module": "Module 7: React",
@@ -6204,12 +6183,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6220,13 +6194,7 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Project 4 Feature Freeze"
-              }
-            ]
-          },
+          "projectDue": { "items": [{ "name": "Project 4 Feature Freeze" }] },
           "preClass": {},
           "inClass": {
             "items": [
@@ -6247,7 +6215,12 @@
         }
       }
     },
-    {
+    "01-11-2021": {
+      "courseDate": "01-11-2021",
+      "courseWeek": 17,
+      "weekDay": 1,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2021-11-01T05:00:00.000Z",
       "courseDay": 79,
       "dateTypes": {
         "module": "Module 7: React",
@@ -6283,12 +6256,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6320,7 +6288,12 @@
         }
       }
     },
-    {
+    "02-11-2021": {
+      "courseDate": "02-11-2021",
+      "courseWeek": 17,
+      "weekDay": 2,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2021-11-02T05:00:00.000Z",
       "courseDay": 80,
       "dateTypes": {
         "module": "Module 7: React",
@@ -6342,12 +6315,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6390,7 +6358,12 @@
         }
       }
     },
-    {
+    "03-11-2021": {
+      "courseDate": "03-11-2021",
+      "courseWeek": 17,
+      "weekDay": 3,
+      "dayNumber": 3,
+      "meetingDateTimeUTC": "2021-11-03T05:00:00.000Z",
       "courseDay": 81,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -6448,12 +6421,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6478,7 +6446,24 @@
         }
       }
     },
-    {
+    "04-11-2021": {
+      "courseDay": null,
+      "courseDate": "04-11-2021",
+      "courseWeek": 17,
+      "dayNumber": 4,
+      "dateTypes": {
+        "holidayType": "public holiday",
+        "date": "04-11-2021",
+        "location": "SG",
+        "name": "Deepavali"
+      }
+    },
+    "05-11-2021": {
+      "courseDate": "05-11-2021",
+      "courseWeek": 17,
+      "weekDay": 4,
+      "dayNumber": 5,
+      "meetingDateTimeUTC": "2021-11-05T05:00:00.000Z",
       "courseDay": 82,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -6529,12 +6514,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6559,7 +6539,12 @@
         }
       }
     },
-    {
+    "08-11-2021": {
+      "courseDate": "08-11-2021",
+      "courseWeek": 18,
+      "weekDay": 1,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2021-11-08T05:00:00.000Z",
       "courseDay": 83,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -6609,12 +6594,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6646,7 +6626,12 @@
         }
       }
     },
-    {
+    "09-11-2021": {
+      "courseDate": "09-11-2021",
+      "courseWeek": 18,
+      "weekDay": 2,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2021-11-09T05:00:00.000Z",
       "courseDay": 84,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -6711,12 +6696,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6741,7 +6721,12 @@
         }
       }
     },
-    {
+    "10-11-2021": {
+      "courseDate": "10-11-2021",
+      "courseWeek": 18,
+      "weekDay": 3,
+      "dayNumber": 3,
+      "meetingDateTimeUTC": "2021-11-10T05:00:00.000Z",
       "courseDay": 85,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -6791,12 +6776,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6821,7 +6801,12 @@
         }
       }
     },
-    {
+    "11-11-2021": {
+      "courseDate": "11-11-2021",
+      "courseWeek": 18,
+      "weekDay": 4,
+      "dayNumber": 4,
+      "meetingDateTimeUTC": "2021-11-11T05:00:00.000Z",
       "courseDay": 86,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -6875,12 +6860,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6905,7 +6885,12 @@
         }
       }
     },
-    {
+    "12-11-2021": {
+      "courseDate": "12-11-2021",
+      "courseWeek": 18,
+      "weekDay": 5,
+      "dayNumber": 5,
+      "meetingDateTimeUTC": "2021-11-12T05:00:00.000Z",
       "courseDay": 87,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -6962,12 +6947,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6992,7 +6972,12 @@
         }
       }
     },
-    {
+    "15-11-2021": {
+      "courseDate": "15-11-2021",
+      "courseWeek": 19,
+      "weekDay": 1,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2021-11-15T05:00:00.000Z",
       "courseDay": 88,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -7035,12 +7020,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7053,9 +7033,7 @@
           "projectStart": {},
           "projectDue": {
             "items": [
-              {
-                "name": "Project 5 deadline to post ideas and teams in Slack"
-              }
+              { "name": "Project 5 deadline to post ideas and teams in Slack" }
             ]
           },
           "preClass": {},
@@ -7071,7 +7049,12 @@
         }
       }
     },
-    {
+    "16-11-2021": {
+      "courseDate": "16-11-2021",
+      "courseWeek": 19,
+      "weekDay": 2,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2021-11-16T05:00:00.000Z",
       "courseDay": 89,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -7114,12 +7097,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7144,7 +7122,12 @@
         }
       }
     },
-    {
+    "17-11-2021": {
+      "courseDate": "17-11-2021",
+      "courseWeek": 19,
+      "weekDay": 3,
+      "dayNumber": 3,
+      "meetingDateTimeUTC": "2021-11-17T05:00:00.000Z",
       "courseDay": 90,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -7195,12 +7178,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7213,14 +7191,7 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 5 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -7232,7 +7203,12 @@
         }
       }
     },
-    {
+    "18-11-2021": {
+      "courseDate": "18-11-2021",
+      "courseWeek": 19,
+      "weekDay": 4,
+      "dayNumber": 4,
+      "meetingDateTimeUTC": "2021-11-18T05:00:00.000Z",
       "courseDay": 91,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -7268,12 +7244,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7286,14 +7257,7 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 5 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -7305,7 +7269,12 @@
         }
       }
     },
-    {
+    "19-11-2021": {
+      "courseDate": "19-11-2021",
+      "courseWeek": 19,
+      "weekDay": 5,
+      "dayNumber": 5,
+      "meetingDateTimeUTC": "2021-11-19T05:00:00.000Z",
       "courseDay": 92,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -7341,12 +7310,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7359,14 +7323,7 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 5 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -7378,7 +7335,12 @@
         }
       }
     },
-    {
+    "22-11-2021": {
+      "courseDate": "22-11-2021",
+      "courseWeek": 20,
+      "weekDay": 1,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2021-11-22T05:00:00.000Z",
       "courseDay": 93,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -7414,12 +7376,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7430,26 +7387,9 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Project 5 MVP (deployed)"
-              }
-            ]
-          },
+          "projectDue": { "items": [{ "name": "Project 5 MVP (deployed)" }] },
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 5 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              },
-              {
-                "name": "Project 5 MVP Review",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#mvp-deadline"
-              }
-            ]
-          },
+          "inClass": { "items": [{ "name": "Project 5 MVP Review" }] },
           "postClass": {
             "items": [
               {
@@ -7461,7 +7401,12 @@
         }
       }
     },
-    {
+    "23-11-2021": {
+      "courseDate": "23-11-2021",
+      "courseWeek": 20,
+      "weekDay": 2,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2021-11-23T05:00:00.000Z",
       "courseDay": 94,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -7497,12 +7442,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7515,14 +7455,7 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 5 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -7534,7 +7467,12 @@
         }
       }
     },
-    {
+    "24-11-2021": {
+      "courseDate": "24-11-2021",
+      "courseWeek": 20,
+      "weekDay": 3,
+      "dayNumber": 3,
+      "meetingDateTimeUTC": "2021-11-24T05:00:00.000Z",
       "courseDay": 95,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -7570,12 +7508,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7588,14 +7521,7 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 5 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -7607,7 +7533,12 @@
         }
       }
     },
-    {
+    "25-11-2021": {
+      "courseDate": "25-11-2021",
+      "courseWeek": 20,
+      "weekDay": 4,
+      "dayNumber": 4,
+      "meetingDateTimeUTC": "2021-11-25T05:00:00.000Z",
       "courseDay": 96,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -7643,12 +7574,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7659,26 +7585,10 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Project 5 Feature Freeze",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#feature-freeze"
-              }
-            ]
-          },
+          "projectDue": { "items": [{ "name": "Project 5 Feature Freeze" }] },
           "preClass": {},
           "inClass": {
-            "items": [
-              {
-                "name": "Project 5 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              },
-              {
-                "name": "Project 5 Feature Freeze Review",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#feature-freeze"
-              }
-            ]
+            "items": [{ "name": "Project 5 Feature Freeze Review" }]
           },
           "postClass": {
             "items": [
@@ -7691,7 +7601,12 @@
         }
       }
     },
-    {
+    "26-11-2021": {
+      "courseDate": "26-11-2021",
+      "courseWeek": 20,
+      "weekDay": 5,
+      "dayNumber": 5,
+      "meetingDateTimeUTC": "2021-11-26T05:00:00.000Z",
       "courseDay": 97,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -7727,12 +7642,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7745,14 +7655,7 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 5 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -7764,7 +7667,12 @@
         }
       }
     },
-    {
+    "29-11-2021": {
+      "courseDate": "29-11-2021",
+      "courseWeek": 21,
+      "weekDay": 1,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2021-11-29T05:00:00.000Z",
       "courseDay": 98,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -7793,12 +7701,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7852,8 +7755,163 @@
         }
       }
     },
-    {
+    "30-11-2021": {
+      "courseDate": "30-11-2021",
+      "courseWeek": 21,
+      "weekDay": 2,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2021-11-30T05:00:00.000Z",
       "courseDay": 99,
+      "dateTypes": {
+        "module": "Module 8: Advanced React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          }
+        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 5 Video",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#video-demo"
+              },
+              {
+                "name": "Project 6 Ideation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#ideation-phase-1"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "01-12-2021": {
+      "courseDate": "01-12-2021",
+      "courseWeek": 21,
+      "weekDay": 3,
+      "dayNumber": 3,
+      "meetingDateTimeUTC": "2021-12-01T05:00:00.000Z",
+      "courseDay": 100,
+      "dateTypes": {
+        "module": "Module 9: Advanced Topics",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "9.1 Security",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.2-security"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          }
+        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 5 Video",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#video-demo"
+              }
+            ]
+          },
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 6 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#ideation-phase-2"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "02-12-2021": {
+      "courseDate": "02-12-2021",
+      "courseWeek": 21,
+      "weekDay": 4,
+      "dayNumber": 4,
+      "meetingDateTimeUTC": "2021-12-02T05:00:00.000Z",
+      "courseDay": 101,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
         "general": {
@@ -7889,14 +7947,7 @@
         "dsa": {
           "type": "dsa",
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "DS&A Open Practice",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -7906,12 +7957,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7928,20 +7974,21 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 5 Video",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#video-demo"
-              },
-              {
-                "name": "Project 6 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#ideation-phase-1"
+                "name": "Project 6 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
               }
             ]
           }
         }
       }
     },
-    {
-      "courseDay": 100,
+    "03-12-2021": {
+      "courseDate": "03-12-2021",
+      "courseWeek": 21,
+      "weekDay": 5,
+      "dayNumber": 5,
+      "meetingDateTimeUTC": "2021-12-03T05:00:00.000Z",
+      "courseDay": 102,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
         "general": {
@@ -7987,12 +8034,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8003,29 +8045,27 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Project 5 Video",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#video-demo"
-              }
-            ]
-          },
+          "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 6 Ideation Phase 2",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#ideation-phase-2"
+                "name": "Project 6 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
               }
             ]
           }
         }
       }
     },
-    {
-      "courseDay": 101,
+    "06-12-2021": {
+      "courseDate": "06-12-2021",
+      "courseWeek": 22,
+      "weekDay": 1,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2021-12-06T05:00:00.000Z",
+      "courseDay": 103,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
         "general": {
@@ -8058,7 +8098,14 @@
         "dsa": {
           "type": "dsa",
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
@@ -8068,12 +8115,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8086,14 +8128,7 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 6 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -8105,8 +8140,13 @@
         }
       }
     },
-    {
-      "courseDay": 102,
+    "07-12-2021": {
+      "courseDate": "07-12-2021",
+      "courseWeek": 22,
+      "weekDay": 2,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2021-12-07T05:00:00.000Z",
+      "courseDay": 104,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
         "general": {
@@ -8148,12 +8188,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8166,14 +8201,7 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 6 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -8185,14 +8213,23 @@
         }
       }
     },
-    {
-      "courseDay": 103,
+    "08-12-2021": {
+      "courseDate": "08-12-2021",
+      "courseWeek": 22,
+      "weekDay": 3,
+      "dayNumber": 3,
+      "meetingDateTimeUTC": "2021-12-08T05:00:00.000Z",
+      "courseDay": 105,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
         "general": {
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "9.3: Django",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.3-django"
+              },
               {
                 "name": "9.3.1: Django User Login",
                 "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.3-django/9.3.1-django-user-login"
@@ -8228,12 +8265,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8246,14 +8278,7 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 6 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -8265,8 +8290,13 @@
         }
       }
     },
-    {
-      "courseDay": 104,
+    "09-12-2021": {
+      "courseDate": "09-12-2021",
+      "courseWeek": 22,
+      "weekDay": 4,
+      "dayNumber": 4,
+      "meetingDateTimeUTC": "2021-12-09T05:00:00.000Z",
+      "courseDay": 106,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
         "general": {
@@ -8308,12 +8338,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8324,16 +8349,9 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {},
+          "projectDue": { "items": [{ "name": "Project 6 MVP (deployed)" }] },
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 6 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              }
-            ]
-          },
+          "inClass": { "items": [{ "name": "Project 6 MVP Review" }] },
           "postClass": {
             "items": [
               {
@@ -8345,8 +8363,13 @@
         }
       }
     },
-    {
-      "courseDay": 105,
+    "10-12-2021": {
+      "courseDate": "10-12-2021",
+      "courseWeek": 22,
+      "weekDay": 5,
+      "dayNumber": 5,
+      "meetingDateTimeUTC": "2021-12-10T05:00:00.000Z",
+      "courseDay": 107,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
         "general": {
@@ -8396,12 +8419,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8414,14 +8432,7 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 6 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -8433,193 +8444,12 @@
         }
       }
     },
-    {
-      "courseDay": 106,
-      "dateTypes": {
-        "module": "Module 9: Advanced Topics",
-        "general": {
-          "type": "general",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "css": {
-          "type": "css",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "dsa": {
-          "type": "dsa",
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "DS&A Open Practice",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "DS&A Open Practice",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
-              }
-            ]
-          }
-        },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
-          "preClass": {
-            "items": [
-              {
-                "name": "IP.0: Interview Prep Overview",
-                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.0-interview-prep-overview"
-              },
-              {
-                "name": "IP.1: Job Application Strategy",
-                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.1-job-application-strategy"
-              },
-              {
-                "name": "IP.2: Resume",
-                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.2-resume"
-              }
-            ]
-          },
-          "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "IP.2: Resume",
-                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.2-resume"
-              }
-            ]
-          }
-        },
-        "projects": {
-          "type": "projects",
-          "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Project 6 MVP (deployed)",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#mvp-deadline"
-              }
-            ]
-          },
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 6 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              },
-              {
-                "name": "Project 6 MVP Review",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#mvp-deadline"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 6 Implementation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "courseDay": 107,
-      "dateTypes": {
-        "module": "Module 9: Advanced Topics",
-        "general": {
-          "type": "general",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "css": {
-          "type": "css",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "dsa": {
-          "type": "dsa",
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "DS&A Open Practice",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "DS&A Open Practice",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
-              }
-            ]
-          }
-        },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "IP.2: Resume",
-                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.2-resume"
-              }
-            ]
-          }
-        },
-        "projects": {
-          "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 6 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 6 Implementation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
+    "13-12-2021": {
+      "courseDate": "13-12-2021",
+      "courseWeek": 23,
+      "weekDay": 1,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2021-12-13T05:00:00.000Z",
       "courseDay": 108,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -8655,26 +8485,23 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
-          "cpDue": {
-            "items": [
-              {
-                "name": "Resume 1st Draft"
-              }
-            ]
-          },
+          "cpDue": {},
           "preClass": {
             "items": [
               {
-                "name": "IP.3: Portfolio",
-                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.3-portfolio"
+                "name": "IP.0: Interview Prep Overview",
+                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.0-interview-prep-overview"
+              },
+              {
+                "name": "IP.1: Job Application Strategy",
+                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.1-job-application-strategy"
+              },
+              {
+                "name": "IP.2: Resume",
+                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.2-resume"
               }
             ]
           },
@@ -8682,8 +8509,8 @@
           "postClass": {
             "items": [
               {
-                "name": "IP.3: Portfolio",
-                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.3-portfolio"
+                "name": "IP.2: Resume",
+                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.2-resume"
               }
             ]
           }
@@ -8693,14 +8520,7 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 6 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -8712,7 +8532,12 @@
         }
       }
     },
-    {
+    "14-12-2021": {
+      "courseDate": "14-12-2021",
+      "courseWeek": 23,
+      "weekDay": 2,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2021-12-14T05:00:00.000Z",
       "courseDay": 109,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -8748,12 +8573,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8762,8 +8582,8 @@
           "postClass": {
             "items": [
               {
-                "name": "IP.3: Portfolio",
-                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.3-portfolio"
+                "name": "IP.2: Resume",
+                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.2-resume"
               }
             ]
           }
@@ -8773,14 +8593,7 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 6 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -8792,7 +8605,12 @@
         }
       }
     },
-    {
+    "15-12-2021": {
+      "courseDate": "15-12-2021",
+      "courseWeek": 23,
+      "weekDay": 3,
+      "dayNumber": 3,
+      "meetingDateTimeUTC": "2021-12-15T05:00:00.000Z",
       "courseDay": 110,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -8828,15 +8646,11 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
-          "cpDue": {
+          "cpDue": { "items": [{ "name": "Resume 1st Draft" }] },
+          "preClass": {
             "items": [
               {
                 "name": "IP.3: Portfolio",
@@ -8844,20 +8658,12 @@
               }
             ]
           },
-          "preClass": {
-            "items": [
-              {
-                "name": "IP.4: Job List",
-                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.4-job-list"
-              }
-            ]
-          },
           "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "IP.4: Job List",
-                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.4-job-list"
+                "name": "IP.3: Portfolio",
+                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.3-portfolio"
               }
             ]
           }
@@ -8867,14 +8673,7 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 6 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -8886,7 +8685,12 @@
         }
       }
     },
-    {
+    "16-12-2021": {
+      "courseDate": "16-12-2021",
+      "courseWeek": 23,
+      "weekDay": 4,
+      "dayNumber": 4,
+      "meetingDateTimeUTC": "2021-12-16T05:00:00.000Z",
       "courseDay": 111,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -8922,12 +8726,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8936,8 +8735,8 @@
           "postClass": {
             "items": [
               {
-                "name": "IP.4: Job List",
-                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.4-job-list"
+                "name": "IP.3: Portfolio",
+                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.3-portfolio"
               }
             ]
           }
@@ -8947,14 +8746,7 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 6 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -8966,7 +8758,12 @@
         }
       }
     },
-    {
+    "17-12-2021": {
+      "courseDate": "17-12-2021",
+      "courseWeek": 23,
+      "weekDay": 5,
+      "dayNumber": 5,
+      "meetingDateTimeUTC": "2021-12-17T05:00:00.000Z",
       "courseDay": 112,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -9002,38 +8799,34 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
-          "cpDue": {
+          "cpDue": { "items": [{ "name": "Portfolio 1st Draft" }] },
+          "preClass": {
             "items": [
               {
-                "name": "Job List 1st Draft"
+                "name": "IP.4: Job List",
+                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.4-job-list"
               }
             ]
           },
-          "preClass": {},
           "inClass": {},
-          "postClass": {}
+          "postClass": {
+            "items": [
+              {
+                "name": "IP.4: Job List",
+                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.4-job-list"
+              }
+            ]
+          }
         },
         "projects": {
           "type": "projects",
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 6 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -9045,7 +8838,12 @@
         }
       }
     },
-    {
+    "20-12-2021": {
+      "courseDate": "20-12-2021",
+      "courseWeek": 24,
+      "weekDay": 1,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2021-12-20T05:00:00.000Z",
       "courseDay": 113,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -9081,43 +8879,27 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
           "preClass": {},
           "inClass": {},
-          "postClass": {}
+          "postClass": {
+            "items": [
+              {
+                "name": "IP.4: Job List",
+                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.4-job-list"
+              }
+            ]
+          }
         },
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Project 6 Feature Freeze",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#feature-freeze"
-              }
-            ]
-          },
+          "projectDue": { "items": [{ "name": "Project 6 Feature Freeze" }] },
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 6 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              },
-              {
-                "name": "Project 6 Feature Freeze Review",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#feature-freeze"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -9129,7 +8911,12 @@
         }
       }
     },
-    {
+    "21-12-2021": {
+      "courseDate": "21-12-2021",
+      "courseWeek": 24,
+      "weekDay": 2,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2021-12-21T05:00:00.000Z",
       "courseDay": 114,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -9165,15 +8952,10 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
-          "cpDue": {},
+          "cpDue": { "items": [{ "name": "Job List 1st Draft" }] },
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -9183,14 +8965,7 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 6 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -9202,7 +8977,12 @@
         }
       }
     },
-    {
+    "22-12-2021": {
+      "courseDate": "22-12-2021",
+      "courseWeek": 24,
+      "weekDay": 3,
+      "dayNumber": 3,
+      "meetingDateTimeUTC": "2021-12-22T05:00:00.000Z",
       "courseDay": 115,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -9224,12 +9004,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -9261,5 +9036,6 @@
         }
       }
     }
-  ]
+  },
+  "courseName": "12-07-2021_22-12-2021_BATCH4"
 }
