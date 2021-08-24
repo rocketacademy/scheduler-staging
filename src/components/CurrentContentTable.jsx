@@ -20,7 +20,7 @@ function CurrentContentTable({
         // shows current month for part time bootcamp
         firstDay = DateTime.now().startOf('month');
         lastDay = DateTime.now().endOf('month');
-        heading = `Current Month (${firstDay.toFormat('dd/MM/yyyy')} - ${lastDay.toFormat('dd/MM/yyyy')}`;
+        heading = `Current Month (${firstDay.toFormat('dd/MM/yyyy')} - ${lastDay.toFormat('dd/MM/yyyy')})`;
     } else {
         // shows current week for full time bootcamp
         firstDay = DateTime.now().startOf('week');
