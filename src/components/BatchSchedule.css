@@ -18,7 +18,7 @@
 
 .sidebar {
   width: 18%;
-  padding: 20px;
+  padding: 20px 30px;
   border-right: 1px solid lightgray;
 }
 
@@ -128,4 +128,8 @@ ul {
 
 .table-date {
   width: 130px;
+}
+
+.tab-content {
+  width: 100%;
 }
