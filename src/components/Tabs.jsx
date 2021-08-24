@@ -1,11 +1,12 @@
-import React, { useState } from 'react';
-import Tabs from 'react-bootstrap/Tabs';
-import Tab from 'react-bootstrap/Tab';
-import DatePicker from './DatePicker';
-import DataShift from './DataShift';
+import React, { useState } from "react";
+import Tabs from "react-bootstrap/Tabs";
+import Tab from "react-bootstrap/Tab";
+import DatePicker from "./DatePicker";
+import DataShift from "./DataShift";
+import "../sass/Tabs.scss";
 
 const TabsContainer = () => {
-  const [key, setKey] = useState('datePicker');
+  const [key, setKey] = useState("datePicker");
 
   return (
     <Tabs
@@ -22,6 +23,6 @@ const TabsContainer = () => {
       </Tab>
     </Tabs>
   );
-}
+};
 
 export default TabsContainer;

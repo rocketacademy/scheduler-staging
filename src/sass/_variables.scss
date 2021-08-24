@@ -1,0 +1,23 @@
+$primary-font: Raleway, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
+  Geneva, Verdana, sans-serif;
+$headings-font-family: $primary-font;
+
+$font-family-sans-serif: Open Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+  "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+
+// viewport breakpoints
+// https://glennmccomb.com/articles/useful-sass-scss-media-query-mixins-for-bootstrap/
+
+// https://bootstrap.build/app
+$red: #e73c3e; //crimson
+$primary: $red;
+$secondary: #af231c; // mercury red
+$blue: #00567e; // agean
+$info: $blue;
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "info": $info,
+);
+$body-bg: #f9f6e7; // milk
