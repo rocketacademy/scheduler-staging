@@ -20,15 +20,6 @@
   width: 18%;
   padding: 20px 30px;
   border-right: 1px solid lightgray;
-  flex-wrap: nowrap;
-  overflow-y: auto;
-  height: 100vh;
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
-}
-
-.sidebar::-webkit-scrollbar {
-  display: none;
 }
 
 .sidebar-courseweeks,
@@ -36,6 +27,15 @@
   padding: 30px 0;
   position: sticky;
   top: 40px;
+  flex-wrap: nowrap;
+  overflow-y: auto;
+  height: 100vh;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.sidebar-courseweeks::-webkit-scrollbar {
+  display: none;
 }
 
 .nav-link {
