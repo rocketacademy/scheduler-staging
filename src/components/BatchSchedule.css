@@ -29,7 +29,7 @@
   top: 40px;
   flex-wrap: nowrap;
   overflow-y: auto;
-  height: 100vh;
+  height: 90vh;
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
