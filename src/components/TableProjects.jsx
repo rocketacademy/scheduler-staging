@@ -8,7 +8,7 @@ function TableProjects({ day }) {
     const cpdue = day.dateTypes.cp.cpDue;
 
     return (
-        <div>
+        <div className="table-projects">
             <GenerateNotifications status={projectdue} 
                                cpdue={cpdue} 
                                projectdue={projectdue} 
