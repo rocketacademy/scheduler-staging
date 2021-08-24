@@ -10,10 +10,12 @@ function ScheduleContent({
                         title 
                     }) {
 
+    const id = `${coursetype}-top`;
+
     return (
         <div className="content">
             <h1 className="schedule-header">{title}</h1>
-            <p id="top"></p>
+            <p id={id}></p>
             {/* generates table which shows schedule for current week/ month depending on course type */}
             <CurrentContentTable 
                             scheduleData={scheduleData} 
@@ -27,7 +29,9 @@ function ScheduleContent({
                return (
                    <div className="day-class" id={id}>
                        {/* generates schedule header for individual day */}
-                        <GenerateCourseDayHeader day={scheduleData[day]} />
+                        <GenerateCourseDayHeader 
+                                            day={scheduleData[day]}
+                                            coursetype={coursetype} />
                         {/* generates content if course day is not a holiday */}
                         {!scheduleData[day].dateTypes.holidayType && (
                         <GenerateCourseDayContent day={scheduleData[day]} />

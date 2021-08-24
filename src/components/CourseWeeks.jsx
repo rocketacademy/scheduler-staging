@@ -27,7 +27,7 @@ function CourseWeeks({
     return (
         <div className="sidebar-courseweeks">
             <h4>Course Weeks</h4>
-            <Nav variant="pills" defaultActiveKey="link-0" className="flex-column" >
+            <Nav variant="pills" defaultActiveKey="link-0" className="flex-column" navbarScroll="true" >
                 <Nav.Item>
                         <Nav.Link eventKey="link-0"
                         // uses react-scroll library for scroll function
