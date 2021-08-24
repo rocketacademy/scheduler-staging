@@ -125,3 +125,7 @@ ul {
   font-size: 16px;
   color: #e73c3e;
 }
+
+.table-date {
+  width: 130px;
+}

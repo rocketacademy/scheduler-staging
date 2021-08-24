@@ -56,7 +56,7 @@ function CourseWeeks({
                             duration: 100,
                         })}
                         >
-                        Course Weeks {month[0]} - {month[month.length - 1]}
+                        Weeks {month[0]} - {month[month.length - 1]}
                         </Nav.Link>
                         </Nav.Item>
                     )

@@ -77,7 +77,7 @@ function CurrentContentTable({
                                 })} className="table-date"
                                 >
                                     <h6>{formattedDate}</h6>
-                                    <p>Week {date.courseWeek}, Course Day {date.courseDay}</p>
+                                    <p>Week {date.courseWeek}<br></br>Course Day {date.courseDay}</p>
                                 </td>
                                 {/* getting data for projects section of table */}
                                 <td><TableProjects day={currentWeekData[index]} /></td>
