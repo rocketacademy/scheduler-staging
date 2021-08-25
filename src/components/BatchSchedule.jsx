@@ -1,7 +1,7 @@
 import React from "react";
 import ScheduleContent from "./ScheduleContent";
 import SideBar from "./SideBar";
-import "../sass/BatchSchedule.scss";
+// import "../sass/BatchSchedule.scss";
 
 function BatchSchedule({ data, title }) {
   const scheduleData = JSON.parse(JSON.stringify(data.days));

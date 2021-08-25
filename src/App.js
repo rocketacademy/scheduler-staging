@@ -1,6 +1,6 @@
 import React from 'react';
-import './sass/App.scss';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import './sass/App.scss';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import TabsContainer from './components/Tabs';
 import {
   BrowserRouter as Router,

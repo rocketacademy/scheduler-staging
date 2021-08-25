@@ -3,7 +3,7 @@ import Tabs from "react-bootstrap/Tabs";
 import Tab from "react-bootstrap/Tab";
 import DatePicker from "./DatePicker";
 import DataShift from "./DataShift";
-import "../sass/Tabs.scss";
+// import "../sass/Tabs.scss";
 
 const TabsContainer = () => {
   const [key, setKey] = useState("datePicker");
