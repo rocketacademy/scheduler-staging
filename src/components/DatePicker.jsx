@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import download from "../download.js";
 
-const DatePicker = () => {
+const DatePicker = ({ bootcampDataCopy, setBootcampDataCopy }) => {
   const [startDate, setStartDate] = useState("");
   const [courseName, setCourseName] = useState("");
   const [courseType, setCourseType] = useState("");
@@ -13,7 +13,8 @@ const DatePicker = () => {
     e.preventDefault();
     try {
       const data = await generateDataObject(startDate, courseName, courseType);
-      console.log("data", data);
+      console.log("data.days", data.days);
+      setBootcampDataCopy(JSON.parse(JSON.stringify(data.days)));
 
       download(data, `${data.courseName}.json`);
     } catch (error) {

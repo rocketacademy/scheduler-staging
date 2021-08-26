@@ -1,8 +1,11 @@
 import React, { useState } from "react";
 import ExpandLessIcon from "@material-ui/icons/ExpandLess";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+import ShiftItemModal from "./ShiftItemModal";
+import AddIcon from "@material-ui/icons/Add";
 
 function ClassItem({
+  day,
   setBootcampDataCopy,
   section,
   bootcampDataCopy,
@@ -14,43 +17,57 @@ function ClassItem({
 }) {
   // toggle visibility of buttons
   const [buttonsVisible, setButtonsVisible] = useState(false);
+  const [modalShow, setModalShow] = useState(false);
+  const [shiftItem, setShiftItem] = useState({
+    direction: null,
+    dates: [],
+  });
 
   const handleShift = (direction, dayIndex, classIndex) => {
-    // set selectedItem to item chosen
-    let selectedItem = sectionType[classType].items[classIndex];
-    let nextDay;
-    let previousDay;
-    // remove selected item from original position
-    sectionType[classType].items.splice(classIndex, 1);
+    let datesArray = [];
+    if (direction === "up") {
+      console.log(bootcampDataCopy);
+      Object.keys(bootcampDataCopy)
+        .filter(
+          (date) =>
+            bootcampDataCopy[date].courseDay < dayIndex + 1 &&
+            bootcampDataCopy[date].courseDay !== null
+        )
+        .map((date) => {
+          console.log(date);
+          if (!datesArray.includes(date)) {
+            datesArray.push(date);
+          }
+        });
 
-    // if items array is empty after removing selected item, remove empty items array
-    if (sectionType[classType].items.length === 0) {
-      delete sectionType[classType].items;
-    }
+      setShiftItem({
+        ...shiftItem,
+        direction: "up",
+        dates: datesArray,
+      });
 
-    // where item will be shifted when user clicks down button (same section/class of next day )
-    if (bootcampDataCopy[dayIndex + 1]) {
-      nextDay = bootcampDataCopy[dayIndex + 1].dateTypes[section];
-    }
+      setModalShow(true);
+    } else if (direction === "down") {
+      Object.keys(bootcampDataCopy)
+        .filter(
+          (date) =>
+            bootcampDataCopy[date].courseDay > dayIndex + 1 &&
+            bootcampDataCopy[date].courseDay !== null
+        )
+        .map((date) => {
+          if (!datesArray.includes(date)) {
+            datesArray.push(date);
+          }
+        });
 
-    // where item will be shifted when user clicks down button (same section/class of previous day )
-    if (bootcampDataCopy[dayIndex - 1]) {
-      previousDay = bootcampDataCopy[dayIndex - 1].dateTypes[section];
-    }
+      setShiftItem({
+        ...shiftItem,
+        direction: "down",
+        dates: datesArray,
+        classIndex: classIndex,
+      });
 
-    // helper function that adds selected item to new position
-    const shiftItem = (dayType) => {
-      if (!dayType[classType].items) {
-        dayType[classType].items = [];
-      }
-      dayType[classType].items.push(selectedItem);
-      setBootcampDataCopy([...bootcampDataCopy]);
-    };
-
-    if (direction === "down") {
-      shiftItem(nextDay);
-    } else {
-      shiftItem(previousDay);
+      setModalShow(true);
     }
   };
 
@@ -72,6 +89,31 @@ function ClassItem({
             </button>
           </div>
         )}
+        {modalShow && (
+          <ShiftItemModal
+            show={modalShow}
+            onHide={() => setModalShow(false)}
+            shiftitem={shiftItem}
+            bootcampdatacopy={bootcampDataCopy}
+            setbootcampdatacopy={setBootcampDataCopy}
+            sectiontype={sectionType}
+            classtype={classType}
+            classindex={classIndex}
+            section={section}
+          />
+        )}
+        {/* {showInputModal && (
+          <AddItemModal
+            show={showInputModal}
+            onHide={() => setShowInputModal(false)}
+            bootcampdatacopy={bootcampDataCopy}
+            setbootcampdatacopy={setBootcampDataCopy}
+            sectiontype={sectionType}
+            classtype={classType}
+            classindex={classIndex}
+            section={section}
+          />
+        )} */}
       </div>
     </div>
   );

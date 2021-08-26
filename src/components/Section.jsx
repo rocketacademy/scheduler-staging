@@ -1,7 +1,9 @@
 import React from "react";
 import SectionClass from "./SectionClass";
+import Accordion from "react-bootstrap/Accordion";
 
 function Section({
+  day,
   setBootcampDataCopy,
   section,
   sectionType,
@@ -29,24 +31,33 @@ function Section({
     <div>
       {sectionType.constructor === Object && (
         <>
-          {classExists && <>{sectionType.type}</>}
-          {Object.keys(sectionType)
-            .filter((sectionClass) => sectionType[sectionClass].items)
-            .map((sectionclass, sectionIndex) => {
-              return (
-                <div className="all-classes">
-                  <SectionClass
-                    sectionIndex={sectionIndex}
-                    sectionclass={sectionclass}
-                    sectionType={sectionType}
-                    bootcampDataCopy={bootcampDataCopy}
-                    setBootcampDataCopy={setBootcampDataCopy}
-                    section={section}
-                    dayIndex={dayIndex}
-                  />
-                </div>
-              );
-            })}
+          <Accordion>
+            {classExists && (
+              <Accordion.Item eventKey="0">
+                <Accordion.Header>{sectionType.type}</Accordion.Header>
+                <Accordion.Body>
+                  {Object.keys(sectionType)
+                    .filter((sectionClass) => sectionType[sectionClass].items)
+                    .map((sectionclass, sectionIndex) => {
+                      return (
+                        <div className="all-classes">
+                          <SectionClass
+                            day={day}
+                            sectionIndex={sectionIndex}
+                            sectionclass={sectionclass}
+                            sectionType={sectionType}
+                            bootcampDataCopy={bootcampDataCopy}
+                            setBootcampDataCopy={setBootcampDataCopy}
+                            section={section}
+                            dayIndex={dayIndex}
+                          />
+                        </div>
+                      );
+                    })}
+                </Accordion.Body>
+              </Accordion.Item>
+            )}
+          </Accordion>
         </>
       )}
     </div>
