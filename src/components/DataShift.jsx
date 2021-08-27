@@ -5,7 +5,7 @@ import ptbc1 from "../data/16-08-2021_10-10-2022_BATCH1.json";
 import GenerateDataShiftContent from "./GenerateDataShiftContent";
 import DataShiftSidebar from "./DataShiftSidebar.jsx";
 
-const DataShift = (bootcampDataCopy, setBootcampDataCopy) => {
+const DataShift = ({ bootcampDataCopy, setBootcampDataCopy }) => {
   const handleDownloadClick = () => {
     ptbc1.days = bootcampDataCopy;
     download(ptbc1, "modified-bootcamp-data.json");

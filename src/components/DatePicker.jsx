@@ -14,13 +14,14 @@ const DatePicker = ({ bootcampDataCopy, setBootcampDataCopy }) => {
     try {
       const data = await generateDataObject(startDate, courseName, courseType);
       console.log("data.days", data.days);
-      setBootcampDataCopy(JSON.parse(JSON.stringify(data.days)));
+      await setBootcampDataCopy(JSON.parse(JSON.stringify(data.days)));
 
-      download(data, `${data.courseName}.json`);
+      // download(data, `${data.courseName}.json`);
     } catch (error) {
       console.log(error);
     }
   };
+  console.log("bootcamp data copy", bootcampDataCopy);
 
   return (
     <>

@@ -18,9 +18,9 @@ function ShiftItemModal({
 
   let heading;
   if (shiftitem.direction === "up") {
-    heading = "Moving backward ";
+    heading = "Moving back ... ";
   } else {
-    heading = "Moving forward ";
+    heading = "Moving forward ... ";
   }
 
   const handleSubmitDate = (e) => {

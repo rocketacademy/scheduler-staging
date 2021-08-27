@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import ExpandLessIcon from "@material-ui/icons/ExpandLess";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+import RemoveIcon from "@material-ui/icons/Remove";
 import ShiftItemModal from "./ShiftItemModal";
-import AddIcon from "@material-ui/icons/Add";
 
 function ClassItem({
   day,
@@ -68,6 +68,10 @@ function ClassItem({
       });
 
       setModalShow(true);
+    } else {
+      sectionType[classType].items.splice(classIndex, 1);
+      setBootcampDataCopy({ ...bootcampDataCopy });
+      console.log(bootcampDataCopy);
     }
   };
 
@@ -81,6 +85,9 @@ function ClassItem({
         {item.name}
         {buttonsVisible && (
           <div>
+            <button onClick={() => handleShift("delete", dayIndex, classIndex)}>
+              <RemoveIcon />
+            </button>
             <button onClick={() => handleShift("up", dayIndex, classIndex)}>
               <ExpandLessIcon />
             </button>
@@ -102,18 +109,6 @@ function ClassItem({
             section={section}
           />
         )}
-        {/* {showInputModal && (
-          <AddItemModal
-            show={showInputModal}
-            onHide={() => setShowInputModal(false)}
-            bootcampdatacopy={bootcampDataCopy}
-            setbootcampdatacopy={setBootcampDataCopy}
-            sectiontype={sectionType}
-            classtype={classType}
-            classindex={classIndex}
-            section={section}
-          />
-        )} */}
       </div>
     </div>
   );

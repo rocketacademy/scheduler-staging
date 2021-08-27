@@ -49,9 +49,6 @@ function CurrentContentTable({ scheduleData, coursetype }) {
 
   return (
     <div className="schedule-table">
-      <button type="button" class="btn btn-primary">
-        works???????
-      </button>
       <h3 className="table-heading">{heading}</h3>
       <Table striped bordered hover size="sm">
         <thead>

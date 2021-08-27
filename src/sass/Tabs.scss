@@ -50,13 +50,30 @@
   padding: 0;
 }
 .accordion-button {
-  font-size: 14px;
-  padding: 5px 10px;
+  font-size: 13px;
+  padding: 1px 30px 1px 10px;
+  background-color: $secondary;
+  color: $body-bg;
+}
+
+.accordion-button:focus {
+  outline: 0 !important;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+
+.accordion-button:after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23F9F6E7'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: $primary;
+  color: $body-bg;
 }
 
 .accordion-button.collapsed {
-  font-size: 14px;
-  padding: 5px 10px;
+  color: $body-bg;
+  font-size: 13px;
+  padding: 1px 30px 1px 10px;
 }
 
 .course-day {
@@ -66,10 +83,16 @@
   .course-day-header {
     font-weight: 800;
   }
+  .accordion-button {
+    font-size: 13px;
+    padding: 1px 30px 1px 10px;
+    background-color: $blue;
+    color: $body-bg;
+  }
 }
 
 .course-day-symbol {
-  width: 100px;
+  width: 50px;
   text-align: center;
 }
 .course-day-type {
@@ -179,4 +202,8 @@
     color: $primary;
     height: 12px;
   }
+}
+
+.modal-content {
+  background-color: $body-bg !important;
 }

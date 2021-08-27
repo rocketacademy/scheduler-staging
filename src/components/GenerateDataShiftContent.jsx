@@ -17,9 +17,10 @@ const GenerateDataShiftContent = ({
     setShowInputModal(true);
   };
 
+  console.log("inside data shift", bootcampDataCopy);
   return (
     <>
-      {Object.keys(bootcampDataCopy).length === 0 &&
+      {Object.keys(bootcampDataCopy).length > 0 &&
         bootcampDataCopy.constructor === Object && (
           <>
             {Object.keys(bootcampDataCopy).map((day, dayIndex) => {
@@ -29,17 +30,17 @@ const GenerateDataShiftContent = ({
                     <Accordion>
                       <Accordion.Item eventKey={dayIndex}>
                         <Accordion.Header>
-                          <div className="course-day-header">
-                            {day}, Week: {bootcampDataCopy[day].courseWeek},
-                            Course Day: {bootcampDataCopy[day].courseDay},{" "}
-                            {bootcampDataCopy[day].dateTypes.module}{" "}
-                          </div>
                           <div
                             className="course-day-symbol"
                             onClick={() => handlePlusClick(day)}
                           >
                             {" "}
                             <AddIcon />
+                          </div>
+                          <div className="course-day-header">
+                            {day}, Week: {bootcampDataCopy[day].courseWeek},
+                            Course Day: {bootcampDataCopy[day].courseDay},{" "}
+                            {bootcampDataCopy[day].dateTypes.module}{" "}
                           </div>
                         </Accordion.Header>
                         <Accordion.Body>

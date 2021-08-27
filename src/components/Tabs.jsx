@@ -3,11 +3,10 @@ import Tabs from "react-bootstrap/Tabs";
 import Tab from "react-bootstrap/Tab";
 import DatePicker from "./DatePicker";
 import DataShift from "./DataShift";
-// import "../sass/Tabs.scss";
 
 const TabsContainer = () => {
   const [key, setKey] = useState("datePicker");
-  const [bootcampDataCopy, setBootcampDataCopy] = useState();
+  const [bootcampDataCopy, setBootcampDataCopy] = useState({});
 
   return (
     <Tabs
@@ -19,13 +18,13 @@ const TabsContainer = () => {
       <Tab eventKey="datePicker" title="Generate">
         <DatePicker
           bootcampDataCopy={bootcampDataCopy}
-          setBootCampDataCopy={setBootcampDataCopy}
+          setBootcampDataCopy={setBootcampDataCopy}
         />
       </Tab>
       <Tab eventKey="dataShift" title="Edit">
         <DataShift
           bootcampDataCopy={bootcampDataCopy}
-          setBootCampDataCopy={setBootcampDataCopy}
+          setBootcampDataCopy={setBootcampDataCopy}
         />
       </Tab>
     </Tabs>
