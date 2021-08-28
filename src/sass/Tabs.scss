@@ -1,29 +1,38 @@
 .date-picker {
   height: 100%;
   width: 100%;
-  padding-top: 150px;
+  margin-bottom: 30px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  color: $blue;
 }
 
 .input-form-container {
-  width: 60%;
-  padding: 50px;
+  padding: 30px 30px 5px;
+  border-bottom: 1px solid $blue;
 }
 
 .input-form {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  .input {
+    width: 30%;
+  }
 }
 
 .submit-button-container {
+  margin: 17px 0;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  .btn {
+    width: 40%;
+    color: $body-bg;
+  }
 }
 
 .datashift-container {
@@ -39,6 +48,7 @@
   justify-content: flex-end;
   align-items: center;
   padding: 40px;
+  border-left: 1px solid lightgray;
 }
 
 .data-container {
@@ -188,7 +198,7 @@
   flex-direction: column;
   justify-content: center;
   align-self: flex-start;
-  padding: 50px 0;
+  padding: 40px;
   position: sticky;
   top: 40px;
   .mb-3 {
@@ -202,8 +212,4 @@
     color: $primary;
     height: 12px;
   }
-}
-
-.modal-content {
-  background-color: $body-bg !important;
 }

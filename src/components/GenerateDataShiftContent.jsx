@@ -3,6 +3,8 @@ import Section from "./Section";
 import Accordion from "react-bootstrap/Accordion";
 import AddItemModal from "./AddItemModal";
 import AddIcon from "@material-ui/icons/Add";
+import DatePicker from "./DatePicker";
+import MainAccordion from "./MainAccordion";
 
 const GenerateDataShiftContent = ({
   bootcampDataCopy,
@@ -11,22 +13,28 @@ const GenerateDataShiftContent = ({
   const [showInputModal, setShowInputModal] = useState(false);
   const [courseDate, setCourseDate] = useState("");
 
-  const handlePlusClick = (day) => {
-    console.log(day);
-    setCourseDate(day);
-    setShowInputModal(true);
-  };
+  // const handlePlusClick = (day) => {
+  //   console.log(day);
+  //   setCourseDate(day);
+  //   setShowInputModal(true);
+  // };
 
-  console.log("inside data shift", bootcampDataCopy);
+  console.log("inside data shift", bootcampDataCopy.constructorq);
   return (
     <>
-      {Object.keys(bootcampDataCopy).length > 0 &&
-        bootcampDataCopy.constructor === Object && (
+      {bootcampDataCopy.constructor === Object &&
+        Object.keys(bootcampDataCopy).length > 0 && (
           <>
             {Object.keys(bootcampDataCopy).map((day, dayIndex) => {
               return (
                 <>
-                  {bootcampDataCopy[day].dateTypes.module && (
+                  <MainAccordion
+                    dayIndex={dayIndex}
+                    bootcampDataCopy={bootcampDataCopy}
+                    setBootcampDataCopy={setBootcampDataCopy}
+                    day={day}
+                  />
+                  {/* {bootcampDataCopy[day].dateTypes.module && (
                     <Accordion>
                       <Accordion.Item eventKey={dayIndex}>
                         <Accordion.Header>
@@ -65,11 +73,11 @@ const GenerateDataShiftContent = ({
                         </Accordion.Body>
                       </Accordion.Item>
                     </Accordion>
-                  )}
+                  )} */}
                 </>
               );
             })}
-            {showInputModal && courseDate && (
+            {/* {showInputModal && courseDate && (
               <AddItemModal
                 show={showInputModal}
                 onHide={() => setShowInputModal(false)}
@@ -77,9 +85,20 @@ const GenerateDataShiftContent = ({
                 setbootcampdatacopy={setBootcampDataCopy}
                 coursedate={courseDate}
               />
-            )}
+            )} */}
           </>
         )}
+      {bootcampDataCopy.constructor === Array &&
+        bootcampDataCopy.map((day, dayIndex) => {
+          return (
+            <MainAccordion
+              dayIndex={dayIndex}
+              bootcampDataCopy={bootcampDataCopy}
+              setBootcampDataCopy={setBootcampDataCopy}
+              day={dayIndex}
+            />
+          );
+        })}
     </>
   );
 };
