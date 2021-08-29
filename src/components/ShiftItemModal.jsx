@@ -48,7 +48,9 @@ function ShiftItemModal({
 
     targetDay[classtype].items.push(selectedItem);
     console.log(bootcampdatacopy);
-    setbootcampdatacopy({ ...bootcampdatacopy });
+    bootcampdatacopy.constructor === Array
+      ? setbootcampdatacopy([...bootcampdatacopy])
+      : setbootcampdatacopy({ ...bootcampdatacopy });
   };
 
   return (
@@ -70,13 +72,24 @@ function ShiftItemModal({
             aria-label="days"
             onChange={(e) => setSelectedDate(e.target.value)}
           >
-            <option>choose date</option>
+            <option>--</option>
             {shiftitem.dates.map((date) => {
-              return (
-                <>
-                  <option value={date}>{date}</option>;
-                </>
-              );
+              if (typeof date === "number") {
+                return (
+                  <>
+                    <option value={date}>
+                      Day {bootcampdatacopy[date].courseDay}
+                    </option>
+                    ;
+                  </>
+                );
+              } else {
+                return (
+                  <>
+                    <option value={date}>{date}</option>;
+                  </>
+                );
+              }
             })}
           </Form.Select>
           <Button

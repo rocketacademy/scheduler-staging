@@ -1,10 +1,7 @@
 import React, { useState } from "react";
-import Section from "./Section";
-import Accordion from "react-bootstrap/Accordion";
 import AddItemModal from "./AddItemModal";
-import AddIcon from "@material-ui/icons/Add";
-import DatePicker from "./DatePicker";
 import MainAccordion from "./MainAccordion";
+import download from "../download";
 
 const GenerateDataShiftContent = ({
   bootcampDataCopy,
@@ -13,18 +10,16 @@ const GenerateDataShiftContent = ({
   const [showInputModal, setShowInputModal] = useState(false);
   const [courseDate, setCourseDate] = useState("");
 
-  // const handlePlusClick = (day) => {
-  //   console.log(day);
-  //   setCourseDate(day);
-  //   setShowInputModal(true);
-  // };
+  const handleDownloadMainClick = () => {
+    console.log("main data file mod", bootcampDataCopy);
+    download(bootcampDataCopy, "modified-main-data-file.json");
+  };
 
-  console.log("inside data shift", bootcampDataCopy.constructorq);
   return (
     <>
       {bootcampDataCopy.constructor === Object &&
         Object.keys(bootcampDataCopy).length > 0 && (
-          <>
+          <div>
             {Object.keys(bootcampDataCopy).map((day, dayIndex) => {
               return (
                 <>
@@ -33,6 +28,8 @@ const GenerateDataShiftContent = ({
                     bootcampDataCopy={bootcampDataCopy}
                     setBootcampDataCopy={setBootcampDataCopy}
                     day={day}
+                    setShowInputModal={setShowInputModal}
+                    setCourseDate={setCourseDate}
                   />
                   {/* {bootcampDataCopy[day].dateTypes.module && (
                     <Accordion>
@@ -77,28 +74,52 @@ const GenerateDataShiftContent = ({
                 </>
               );
             })}
-            {/* {showInputModal && courseDate && (
+            {showInputModal && courseDate && (
               <AddItemModal
                 show={showInputModal}
                 onHide={() => setShowInputModal(false)}
                 bootcampdatacopy={bootcampDataCopy}
                 setbootcampdatacopy={setBootcampDataCopy}
+                setShowInputModal={setShowInputModal}
                 coursedate={courseDate}
               />
-            )} */}
-          </>
+            )}
+          </div>
         )}
-      {bootcampDataCopy.constructor === Array &&
-        bootcampDataCopy.map((day, dayIndex) => {
-          return (
-            <MainAccordion
-              dayIndex={dayIndex}
-              bootcampDataCopy={bootcampDataCopy}
-              setBootcampDataCopy={setBootcampDataCopy}
-              day={dayIndex}
+      {bootcampDataCopy.constructor === Array && (
+        <div className="accordion-container">
+          <div className="download-button-container">
+            <button
+              className="btn btn-primary"
+              onClick={handleDownloadMainClick}
+            >
+              download modified file
+            </button>
+          </div>
+          {bootcampDataCopy.map((day, dayIndex) => {
+            return (
+              <MainAccordion
+                dayIndex={dayIndex}
+                bootcampDataCopy={bootcampDataCopy}
+                setBootcampDataCopy={setBootcampDataCopy}
+                day={dayIndex}
+                setShowInputModal={setShowInputModal}
+                setCourseDate={setCourseDate}
+              />
+            );
+          })}
+          {showInputModal && courseDate && (
+            <AddItemModal
+              show={showInputModal}
+              onHide={() => setShowInputModal(false)}
+              bootcampdatacopy={bootcampDataCopy}
+              setbootcampdatacopy={setBootcampDataCopy}
+              setShowInputModal={setShowInputModal}
+              coursedate={courseDate}
             />
-          );
-        })}
+          )}
+        </div>
+      )}
     </>
   );
 };

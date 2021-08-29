@@ -22,13 +22,13 @@ const TabsContainer = () => {
       onSelect={(k) => setKey(k)}
       className="mb-3"
     >
-      <Tab eventKey="datePicker" title="Generate">
+      <Tab eventKey="datePicker" title="Main">
         <GenerateDataShiftContent
           bootcampDataCopy={mainDataCopy}
           setBootcampDataCopy={setMainDataCopy}
         />
       </Tab>
-      <Tab eventKey="dataShift" title="Edit">
+      <Tab eventKey="dataShift" title="Batch">
         <DataShift
           bootcampDataCopy={bootcampDataCopy}
           setBootcampDataCopy={setBootcampDataCopy}

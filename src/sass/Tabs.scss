@@ -55,6 +55,17 @@
   width: 100%;
 }
 
+.accordion-container {
+  width: 60%;
+  margin: auto;
+  .download-button-container {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 .accordion-body {
   background-color: $blue;
   padding: 0;

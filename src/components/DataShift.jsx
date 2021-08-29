@@ -8,8 +8,11 @@ import DatePicker from "./DatePicker.jsx";
 
 const DataShift = ({ bootcampDataCopy, setBootcampDataCopy }) => {
   const handleDownloadClick = () => {
-    ptbc1.days = bootcampDataCopy;
-    download(ptbc1, "modified-bootcamp-data.json");
+    console.log("batch data copy", bootcampDataCopy);
+    download(
+      bootcampDataCopy,
+      `modified-${bootcampDataCopy.courseName}-file.json`
+    );
   };
 
   return (

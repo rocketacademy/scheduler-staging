@@ -25,20 +25,29 @@ function ClassItem({
 
   const handleShift = (direction, dayIndex, classIndex) => {
     let datesArray = [];
+    console.log(dayIndex);
+
     if (direction === "up") {
       console.log(bootcampDataCopy);
-      Object.keys(bootcampDataCopy)
-        .filter(
-          (date) =>
-            bootcampDataCopy[date].courseDay < dayIndex + 1 &&
-            bootcampDataCopy[date].courseDay !== null
-        )
-        .map((date) => {
-          console.log(date);
-          if (!datesArray.includes(date)) {
-            datesArray.push(date);
-          }
-        });
+      bootcampDataCopy.constructor === Object
+        ? Object.keys(bootcampDataCopy)
+            .filter(
+              (date) =>
+                bootcampDataCopy[date].courseDay < dayIndex + 1 &&
+                bootcampDataCopy[date].courseDay !== null
+            )
+            .map((date) => {
+              if (!datesArray.includes(date)) {
+                datesArray.push(date);
+              }
+            })
+        : bootcampDataCopy
+            .filter((date) => bootcampDataCopy.indexOf(date) < dayIndex)
+            .map((date) => {
+              if (!datesArray.includes(bootcampDataCopy.indexOf(date))) {
+                datesArray.push(bootcampDataCopy.indexOf(date));
+              }
+            });
 
       setShiftItem({
         ...shiftItem,
@@ -48,23 +57,30 @@ function ClassItem({
 
       setModalShow(true);
     } else if (direction === "down") {
-      Object.keys(bootcampDataCopy)
-        .filter(
-          (date) =>
-            bootcampDataCopy[date].courseDay > dayIndex + 1 &&
-            bootcampDataCopy[date].courseDay !== null
-        )
-        .map((date) => {
-          if (!datesArray.includes(date)) {
-            datesArray.push(date);
-          }
-        });
+      bootcampDataCopy.constructor === Object
+        ? Object.keys(bootcampDataCopy)
+            .filter(
+              (date) =>
+                bootcampDataCopy[date].courseDay > dayIndex + 1 &&
+                bootcampDataCopy[date].courseDay !== null
+            )
+            .map((date) => {
+              if (!datesArray.includes(date)) {
+                datesArray.push(date);
+              }
+            })
+        : bootcampDataCopy
+            .filter((date) => bootcampDataCopy.indexOf(date) > dayIndex)
+            .map((date) => {
+              if (!datesArray.includes(bootcampDataCopy.indexOf(date))) {
+                datesArray.push(bootcampDataCopy.indexOf(date));
+              }
+            });
 
       setShiftItem({
         ...shiftItem,
         direction: "down",
         dates: datesArray,
-        classIndex: classIndex,
       });
 
       setModalShow(true);

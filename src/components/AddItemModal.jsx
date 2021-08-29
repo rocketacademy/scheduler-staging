@@ -17,14 +17,6 @@ function AddItemModal({
 
   const handleAddItem = (e) => {
     e.preventDefault();
-    console.log(title);
-    console.log(url);
-    console.log(sectionClass);
-    console.log(section);
-    console.log(
-      "looking for this",
-      bootcampdatacopy[coursedate].dateTypes[section][sectionClass]
-    );
 
     const newItem = {
       name: title,

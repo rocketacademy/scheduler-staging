@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Accordion from "react-bootstrap/Accordion";
 import AddIcon from "@material-ui/icons/Add";
 import Section from "./Section";
@@ -8,13 +8,16 @@ function MainAccordion({
   bootcampDataCopy,
   setBootcampDataCopy,
   day,
+  setShowInputModal,
+  setCourseDate,
 }) {
-  // const handlePlusClick = (day) => {
-  //   console.log(day);
-  //   setCourseDate(day);
-  //   setShowInputModal(true);
-  // };
+  const handlePlusClick = (day) => {
+    console.log(day);
+    setCourseDate(day);
+    setShowInputModal(true);
+  };
 
+  console.log("day", day);
   return (
     <div>
       {bootcampDataCopy[day].dateTypes.module && (
@@ -23,15 +26,24 @@ function MainAccordion({
             <Accordion.Header>
               <div
                 className="course-day-symbol"
-                // onClick={() => handlePlusClick(day)}
+                onClick={() => handlePlusClick(day)}
               >
                 {" "}
                 <AddIcon />
               </div>
               <div className="course-day-header">
-                {day}, Week: {bootcampDataCopy[day].courseWeek}, Course Day:{" "}
-                {bootcampDataCopy[day].courseDay},{" "}
-                {bootcampDataCopy[day].dateTypes.module}{" "}
+                {bootcampDataCopy.constructor === Object ? (
+                  <>
+                    {day}, Week: {bootcampDataCopy[day].courseWeek}, Course Day:{" "}
+                    {bootcampDataCopy[day].courseDay},{" "}
+                    {bootcampDataCopy[day].dateTypes.module}{" "}
+                  </>
+                ) : (
+                  <>
+                    Course Day: {bootcampDataCopy[day].courseDay},{" "}
+                    {bootcampDataCopy[day].dateTypes.module}{" "}
+                  </>
+                )}
               </div>
             </Accordion.Header>
             <Accordion.Body>
