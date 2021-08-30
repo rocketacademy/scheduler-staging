@@ -14,6 +14,9 @@
 .schedule-header,
 .schedule-table {
   width: 90%;
+  .today-date:hover {
+    cursor: pointer;
+  }
 }
 
 .sidebar {
@@ -44,6 +47,15 @@
 
 .sidebar-subheading {
   padding: 20px 0 10px;
+}
+
+.current-wk-indicator {
+  font-size: 10px;
+  padding-left: 10px;
+  color: $primary;
+  svg {
+    font-size: 10px;
+  }
 }
 
 .content {
@@ -125,6 +137,25 @@ ul {
   align-items: center;
 }
 
+.navbar {
+  width: 100%;
+  a {
+    color: $body-bg;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 20px;
+  }
+  a:hover {
+    cursor: pointer;
+  }
+
+  img {
+    width: 150px;
+  }
+  .navbar-brand {
+    margin-right: 50px;
+  }
+}
 .nav.nav-pills .nav-link.active {
   background-color: #00567e;
   color: #f9f6e7;

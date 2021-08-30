@@ -2,8 +2,10 @@ import React, { useState } from "react";
 import ClassItem from "./ClassItem";
 import ExpandLessIcon from "@material-ui/icons/ExpandLess";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+import AddItemModal from "./AddItemModal";
 
 function SectionClass({
+  day,
   sectionIndex,
   sectionclass,
   sectionType,
@@ -14,6 +16,7 @@ function SectionClass({
 }) {
   const [classButtonsVisible, setClassButtonsVisible] = useState(false);
 
+  const [showInputModal, setShowInputModal] = useState(false);
   // helper function that maps each element in section array to a new course day
   const shiftSection = (sectionArray, startDay, bootcampDataCopy) => {
     sectionArray.forEach((element, index) => {
@@ -73,19 +76,23 @@ function SectionClass({
         <div className="section-class">
           <div className="class-title">{sectionclass}</div>
           <div className="class-items">
-            {sectionType[sectionclass].items.map((item, classIndex) => (
-              <ClassItem
-                sectionclass={sectionclass}
-                bootcampDataCopy={bootcampDataCopy}
-                setBootcampDataCopy={setBootcampDataCopy}
-                section={section}
-                classType={sectionclass}
-                sectionType={sectionType}
-                item={item}
-                dayIndex={dayIndex}
-                classIndex={classIndex}
-              />
-            ))}
+            {sectionType[sectionclass].items.map((item, classIndex) => {
+              const id = `day-${dayIndex}-section-${section}-class-${sectionclass}-${classIndex}`;
+              return (
+                <ClassItem
+                  day={day}
+                  sectionclass={sectionclass}
+                  bootcampDataCopy={bootcampDataCopy}
+                  setBootcampDataCopy={setBootcampDataCopy}
+                  section={section}
+                  classType={sectionclass}
+                  sectionType={sectionType}
+                  item={item}
+                  dayIndex={dayIndex}
+                  classIndex={classIndex}
+                />
+              );
+            })}
           </div>
           <div
             className="section-class-header"

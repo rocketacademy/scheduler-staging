@@ -4,28 +4,38 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import download from "../download.js";
 
-const DatePicker = () => {
+const DatePicker = ({ bootcampDataCopy, setBootcampDataCopy }) => {
   const [startDate, setStartDate] = useState("");
   const [courseName, setCourseName] = useState("");
   const [courseType, setCourseType] = useState("");
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+  const handleDownload = async (e) => {
     try {
       const data = await generateDataObject(startDate, courseName, courseType);
-      console.log("data", data);
-
+      console.log("data.days", data.days);
       download(data, `${data.courseName}.json`);
     } catch (error) {
       console.log(error);
     }
   };
 
+  const handleRender = async (e) => {
+    try {
+      const data = await generateDataObject(startDate, courseName, courseType);
+      console.log("data.days", data.days);
+      await setBootcampDataCopy(JSON.parse(JSON.stringify(data.days)));
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  console.log("bootcamp data copy", bootcampDataCopy);
+
   return (
     <>
       <div className="date-picker">
         <div>
-          <h2>Course Schedule Data File</h2>
+          <h2>Generate Schedule Data File</h2>
         </div>
         <div className="input-form-container">
           <Form className="input-form">
@@ -59,20 +69,27 @@ const DatePicker = () => {
                 <option value="Bootcamp PT">Bootcamp PT</option>
               </Form.Select>
             </Form.Group>
-            <br></br>
-            <div className="submit-button-container">
-              <Button
-                variant="primary"
-                type="submit"
-                onClick={(e) => {
-                  handleSubmit(e);
-                }}
-              >
-                Download File
-              </Button>
-            </div>
           </Form>
-          <br></br>
+          <div className="submit-button-container">
+            <Button
+              variant="primary"
+              type="submit"
+              onClick={(e) => {
+                handleRender(e);
+              }}
+            >
+              Render Schedule
+            </Button>
+            <Button
+              variant="primary"
+              type="submit"
+              onClick={(e) => {
+                handleDownload(e);
+              }}
+            >
+              Download Schedule
+            </Button>
+          </div>
           <br></br>
           <div>
             <a href="https://github.com/rocketacademy/scheduler">

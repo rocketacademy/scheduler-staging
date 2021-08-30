@@ -1,8 +1,11 @@
 import React, { useState } from "react";
 import ExpandLessIcon from "@material-ui/icons/ExpandLess";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+import RemoveIcon from "@material-ui/icons/Remove";
+import ShiftItemModal from "./ShiftItemModal";
 
 function ClassItem({
+  day,
   setBootcampDataCopy,
   section,
   bootcampDataCopy,
@@ -14,43 +17,77 @@ function ClassItem({
 }) {
   // toggle visibility of buttons
   const [buttonsVisible, setButtonsVisible] = useState(false);
+  const [modalShow, setModalShow] = useState(false);
+  const [shiftItem, setShiftItem] = useState({
+    direction: null,
+    dates: [],
+  });
 
   const handleShift = (direction, dayIndex, classIndex) => {
-    // set selectedItem to item chosen
-    let selectedItem = sectionType[classType].items[classIndex];
-    let nextDay;
-    let previousDay;
-    // remove selected item from original position
-    sectionType[classType].items.splice(classIndex, 1);
+    let datesArray = [];
+    console.log(dayIndex);
 
-    // if items array is empty after removing selected item, remove empty items array
-    if (sectionType[classType].items.length === 0) {
-      delete sectionType[classType].items;
-    }
+    if (direction === "up") {
+      console.log(bootcampDataCopy);
+      bootcampDataCopy.constructor === Object
+        ? Object.keys(bootcampDataCopy)
+            .filter(
+              (date) =>
+                bootcampDataCopy[date].courseDay < dayIndex + 1 &&
+                bootcampDataCopy[date].courseDay !== null
+            )
+            .map((date) => {
+              if (!datesArray.includes(date)) {
+                datesArray.push(date);
+              }
+            })
+        : bootcampDataCopy
+            .filter((date) => bootcampDataCopy.indexOf(date) < dayIndex)
+            .map((date) => {
+              if (!datesArray.includes(bootcampDataCopy.indexOf(date))) {
+                datesArray.push(bootcampDataCopy.indexOf(date));
+              }
+            });
 
-    // where item will be shifted when user clicks down button (same section/class of next day )
-    if (bootcampDataCopy[dayIndex + 1]) {
-      nextDay = bootcampDataCopy[dayIndex + 1].dateTypes[section];
-    }
+      setShiftItem({
+        ...shiftItem,
+        direction: "up",
+        dates: datesArray,
+      });
 
-    // where item will be shifted when user clicks down button (same section/class of previous day )
-    if (bootcampDataCopy[dayIndex - 1]) {
-      previousDay = bootcampDataCopy[dayIndex - 1].dateTypes[section];
-    }
+      setModalShow(true);
+    } else if (direction === "down") {
+      bootcampDataCopy.constructor === Object
+        ? Object.keys(bootcampDataCopy)
+            .filter(
+              (date) =>
+                bootcampDataCopy[date].courseDay > dayIndex + 1 &&
+                bootcampDataCopy[date].courseDay !== null
+            )
+            .map((date) => {
+              if (!datesArray.includes(date)) {
+                datesArray.push(date);
+              }
+            })
+        : bootcampDataCopy
+            .filter((date) => bootcampDataCopy.indexOf(date) > dayIndex)
+            .map((date) => {
+              if (!datesArray.includes(bootcampDataCopy.indexOf(date))) {
+                datesArray.push(bootcampDataCopy.indexOf(date));
+              }
+            });
 
-    // helper function that adds selected item to new position
-    const shiftItem = (dayType) => {
-      if (!dayType[classType].items) {
-        dayType[classType].items = [];
-      }
-      dayType[classType].items.push(selectedItem);
-      setBootcampDataCopy([...bootcampDataCopy]);
-    };
+      setShiftItem({
+        ...shiftItem,
+        direction: "down",
+        dates: datesArray,
+      });
 
-    if (direction === "down") {
-      shiftItem(nextDay);
+      setModalShow(true);
     } else {
-      shiftItem(previousDay);
+      sectionType[classType].items.splice(classIndex, 1);
+      setBootcampDataCopy({ ...bootcampDataCopy });
+      console.log(bootcampDataCopy);
     }
   };
 
@@ -64,6 +101,9 @@ function ClassItem({
         {item.name}
         {buttonsVisible && (
           <div>
+            <button onClick={() => handleShift("delete", dayIndex, classIndex)}>
+              <RemoveIcon />
+            </button>
             <button onClick={() => handleShift("up", dayIndex, classIndex)}>
               <ExpandLessIcon />
             </button>
@@ -71,6 +111,19 @@ function ClassItem({
               <ExpandMoreIcon />
             </button>
           </div>
+        )}
+        {modalShow && (
+          <ShiftItemModal
+            show={modalShow}
+            onHide={() => setModalShow(false)}
+            shiftitem={shiftItem}
+            bootcampdatacopy={bootcampDataCopy}
+            setbootcampdatacopy={setBootcampDataCopy}
+            sectiontype={sectionType}
+            classtype={classType}
+            classindex={classIndex}
+            section={section}
+          />
         )}
       </div>
     </div>
