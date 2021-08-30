@@ -6,6 +6,8 @@ import TableProjects from "./TableProjects";
 import { scroller } from "react-scroll";
 
 function CurrentContentTable({ scheduleData, coursetype }) {
+  const today = DateTime.now();
+  const todayWords = today.toFormat("EEE d MMM");
   let firstDay;
   let moveDate;
   let lastDay;
@@ -16,16 +18,16 @@ function CurrentContentTable({ scheduleData, coursetype }) {
     // shows current month for part time bootcamp
     firstDay = DateTime.now().startOf("month");
     lastDay = DateTime.now().endOf("month");
-    heading = `Current Month (${firstDay.toFormat(
+    heading = `Current Month : ${firstDay.toFormat(
       "dd/MM/yyyy"
-    )} - ${lastDay.toFormat("dd/MM/yyyy")})`;
+    )} - ${lastDay.toFormat("dd/MM/yyyy")}`;
   } else {
     // shows current week for full time bootcamp
     firstDay = DateTime.now().startOf("week");
     lastDay = DateTime.now().endOf("week");
-    heading = `Current Week (${firstDay.toFormat(
+    heading = `Current Week : ${firstDay.toFormat(
       "dd/MM/yyyy"
-    )} - ${lastDay.toFormat("dd/MM/yyyy")})`;
+    )} - ${lastDay.toFormat("dd/MM/yyyy")}`;
   }
 
   moveDate = firstDay;
@@ -47,9 +49,28 @@ function CurrentContentTable({ scheduleData, coursetype }) {
     });
   }
 
+  const todayFormatted = today.toFormat("dd-MM-yyyy");
+  const todayId = `${coursetype}-week-${scheduleData[todayFormatted].courseWeek}-day-${scheduleData[todayFormatted].dayNumber}`;
+  console.log("today id", todayId);
+
   return (
     <div className="schedule-table">
-      <h3 className="table-heading">{heading}</h3>
+      <h4 className="table-heading">
+        <div
+          className="today-date"
+          onClick={() =>
+            scroller.scrollTo(todayId, {
+              smooth: true,
+              offset: -70,
+              duration: 100,
+            })
+          }
+        >
+          Today : {todayWords}
+        </div>
+        <br></br>
+        {/* {heading} */}
+      </h4>
       <Table striped bordered hover size="sm">
         <thead>
           <tr>

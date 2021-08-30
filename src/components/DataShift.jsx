@@ -7,23 +7,12 @@ import DataShiftSidebar from "./DataShiftSidebar.jsx";
 import DatePicker from "./DatePicker.jsx";
 
 const DataShift = ({ bootcampDataCopy, setBootcampDataCopy }) => {
-  const handleDownloadClick = () => {
-    console.log("batch data copy", bootcampDataCopy);
-    download(
-      bootcampDataCopy,
-      `modified-${bootcampDataCopy.courseName}-file.json`
-    );
-  };
-
   return (
     <>
       <div className="datashift-container">
-        <div className="datashift-button-container">
+        {/* <div className="datashift-button-container">
           <DataShiftSidebar bootcampDataCopy={bootcampDataCopy} />
-          <Button variant="info" type="submit" onClick={handleDownloadClick}>
-            Download File
-          </Button>
-        </div>
+        </div> */}
         <div className="data-shift">
           <div className="data-container">
             <DatePicker

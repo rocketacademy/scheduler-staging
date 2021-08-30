@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import AddItemModal from "./AddItemModal";
 import MainAccordion from "./MainAccordion";
+import Button from "react-bootstrap/Button";
 import download from "../download";
 
 const GenerateDataShiftContent = ({
@@ -15,11 +16,47 @@ const GenerateDataShiftContent = ({
     download(bootcampDataCopy, "modified-main-data-file.json");
   };
 
+  const handleBatchDownloadClick = () => {
+    console.log("batch data copy", bootcampDataCopy);
+    download(
+      bootcampDataCopy,
+      `modified-${bootcampDataCopy.courseName}-file.json`
+    );
+  };
+
+  const handleClose = () => {
+    const element = document.getElementsByClassName(
+      "accordion-collapse collapse show"
+    );
+
+    console.log("element", element);
+    Array.from(element).forEach((subelement) => {
+      console.log(subelement);
+      subelement.classList.remove("show");
+    });
+  };
+
   return (
     <>
       {bootcampDataCopy.constructor === Object &&
         Object.keys(bootcampDataCopy).length > 0 && (
           <div>
+            <div className="download-button-container">
+              <Button
+                variant="primary"
+                type="submit"
+                onClick={handleBatchDownloadClick}
+              >
+                Download File
+              </Button>
+            </div>
+            <button
+              type="submit"
+              className="btn btn-primary"
+              onClick={handleClose}
+            >
+              close all
+            </button>
             {Object.keys(bootcampDataCopy).map((day, dayIndex) => {
               return (
                 <>
@@ -96,6 +133,13 @@ const GenerateDataShiftContent = ({
               download modified file
             </button>
           </div>
+          <button
+            type="submit"
+            className="btn btn-primary"
+            onClick={handleClose}
+          >
+            close all
+          </button>
           {bootcampDataCopy.map((day, dayIndex) => {
             return (
               <MainAccordion
