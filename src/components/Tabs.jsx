@@ -9,7 +9,7 @@ import GenerateDataShiftContent from "./GenerateDataShiftContent";
 
 const TabsContainer = () => {
   const [key, setKey] = useState("datePicker");
-  const [bootcampDataCopy, setBootcampDataCopy] = useState({});
+  const [batchDataCopy, setBatchDataCopy] = useState({});
   const [mainDataCopy, setMainDataCopy] = useState(
     JSON.parse(JSON.stringify(mainDataFile.days))
   );
@@ -30,8 +30,8 @@ const TabsContainer = () => {
       </Tab>
       <Tab eventKey="dataShift" title="Batch">
         <DataShift
-          bootcampDataCopy={bootcampDataCopy}
-          setBootcampDataCopy={setBootcampDataCopy}
+          bootcampDataCopy={batchDataCopy}
+          setBootcampDataCopy={setBatchDataCopy}
         />
       </Tab>
     </Tabs>
