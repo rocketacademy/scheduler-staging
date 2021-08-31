@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Table from "react-bootstrap/Table";
 import { DateTime } from "luxon";
 import TableClass from "./TableClass";
@@ -6,6 +6,8 @@ import TableProjects from "./TableProjects";
 import { scroller } from "react-scroll";
 
 function CurrentContentTable({ scheduleData, coursetype }) {
+  const [noClass, setNoClass] = useState(false);
+
   const today = DateTime.now();
   const todayWords = today.toFormat("EEE d MMM");
   let firstDay;
@@ -76,9 +78,9 @@ function CurrentContentTable({ scheduleData, coursetype }) {
             Today : {todayWords}
           </div>
         ) : (
-          <div className="today-date">
+          <div className="today-date" onClick={() => setNoClass(true)}>
             Today: {todayWords}
-            <span className="no-class-date">no class</span>
+            {noClass && <span className="no-class-date">no class</span>}
           </div>
         )}
 
