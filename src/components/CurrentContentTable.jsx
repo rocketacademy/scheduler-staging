@@ -49,25 +49,39 @@ function CurrentContentTable({ scheduleData, coursetype }) {
     });
   }
 
+  console.log("current week data", currentWeekData);
   const todayFormatted = today.toFormat("dd-MM-yyyy");
-  const todayId = `${coursetype}-week-${scheduleData[todayFormatted].courseWeek}-day-${scheduleData[todayFormatted].dayNumber}`;
+  console.log("today formatted", todayFormatted);
+
+  let todayId;
+  if (scheduleData[todayFormatted]) {
+    todayId = `${coursetype}-week-${scheduleData[todayFormatted].courseWeek}-day-${scheduleData[todayFormatted].dayNumber}`;
+  }
   console.log("today id", todayId);
 
   return (
     <div className="schedule-table">
       <h4 className="table-heading">
-        <div
-          className="today-date"
-          onClick={() =>
-            scroller.scrollTo(todayId, {
-              smooth: true,
-              offset: -70,
-              duration: 100,
-            })
-          }
-        >
-          Today : {todayWords}
-        </div>
+        {scheduleData[todayFormatted] ? (
+          <div
+            className="today-date"
+            onClick={() =>
+              scroller.scrollTo(todayId, {
+                smooth: true,
+                offset: -70,
+                duration: 100,
+              })
+            }
+          >
+            Today : {todayWords}
+          </div>
+        ) : (
+          <div className="today-date">
+            Today: {todayWords}
+            <span className="no-class-date">no class</span>
+          </div>
+        )}
+
         <br></br>
         {/* {heading} */}
       </h4>
