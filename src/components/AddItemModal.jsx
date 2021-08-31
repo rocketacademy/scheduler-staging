@@ -10,31 +10,38 @@ function AddItemModal({
   setbootcampdatacopy,
   coursedate,
 }) {
+  // input fields for a entry of a new item into the main data file
   const [title, setTitle] = useState("");
   const [url, setUrl] = useState("");
   const [section, setSection] = useState("");
   const [sectionClass, setSectionClass] = useState("");
 
+  // function that adds new item to main data file
   const handleAddItem = (e) => {
     e.preventDefault();
 
+    // new item that will be added to main data file
     const newItem = {
       name: title,
       url: url,
     };
 
+    // if the section that the new item is to be added to is empty, an empty array called items is added to it
     if (!bootcampdatacopy[coursedate].dateTypes[section][sectionClass].items) {
       bootcampdatacopy[coursedate].dateTypes[section][sectionClass].items = [];
     }
 
+    // the new item is then pushed into items array
     bootcampdatacopy[coursedate].dateTypes[section][sectionClass].items.push(
       newItem
     );
-    console.log(bootcampdatacopy);
+
+    // the new content is saved in state
     setbootcampdatacopy({ ...bootcampdatacopy });
   };
 
   return (
+    // modal that takes in user input for the creation of a new item
     <Modal
       show={show}
       onHide={onHide}

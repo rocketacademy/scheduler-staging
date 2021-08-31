@@ -3,6 +3,7 @@ import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 
+// moves items to a specific date in the schedule
 function ShiftItemModal({
   show,
   onHide,
@@ -25,29 +26,27 @@ function ShiftItemModal({
 
   const handleSubmitDate = (e) => {
     e.preventDefault();
-
+    // finding the selected item in the data file
     let selectedItem = sectiontype[classtype].items[classindex];
-
-    console.log("selected item", selectedItem);
-
+    // removing it from it's original position
     sectiontype[classtype].items.splice(classindex, 1);
 
     // if items array is empty after removing selected item, remove empty items array
     if (sectiontype[classtype].items.length === 0) {
       delete sectiontype[classtype].items;
     }
-
-    console.log(classtype);
-
+    // this is where we want to move the item to
     const targetDay = bootcampdatacopy[selectedDate].dateTypes[section];
-    console.log(targetDay[classtype]);
 
+    // checking to see if items array exists at destination, if not, an empty array called items is added
     if (!targetDay[classtype].items) {
       targetDay[classtype].items = [];
     }
 
+    // selected item is push into items array at destination
     targetDay[classtype].items.push(selectedItem);
-    console.log(bootcampdatacopy);
+
+    // depending on whether the main (array) or individual (object) schedule files were updated, new version of data file is saved
     bootcampdatacopy.constructor === Array
       ? setbootcampdatacopy([...bootcampdatacopy])
       : setbootcampdatacopy({ ...bootcampdatacopy });

@@ -14,30 +14,20 @@ function CourseWeeks({ scheduleData, coursetype }) {
     }
   });
 
-  //   const weekSubArrays = [];
-  //   for (let j = 0; j < weeks.length; j += 1) {
-  //     const weekDateArray = [];
-  //     Object.keys(scheduleData).map((date) => {
-  //       if (scheduleData[date].courseWeek === weeks[j]) {
-  //         weekDateArray.push(scheduleData[date]);
-  //       }
-  //     });
-  //     weekSubArrays.push(weekDateArray);
-  //   }
-
-  //   console.log(weekSubArrays);
-  const todayDate = DateTime.now();
+  // getting first and last days of week
   const firstDayOfWeek = DateTime.now().startOf("week");
   const lastDayOfWeek = DateTime.now().endOf("week");
   let target = firstDayOfWeek;
+  // array where all course dates in current week will be stored
   const weeksDates = [];
 
+  // storing week's dates in the array
   while (target <= lastDayOfWeek) {
     weeksDates.push(target.toFormat("dd-MM-yyyy"));
     target = target.plus({ days: 1 });
   }
 
-  console.log("weeks dates", weeksDates);
+  // getting the week's courseWeek that the indicator will point to
   const weekNumber = [];
   weeksDates.forEach((date) => {
     if (
@@ -47,13 +37,6 @@ function CourseWeeks({ scheduleData, coursetype }) {
       weekNumber.push(scheduleData[date].courseWeek);
     }
   });
-  console.log("weeknumber", weekNumber);
-  // const weeksInAMonth = [];
-  // // putting week numbers into subarrays and pushing them into weeksInAMonth
-  // while(weeks.length) {
-  // const weekNumbers = weeks.splice(0,4);
-  //     weeksInAMonth.push(weekNumbers);
-  // }
 
   return (
     <div className="sidebar-courseweeks">
@@ -99,6 +82,7 @@ function CourseWeeks({ scheduleData, coursetype }) {
                 }
               >
                 Week {week}
+                {/* week indicator that indicates that a certain week is the current week  */}
                 {weeks[index] === weekNumber[0] && (
                   <span className="current-wk-indicator">
                     <KeyboardBackspaceIcon />

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import Accordion from "react-bootstrap/Accordion";
 import AddIcon from "@material-ui/icons/Add";
 import Section from "./Section";
@@ -10,6 +10,8 @@ function MainAccordion({
   day,
   setShowInputModal,
   setCourseDate,
+  // fold,
+  // setFold,
 }) {
   const handlePlusClick = (day) => {
     console.log(day);

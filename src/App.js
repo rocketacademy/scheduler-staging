@@ -1,9 +1,9 @@
 import React from 'react';
-// import './sass/App.scss';
-// import 'bootstrap/dist/css/bootstrap.min.css';
 import TabsContainer from './components/Tabs';
+import ptbc1 from '../src/data/16-08-2021_10-10-2022_BATCH1.json';
+import ftbc3 from '../src/data/12-04-2021_23-09-2021_BATCH3.json';
+import ftbc4 from '../src/data/12-07-2021_22-12-2021_BATCH4.json';
 import {
-  BrowserRouter as Router,
   HashRouter,
   Switch,
   Route,
@@ -11,16 +11,22 @@ import {
 import ScheduleContainer from './components/ScheduleContainer';
 
 function App() {
+
+  // put all batch data files in an array to be passed into separate components for /shedule and /admin
+  const batchArray = [{name:"ptbc1", content: ptbc1}, {name: "ftbc3", content: ftbc3}, {name: "ftbc4", content: ftbc4}];
+
   return (
     <div className="App">
       {/* <BatchSchedule /> */}
       <HashRouter>
         <Switch>
+          {/* route that takes user to part of app that edits course schedules */}
           <Route path="/admin">
-            <TabsContainer />
+            <TabsContainer batchArray={batchArray} />
           </Route>
+          {/* route that takes user to part of app that displays batch schedules for student use */}
           <Route path="/schedules">
-            <ScheduleContainer />
+            <ScheduleContainer batchArray={batchArray} />
           </Route>
         </Switch>
       </HashRouter>

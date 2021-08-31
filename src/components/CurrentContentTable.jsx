@@ -13,23 +13,16 @@ function CurrentContentTable({ scheduleData, coursetype }) {
   let firstDay;
   let moveDate;
   let lastDay;
-  let heading;
 
   // getting first and last days shown in table , depending on type of bootcamp
   if (coursetype === "pt") {
     // shows current month for part time bootcamp
     firstDay = DateTime.now().startOf("month");
     lastDay = DateTime.now().endOf("month");
-    heading = `Current Month : ${firstDay.toFormat(
-      "dd/MM/yyyy"
-    )} - ${lastDay.toFormat("dd/MM/yyyy")}`;
   } else {
     // shows current week for full time bootcamp
     firstDay = DateTime.now().startOf("week");
     lastDay = DateTime.now().endOf("week");
-    heading = `Current Week : ${firstDay.toFormat(
-      "dd/MM/yyyy"
-    )} - ${lastDay.toFormat("dd/MM/yyyy")}`;
   }
 
   moveDate = firstDay;
@@ -51,19 +44,19 @@ function CurrentContentTable({ scheduleData, coursetype }) {
     });
   }
 
-  console.log("current week data", currentWeekData);
+  // getting the current date and formatting it such that it follows the format used in the data files
   const todayFormatted = today.toFormat("dd-MM-yyyy");
-  console.log("today formatted", todayFormatted);
 
   let todayId;
+  // if today's date matches a date in the schedule file, an id is generated for the scrollTo function
   if (scheduleData[todayFormatted]) {
     todayId = `${coursetype}-week-${scheduleData[todayFormatted].courseWeek}-day-${scheduleData[todayFormatted].dayNumber}`;
   }
-  console.log("today id", todayId);
 
   return (
     <div className="schedule-table">
       <h4 className="table-heading">
+        {/* if today's date matches a date in the schedule, a scrollTo function is added to it which takes the user to today's content on clicking the link */}
         {scheduleData[todayFormatted] ? (
           <div
             className="today-date"
@@ -78,6 +71,7 @@ function CurrentContentTable({ scheduleData, coursetype }) {
             Today : {todayWords}
           </div>
         ) : (
+          // if not, 'no class' is rendered on click
           <div className="today-date" onClick={() => setNoClass(true)}>
             Today: {todayWords}
             {noClass && <span className="no-class-date">no class</span>}
@@ -85,8 +79,8 @@ function CurrentContentTable({ scheduleData, coursetype }) {
         )}
 
         <br></br>
-        {/* {heading} */}
       </h4>
+      {/* table which displays current week's/ month's content based on course type  */}
       <Table striped bordered hover size="sm">
         <thead>
           <tr>

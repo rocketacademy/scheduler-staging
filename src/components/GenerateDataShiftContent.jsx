@@ -11,11 +11,13 @@ const GenerateDataShiftContent = ({
   const [showInputModal, setShowInputModal] = useState(false);
   const [courseDate, setCourseDate] = useState("");
 
+  // function that handles download of main data file after edits
   const handleDownloadMainClick = () => {
     console.log("main data file mod", bootcampDataCopy);
     download(bootcampDataCopy, "modified-main-data-file.json");
   };
 
+  // function that handles download of individual batch data file after edits
   const handleBatchDownloadClick = () => {
     console.log("batch data copy", bootcampDataCopy);
     download(
@@ -24,20 +26,21 @@ const GenerateDataShiftContent = ({
     );
   };
 
-  const handleClose = () => {
-    const element = document.getElementsByClassName(
-      "accordion-collapse collapse show"
-    );
+  // TODO: need to find another way to close all tabs of accordion
+  // const handleClose = () => {
+  //   const element = document.getElementsByClassName(
+  //     "accordion-collapse collapse show"
+  //   );
 
-    console.log("element", element);
-    Array.from(element).forEach((subelement) => {
-      console.log(subelement);
-      subelement.classList.remove("show");
-    });
-  };
+  //   Array.from(element).forEach((subelement) => {
+  //     subelement.classList.remove("show");
+  //   });
+  //   // setFold(true);
+  // };
 
   return (
     <>
+      {/* renders batch schedule data file  */}
       {bootcampDataCopy.constructor === Object &&
         Object.keys(bootcampDataCopy).length > 0 && (
           <div>
@@ -50,13 +53,14 @@ const GenerateDataShiftContent = ({
                 Download File
               </Button>
             </div>
-            <button
+            {/* TODO: not being used at the moment */}
+            {/* <button
               type="submit"
               className="btn btn-primary"
               onClick={handleClose}
             >
               close all
-            </button>
+            </button> */}
             {Object.keys(bootcampDataCopy).map((day, dayIndex) => {
               return (
                 <>
@@ -68,49 +72,10 @@ const GenerateDataShiftContent = ({
                     setShowInputModal={setShowInputModal}
                     setCourseDate={setCourseDate}
                   />
-                  {/* {bootcampDataCopy[day].dateTypes.module && (
-                    <Accordion>
-                      <Accordion.Item eventKey={dayIndex}>
-                        <Accordion.Header>
-                          <div
-                            className="course-day-symbol"
-                            onClick={() => handlePlusClick(day)}
-                          >
-                            {" "}
-                            <AddIcon />
-                          </div>
-                          <div className="course-day-header">
-                            {day}, Week: {bootcampDataCopy[day].courseWeek},
-                            Course Day: {bootcampDataCopy[day].courseDay},{" "}
-                            {bootcampDataCopy[day].dateTypes.module}{" "}
-                          </div>
-                        </Accordion.Header>
-                        <Accordion.Body>
-                          <div className="course-day">
-                            <div>
-                              {Object.keys(bootcampDataCopy[day].dateTypes).map(
-                                (section) => (
-                                  <Section
-                                    day={day}
-                                    setBootcampDataCopy={setBootcampDataCopy}
-                                    section={section}
-                                    sectionType={
-                                      bootcampDataCopy[day].dateTypes[section]
-                                    }
-                                    dayIndex={dayIndex}
-                                    bootcampDataCopy={bootcampDataCopy}
-                                  />
-                                )
-                              )}
-                            </div>
-                          </div>
-                        </Accordion.Body>
-                      </Accordion.Item>
-                    </Accordion>
-                  )} */}
                 </>
               );
             })}
+            {/* modal that takes in user input to create a new item in the schedule  */}
             {showInputModal && courseDate && (
               <AddItemModal
                 show={showInputModal}
@@ -123,6 +88,7 @@ const GenerateDataShiftContent = ({
             )}
           </div>
         )}
+      {/* displays main data file  */}
       {bootcampDataCopy.constructor === Array && (
         <div className="accordion-container">
           <div className="download-button-container">
@@ -133,13 +99,13 @@ const GenerateDataShiftContent = ({
               download modified file
             </button>
           </div>
-          <button
+          {/* <button
             type="submit"
             className="btn btn-primary"
             onClick={handleClose}
           >
             close all
-          </button>
+          </button> */}
           {bootcampDataCopy.map((day, dayIndex) => {
             return (
               <MainAccordion

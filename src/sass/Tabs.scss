@@ -203,7 +203,9 @@
   }
 }
 
-.datashift-button-container {
+.all-courses-navbar {
+  border-radius: 10px;
+  border: 1px solid lightgray;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -211,6 +213,10 @@
   padding: 40px;
   position: sticky;
   top: 40px;
+  h4 {
+    color: $blue;
+    padding-bottom: 10px;
+  }
   .mb-3 {
     width: 100%;
   }

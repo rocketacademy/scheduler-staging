@@ -1,12 +1,11 @@
 import React from "react";
 import ScheduleContent from "./ScheduleContent";
 import SideBar from "./SideBar";
-// import "../sass/BatchSchedule.scss";
 
 function BatchSchedule({ data, title }) {
   const scheduleData = JSON.parse(JSON.stringify(data.days));
 
-  // needed to generate id for use with react-scroll library, also indicates full time/ part time
+  // needed to generate id for use with react-scroll library, also indicates if course is full time/ part time
   let coursetype;
   if (data.courseType === "Bootcamp PT") {
     coursetype = "pt";

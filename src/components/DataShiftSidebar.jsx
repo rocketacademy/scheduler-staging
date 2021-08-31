@@ -4,6 +4,7 @@ import Button from "react-bootstrap/Button";
 import { scroller } from "react-scroll";
 import { DateTime } from "luxon";
 
+// not being used at the moment
 function DataShiftSidebar({ bootcampDataCopy }) {
   const [selectedDate, setSelectedDate] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
