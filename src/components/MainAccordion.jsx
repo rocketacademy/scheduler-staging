@@ -17,7 +17,6 @@ function MainAccordion({
     setShowInputModal(true);
   };
 
-  console.log("day", day);
   return (
     <div>
       {bootcampDataCopy[day].dateTypes.module && (
