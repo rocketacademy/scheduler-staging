@@ -113,6 +113,9 @@ ul {
 }
 
 .nav.nav-tabs .nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 60px;
   margin-right: 5px;
   width: 100px;
@@ -120,6 +123,10 @@ ul {
   background-color: #af231c;
   color: #f9f6e7;
   font-size: 100%;
+  a {
+    text-align: center;
+    color: $body-bg;
+  }
 }
 
 .nav.nav-tabs .nav-link.active {
