@@ -48,6 +48,7 @@
   justify-content: flex-end;
   align-items: center;
   padding: 40px;
+  border-left: 1px solid lightgray;
 }
 
 .data-container {
@@ -204,8 +205,6 @@
 }
 
 .all-courses-navbar {
-  border-radius: 10px;
-  border: 1px solid lightgray;
   display: flex;
   flex-direction: column;
   justify-content: center;
