@@ -11,6 +11,25 @@
   font-size: 50px;
 }
 
+.top-content-container {
+  width: 65%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  .top-content-section {
+    padding: 20px 0;
+    .top-content-day {
+      color: $secondary;
+    }
+  }
+}
+
+.today-date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .schedule-header,
 .schedule-table {
   width: 90%;

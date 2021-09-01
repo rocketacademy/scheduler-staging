@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import ClassItem from "./ClassItem";
 import ExpandLessIcon from "@material-ui/icons/ExpandLess";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import AddItemModal from "./AddItemModal";
 
 function SectionClass({
   day,

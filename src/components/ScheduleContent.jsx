@@ -6,7 +6,7 @@ import CurrentContentTable from "./CurrentContentTable";
 // generates schedule content for a particular course
 function ScheduleContent({ scheduleData, coursetype, title }) {
   const id = `${coursetype}-top`;
-
+  const todaySectionHeader = false;
   console.log("schedule data", scheduleData);
   return (
     <div className="content">
@@ -26,6 +26,7 @@ function ScheduleContent({ scheduleData, coursetype, title }) {
             <div className="day-class" id={id}>
               {/* generates schedule header for individual day */}
               <GenerateCourseDayHeader
+                todaySectionHeader={todaySectionHeader}
                 day={scheduleData[day]}
                 coursetype={coursetype}
               />

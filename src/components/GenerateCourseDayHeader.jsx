@@ -4,7 +4,7 @@ import ExpandLessIcon from "@material-ui/icons/ExpandLess";
 import { scroller } from "react-scroll";
 
 // helper function that generates course day header for a normal course day
-const NormalCourseDay = ({ day, timeZoneSet, id }) => {
+const NormalCourseDay = ({ todaySectionHeader, day, timeZoneSet, id }) => {
   localDate = DateTime.fromISO(day.meetingDateTimeUTC, { zone: timeZoneSet });
   formattedDate = localDate.toFormat("EEE d MMM");
   meetingTime = localDate.toFormat("t");
@@ -20,17 +20,19 @@ const NormalCourseDay = ({ day, timeZoneSet, id }) => {
               {formattedDate}, Week {day.courseWeek}, Course Day {day.courseDay}
             </h3>
             {/* scrolls back up to the top of the page  */}
-            <div
-              onClick={() =>
-                scroller.scrollTo(id, {
-                  smooth: true,
-                  offset: -70,
-                  duration: 100,
-                })
-              }
-            >
-              <ExpandLessIcon />
-            </div>
+            {!todaySectionHeader && (
+              <div
+                onClick={() =>
+                  scroller.scrollTo(id, {
+                    smooth: true,
+                    offset: -70,
+                    duration: 100,
+                  })
+                }
+              >
+                <ExpandLessIcon />
+              </div>
+            )}
           </div>
           <p>
             Meeting Time: {meetingTime} SGT ({timeOffset})
@@ -43,7 +45,7 @@ const NormalCourseDay = ({ day, timeZoneSet, id }) => {
 };
 
 // helper function that generates courseday header for a holiday
-const HolidayCourseDay = ({ day, timeZoneSet, id }) => {
+const HolidayCourseDay = ({ todaySectionHeader, day, timeZoneSet, id }) => {
   localDate = DateTime.fromFormat(day.courseDate, "dd-MM-yyyy");
   formattedDate = localDate.toFormat("EEE d MMM");
   timeZone = localDate.toFormat("z");
@@ -62,17 +64,19 @@ const HolidayCourseDay = ({ day, timeZoneSet, id }) => {
           <h2>
             {formattedDate}: {day.dateTypes.location} {holiday}
           </h2>
-          <div
-            onClick={() =>
-              scroller.scrollTo(id, {
-                smooth: true,
-                offset: -70,
-                duration: 100,
-              })
-            }
-          >
-            <ExpandLessIcon />
-          </div>
+          {!todaySectionHeader && (
+            <div
+              onClick={() =>
+                scroller.scrollTo(id, {
+                  smooth: true,
+                  offset: -70,
+                  duration: 100,
+                })
+              }
+            >
+              <ExpandLessIcon />
+            </div>
+          )}
         </div>
       )}
     </>
@@ -90,16 +94,30 @@ let holiday;
 // ######################################################
 
 // function that generates the header for each course day
-const GenerateCourseDayHeader = ({ day, coursetype }) => {
+const GenerateCourseDayHeader = ({ todaySectionHeader, day, coursetype }) => {
   // this is the timezone of the area we are in
   const timeZoneSet = "Asia/Singapore";
   // used by scrollTo function to identify where to scroll to
   const id = `${coursetype}-top`;
 
   if (day.meetingDateTimeUTC) {
-    return <NormalCourseDay day={day} timeZoneSet={timeZoneSet} id={id} />;
+    return (
+      <NormalCourseDay
+        todaySectionHeader={todaySectionHeader}
+        day={day}
+        timeZoneSet={timeZoneSet}
+        id={id}
+      />
+    );
   } else {
-    return <HolidayCourseDay day={day} timeZoneSet={timeZoneSet} id={id} />;
+    return (
+      <HolidayCourseDay
+        todaySectionHeader={todaySectionHeader}
+        day={day}
+        timeZoneSet={timeZoneSet}
+        id={id}
+      />
+    );
   }
 };
 

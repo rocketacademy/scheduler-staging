@@ -16,6 +16,7 @@ function BatchSchedule({ data, title }) {
   return (
     <div className="course-schedule">
       {/* contains links to main part of schedule page */}
+
       <SideBar scheduleData={scheduleData} coursetype={coursetype} />
       {/* contains current schedule table and main content of page */}
       <ScheduleContent
