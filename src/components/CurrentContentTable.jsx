@@ -9,35 +9,66 @@ import GenerateDatetypeSections from "./GenerateDatetypeSections";
 import GenerateCourseDayHeader from "./GenerateCourseDayHeader";
 
 // helper function that finds previous course day
-const findPreviousDay = (weekDatesArray, todayFormatted, today, coursetype) => {
+const findPreviousDay = (scheduleData, today, coursetype) => {
   let dayBefore;
-  if (weekDatesArray[0] === todayFormatted) {
-    if (coursetype === "ptbc") {
-      if (today.weekday === 1) {
-        dayBefore = today.plus({ days: -2 }).toFormat("dd-MM-yyyy");
-      } else {
-        dayBefore = today.plus({ days: -5 }).toFormat("dd-MM-yyyy");
-      }
-    } else {
+  if (coursetype === "ft") {
+    if (today.weekday === 1) {
       dayBefore = today.plus({ days: -3 }).toFormat("dd-MM-yyyy");
+    } else {
+      dayBefore = today.plus({ days: -1 }).toFormat("dd-MM-yyyy");
     }
-  } else {
-    const todayIndex = weekDatesArray.indexOf(todayFormatted);
-    dayBefore = weekDatesArray[todayIndex - 1];
+  } else if (coursetype === "pt") {
+    if (today.weekday === 1) {
+      dayBefore = today
+        .plus({ weeks: -1 })
+        .set({ weekday: 6 })
+        .toFormat("dd-MM-yyyy");
+    } else if (today.weekday > 1 && today.weekday <= 6) {
+      dayBefore = today.set({ weekday: 1 }).toFormat("dd-MM-yyyy");
+    } else {
+      dayBefore = today.set({ weekday: 6 }).toFormat("dd-MM-yyyy");
+    }
   }
+
+  if (scheduleData[dayBefore].dateTypes.holidayType) {
+    dayBefore = findPreviousDay(dayBefore);
+  }
+
   return dayBefore;
+};
+
+//helper funcyion that finds next course day
+const findNextDay = (scheduleData, today, coursetype) => {
+  let nextDay;
+  if (coursetype === "ft") {
+    if (today.weekday === 6) {
+      nextDay = today.plus({ days: 3 }).toFormat("dd-MM-yyyy");
+    } else {
+      nextDay = today.toFormat("dd-MM-yyyy");
+    }
+  } else if (coursetype === "pt") {
+    if (today.weekday <= 6) {
+      nextDay = today.set({ weekday: 6 }).toFormat("dd-MM-yyyy");
+    } else {
+      nextDay = today.plus({ days: 2 }).toFormat("dd-MM-yyyy");
+    }
+  }
+
+  if (scheduleData[nextDay].dateTypes.holidayType) {
+    nextDay = findNextDay(nextDay);
+  }
+
+  return nextDay;
 };
 // ##############################################################################
 
 function CurrentContentTable({ scheduleData, coursetype }) {
-  const [noClass, setNoClass] = useState(false);
-
   const today = DateTime.now();
-  const todayWords = today.toFormat("EEE d MMM");
   let firstDay;
   let moveDate;
   let lastDay;
   let previousDay;
+  let nextDay;
 
   // getting first and last days shown in table , depending on type of bootcamp
   if (coursetype === "pt") {
@@ -63,22 +94,10 @@ function CurrentContentTable({ scheduleData, coursetype }) {
   const todayFormatted = today.toFormat("dd-MM-yyyy");
 
   // finds previous course day
-  previousDay = findPreviousDay(
-    weekDatesArray,
-    todayFormatted,
-    today,
-    coursetype
-  );
+  previousDay = findPreviousDay(scheduleData, today, coursetype);
 
-  // gets another date if previous day falls on a holiday
-  if (scheduleData[previousDay].dateTypes.holidayType) {
-    previousDay = findPreviousDay(
-      weekDatesArray,
-      todayFormatted,
-      previousDay,
-      coursetype
-    );
-  }
+  // find the next day if current day is not a course day
+  nextDay = findNextDay(scheduleData, today, coursetype);
 
   // getting the data objects that correspond to the dates in weekDatesArray and storing them in an array
   const currentWeekData = [];
@@ -96,45 +115,41 @@ function CurrentContentTable({ scheduleData, coursetype }) {
     todayId = `${coursetype}-week-${scheduleData[todayFormatted].courseWeek}-day-${scheduleData[todayFormatted].dayNumber}`;
   }
 
+  // indicates whether or not the up arrow is shown on the courseday header
   const todaySectionHeader = true;
 
   return (
     <div className="schedule-table">
-      {/* if today's date matches a date in the schedule, a scrollTo function is added to it which takes the user to today's content on clicking the link */}
-      {scheduleData[todayFormatted] ? (
-        <div
-          className="today-date"
-          onClick={() =>
-            scroller.scrollTo(todayId, {
-              smooth: true,
-              offset: -70,
-              duration: 100,
-            })
-          }
-        >
-          <div>
-            <GenerateCourseDayHeader
-              todaySectionHeader={todaySectionHeader}
-              day={scheduleData[todayFormatted]}
-              coursetype={coursetype}
-            />
-          </div>
-          <div className="top-content-container">
-            <div className="top-content-section">
-              {!scheduleData[todayFormatted].dateTypes.holidayType && (
-                <>
-                  <h5 className="top-content-day">Today:</h5>
-                  <br></br>
-                  <GenerateCourseDayContent
-                    day={scheduleData[todayFormatted]}
-                  />
-                </>
-              )}
+      <div
+        className="today-date"
+        onClick={() =>
+          scroller.scrollTo(todayId, {
+            smooth: true,
+            offset: -70,
+            duration: 100,
+          })
+        }
+      >
+        {nextDay && previousDay && (
+          <>
+            <div>
+              <GenerateCourseDayHeader
+                todaySectionHeader={todaySectionHeader}
+                day={scheduleData[nextDay]}
+                coursetype={coursetype}
+              />
             </div>
-            <div className="top-content-section">
-              {!scheduleData[previousDay].dateTypes.holidayType && (
+            <div className="top-content-container">
+              <div className="top-content-section">
                 <>
-                  <h5 className="top-content-day">Previous Day:</h5>
+                  <h5 className="top-content-day">Current Course Day:</h5>
+                  <br></br>
+                  <GenerateCourseDayContent day={scheduleData[nextDay]} />
+                </>
+              </div>
+              <div className="top-content-section">
+                <>
+                  <h5 className="top-content-day">Previous Course Day:</h5>
                   <br></br>
                   <GenerateDatetypeSections
                     datetype={scheduleData[previousDay].dateTypes}
@@ -142,17 +157,11 @@ function CurrentContentTable({ scheduleData, coursetype }) {
                     day={scheduleData[previousDay]}
                   />
                 </>
-              )}
+              </div>
             </div>
-          </div>
-        </div>
-      ) : (
-        // if not, 'no class' is rendered on click
-        <div className="today-date" onClick={() => setNoClass(true)}>
-          {todayWords}
-          {noClass && <span className="no-class-date">no class</span>}
-        </div>
-      )}
+          </>
+        )}
+      </div>
 
       <br></br>
       {/* table which displays current week's/ month's content based on course type  */}
