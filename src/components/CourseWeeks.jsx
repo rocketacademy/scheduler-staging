@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import Nav from "react-bootstrap/Nav";
 import { scroller } from "react-scroll";
 import { DateTime } from "luxon";
@@ -7,14 +7,19 @@ import KeyboardBackspaceIcon from "@material-ui/icons/KeyboardBackspace";
 // one of the components in Sidebar
 function CourseWeeks({ scheduleData, coursetype }) {
   const weeks = [];
+  const executeScroll = () => myRef.current.scrollIntoView({ block: "center" });
 
-  // useEffect(() => {
-  //   scroller.scrollTo(`${coursetype}-sidebar-week-${weekNumber[0]}`, {
-  //     smooth: true,
-  //     offset: -70,
-  //     duration: 100,
-  //   });
-  // }, []);
+  useEffect(() => {
+    executeScroll();
+  }, []);
+
+  const CurrentWeekDiv = () => {
+    return (
+      <>
+        <div ref={myRef}></div>
+      </>
+    );
+  };
 
   // getting all the week numbers
   Object.keys(scheduleData).forEach((day) => {
@@ -38,6 +43,8 @@ function CourseWeeks({ scheduleData, coursetype }) {
 
   // getting the week's courseWeek that the indicator will point to
   const weekNumber = [];
+  const myRef = useRef(null);
+
   weeksDates.forEach((date) => {
     if (
       scheduleData[date] &&
@@ -47,15 +54,12 @@ function CourseWeeks({ scheduleData, coursetype }) {
     }
   });
 
-  // this will be defaultActiveKey so that the current week is automatically highlighted on page load
-  const activeKey = `${weekNumber[0]}`;
-
   return (
     <div className="sidebar-courseweeks">
       <h4>Course Weeks</h4>
       <Nav
         variant="pills"
-        defaultActiveKey={activeKey}
+        defaultActiveKey="0"
         className="flex-column"
         navbarScroll="true"
       >
@@ -93,10 +97,11 @@ function CourseWeeks({ scheduleData, coursetype }) {
                   })
                 }
               >
-                <div id={sidebarId}>Week {week}</div>
+                {week === weekNumber[0] && <CurrentWeekDiv />}
+                <div>Week {week}</div>
                 {/* week indicator that indicates that a certain week is the current week  */}
                 {weeks[index] === weekNumber[0] && (
-                  <span className="current-wk-indicator">
+                  <span id={sidebarId} className="current-wk-indicator">
                     <KeyboardBackspaceIcon />
                     {"  "}
                     this week

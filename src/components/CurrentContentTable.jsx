@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
 import Table from "react-bootstrap/Table";
 import { DateTime } from "luxon";
 import TableClass from "./TableClass";
@@ -234,7 +234,7 @@ function CurrentContentTable({ scheduleData, coursetype }) {
           return <span>{num}</span>;
         })}{" "}
       </h5>
-      <Table striped bordered hover size="sm">
+      <Table bordered hover size="sm">
         <thead>
           <tr>
             <th></th>
@@ -254,7 +254,13 @@ function CurrentContentTable({ scheduleData, coursetype }) {
             const id = `${coursetype}-week-${date.courseWeek}-day-${date.dayNumber}`;
 
             return (
-              <tr>
+              <tr
+                className={
+                  date.courseDate === today.toFormat("dd-MM-yyyy")
+                    ? "table-info"
+                    : null
+                }
+              >
                 <td
                   // library react-scroll used to scroll to an element with matching id on main page
                   className="table-date"

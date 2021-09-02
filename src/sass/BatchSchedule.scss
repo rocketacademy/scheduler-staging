@@ -16,6 +16,10 @@
   cursor: pointer;
   bottom: 40px;
   right: 40px;
+  svg {
+    font-size: 40px;
+    color: $secondary;
+  }
 }
 
 .top-content-container {
@@ -145,6 +149,10 @@ ul {
 
 .table-heading {
   padding-bottom: 10px;
+}
+
+.table-day-row .active {
+  border: 1px solid $secondary;
 }
 
 .nav.nav-tabs .nav-link {

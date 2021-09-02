@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import { Route, Switch, Link, useRouteMatch, Redirect } from "react-router-dom";
 import logo from "../assets/4-MILK.png";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import Container from "react-bootstrap/Container";
 import BatchSchedule from "./BatchSchedule";
 
 function ScheduleContainer({ batchArray }) {
@@ -14,20 +13,18 @@ function ScheduleContainer({ batchArray }) {
     <>
       {/* backup navbar  */}
       <Navbar variant="dark" bg="secondary">
-        <Container>
-          <Navbar.Brand href="#home">
-            <img src={logo} alt="company logo"></img>
-          </Navbar.Brand>
-          <Nav className="me-auto">
-            {batchArray.map((batch) => {
-              return (
-                <Nav.Link as={Link} to={`${url}/${batch.name}`}>
-                  {batch.name.toUpperCase()}
-                </Nav.Link>
-              );
-            })}
-          </Nav>
-        </Container>
+        <Navbar.Brand href="#home">
+          <img src={logo} alt="company logo"></img>
+        </Navbar.Brand>
+        <Nav className="me-auto">
+          {batchArray.map((batch) => {
+            return (
+              <Nav.Link as={Link} to={`${url}/${batch.name}`}>
+                {batch.name.toUpperCase()}
+              </Nav.Link>
+            );
+          })}
+        </Nav>
       </Navbar>
       <Switch>
         <Route exact path={path}>
