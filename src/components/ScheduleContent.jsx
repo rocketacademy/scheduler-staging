@@ -33,6 +33,7 @@ function ScheduleContent({ scheduleData, coursetype, title }) {
         coursetype={coursetype}
       />
       <div className="schedule-list">
+        <h1>Full Schedule</h1>
         {/* generates individual day schedule content */}
         {Object.keys(scheduleData).map((day) => {
           const id = `${coursetype}-week-${scheduleData[day].courseWeek}-day-${scheduleData[day].dayNumber}`;
