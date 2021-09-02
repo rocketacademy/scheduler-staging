@@ -1,7 +1,5 @@
 import React from "react";
 import { DateTime } from "luxon";
-import ExpandLessIcon from "@material-ui/icons/ExpandLess";
-import { scroller } from "react-scroll";
 
 // helper function that generates course day header for a normal course day
 const NormalCourseDay = ({ todaySectionHeader, day, timeZoneSet, id }) => {
@@ -14,31 +12,22 @@ const NormalCourseDay = ({ todaySectionHeader, day, timeZoneSet, id }) => {
   return (
     <>
       {timeZone === timeZoneSet && (
-        <>
+        <div className="main-header-div">
           <div className="main-header">
-            <h3 className="day-header">
-              {formattedDate}, Week {day.courseWeek}, Course Day {day.courseDay}
-            </h3>
-            {/* scrolls back up to the top of the page  */}
-            {!todaySectionHeader && (
-              <div
-                onClick={() =>
-                  scroller.scrollTo(id, {
-                    smooth: true,
-                    offset: -70,
-                    duration: 100,
-                  })
-                }
-              >
-                <ExpandLessIcon />
-              </div>
+            {!todaySectionHeader ? (
+              <h3 className="day-header">
+                {formattedDate}, Week {day.courseWeek}, Course Day{" "}
+                {day.courseDay}
+              </h3>
+            ) : (
+              <h3 className="day-header">{formattedDate}</h3>
             )}
           </div>
           <p>
             Meeting Time: {meetingTime} SGT ({timeOffset})
           </p>
           <p>{day.dateTypes.module}</p>
-        </>
+        </div>
       )}
     </>
   );
@@ -64,19 +53,6 @@ const HolidayCourseDay = ({ todaySectionHeader, day, timeZoneSet, id }) => {
           <h2>
             {formattedDate}: {day.dateTypes.location} {holiday}
           </h2>
-          {!todaySectionHeader && (
-            <div
-              onClick={() =>
-                scroller.scrollTo(id, {
-                  smooth: true,
-                  offset: -70,
-                  duration: 100,
-                })
-              }
-            >
-              <ExpandLessIcon />
-            </div>
-          )}
         </div>
       )}
     </>
@@ -97,8 +73,6 @@ let holiday;
 const GenerateCourseDayHeader = ({ todaySectionHeader, day, coursetype }) => {
   // this is the timezone of the area we are in
   const timeZoneSet = "Asia/Singapore";
-  // used by scrollTo function to identify where to scroll to
-  const id = `${coursetype}-top`;
 
   if (day.meetingDateTimeUTC) {
     return (
@@ -106,7 +80,6 @@ const GenerateCourseDayHeader = ({ todaySectionHeader, day, coursetype }) => {
         todaySectionHeader={todaySectionHeader}
         day={day}
         timeZoneSet={timeZoneSet}
-        id={id}
       />
     );
   } else {
@@ -115,7 +88,6 @@ const GenerateCourseDayHeader = ({ todaySectionHeader, day, coursetype }) => {
         todaySectionHeader={todaySectionHeader}
         day={day}
         timeZoneSet={timeZoneSet}
-        id={id}
       />
     );
   }

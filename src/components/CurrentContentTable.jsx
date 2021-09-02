@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Table from "react-bootstrap/Table";
 import { DateTime } from "luxon";
 import TableClass from "./TableClass";
@@ -31,7 +31,7 @@ const findPreviousDay = (scheduleData, today, coursetype) => {
   }
 
   if (scheduleData[dayBefore].dateTypes.holidayType) {
-    dayBefore = findPreviousDay(dayBefore);
+    dayBefore = findPreviousDay(scheduleData, dayBefore, coursetype);
   }
 
   return dayBefore;
@@ -55,7 +55,7 @@ const findNextDay = (scheduleData, today, coursetype) => {
   }
 
   if (scheduleData[nextDay].dateTypes.holidayType) {
-    nextDay = findNextDay(nextDay);
+    nextDay = findNextDay(scheduleData, nextDay, coursetype);
   }
 
   return nextDay;
@@ -69,29 +69,37 @@ function CurrentContentTable({ scheduleData, coursetype }) {
   let lastDay;
   let previousDay;
   let nextDay;
+  let firstDayMonth;
+  let lastDayMonth;
+  let moveDateMonth;
 
-  // getting first and last days shown in table , depending on type of bootcamp
-  if (coursetype === "pt") {
-    // shows current month for part time bootcamp
-    firstDay = DateTime.now().startOf("month");
-    lastDay = DateTime.now().endOf("month");
-  } else {
-    // shows current week for full time bootcamp
-    firstDay = DateTime.now().startOf("week");
-    lastDay = DateTime.now().endOf("week");
-  }
+  // shows current month for part time bootcamp
+  firstDayMonth = DateTime.now().startOf("month");
+  lastDayMonth = DateTime.now().endOf("month");
+
+  // shows current week for full time bootcamp
+  firstDay = DateTime.now().startOf("week");
+  lastDay = DateTime.now().endOf("week");
 
   moveDate = firstDay;
-
   const weekDatesArray = [];
-  // getting all the dates between first day and last day inclusive and storing them in an array
+  // getting all the dates between first day and last day of week inclusive and storing them in an array
   while (moveDate <= lastDay) {
     weekDatesArray.push(moveDate.toFormat("dd-MM-yyyy"));
     moveDate = moveDate.plus({ days: 1 });
   }
 
-  // getting the current date and formatting it such that it follows the format used in the data files
-  const todayFormatted = today.toFormat("dd-MM-yyyy");
+  moveDateMonth = firstDayMonth;
+
+  const monthDatesArray = [];
+  if (coursetype === "pt") {
+    // getting all the dates between first day and last day of week inclusive and storing them in an array
+    while (moveDateMonth <= lastDayMonth) {
+      monthDatesArray.push(moveDateMonth.toFormat("dd-MM-yyyy"));
+      moveDateMonth = moveDateMonth.plus({ days: 1 });
+    }
+  }
+  console.log(monthDatesArray);
 
   // finds previous course day
   previousDay = findPreviousDay(scheduleData, today, coursetype);
@@ -101,6 +109,8 @@ function CurrentContentTable({ scheduleData, coursetype }) {
 
   // getting the data objects that correspond to the dates in weekDatesArray and storing them in an array
   const currentWeekData = [];
+  const currentMonthData = [];
+
   for (let i = 0; i < weekDatesArray.length; i += 1) {
     Object.keys(scheduleData).map((day) => {
       if (day === weekDatesArray[i]) {
@@ -109,27 +119,46 @@ function CurrentContentTable({ scheduleData, coursetype }) {
     });
   }
 
-  let todayId;
-  // if today's date matches a date in the schedule file, an id is generated for the scrollTo function
-  if (scheduleData[todayFormatted]) {
-    todayId = `${coursetype}-week-${scheduleData[todayFormatted].courseWeek}-day-${scheduleData[todayFormatted].dayNumber}`;
+  if (coursetype === "pt") {
+    for (let i = 0; i < monthDatesArray.length; i += 1) {
+      Object.keys(scheduleData).map((day) => {
+        if (day === monthDatesArray[i]) {
+          currentMonthData.push(scheduleData[day]);
+        }
+      });
+    }
   }
 
-  // indicates whether or not the up arrow is shown on the courseday header
+  console.log(currentMonthData);
+  let tableData;
+
+  if (coursetype === "pt") {
+    tableData = currentMonthData;
+  } else {
+    tableData = currentWeekData;
+  }
+  console.log("table data", tableData);
+  // getting the week's courseWeek that the indicator will point to
+  const weekNumbers = [];
+  weekDatesArray.forEach((date) => {
+    if (
+      scheduleData[date] &&
+      !weekNumbers.includes(scheduleData[date].courseWeek)
+    ) {
+      weekNumbers.push(scheduleData[date].courseWeek);
+    }
+  });
+
+  // indicates whether or not courseweek and course day is shown on the courseday header
   const todaySectionHeader = true;
+
+  // creating ids for scrollTo function for top section
+  const currentDayId = `${coursetype}-week-${scheduleData[nextDay].courseWeek}-day-${scheduleData[nextDay].dayNumber}`;
+  const previousDayId = `${coursetype}-week-${scheduleData[previousDay].courseWeek}-day-${scheduleData[previousDay].dayNumber}`;
 
   return (
     <div className="schedule-table">
-      <div
-        className="today-date"
-        onClick={() =>
-          scroller.scrollTo(todayId, {
-            smooth: true,
-            offset: -70,
-            duration: 100,
-          })
-        }
-      >
+      <div className="today-date">
         {nextDay && previousDay && (
           <>
             <div>
@@ -139,17 +168,51 @@ function CurrentContentTable({ scheduleData, coursetype }) {
                 coursetype={coursetype}
               />
             </div>
+            <div className="main-header-course-day">
+              <h5>
+                Current Course Day:{" "}
+                {scheduleData[today.toFormat("dd-MM-yyyy")] ? (
+                  <span>
+                    {scheduleData[today.toFormat("dd-MM-yyyy")].courseDay}
+                  </span>
+                ) : (
+                  <span> {scheduleData[nextDay].courseDay}</span>
+                )}
+              </h5>
+            </div>
             <div className="top-content-container">
               <div className="top-content-section">
                 <>
-                  <h5 className="top-content-day">Current Course Day:</h5>
+                  <h5
+                    className="top-content-day"
+                    onClick={() =>
+                      scroller.scrollTo(currentDayId, {
+                        smooth: true,
+                        offset: -70,
+                        duration: 100,
+                      })
+                    }
+                  >
+                    Current Course Day:
+                  </h5>
                   <br></br>
                   <GenerateCourseDayContent day={scheduleData[nextDay]} />
                 </>
               </div>
               <div className="top-content-section">
                 <>
-                  <h5 className="top-content-day">Previous Course Day:</h5>
+                  <h5
+                    className="top-content-day"
+                    onClick={() =>
+                      scroller.scrollTo(previousDayId, {
+                        smooth: true,
+                        offset: -70,
+                        duration: 100,
+                      })
+                    }
+                  >
+                    Previous Course Day:
+                  </h5>
                   <br></br>
                   <GenerateDatetypeSections
                     datetype={scheduleData[previousDay].dateTypes}
@@ -165,6 +228,12 @@ function CurrentContentTable({ scheduleData, coursetype }) {
 
       <br></br>
       {/* table which displays current week's/ month's content based on course type  */}
+      <h5>
+        Course Week:{" "}
+        {weekNumbers.map((num) => {
+          return <span>{num}</span>;
+        })}{" "}
+      </h5>
       <Table striped bordered hover size="sm">
         <thead>
           <tr>
@@ -175,7 +244,7 @@ function CurrentContentTable({ scheduleData, coursetype }) {
           </tr>
         </thead>
         <tbody>
-          {currentWeekData.map((date, index) => {
+          {tableData.map((date, index) => {
             // getting the formatted date that will be shown in the table
             const formattedDate = DateTime.fromFormat(
               date.courseDate,
@@ -188,16 +257,19 @@ function CurrentContentTable({ scheduleData, coursetype }) {
               <tr>
                 <td
                   // library react-scroll used to scroll to an element with matching id on main page
-                  onClick={() =>
-                    scroller.scrollTo(id, {
-                      smooth: true,
-                      offset: -70,
-                      duration: 100,
-                    })
-                  }
                   className="table-date"
                 >
-                  <h6>{formattedDate}</h6>
+                  <h6
+                    onClick={() =>
+                      scroller.scrollTo(id, {
+                        smooth: true,
+                        offset: -70,
+                        duration: 100,
+                      })
+                    }
+                  >
+                    {formattedDate}
+                  </h6>
                   <p>
                     Week {date.courseWeek}
                     <br></br>Course Day {date.courseDay}
@@ -205,17 +277,11 @@ function CurrentContentTable({ scheduleData, coursetype }) {
                 </td>
                 {/* getting data for projects section of table */}
                 <td>
-                  <TableProjects day={currentWeekData[index]} />
+                  <TableProjects day={tableData[index]} />
                 </td>
                 {/* getting data for preclass and inclass section of table */}
-                <TableClass
-                  day={currentWeekData[index]}
-                  sectionClass="preClass"
-                />
-                <TableClass
-                  day={currentWeekData[index]}
-                  sectionClass="inClass"
-                />
+                <TableClass day={tableData[index]} sectionClass="preClass" />
+                <TableClass day={tableData[index]} sectionClass="inClass" />
               </tr>
             );
           })}

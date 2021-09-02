@@ -2,14 +2,29 @@ import React from "react";
 import GenerateCourseDayHeader from "./GenerateCourseDayHeader";
 import GenerateCourseDayContent from "./GenerateCourseDayContent";
 import CurrentContentTable from "./CurrentContentTable";
+import { scroller } from "react-scroll";
+import ExpandLessIcon from "@material-ui/icons/ExpandLess";
 
 // generates schedule content for a particular course
 function ScheduleContent({ scheduleData, coursetype, title }) {
+  // used by scrollTo function to identify where to scroll to from the up arrow at the bottom of the screen
   const id = `${coursetype}-top`;
   const todaySectionHeader = false;
-  console.log("schedule data", scheduleData);
+
   return (
     <div className="content">
+      <div
+        className="up-arrow"
+        onClick={() =>
+          scroller.scrollTo(id, {
+            smooth: true,
+            offset: -70,
+            duration: 100,
+          })
+        }
+      >
+        <ExpandLessIcon />
+      </div>
       <h1 className="schedule-header">{title}</h1>
       <p id={id}></p>
       {/* generates table which shows schedule for current week/ month depending on course type */}

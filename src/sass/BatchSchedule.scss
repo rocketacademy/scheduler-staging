@@ -11,33 +11,45 @@
   font-size: 50px;
 }
 
+.up-arrow {
+  position: fixed;
+  cursor: pointer;
+  bottom: 40px;
+  right: 40px;
+}
+
 .top-content-container {
-  width: 80%;
-  padding-left: 10%;
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 100%;
   .top-content-section {
-    width: 40%;
-    padding: 20px 0;
+    width: 49%;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(238, 237, 234);
     .top-content-day {
       color: $secondary;
+      cursor: pointer;
     }
   }
 }
 
+.notifications {
+  h6 {
+    color: $primary;
+  }
+}
+
 .today-date {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin-bottom: 50px;
+}
+.main-header-course-day {
+  width: 100%;
 }
 .schedule-header,
 .schedule-table {
   width: 90%;
-  .today-date:hover {
-    cursor: pointer;
-  }
 }
 
 .sidebar {
@@ -105,7 +117,6 @@ th {
 a,
 a:hover {
   color: #00567e;
-  text-decoration: none;
 }
 
 li {
@@ -126,7 +137,10 @@ ul {
   border-bottom: 1px solid #af231c;
 }
 .table-date {
-  cursor: pointer;
+  h6 {
+    text-decoration: underline;
+    cursor: pointer;
+  }
 }
 
 .table-heading {
@@ -159,19 +173,25 @@ ul {
   border-bottom: 1px solid #af231c;
 }
 
-.main-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.main-header-div {
+  margin-bottom: 70px;
+  .main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
+.navbar-dark .navbar-nav .nav-link {
+  padding: 0 30px;
+}
 .navbar {
   width: 100%;
   a {
     color: $body-bg;
     font-size: 16px;
     font-weight: 600;
-    padding: 0 20px;
+    padding: 0 30px;
   }
   a:hover {
     cursor: pointer;
@@ -184,14 +204,18 @@ ul {
     margin-right: 50px;
   }
 }
+.nav.nav-pills .nav-link {
+  margin: 2px 0;
+}
+
 .nav.nav-pills .nav-link.active {
   background-color: #00567e;
   color: #f9f6e7;
 }
 
-.table-projects h5 {
-  font-size: 16px;
-  color: #e73c3e;
+.nav.nav-pills .nav-link:hover {
+  background-color: lightgray;
+  color: $blue;
 }
 
 .table-date {

@@ -13,7 +13,6 @@ const TabsContainer = ({ batchArray }) => {
   const [mainDataCopy, setMainDataCopy] = useState(
     JSON.parse(JSON.stringify(mainDataFile.days))
   );
-  console.log("main data copy", mainDataCopy);
 
   return (
     <Tabs

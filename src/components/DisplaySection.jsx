@@ -4,7 +4,7 @@ import React from "react";
 function DisplaySection({ heading, sectionType, day }) {
   return (
     <div>
-      <h5>{heading}</h5>
+      <h6>{heading}</h6>
       <ul>
         {sectionType.map((item, index) => {
           let id;
