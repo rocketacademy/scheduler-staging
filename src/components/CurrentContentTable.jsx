@@ -257,7 +257,7 @@ function CurrentContentTable({ scheduleData, coursetype }) {
               <tr
                 className={
                   date.courseDate === today.toFormat("dd-MM-yyyy")
-                    ? "table-info"
+                    ? "table-secondary"
                     : null
                 }
               >
