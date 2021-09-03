@@ -58,14 +58,17 @@ const generateTopLevelObject = (courseType, topLevelObject) => {
             };
         } else if (courseType === 'Bootcamp FT' || courseType === 'Bootcamp PT') {
             let bootcampDays;
+            let startIndex;
             if (courseType === 'Bootcamp FT') {
                 bootcampDays = bootcampData.daysOfWeek.fullTime;
+                startIndex = bootcampData.courseStartIndex.fullTime;
             } else {
                 bootcampDays = bootcampData.daysOfWeek.partTime;
+                startIndex = bootcampData.courseStartIndex.partTime;
             }
             topLevelObject = {
                 daysOfWeek: bootcampDays,
-                courseStartIndex: bootcampData.courseStartIndex,
+                courseStartIndex: startIndex,
                 totalCourseDays: bootcampData.totalCourseDays,
                 ...topLevelObject
             }

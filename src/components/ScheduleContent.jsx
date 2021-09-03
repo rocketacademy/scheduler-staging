@@ -41,33 +41,33 @@ function ScheduleContent({ scheduleData, coursetype, title }) {
       <h1 className="schedule-header">{title}</h1>
       <p id={id}></p>
       {/* generates table which shows schedule for current week/ month depending on course type */}
-      {/* <CurrentContentTable
-        scheduleData={scheduleData}
-        coursetype={coursetype}
-      /> */}
       <CurrentDaySection
         scheduleData={scheduleData}
         coursetype={coursetype}
         today={today}
       />
-      <Accordion className="current-week-accordion" defaultActiveKey="0">
-        <Accordion.Item eventKey="0">
-          <ContentTable
-            scheduleData={scheduleData}
-            coursetype={coursetype}
-            startDay={today}
-          />
-        </Accordion.Item>
-        {coursetype === "ft" && (
-          <Accordion.Item eventKey="1">
+      <div className="schedule-accordion-container">
+        <Accordion className="current-week-accordion" defaultActiveKey="0">
+          <Accordion.Item eventKey="0">
             <ContentTable
               scheduleData={scheduleData}
               coursetype={coursetype}
-              startDay={nextToday}
+              startDay={today}
             />
           </Accordion.Item>
-        )}
-      </Accordion>
+        </Accordion>
+        <Accordion className="current-week-accordion">
+          {coursetype === "ft" && (
+            <Accordion.Item eventKey="0">
+              <ContentTable
+                scheduleData={scheduleData}
+                coursetype={coursetype}
+                startDay={nextToday}
+              />
+            </Accordion.Item>
+          )}
+        </Accordion>
+      </div>
       <div className="schedule-list">
         <h1>Full Schedule</h1>
         {/* generates individual day schedule content */}

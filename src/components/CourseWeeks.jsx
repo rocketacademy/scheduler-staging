@@ -75,7 +75,7 @@ function CourseWeeks({ scheduleData, coursetype }) {
               })
             }
           >
-            Top of Page
+            Today
           </Nav.Link>
         </Nav.Item>
         {weeks.map((week, index) => {
@@ -83,7 +83,8 @@ function CourseWeeks({ scheduleData, coursetype }) {
           // on click, page will scroll to where the element is
           const navId = `${index + 1}`;
           let id;
-          if (coursetype === "pt" && week === 1) {
+          // course starts on dayNumber 6, not 1
+          if (coursetype === "pt") {
             id = `${coursetype}-week-${week}-day-6`;
           } else {
             id = `${coursetype}-week-${week}-day-1`;

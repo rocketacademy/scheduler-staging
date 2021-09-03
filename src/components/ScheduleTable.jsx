@@ -7,15 +7,11 @@ import TableProjects from "./TableProjects";
 import Accordion from "react-bootstrap/Accordion";
 
 function ScheduleTable({ weekNumbers, tableData, coursetype, today }) {
-  console.log("inside schedule table");
-  console.log("week numbers", weekNumbers);
-  console.log("table data", tableData);
-  console.log("today", today);
-
   return (
     <>
       <Accordion.Header>
         <h5>
+          {/* header shows different info depending on date and coursetype  */}
           {coursetype === "ft" &&
             today.toFormat("dd-MM-yyyy") ===
               DateTime.now().toFormat("dd-MM-yyyy") && (

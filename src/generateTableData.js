@@ -1,10 +1,8 @@
-
+// function that generates data required for rendering schedule table
 const generateTableData = (scheduleData, coursetype, weekNumbers, tableData, setWeekNumbers, setTableData, today ) => {
   let firstDay;
   let moveDate;
   let lastDay;
-  // let previousDay;
-  // let nextDay;
   let firstDayMonth;
   let lastDayMonth;
   let moveDateMonth;
@@ -35,26 +33,11 @@ const generateTableData = (scheduleData, coursetype, weekNumbers, tableData, set
       moveDateMonth = moveDateMonth.plus({ days: 1 });
     }
   }
-  console.log(monthDatesArray);
 
-  // // finds previous course day
-  // previousDay = findPreviousDay(scheduleData, today, coursetype);
-
-  // // find the next day if current day is not a course day
-  // nextDay = findNextDay(scheduleData, today, coursetype);
-
-  // getting the data objects that correspond to the dates in weekDatesArray and storing them in an array
   const currentWeekData = [];
   const currentMonthData = [];
 
-  for (let i = 0; i < weekDatesArray.length; i += 1) {
-    Object.keys(scheduleData).map((day) => {
-      if (day === weekDatesArray[i]) {
-        currentWeekData.push(scheduleData[day]);
-      }
-    });
-  }
-
+  // getting the data (object) for each individual day of the month (used for pt schedule table)
   if (coursetype === "pt") {
     for (let i = 0; i < monthDatesArray.length; i += 1) {
       Object.keys(scheduleData).map((day) => {
@@ -63,13 +46,20 @@ const generateTableData = (scheduleData, coursetype, weekNumbers, tableData, set
         }
       });
     }
-  }
-
-  if (coursetype === "pt") {
     setTableData(currentMonthData);
   } else {
+    // getting the data (object) for each individual day of the week
+  for (let i = 0; i < weekDatesArray.length; i += 1) {
+    Object.keys(scheduleData).map((day) => {
+      if (day === weekDatesArray[i]) {
+        currentWeekData.push(scheduleData[day]);
+      }
+    });
+  }
     setTableData(currentWeekData);
   }
+
+  
   // getting the week's courseWeek that the indicator will point to
   weekDatesArray.forEach((date) => {
     if (

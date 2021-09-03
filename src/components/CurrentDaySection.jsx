@@ -90,6 +90,7 @@ function CurrentDaySection({ scheduleData, coursetype, today }) {
             <div className="main-header-course-day">
               <h5>
                 Current Course Day:{" "}
+                {/* shows either today's content or next course day's content depending on if today's content exists  */}
                 {scheduleData[today.toFormat("dd-MM-yyyy")] ? (
                   <span>
                     {scheduleData[today.toFormat("dd-MM-yyyy")].courseDay}
