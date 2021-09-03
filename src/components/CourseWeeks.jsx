@@ -75,14 +75,20 @@ function CourseWeeks({ scheduleData, coursetype }) {
               })
             }
           >
-            Schedule Table
+            Top of Page
           </Nav.Link>
         </Nav.Item>
         {weeks.map((week, index) => {
           // generating id that is linked to id of an element in main content of page
           // on click, page will scroll to where the element is
           const navId = `${index + 1}`;
-          const id = `${coursetype}-week-${week}-day-1`;
+          let id;
+          if (coursetype === "pt" && week === 1) {
+            id = `${coursetype}-week-${week}-day-6`;
+          } else {
+            id = `${coursetype}-week-${week}-day-1`;
+          }
+
           const sidebarId = `${coursetype}-sidebar-week-${week}`;
           return (
             <Nav.Item>
@@ -98,15 +104,17 @@ function CourseWeeks({ scheduleData, coursetype }) {
                 }
               >
                 {week === weekNumber[0] && <CurrentWeekDiv />}
-                <div>Week {week}</div>
-                {/* week indicator that indicates that a certain week is the current week  */}
-                {weeks[index] === weekNumber[0] && (
-                  <span id={sidebarId} className="current-wk-indicator">
-                    <KeyboardBackspaceIcon />
-                    {"  "}
-                    this week
-                  </span>
-                )}
+                <div>
+                  Week {week}
+                  {/* week indicator that indicates that a certain week is the current week  */}
+                  {weeks[index] === weekNumber[0] && (
+                    <span id={sidebarId} className="current-wk-indicator">
+                      <KeyboardBackspaceIcon />
+                      {"  "}
+                      this week
+                    </span>
+                  )}
+                </div>
               </Nav.Link>
             </Nav.Item>
           );

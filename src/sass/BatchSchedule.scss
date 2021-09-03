@@ -156,13 +156,11 @@ ul {
     cursor: pointer;
   }
 }
-
+.table {
+  margin-bottom: 0;
+}
 .table-heading {
   padding-bottom: 10px;
-}
-
-.table-day-row .active {
-  border: 1px solid $secondary;
 }
 
 .nav.nav-tabs .nav-link {
@@ -247,4 +245,26 @@ ul {
 }
 .tab-content {
   width: 100%;
+}
+
+.current-week-accordion {
+  padding: 80px 0 100px;
+  width: 80%;
+  .accordion-item {
+    .schedule-table {
+      width: 100%;
+      height: 100%;
+      padding-bottom: 0;
+    }
+  }
+  .accordion-body {
+    background-color: $body-bg;
+  }
+  .accordion-button.collapsed {
+    padding: 20px 30px 10px;
+  }
+  .accordion-button:not(.collapsed) {
+    background-color: $secondary;
+    padding: 20px 30px 10px;
+  }
 }

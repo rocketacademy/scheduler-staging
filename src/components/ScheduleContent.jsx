@@ -1,15 +1,28 @@
 import React from "react";
 import GenerateCourseDayHeader from "./GenerateCourseDayHeader";
 import GenerateCourseDayContent from "./GenerateCourseDayContent";
-import CurrentContentTable from "./CurrentContentTable";
+import ContentTable from "./ContentTable";
 import { scroller } from "react-scroll";
 import ExpandLessIcon from "@material-ui/icons/ExpandLess";
+import CurrentDaySection from "./CurrentDaySection";
+import { DateTime } from "luxon";
+import Accordion from "react-bootstrap/Accordion";
 
 // generates schedule content for a particular course
 function ScheduleContent({ scheduleData, coursetype, title }) {
   // used by scrollTo function to identify where to scroll to from the up arrow at the bottom of the screen
+  console.log("scheduleData,", scheduleData);
+  console.log(coursetype);
   const id = `${coursetype}-top`;
   const todaySectionHeader = false;
+  const today = DateTime.now();
+  let nextToday;
+  if (coursetype === "ft") {
+    nextToday = DateTime.now().plus({ weeks: 1 });
+  } else {
+    nextToday = DateTime.now().plus({ months: 1 });
+  }
+  console.log("next today", nextToday);
 
   return (
     <div className="content">
@@ -28,10 +41,33 @@ function ScheduleContent({ scheduleData, coursetype, title }) {
       <h1 className="schedule-header">{title}</h1>
       <p id={id}></p>
       {/* generates table which shows schedule for current week/ month depending on course type */}
-      <CurrentContentTable
+      {/* <CurrentContentTable
         scheduleData={scheduleData}
         coursetype={coursetype}
+      /> */}
+      <CurrentDaySection
+        scheduleData={scheduleData}
+        coursetype={coursetype}
+        today={today}
       />
+      <Accordion className="current-week-accordion" defaultActiveKey="0">
+        <Accordion.Item eventKey="0">
+          <ContentTable
+            scheduleData={scheduleData}
+            coursetype={coursetype}
+            startDay={today}
+          />
+        </Accordion.Item>
+        {coursetype === "ft" && (
+          <Accordion.Item eventKey="1">
+            <ContentTable
+              scheduleData={scheduleData}
+              coursetype={coursetype}
+              startDay={nextToday}
+            />
+          </Accordion.Item>
+        )}
+      </Accordion>
       <div className="schedule-list">
         <h1>Full Schedule</h1>
         {/* generates individual day schedule content */}
