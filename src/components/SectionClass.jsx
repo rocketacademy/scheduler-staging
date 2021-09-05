@@ -13,13 +13,10 @@ function SectionClass({
   section,
   dayIndex,
 }) {
-  const [classButtonsVisible, setClassButtonsVisible] = useState(false);
 
-  const [showInputModal, setShowInputModal] = useState(false);
   // helper function that maps each element in section array to a new course day
   const shiftSection = (sectionArray, startDay, bootcampDataCopy) => {
     sectionArray.forEach((element, index) => {
-      console.log("day index", dayIndex);
       if (element !== null) {
         if (
           bootcampDataCopy[startDay + index].dateTypes[section][sectionclass]
@@ -58,14 +55,12 @@ function SectionClass({
     // when user clicks the down button, items are put into section/class of the next day
     if (direction === "down") {
       startDay = dayIndex + 1;
-      bootcampDataCopy = shiftSection(sectionArray, startDay, bootcampDataCopy);
     } else {
       // when user clicks the up button, items are put into section/class of the previous day
       startDay = dayIndex - 1;
-      bootcampDataCopy = shiftSection(sectionArray, startDay, bootcampDataCopy);
     }
 
-    console.log("boot camp data copy", bootcampDataCopy);
+    bootcampDataCopy = shiftSection(sectionArray, startDay, bootcampDataCopy);
     setBootcampDataCopy([...bootcampDataCopy]);
   };
 
@@ -76,7 +71,6 @@ function SectionClass({
           <div className="class-title">{sectionclass}</div>
           <div className="class-items">
             {sectionType[sectionclass].items.map((item, classIndex) => {
-              const id = `day-${dayIndex}-section-${section}-class-${sectionclass}-${classIndex}`;
               return (
                 <ClassItem
                   day={day}
@@ -95,10 +89,8 @@ function SectionClass({
           </div>
           <div
             className="section-class-header"
-            onMouseEnter={() => setClassButtonsVisible(true)}
-            onMouseLeave={() => setClassButtonsVisible(false)}
+  
           >
-            {classButtonsVisible && (
               <div>
                 <button
                   onClick={() => handleClassShift("up", dayIndex, sectionIndex)}
@@ -113,7 +105,7 @@ function SectionClass({
                   <ExpandMoreIcon />
                 </button>
               </div>
-            )}
+          
           </div>
         </div>
       )}

@@ -11,8 +11,10 @@ const findPreviousDay = (scheduleData, today, coursetype) => {
   if (coursetype === "ft") {
     if (today.weekday === 1) {
       dayBefore = today.plus({ days: -3 }).toFormat("dd-MM-yyyy");
+    } else if (today.weekday === 7) {
+      dayBefore = today.plus({ days: -2 }).toFormat("dd-MM-yyyy");
     } else {
-      dayBefore = today.plus({ days: -1 }).toFormat("dd-MM-yyyy");
+      dayBefore = today.plus({ days: -1 }).toFormat('dd-MM-yyyy');
     }
   } else if (coursetype === "pt") {
     if (today.weekday === 1) {
@@ -37,9 +39,13 @@ const findPreviousDay = (scheduleData, today, coursetype) => {
 //helper funcyion that finds next course day
 const findNextDay = (scheduleData, today, coursetype) => {
   let nextDay;
+
   if (coursetype === "ft") {
+    console.log(today.weekday);
     if (today.weekday === 6) {
-      nextDay = today.plus({ days: 3 }).toFormat("dd-MM-yyyy");
+      nextDay = today.plus({ days: 2 }).toFormat("dd-MM-yyyy");
+    } else if (today.weekday === 7) {
+      nextDay = today.plus({ days: 1}).toFormat('dd-MM-yyyy');
     } else {
       nextDay = today.toFormat("dd-MM-yyyy");
     }
@@ -47,10 +53,12 @@ const findNextDay = (scheduleData, today, coursetype) => {
     if (today.weekday <= 6) {
       nextDay = today.set({ weekday: 6 }).toFormat("dd-MM-yyyy");
     } else {
-      nextDay = today.plus({ days: 2 }).toFormat("dd-MM-yyyy");
+      nextDay = today.plus({ days: 1 }).toFormat("dd-MM-yyyy");
     }
   }
 
+  console.log('next day', nextDay);
+  console.log(scheduleData[nextDay]);
   if (scheduleData[nextDay].dateTypes.holidayType) {
     nextDay = findNextDay(scheduleData, nextDay, coursetype);
   }

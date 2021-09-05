@@ -13,30 +13,16 @@ const GenerateDataShiftContent = ({
 
   // function that handles download of main data file after edits
   const handleDownloadMainClick = () => {
-    console.log("main data file mod", bootcampDataCopy);
     download(bootcampDataCopy, "modified-main-data-file.json");
   };
 
   // function that handles download of individual batch data file after edits
   const handleBatchDownloadClick = () => {
-    console.log("batch data copy", bootcampDataCopy);
     download(
       bootcampDataCopy,
       `modified-${bootcampDataCopy.courseName}-file.json`
     );
   };
-
-  // TODO: need to find another way to close all tabs of accordion
-  // const handleClose = () => {
-  //   const element = document.getElementsByClassName(
-  //     "accordion-collapse collapse show"
-  //   );
-
-  //   Array.from(element).forEach((subelement) => {
-  //     subelement.classList.remove("show");
-  //   });
-  //   // setFold(true);
-  // };
 
   return (
     <>
@@ -53,14 +39,6 @@ const GenerateDataShiftContent = ({
                 Download File
               </Button>
             </div>
-            {/* TODO: not being used at the moment */}
-            {/* <button
-              type="submit"
-              className="btn btn-primary"
-              onClick={handleClose}
-            >
-              close all
-            </button> */}
             {Object.keys(bootcampDataCopy).map((day, dayIndex) => {
               return (
                 <>
@@ -99,13 +77,6 @@ const GenerateDataShiftContent = ({
               download modified file
             </button>
           </div>
-          {/* <button
-            type="submit"
-            className="btn btn-primary"
-            onClick={handleClose}
-          >
-            close all
-          </button> */}
           {bootcampDataCopy.map((day, dayIndex) => {
             return (
               <MainAccordion

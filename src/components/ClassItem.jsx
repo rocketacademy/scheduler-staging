@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ExpandLessIcon from "@material-ui/icons/ExpandLess";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import RemoveIcon from "@material-ui/icons/Remove";
+import DeleteOutlinedIcon from '@material-ui/icons/DeleteOutlined';
 import ShiftItemModal from "./ShiftItemModal";
 
 // helper functions that populates dateArray
@@ -32,7 +32,6 @@ function ClassItem({
   classIndex,
 }) {
   // toggle visibility of buttons
-  const [buttonsVisible, setButtonsVisible] = useState(false);
   const [modalShow, setModalShow] = useState(false);
   // object shift item is initialised with keys direction and dates to store data that will be passed into the nect component
   const [shiftItem, setShiftItem] = useState({
@@ -98,7 +97,7 @@ function ClassItem({
 
       setModalShow(true);
     } else {
-      // here the item is being removed from the schedule altogether
+      // here the item is being deleted from the schedule
       sectionType[classType].items.splice(classIndex, 1);
       setBootcampDataCopy({ ...bootcampDataCopy });
     }
@@ -108,15 +107,13 @@ function ClassItem({
     <div>
       <div
         className="class-item"
-        onMouseEnter={() => setButtonsVisible(true)}
-        onMouseLeave={() => setButtonsVisible(false)}
       >
         {item.name}
-        {buttonsVisible && (
+        
           <div>
             {/* remove item  */}
-            <button onClick={() => handleShift("delete", dayIndex, classIndex)}>
-              <RemoveIcon />
+            <button className="trash-can" onClick={() => handleShift("delete", dayIndex, classIndex)}>
+              <DeleteOutlinedIcon />
             </button>
             {/* move item backwards in the schedule  */}
             <button onClick={() => handleShift("up", dayIndex, classIndex)}>
@@ -127,7 +124,7 @@ function ClassItem({
               <ExpandMoreIcon />
             </button>
           </div>
-        )}
+        
         {modalShow && (
           // modal that is shown when the user clicks either of the above buttons
           <ShiftItemModal
