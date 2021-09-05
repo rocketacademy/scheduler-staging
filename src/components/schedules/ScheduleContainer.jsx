@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Switch, Link, useRouteMatch, Redirect } from "react-router-dom";
-import logo from "../assets/4-MILK.png";
+import logo from "../../assets/4-MILK.png";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import BatchSchedule from "./BatchSchedule";

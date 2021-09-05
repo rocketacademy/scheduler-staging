@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ScheduleTable from "./ScheduleTable";
-import generateTableData from "../generateTableData";
+import generateTableData from "../../../generateTableData";
 
 const ContentTable = ({ scheduleData, coursetype, startDay }) => {
   const [weekNumbers, setWeekNumbers] = useState();

@@ -1,5 +1,5 @@
 import React from "react";
-import GenerateDataShiftContent from "./GenerateDataShiftContent";
+import GenerateDataShiftContent from "../GenerateDataShiftContent";
 import ActiveCourses from "./ActiveCourses.jsx";
 import DatePicker from "./DatePicker.jsx";
 

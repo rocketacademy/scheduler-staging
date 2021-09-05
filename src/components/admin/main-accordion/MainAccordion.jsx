@@ -1,7 +1,7 @@
-import React, { useState, useContext } from "react";
+import React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import AddIcon from "@material-ui/icons/Add";
-import Section from "./Section";
+import Section from "./inner-accordion/Section";
 
 function MainAccordion({
   dayIndex,

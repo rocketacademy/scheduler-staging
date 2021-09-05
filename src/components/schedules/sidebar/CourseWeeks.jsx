@@ -7,6 +7,7 @@ import KeyboardBackspaceIcon from "@material-ui/icons/KeyboardBackspace";
 // one of the components in Sidebar
 function CourseWeeks({ scheduleData, coursetype }) {
   const weeks = [];
+  // used to scroll to current week on page load 
   const executeScroll = () => myRef.current.scrollIntoView({ block: "center" });
 
   useEffect(() => {

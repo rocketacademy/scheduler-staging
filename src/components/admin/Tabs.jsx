@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Tabs from "react-bootstrap/Tabs";
 import Tab from "react-bootstrap/Tab";
-import DataShift from "./DataShift";
-import mainDataFile from "../data/bootcamp-course-days.json";
+import DataShift from "./data-shift/DataShift";
+import mainDataFile from "../../data/bootcamp-course-days.json";
 import GenerateDataShiftContent from "./GenerateDataShiftContent";
 
 const TabsContainer = ({ batchArray }) => {

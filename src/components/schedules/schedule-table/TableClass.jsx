@@ -1,5 +1,5 @@
 import React from 'react';
-import generateSectionArray from '../generateSectionArray';
+import generateSectionArray from '../../../generateSectionArray';
 import TableSectionContent from './TableSectionContent';
 
 // renders in class/ preclass section of table

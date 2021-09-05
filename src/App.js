@@ -1,5 +1,5 @@
 import React from 'react';
-import TabsContainer from './components/Tabs';
+import TabsContainer from './components/admin/Tabs';
 import ptbc1 from '../src/data/21-08-2021_10-10-2022_BATCH1.json';
 import ftbc3 from '../src/data/12-04-2021_23-09-2021_BATCH3.json';
 import ftbc4 from '../src/data/12-07-2021_22-12-2021_BATCH4.json';
@@ -8,7 +8,7 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import ScheduleContainer from './components/ScheduleContainer';
+import ScheduleContainer from './components/schedules/ScheduleContainer';
 
 function App() {
 

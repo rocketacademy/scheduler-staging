@@ -1,6 +1,6 @@
 import React from "react";
 import ScheduleContent from "./ScheduleContent";
-import SideBar from "./SideBar";
+import SideBar from "./sidebar/SideBar";
 
 function BatchSchedule({ data, title }) {
   const scheduleData = JSON.parse(JSON.stringify(data.days));

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import AddItemModal from "./AddItemModal";
-import MainAccordion from "./MainAccordion";
+import AddItemModal from "./main-accordion/AddItemModal";
+import MainAccordion from "./main-accordion/MainAccordion";
 import Button from "react-bootstrap/Button";
-import download from "../download";
+import download from "../../download";
 
 const GenerateDataShiftContent = ({
   bootcampDataCopy,

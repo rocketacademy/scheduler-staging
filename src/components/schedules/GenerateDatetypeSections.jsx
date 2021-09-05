@@ -1,6 +1,6 @@
 import React from 'react';
 import DisplaySection from './DisplaySection';
-import generateSectionArray from '../generateSectionArray';
+import generateSectionArray from '../../generateSectionArray';
 
 
 function GenerateDatetypeSections ({ 

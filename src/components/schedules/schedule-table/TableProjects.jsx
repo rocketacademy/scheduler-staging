@@ -1,5 +1,5 @@
 import React from 'react';
-import GenerateNotifications from './GenerateNotifications';
+import GenerateNotifications from '../GenerateNotifications';
 
 // renders projects section of table
 function TableProjects({ day }) {

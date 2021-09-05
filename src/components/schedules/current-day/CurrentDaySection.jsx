@@ -1,8 +1,8 @@
 import React from "react";
 import { scroller } from "react-scroll";
-import GenerateCourseDayHeader from "./GenerateCourseDayHeader";
-import GenerateCourseDayContent from "./GenerateCourseDayContent";
-import GenerateDatetypeSections from "./GenerateDatetypeSections";
+import GenerateCourseDayHeader from "../GenerateCourseDayHeader";
+import GenerateCourseDayContent from "../GenerateCourseDayContent";
+import GenerateDatetypeSections from "../GenerateDatetypeSections";
 
 // helper function that finds previous course day
 const findPreviousDay = (scheduleData, today, coursetype) => {

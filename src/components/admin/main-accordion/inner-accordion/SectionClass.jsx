@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import ClassItem from "./ClassItem";
 import ExpandLessIcon from "@material-ui/icons/ExpandLess";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";

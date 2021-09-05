@@ -1,18 +1,16 @@
 import React from "react";
 import GenerateCourseDayHeader from "./GenerateCourseDayHeader";
 import GenerateCourseDayContent from "./GenerateCourseDayContent";
-import ContentTable from "./ContentTable";
+import ContentTable from "./schedule-table/ContentTable";
 import { scroller } from "react-scroll";
 import ExpandLessIcon from "@material-ui/icons/ExpandLess";
-import CurrentDaySection from "./CurrentDaySection";
+import CurrentDaySection from "./current-day/CurrentDaySection";
 import { DateTime } from "luxon";
 import Accordion from "react-bootstrap/Accordion";
 
 // generates schedule content for a particular course
 function ScheduleContent({ scheduleData, coursetype, title }) {
   // used by scrollTo function to identify where to scroll to from the up arrow at the bottom of the screen
-  console.log("scheduleData,", scheduleData);
-  console.log(coursetype);
   const id = `${coursetype}-top`;
   const todaySectionHeader = false;
   const today = DateTime.now();
@@ -22,10 +20,10 @@ function ScheduleContent({ scheduleData, coursetype, title }) {
   } else {
     nextToday = DateTime.now().plus({ months: 1 });
   }
-  console.log("next today", nextToday);
 
   return (
     <div className="content">
+      {/* button that takes user back to the top of the page  */}
       <div
         className="up-arrow"
         onClick={() =>

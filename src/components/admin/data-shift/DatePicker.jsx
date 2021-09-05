@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import generateDataObject from "../generateCourseDates.js";
+import generateDataObject from "../../../generateCourseDates.js";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-import download from "../download.js";
+import download from "../../../download.js";
 
 const DatePicker = ({ setBootcampDataCopy }) => {
   // inputs from user used to generate course data
