@@ -50,7 +50,9 @@ const findNextDay = (scheduleData, today, coursetype) => {
       nextDay = today.toFormat("dd-MM-yyyy");
     }
   } else if (coursetype === "pt") {
-    if (today.weekday <= 6) {
+    if (today.weekday === 1) {
+      nextDay = today.toFormat('dd-MM-yyyy');
+    } else if (today.weekday > 1 && today.weekday <= 6) {
       nextDay = today.set({ weekday: 6 }).toFormat("dd-MM-yyyy");
     } else {
       nextDay = today.plus({ days: 1 }).toFormat("dd-MM-yyyy");
