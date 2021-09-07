@@ -3176,23 +3176,12 @@
               }
             ]
           },
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 2 Redux (Peer Code Review)",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#peer-code-review"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
                 "name": "3.POCE.11: Heroku Deployment",
                 "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.poce-post-class-exercises/3.poce.11-heroku-deployment"
-              },
-              {
-                "name": "Project 2 Demo Video",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#video-demo"
               }
             ]
           }
@@ -3222,7 +3211,14 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 2 Redux (Peer Code Review)",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#peer-code-review"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {

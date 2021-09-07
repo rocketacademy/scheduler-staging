@@ -26,6 +26,7 @@ const GenerateDataShiftContent = ({
 
   return (
     <>
+    
       {/* renders batch schedule data file  */}
       {bootcampDataCopy.constructor === Object &&
         Object.keys(bootcampDataCopy).length > 0 && (
@@ -42,6 +43,7 @@ const GenerateDataShiftContent = ({
             {Object.keys(bootcampDataCopy).map((day, dayIndex) => {
               return (
                 <>
+                <div>
                   <MainAccordion
                     dayIndex={dayIndex}
                     bootcampDataCopy={bootcampDataCopy}
@@ -50,6 +52,7 @@ const GenerateDataShiftContent = ({
                     setShowInputModal={setShowInputModal}
                     setCourseDate={setCourseDate}
                   />
+                </div>
                 </>
               );
             })}
