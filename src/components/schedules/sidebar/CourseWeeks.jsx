@@ -8,7 +8,7 @@ import KeyboardBackspaceIcon from "@material-ui/icons/KeyboardBackspace";
 function CourseWeeks({ scheduleData, coursetype }) {
   const weeks = [];
   // used to scroll to current week on page load 
-  const executeScroll = () => myRef.current.scrollIntoView({ block: "center" });
+  const executeScroll = () => currentWeekRef.current.scrollIntoView({ block: "center" });
 
   useEffect(() => {
     executeScroll();
@@ -17,7 +17,7 @@ function CourseWeeks({ scheduleData, coursetype }) {
   const CurrentWeekDiv = () => {
     return (
       <>
-        <div ref={myRef}></div>
+        <div ref={currentWeekRef}></div>
       </>
     );
   };
@@ -44,7 +44,7 @@ function CourseWeeks({ scheduleData, coursetype }) {
 
   // getting the week's courseWeek that the indicator will point to
   const weekNumber = [];
-  const myRef = useRef(null);
+  const currentWeekRef = useRef(null);
 
   weeksDates.forEach((date) => {
     if (

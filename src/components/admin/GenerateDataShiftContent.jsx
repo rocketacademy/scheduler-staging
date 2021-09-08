@@ -10,6 +10,8 @@ const GenerateDataShiftContent = ({
 }) => {
   const [showInputModal, setShowInputModal] = useState(false);
   const [courseDate, setCourseDate] = useState("");
+  // used in the close all functionality
+  const [accordionKey, setAccordionKey] = useState(1234);
 
   // function that handles download of main data file after edits
   const handleDownloadMainClick = () => {
@@ -24,9 +26,14 @@ const GenerateDataShiftContent = ({
     );
   };
 
+  // state set so that rerender occurs
+  const handleCloseAll = () => {
+    const newAccordionKeyValue = accordionKey + 1;
+    setAccordionKey(newAccordionKeyValue);
+  }
+
   return (
     <>
-    
       {/* renders batch schedule data file  */}
       {bootcampDataCopy.constructor === Object &&
         Object.keys(bootcampDataCopy).length > 0 && (
@@ -40,6 +47,9 @@ const GenerateDataShiftContent = ({
                 Download File
               </Button>
             </div>
+            <div className="close-all-container">
+              <Button onClick={handleCloseAll}>close all</Button>
+            </div>
             {Object.keys(bootcampDataCopy).map((day, dayIndex) => {
               return (
                 <>
@@ -51,6 +61,9 @@ const GenerateDataShiftContent = ({
                     day={day}
                     setShowInputModal={setShowInputModal}
                     setCourseDate={setCourseDate}
+                    handleCloseAll={handleCloseAll}
+                    accordionKey={accordionKey}
+                    setAccordionKey={setAccordionKey}
                   />
                 </div>
                 </>
@@ -80,6 +93,9 @@ const GenerateDataShiftContent = ({
               download modified file
             </button>
           </div>
+          <div className="close-all-container">
+            <Button onClick={handleCloseAll}>Close All</Button>
+          </div>
           {bootcampDataCopy.map((day, dayIndex) => {
             return (
               <MainAccordion
@@ -89,6 +105,9 @@ const GenerateDataShiftContent = ({
                 day={dayIndex}
                 setShowInputModal={setShowInputModal}
                 setCourseDate={setCourseDate}
+                handleCloseAll={handleCloseAll}
+                    accordionKey={accordionKey}
+                    setAccordionKey={setAccordionKey}
               />
             );
           })}

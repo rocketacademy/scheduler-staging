@@ -10,9 +10,14 @@ function MainAccordion({
   day,
   setShowInputModal,
   setCourseDate,
+  handleCloseAll,
+  setAccordionKey,
+  accordionKey
   // fold,
   // setFold,
 }) {
+  
+
   const handlePlusClick = (day) => {
     console.log(day);
     setCourseDate(day);
@@ -22,7 +27,7 @@ function MainAccordion({
   return (
     <div>
       {bootcampDataCopy[day].dateTypes.module && (
-        <Accordion>
+        <Accordion key={accordionKey}>
           <Accordion.Item eventKey={dayIndex}>
             <Accordion.Header>
               <div
