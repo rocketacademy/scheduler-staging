@@ -248,7 +248,8 @@ ul {
   color: black;
 }
 .tab-content {
-  width: 100%;
+  border: 2px solid $secondary;
+  border-top-width: 5px;
 }
 
 .schedule-accordion-container {
