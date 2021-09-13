@@ -185,7 +185,8 @@ ul {
 }
 
 .nav.nav-tabs .nav-link.active {
-  background-color: #e73c3e;
+  background-color: $primary;
+  border:none;
 }
 
 .mb-3 {
@@ -248,7 +249,8 @@ ul {
   color: black;
 }
 .tab-content {
-  width: 100%;
+  border: 2px solid $primary;
+  border-top-width: 5px;
 }
 
 .schedule-accordion-container {

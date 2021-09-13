@@ -17,19 +17,21 @@ function App() {
 
   return (
     <div className="App">
-      {/* <BatchSchedule /> */}
-      <HashRouter>
-        <Switch>
-          {/* route that takes user to part of app that edits course schedules */}
-          <Route path="/admin">
-            <TabsContainer batchArray={batchArray} />
-          </Route>
-          {/* route that takes user to part of app that displays batch schedules for student use */}
-          <Route path="/schedules">
-            <ScheduleContainer batchArray={batchArray} />
-          </Route>
-        </Switch>
-      </HashRouter>
+      <div class="container">
+        {/* <BatchSchedule /> */}
+        <HashRouter>
+          <Switch>
+            {/* route that takes user to part of app that edits course schedules */}
+            <Route path="/admin">
+              <TabsContainer batchArray={batchArray} />
+            </Route>
+            {/* route that takes user to part of app that displays batch schedules for student use */}
+            <Route path="/schedules">
+              <ScheduleContainer batchArray={batchArray} />
+            </Route>
+          </Switch>
+        </HashRouter>
+      </div>
     </div>
   );
 }

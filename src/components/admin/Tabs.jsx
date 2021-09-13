@@ -19,7 +19,7 @@ const TabsContainer = ({ batchArray }) => {
       id="controlled-tab-example"
       activeKey={key}
       onSelect={(k) => setKey(k)}
-      className="mb-3"
+      className=""
     >
       {/* this tab contains the component for editing the main data file */}
       <Tab eventKey="datePicker" title="Main">
