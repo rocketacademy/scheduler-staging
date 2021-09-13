@@ -185,7 +185,8 @@ ul {
 }
 
 .nav.nav-tabs .nav-link.active {
-  background-color: #e73c3e;
+  background-color: $primary;
+  border:none;
 }
 
 .mb-3 {
@@ -248,7 +249,7 @@ ul {
   color: black;
 }
 .tab-content {
-  border: 2px solid $secondary;
+  border: 2px solid $primary;
   border-top-width: 5px;
 }
 
