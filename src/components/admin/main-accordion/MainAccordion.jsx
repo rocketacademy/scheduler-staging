@@ -5,8 +5,8 @@ import Section from "./inner-accordion/Section";
 
 function MainAccordion({
   dayIndex,
-  bootcampDataCopy,
-  setBootcampDataCopy,
+  bootcampData,
+  setBootcampData,
   day,
   setShowInputModal,
   setCourseDate,
@@ -26,7 +26,7 @@ function MainAccordion({
 
   return (
     <div>
-      {bootcampDataCopy[day].dateTypes.module && (
+      {bootcampData[day].dateTypes.module && (
         <Accordion key={accordionKey}>
           <Accordion.Item eventKey={dayIndex}>
             <Accordion.Header>
@@ -38,16 +38,16 @@ function MainAccordion({
                 <AddIcon />
               </div>
               <div className="course-day-header">
-                {bootcampDataCopy.constructor === Object ? (
+                {bootcampData.constructor === Object ? (
                   <>
-                    {day}, Week: {bootcampDataCopy[day].courseWeek}, Course Day:{" "}
-                    {bootcampDataCopy[day].courseDay},{" "}
-                    {bootcampDataCopy[day].dateTypes.module}{" "}
+                    {day}, Week: {bootcampData[day].courseWeek}, Course Day:{" "}
+                    {bootcampData[day].courseDay},{" "}
+                    {bootcampData[day].dateTypes.module}{" "}
                   </>
                 ) : (
                   <>
-                    Course Day: {bootcampDataCopy[day].courseDay},{" "}
-                    {bootcampDataCopy[day].dateTypes.module}{" "}
+                    Course Day: {bootcampData[day].courseDay},{" "}
+                    {bootcampData[day].dateTypes.module}{" "}
                   </>
                 )}
               </div>
@@ -55,15 +55,15 @@ function MainAccordion({
             <Accordion.Body>
               <div className="course-day">
                 <div>
-                  {Object.keys(bootcampDataCopy[day].dateTypes).map(
+                  {Object.keys(bootcampData[day].dateTypes).map(
                     (section) => (
                       <Section
                         day={day}
-                        setBootcampDataCopy={setBootcampDataCopy}
+                        setBootcampData={setBootcampData}
                         section={section}
-                        sectionType={bootcampDataCopy[day].dateTypes[section]}
+                        sectionType={bootcampData[day].dateTypes[section]}
                         dayIndex={dayIndex}
-                        bootcampDataCopy={bootcampDataCopy}
+                        bootcampData={bootcampData}
                       />
                     )
                   )}

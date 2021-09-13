@@ -4,11 +4,11 @@ import Accordion from "react-bootstrap/Accordion";
 
 function Section({
   day,
-  setBootcampDataCopy,
+  setBootcampData,
   section,
   sectionType,
   dayIndex,
-  bootcampDataCopy,
+  bootcampData,
 }) {
   // variable classExists is created to track if any class of a section exists (it is initially set to false)
   // if any class of a section exists, classExists is set to true
@@ -46,8 +46,8 @@ function Section({
                             sectionIndex={sectionIndex}
                             sectionclass={sectionclass}
                             sectionType={sectionType}
-                            bootcampDataCopy={bootcampDataCopy}
-                            setBootcampDataCopy={setBootcampDataCopy}
+                            bootcampData={bootcampData}
+                            setBootcampData={setBootcampData}
                             section={section}
                             dayIndex={dayIndex}
                           />

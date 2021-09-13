@@ -8,44 +8,44 @@ function SectionClass({
   sectionIndex,
   sectionclass,
   sectionType,
-  bootcampDataCopy,
-  setBootcampDataCopy,
+  bootcampData,
+  setBootcampData,
   section,
   dayIndex,
 }) {
 
   // helper function that maps each element in section array to a new course day
-  const shiftSection = (sectionArray, startDay, bootcampDataCopy) => {
+  const shiftSection = (sectionArray, startDay, bootcampData) => {
     sectionArray.forEach((element, index) => {
       if (element !== null) {
         if (
-          bootcampDataCopy[startDay + index].dateTypes[section][sectionclass]
+          bootcampData[startDay + index].dateTypes[section][sectionclass]
             .items
         ) {
           sectionArray[index].forEach((item) => {
-            bootcampDataCopy[startDay + index].dateTypes[section][
+            bootcampData[startDay + index].dateTypes[section][
               sectionclass
             ].items.push(item);
           });
         } else {
-          bootcampDataCopy[startDay + index].dateTypes[section][
+          bootcampData[startDay + index].dateTypes[section][
             sectionclass
           ].items = sectionArray[index];
         }
       }
     });
-    return bootcampDataCopy;
+    return bootcampData;
   };
 
   const handleClassShift = (direction, dayIndex) => {
     // puts all the items in selected class in an array and deletes them from their original position
     const sectionArray = [];
-    for (let i = dayIndex; i < bootcampDataCopy.length - 1; i += 1) {
-      if (bootcampDataCopy[i].dateTypes[section][sectionclass].items) {
+    for (let i = dayIndex; i < bootcampData.length - 1; i += 1) {
+      if (bootcampData[i].dateTypes[section][sectionclass].items) {
         const selectedSection =
-          bootcampDataCopy[i].dateTypes[section][sectionclass].items;
+          bootcampData[i].dateTypes[section][sectionclass].items;
         sectionArray.push(selectedSection);
-        delete bootcampDataCopy[i].dateTypes[section][sectionclass].items;
+        delete bootcampData[i].dateTypes[section][sectionclass].items;
       } else {
         sectionArray.push(null);
       }
@@ -60,8 +60,8 @@ function SectionClass({
       startDay = dayIndex - 1;
     }
 
-    bootcampDataCopy = shiftSection(sectionArray, startDay, bootcampDataCopy);
-    setBootcampDataCopy([...bootcampDataCopy]);
+    bootcampData = shiftSection(sectionArray, startDay, bootcampData);
+    setBootcampData([...bootcampData]);
   };
 
   return (
@@ -75,8 +75,8 @@ function SectionClass({
                 <ClassItem
                   day={day}
                   sectionclass={sectionclass}
-                  bootcampDataCopy={bootcampDataCopy}
-                  setBootcampDataCopy={setBootcampDataCopy}
+                  bootcampData={bootcampData}
+                  setBootcampData={setBootcampData}
                   section={section}
                   classType={sectionclass}
                   sectionType={sectionType}

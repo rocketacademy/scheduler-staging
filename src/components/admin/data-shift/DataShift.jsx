@@ -3,7 +3,7 @@ import GenerateDataShiftContent from "../GenerateDataShiftContent";
 import ActiveCourses from "./ActiveCourses.jsx";
 import DatePicker from "./DatePicker.jsx";
 
-const DataShift = ({ batchArray, bootcampDataCopy, setBootcampDataCopy, setBatchCopy, batchCopy }) => {
+const DataShift = ({ batchArray, bootcampData, setBootcampData, setBatchFile, batchFile }) => {
  
   return (
     <>
@@ -12,23 +12,23 @@ const DataShift = ({ batchArray, bootcampDataCopy, setBootcampDataCopy, setBatch
           {/* this component contains links to indivudual batch schedules to be rendered and edited */}
           <ActiveCourses
             batchArray={batchArray}
-            setBootcampDataCopy={setBootcampDataCopy}
-            setBatchCopy={setBatchCopy}
+            setBootcampData={setBootcampData}
+            setBatchFile={setBatchFile}
           />
         </div>
         <div className="data-shift">
           <div className="data-container">
             {/* this component generates a course schedule based on start date and course type from the main json data file */}
             <DatePicker
-              bootcampDataCopy={bootcampDataCopy}
-              setBootcampDataCopy={setBootcampDataCopy}
+              bootcampData={bootcampData}
+              setBootcampData={setBootcampData}
             />
             {/* this component allows the user to edit the schedule rendered */}
             <GenerateDataShiftContent
               batchArray={batchArray}
-              bootcampDataCopy={bootcampDataCopy}
-              setBootcampDataCopy={setBootcampDataCopy}
-              batchCopy={batchCopy}
+              bootcampData={bootcampData}
+              setBootcampData={setBootcampData}
+              batchFile={batchFile}
             />
           </div>
         </div>

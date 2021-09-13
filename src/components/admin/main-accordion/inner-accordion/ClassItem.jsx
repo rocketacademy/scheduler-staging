@@ -13,18 +13,18 @@ const addDates = (datesArray, date) => {
   return datesArray;
 };
 
-const addIndex = (bootcampDataCopy, datesArray, date) => {
-  if (!datesArray.includes(bootcampDataCopy.indexOf(date))) {
-    datesArray.push(bootcampDataCopy.indexOf(date));
+const addIndex = (bootcampData, datesArray, date) => {
+  if (!datesArray.includes(bootcampData.indexOf(date))) {
+    datesArray.push(bootcampData.indexOf(date));
   }
   return datesArray;
 };
 // ############################################################
 
 function ClassItem({
-  setBootcampDataCopy,
+  setBootcampData,
   section,
-  bootcampDataCopy,
+  bootcampData,
   classType,
   sectionType,
   item,
@@ -46,21 +46,21 @@ function ClassItem({
 
     // item is being moved backwards in the schedule
     if (direction === "up") {
-      // if bootcampDataCopy either an object or an array depending on wether the user is editing the main or individual schedule files, and needs to be processed accordingly
-      bootcampDataCopy.constructor === Object
-        ? Object.keys(bootcampDataCopy)
+      // if bootcampData either an object or an array depending on wether the user is editing the main or individual schedule files, and needs to be processed accordingly
+      bootcampData.constructor === Object
+        ? Object.keys(bootcampData)
             .filter(
               (date) =>
-                bootcampDataCopy[date].courseDay < dayIndex + 1 &&
-                bootcampDataCopy[date].courseDay !== null
+                bootcampData[date].courseDay < dayIndex + 1 &&
+                bootcampData[date].courseDay !== null
             )
             .map((date) => {
               datesArray = addDates(datesArray, date);
             })
-        : bootcampDataCopy
-            .filter((date) => bootcampDataCopy.indexOf(date) < dayIndex)
+        : bootcampData
+            .filter((date) => bootcampData.indexOf(date) < dayIndex)
             .map((date) => {
-              datesArray = addIndex(bootcampDataCopy, datesArray, date);
+              datesArray = addIndex(bootcampData, datesArray, date);
             });
 
       // data is put into object shift item
@@ -73,20 +73,20 @@ function ClassItem({
       setModalShow(true);
       // item is being moved forward in the schedule
     } else if (direction === "down") {
-      bootcampDataCopy.constructor === Object
-        ? Object.keys(bootcampDataCopy)
+      bootcampData.constructor === Object
+        ? Object.keys(bootcampData)
             .filter(
               (date) =>
-                bootcampDataCopy[date].courseDay > dayIndex + 1 &&
-                bootcampDataCopy[date].courseDay !== null
+                bootcampData[date].courseDay > dayIndex + 1 &&
+                bootcampData[date].courseDay !== null
             )
             .map((date) => {
               datesArray = addDates(datesArray, date);
             })
-        : bootcampDataCopy
-            .filter((date) => bootcampDataCopy.indexOf(date) > dayIndex)
+        : bootcampData
+            .filter((date) => bootcampData.indexOf(date) > dayIndex)
             .map((date) => {
-              datesArray = addIndex(bootcampDataCopy, datesArray, date);
+              datesArray = addIndex(bootcampData, datesArray, date);
             });
 
       setShiftItem({
@@ -99,7 +99,7 @@ function ClassItem({
     } else {
       // here the item is being deleted from the schedule
       sectionType[classType].items.splice(classIndex, 1);
-      setBootcampDataCopy({ ...bootcampDataCopy });
+      setBootcampData({ ...bootcampData });
     }
   };
 
@@ -131,8 +131,8 @@ function ClassItem({
             show={modalShow}
             onHide={() => setModalShow(false)}
             shiftitem={shiftItem}
-            bootcampdatacopy={bootcampDataCopy}
-            setbootcampdatacopy={setBootcampDataCopy}
+            bootcampdata={bootcampData}
+            setbootcampdata={setBootcampData}
             sectiontype={sectionType}
             classtype={classType}
             classindex={classIndex}

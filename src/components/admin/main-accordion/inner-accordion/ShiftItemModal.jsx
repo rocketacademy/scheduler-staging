@@ -8,8 +8,8 @@ function ShiftItemModal({
   show,
   onHide,
   shiftitem,
-  bootcampdatacopy,
-  setbootcampdatacopy,
+  bootcampdata,
+  setbootcampdata,
   sectiontype,
   classtype,
   classindex,
@@ -36,7 +36,7 @@ function ShiftItemModal({
       delete sectiontype[classtype].items;
     }
     // this is where we want to move the item to
-    const targetDay = bootcampdatacopy[selectedDate].dateTypes[section];
+    const targetDay = bootcampdata[selectedDate].dateTypes[section];
 
     // checking to see if items array exists at destination, if not, an empty array called items is added
     if (!targetDay[classtype].items) {
@@ -47,9 +47,9 @@ function ShiftItemModal({
     targetDay[classtype].items.push(selectedItem);
 
     // depending on whether the main (array) or individual (object) schedule files were updated, new version of data file is saved
-    bootcampdatacopy.constructor === Array
-      ? setbootcampdatacopy([...bootcampdatacopy])
-      : setbootcampdatacopy({ ...bootcampdatacopy });
+    bootcampdata.constructor === Array
+      ? setbootcampdata([...bootcampdata])
+      : setbootcampdata({ ...bootcampdata });
   };
 
   return (
@@ -77,7 +77,7 @@ function ShiftItemModal({
                 return (
                   <>
                     <option value={date}>
-                      Day {bootcampdatacopy[date].courseDay}
+                      Day {bootcampdata[date].courseDay}
                     </option>
                     ;
                   </>
