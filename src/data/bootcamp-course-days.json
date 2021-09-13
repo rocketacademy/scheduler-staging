@@ -18,12 +18,24 @@
           "preClass": {
             "items": [
               {
+                "name": "1.0: Module 1 Overview",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.0-module-1-overview"
+              },
+              {
+                "name": "1.1: HTML",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.1-html"
+              },
+              {
                 "name": "1.1.0: Wireframes",
                 "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.1-html/1.1.0-wireframes"
               },
               {
                 "name": "1.1.1: HTML Basics",
                 "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.1-html/1.1.1-basic-html"
+              },
+              {
+                "name": "0.0: Module 0 Overview",
+                "url": "https://bootcamp.rocketacademy.co/0-language-and-tooling/0.0-module-0-overview"
               },
               {
                 "name": "0.1: New JS Syntax",
@@ -36,6 +48,10 @@
               {
                 "name": "0.2.1: ES6 Basics",
                 "url": "https://bootcamp.rocketacademy.co/0-language-and-tooling/0.2-es6/0.2.1-es6-basics"
+              },
+              {
+                "name": "1.2: DOM Review",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.2-dom-review"
               },
               {
                 "name": "1.2.1: DOM Review - Creating Elements",
@@ -920,6 +936,10 @@
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "2.0: Module 2 Overview",
+                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.0-module-2-overview"
+              },
               {
                 "name": "2.1: My First Node.js Program",
                 "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.1-my-first-node-program"
@@ -3246,6 +3266,10 @@
           "preClass": {
             "items": [
               {
+                "name": "4.0: Module 4 Overview",
+                "url": "https://bootcamp.rocketacademy.co/4-backend-structure/4.0-module-4-overview"
+              },
+              {
                 "name": "4.1: ORM, Sequelize",
                 "url": "https://bootcamp.rocketacademy.co/4-backend-structure/4.1-orm-sequelize"
               },
@@ -3548,6 +3572,10 @@
                 "url": "https://bootcamp.rocketacademy.co/4-backend-structure/4.1-orm-sequelize/4.1.5-sequelize-many-to-many-with-non-fk-attributes-in-through-table"
               },
               {
+                "name": "5.0: Module 5 Overview",
+                "url": "https://bootcamp.rocketacademy.co/5-full-stack-applications/5.0-module-5-overview"
+              }
+              {
                 "name": "5.1: DOM Manipulation with Express App",
                 "url": "https://bootcamp.rocketacademy.co/5-full-stack-applications/5.1-dom-manipulation-with-express-app"
               }
@@ -3800,6 +3828,10 @@
           "type": "dsa",
           "preClass": {
             "items": [
+               {
+                "name": "D.0: DSA Overview",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.0-dsa-overview"
+              },
               {
                 "name": "D.1: Intro to SWE Interviews",
                 "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.1-intro-to-swe-interviews"
@@ -3935,6 +3967,10 @@
           "type": "general",
           "preClass": {
             "items": [
+               {
+                "name": "6.0: Module 6 Overview",
+                "url": "https://bootcamp.rocketacademy.co/6-frontend-infrastructure/6.0-module-6-overview"
+              },
               {
                 "name": "6.1.1: Webpack with Local Modules",
                 "url": "https://bootcamp.rocketacademy.co/6-frontend-infrastructure/6.1-webpack/6.1.1-webpack-with-local-modules"
@@ -4951,6 +4987,10 @@
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "7.0: Module 7 Overview",
+                "url": "https://bootcamp.rocketacademy.co/7-react/7.0-module-7-overview"
+              },
               {
                 "name": "7.1: JSX Intro",
                 "url": "https://bootcamp.rocketacademy.co/7-react/7.1-jsx-intro"
@@ -6388,6 +6428,10 @@
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "8.0: Module 8 Overview",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.0-module-8-overview"
+              },
               {
                 "name": "8.1: Create React App",
                 "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.1-create-react-app"
@@ -7850,6 +7894,10 @@
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "9.0: Module 9 Overview",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.0-module-9-overview"
+              },
               {
                 "name": "9.1: Testing",
                 "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.1-testing"
