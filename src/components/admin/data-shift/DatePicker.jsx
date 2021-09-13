@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import download from "../../../download.js";
 
-const DatePicker = ({ setBootcampDataCopy }) => {
+const DatePicker = ({ setBootcampData }) => {
   // inputs from user used to generate course data
   const [startDate, setStartDate] = useState("");
   const [courseName, setCourseName] = useState("");
@@ -24,7 +24,7 @@ const DatePicker = ({ setBootcampDataCopy }) => {
   const handleRender = async (e) => {
     try {
       const data = await generateDataObject(startDate, courseName, courseType);
-      await setBootcampDataCopy(JSON.parse(JSON.stringify(data.days)));
+      await setBootcampData(JSON.parse(JSON.stringify(data.days)));
     } catch (error) {
       console.log(error);
     }

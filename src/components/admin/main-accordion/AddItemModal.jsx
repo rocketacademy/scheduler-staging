@@ -6,8 +6,8 @@ import Form from "react-bootstrap/Form";
 function AddItemModal({
   show,
   onHide,
-  bootcampdatacopy,
-  setbootcampdatacopy,
+  bootcampdata,
+  setbootcampdata,
   coursedate,
 }) {
   // input fields for a entry of a new item into the main data file
@@ -27,17 +27,17 @@ function AddItemModal({
     };
 
     // if the section that the new item is to be added to is empty, an empty array called items is added to it
-    if (!bootcampdatacopy[coursedate].dateTypes[section][sectionClass].items) {
-      bootcampdatacopy[coursedate].dateTypes[section][sectionClass].items = [];
+    if (!bootcampdata[coursedate].dateTypes[section][sectionClass].items) {
+      bootcampdata[coursedate].dateTypes[section][sectionClass].items = [];
     }
 
     // the new item is then pushed into items array
-    bootcampdatacopy[coursedate].dateTypes[section][sectionClass].items.push(
+    bootcampdata[coursedate].dateTypes[section][sectionClass].items.push(
       newItem
     );
 
     // the new content is saved in state
-    setbootcampdatacopy({ ...bootcampdatacopy });
+    setbootcampdata({ ...bootcampdata });
   };
 
   return (

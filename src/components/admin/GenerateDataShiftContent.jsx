@@ -5,8 +5,10 @@ import Button from "react-bootstrap/Button";
 import download from "../../download";
 
 const GenerateDataShiftContent = ({
-  bootcampDataCopy,
-  setBootcampDataCopy,
+  bootcampData,
+  setBootcampData,
+  mainFile,
+  batchFile
 }) => {
   const [showInputModal, setShowInputModal] = useState(false);
   const [courseDate, setCourseDate] = useState("");
@@ -14,15 +16,15 @@ const GenerateDataShiftContent = ({
   const [accordionKey, setAccordionKey] = useState(1234);
 
   // function that handles download of main data file after edits
-  const handleDownloadMainClick = () => {
-    download(bootcampDataCopy, "modified-main-data-file.json");
+  const handleDownloadMainClick = async () => {
+    download(mainFile, "modified-main-data-file.json");
   };
 
   // function that handles download of individual batch data file after edits
   const handleBatchDownloadClick = () => {
     download(
-      bootcampDataCopy,
-      `modified-${bootcampDataCopy.courseName}-file.json`
+      batchFile,
+      `modified-${batchFile.courseName}-file.json`
     );
   };
 
@@ -35,8 +37,8 @@ const GenerateDataShiftContent = ({
   return (
     <>
       {/* renders batch schedule data file  */}
-      {bootcampDataCopy.constructor === Object &&
-        Object.keys(bootcampDataCopy).length > 0 && (
+      {bootcampData.constructor === Object &&
+        Object.keys(bootcampData).length > 0 && (
           <div>
             <div className="download-button-container">
               <Button
@@ -44,20 +46,20 @@ const GenerateDataShiftContent = ({
                 type="submit"
                 onClick={handleBatchDownloadClick}
               >
-                Download File
+                Download Modified Batch File
               </Button>
             </div>
             <div className="close-all-container">
               <Button onClick={handleCloseAll}>close all</Button>
             </div>
-            {Object.keys(bootcampDataCopy).map((day, dayIndex) => {
+            {Object.keys(bootcampData).map((day, dayIndex) => {
               return (
                 <>
                 <div>
                   <MainAccordion
                     dayIndex={dayIndex}
-                    bootcampDataCopy={bootcampDataCopy}
-                    setBootcampDataCopy={setBootcampDataCopy}
+                    bootcampData={bootcampData}
+                    setBootcampData={setBootcampData}
                     day={day}
                     setShowInputModal={setShowInputModal}
                     setCourseDate={setCourseDate}
@@ -74,8 +76,8 @@ const GenerateDataShiftContent = ({
               <AddItemModal
                 show={showInputModal}
                 onHide={() => setShowInputModal(false)}
-                bootcampdatacopy={bootcampDataCopy}
-                setbootcampdatacopy={setBootcampDataCopy}
+                bootcampdata={bootcampData}
+                setbootcampdata={setBootcampData}
                 setShowInputModal={setShowInputModal}
                 coursedate={courseDate}
               />
@@ -83,7 +85,7 @@ const GenerateDataShiftContent = ({
           </div>
         )}
       {/* displays main data file  */}
-      {bootcampDataCopy.constructor === Array && (
+      {bootcampData.constructor === Array && (
         <div className="accordion-container">
           <div className="download-button-container">
             <button
@@ -96,12 +98,12 @@ const GenerateDataShiftContent = ({
           <div className="close-all-container">
             <Button onClick={handleCloseAll}>Close All</Button>
           </div>
-          {bootcampDataCopy.map((day, dayIndex) => {
+          {bootcampData.map((day, dayIndex) => {
             return (
               <MainAccordion
                 dayIndex={dayIndex}
-                bootcampDataCopy={bootcampDataCopy}
-                setBootcampDataCopy={setBootcampDataCopy}
+                bootcampData={bootcampData}
+                setBootcampData={setBootcampData}
                 day={dayIndex}
                 setShowInputModal={setShowInputModal}
                 setCourseDate={setCourseDate}
@@ -115,8 +117,8 @@ const GenerateDataShiftContent = ({
             <AddItemModal
               show={showInputModal}
               onHide={() => setShowInputModal(false)}
-              bootcampdatacopy={bootcampDataCopy}
-              setbootcampdatacopy={setBootcampDataCopy}
+              bootcampdata={bootcampData}
+              setbootcampdata={setBootcampData}
               setShowInputModal={setShowInputModal}
               coursedate={courseDate}
             />

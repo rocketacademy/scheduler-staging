@@ -5,7 +5,7 @@ import { scroller } from "react-scroll";
 import { DateTime } from "luxon";
 
 // not being used at the moment
-function DataShiftSidebar({ bootcampDataCopy }) {
+function DataShiftSidebar({ bootcampData }) {
   const [selectedDate, setSelectedDate] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
 
@@ -17,13 +17,13 @@ function DataShiftSidebar({ bootcampDataCopy }) {
       "dd-MM-yyyy"
     );
     console.log(editDate);
-    console.log(bootcampDataCopy);
-    console.log(bootcampDataCopy[editDate]);
+    console.log(bootcampData);
+    console.log(bootcampData[editDate]);
     let id;
 
-    if (bootcampDataCopy[editDate] !== undefined) {
+    if (bootcampData[editDate] !== undefined) {
       setErrorMessage("");
-      id = `schedule-week-${bootcampDataCopy[editDate].courseWeek}-day-${bootcampDataCopy[editDate].courseDay}`;
+      id = `schedule-week-${bootcampData[editDate].courseWeek}-day-${bootcampData[editDate].courseDay}`;
 
       scroller.scrollTo(id, {
         smooth: true,

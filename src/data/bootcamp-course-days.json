@@ -3574,7 +3574,7 @@
               {
                 "name": "5.0: Module 5 Overview",
                 "url": "https://bootcamp.rocketacademy.co/5-full-stack-applications/5.0-module-5-overview"
-              }
+              },
               {
                 "name": "5.1: DOM Manipulation with Express App",
                 "url": "https://bootcamp.rocketacademy.co/5-full-stack-applications/5.1-dom-manipulation-with-express-app"
@@ -3828,7 +3828,7 @@
           "type": "dsa",
           "preClass": {
             "items": [
-               {
+              {
                 "name": "D.0: DSA Overview",
                 "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.0-dsa-overview"
               },
@@ -3967,7 +3967,7 @@
           "type": "general",
           "preClass": {
             "items": [
-               {
+              {
                 "name": "6.0: Module 6 Overview",
                 "url": "https://bootcamp.rocketacademy.co/6-frontend-infrastructure/6.0-module-6-overview"
               },
