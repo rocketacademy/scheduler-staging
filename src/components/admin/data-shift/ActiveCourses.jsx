@@ -2,7 +2,16 @@ import React from "react";
 import Nav from "react-bootstrap/Nav";
 
 // side navbar that displays links to all batch schedules in batchArray
-function ActiveCourses({ batchArray, setBootcampDataCopy }) {
+function ActiveCourses({ batchArray, setBootcampDataCopy, setBatchCopy }) {
+  const handleSelectClick = (batch) => {
+     setBootcampDataCopy(
+      JSON.parse(JSON.stringify(batch.content.days))
+    )
+    setBatchCopy(
+      JSON.parse(JSON.stringify(batch.content))
+    )
+  };
+
   return (
     <div>
       <h4>Batches</h4>
@@ -13,9 +22,7 @@ function ActiveCourses({ batchArray, setBootcampDataCopy }) {
             <Nav.Link
               // when a link is click , the content of the selected batch file is rendered
               onClick={() =>
-                setBootcampDataCopy(
-                  JSON.parse(JSON.stringify(batch.content.days))
-                )
+                handleSelectClick(batch)
               }
               eventKey={index}
             >

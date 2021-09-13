@@ -3,7 +3,8 @@ import GenerateDataShiftContent from "../GenerateDataShiftContent";
 import ActiveCourses from "./ActiveCourses.jsx";
 import DatePicker from "./DatePicker.jsx";
 
-const DataShift = ({ batchArray, bootcampDataCopy, setBootcampDataCopy }) => {
+const DataShift = ({ batchArray, bootcampDataCopy, setBootcampDataCopy, setBatchCopy, batchCopy }) => {
+ 
   return (
     <>
       <div className="datashift-container">
@@ -12,6 +13,7 @@ const DataShift = ({ batchArray, bootcampDataCopy, setBootcampDataCopy }) => {
           <ActiveCourses
             batchArray={batchArray}
             setBootcampDataCopy={setBootcampDataCopy}
+            setBatchCopy={setBatchCopy}
           />
         </div>
         <div className="data-shift">
@@ -26,6 +28,7 @@ const DataShift = ({ batchArray, bootcampDataCopy, setBootcampDataCopy }) => {
               batchArray={batchArray}
               bootcampDataCopy={bootcampDataCopy}
               setBootcampDataCopy={setBootcampDataCopy}
+              batchCopy={batchCopy}
             />
           </div>
         </div>

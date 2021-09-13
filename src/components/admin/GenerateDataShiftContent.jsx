@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import AddItemModal from "./main-accordion/AddItemModal";
 import MainAccordion from "./main-accordion/MainAccordion";
 import Button from "react-bootstrap/Button";
@@ -7,6 +7,8 @@ import download from "../../download";
 const GenerateDataShiftContent = ({
   bootcampDataCopy,
   setBootcampDataCopy,
+  mainCopy,
+  batchCopy
 }) => {
   const [showInputModal, setShowInputModal] = useState(false);
   const [courseDate, setCourseDate] = useState("");
@@ -14,15 +16,15 @@ const GenerateDataShiftContent = ({
   const [accordionKey, setAccordionKey] = useState(1234);
 
   // function that handles download of main data file after edits
-  const handleDownloadMainClick = () => {
-    download(bootcampDataCopy, "modified-main-data-file.json");
+  const handleDownloadMainClick = async () => {
+    download(mainCopy, "modified-main-data-file.json");
   };
 
   // function that handles download of individual batch data file after edits
   const handleBatchDownloadClick = () => {
     download(
-      bootcampDataCopy,
-      `modified-${bootcampDataCopy.courseName}-file.json`
+      batchCopy,
+      `modified-${batchCopy.courseName}-file.json`
     );
   };
 
@@ -44,7 +46,7 @@ const GenerateDataShiftContent = ({
                 type="submit"
                 onClick={handleBatchDownloadClick}
               >
-                Download File
+                Download Modified Batch File
               </Button>
             </div>
             <div className="close-all-container">
