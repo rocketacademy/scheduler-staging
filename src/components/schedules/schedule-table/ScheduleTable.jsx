@@ -47,6 +47,7 @@ function ScheduleTable({ weekNumbers, tableData, coursetype, today }) {
               <th>Projects</th>
               <th>Pre Class</th>
               <th>In Class</th>
+              <th>Post Class</th>
             </tr>
           </thead>
           <tbody>
@@ -96,6 +97,7 @@ function ScheduleTable({ weekNumbers, tableData, coursetype, today }) {
                   {/* getting data for preclass and inclass section of table */}
                   <TableClass day={tableData[index]} sectionClass="preClass" />
                   <TableClass day={tableData[index]} sectionClass="inClass" />
+                  <TableClass day={tableData[index]} sectionClass="postClass" />
                 </tr>
               );
             })}
