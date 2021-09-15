@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="App">
-      <div class="container">
+      {/* <div class="container"> */}
         {/* <BatchSchedule /> */}
         <HashRouter>
           <Switch>
@@ -31,7 +31,7 @@ function App() {
             </Route>
           </Switch>
         </HashRouter>
-      </div>
+      {/* </div> */}
     </div>
   );
 }

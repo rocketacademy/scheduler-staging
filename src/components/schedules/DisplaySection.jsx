@@ -8,9 +8,13 @@ function DisplaySection({ heading, sectionType, day }) {
       <ul>
         {sectionType.map((item, index) => {
           let id;
-          // id used for scrollTo function
+          // id used for scrollTo function of sidebar modules
           if (heading === "Pre Class") {
             id = `week-${day.courseWeek}-day-${day.dayNumber}-gpc-${index}`;
+          } else if (heading === "In Class") {
+            id = `week-${day.courseWeek}-day-${day.dayNumber}-gic-${index}`;
+          } else {
+            id = `week-${day.courseWeek}-day-${day.dayNumber}-gpostc-${index}`;
           }
 
           return (
