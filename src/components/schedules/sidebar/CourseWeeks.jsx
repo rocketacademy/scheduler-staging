@@ -3,6 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import { scroller } from "react-scroll";
 import { DateTime } from "luxon";
 import KeyboardBackspaceIcon from "@material-ui/icons/KeyboardBackspace";
+import Modules from './Modules';
 
 // one of the components in Sidebar
 function CourseWeeks({ scheduleData, coursetype }) {
@@ -122,6 +123,7 @@ function CourseWeeks({ scheduleData, coursetype }) {
           );
         })}
       </Nav>
+      <Modules scheduleData={scheduleData} coursetype={coursetype} />
     </div>
   );
 }
