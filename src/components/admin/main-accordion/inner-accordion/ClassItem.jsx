@@ -99,7 +99,11 @@ function ClassItem({
     } else {
       // here the item is being deleted from the schedule
       sectionType[classType].items.splice(classIndex, 1);
-      setBootcampData({ ...bootcampData });
+      if (sectionType[classType].items.length === 0) {
+        delete sectionType[classType].items;
+      }
+      setBootcampData([...bootcampData]);
+      console.log('section type', sectionType[classType]);
     }
   };
 
