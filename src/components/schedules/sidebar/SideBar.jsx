@@ -7,7 +7,6 @@ function SideBar({ scheduleData, coursetype }) {
   return (
     <div className="sidebar">
       <CourseWeeks scheduleData={scheduleData} coursetype={coursetype} />
-      {/* <Modules scheduleData={scheduleData} /> */}
     </div>
   );
 }

@@ -2,71 +2,195 @@ import React from "react";
 import Nav from "react-bootstrap/Nav";
 import { scroller } from "react-scroll";
 
-// not being used at the moment
-function Modules({ scheduleData }) {
-  const moduleArray = [];
-
-  // getting names of all modules
-  Object.keys(scheduleData).map((day) => {
-    if (scheduleData[day].dateTypes.module) {
-      if (!moduleArray.includes(scheduleData[day].dateTypes.module)) {
-        moduleArray.push(scheduleData[day].dateTypes.module);
+// helper function for generating scheduleObjs array and moduleNameArray
+const generatingDataArrays = (
+                              scheduleData, 
+                              day, 
+                              section, 
+                              classtype, 
+                              scheduleUrls, 
+                              scheduleObjs, 
+                              moduleNameArray
+                              ) => {
+  if (scheduleData[day].dateTypes[section][classtype].items) {
+    scheduleData[day].dateTypes[section][classtype].items.map((item) => {
+      // if the item has a url
+      if(item.url && !scheduleUrls.includes(item.url)) {
+        // push the url into scheduleUrls
+        scheduleUrls.push(item.url);
+        // push item name, url and date into scheduleObjs
+        scheduleObjs.push({name: item.name, url: item.url, date: day});
       }
-    }
-  });
+      if (item.url) {
+        const itemUrlArray = item.url.split('/');
+        // itemUrlArray[3] is used as the heading of each module section
+        // we're filtering out everythign that does not come from the gitbook 
+        if (!moduleNameArray.includes(itemUrlArray[3]) && itemUrlArray[2] === 'bootcamp.rocketacademy.co') {
+          moduleNameArray.push(itemUrlArray[3]);
+        }
+      }
+    })
+  }
+}
 
-  // adding name of module that is not included in schedule data
-  moduleArray.unshift("Module 0: Language and Tooling");
+// helper finction for accessing required items (items in each class of each section of each day)
+const accessingRequiredItems = (
+                              scheduleData, 
+                              day, 
+                              scheduleUrls, 
+                              scheduleObjs, 
+                              moduleNameArray
+                              ) => {
+  if (scheduleData[day].dateTypes.module) {
+    Object.keys(scheduleData[day].dateTypes)
+    // filtering out module key
+    .filter(section => section !== 'module')
+    .map((section) => {
+      Object.keys(scheduleData[day].dateTypes[section])
+      // filtering out type key
+      .filter(classtype => classtype !== 'type')
+      .map((classtype) => {
+        // if there item array exists in a section, call the function that gets the required data
+        generatingDataArrays(scheduleData, 
+                            day, 
+                            section, 
+                            classtype, 
+                            scheduleUrls, 
+                            scheduleObjs, 
+                            moduleNameArray);
+        
+      })
+    })
+  }
+}
+ 
+// ###################################################################
+// ###################################################################
 
+function Modules({ scheduleData, coursetype }) {
+  const moduleNameArray = [];
+  const scheduleUrls = [];
+  const scheduleObjs = [];
+
+  // looking through entire data file 
+  Object.keys(scheduleData).map((day) => {
+    accessingRequiredItems (
+                            scheduleData, 
+                            day, 
+                            scheduleUrls, 
+                            scheduleObjs, 
+                            moduleNameArray
+                            );
+  })
+
+  moduleNameArray.sort();
+  
   return (
     <div className="sidebar-modules">
       <h4>Modules</h4>
       <Nav className="flex-column">
-        {moduleArray.map((moduleName) => {
-          return (
-            <>
-              <h6 className="sidebar-subheading">{moduleName}</h6>
-              {Object.keys(scheduleData).map((day) => {
-                return (
-                  <>
-                    {/* if day is not a holiday  */}
-                    {scheduleData[day].dateTypes.module &&
-                      // and there are items in generalPreclass
-                      scheduleData[day].dateTypes.general.preClass.items &&
-                      scheduleData[day].dateTypes.general.preClass.items &&
-                      // and the number of the module matches the index number of the module in moduleArray, the item is rendered
-                      scheduleData[day].dateTypes.general.preClass.items
-                        .filter(
-                          (item) =>
-                            Number(item.name.slice(0, 1)) ===
-                            moduleArray.indexOf(moduleName)
-                        )
-                        .map((item, index) => {
-                          // id needed to link to table and sidebar
-                          const id = `week-${scheduleData[day].courseWeek}-day-${scheduleData[day].dayNumber}-gpc-${index}`;
-                          return (
-                            <Nav.Link
-                              onClick={() =>
-                                scroller.scrollTo(id, {
-                                  smooth: true,
-                                  offset: -70,
-                                  duration: 100,
-                                })
-                              }
-                            >
-                              {item.name}
-                            </Nav.Link>
-                          );
-                        })}
-                  </>
-                );
-              })}
-            </>
-          );
-        })}
+        {moduleNameArray.map((moduleName) => {
+           const general = [];
+                  const poce = [];
+                  const ice = [];
+
+              scheduleObjs.forEach((urlObj) => {
+                const urlModule = urlObj.url.split('/');
+                // this is the part of the url which we used to get the moduleName
+                const urlModuleName = urlModule[3];
+                if (urlModuleName === moduleName) {
+                  const splitName = urlObj.name.split('.');
+                  const dataObj = { name: urlObj.name, date: urlObj.date }
+                  if (splitName[1] === 'ICE') {
+                    ice.push(dataObj);
+                  } else if (splitName[1] === 'POCE') {
+                    poce.push(dataObj);
+                  } else {
+                    general.push(dataObj);
+                  }
+                }
+                }
+
+              )
+
+              return (
+                <>
+                <h6 className="sidebar-subheading">{moduleName}</h6>
+                     {general.length > 0 && (
+                       <>
+                       {general.map((info) => {
+                        const id = `${coursetype}-week-${scheduleData[info.date].courseWeek}-day-${scheduleData[info.date].dayNumber}`;
+
+                         return (
+                          <Nav.Link
+                         onClick={() =>
+                           scroller.scrollTo(id, {
+                             smooth: true,
+                             offset: -70,
+                             duration: 100,
+                           })
+                         }
+                         >
+                           {info.name}
+                         </Nav.Link>
+                         )
+                         
+                       })}
+                       </>
+                     )}
+                     {ice.length > 0 && (
+                       <>
+                       {ice.map((info) => {
+                        const id = `${coursetype}-week-${scheduleData[info.date].courseWeek}-day-${scheduleData[info.date].dayNumber}`;
+
+                         return (
+                          <Nav.Link
+                         onClick={() =>
+                           scroller.scrollTo(id, {
+                             smooth: true,
+                             offset: -70,
+                             duration: 100,
+                           })
+                         }
+                         >
+                           {info.name}
+                         </Nav.Link>
+                         )
+                         
+                       })}
+                       </>
+                     )}
+                     {poce.length > 0 && (
+                       <>
+                       {poce.map((info) => {
+                        const id = `${coursetype}-week-${scheduleData[info.date].courseWeek}-day-${scheduleData[info.date].dayNumber}`;
+
+                         return (
+                          <Nav.Link
+                         onClick={() =>
+                           scroller.scrollTo(id, {
+                             smooth: true,
+                             offset: -70,
+                             duration: 100,
+                           })
+                         }
+                         >
+                           {info.name}
+                         </Nav.Link>
+                         )
+                         
+                       })}
+                       </>
+                     )}
+                   </>
+              )
+            }
+        )}
       </Nav>
     </div>
   );
 }
 
 export default Modules;
+
+

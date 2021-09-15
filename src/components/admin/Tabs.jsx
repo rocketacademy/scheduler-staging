@@ -32,6 +32,7 @@ const TabsContainer = ({ batchArray }) => {
   }, [batchDays])
 
   return (
+    <div class="container">
     <Tabs
       id="controlled-tab-example"
       activeKey={key}
@@ -58,6 +59,7 @@ const TabsContainer = ({ batchArray }) => {
         />
       </Tab>
     </Tabs>
+    </div>
   );
 };
 
