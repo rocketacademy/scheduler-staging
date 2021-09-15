@@ -2,36 +2,85 @@ import React from "react";
 import Nav from "react-bootstrap/Nav";
 import { scroller } from "react-scroll";
 
+// helper function for generating scheduleObjs array and moduleNameArray
+const generatingDataArrays = (
+                              scheduleData, 
+                              day, 
+                              section, 
+                              classtype, 
+                              scheduleUrls, 
+                              scheduleObjs, 
+                              moduleNameArray
+                              ) => {
+  if (scheduleData[day].dateTypes[section][classtype].items) {
+    scheduleData[day].dateTypes[section][classtype].items.map((item) => {
+      // if the item has a url
+      if(item.url && !scheduleUrls.includes(item.url)) {
+        // push the url into scheduleUrls
+        scheduleUrls.push(item.url);
+        // push item name, url and date into scheduleObjs
+        scheduleObjs.push({name: item.name, url: item.url, date: day});
+      }
+      if (item.url) {
+        const itemUrlArray = item.url.split('/');
+        // itemUrlArray[3] is used as the heading of each module section
+        // we're filtering out everythign that does not come from the gitbook 
+        if (!moduleNameArray.includes(itemUrlArray[3]) && itemUrlArray[2] === 'bootcamp.rocketacademy.co') {
+          moduleNameArray.push(itemUrlArray[3]);
+        }
+      }
+    })
+  }
+}
+
+// helper finction for accessing required items (items in each class of each section of each day)
+const accessingRequiredItems = (
+                              scheduleData, 
+                              day, 
+                              scheduleUrls, 
+                              scheduleObjs, 
+                              moduleNameArray
+                              ) => {
+  if (scheduleData[day].dateTypes.module) {
+    Object.keys(scheduleData[day].dateTypes)
+    // filtering out module key
+    .filter(section => section !== 'module')
+    .map((section) => {
+      Object.keys(scheduleData[day].dateTypes[section])
+      // filtering out type key
+      .filter(classtype => classtype !== 'type')
+      .map((classtype) => {
+        // if there item array exists in a section, call the function that gets the required data
+        generatingDataArrays(scheduleData, 
+                            day, 
+                            section, 
+                            classtype, 
+                            scheduleUrls, 
+                            scheduleObjs, 
+                            moduleNameArray);
+        
+      })
+    })
+  }
+}
+ 
+// ###################################################################
+// ###################################################################
+
 function Modules({ scheduleData, coursetype }) {
   const moduleNameArray = [];
   const scheduleUrls = [];
   const scheduleObjs = [];
 
+  // looking through entire data file 
   Object.keys(scheduleData).map((day) => {
-    if (scheduleData[day].dateTypes.module) {
-      Object.keys(scheduleData[day].dateTypes)
-      .filter(section => section !== 'module')
-      .map((section) => {
-        Object.keys(scheduleData[day].dateTypes[section])
-        .filter(classtype => classtype !== 'type')
-        .map((classtype) => {
-          if (scheduleData[day].dateTypes[section][classtype].items) {
-            scheduleData[day].dateTypes[section][classtype].items.map((item) => {
-              if(item.url && !scheduleUrls.includes(item.url)) {
-                scheduleUrls.push(item.url);
-                scheduleObjs.push({name: item.name, url: item.url, date: day});
-              }
-              if (item.url) {
-                const itemUrlArray = item.url.split('/');
-                if (!moduleNameArray.includes(itemUrlArray[3]) && itemUrlArray[2] === 'bootcamp.rocketacademy.co') {
-                  moduleNameArray.push(itemUrlArray[3]);
-                }
-              }
-            })
-          }
-        })
-      })
-    }
+    accessingRequiredItems (
+                            scheduleData, 
+                            day, 
+                            scheduleUrls, 
+                            scheduleObjs, 
+                            moduleNameArray
+                            );
   })
 
   moduleNameArray.sort();
@@ -47,9 +96,9 @@ function Modules({ scheduleData, coursetype }) {
 
               scheduleObjs.forEach((urlObj) => {
                 const urlModule = urlObj.url.split('/');
-                // const moduleArray = [];
-                if (urlModule[3] === moduleName) {
-                 
+                // this is the part of the url which we used to get the moduleName
+                const urlModuleName = urlModule[3];
+                if (urlModuleName === moduleName) {
                   const splitName = urlObj.name.split('.');
                   const dataObj = { name: urlObj.name, date: urlObj.date }
                   if (splitName[1] === 'ICE') {
@@ -133,7 +182,6 @@ function Modules({ scheduleData, coursetype }) {
                        })}
                        </>
                      )}
-                    
                    </>
               )
             }
@@ -146,26 +194,3 @@ function Modules({ scheduleData, coursetype }) {
 export default Modules;
 
 
-// const id = `${coursetype}-week-${scheduleData[urlObj.date].courseWeek}-day-${scheduleData[urlObj.date].dayNumber}`;
-//                   return (
-//                     <>
-//                     {general.length > 0 && (
-//                       <>
-//                       {general.map((name) => {
-//                         <Nav.Link
-//                         onClick={() =>
-//                           scroller.scrollTo(id, {
-//                             smooth: true,
-//                             offset: -70,
-//                             duration: 100,
-//                           })
-//                         }
-//                         >
-//                           {name}
-//                         </Nav.Link>
-//                       })}
-//                       </>
-//                     )}
-                    
-//                   </>
-//                   )
