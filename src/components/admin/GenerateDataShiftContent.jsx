@@ -50,6 +50,15 @@ const GenerateDataShiftContent = ({
       selBox.select();
       document.execCommand('copy');
       document.body.removeChild(selBox);
+
+      let gitbookUrl;
+      if (data === batchFile) {
+        gitbookUrl = `https://github.com/rocketacademy/scheduler/edit/main/src/data/${batchFile.courseName}.json`;
+      } else {
+        gitbookUrl = mainFile.repoUrls.edit;
+      }
+      // opens a new window in the browser at specified address(gitbook edit page)
+      window.open(gitbookUrl, "_blank")
   }
 
   return (
@@ -59,14 +68,13 @@ const GenerateDataShiftContent = ({
         Object.keys(bootcampData).length > 0 && (
           <div>
             <div className="download-button-container">
-              <a 
-                class="btn btn-primary" 
-                href="https://github.com/rocketacademy/scheduler/tree/main/src/data" 
-                target="_blank"
-                onClick={handleCopyToClipboard(batchFile)}
-                 >
+              <Button
+                variant="primary"
+                type="submit"
+                onClick={() => handleCopyToClipboard(batchFile)}
+              >
                   Edit in Gitbook
-              </a>
+              </Button>
               {" "}
               <Button
                 variant="primary"
@@ -119,14 +127,12 @@ const GenerateDataShiftContent = ({
       {bootcampData.constructor === Array && (
         <div className="accordion-container">
           <div className="download-button-container">
-            <a 
-              class="btn btn-primary" 
-              href="https://github.com/rocketacademy/scheduler/tree/main/src/data" 
-              target="_blank"
-              onClick={handleCopyToClipboard(mainFile)}
-                >
-                Edit in Gitbook
-            </a>
+            <Button
+              className="btn btn-primary"
+              onClick={() => handleCopyToClipboard(mainFile)}
+            >
+            Edit in Gitbook
+            </Button>
             <Button
               className="btn btn-primary"
               onClick={handleDownloadMainClick}
