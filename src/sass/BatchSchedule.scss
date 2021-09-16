@@ -66,7 +66,7 @@
 
 .sidebar {
   width: 18%;
-  padding: 20px 30px;
+  padding: 10px 30px;
   border-right: 1px solid lightgray;
 }
 
@@ -108,7 +108,7 @@
 }
 
 .current-wk-indicator {
-  font-size: 14px;
+  font-size: 12px;
   padding-left: 10px;
   color: $primary;
   svg {
@@ -239,7 +239,7 @@ ul {
   }
 }
 .nav.nav-pills .nav-item {
-  font-size: 18px;
+  font-size: 14px;
 }
 .nav.nav-pills .nav-link {
   margin: 2px 0;
@@ -288,21 +288,24 @@ ul {
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
   }
   .accordion-button:after {
+    background-size: 15px 15px;
+    background-position: center right;
     background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%2300567E'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
   }
+
   .accordion-button.collapsed {
     background-color: $body-bg;
     color: $blue;
-    font-size: 18px;
+    font-size: 14px;
     font-family: $font-family-sans-serif;
     padding: 5px 5px 0 0;
   }
   .accordion-button:not(.collapsed) {
     background-color: $body-bg;
     color: $blue;
-    font-size: 18px;
+    font-size: 14px;
     font-family: $font-family-sans-serif;
-    padding: 5px 5px 15px 0;
+    padding: 5px 0 15px 0;
   }
 }
 .schedule-accordion-container {
