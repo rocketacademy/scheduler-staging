@@ -76,14 +76,18 @@
   top: 40px;
   flex-wrap: nowrap;
   overflow-y: auto;
-  height: 90vh;
+  height: 100vh;
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
 
 .sidebar-modules {
+  .module-section {
+    padding: 10px 0 20px;
+  }
+
   h4 {
-    padding-top: 70px;
+    padding: 50px 0 20px;
   }
   .nav-link {
     padding: 8px 0;
@@ -99,12 +103,12 @@
 }
 
 .sidebar-subheading {
-  padding: 40px 0 10px;
-  font-weight: bold;
+  font-weight: 400;
+  text-decoration: underline;
 }
 
 .current-wk-indicator {
-  font-size: 10px;
+  font-size: 14px;
   padding-left: 10px;
   color: $primary;
   svg {
@@ -234,6 +238,9 @@ ul {
     margin-right: 50px;
   }
 }
+.nav.nav-pills .nav-item {
+  font-size: 18px;
+}
 .nav.nav-pills .nav-link {
   margin: 2px 0;
 }
@@ -262,6 +269,42 @@ ul {
   border-top-width: 5px;
 }
 
+.modules-accordion {
+  padding-bottom: 40px;
+  .accordion-body {
+    background-color: $body-bg;
+    color: $secondary;
+    p {
+      cursor: pointer;
+    }
+  }
+  .accordion-item {
+    background-color: $body-bg;
+    border: none;
+    padding: 10px 0 0;
+  }
+  .accordion-button:focus {
+    outline: 0 !important;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+  }
+  .accordion-button:after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%2300567E'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+  }
+  .accordion-button.collapsed {
+    background-color: $body-bg;
+    color: $blue;
+    font-size: 18px;
+    font-family: $font-family-sans-serif;
+    padding: 5px 5px 0 0;
+  }
+  .accordion-button:not(.collapsed) {
+    background-color: $body-bg;
+    color: $blue;
+    font-size: 18px;
+    font-family: $font-family-sans-serif;
+    padding: 5px 5px 15px 0;
+  }
+}
 .schedule-accordion-container {
   width: 80%;
   padding-bottom: 100px;

@@ -59,8 +59,6 @@ const findNextDay = (scheduleData, today, coursetype) => {
     }
   }
 
-  console.log('next day', nextDay);
-  console.log(scheduleData[nextDay]);
   if (scheduleData[nextDay].dateTypes.holidayType) {
     nextDay = findNextDay(scheduleData, nextDay, coursetype);
   }

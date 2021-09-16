@@ -70,17 +70,6 @@ const generateTableData = (scheduleData, coursetype, weekNumbers, tableData, set
     }
   });
   setWeekNumbers(weekNumbers);
-
-  console.log('week numbers', weekNumbers);
-  console.log('table data', tableData);
-
-  // // indicates whether or not courseweek and course day is shown on the courseday header
-  // const todaySectionHeader = true;
-
-  // // creating ids for scrollTo function for top section
-  // const currentDayId = `${coursetype}-week-${scheduleData[nextDay].courseWeek}-day-${scheduleData[nextDay].dayNumber}`;
-  // const previousDayId = `${coursetype}-week-${scheduleData[previousDay].courseWeek}-day-${scheduleData[previousDay].dayNumber}`;
-
 }
 
 export default generateTableData;

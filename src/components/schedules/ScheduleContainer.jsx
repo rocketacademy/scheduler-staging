@@ -7,11 +7,10 @@ import BatchSchedule from "./BatchSchedule";
 
 function ScheduleContainer({ batchArray }) {
   let { path, url } = useRouteMatch();
-  console.log("batch array", batchArray);
+ 
   // pass individual batch json files into BatchSchedule to generate schedules
   return (
     <>
-      {/* backup navbar  */}
       <Navbar variant="dark" bg="secondary">
         <Navbar.Brand href="#home">
           <img src={logo} alt="company logo"></img>
@@ -19,9 +18,11 @@ function ScheduleContainer({ batchArray }) {
         <Nav className="me-auto">
           {batchArray.map((batch) => {
             return (
+              <>
               <Nav.Link as={Link} to={`${url}/${batch.name}`}>
                 {batch.name.toUpperCase()}
               </Nav.Link>
+              </>
             );
           })}
         </Nav>
