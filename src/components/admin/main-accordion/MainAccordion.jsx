@@ -12,9 +12,9 @@ function MainAccordion({
   setCourseDate,
   handleCloseAll,
   setAccordionKey,
-  accordionKey
-  // fold,
-  // setFold,
+  accordionKey,
+  setDaysInBatchFile,
+  setDaysInMainFile
 }) {
   
 
@@ -64,6 +64,8 @@ function MainAccordion({
                         sectionType={bootcampData[day].dateTypes[section]}
                         dayIndex={dayIndex}
                         bootcampData={bootcampData}
+                        setDaysInBatchFile={setDaysInBatchFile}
+                        setDaysInMainFile={setDaysInMainFile}
                       />
                     )
                   )}

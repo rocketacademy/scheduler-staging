@@ -19,7 +19,7 @@ function ScheduleContainer({ batchArray }) {
         <Nav className="me-auto">
           {batchArray.map((batch) => {
             return (
-              <Nav.Link as={Link} to={`${url}/${batch.name}`}>
+              <Nav.Link as={Link} to={`${url}${batch.name}`}>
                 {batch.name.toUpperCase()}
               </Nav.Link>
             );
@@ -28,11 +28,11 @@ function ScheduleContainer({ batchArray }) {
       </Navbar>
       <Switch>
         <Route exact path={path}>
-          <Redirect to={`${path}/${batchArray[0].name}`} />
+          <Redirect to={`${path}${batchArray[0].name}`} />
         </Route>
         {batchArray.map((batch) => {
           return (
-            <Route path={`${path}/${batch.name}`}>
+            <Route path={`${path}${batch.name}`}>
               <BatchSchedule
                 data={batch.content}
                 title={batch.name.toUpperCase()}

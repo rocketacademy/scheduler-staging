@@ -30,6 +30,8 @@ function ClassItem({
   item,
   dayIndex,
   classIndex,
+  setDaysInMainFile,
+  setDaysInBatchFile
 }) {
   // toggle visibility of buttons
   const [modalShow, setModalShow] = useState(false);
@@ -141,7 +143,9 @@ function ClassItem({
             classtype={classType}
             classindex={classIndex}
             section={section}
-          />
+            setDaysInMainFile={setDaysInMainFile}
+            setDaysInBatchFile={setDaysInBatchFile}
+            />
         )}
       </div>
     </div>

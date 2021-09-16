@@ -12,6 +12,8 @@ function SectionClass({
   setBootcampData,
   section,
   dayIndex,
+  setDaysInBatchFile,
+  setDaysInMainFile,
 }) {
 
   // helper function that maps each element in section array to a new course day
@@ -83,6 +85,8 @@ function SectionClass({
                   item={item}
                   dayIndex={dayIndex}
                   classIndex={classIndex}
+                  setDaysInBatchFile={setDaysInBatchFile}
+                  setDaysInMainFile={setDaysInMainFile}
                 />
               );
             })}

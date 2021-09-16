@@ -8,7 +8,9 @@ const GenerateDataShiftContent = ({
   bootcampData,
   setBootcampData,
   mainFile,
-  batchFile
+  batchFile,
+  setDaysInBatchFile,
+  setDaysInMainFile
 }) => {
   const [showInputModal, setShowInputModal] = useState(false);
   const [courseDate, setCourseDate] = useState("");
@@ -34,6 +36,22 @@ const GenerateDataShiftContent = ({
     setAccordionKey(newAccordionKeyValue);
   }
 
+  // copys json data file to clipboard
+  const handleCopyToClipboard = (data) => {
+    // from stackoverflow, https://stackoverflow.com/questions/58376758/how-to-copy-a-json-data-to-the-clipboard-with-the-button
+      let selBox = document.createElement('textarea');
+      selBox.style.position = 'fixed';
+      selBox.style.left = '0';
+      selBox.style.top = '0';
+      selBox.style.opacity = '0';
+      selBox.value = JSON.stringify(data);
+      document.body.appendChild(selBox);
+      selBox.focus();
+      selBox.select();
+      document.execCommand('copy');
+      document.body.removeChild(selBox);
+  }
+
   return (
     <>
       {/* renders batch schedule data file  */}
@@ -41,6 +59,15 @@ const GenerateDataShiftContent = ({
         Object.keys(bootcampData).length > 0 && (
           <div>
             <div className="download-button-container">
+              <a 
+                class="btn btn-primary" 
+                href="https://github.com/rocketacademy/scheduler/tree/main/src/data" 
+                target="_blank"
+                onClick={handleCopyToClipboard(batchFile)}
+                 >
+                  Edit in Gitbook
+              </a>
+              {" "}
               <Button
                 variant="primary"
                 type="submit"
@@ -66,6 +93,8 @@ const GenerateDataShiftContent = ({
                     handleCloseAll={handleCloseAll}
                     accordionKey={accordionKey}
                     setAccordionKey={setAccordionKey}
+                    setDaysInBatchFile={setDaysInBatchFile}
+                    setDaysInMainFile={setDaysInMainFile}
                   />
                 </div>
                 </>
@@ -80,6 +109,8 @@ const GenerateDataShiftContent = ({
                 setbootcampdata={setBootcampData}
                 setShowInputModal={setShowInputModal}
                 coursedate={courseDate}
+                setDaysInBatchFile={setDaysInBatchFile}
+                setDaysInMainFile={setDaysInMainFile}
               />
             )}
           </div>
@@ -88,12 +119,20 @@ const GenerateDataShiftContent = ({
       {bootcampData.constructor === Array && (
         <div className="accordion-container">
           <div className="download-button-container">
-            <button
+            <a 
+              class="btn btn-primary" 
+              href="https://github.com/rocketacademy/scheduler/tree/main/src/data" 
+              target="_blank"
+              onClick={handleCopyToClipboard(mainFile)}
+                >
+                Edit in Gitbook
+            </a>
+            <Button
               className="btn btn-primary"
               onClick={handleDownloadMainClick}
             >
               download modified file
-            </button>
+            </Button>
           </div>
           <div className="close-all-container">
             <Button onClick={handleCloseAll}>Close All</Button>
@@ -108,12 +147,14 @@ const GenerateDataShiftContent = ({
                 setShowInputModal={setShowInputModal}
                 setCourseDate={setCourseDate}
                 handleCloseAll={handleCloseAll}
-                    accordionKey={accordionKey}
-                    setAccordionKey={setAccordionKey}
+                accordionKey={accordionKey}
+                setAccordionKey={setAccordionKey}
+                setDaysInMainFile={setDaysInMainFile}
+                setDaysInBatchFile={setDaysInBatchFile}
               />
             );
           })}
-          {showInputModal && courseDate && (
+          {showInputModal && (
             <AddItemModal
               show={showInputModal}
               onHide={() => setShowInputModal(false)}
@@ -121,6 +162,8 @@ const GenerateDataShiftContent = ({
               setbootcampdata={setBootcampData}
               setShowInputModal={setShowInputModal}
               coursedate={courseDate}
+              setDaysInMainFile={setDaysInMainFile}
+              setDaysInBatchFile={setDaysInBatchFile}
             />
           )}
         </div>
@@ -130,3 +173,4 @@ const GenerateDataShiftContent = ({
 };
 
 export default GenerateDataShiftContent;
+

@@ -7,8 +7,9 @@ function AddItemModal({
   show,
   onHide,
   bootcampdata,
-  setbootcampdata,
   coursedate,
+  setDaysInBatchFile,
+  setDaysInMainFile
 }) {
   // input fields for a entry of a new item into the main data file
   const [title, setTitle] = useState("");
@@ -37,7 +38,9 @@ function AddItemModal({
     );
 
     // the new content is saved in state
-    setbootcampdata({ ...bootcampdata });
+     bootcampdata.constructor === Array
+      ? setDaysInMainFile([...bootcampdata])
+      : setDaysInBatchFile({ ...bootcampdata });
   };
 
   return (

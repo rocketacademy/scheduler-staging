@@ -17,8 +17,6 @@ function App() {
 
   return (
     <div className="App">
-      {/* <div class="container"> */}
-        {/* <BatchSchedule /> */}
         <HashRouter>
           <Switch>
             {/* route that takes user to part of app that edits course schedules */}
@@ -26,12 +24,11 @@ function App() {
               <TabsContainer batchArray={batchArray} />
             </Route>
             {/* route that takes user to part of app that displays batch schedules for student use */}
-            <Route path="/schedules">
+            <Route path="/">
               <ScheduleContainer batchArray={batchArray} />
             </Route>
           </Switch>
         </HashRouter>
-      {/* </div> */}
     </div>
   );
 }

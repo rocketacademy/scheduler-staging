@@ -56,7 +56,7 @@
 }
 
 .accordion-container {
-  padding:0 30px;
+  padding: 0 30px;
 }
 
 .download-button-container {
@@ -64,7 +64,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  button {
+
+  .btn {
+    margin: 20px;
     color: $body-bg;
   }
 }

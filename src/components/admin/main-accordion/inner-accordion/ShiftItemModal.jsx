@@ -14,8 +14,13 @@ function ShiftItemModal({
   classtype,
   classindex,
   section,
+  setDaysInBatchFile,
+  setDaysInMainFile
 }) {
   const [selectedDate, setSelectedDate] = useState("");
+
+  console.log(setDaysInMainFile);
+  console.log(setDaysInBatchFile);
 
   let heading;
   if (shiftitem.direction === "up") {
@@ -48,8 +53,8 @@ function ShiftItemModal({
 
     // depending on whether the main (array) or individual (object) schedule files were updated, new version of data file is saved
     bootcampdata.constructor === Array
-      ? setbootcampdata([...bootcampdata])
-      : setbootcampdata({ ...bootcampdata });
+      ? setDaysInMainFile([...bootcampdata])
+      : setDaysInBatchFile({...bootcampdata})
   };
 
   return (

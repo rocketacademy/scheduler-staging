@@ -20,16 +20,25 @@ const TabsContainer = ({ batchArray }) => {
   const [mainDays, setMainDays] = useState(
     JSON.parse(JSON.stringify(mainDataFile.days))
   );
-
-  // update main file every time days key changes
-  useEffect(() => {
+  // helper function for setting state (mainFile)
+  const setDaysInMainFile = (mainDays) => {
     setMainFile({...mainFile, days: mainDays})
-  }, [mainDays]);
+  }
 
-  // update batch file everytime days key changes
-  useEffect(() => {
-    setBatchFile({...batchFile, days: batchDays});
-  }, [batchDays])
+  // helper function for setting state (batchFile)
+  const setDaysInBatchFile = (batchDays) => {
+    setBatchFile({...batchFile, days: batchDays})
+  }
+
+  // // update main file every time days key changes
+  // useEffect(() => {
+  //   setMainFile({...mainFile, days: mainDays})
+  // }, [mainDays]);
+
+  // // update batch file everytime days key changes
+  // useEffect(() => {
+  //   setBatchFile({...batchFile, days: batchDays});
+  // }, [batchDays])
 
   return (
     <div class="container">
@@ -46,6 +55,8 @@ const TabsContainer = ({ batchArray }) => {
           setBootcampData={setMainDays}
           mainFile={mainFile}
           setMainFile={setMainFile}
+          setDaysInBatchFile={setDaysInBatchFile}
+          setDaysInMainFile={setDaysInMainFile}
         />
       </Tab>
       {/* this tab contains the component for generating/ editing individual batch schedules */}
@@ -56,6 +67,8 @@ const TabsContainer = ({ batchArray }) => {
           setBootcampData={setBatchDays}
           setBatchFile={setBatchFile}
           batchFile={batchFile}
+          setDaysInBatchFile={setDaysInBatchFile}
+          setDaysInMainFile={setDaysInMainFile}
         />
       </Tab>
     </Tabs>
