@@ -1,4 +1,7 @@
 {
+  "repoUrls":{
+    "edit":"https://github.com/rocketacademy/scheduler/edit/main/src/data/bootcamp-course-days.json"
+  },
   "daysOfWeek": {
     "fullTime": [1, 2, 3, 4, 5],
     "partTime": [1, 6]
