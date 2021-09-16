@@ -24,7 +24,7 @@ function App() {
               <TabsContainer batchArray={batchArray} />
             </Route>
             {/* route that takes user to part of app that displays batch schedules for student use */}
-            <Route path="/">
+            <Route path="/schedules">
               <ScheduleContainer batchArray={batchArray} />
             </Route>
           </Switch>
