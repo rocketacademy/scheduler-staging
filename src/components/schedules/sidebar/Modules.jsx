@@ -1,8 +1,7 @@
 import React from "react";
 import Nav from "react-bootstrap/Nav";
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import Accordion from 'react-bootstrap/Accordion';
-import { scroller } from "react-scroll";
+import ModuleSection from "./ModuleSection";
 
 // helper function for generating scheduleObjs array and moduleNameArray
 const generatingDataArrays = (
@@ -65,6 +64,25 @@ const accessingRequiredItems = (
     })
   }
 }
+
+const sortScheduleObjs = (urlObj, moduleName, general, ice, poce) => {
+  const urlModule = urlObj.url.split('/');
+  // this is the part of the url which we used to get the moduleName
+  const urlModuleName = urlModule[3];
+  // if the module name in the url is the current moduleName
+  if (urlModuleName === moduleName) {
+    const splitName = urlObj.name.split('.');
+    const dataObj = { name: urlObj.name, date: urlObj.date }
+    // push the object into the relevant array
+    if (splitName[1] === 'ICE') {
+      ice.push(dataObj);
+    } else if (splitName[1] === 'POCE') {
+      poce.push(dataObj);
+    } else {
+      general.push(dataObj);
+    }
+  }
+}
  
 // ###################################################################
 // ###################################################################
@@ -86,117 +104,48 @@ function Modules({ scheduleData, coursetype }) {
   })
 
   moduleNameArray.sort();
-  
+
   return (
     <div className="sidebar-modules">
       <h4>Modules</h4>
       <Nav className="flex-column">
         {moduleNameArray.map((moduleName) => {
+          // creating array to store items of each section
           const general = [];
           const poce = [];
           const ice = [];
 
           scheduleObjs.forEach((urlObj) => {
-            const urlModule = urlObj.url.split('/');
-            // this is the part of the url which we used to get the moduleName
-            const urlModuleName = urlModule[3];
-            if (urlModuleName === moduleName) {
-              const splitName = urlObj.name.split('.');
-              const dataObj = { name: urlObj.name, date: urlObj.date }
-              if (splitName[1] === 'ICE') {
-                ice.push(dataObj);
-              } else if (splitName[1] === 'POCE') {
-                poce.push(dataObj);
-              } else {
-                general.push(dataObj);
-              }
-            }
+            // sort each object in scheduleObjs into one of 3 arrays, general, ice, poce
+            sortScheduleObjs(urlObj, moduleName, general, ice, poce);
           })
+
+          const sectionArray = [];
+          sectionArray.push(general);
+          sectionArray.push(ice);
+          sectionArray.push(poce);
+
+          // names of each section 
+          const sectionNames = ['General', 'In Class', 'Post Class'];
 
           return (
             <>
-            {/* <div className="module-section"> */}
             <h6 className="sidebar-subheading">{moduleName}</h6>
-              <Accordion className="modules-accordion">
-              {general.length > 0 && (
-                <>
-                <Accordion.Item eventKey="0">
-                <Accordion.Header>General</Accordion.Header>
-                <Accordion.Body>
-                {general.map((info) => {
-                const id = `${coursetype}-week-${scheduleData[info.date].courseWeek}-day-${scheduleData[info.date].dayNumber}`;
-         
-                  return (
-                  <p onClick={() =>
-                    scroller.scrollTo(id, {
-                      smooth: true,
-                      offset: -70,
-                      duration: 100,
-                    })
-                  }
-                  >
-                    {info.name}
-                  </p>
-                  )
-                })}
-                </Accordion.Body>
-                </Accordion.Item>
-                </>
-              )}
-              {ice.length > 0 && (
-                <>
-                <Accordion.Item eventKey="1">
-                <Accordion.Header>In Class</Accordion.Header>
-                <Accordion.Body>
-                {ice.map((info) => {
-                const id = `${coursetype}-week-${scheduleData[info.date].courseWeek}-day-${scheduleData[info.date].dayNumber}`;
-         
-                  return (
-                  <p onClick={() =>
-                    scroller.scrollTo(id, {
-                      smooth: true,
-                      offset: -70,
-                      duration: 100,
-                    })
-                  }
-                  >
-                    {info.name}
-                  </p>
-                  )
-                })}
-                </Accordion.Body>
-                </Accordion.Item>
-                </>
-              )}
-             {poce.length > 0 && (
-                <>
-                <Accordion.Item eventKey="2">
-                  <Accordion.Header>Post Class</Accordion.Header>
-                  <Accordion.Body>
-                {poce.map((info) => {
-                const id = `${coursetype}-week-${scheduleData[info.date].courseWeek}-day-${scheduleData[info.date].dayNumber}`;
-         
-                  return (
-                  <p onClick={() =>
-                    scroller.scrollTo(id, {
-                      smooth: true,
-                      offset: -70,
-                      duration: 100,
-                    })
-                  }
-                  >
-                    {info.name}
-                  </p>
-                  )
-                })}
-                  </Accordion.Body>
-                </Accordion.Item>
-              </>
-            )}
-            {/* </div> */}
+            <Accordion className="modules-accordion">
+            {sectionArray.map((section, index) => {
+              return (
+              <ModuleSection
+                        section={section} 
+                        index={index} 
+                        sectionNames={sectionNames} 
+                        coursetype={coursetype} 
+                        scheduleData={scheduleData} 
+                        />
+              )
+            })}
             </Accordion>
             </>
-          )
+            )
           }
         )}
       </Nav>
