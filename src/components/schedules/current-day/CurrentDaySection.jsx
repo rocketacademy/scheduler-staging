@@ -3,6 +3,7 @@ import { scroller } from "react-scroll";
 import GenerateCourseDayHeader from "../GenerateCourseDayHeader";
 import GenerateCourseDayContent from "../GenerateCourseDayContent";
 import GenerateDatetypeSections from "../GenerateDatetypeSections";
+import { DateTime } from "luxon";
 
 // helper function that finds previous course day
 const findPreviousDay = (scheduleData, today, coursetype) => {
@@ -37,11 +38,10 @@ const findPreviousDay = (scheduleData, today, coursetype) => {
 };
 
 //helper funcyion that finds next course day
-const findNextDay = (scheduleData, today, coursetype) => {
+const findNextDay = (scheduleData, today, coursetype, firstDayOfCourse) => {
   let nextDay;
 
-  if (coursetype === "ft") {
-    console.log(today.weekday);
+  if (coursetype === "ft" && DateTime.now() > firstDayOfCourse) {
     if (today.weekday === 6) {
       nextDay = today.plus({ days: 2 }).toFormat("dd-MM-yyyy");
     } else if (today.weekday === 7) {
@@ -49,7 +49,7 @@ const findNextDay = (scheduleData, today, coursetype) => {
     } else {
       nextDay = today.toFormat("dd-MM-yyyy");
     }
-  } else if (coursetype === "pt") {
+  } else if (coursetype === "pt" && DateTime.now() > firstDayOfCourse) {
     if (today.weekday === 1) {
       nextDay = today.toFormat('dd-MM-yyyy');
     } else if (today.weekday > 1 && today.weekday <= 6) {
@@ -57,6 +57,8 @@ const findNextDay = (scheduleData, today, coursetype) => {
     } else {
       nextDay = today.plus({ days: 1 }).toFormat("dd-MM-yyyy");
     }
+  } else {
+    nextDay = today.toFormat('dd-MM-yyyy');
   }
 
   if (scheduleData[nextDay].dateTypes.holidayType) {
@@ -67,26 +69,28 @@ const findNextDay = (scheduleData, today, coursetype) => {
 };
 // ##############################################################################
 
-function CurrentDaySection({ scheduleData, coursetype, today }) {
+function CurrentDaySection({ scheduleData, coursetype, today, firstDayOfCourse }) {
   // indicates whether or not courseweek and course day is shown on the courseday header
   const todaySectionHeader = true;
-  let previousDay;
+  let previousDay = null;
   let nextDay;
-
-  // finds previous course day
-  previousDay = findPreviousDay(scheduleData, today, coursetype);
+  let previousDayId;
+  // finds previous course day, only applicable if course has already started
+  if (DateTime.now() > firstDayOfCourse) {
+    previousDay = findPreviousDay(scheduleData, today, coursetype);
+    previousDayId = `${coursetype}-week-${scheduleData[previousDay].courseWeek}-day-${scheduleData[previousDay].dayNumber}`;
+  }
 
   // find the next day if current day is not a course day
-  nextDay = findNextDay(scheduleData, today, coursetype);
+  nextDay = findNextDay(scheduleData, today, coursetype, firstDayOfCourse);
 
   // creating ids for scrollTo function for top section
   const currentDayId = `${coursetype}-week-${scheduleData[nextDay].courseWeek}-day-${scheduleData[nextDay].dayNumber}`;
-  const previousDayId = `${coursetype}-week-${scheduleData[previousDay].courseWeek}-day-${scheduleData[previousDay].dayNumber}`;
 
   return (
     <div>
       <div className="today-date">
-        {nextDay && previousDay && (
+        {nextDay && (
           <>
             <div>
               <GenerateCourseDayHeader
@@ -142,11 +146,13 @@ function CurrentDaySection({ scheduleData, coursetype, today }) {
                     Previous Course Day:
                   </h5>
                   <br></br>
-                  <GenerateDatetypeSections
+                  {previousDay && (
+                    <GenerateDatetypeSections
                     datetype={scheduleData[previousDay].dateTypes}
                     classType="postClass"
                     day={scheduleData[previousDay]}
                   />
+                  )}
                 </>
               </div>
             </div>

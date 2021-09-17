@@ -6,13 +6,15 @@ import KeyboardBackspaceIcon from "@material-ui/icons/KeyboardBackspace";
 import Modules from './Modules';
 
 // one of the components in Sidebar
-function CourseWeeks({ scheduleData, coursetype }) {
+function CourseWeeks({ scheduleData, coursetype, firstDayOfCourse }) {
   const weeks = [];
   // used to scroll to current week on page load 
   const executeScroll = () => currentWeekRef.current.scrollIntoView({ block: "center" });
 
   useEffect(() => {
-    executeScroll();
+    if (DateTime.now() > firstDayOfCourse) {
+      executeScroll();
+    }
   }, []);
 
   const CurrentWeekDiv = () => {
@@ -77,21 +79,14 @@ function CourseWeeks({ scheduleData, coursetype }) {
               })
             }
           >
-            Today
+            Current Day
           </Nav.Link>
         </Nav.Item>
         {weeks.map((week, index) => {
           // generating id that is linked to id of an element in main content of page
           // on click, page will scroll to where the element is
           const navId = `${index + 1}`;
-          let id;
-          // course starts on dayNumber 6, not 1
-          if (coursetype === "pt") {
-            id = `${coursetype}-week-${week}-day-6`;
-          } else {
-            id = `${coursetype}-week-${week}-day-1`;
-          }
-
+          const id = `${coursetype}-week-${week}-day-1`;
           const sidebarId = `${coursetype}-sidebar-week-${week}`;
           return (
             <Nav.Item>
@@ -106,7 +101,7 @@ function CourseWeeks({ scheduleData, coursetype }) {
                   })
                 }
               >
-                {week === weekNumber[0] && <CurrentWeekDiv />}
+                {week === weekNumber[0] && DateTime.now() > firstDayOfCourse && <CurrentWeekDiv />}
                 <div>
                   Week {week}
                   {/* week indicator that indicates that a certain week is the current week  */}

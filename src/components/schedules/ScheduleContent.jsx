@@ -9,18 +9,32 @@ import { DateTime } from "luxon";
 import Accordion from "react-bootstrap/Accordion";
 
 // generates schedule content for a particular course
-function ScheduleContent({ scheduleData, coursetype, title }) {
+function ScheduleContent({ scheduleData, coursetype, title, today, firstDayOfCourse }) {
   // used by scrollTo function to identify where to scroll to from the up arrow at the bottom of the screen
   const id = `${coursetype}-top`;
   const todaySectionHeader = false;
-  const today = DateTime.now();
+  // let today = DateTime.now();
+
+  // // checking if first day of course is after today, if so today = first day of course, so that current day
+  // // section and tables and display first day/ weeks info
+  // const courseDatesArray = [];
+  // Object.keys(scheduleData).map((day) => {
+  //   courseDatesArray.push(day);
+  // });
+  // courseDatesArray.sort(function(a, b){return a-b});
+  // const firstDayOfCourse = DateTime.fromFormat(courseDatesArray[0], 'dd-MM-yyyy');
+
+  // if (today < firstDayOfCourse) {
+  //   today = firstDayOfCourse;
+  // }
+
   let nextToday;
   if (coursetype === "ft") {
-    nextToday = DateTime.now().plus({ weeks: 1 });
+    nextToday = today.plus({ weeks: 1 });
   } else {
-    nextToday = DateTime.now().plus({ months: 1 });
+    nextToday = today.plus({ months: 1 });
   }
-
+  
   return (
     <div className="content">
       {/* button that takes user back to the top of the page  */}
@@ -38,11 +52,13 @@ function ScheduleContent({ scheduleData, coursetype, title }) {
       </div>
       <h1 className="schedule-header">{title}</h1>
       <p id={id}></p>
+     
       {/* generates table which shows schedule for current week/ month depending on course type */}
       <CurrentDaySection
         scheduleData={scheduleData}
         coursetype={coursetype}
         today={today}
+        firstDayOfCourse={firstDayOfCourse}
       />
       <div className="schedule-accordion-container">
         <Accordion className="current-week-accordion" defaultActiveKey="0">

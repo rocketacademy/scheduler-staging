@@ -26,7 +26,9 @@ const NormalCourseDay = ({ todaySectionHeader, day, timeZoneSet, id }) => {
           <p>
             Meeting Time: {meetingTime} SGT ({timeOffset})
           </p>
-          <p>{day.dateTypes.module}</p>
+          {day.courseDay > 0 && (
+            <p>{day.dateTypes.module}</p>
+          )}
         </div>
       )}
     </>
@@ -34,7 +36,7 @@ const NormalCourseDay = ({ todaySectionHeader, day, timeZoneSet, id }) => {
 };
 
 // helper function that generates courseday header for a holiday
-const HolidayCourseDay = ({ todaySectionHeader, day, timeZoneSet, id }) => {
+const HolidayCourseDay = ({ day, timeZoneSet, id }) => {
   localDate = DateTime.fromFormat(day.courseDate, "dd-MM-yyyy");
   formattedDate = localDate.toFormat("EEE d MMM");
   timeZone = localDate.toFormat("z");
