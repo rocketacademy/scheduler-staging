@@ -115,8 +115,8 @@ function Modules({ scheduleData, coursetype }) {
           const poce = [];
           const ice = [];
 
+          // sort each object in scheduleObjs into one of 3 arrays, general, ice, poce
           scheduleObjs.forEach((urlObj) => {
-            // sort each object in scheduleObjs into one of 3 arrays, general, ice, poce
             sortScheduleObjs(urlObj, moduleName, general, ice, poce);
           })
 
