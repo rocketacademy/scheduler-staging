@@ -32,9 +32,7 @@ function ScheduleTable({ weekNumbers, tableData, coursetype, today }) {
                 })}
               </>
             )}
-          {coursetype === "pt" &&
-            today.toFormat("dd-MM-yyyy") ===
-              DateTime.now().toFormat("dd-MM-yyyy") && (
+          {coursetype === "pt" && (
               <>Current Month's Schedule</>
             )}
         </h5>
