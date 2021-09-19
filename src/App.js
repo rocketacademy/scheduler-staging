@@ -1,6 +1,6 @@
 import React from 'react';
 import TabsContainer from './components/admin/Tabs';
-import ptbc1 from '../src/data/21-08-2021_10-10-2022_BATCH1.json';
+import ptbc1 from '../src/data/21-08-2021_15-10-2022_BATCH1.json';
 import ftbc3 from '../src/data/12-04-2021_23-09-2021_BATCH3.json';
 import ftbc4 from '../src/data/12-07-2021_22-12-2021_BATCH4.json';
 import ptbc2 from '../src/data/15-11-2021_21-01-2023_BATCH2.json';

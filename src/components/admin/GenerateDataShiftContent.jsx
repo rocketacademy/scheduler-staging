@@ -3,6 +3,7 @@ import AddItemModal from "./main-accordion/AddItemModal";
 import MainAccordion from "./main-accordion/MainAccordion";
 import Button from "react-bootstrap/Button";
 import download from "../../download";
+import beautify from 'json-beautify';
 
 const GenerateDataShiftContent = ({
   bootcampData,
@@ -37,7 +38,7 @@ const GenerateDataShiftContent = ({
   }
 
   // copys json data file to clipboard
-  const handleCopyToClipboard = (data) => {
+  const handleEditInGithub = (data) => {
     // from stackoverflow, https://stackoverflow.com/questions/58376758/how-to-copy-a-json-data-to-the-clipboard-with-the-button
       let selBox = document.createElement('textarea');
       selBox.style.position = 'fixed';
@@ -45,6 +46,7 @@ const GenerateDataShiftContent = ({
       selBox.style.top = '0';
       selBox.style.opacity = '0';
       selBox.value = JSON.stringify(data);
+      data = beautify(data, null, 2, 80);
       document.body.appendChild(selBox);
       selBox.focus();
       selBox.select();
@@ -52,10 +54,10 @@ const GenerateDataShiftContent = ({
       document.body.removeChild(selBox);
 
       let gitbookUrl;
-      if (data === batchFile) {
-        gitbookUrl = `https://github.com/rocketacademy/scheduler/edit/main/src/data/${batchFile.courseName}.json`;
-      } else {
+      if (data.repoUrls) {
         gitbookUrl = mainFile.repoUrls.edit;
+      } else {
+        gitbookUrl = `https://github.com/rocketacademy/scheduler/edit/main/src/data/${batchFile.courseName}.json`;
       }
       // opens a new window in the browser at specified address(gitbook edit page)
       window.open(gitbookUrl, "_blank")
@@ -71,7 +73,7 @@ const GenerateDataShiftContent = ({
               <Button
                 variant="primary"
                 type="submit"
-                onClick={() => handleCopyToClipboard(batchFile)}
+                onClick={() => handleEditInGithub(batchFile)}
               >
                   Edit in Gitbook
               </Button>
@@ -129,7 +131,7 @@ const GenerateDataShiftContent = ({
           <div className="download-button-container">
             <Button
               className="btn btn-primary"
-              onClick={() => handleCopyToClipboard(mainFile)}
+              onClick={() => handleEditInGithub(mainFile)}
             >
             Edit in Gitbook
             </Button>
