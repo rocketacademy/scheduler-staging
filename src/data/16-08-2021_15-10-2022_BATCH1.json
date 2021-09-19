@@ -809,7 +809,9 @@
         "general": {
           "type": "general",
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [{ "name": "Peer Review Project", "url": "" }]
+          },
           "postClass": {}
         },
         "css": {
