@@ -47,6 +47,7 @@ const GenerateDataShiftContent = ({
       selBox.style.opacity = '0';
       selBox.value = JSON.stringify(data);
       data = beautify(data, null, 2, 80);
+      console.log(data);
       document.body.appendChild(selBox);
       selBox.focus();
       selBox.select();
