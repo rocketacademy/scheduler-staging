@@ -3,6 +3,7 @@ import ExpandLessIcon from "@material-ui/icons/ExpandLess";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import DeleteOutlinedIcon from '@material-ui/icons/DeleteOutlined';
 import ShiftItemModal from "./ShiftItemModal";
+import DragIndicatorIcon from '@material-ui/icons/DragIndicator';
 
 // helper functions that populates dateArray
 // ##########################################################
@@ -19,6 +20,65 @@ const addIndex = (bootcampData, datesArray, date) => {
   }
   return datesArray;
 };
+
+// helper function that shifts items 1 day
+const shiftOneDay = (
+  direction, 
+  bootcampData, 
+  dayIndex, 
+  sectionType, 
+  classType, 
+  classIndex, 
+  section,
+  setDaysInMainFile,
+  setDaysInBatchFile
+  ) => {
+    console.log('inside shift function');
+      let bootcampDataArray;
+      let target; 
+       if(bootcampData.constructor === Object) {
+         bootcampDataArray = Object.keys(bootcampData);
+         console.log('bootcamp data array', bootcampDataArray);
+         if(direction === 'up') {
+           target = bootcampData[bootcampDataArray[dayIndex - 1]].courseDate;
+         } else {
+           target = bootcampData[bootcampDataArray[dayIndex + 1]].courseDate;
+           console.log('target', target);
+           
+         }
+      } else {
+        if (direction === 'up') {
+          target = dayIndex - 1
+        } else {
+          target = dayIndex + 1
+        }
+      }
+      // finding the selected item in the data file
+      let selectedItem = sectionType[classType].items[classIndex];
+      // removing it from it's original position
+      sectionType[classType].items.splice(classIndex, 1);
+
+      // if items array is empty after removing selected item, remove empty items array
+      if (sectionType[classType].items.length === 0) {
+        delete sectionType[classType].items;
+      }
+      // this is where we want to move the item to
+      const targetDay = bootcampData[target].dateTypes[section];
+
+      // checking to see if items array exists at destination, if not, an empty array called items is added
+      if (!targetDay[classType].items) {
+        targetDay[classType].items = [];
+      }
+
+      // selected item is push into items array at destination
+      targetDay[classType].items.push(selectedItem);
+
+      // depending on whether the main (array) or individual (object) schedule files were updated, new version of data file is saved
+      bootcampData.constructor === Array
+        ? setDaysInMainFile([...bootcampData])
+        : setDaysInBatchFile({...bootcampData})
+
+    }
 // ############################################################
 
 function ClassItem({
@@ -46,21 +106,17 @@ function ClassItem({
     // array that contains all the dates either before or after a selected date depending on direction chosen by user
     let datesArray = [];
 
+    
+
     // item is being moved backwards in the schedule
-    if (direction === "up") {
+    if (direction === "any") {
       // if bootcampData either an object or an array depending on wether the user is editing the main or individual schedule files, and needs to be processed accordingly
       bootcampData.constructor === Object
         ? Object.keys(bootcampData)
-            .filter(
-              (date) =>
-                bootcampData[date].courseDay < dayIndex + 1 &&
-                bootcampData[date].courseDay !== null
-            )
             .map((date) => {
               datesArray = addDates(datesArray, date);
             })
         : bootcampData
-            .filter((date) => bootcampData.indexOf(date) < dayIndex)
             .map((date) => {
               datesArray = addIndex(bootcampData, datesArray, date);
             });
@@ -68,36 +124,36 @@ function ClassItem({
       // data is put into object shift item
       setShiftItem({
         ...shiftItem,
-        direction: "up",
         dates: datesArray,
       });
       // modal that takes user input to move item is shown
       setModalShow(true);
       // item is being moved forward in the schedule
     } else if (direction === "down") {
-      bootcampData.constructor === Object
-        ? Object.keys(bootcampData)
-            .filter(
-              (date) =>
-                bootcampData[date].courseDay > dayIndex + 1 &&
-                bootcampData[date].courseDay !== null
-            )
-            .map((date) => {
-              datesArray = addDates(datesArray, date);
-            })
-        : bootcampData
-            .filter((date) => bootcampData.indexOf(date) > dayIndex)
-            .map((date) => {
-              datesArray = addIndex(bootcampData, datesArray, date);
-            });
+     shiftOneDay(
+        'down', 
+        bootcampData, 
+        dayIndex, 
+        sectionType, 
+        classType, 
+        classIndex, 
+        section,
+        setDaysInMainFile,
+        setDaysInBatchFile
+     )
 
-      setShiftItem({
-        ...shiftItem,
-        direction: "down",
-        dates: datesArray,
-      });
-
-      setModalShow(true);
+    } else if (direction === "up") {
+      shiftOneDay(
+        'up', 
+        bootcampData, 
+        dayIndex, 
+        sectionType, 
+        classType, 
+        classIndex, 
+        section,
+        setDaysInMainFile,
+        setDaysInBatchFile
+     )
     } else {
       // here the item is being deleted from the schedule
       sectionType[classType].items.splice(classIndex, 1);
@@ -105,7 +161,6 @@ function ClassItem({
         delete sectionType[classType].items;
       }
       setBootcampData([...bootcampData]);
-      console.log('section type', sectionType[classType]);
     }
   };
 
@@ -128,6 +183,9 @@ function ClassItem({
             {/* move item forward in the schedule  */}
             <button onClick={() => handleShift("down", dayIndex, classIndex)}>
               <ExpandMoreIcon />
+            </button>
+            <button className="select" onClick={() => handleShift('any', dayIndex, classIndex)}>
+              <DragIndicatorIcon />
             </button>
           </div>
         

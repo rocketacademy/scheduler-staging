@@ -29,14 +29,14 @@ function MainAccordion({
       {bootcampData[day].dateTypes.module && (
         <Accordion key={accordionKey}>
           <Accordion.Item eventKey={dayIndex}>
-            <Accordion.Header>
-              <div
+            <div
                 className="course-day-symbol"
                 onClick={() => handlePlusClick(day)}
               >
                 {" "}
                 <AddIcon />
-              </div>
+            </div>
+            <Accordion.Header>
               <div className="course-day-header">
                 {bootcampData.constructor === Object ? (
                   <>

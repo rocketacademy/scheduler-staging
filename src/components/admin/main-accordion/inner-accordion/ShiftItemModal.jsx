@@ -19,16 +19,6 @@ function ShiftItemModal({
 }) {
   const [selectedDate, setSelectedDate] = useState("");
 
-  console.log(setDaysInMainFile);
-  console.log(setDaysInBatchFile);
-
-  let heading;
-  if (shiftitem.direction === "up") {
-    heading = "Moving back ... ";
-  } else {
-    heading = "Moving forward ... ";
-  }
-
   const handleSubmitDate = (e) => {
     e.preventDefault();
     // finding the selected item in the data file
@@ -67,7 +57,7 @@ function ShiftItemModal({
       centered
     >
       <Modal.Header closeButton>
-        <Modal.Title id="item-modal">{heading}</Modal.Title>
+        <Modal.Title id="item-modal">Moving item ...</Modal.Title>
       </Modal.Header>
       <Modal.Body>
         <Form>
