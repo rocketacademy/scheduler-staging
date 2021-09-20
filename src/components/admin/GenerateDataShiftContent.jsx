@@ -3,7 +3,6 @@ import AddItemModal from "./main-accordion/AddItemModal";
 import MainAccordion from "./main-accordion/MainAccordion";
 import Button from "react-bootstrap/Button";
 import download from "../../download";
-import beautify from 'json-beautify';
 
 const GenerateDataShiftContent = ({
   bootcampData,
@@ -45,9 +44,8 @@ const GenerateDataShiftContent = ({
       selBox.style.left = '0';
       selBox.style.top = '0';
       selBox.style.opacity = '0';
-      selBox.value = JSON.stringify(data);
-      data = beautify(data, null, 2, 80);
-      console.log(data);
+      // this copies the JSON data to clipboard with original formatting
+      selBox.value = JSON.stringify(data, undefined, 2);
       document.body.appendChild(selBox);
       selBox.focus();
       selBox.select();

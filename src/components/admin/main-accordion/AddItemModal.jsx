@@ -27,6 +27,7 @@ function AddItemModal({
       url: url,
     };
 
+    console.log('is there items????', !bootcampdata[coursedate].dateTypes[section][sectionClass].items);
     // if the section that the new item is to be added to is empty, an empty array called items is added to it
     if (!bootcampdata[coursedate].dateTypes[section][sectionClass].items) {
       bootcampdata[coursedate].dateTypes[section][sectionClass].items = [];
