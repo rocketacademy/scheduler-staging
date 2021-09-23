@@ -3,6 +3,7 @@ import generateDataObject from "../../../generateCourseDates.js";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import download from "../../../download.js";
+import generateBasicsMarkdown from "../../../generateBasicsMarkdown.js";
 
 const DatePicker = ({ 
   setBootcampData, 
@@ -11,12 +12,14 @@ const DatePicker = ({
   const [startDate, setStartDate] = useState("");
   const [courseName, setCourseName] = useState("");
   const [courseType, setCourseType] = useState("");
+  const [firstDay, setFirstDay] = useState(null);
+  const [secondDay, setSecondDay] = useState(null);
 
   // function that generates and downloads schedule data when download button is clicked
   const handleDownload = async (e) => {
     e.preventDefault();
     try {
-      const data = await generateDataObject(startDate, courseName, courseType, null);
+      const data = await generateDataObject(startDate, courseName, courseType, null, null);
       download(data, `${data.courseName}.json`);
     } catch (error) {
       console.log(error);
@@ -27,7 +30,7 @@ const DatePicker = ({
   const handleRender = async (e) => {
     e.preventDefault();
     try {
-      const data = await generateDataObject(startDate, courseName, courseType, null);
+      const data = await generateDataObject(startDate, courseName, courseType, null, null);
       await setBootcampData(JSON.parse(JSON.stringify(data.days)));
     } catch (error) {
       console.log(error);
@@ -37,7 +40,7 @@ const DatePicker = ({
   const addToGitHubRepo = async (e) => {
     e.preventDefault();
     try {
-      const data = await generateDataObject(startDate, courseName, courseType, null);
+      const data = await generateDataObject(startDate, courseName, courseType, null, null);
       // from stackoverflow, https://stackoverflow.com/questions/58376758/how-to-copy-a-json-data-to-the-clipboard-with-the-button
       let selBox = document.createElement('textarea');
       selBox.style.position = 'fixed';
@@ -59,6 +62,47 @@ const DatePicker = ({
     }
   }
 
+  const generateMarkdown = async () => {
+    try {
+      const dayNumbers = {
+        'Monday': 1,
+        'Tuesday': 2,
+        'Wednesday': 3,
+        'Thursday': 4,
+        'Friday': 5,
+        'Saturday': 6,
+        'Sunday': 7
+      };
+
+      const lessonDays = [dayNumbers[firstDay], dayNumbers[secondDay]];
+      console.log(lessonDays);
+      let data = await generateDataObject(startDate, courseName, courseType, null, lessonDays);
+      data = generateBasicsMarkdown(data);
+      console.log('data', data);
+      // from stackoverflow, https://stackoverflow.com/questions/58376758/how-to-copy-a-json-data-to-the-clipboard-with-the-button
+      let selBox = document.createElement('textarea');
+      selBox.style.position = 'fixed';
+      selBox.style.left = '0';
+      selBox.style.top = '0';
+      selBox.style.opacity = '0';
+      selBox.value = data;
+      document.body.appendChild(selBox);
+      selBox.focus();
+      selBox.select();
+      document.execCommand('copy');
+      document.body.removeChild(selBox);
+
+      // opens a new window in the browser at specified address(gitbook create new page)
+      // window.open('https://github.com/rocketacademy/basics-docs/new/master/course-logistics', "_blank")
+    }
+    catch(error) {
+      console.log(error);
+    }
+  }
+
+  console.log('first day', firstDay);
+  console.log('second day', secondDay);
+
   return (
     <>
       <div className="date-picker">
@@ -67,6 +111,7 @@ const DatePicker = ({
         </div>
         <div className="input-form-container">
           <Form className="input-form">
+            <div className="input-fields">
             <Form.Group className="mb-3 input" controlId="formDate">
               <Form.Label>Start Date</Form.Label>
               <Form.Control
@@ -88,7 +133,7 @@ const DatePicker = ({
             <Form.Group className="mb-3 input" controlId="formBatchNumber">
               <Form.Label>Course Type</Form.Label>
               <Form.Select
-                aria-label="Default select example"
+                aria-label="course-type"
                 onChange={(e) => setCourseType(e.target.value)}
               >
                 <option>Select course type</option>
@@ -97,6 +142,43 @@ const DatePicker = ({
                 <option value="Bootcamp PT">Bootcamp PT</option>
               </Form.Select>
             </Form.Group>
+            </div>
+            {courseType === 'Basics' && (
+              <div className="basics-days">
+                <Form.Group className="mb-3 input" controlId="formBatchNumber">
+                  <Form.Label>1st Course Day</Form.Label>
+                  <Form.Select
+                    aria-label="course-day-1"
+                    onChange={(e) => setFirstDay(e.target.value)}
+                  >
+                    <option>Select day</option>
+                    <option value="Monday">Monday</option>
+                    <option value="Tuesday">Tuesday</option>
+                    <option value="Wednesday">Wednesday</option>
+                    <option value="Thursday">Thursday</option>
+                    <option value="Friday">Friday</option>
+                    <option value="Saturday">Saturday</option>
+                    <option value="Sunday">Sunday</option>
+                  </Form.Select>
+                </Form.Group>
+                <Form.Group className="mb-3 input" controlId="formBatchNumber">
+                  <Form.Label>2nd Course Day</Form.Label>
+                  <Form.Select
+                    aria-label="course-day-2"
+                    onChange={(e) => setSecondDay(e.target.value)}
+                  >
+                  <option>Select day</option>
+                  <option value="Monday">Monday</option>
+                  <option value="Tuesday">Tuesday</option>
+                  <option value="Wednesday">Wednesday</option>
+                  <option value="Thursday">Thursday</option>
+                  <option value="Friday">Friday</option>
+                  <option value="Saturday">Saturday</option>
+                  <option value="Sunday">Sunday</option>
+                  </Form.Select>
+                </Form.Group>
+              </div>
+            )}
           </Form>
           <div className="submit-button-container">
             <Button
@@ -127,7 +209,17 @@ const DatePicker = ({
                 addToGitHubRepo(e);
               }}
             >
-              Add to Gitbook
+              Add to GitHub Repo
+            </Button>
+            <Button
+              className="create-file"
+              variant="primary"
+              type="submit"
+              onClick={(e) => {
+                generateMarkdown(e);
+              }}
+            >
+              Basics Markdown
             </Button>
           </div>
           <br></br>

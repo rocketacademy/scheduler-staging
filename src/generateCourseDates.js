@@ -50,11 +50,13 @@ const getLocalDateTime = (utc, timeString, courseName, courseType, date) => {
 }
 
 // helper function for deciding what goes in topLevelObject based on course type
-const generateTopLevelObject = (courseType, topLevelObject) => {
+const generateTopLevelObject = (courseType, topLevelObject, lessonDays) => {
+    console.log('lesson days', lessonDays);
+
         if (courseType === 'Basics') {
             topLevelObject = {
-                daysOfWeek: basicsData.daysOfWeek,
-                courseStartIndex: basicsData.courseStartIndex,
+                daysOfWeek: lessonDays,
+                courseStartIndex: 0,
                 totalCourseDays: basicsData.totalCourseDays,
                 ...topLevelObject
             };
@@ -98,13 +100,16 @@ const generateHolidayObject = (dateString, week, date, dateObj) => {
 // helper function that generates dateObj for a normal courseday
 const generateCourseDayObject = (dateObj, dateString, week, weekDay, date, utc, courseType, courseDay) => {
     // get whatever index of basicsData that is specified by courseDayCount
-    dateObj = {
+    
+
+        dateObj = {
         courseDate: dateString,
         courseWeek: week,
         weekDay: weekDay,
-        dayNumber: date.weekday,
+        dayNumber: date.weekday, 
         meetingDateTimeUTC: utc,
         };
+    
 
     // data is different for basics and bootcamp
     if (courseType === 'Basics') {
@@ -122,11 +127,12 @@ const generateCourseDayObject = (dateObj, dateString, week, weekDay, date, utc, 
 // ##################################################################
 // ##################################################################
 
-const generateDataObject = (startDate, courseName, courseType, input) => {
-    if (input === null) {
-        bootcampData = bootcampDataJson;
-    } else {
+const generateDataObject = (startDate, courseName, courseType, input, lessonDays) => {
+    // used if we are generating batch schedule straight after making changes to main json file
+    if (input) {
         bootcampData = input;
+    } else {
+        bootcampData = bootcampDataJson;
     }
 
     let date = DateTime.fromFormat(startDate, "yyyy-MM-dd");
@@ -146,7 +152,7 @@ const generateDataObject = (startDate, courseName, courseType, input) => {
             days: {}
         };
 
-    data = generateTopLevelObject(courseType, topLevelObject);
+    data = generateTopLevelObject(courseType, topLevelObject, lessonDays);
 
     // set the number of course days based on course type
     if (courseType === 'Basics') {
@@ -186,7 +192,12 @@ const generateDataObject = (startDate, courseName, courseType, input) => {
         }
         data.days[dateString] = dateObj;
 
-        
+        const firstDay = DateTime.fromFormat(startDate, "yyyy-MM-dd").toFormat('dd-MM-yyyy');
+        const formattedDate = date.toFormat('dd-MM-yyyy');
+        console.log('date', formattedDate);
+        console.log('first day', firstDay);
+        console.log (formattedDate === firstDay);
+
         if (classDatesCount === data.totalCourseDays && courseType === 'Basics') {
             date = date.plus({ days: 2 }); 
             utc = getLocalDateTime (utc, 'T19:30', courseName, courseType, date);
@@ -194,8 +205,12 @@ const generateDataObject = (startDate, courseName, courseType, input) => {
             week += 1;
 
         } else {
+            // first meeting of basics is a pre-course meeting that always starts on a saturday
+            // (not included in daysOfWeek)
+            
             // this is the end of the dayArray (last day of the week)
-            if ( dayIndex === dayArray.length -1) {
+            if (( dayIndex === dayArray.length -1) || 
+                (formattedDate === firstDay && courseType === 'Basics')) {
                 weekDay = 1;
                 week += 1;
                 dateWeek = dateWeek.plus({ weeks: 1 });
@@ -205,7 +220,7 @@ const generateDataObject = (startDate, courseName, courseType, input) => {
                 utc = getLocalDateTime (utc, 'T19:30', courseName, courseType, date);
 
             } else {
-                // day with the week
+                // day within the week
                 dayIndex += 1;
                 date = date.set({ weekday: dayArray[dayIndex] })
                 utc = getLocalDateTime (utc, 'T13:00', courseName, courseType, date);

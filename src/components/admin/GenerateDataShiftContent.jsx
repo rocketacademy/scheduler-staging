@@ -6,6 +6,7 @@ import download from "../../download";
 import generateDataObject from "../../generateCourseDates";
 import { DateTime } from "luxon";
 
+// helper function for cpoying data to clipboard
 const copyToClipboard = (data) => {
   // from stackoverflow, https://stackoverflow.com/questions/58376758/how-to-copy-a-json-data-to-the-clipboard-with-the-button
   let selBox = document.createElement('textarea');
@@ -22,6 +23,8 @@ const copyToClipboard = (data) => {
   document.body.removeChild(selBox);
 }
  
+// ############################################################################
+// ############################################################################
 const GenerateDataShiftContent = ({
   bootcampData,
   setBootcampData,

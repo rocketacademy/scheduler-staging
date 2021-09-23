@@ -16,10 +16,19 @@
 
 .input-form {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
   padding-top: 20px;
   padding-bottom: 25px;
+  .input-fields {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .basics-days {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
   .input {
     width: 30%;
   }
@@ -30,7 +39,7 @@
   display: flex;
   justify-content: space-around;
   .btn {
-    width: 30%;
+    width: 20%;
     color: $body-bg;
   }
 }
