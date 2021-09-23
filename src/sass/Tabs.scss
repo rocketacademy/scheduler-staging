@@ -70,6 +70,16 @@
     color: $body-bg;
   }
 }
+
+.batchfile-edit-container {
+  padding: 0 30px 40px;
+  display: flex;
+  justify-content: space-around;
+  .batch-update {
+    color: white;
+  }
+}
+
 .accordion-body {
   background-color: $blue;
   padding: 0;

@@ -4,8 +4,10 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import download from "../../../download.js";
 
-const DatePicker = ({ setBootcampData }) => {
-  // inputs from user used to generate course data
+const DatePicker = ({ 
+  setBootcampData, 
+ }) => {
+    // inputs from user used to generate course data
   const [startDate, setStartDate] = useState("");
   const [courseName, setCourseName] = useState("");
   const [courseType, setCourseType] = useState("");
@@ -14,7 +16,7 @@ const DatePicker = ({ setBootcampData }) => {
   const handleDownload = async (e) => {
     e.preventDefault();
     try {
-      const data = await generateDataObject(startDate, courseName, courseType);
+      const data = await generateDataObject(startDate, courseName, courseType, null);
       download(data, `${data.courseName}.json`);
     } catch (error) {
       console.log(error);
@@ -25,17 +27,17 @@ const DatePicker = ({ setBootcampData }) => {
   const handleRender = async (e) => {
     e.preventDefault();
     try {
-      const data = await generateDataObject(startDate, courseName, courseType);
+      const data = await generateDataObject(startDate, courseName, courseType, null);
       await setBootcampData(JSON.parse(JSON.stringify(data.days)));
     } catch (error) {
       console.log(error);
     }
   };
 
-  const addToGitbook = async (e) => {
+  const addToGitHubRepo = async (e) => {
     e.preventDefault();
     try {
-      const data = await generateDataObject(startDate, courseName, courseType);
+      const data = await generateDataObject(startDate, courseName, courseType, null);
       // from stackoverflow, https://stackoverflow.com/questions/58376758/how-to-copy-a-json-data-to-the-clipboard-with-the-button
       let selBox = document.createElement('textarea');
       selBox.style.position = 'fixed';
@@ -122,7 +124,7 @@ const DatePicker = ({ setBootcampData }) => {
               variant="primary"
               type="submit"
               onClick={(e) => {
-                addToGitbook(e);
+                addToGitHubRepo(e);
               }}
             >
               Add to Gitbook

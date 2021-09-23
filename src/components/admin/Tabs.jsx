@@ -7,6 +7,7 @@ import GenerateDataShiftContent from "./GenerateDataShiftContent";
 
 const TabsContainer = ({ batchArray }) => {
   const [key, setKey] = useState("datePicker");
+
   // remains empty until user picks/ generates schedule to edit. this is the days section of the batch data file
   const [batchDays, setBatchDays] = useState({});
   // this is the whole data file
@@ -30,16 +31,6 @@ const TabsContainer = ({ batchArray }) => {
     setBatchFile({...batchFile, days: batchDays})
   }
 
-  // // update main file every time days key changes
-  // useEffect(() => {
-  //   setMainFile({...mainFile, days: mainDays})
-  // }, [mainDays]);
-
-  // // update batch file everytime days key changes
-  // useEffect(() => {
-  //   setBatchFile({...batchFile, days: batchDays});
-  // }, [batchDays])
-
   return (
     <div class="container">
     <Tabs
@@ -57,6 +48,7 @@ const TabsContainer = ({ batchArray }) => {
           setMainFile={setMainFile}
           setDaysInBatchFile={setDaysInBatchFile}
           setDaysInMainFile={setDaysInMainFile}
+          batchArray={batchArray}
         />
       </Tab>
       {/* this tab contains the component for generating/ editing individual batch schedules */}

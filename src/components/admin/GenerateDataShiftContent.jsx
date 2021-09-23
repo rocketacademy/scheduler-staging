@@ -3,14 +3,33 @@ import AddItemModal from "./main-accordion/AddItemModal";
 import MainAccordion from "./main-accordion/MainAccordion";
 import Button from "react-bootstrap/Button";
 import download from "../../download";
+import generateDataObject from "../../generateCourseDates";
+import { DateTime } from "luxon";
 
+const copyToClipboard = (data) => {
+  // from stackoverflow, https://stackoverflow.com/questions/58376758/how-to-copy-a-json-data-to-the-clipboard-with-the-button
+  let selBox = document.createElement('textarea');
+  selBox.style.position = 'fixed';
+  selBox.style.left = '0';
+  selBox.style.top = '0';
+  selBox.style.opacity = '0';
+  // this copies the JSON data to clipboard with original formatting
+  selBox.value = JSON.stringify(data, undefined, 2);
+  document.body.appendChild(selBox);
+  selBox.focus();
+  selBox.select();
+  document.execCommand('copy');
+  document.body.removeChild(selBox);
+}
+ 
 const GenerateDataShiftContent = ({
   bootcampData,
   setBootcampData,
   mainFile,
   batchFile,
   setDaysInBatchFile,
-  setDaysInMainFile
+  setDaysInMainFile,
+  batchArray
 }) => {
   const [showInputModal, setShowInputModal] = useState(false);
   const [courseDate, setCourseDate] = useState("");
@@ -38,30 +57,39 @@ const GenerateDataShiftContent = ({
 
   // copys json data file to clipboard
   const handleEditInGithub = (data) => {
-    // from stackoverflow, https://stackoverflow.com/questions/58376758/how-to-copy-a-json-data-to-the-clipboard-with-the-button
-      let selBox = document.createElement('textarea');
-      selBox.style.position = 'fixed';
-      selBox.style.left = '0';
-      selBox.style.top = '0';
-      selBox.style.opacity = '0';
-      // this copies the JSON data to clipboard with original formatting
-      selBox.value = JSON.stringify(data, undefined, 2);
-      document.body.appendChild(selBox);
-      selBox.focus();
-      selBox.select();
-      document.execCommand('copy');
-      document.body.removeChild(selBox);
+    copyToClipboard(data);
 
-      let gitbookUrl;
-      if (data.repoUrls) {
-        gitbookUrl = mainFile.repoUrls.edit;
-      } else {
-        gitbookUrl = `https://github.com/rocketacademy/scheduler/edit/main/src/data/${batchFile.courseName}.json`;
-      }
-      // opens a new window in the browser at specified address(gitbook edit page)
-      window.open(gitbookUrl, "_blank")
+    let gitbookUrl;
+    if (data.repoUrls) {
+      gitbookUrl = mainFile.repoUrls.edit;
+    } else {
+      gitbookUrl = `https://github.com/rocketacademy/scheduler/edit/main/src/data/${batchFile.courseName}.json`;
+    }
+    // opens a new window in the browser at specified address(gitbook edit page)
+    window.open(gitbookUrl, "_blank")
   }
 
+  const handleBatchEdit = async (index) => {
+    try {
+      const batch = batchArray[index];
+      const startDate = DateTime.fromFormat(batch.content.courseName.slice(0, 10), 'dd-MM-yyyy').toFormat('yyyy-MM-dd');
+      let courseType;
+      if (batch.name.includes('pt')) {
+        courseType = 'Bootcamp PT';
+      } else {
+        courseType = 'Bootcamp FT';
+      }
+      const courseName = batch.content.courseName[batch.content.courseName.length-1];
+      const data = await generateDataObject(startDate, courseName, courseType, mainFile);
+      copyToClipboard(data);
+      window.open(`https://github.com/rocketacademy/scheduler/edit/main/src/data/${data.courseName}.json`, "_blank")
+
+    }
+    catch (error) {
+      console.log(error);
+    }
+  }
+  
   return (
     <>
       {/* renders batch schedule data file  */}
@@ -74,7 +102,7 @@ const GenerateDataShiftContent = ({
                 type="submit"
                 onClick={() => handleEditInGithub(batchFile)}
               >
-                  Edit in Gitbook
+                  Edit in GitHub Repo
               </Button>
               {" "}
               <Button
@@ -132,7 +160,7 @@ const GenerateDataShiftContent = ({
               className="btn btn-primary"
               onClick={() => handleEditInGithub(mainFile)}
             >
-            Edit in Gitbook
+            Edit in GitHub Repo
             </Button>
             <Button
               className="btn btn-primary"
@@ -140,6 +168,17 @@ const GenerateDataShiftContent = ({
             >
               download modified file
             </Button>
+          </div>
+          <div className="batchfile-edit-container">
+          {batchArray.map((batch, index) => {
+            return (
+              <>
+              <Button className="batch-update" onClick={() => handleBatchEdit(index)}>
+                Update {batch.name}
+              </Button>
+              </>
+            )
+          })}
           </div>
           <div className="close-all-container">
             <Button onClick={handleCloseAll}>Close All</Button>

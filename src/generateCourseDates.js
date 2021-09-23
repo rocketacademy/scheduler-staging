@@ -1,7 +1,7 @@
 import { DateTime } from 'luxon';
 import holidayData from './data/2021-sg-stat-holidays.json';
 import basicsData from './data/basics-course-days.json';
-import bootcampData from './data/bootcamp-course-days.json';
+import bootcampDataJson from './data/bootcamp-course-days.json';
 
 const publicHolidays = holidayData.PH;
 const publicHolidayArray = [];
@@ -29,6 +29,8 @@ publicHolidayArray.forEach((holiday) => {
         phWithoutCh.push(holiday);
     }
 });
+
+let bootcampData;
 
 // helper function for getting utc date/time
 const getLocalDateTime = (utc, timeString, courseName, courseType, date) => {
@@ -120,7 +122,13 @@ const generateCourseDayObject = (dateObj, dateString, week, weekDay, date, utc, 
 // ##################################################################
 // ##################################################################
 
-const generateDataObject = (startDate, courseName, courseType) => {
+const generateDataObject = (startDate, courseName, courseType, input) => {
+    if (input === null) {
+        bootcampData = bootcampDataJson;
+    } else {
+        bootcampData = input;
+    }
+
     let date = DateTime.fromFormat(startDate, "yyyy-MM-dd");
     let utc;
     utc = getLocalDateTime(utc, 'T16:00', courseName, courseType, date);

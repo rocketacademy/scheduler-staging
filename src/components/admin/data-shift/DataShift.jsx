@@ -3,7 +3,15 @@ import GenerateDataShiftContent from "../GenerateDataShiftContent";
 import ActiveCourses from "./ActiveCourses.jsx";
 import DatePicker from "./DatePicker.jsx";
 
-const DataShift = ({ batchArray, bootcampData, setBootcampData, setBatchFile, batchFile, setDaysInBatchFile, setDaysInMainFile }) => {
+const DataShift = ({ 
+  batchArray, 
+  bootcampData, 
+  setBootcampData, 
+  setBatchFile, 
+  batchFile, 
+  setDaysInBatchFile, 
+  setDaysInMainFile
+ }) => {
  
   return (
     <>
