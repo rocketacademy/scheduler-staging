@@ -83,7 +83,7 @@ const generateHolidayObject = (dateString, week, date, dateObj) => {
     dateObj = {
         courseDay: null,
         courseDate: dateString,
-        courseWeek: week,
+        courseWeek: null,
         dayNumber: date.weekday,
         dateTypes: {}
     }
@@ -192,6 +192,8 @@ const generateDataObject = (startDate, courseName, courseType, input, lessonDays
         }
         data.days[dateString] = dateObj;
 
+        console.log(courseDay);
+        console.log(date.weekday);
         // used to check for first day of basics course
         const firstDay = DateTime.fromFormat(startDate, "yyyy-MM-dd").toFormat('dd-MM-yyyy');
         const formattedDate = date.toFormat('dd-MM-yyyy');
@@ -204,32 +206,26 @@ const generateDataObject = (startDate, courseName, courseType, input, lessonDays
 
             // checking if the last day of bootcamp is a friday, if not, we need to add days to schedule
             // to make it end on a friday
-        } else if (courseType === 'Bootcamp FT' && courseDay === data.totalCourseDays && date.weekday < 5) {
+        } else if (courseType === 'Bootcamp FT' && courseDay === 113 && date.weekday < 2) {
             
             // getting the number days to Friday
-            const differenceInDays = 5 - date.weekday;
+            const differenceInDays = 2 - date.weekday;
             // getting the extra dates to Friday
-            const addedDates = [];
-            for (let i = 1; i <= differenceInDays; i += 1) {
+            const daysLeft = data.totalCourseDays - courseDay + differenceInDays;
+            console.log('days left', daysLeft);
+            const datesToAdd = [];
+            for (let i = 1; i <= daysLeft; i += 1) {
                 const newDate =  date.plus({ days: i }).toFormat('dd-MM-yyyy');
-                addedDates.push(newDate);
+                datesToAdd.push(newDate);
             }
-            // day 112 is the day of the project 6 feature freeze, we will add days to pad schedule
-            // before this day
-            let targetWeekday = Object.keys(data.days).filter(day => data.days[day].courseDay === 112);
-            targetWeekday = data.days[targetWeekday].weekDay;
-            // delete days after day 112 
-            const deleteDates = Object.keys(data.days).filter(day => data.days[day].courseDay > 112);
-            deleteDates.forEach((date) => {
-                delete data.days[date];
-            })
+            console.log('dates to add', datesToAdd);
+            
             // put all dates we want to add to schedule in combinedDates array
-            var combinedDates = [...new Set([...deleteDates, ...addedDates])];
             // attaching a courseday with the date, courseday starts at 113 because we deleted coursedays > 112
             const newDateObjectsArray = [];
-            for (let k = 0; k < combinedDates.length; k += 1) {
+            for (let k = 0; k < datesToAdd.length; k += 1) {
                 const dateObj = {
-                    date: combinedDates[k],
+                    date: datesToAdd[k],
                     courseday: 113 + k
                 }
                 newDateObjectsArray.push(dateObj);
@@ -240,13 +236,14 @@ const generateDataObject = (startDate, courseName, courseType, input, lessonDays
             const lastDay = newDateObjectsArray[newDateObjectsArray.length - 1].date;
             // generate new dateObjs to replace the ones we deleted
             for (let j = 0; j < newDateObjectsArray.length; j += 1) {
+                const targetWeekday = DateTime.fromFormat(newDateObjectsArray[j].date, 'dd-MM-yyyy').weekday;
+                const newDate = DateTime.fromFormat(newDateObjectsArray[j].date, 'dd-MM-yyyy');
+                utc = getLocalDateTime (utc, 'T13:00', courseName, courseType, newDate);
                 // helper function for adding dateObj to schedule data
                 const addDateObjToSchedule = (dateObj) => {
                     data.days[newDateObjectsArray[j].date] = dateObj;
                     data.days[newDateObjectsArray[j].date].courseDay = newDateObjectsArray[j].courseday;
                 }
-                const newDate = DateTime.fromFormat(newDateObjectsArray[j].date, 'dd-MM-yyyy');
-                utc = getLocalDateTime (utc, 'T13:00', courseName, courseType, newDate);
                 
                 if (newDateObjectsArray[j].date === thirdLastDay) {
                     dateObj = generateCourseDayObject (dateObj, newDateObjectsArray[j].date, week, targetWeekday, newDate, utc, courseType, 113);
@@ -262,7 +259,9 @@ const generateDataObject = (startDate, courseName, courseType, input, lessonDays
 
 
             }
+            data.totalCourseDays += differenceInDays;
             console.log('updated data', data.days);
+            break;
 
         } else {
             // first meeting of basics is a pre-course meeting that always starts on a saturday
@@ -272,7 +271,9 @@ const generateDataObject = (startDate, courseName, courseType, input, lessonDays
             if (( dayIndex === dayArray.length -1) || 
                 (formattedDate === firstDay && courseType === 'Basics')) {
                 weekDay = 1;
-                week += 1;
+                if (!winterBreak.includes(dateString)) {
+                    week += 1;
+                }
                 dateWeek = dateWeek.plus({ weeks: 1 });
                 // return to beginning of array (return to beginning of week)
                 dayIndex = 0;
