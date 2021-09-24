@@ -41,6 +41,7 @@ const DatePicker = ({
     e.preventDefault();
     try {
       const data = await generateDataObject(startDate, courseName, courseType, null, null);
+      console.log('data', data);
       // from stackoverflow, https://stackoverflow.com/questions/58376758/how-to-copy-a-json-data-to-the-clipboard-with-the-button
       let selBox = document.createElement('textarea');
       selBox.style.position = 'fixed';
@@ -56,7 +57,7 @@ const DatePicker = ({
       document.body.removeChild(selBox);
 
       // opens a new window in the browser at specified address(gitbook create new page)
-      window.open('https://github.com/rocketacademy/scheduler/new/main/src/data', "_blank")
+      // window.open('https://github.com/rocketacademy/scheduler/new/main/src/data', "_blank")
     } catch (error) {
       console.log(error);
     }
@@ -93,7 +94,7 @@ const DatePicker = ({
       document.body.removeChild(selBox);
 
       // opens a new window in the browser at specified address(gitbook create new page)
-      // window.open('https://github.com/rocketacademy/basics-docs/new/master/course-logistics', "_blank")
+      window.open('https://github.com/rocketacademy/basics-docs/new/master/course-logistics', "_blank")
     }
     catch(error) {
       console.log(error);

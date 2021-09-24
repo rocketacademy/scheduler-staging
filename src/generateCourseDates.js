@@ -116,7 +116,7 @@ const generateCourseDayObject = (dateObj, dateString, week, weekDay, date, utc, 
         dateObj = {
             ...dateObj, ...basicsData.days[courseDay]
         }
-    } else if (courseType === 'Bootcamp FT' || courseType === 'Bootcamp PT') {
+     } else if (courseType === 'Bootcamp FT' || courseType === 'Bootcamp PT') {
             dateObj = {
             ...dateObj, ...bootcampData.days[courseDay]
         }
@@ -192,17 +192,77 @@ const generateDataObject = (startDate, courseName, courseType, input, lessonDays
         }
         data.days[dateString] = dateObj;
 
+        // used to check for first day of basics course
         const firstDay = DateTime.fromFormat(startDate, "yyyy-MM-dd").toFormat('dd-MM-yyyy');
         const formattedDate = date.toFormat('dd-MM-yyyy');
-        console.log('date', formattedDate);
-        console.log('first day', firstDay);
-        console.log (formattedDate === firstDay);
 
         if (classDatesCount === data.totalCourseDays && courseType === 'Basics') {
             date = date.plus({ days: 2 }); 
             utc = getLocalDateTime (utc, 'T19:30', courseName, courseType, date);
             weekDay += 1;
             week += 1;
+
+            // checking if the last day of bootcamp is a friday, if not, we need to add days to schedule
+            // to make it end on a friday
+        } else if (courseType === 'Bootcamp FT' && courseDay === data.totalCourseDays && date.weekday < 5) {
+            
+            // getting the number days to Friday
+            const differenceInDays = 5 - date.weekday;
+            // getting the extra dates to Friday
+            const addedDates = [];
+            for (let i = 1; i <= differenceInDays; i += 1) {
+                const newDate =  date.plus({ days: i }).toFormat('dd-MM-yyyy');
+                addedDates.push(newDate);
+            }
+            // day 112 is the day of the project 6 feature freeze, we will add days to pad schedule
+            // before this day
+            let targetWeekday = Object.keys(data.days).filter(day => data.days[day].courseDay === 112);
+            targetWeekday = data.days[targetWeekday].weekDay;
+            // delete days after day 112 
+            const deleteDates = Object.keys(data.days).filter(day => data.days[day].courseDay > 112);
+            deleteDates.forEach((date) => {
+                delete data.days[date];
+            })
+            // put all dates we want to add to schedule in combinedDates array
+            var combinedDates = [...new Set([...deleteDates, ...addedDates])];
+            // attaching a courseday with the date, courseday starts at 113 because we deleted coursedays > 112
+            const newDateObjectsArray = [];
+            for (let k = 0; k < combinedDates.length; k += 1) {
+                const dateObj = {
+                    date: combinedDates[k],
+                    courseday: 113 + k
+                }
+                newDateObjectsArray.push(dateObj);
+            }
+            // third last day of course is feature freeze day
+            const thirdLastDay = newDateObjectsArray[newDateObjectsArray.length - 3].date;
+            // last day of course id project presentation day
+            const lastDay = newDateObjectsArray[newDateObjectsArray.length - 1].date;
+            // generate new dateObjs to replace the ones we deleted
+            for (let j = 0; j < newDateObjectsArray.length; j += 1) {
+                // helper function for adding dateObj to schedule data
+                const addDateObjToSchedule = (dateObj) => {
+                    data.days[newDateObjectsArray[j].date] = dateObj;
+                    data.days[newDateObjectsArray[j].date].courseDay = newDateObjectsArray[j].courseday;
+                }
+                const newDate = DateTime.fromFormat(newDateObjectsArray[j].date, 'dd-MM-yyyy');
+                utc = getLocalDateTime (utc, 'T13:00', courseName, courseType, newDate);
+                
+                if (newDateObjectsArray[j].date === thirdLastDay) {
+                    dateObj = generateCourseDayObject (dateObj, newDateObjectsArray[j].date, week, targetWeekday, newDate, utc, courseType, 113);
+                    addDateObjToSchedule(dateObj);
+                } else if (newDateObjectsArray[j].date === lastDay) {
+                    dateObj = generateCourseDayObject (dateObj, newDateObjectsArray[j].date, week, targetWeekday, newDate, utc, courseType, 115);
+                    addDateObjToSchedule(dateObj);
+                    // content is the same for all other days
+                } else {
+                    dateObj = generateCourseDayObject (dateObj, newDateObjectsArray[j].date, week, targetWeekday, newDate, utc, courseType, 114);
+                    addDateObjToSchedule(dateObj);
+                }
+
+
+            }
+            console.log('updated data', data.days);
 
         } else {
             // first meeting of basics is a pre-course meeting that always starts on a saturday
