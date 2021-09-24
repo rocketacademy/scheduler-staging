@@ -50,7 +50,7 @@ const getLocalDateTime = (utc, timeString, courseName, courseType, date) => {
 }
 
 // helper function for deciding what goes in topLevelObject based on course type
-const generateTopLevelObject = (courseType, topLevelObject, lessonDays) => {
+const generateTopLevelObject = (courseType, topLevelObject, lessonDays, courseName) => {
     console.log('lesson days', lessonDays);
 
         if (courseType === 'Basics') {
@@ -62,14 +62,23 @@ const generateTopLevelObject = (courseType, topLevelObject, lessonDays) => {
             };
         } else if (courseType === 'Bootcamp FT' || courseType === 'Bootcamp PT') {
             let bootcampDays;
+            // TODO:  this is to be removed when ftbc4 finishes
+            let startIndex;
+
             if (courseType === 'Bootcamp FT') {
                 bootcampDays = bootcampData.daysOfWeek.fullTime;
+                startIndex = bootcampData.courseStartIndex;
+                if (courseName === '4') {
+                    startIndex = 4;
+                }
             } else {
                 bootcampDays = bootcampData.daysOfWeek.partTime;
+                startIndex = bootcampData.courseStartIndex;
             }
+            console.log('start index', startIndex)
             topLevelObject = {
                 daysOfWeek: bootcampDays,
-                courseStartIndex: bootcampData.courseStartIndex,
+                courseStartIndex: startIndex,
                 totalCourseDays: bootcampData.totalCourseDays,
                 ...topLevelObject
             }
@@ -152,7 +161,7 @@ const generateDataObject = (startDate, courseName, courseType, input, lessonDays
             days: {}
         };
 
-    data = generateTopLevelObject(courseType, topLevelObject, lessonDays);
+    data = generateTopLevelObject(courseType, topLevelObject, lessonDays, courseName);
 
     // set the number of course days based on course type
     if (courseType === 'Basics') {
@@ -168,7 +177,7 @@ const generateDataObject = (startDate, courseName, courseType, input, lessonDays
         const dateString = date.toFormat('dd-MM-yyyy');
 
         // setting filename from start date, end date, courseName of course 
-        // if this consition is met, dateString will be the end date of course
+        // if this condition is met, dateString will be the end date of course
         if (courseDay + 1 === data.totalCourseDays) {
             // start date
             const displayDate = DateTime.fromFormat(startDate, "yyyy-MM-dd");
@@ -194,9 +203,6 @@ const generateDataObject = (startDate, courseName, courseType, input, lessonDays
 
         const firstDay = DateTime.fromFormat(startDate, "yyyy-MM-dd").toFormat('dd-MM-yyyy');
         const formattedDate = date.toFormat('dd-MM-yyyy');
-        console.log('date', formattedDate);
-        console.log('first day', firstDay);
-        console.log (formattedDate === firstDay);
 
         if (classDatesCount === data.totalCourseDays && courseType === 'Basics') {
             date = date.plus({ days: 2 }); 
@@ -233,7 +239,10 @@ const generateDataObject = (startDate, courseName, courseType, input, lessonDays
         // increase classDatesCount regardless of whether it is a public holiday
         classDatesCount += 1;
     }
-
+    // TODO: needs to be removed after ftbc4 are finished
+    if (courseType === 'Bootcamp FT' && courseName === '4') {
+        data.days['09-07-2021'].dayNumber = 1;
+    }
     return data;
 }
 
