@@ -1,5 +1,8 @@
 {
-  "daysOfWeek": [1, 6],
+  "daysOfWeek": [
+    1,
+    6
+  ],
   "courseStartIndex": 0,
   "totalCourseDays": 116,
   "courseType": "Bootcamp PT",
@@ -18,8 +21,14 @@
           "preClass": {},
           "inClass": {
             "items": [
-              { "name": "Day 1 Photo!", "url": "" },
-              { "name": "Course and Student Introductions", "url": "" }
+              {
+                "name": "Day 1 Photo!",
+                "url": ""
+              },
+              {
+                "name": "Course and Student Introductions",
+                "url": ""
+              }
             ]
           },
           "postClass": {}
@@ -36,7 +45,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -142,7 +156,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -189,7 +208,9 @@
           },
           "inClass": {
             "items": [
-              { "name": "Review 1 student's 1.POCE.1: Noodle Recipe Website" },
+              {
+                "name": "Review 1 student's 1.POCE.1: Noodle Recipe Website"
+              },
               {
                 "name": "1.ICE.1: Drawing DOM (continued)",
                 "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.ice-in-class-exercises/1.ice.1-drawing-dom"
@@ -224,7 +245,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -271,7 +297,10 @@
           },
           "inClass": {
             "items": [
-              { "name": "Review 1 student's 1.POCE.2: High Card", "url": "" },
+              {
+                "name": "Review 1 student's 1.POCE.2: High Card",
+                "url": ""
+              },
               {
                 "name": "1.ICE.2: Timeout / High Card Redux",
                 "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.ice-in-class-exercises/1.ice.2-high-card-redux"
@@ -306,7 +335,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -349,7 +383,9 @@
           },
           "inClass": {
             "items": [
-              { "name": "Review 1 student's 1.POCE.3: Match Game" },
+              {
+                "name": "Review 1 student's 1.POCE.3: Match Game"
+              },
               {
                 "name": "1.ICE.3: setInterval",
                 "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.ice-in-class-exercises/1.ice.3-setinterval"
@@ -388,7 +424,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -431,7 +472,10 @@
           },
           "inClass": {
             "items": [
-              { "name": "Review 1 student's 1.POCE.4: Timer", "url": "" }
+              {
+                "name": "Review 1 student's 1.POCE.4: Timer",
+                "url": ""
+              }
             ]
           },
           "postClass": {
@@ -466,7 +510,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -508,7 +557,11 @@
             ]
           },
           "inClass": {
-            "items": [{ "name": "Review 1 student's 1.POCE.5: Tic Tac Toe" }]
+            "items": [
+              {
+                "name": "Review 1 student's 1.POCE.5: Tic Tac Toe"
+              }
+            ]
           },
           "postClass": {}
         },
@@ -535,7 +588,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -612,7 +670,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -692,7 +755,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -765,7 +833,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -842,7 +915,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -941,7 +1019,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1050,7 +1133,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1102,10 +1190,6 @@
           "postClass": {
             "items": [
               {
-                "name": "1.POCE.7: Flexbox Calendar",
-                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.poce-post-class-exercises/1.poce.7-flexbox-calendar"
-              },
-              {
                 "name": "2.POCE.2: CSS Reader",
                 "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.poce-post-class-exercises/2.poce.2-css-reader"
               }
@@ -1124,7 +1208,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1211,7 +1300,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1303,7 +1397,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1381,7 +1480,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1462,7 +1566,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1536,7 +1645,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1612,7 +1726,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1688,7 +1807,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1768,7 +1892,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1834,7 +1963,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1913,7 +2047,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2174,7 +2313,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2258,7 +2402,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2339,7 +2488,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2420,7 +2574,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2497,7 +2656,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2509,7 +2673,11 @@
           "type": "projects",
           "projectStart": {},
           "projectDue": {
-            "items": [{ "name": "Project 2 deadline to post ideas in Slack" }]
+            "items": [
+              {
+                "name": "Project 2 deadline to post ideas in Slack"
+              }
+            ]
           },
           "preClass": {},
           "inClass": {},
@@ -2577,7 +2745,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2640,7 +2813,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2721,7 +2899,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2796,7 +2979,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2862,7 +3050,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2921,7 +3114,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2932,7 +3130,13 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": { "items": [{ "name": "Project 2 MVP (deployed)" }] },
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 2 MVP (deployed)"
+              }
+            ]
+          },
           "preClass": {},
           "inClass": {
             "items": [
@@ -2995,7 +3199,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3061,7 +3270,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3127,7 +3341,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3138,7 +3357,13 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": { "items": [{ "name": "Project 2 Feature Freeze" }] },
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 2 Feature Freeze"
+              }
+            ]
+          },
           "preClass": {},
           "inClass": {
             "items": [
@@ -3186,7 +3411,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3278,7 +3508,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3370,7 +3605,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3451,7 +3691,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3528,7 +3773,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3606,7 +3856,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3680,7 +3935,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3750,7 +4010,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3832,7 +4097,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3927,7 +4197,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4011,7 +4286,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4097,13 +4377,22 @@
               {
                 "name": "D.4: Interview Strategies",
                 "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.4-interview-strategies"
+              },
+              {
+                "name": "D.5.1: Arrays - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.1-arrays#pre-class"
               }
             ]
           },
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4172,29 +4461,20 @@
           "preClass": {
             "items": [
               {
-                "name": "D.5.1: Arrays - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.1-arrays#pre-class"
+                "name": "D.4.1 Introduction to Algorithm Problems",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.4-interview-strategies/d.4.1-introduction-to-algorithm-problems#pre-class"
               }
             ]
           },
-          "inClass": {
-            "items": [
-              {
-                "name": "D.5.1: Arrays - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.1-arrays#part-1"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "D.5.1: Arrays - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.1-arrays#part-1"
-              }
-            ]
-          }
+          "inClass": {},
+          "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4238,7 +4518,13 @@
               }
             ]
           },
-          "inClass": { "items": [{ "name": "AJAX Cards Redux" }] },
+          "inClass": {
+            "items": [
+              {
+                "name": "AJAX Cards Redux"
+              }
+            ]
+          },
           "postClass": {}
         },
         "css": {
@@ -4249,25 +4535,30 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": { "items": [] },
+          "preClass": {},
           "inClass": {
             "items": [
               {
-                "name": "D.5.1: Arrays - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.1-arrays#part-2"
+                "name": "D.5.1: Arrays - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.1-arrays#part-1"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.1: Arrays - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.1-arrays#part-2"
+                "name": "D.5.1: Arrays - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.1-arrays#part-1"
               }
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4279,7 +4570,11 @@
           "type": "projects",
           "projectStart": {},
           "projectDue": {
-            "items": [{ "name": "Deadline to post Project 3 ideas in Slack" }]
+            "items": [
+              {
+                "name": "Deadline to post Project 3 ideas in Slack"
+              }
+            ]
           },
           "preClass": {},
           "inClass": {},
@@ -4325,31 +4620,31 @@
         "dsa": {
           "type": "dsa",
           "preClass": {
-            "items": [
-              {
-                "name": "D.6: Binary Search - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.6-binary-search#pre-class"
-              }
-            ]
+            "items": []
           },
           "inClass": {
             "items": [
               {
-                "name": "D.6: Binary Search - Part 1 ",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.6-binary-search#part-1"
+                "name": "D.5.1: Arrays - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.1-arrays#part-2"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.6: Binary Search - Part 1 ",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.6-binary-search#part-1"
+                "name": "D.5.1: Arrays - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.1-arrays#part-2"
               }
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4407,29 +4702,34 @@
           "preClass": {
             "items": [
               {
-                "name": "D.7: Sliding Windows - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-sliding-windows#pre-class"
+                "name": "D.6: Binary Search - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.6-binary-search#pre-class"
               }
             ]
           },
           "inClass": {
             "items": [
               {
-                "name": "D.7: Sliding Windows - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-sliding-windows#part-1"
+                "name": "D.6: Binary Search - Part 1 ",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.6-binary-search#part-1"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.7: Sliding Windows - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-sliding-windows#part-1"
+                "name": "D.6: Binary Search - Part 1 ",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.6-binary-search#part-1"
               }
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4487,29 +4787,34 @@
           "preClass": {
             "items": [
               {
-                "name": "D.5.2: Hash Tables - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables"
+                "name": "D.7: Sliding Windows - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-sliding-windows#pre-class"
               }
             ]
           },
           "inClass": {
             "items": [
               {
-                "name": "D.5.2: Hash Tables - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables#part-1"
+                "name": "D.7: Sliding Windows - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-sliding-windows#part-1"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.2: Hash Tables - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables#part-1"
+                "name": "D.7: Sliding Windows - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-sliding-windows#part-1"
               }
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4564,25 +4869,37 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "D.5.2: Hash Tables - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables"
+              }
+            ]
+          },
           "inClass": {
             "items": [
               {
-                "name": "D.5.2: Hash Tables - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables#part-2"
+                "name": "D.5.2: Hash Tables - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables#part-1"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.2: Hash Tables - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables#part-2"
+                "name": "D.5.2: Hash Tables - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables#part-1"
               }
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4648,32 +4965,30 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.5.3: Stacks - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#pre-class"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {
             "items": [
               {
-                "name": "D.5.3: Stacks - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#part-1"
+                "name": "D.5.2: Hash Tables - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables#part-2"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.3: Stacks - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#part-1"
+                "name": "D.5.2: Hash Tables - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables#part-2"
               }
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4739,25 +5054,37 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "D.5.3: Stacks - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#pre-class"
+              }
+            ]
+          },
           "inClass": {
             "items": [
               {
-                "name": "D.5.3: Stacks - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#part-2"
+                "name": "D.5.3: Stacks - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#part-1"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.3: Stacks - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#part-2"
+                "name": "D.5.3: Stacks - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#part-1"
               }
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4812,32 +5139,30 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.5.4: Queues - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.4-queues#pre-class"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {
             "items": [
               {
-                "name": "D.5.4: Queues - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.4-queues#part-1"
+                "name": "D.5.3: Stacks - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#part-2"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.4: Queues - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.4-queues#part-1"
+                "name": "D.5.3: Stacks - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#part-2"
               }
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4920,33 +5245,34 @@
           "preClass": {
             "items": [
               {
-                "name": "D.6: Object-Oriented Programming",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.6-intro-to-object-oriented-programming"
-              },
-              {
-                "name": "D.5.5: Linked Lists - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#pre-class"
+                "name": "D.5.4: Queues - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.4-queues#pre-class"
               }
             ]
           },
           "inClass": {
             "items": [
               {
-                "name": "D.5.5: Linked Lists - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-1"
+                "name": "D.5.4: Queues - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.4-queues#part-1"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.5: Linked Lists - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-1"
+                "name": "D.5.4: Queues - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.4-queues#part-1"
               }
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5013,11 +5339,41 @@
         },
         "dsa": {
           "type": "dsa",
+          "preClass": {
+            "items": [
+              {
+                "name": "D.6: Object-Oriented Programming",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.6-intro-to-object-oriented-programming"
+              },
+              {
+                "name": "D.5.5: Linked Lists - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#pre-class"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "D.5.5: Linked Lists - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-1"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "D.5.5: Linked Lists - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-1"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
           "preClass": {},
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5116,7 +5472,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5197,18 +5558,16 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.8: Sorting Algorithms",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.8-sorting-algorithms"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5281,11 +5640,23 @@
         },
         "dsa": {
           "type": "dsa",
+          "preClass": {
+            "items": [
+              {
+                "name": "D.8: Sorting Algorithms",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.8-sorting-algorithms"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {}
+        },
+        "ux": {
+          "type": "ux",
           "preClass": {},
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5362,7 +5733,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5456,7 +5832,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5526,24 +5907,15 @@
         "dsa": {
           "type": "dsa",
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "D.5.5: Linked Lists - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-2"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "D.5.5: Linked Lists - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-2"
-              }
-            ]
-          }
+          "inClass": {},
+          "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5609,21 +5981,26 @@
           "inClass": {
             "items": [
               {
-                "name": "D.5.5: Linked Lists - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-3"
+                "name": "D.5.5: Linked Lists - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-2"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.5: Linked Lists - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-3"
+                "name": "D.5.5: Linked Lists - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-2"
               }
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5685,32 +6062,30 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.7: Recursion - Required Reading",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#required-reading"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {
             "items": [
               {
-                "name": "D.7: Recursion - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-1"
+                "name": "D.5.5: Linked Lists - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-3"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.7: Recursion - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-1"
+                "name": "D.5.5: Linked Lists - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-3"
               }
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5722,7 +6097,11 @@
           "type": "projects",
           "projectStart": {},
           "projectDue": {
-            "items": [{ "name": "Project 4 deadline to post ideas to Slack" }]
+            "items": [
+              {
+                "name": "Project 4 deadline to post ideas to Slack"
+              }
+            ]
           },
           "preClass": {},
           "inClass": {},
@@ -5767,25 +6146,37 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "D.7: Recursion - Required Reading",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#required-reading"
+              }
+            ]
+          },
           "inClass": {
             "items": [
               {
-                "name": "D.7: Recursion - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-2"
+                "name": "D.7: Recursion - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-1"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.7: Recursion - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-2"
+                "name": "D.7: Recursion - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-1"
               }
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5837,21 +6228,26 @@
           "inClass": {
             "items": [
               {
-                "name": "D.7: Recursion - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-3"
+                "name": "D.7: Recursion - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-2"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.7: Recursion - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-3"
+                "name": "D.7: Recursion - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-2"
               }
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5906,32 +6302,30 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.11.1: Recursive Backtracking - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.11-notable-patterns/d.11.1-recursive-backtracking#pre-class"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {
             "items": [
               {
-                "name": "D.11.1: Recursive Backtracking - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.11-notable-patterns/d.11.1-recursive-backtracking#part-1"
+                "name": "D.7: Recursion - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-3"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.11.1: Recursive Backtracking - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.11-notable-patterns/d.11.1-recursive-backtracking#part-1"
+                "name": "D.7: Recursion - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-3"
               }
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5989,29 +6383,34 @@
           "preClass": {
             "items": [
               {
-                "name": "D.5.6: Trees - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#pre-class"
+                "name": "D.11.1: Recursive Backtracking - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.11-notable-patterns/d.11.1-recursive-backtracking#pre-class"
               }
             ]
           },
           "inClass": {
             "items": [
               {
-                "name": "D.5.6: Trees - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-1"
+                "name": "D.11.1: Recursive Backtracking - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.11-notable-patterns/d.11.1-recursive-backtracking#part-1"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.6: Trees - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-1"
+                "name": "D.11.1: Recursive Backtracking - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.11-notable-patterns/d.11.1-recursive-backtracking#part-1"
               }
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6066,25 +6465,37 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "D.5.6: Trees - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#pre-class"
+              }
+            ]
+          },
           "inClass": {
             "items": [
               {
-                "name": "D.5.6: Trees - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-2"
+                "name": "D.5.6: Trees - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-1"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.6: Trees - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-2"
+                "name": "D.5.6: Trees - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-1"
               }
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6143,21 +6554,26 @@
           "inClass": {
             "items": [
               {
-                "name": "D.5.6: Trees - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-3"
+                "name": "D.5.6: Trees - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-2"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.6: Trees - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-3"
+                "name": "D.5.6: Trees - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-2"
               }
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6169,7 +6585,11 @@
           "type": "projects",
           "projectStart": {},
           "projectDue": {
-            "items": [{ "name": "Project 4 MVP Deadline (deployed)" }]
+            "items": [
+              {
+                "name": "Project 4 MVP Deadline (deployed)"
+              }
+            ]
           },
           "preClass": {},
           "inClass": {
@@ -6178,7 +6598,9 @@
                 "name": "Project 4 Scrum",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
               },
-              { "name": "Project 4 In-Class Code Review" }
+              {
+                "name": "Project 4 In-Class Code Review"
+              }
             ]
           },
           "postClass": {
@@ -6219,21 +6641,26 @@
           "inClass": {
             "items": [
               {
-                "name": "D.5.6: Trees - Part 4",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-4"
+                "name": "D.5.6: Trees - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-3"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.6: Trees - Part 4",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-4"
+                "name": "D.5.6: Trees - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-3"
               }
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6292,21 +6719,26 @@
           "inClass": {
             "items": [
               {
-                "name": "D.5.6: Trees - Part 5",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-5"
+                "name": "D.5.6: Trees - Part 4",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-4"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.6: Trees - Part 5",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-5"
+                "name": "D.5.6: Trees - Part 4",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-4"
               }
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6317,7 +6749,13 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": { "items": [{ "name": "Project 4 Feature Freeze" }] },
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 4 Feature Freeze"
+              }
+            ]
+          },
           "preClass": {},
           "inClass": {
             "items": [
@@ -6365,21 +6803,26 @@
           "inClass": {
             "items": [
               {
-                "name": "D.5.6: Trees - Part 6",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-6"
+                "name": "D.5.6: Trees - Part 5",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-5"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.6: Trees - Part 6",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-6"
+                "name": "D.5.6: Trees - Part 5",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-5"
               }
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6435,10 +6878,29 @@
         "dsa": {
           "type": "dsa",
           "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "D.5.6: Trees - Part 6",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-6"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "D.5.6: Trees - Part 6",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-6"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6523,32 +6985,16 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.5.7: Graphs - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.7-graphs"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "D.5.7: Graphs - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.7-graphs#part-1"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "D.5.7: Graphs - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.7-graphs#part-1"
-              }
-            ]
-          }
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6625,11 +7071,37 @@
         },
         "dsa": {
           "type": "dsa",
+          "preClass": {
+            "items": [
+              {
+                "name": "D.5.7: Graphs - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.7-graphs"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "D.5.7: Graphs - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.7-graphs#part-1"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "D.5.7: Graphs - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.7-graphs#part-1"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
           "preClass": {},
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6692,24 +7164,15 @@
         "dsa": {
           "type": "dsa",
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "D.5.7: Graphs - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.7-graphs#part-2"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "D.5.7: Graphs - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.7-graphs#part-2"
-              }
-            ]
-          }
+          "inClass": {},
+          "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6786,32 +7249,30 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.5.8: Heaps - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.8-heaps#pre-class"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {
             "items": [
               {
-                "name": "D.5.8: Heaps - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.4-queues#part-1"
+                "name": "D.5.7: Graphs - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.7-graphs#part-2"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.8: Heaps - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.4-queues#part-1"
+                "name": "D.5.7: Graphs - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.7-graphs#part-2"
               }
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6873,25 +7334,37 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "D.5.8: Heaps - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.8-heaps#pre-class"
+              }
+            ]
+          },
           "inClass": {
             "items": [
               {
-                "name": "D.5.8: Heaps - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.8-heaps#part-2"
+                "name": "D.5.8: Heaps - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.4-queues#part-1"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.8: Heaps - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.8-heaps#part-2"
+                "name": "D.5.8: Heaps - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.4-queues#part-1"
               }
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6957,25 +7430,30 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
+          "preClass": {},
+          "inClass": {
             "items": [
               {
-                "name": "D.5.8: Heaps - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.8-heaps#part-3"
+                "name": "D.5.8: Heaps - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.8-heaps#part-2"
               }
             ]
           },
-          "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "D.5.8: Heaps - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.8-heaps#part-3"
+                "name": "D.5.8: Heaps - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.8-heaps#part-2"
               }
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7040,29 +7518,27 @@
           "preClass": {
             "items": [
               {
-                "name": "D.9: Dynamic Programming - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#pre-class"
+                "name": "D.5.8: Heaps - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.8-heaps#part-3"
               }
             ]
           },
-          "inClass": {
-            "items": [
-              {
-                "name": "D.9: Dynamic Programming - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#part-1"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "D.9: Dynamic Programming - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#part-1"
+                "name": "D.5.8: Heaps - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.8-heaps#part-3"
               }
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7117,25 +7593,37 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "D.9: Dynamic Programming - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#pre-class"
+              }
+            ]
+          },
           "inClass": {
             "items": [
               {
-                "name": "D.9: Dynamic Programming - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#part-2"
+                "name": "D.9: Dynamic Programming - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#part-1"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.9: Dynamic Programming - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#part-2"
+                "name": "D.9: Dynamic Programming - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#part-1"
               }
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7148,7 +7636,9 @@
           "projectStart": {},
           "projectDue": {
             "items": [
-              { "name": "Project 5 deadline to post ideas and teams in Slack" }
+              {
+                "name": "Project 5 deadline to post ideas and teams in Slack"
+              }
             ]
           },
           "preClass": {},
@@ -7198,21 +7688,26 @@
           "inClass": {
             "items": [
               {
-                "name": "D.9: Dynamic Programming - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#part-3"
+                "name": "D.9: Dynamic Programming - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#part-2"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.9: Dynamic Programming - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#part-3"
+                "name": "D.9: Dynamic Programming - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#part-2"
               }
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7260,40 +7755,30 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.10: Bit Manipulation - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.10-bit-manipulation#pre-class"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {
             "items": [
               {
-                "name": "DS&A Open Practice",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
-              },
-              {
-                "name": "D.10: Bit Manipulation - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.10-bit-manipulation#part-1"
+                "name": "D.9: Dynamic Programming - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#part-3"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "DS&A Open Practice",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
-              },
-              {
-                "name": "D.10: Bit Manipulation - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.10-bit-manipulation#part-1"
+                "name": "D.9: Dynamic Programming - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#part-3"
               }
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7348,12 +7833,23 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "D.10: Bit Manipulation - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.10-bit-manipulation#pre-class"
+              }
+            ]
+          },
           "inClass": {
             "items": [
               {
                 "name": "DS&A Open Practice",
                 "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              },
+              {
+                "name": "D.10: Bit Manipulation - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.10-bit-manipulation#part-1"
               }
             ]
           },
@@ -7362,11 +7858,20 @@
               {
                 "name": "DS&A Open Practice",
                 "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              },
+              {
+                "name": "D.10: Bit Manipulation - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.10-bit-manipulation#part-1"
               }
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7451,7 +7956,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7524,7 +8034,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7535,7 +8050,13 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": { "items": [{ "name": "Project 5 MVP (deployed)" }] },
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 5 MVP (deployed)"
+              }
+            ]
+          },
           "preClass": {},
           "inClass": {
             "items": [
@@ -7601,7 +8122,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7674,7 +8200,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7747,7 +8278,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7831,7 +8367,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7887,7 +8428,14 @@
         "dsa": {
           "type": "dsa",
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
@@ -7897,7 +8445,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7997,14 +8550,7 @@
         "dsa": {
           "type": "dsa",
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "DS&A Open Practice",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -8014,7 +8560,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8095,7 +8646,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8166,7 +8722,14 @@
         "dsa": {
           "type": "dsa",
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
@@ -8176,7 +8739,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8239,14 +8807,7 @@
         "dsa": {
           "type": "dsa",
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "DS&A Open Practice",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -8256,7 +8817,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8336,7 +8902,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8416,7 +8987,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8504,7 +9080,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8577,7 +9158,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8683,7 +9269,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8763,10 +9354,21 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
-          "cpDue": { "items": [{ "name": "Resume 1st Draft" }] },
+          "cpDue": {
+            "items": [
+              {
+                "name": "Resume 1st Draft"
+              }
+            ]
+          },
           "preClass": {
             "items": [
               {
@@ -8862,7 +9464,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8942,7 +9549,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {
@@ -9036,7 +9648,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -9116,10 +9733,21 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
-          "cpDue": { "items": [{ "name": "Job List 1st Draft" }] },
+          "cpDue": {
+            "items": [
+              {
+                "name": "Job List 1st Draft"
+              }
+            ]
+          },
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -9189,7 +9817,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -9273,7 +9906,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -9329,10 +9967,29 @@
         "dsa": {
           "type": "dsa",
           "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},

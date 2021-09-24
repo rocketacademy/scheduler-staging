@@ -1,18 +1,62 @@
 {
-  "daysOfWeek": [
-    1,
-    2,
-    3,
-    4,
-    5
-  ],
-  "courseStartIndex": 0,
-  "totalCourseDays": 115,
+  "daysOfWeek": [1, 2, 3, 4, 5],
+  "courseStartIndex": 4,
+  "totalCourseDays": 116,
   "courseType": "Bootcamp FT",
   "days": {
+    "09-07-2021": {
+      "courseDate": "09-07-2021",
+      "courseWeek": 1,
+      "weekDay": 1,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2021-07-09T05:00:00.000Z",
+      "courseDay": 0,
+      "dateTypes": {
+        "module": "Module 1: Frontend Basics",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              { "name": "Day 1 Photo!", "url": "" },
+              { "name": "Course and Student Introductions", "url": "" }
+            ]
+          },
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        }
+      }
+    },
     "12-07-2021": {
       "courseDate": "12-07-2021",
-      "courseWeek": 1,
+      "courseWeek": 2,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2021-07-12T05:00:00.000Z",
@@ -24,12 +68,24 @@
           "preClass": {
             "items": [
               {
+                "name": "1.0: Module 1 Overview",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.0-module-1-overview"
+              },
+              {
+                "name": "1.1: HTML",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.1-html"
+              },
+              {
                 "name": "1.1.0: Wireframes",
                 "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.1-html/1.1.0-wireframes"
               },
               {
                 "name": "1.1.1: HTML Basics",
                 "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.1-html/1.1.1-basic-html"
+              },
+              {
+                "name": "0.0: Module 0 Overview",
+                "url": "https://bootcamp.rocketacademy.co/0-language-and-tooling/0.0-module-0-overview"
               },
               {
                 "name": "0.1: New JS Syntax",
@@ -44,6 +100,10 @@
                 "url": "https://bootcamp.rocketacademy.co/0-language-and-tooling/0.2-es6/0.2.1-es6-basics"
               },
               {
+                "name": "1.2: DOM Review",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.2-dom-review"
+              },
+              {
                 "name": "1.2.1: DOM Review - Creating Elements",
                 "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.2-dom-review/1.2.1-creating-elements"
               },
@@ -55,14 +115,6 @@
           },
           "inClass": {
             "items": [
-              {
-                "name": "Day 1 Photo!",
-                "url": ""
-              },
-              {
-                "name": "Course and Student Introductions",
-                "url": ""
-              },
               {
                 "name": "1.ICE.1: Drawing DOM",
                 "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.ice-in-class-exercises/1.ice.1-drawing-dom"
@@ -90,12 +142,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -115,7 +162,7 @@
     },
     "13-07-2021": {
       "courseDate": "13-07-2021",
-      "courseWeek": 1,
+      "courseWeek": 2,
       "weekDay": 2,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2021-07-13T05:00:00.000Z",
@@ -142,9 +189,7 @@
           },
           "inClass": {
             "items": [
-              {
-                "name": "Review 1 student's 1.POCE.1: Noodle Recipe Website"
-              },
+              { "name": "Review 1 student's 1.POCE.1: Noodle Recipe Website" },
               {
                 "name": "1.ICE.1: Drawing DOM (continued)",
                 "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.ice-in-class-exercises/1.ice.1-drawing-dom"
@@ -179,12 +224,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -204,7 +244,7 @@
     },
     "14-07-2021": {
       "courseDate": "14-07-2021",
-      "courseWeek": 1,
+      "courseWeek": 2,
       "weekDay": 3,
       "dayNumber": 3,
       "meetingDateTimeUTC": "2021-07-14T05:00:00.000Z",
@@ -231,10 +271,7 @@
           },
           "inClass": {
             "items": [
-              {
-                "name": "Review 1 student's 1.POCE.2: High Card",
-                "url": ""
-              },
+              { "name": "Review 1 student's 1.POCE.2: High Card", "url": "" },
               {
                 "name": "1.ICE.2: Timeout / High Card Redux",
                 "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.ice-in-class-exercises/1.ice.2-high-card-redux"
@@ -269,12 +306,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -294,7 +326,7 @@
     },
     "15-07-2021": {
       "courseDate": "15-07-2021",
-      "courseWeek": 1,
+      "courseWeek": 2,
       "weekDay": 4,
       "dayNumber": 4,
       "meetingDateTimeUTC": "2021-07-15T05:00:00.000Z",
@@ -317,9 +349,7 @@
           },
           "inClass": {
             "items": [
-              {
-                "name": "Review 1 student's 1.POCE.3: Match Game"
-              },
+              { "name": "Review 1 student's 1.POCE.3: Match Game" },
               {
                 "name": "1.ICE.3: setInterval",
                 "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.ice-in-class-exercises/1.ice.3-setinterval"
@@ -358,12 +388,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -383,7 +408,7 @@
     },
     "16-07-2021": {
       "courseDate": "16-07-2021",
-      "courseWeek": 1,
+      "courseWeek": 2,
       "weekDay": 5,
       "dayNumber": 5,
       "meetingDateTimeUTC": "2021-07-16T05:00:00.000Z",
@@ -406,10 +431,7 @@
           },
           "inClass": {
             "items": [
-              {
-                "name": "Review 1 student's 1.POCE.4: Timer",
-                "url": ""
-              }
+              { "name": "Review 1 student's 1.POCE.4: Timer", "url": "" }
             ]
           },
           "postClass": {
@@ -444,12 +466,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -469,7 +486,7 @@
     },
     "19-07-2021": {
       "courseDate": "19-07-2021",
-      "courseWeek": 2,
+      "courseWeek": 3,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2021-07-19T05:00:00.000Z",
@@ -491,11 +508,7 @@
             ]
           },
           "inClass": {
-            "items": [
-              {
-                "name": "Review 1 student's 1.POCE.5: Tic Tac Toe"
-              }
-            ]
+            "items": [{ "name": "Review 1 student's 1.POCE.5: Tic Tac Toe" }]
           },
           "postClass": {}
         },
@@ -522,12 +535,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -562,7 +570,7 @@
     "20-07-2021": {
       "courseDay": null,
       "courseDate": "20-07-2021",
-      "courseWeek": 2,
+      "courseWeek": 3,
       "dayNumber": 2,
       "dateTypes": {
         "holidayType": "public holiday",
@@ -573,7 +581,7 @@
     },
     "21-07-2021": {
       "courseDate": "21-07-2021",
-      "courseWeek": 2,
+      "courseWeek": 3,
       "weekDay": 2,
       "dayNumber": 3,
       "meetingDateTimeUTC": "2021-07-21T05:00:00.000Z",
@@ -616,12 +624,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -655,7 +658,7 @@
     },
     "22-07-2021": {
       "courseDate": "22-07-2021",
-      "courseWeek": 2,
+      "courseWeek": 3,
       "weekDay": 3,
       "dayNumber": 4,
       "meetingDateTimeUTC": "2021-07-22T05:00:00.000Z",
@@ -701,12 +704,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -740,7 +738,7 @@
     },
     "23-07-2021": {
       "courseDate": "23-07-2021",
-      "courseWeek": 2,
+      "courseWeek": 3,
       "weekDay": 4,
       "dayNumber": 5,
       "meetingDateTimeUTC": "2021-07-23T05:00:00.000Z",
@@ -779,12 +777,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -818,7 +811,7 @@
     },
     "26-07-2021": {
       "courseDate": "26-07-2021",
-      "courseWeek": 3,
+      "courseWeek": 4,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2021-07-26T05:00:00.000Z",
@@ -861,12 +854,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -904,7 +892,7 @@
     },
     "27-07-2021": {
       "courseDate": "27-07-2021",
-      "courseWeek": 3,
+      "courseWeek": 4,
       "weekDay": 2,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2021-07-27T05:00:00.000Z",
@@ -929,12 +917,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -982,7 +965,7 @@
     },
     "28-07-2021": {
       "courseDate": "28-07-2021",
-      "courseWeek": 3,
+      "courseWeek": 4,
       "weekDay": 3,
       "dayNumber": 3,
       "meetingDateTimeUTC": "2021-07-28T05:00:00.000Z",
@@ -993,6 +976,10 @@
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "2.0: Module 2 Overview",
+                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.0-module-2-overview"
+              },
               {
                 "name": "2.1: My First Node.js Program",
                 "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.1-my-first-node-program"
@@ -1039,12 +1026,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1064,7 +1046,7 @@
     },
     "29-07-2021": {
       "courseDate": "29-07-2021",
-      "courseWeek": 3,
+      "courseWeek": 4,
       "weekDay": 4,
       "dayNumber": 4,
       "meetingDateTimeUTC": "2021-07-29T05:00:00.000Z",
@@ -1096,10 +1078,6 @@
           "postClass": {
             "items": [
               {
-                "name": "1.POCE.7: Flexbox Calendar",
-                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.poce-post-class-exercises/1.poce.7-flexbox-calendar"
-              },
-              {
                 "name": "2.POCE.2: CSS Reader",
                 "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.poce-post-class-exercises/2.poce.2-css-reader"
               }
@@ -1118,12 +1096,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1143,7 +1116,7 @@
     },
     "30-07-2021": {
       "courseDate": "30-07-2021",
-      "courseWeek": 3,
+      "courseWeek": 4,
       "weekDay": 5,
       "dayNumber": 5,
       "meetingDateTimeUTC": "2021-07-30T05:00:00.000Z",
@@ -1210,12 +1183,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1235,7 +1203,7 @@
     },
     "02-08-2021": {
       "courseDate": "02-08-2021",
-      "courseWeek": 4,
+      "courseWeek": 5,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2021-08-02T05:00:00.000Z",
@@ -1307,12 +1275,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1332,7 +1295,7 @@
     },
     "03-08-2021": {
       "courseDate": "03-08-2021",
-      "courseWeek": 4,
+      "courseWeek": 5,
       "weekDay": 2,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2021-08-03T05:00:00.000Z",
@@ -1390,12 +1353,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1415,7 +1373,7 @@
     },
     "04-08-2021": {
       "courseDate": "04-08-2021",
-      "courseWeek": 4,
+      "courseWeek": 5,
       "weekDay": 3,
       "dayNumber": 3,
       "meetingDateTimeUTC": "2021-08-04T05:00:00.000Z",
@@ -1476,12 +1434,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1501,7 +1454,7 @@
     },
     "05-08-2021": {
       "courseDate": "05-08-2021",
-      "courseWeek": 4,
+      "courseWeek": 5,
       "weekDay": 4,
       "dayNumber": 4,
       "meetingDateTimeUTC": "2021-08-05T05:00:00.000Z",
@@ -1555,12 +1508,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1580,7 +1528,7 @@
     },
     "06-08-2021": {
       "courseDate": "06-08-2021",
-      "courseWeek": 4,
+      "courseWeek": 5,
       "weekDay": 5,
       "dayNumber": 5,
       "meetingDateTimeUTC": "2021-08-06T05:00:00.000Z",
@@ -1636,12 +1584,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1662,7 +1605,7 @@
     "09-08-2021": {
       "courseDay": null,
       "courseDate": "09-08-2021",
-      "courseWeek": 5,
+      "courseWeek": 6,
       "dayNumber": 1,
       "dateTypes": {
         "holidayType": "public holiday",
@@ -1673,7 +1616,7 @@
     },
     "10-08-2021": {
       "courseDate": "10-08-2021",
-      "courseWeek": 5,
+      "courseWeek": 6,
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2021-08-10T05:00:00.000Z",
@@ -1729,12 +1672,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1754,7 +1692,7 @@
     },
     "11-08-2021": {
       "courseDate": "11-08-2021",
-      "courseWeek": 5,
+      "courseWeek": 6,
       "weekDay": 2,
       "dayNumber": 3,
       "meetingDateTimeUTC": "2021-08-11T05:00:00.000Z",
@@ -1814,12 +1752,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1839,7 +1772,7 @@
     },
     "12-08-2021": {
       "courseDate": "12-08-2021",
-      "courseWeek": 5,
+      "courseWeek": 6,
       "weekDay": 3,
       "dayNumber": 4,
       "meetingDateTimeUTC": "2021-08-12T05:00:00.000Z",
@@ -1885,12 +1818,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1910,7 +1838,7 @@
     },
     "13-08-2021": {
       "courseDate": "13-08-2021",
-      "courseWeek": 5,
+      "courseWeek": 6,
       "weekDay": 4,
       "dayNumber": 5,
       "meetingDateTimeUTC": "2021-08-13T05:00:00.000Z",
@@ -1969,12 +1897,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1994,7 +1917,7 @@
     },
     "16-08-2021": {
       "courseDate": "16-08-2021",
-      "courseWeek": 6,
+      "courseWeek": 7,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2021-08-16T05:00:00.000Z",
@@ -2095,7 +2018,7 @@
     },
     "17-08-2021": {
       "courseDate": "17-08-2021",
-      "courseWeek": 6,
+      "courseWeek": 7,
       "weekDay": 2,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2021-08-17T05:00:00.000Z",
@@ -2181,7 +2104,7 @@
     },
     "18-08-2021": {
       "courseDate": "18-08-2021",
-      "courseWeek": 6,
+      "courseWeek": 7,
       "weekDay": 3,
       "dayNumber": 3,
       "meetingDateTimeUTC": "2021-08-18T05:00:00.000Z",
@@ -2235,12 +2158,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2274,7 +2192,7 @@
     },
     "19-08-2021": {
       "courseDate": "19-08-2021",
-      "courseWeek": 6,
+      "courseWeek": 7,
       "weekDay": 4,
       "dayNumber": 4,
       "meetingDateTimeUTC": "2021-08-19T05:00:00.000Z",
@@ -2324,12 +2242,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2356,7 +2269,7 @@
     },
     "20-08-2021": {
       "courseDate": "20-08-2021",
-      "courseWeek": 6,
+      "courseWeek": 7,
       "weekDay": 5,
       "dayNumber": 5,
       "meetingDateTimeUTC": "2021-08-20T05:00:00.000Z",
@@ -2410,12 +2323,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2442,7 +2350,7 @@
     },
     "23-08-2021": {
       "courseDate": "23-08-2021",
-      "courseWeek": 7,
+      "courseWeek": 8,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2021-08-23T05:00:00.000Z",
@@ -2496,12 +2404,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2528,7 +2431,7 @@
     },
     "24-08-2021": {
       "courseDate": "24-08-2021",
-      "courseWeek": 7,
+      "courseWeek": 8,
       "weekDay": 2,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2021-08-24T05:00:00.000Z",
@@ -2578,12 +2481,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2595,11 +2493,7 @@
           "type": "projects",
           "projectStart": {},
           "projectDue": {
-            "items": [
-              {
-                "name": "Project 2 deadline to post ideas in Slack"
-              }
-            ]
+            "items": [{ "name": "Project 2 deadline to post ideas in Slack" }]
           },
           "preClass": {},
           "inClass": {},
@@ -2616,7 +2510,7 @@
     },
     "25-08-2021": {
       "courseDate": "25-08-2021",
-      "courseWeek": 7,
+      "courseWeek": 8,
       "weekDay": 3,
       "dayNumber": 3,
       "meetingDateTimeUTC": "2021-08-25T05:00:00.000Z",
@@ -2667,12 +2561,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2699,7 +2588,7 @@
     },
     "26-08-2021": {
       "courseDate": "26-08-2021",
-      "courseWeek": 7,
+      "courseWeek": 8,
       "weekDay": 4,
       "dayNumber": 4,
       "meetingDateTimeUTC": "2021-08-26T05:00:00.000Z",
@@ -2735,12 +2624,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2782,7 +2666,7 @@
     },
     "27-08-2021": {
       "courseDate": "27-08-2021",
-      "courseWeek": 7,
+      "courseWeek": 8,
       "weekDay": 5,
       "dayNumber": 5,
       "meetingDateTimeUTC": "2021-08-27T05:00:00.000Z",
@@ -2821,12 +2705,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2860,7 +2739,7 @@
     },
     "30-08-2021": {
       "courseDate": "30-08-2021",
-      "courseWeek": 8,
+      "courseWeek": 9,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2021-08-30T05:00:00.000Z",
@@ -2901,12 +2780,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2940,7 +2814,7 @@
     },
     "31-08-2021": {
       "courseDate": "31-08-2021",
-      "courseWeek": 8,
+      "courseWeek": 9,
       "weekDay": 2,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2021-08-31T05:00:00.000Z",
@@ -2972,12 +2846,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3011,7 +2880,7 @@
     },
     "01-09-2021": {
       "courseDate": "01-09-2021",
-      "courseWeek": 8,
+      "courseWeek": 9,
       "weekDay": 3,
       "dayNumber": 3,
       "meetingDateTimeUTC": "2021-09-01T05:00:00.000Z",
@@ -3036,12 +2905,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3052,13 +2916,7 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Project 2 MVP (deployed)"
-              }
-            ]
-          },
+          "projectDue": { "items": [{ "name": "Project 2 MVP (deployed)" }] },
           "preClass": {},
           "inClass": {
             "items": [
@@ -3089,7 +2947,7 @@
     },
     "02-09-2021": {
       "courseDate": "02-09-2021",
-      "courseWeek": 8,
+      "courseWeek": 9,
       "weekDay": 4,
       "dayNumber": 4,
       "meetingDateTimeUTC": "2021-09-02T05:00:00.000Z",
@@ -3121,12 +2979,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3160,7 +3013,7 @@
     },
     "03-09-2021": {
       "courseDate": "03-09-2021",
-      "courseWeek": 8,
+      "courseWeek": 9,
       "weekDay": 5,
       "dayNumber": 5,
       "meetingDateTimeUTC": "2021-09-03T05:00:00.000Z",
@@ -3192,12 +3045,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3231,7 +3079,7 @@
     },
     "06-09-2021": {
       "courseDate": "06-09-2021",
-      "courseWeek": 9,
+      "courseWeek": 10,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2021-09-06T05:00:00.000Z",
@@ -3263,12 +3111,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3279,13 +3122,7 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Project 2 Feature Freeze"
-              }
-            ]
-          },
+          "projectDue": { "items": [{ "name": "Project 2 Feature Freeze" }] },
           "preClass": {},
           "inClass": {
             "items": [
@@ -3308,7 +3145,7 @@
     },
     "07-09-2021": {
       "courseDate": "07-09-2021",
-      "courseWeek": 9,
+      "courseWeek": 10,
       "weekDay": 2,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2021-09-07T05:00:00.000Z",
@@ -3333,12 +3170,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3379,7 +3211,7 @@
     },
     "08-09-2021": {
       "courseDate": "08-09-2021",
-      "courseWeek": 9,
+      "courseWeek": 10,
       "weekDay": 3,
       "dayNumber": 3,
       "meetingDateTimeUTC": "2021-09-08T05:00:00.000Z",
@@ -3430,12 +3262,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3469,7 +3296,7 @@
     },
     "09-09-2021": {
       "courseDate": "09-09-2021",
-      "courseWeek": 9,
+      "courseWeek": 10,
       "weekDay": 4,
       "dayNumber": 4,
       "meetingDateTimeUTC": "2021-09-09T05:00:00.000Z",
@@ -3480,6 +3307,10 @@
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "4.0: Module 4 Overview",
+                "url": "https://bootcamp.rocketacademy.co/4-backend-structure/4.0-module-4-overview"
+              },
               {
                 "name": "4.1: ORM, Sequelize",
                 "url": "https://bootcamp.rocketacademy.co/4-backend-structure/4.1-orm-sequelize"
@@ -3523,12 +3354,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3555,7 +3381,7 @@
     },
     "10-09-2021": {
       "courseDate": "10-09-2021",
-      "courseWeek": 9,
+      "courseWeek": 10,
       "weekDay": 5,
       "dayNumber": 5,
       "meetingDateTimeUTC": "2021-09-10T05:00:00.000Z",
@@ -3609,12 +3435,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3641,7 +3462,7 @@
     },
     "13-09-2021": {
       "courseDate": "13-09-2021",
-      "courseWeek": 10,
+      "courseWeek": 11,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2021-09-13T05:00:00.000Z",
@@ -3691,12 +3512,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3716,7 +3532,7 @@
     },
     "14-09-2021": {
       "courseDate": "14-09-2021",
-      "courseWeek": 10,
+      "courseWeek": 11,
       "weekDay": 2,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2021-09-14T05:00:00.000Z",
@@ -3762,12 +3578,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3787,7 +3598,7 @@
     },
     "15-09-2021": {
       "courseDate": "15-09-2021",
-      "courseWeek": 10,
+      "courseWeek": 11,
       "weekDay": 3,
       "dayNumber": 3,
       "meetingDateTimeUTC": "2021-09-15T05:00:00.000Z",
@@ -3801,6 +3612,10 @@
               {
                 "name": "4.1.5: Sequelize Many-to-Many with Non-FK Attributes in \"Through Table\"",
                 "url": "https://bootcamp.rocketacademy.co/4-backend-structure/4.1-orm-sequelize/4.1.5-sequelize-many-to-many-with-non-fk-attributes-in-through-table"
+              },
+              {
+                "name": "5.0: Module 5 Overview",
+                "url": "https://bootcamp.rocketacademy.co/5-full-stack-applications/5.0-module-5-overview"
               },
               {
                 "name": "5.1: DOM Manipulation with Express App",
@@ -3837,12 +3652,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3862,7 +3672,7 @@
     },
     "16-09-2021": {
       "courseDate": "16-09-2021",
-      "courseWeek": 10,
+      "courseWeek": 11,
       "weekDay": 4,
       "dayNumber": 4,
       "meetingDateTimeUTC": "2021-09-16T05:00:00.000Z",
@@ -3912,12 +3722,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3937,7 +3742,7 @@
     },
     "17-09-2021": {
       "courseDate": "17-09-2021",
-      "courseWeek": 10,
+      "courseWeek": 11,
       "weekDay": 5,
       "dayNumber": 5,
       "meetingDateTimeUTC": "2021-09-17T05:00:00.000Z",
@@ -3987,12 +3792,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4026,7 +3826,7 @@
     },
     "20-09-2021": {
       "courseDate": "20-09-2021",
-      "courseWeek": 11,
+      "courseWeek": 12,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2021-09-20T05:00:00.000Z",
@@ -4071,6 +3871,10 @@
           "preClass": {
             "items": [
               {
+                "name": "D.0: DSA Overview",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.0-dsa-overview"
+              },
+              {
                 "name": "D.1: Intro to SWE Interviews",
                 "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.1-intro-to-swe-interviews"
               },
@@ -4083,12 +3887,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4115,7 +3914,7 @@
     },
     "21-09-2021": {
       "courseDate": "21-09-2021",
-      "courseWeek": 11,
+      "courseWeek": 12,
       "weekDay": 2,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2021-09-21T05:00:00.000Z",
@@ -4172,12 +3971,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4204,7 +3998,7 @@
     },
     "22-09-2021": {
       "courseDate": "22-09-2021",
-      "courseWeek": 11,
+      "courseWeek": 12,
       "weekDay": 3,
       "dayNumber": 3,
       "meetingDateTimeUTC": "2021-09-22T05:00:00.000Z",
@@ -4215,6 +4009,10 @@
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "6.0: Module 6 Overview",
+                "url": "https://bootcamp.rocketacademy.co/6-frontend-infrastructure/6.0-module-6-overview"
+              },
               {
                 "name": "6.1.1: Webpack with Local Modules",
                 "url": "https://bootcamp.rocketacademy.co/6-frontend-infrastructure/6.1-webpack/6.1.1-webpack-with-local-modules"
@@ -4259,18 +4057,17 @@
               {
                 "name": "D.4: Interview Strategies",
                 "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.4-interview-strategies"
+              },
+              {
+                "name": "D.5.1: Arrays - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.1-arrays#pre-class"
               }
             ]
           },
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4297,7 +4094,7 @@
     },
     "23-09-2021": {
       "courseDate": "23-09-2021",
-      "courseWeek": 11,
+      "courseWeek": 12,
       "weekDay": 4,
       "dayNumber": 4,
       "meetingDateTimeUTC": "2021-09-23T05:00:00.000Z",
@@ -4339,34 +4136,15 @@
           "preClass": {
             "items": [
               {
-                "name": "D.5.1: Arrays - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.1-arrays#pre-class"
+                "name": "D.4.1 Introduction to Algorithm Problems",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.4-interview-strategies/d.4.1-introduction-to-algorithm-problems#pre-class"
               }
             ]
           },
-          "inClass": {
-            "items": [
-              {
-                "name": "D.5.1: Arrays - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.1-arrays#part-1"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "D.5.1: Arrays - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.1-arrays#part-1"
-              }
-            ]
-          }
-        },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
           "inClass": {},
           "postClass": {}
         },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4393,7 +4171,7 @@
     },
     "24-09-2021": {
       "courseDate": "24-09-2021",
-      "courseWeek": 11,
+      "courseWeek": 12,
       "weekDay": 5,
       "dayNumber": 5,
       "meetingDateTimeUTC": "2021-09-24T05:00:00.000Z",
@@ -4410,13 +4188,7 @@
               }
             ]
           },
-          "inClass": {
-            "items": [
-              {
-                "name": "AJAX Cards Redux"
-              }
-            ]
-          },
+          "inClass": { "items": [{ "name": "AJAX Cards Redux" }] },
           "postClass": {}
         },
         "css": {
@@ -4427,32 +4199,25 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": []
-          },
+          "preClass": {},
           "inClass": {
             "items": [
               {
-                "name": "D.5.1: Arrays - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.1-arrays#part-2"
+                "name": "D.5.1: Arrays - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.1-arrays#part-1"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.1: Arrays - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.1-arrays#part-2"
+                "name": "D.5.1: Arrays - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.1-arrays#part-1"
               }
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4464,11 +4229,7 @@
           "type": "projects",
           "projectStart": {},
           "projectDue": {
-            "items": [
-              {
-                "name": "Deadline to post Project 3 ideas in Slack"
-              }
-            ]
+            "items": [{ "name": "Deadline to post Project 3 ideas in Slack" }]
           },
           "preClass": {},
           "inClass": {},
@@ -4485,7 +4246,7 @@
     },
     "27-09-2021": {
       "courseDate": "27-09-2021",
-      "courseWeek": 12,
+      "courseWeek": 13,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2021-09-27T05:00:00.000Z",
@@ -4502,6 +4263,79 @@
               }
             ]
           },
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": { "items": [] },
+          "inClass": {
+            "items": [
+              {
+                "name": "D.5.1: Arrays - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.1-arrays#part-2"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "D.5.1: Arrays - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.1-arrays#part-2"
+              }
+            ]
+          }
+        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 3 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 3 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "28-09-2021": {
+      "courseDate": "28-09-2021",
+      "courseWeek": 13,
+      "weekDay": 2,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2021-09-28T05:00:00.000Z",
+      "courseDay": 55,
+      "dateTypes": {
+        "module": "Module 6: Frontend Infrastructure",
+        "general": {
+          "type": "general",
+          "preClass": {},
           "inClass": {},
           "postClass": {}
         },
@@ -4538,12 +4372,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4575,13 +4404,13 @@
         }
       }
     },
-    "28-09-2021": {
-      "courseDate": "28-09-2021",
-      "courseWeek": 12,
-      "weekDay": 2,
-      "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-09-28T05:00:00.000Z",
-      "courseDay": 55,
+    "29-09-2021": {
+      "courseDate": "29-09-2021",
+      "courseWeek": 13,
+      "weekDay": 3,
+      "dayNumber": 3,
+      "meetingDateTimeUTC": "2021-09-29T05:00:00.000Z",
+      "courseDay": 56,
       "dateTypes": {
         "module": "Module 6: Frontend Infrastructure",
         "general": {
@@ -4623,12 +4452,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4660,13 +4484,13 @@
         }
       }
     },
-    "29-09-2021": {
-      "courseDate": "29-09-2021",
-      "courseWeek": 12,
-      "weekDay": 3,
-      "dayNumber": 3,
-      "meetingDateTimeUTC": "2021-09-29T05:00:00.000Z",
-      "courseDay": 56,
+    "30-09-2021": {
+      "courseDate": "30-09-2021",
+      "courseWeek": 13,
+      "weekDay": 4,
+      "dayNumber": 4,
+      "meetingDateTimeUTC": "2021-09-30T05:00:00.000Z",
+      "courseDay": 57,
       "dateTypes": {
         "module": "Module 6: Frontend Infrastructure",
         "general": {
@@ -4708,90 +4532,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "projects": {
-          "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 3 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 3 Implementation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game"
-              }
-            ]
-          }
-        }
-      }
-    },
-    "30-09-2021": {
-      "courseDate": "30-09-2021",
-      "courseWeek": 12,
-      "weekDay": 4,
-      "dayNumber": 4,
-      "meetingDateTimeUTC": "2021-09-30T05:00:00.000Z",
-      "courseDay": 57,
-      "dateTypes": {
-        "module": "Module 6: Frontend Infrastructure",
-        "general": {
-          "type": "general",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "css": {
-          "type": "css",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "dsa": {
-          "type": "dsa",
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "D.5.2: Hash Tables - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables#part-2"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "D.5.2: Hash Tables - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables#part-2"
-              }
-            ]
-          }
-        },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4825,7 +4566,7 @@
     },
     "01-10-2021": {
       "courseDate": "01-10-2021",
-      "courseWeek": 12,
+      "courseWeek": 13,
       "weekDay": 5,
       "dayNumber": 5,
       "meetingDateTimeUTC": "2021-10-01T05:00:00.000Z",
@@ -4857,37 +4598,25 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.5.3: Stacks - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#pre-class"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {
             "items": [
               {
-                "name": "D.5.3: Stacks - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#part-1"
+                "name": "D.5.2: Hash Tables - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables#part-2"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.3: Stacks - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#part-1"
+                "name": "D.5.2: Hash Tables - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables#part-2"
               }
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4932,7 +4661,7 @@
     },
     "04-10-2021": {
       "courseDate": "04-10-2021",
-      "courseWeek": 13,
+      "courseWeek": 14,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2021-10-04T05:00:00.000Z",
@@ -4953,30 +4682,32 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "D.5.3: Stacks - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#pre-class"
+              }
+            ]
+          },
           "inClass": {
             "items": [
               {
-                "name": "D.5.3: Stacks - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#part-2"
+                "name": "D.5.3: Stacks - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#part-1"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.3: Stacks - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#part-2"
+                "name": "D.5.3: Stacks - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#part-1"
               }
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5010,7 +4741,7 @@
     },
     "05-10-2021": {
       "courseDate": "05-10-2021",
-      "courseWeek": 13,
+      "courseWeek": 14,
       "weekDay": 2,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2021-10-05T05:00:00.000Z",
@@ -5031,37 +4762,25 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.5.4: Queues - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.4-queues#pre-class"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {
             "items": [
               {
-                "name": "D.5.4: Queues - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.4-queues#part-1"
+                "name": "D.5.3: Stacks - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#part-2"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.4: Queues - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.4-queues#part-1"
+                "name": "D.5.3: Stacks - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#part-2"
               }
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5106,7 +4825,7 @@
     },
     "06-10-2021": {
       "courseDate": "06-10-2021",
-      "courseWeek": 13,
+      "courseWeek": 14,
       "weekDay": 3,
       "dayNumber": 3,
       "meetingDateTimeUTC": "2021-10-06T05:00:00.000Z",
@@ -5132,6 +4851,86 @@
               }
             ]
           }
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {
+            "items": [
+              {
+                "name": "D.5.4: Queues - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.4-queues#pre-class"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "D.5.4: Queues - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.4-queues#part-1"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "D.5.4: Queues - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.4-queues#part-1"
+              }
+            ]
+          }
+        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 3 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 3 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "07-10-2021": {
+      "courseDate": "07-10-2021",
+      "courseWeek": 14,
+      "weekDay": 4,
+      "dayNumber": 4,
+      "meetingDateTimeUTC": "2021-10-07T05:00:00.000Z",
+      "courseDay": 62,
+      "dateTypes": {
+        "module": "Module 6: Frontend Infrastructure",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         },
         "css": {
           "type": "css",
@@ -5170,76 +4969,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "projects": {
-          "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 3 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 3 Implementation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game"
-              }
-            ]
-          }
-        }
-      }
-    },
-    "07-10-2021": {
-      "courseDate": "07-10-2021",
-      "courseWeek": 13,
-      "weekDay": 4,
-      "dayNumber": 4,
-      "meetingDateTimeUTC": "2021-10-07T05:00:00.000Z",
-      "courseDay": 62,
-      "dateTypes": {
-        "module": "Module 6: Frontend Infrastructure",
-        "general": {
-          "type": "general",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "css": {
-          "type": "css",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "dsa": {
-          "type": "dsa",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5280,7 +5010,7 @@
     },
     "08-10-2021": {
       "courseDate": "08-10-2021",
-      "courseWeek": 13,
+      "courseWeek": 14,
       "weekDay": 5,
       "dayNumber": 5,
       "meetingDateTimeUTC": "2021-10-08T05:00:00.000Z",
@@ -5291,6 +5021,10 @@
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "7.0: Module 7 Overview",
+                "url": "https://bootcamp.rocketacademy.co/7-react/7.0-module-7-overview"
+              },
               {
                 "name": "7.1: JSX Intro",
                 "url": "https://bootcamp.rocketacademy.co/7-react/7.1-jsx-intro"
@@ -5334,12 +5068,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5366,7 +5095,7 @@
     },
     "11-10-2021": {
       "courseDate": "11-10-2021",
-      "courseWeek": 14,
+      "courseWeek": 15,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2021-10-11T05:00:00.000Z",
@@ -5420,23 +5149,11 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.8: Sorting Algorithms",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.8-sorting-algorithms"
-              }
-            ]
-          },
-          "inClass": {},
-          "postClass": {}
-        },
-        "ux": {
-          "type": "ux",
           "preClass": {},
           "inClass": {},
           "postClass": {}
         },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5463,7 +5180,7 @@
     },
     "12-10-2021": {
       "courseDate": "12-10-2021",
-      "courseWeek": 14,
+      "courseWeek": 15,
       "weekDay": 2,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2021-10-12T05:00:00.000Z",
@@ -5509,16 +5226,18 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "D.8: Sorting Algorithms",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.8-sorting-algorithms"
+              }
+            ]
+          },
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5545,7 +5264,7 @@
     },
     "13-10-2021": {
       "courseDate": "13-10-2021",
-      "courseWeek": 14,
+      "courseWeek": 15,
       "weekDay": 3,
       "dayNumber": 3,
       "meetingDateTimeUTC": "2021-10-13T05:00:00.000Z",
@@ -5595,12 +5314,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5640,7 +5354,7 @@
     },
     "14-10-2021": {
       "courseDate": "14-10-2021",
-      "courseWeek": 14,
+      "courseWeek": 15,
       "weekDay": 4,
       "dayNumber": 4,
       "meetingDateTimeUTC": "2021-10-14T05:00:00.000Z",
@@ -5694,12 +5408,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5733,7 +5442,7 @@
     },
     "15-10-2021": {
       "courseDate": "15-10-2021",
-      "courseWeek": 14,
+      "courseWeek": 15,
       "weekDay": 5,
       "dayNumber": 5,
       "meetingDateTimeUTC": "2021-10-15T05:00:00.000Z",
@@ -5769,29 +5478,10 @@
         "dsa": {
           "type": "dsa",
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "D.5.5: Linked Lists - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-2"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "D.5.5: Linked Lists - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-2"
-              }
-            ]
-          }
-        },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
           "inClass": {},
           "postClass": {}
         },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5818,7 +5508,7 @@
     },
     "18-10-2021": {
       "courseDate": "18-10-2021",
-      "courseWeek": 15,
+      "courseWeek": 16,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2021-10-18T05:00:00.000Z",
@@ -5857,26 +5547,21 @@
           "inClass": {
             "items": [
               {
-                "name": "D.5.5: Linked Lists - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-3"
+                "name": "D.5.5: Linked Lists - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-2"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.5: Linked Lists - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-3"
+                "name": "D.5.5: Linked Lists - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-2"
               }
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5903,7 +5588,7 @@
     },
     "19-10-2021": {
       "courseDate": "19-10-2021",
-      "courseWeek": 15,
+      "courseWeek": 16,
       "weekDay": 2,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2021-10-19T05:00:00.000Z",
@@ -5938,37 +5623,25 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.7: Recursion - Required Reading",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#required-reading"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {
             "items": [
               {
-                "name": "D.7: Recursion - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-1"
+                "name": "D.5.5: Linked Lists - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-3"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.7: Recursion - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-1"
+                "name": "D.5.5: Linked Lists - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-3"
               }
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5980,11 +5653,7 @@
           "type": "projects",
           "projectStart": {},
           "projectDue": {
-            "items": [
-              {
-                "name": "Project 4 deadline to post ideas to Slack"
-              }
-            ]
+            "items": [{ "name": "Project 4 deadline to post ideas to Slack" }]
           },
           "preClass": {},
           "inClass": {},
@@ -6001,7 +5670,7 @@
     },
     "20-10-2021": {
       "courseDate": "20-10-2021",
-      "courseWeek": 15,
+      "courseWeek": 16,
       "weekDay": 3,
       "dayNumber": 3,
       "meetingDateTimeUTC": "2021-10-20T05:00:00.000Z",
@@ -6029,30 +5698,32 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "D.7: Recursion - Required Reading",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#required-reading"
+              }
+            ]
+          },
           "inClass": {
             "items": [
               {
-                "name": "D.7: Recursion - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-2"
+                "name": "D.7: Recursion - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-1"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.7: Recursion - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-2"
+                "name": "D.7: Recursion - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-1"
               }
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6079,7 +5750,7 @@
     },
     "21-10-2021": {
       "courseDate": "21-10-2021",
-      "courseWeek": 15,
+      "courseWeek": 16,
       "weekDay": 4,
       "dayNumber": 4,
       "meetingDateTimeUTC": "2021-10-21T05:00:00.000Z",
@@ -6104,26 +5775,21 @@
           "inClass": {
             "items": [
               {
-                "name": "D.7: Recursion - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-3"
+                "name": "D.7: Recursion - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-2"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.7: Recursion - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-3"
+                "name": "D.7: Recursion - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-2"
               }
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6157,11 +5823,84 @@
     },
     "22-10-2021": {
       "courseDate": "22-10-2021",
-      "courseWeek": 15,
+      "courseWeek": 16,
       "weekDay": 5,
       "dayNumber": 5,
       "meetingDateTimeUTC": "2021-10-22T05:00:00.000Z",
       "courseDay": 73,
+      "dateTypes": {
+        "module": "Module 7: React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "D.7: Recursion - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-3"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "D.7: Recursion - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-3"
+              }
+            ]
+          }
+        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 4 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 4 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "25-10-2021": {
+      "courseDate": "25-10-2021",
+      "courseWeek": 17,
+      "weekDay": 1,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2021-10-25T05:00:00.000Z",
+      "courseDay": 74,
       "dateTypes": {
         "module": "Module 7: React",
         "general": {
@@ -6203,12 +5942,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6240,13 +5974,13 @@
         }
       }
     },
-    "25-10-2021": {
-      "courseDate": "25-10-2021",
-      "courseWeek": 16,
-      "weekDay": 1,
-      "dayNumber": 1,
-      "meetingDateTimeUTC": "2021-10-25T05:00:00.000Z",
-      "courseDay": 74,
+    "26-10-2021": {
+      "courseDate": "26-10-2021",
+      "courseWeek": 17,
+      "weekDay": 2,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2021-10-26T05:00:00.000Z",
+      "courseDay": 75,
       "dateTypes": {
         "module": "Module 7: React",
         "general": {
@@ -6288,90 +6022,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "projects": {
-          "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 4 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 4 Implementation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app"
-              }
-            ]
-          }
-        }
-      }
-    },
-    "26-10-2021": {
-      "courseDate": "26-10-2021",
-      "courseWeek": 16,
-      "weekDay": 2,
-      "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-10-26T05:00:00.000Z",
-      "courseDay": 75,
-      "dateTypes": {
-        "module": "Module 7: React",
-        "general": {
-          "type": "general",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "css": {
-          "type": "css",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "dsa": {
-          "type": "dsa",
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "D.5.6: Trees - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-2"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "D.5.6: Trees - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-2"
-              }
-            ]
-          }
-        },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6405,7 +6056,7 @@
     },
     "27-10-2021": {
       "courseDate": "27-10-2021",
-      "courseWeek": 16,
+      "courseWeek": 17,
       "weekDay": 3,
       "dayNumber": 3,
       "meetingDateTimeUTC": "2021-10-27T05:00:00.000Z",
@@ -6430,26 +6081,21 @@
           "inClass": {
             "items": [
               {
-                "name": "D.5.6: Trees - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-3"
+                "name": "D.5.6: Trees - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-2"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.6: Trees - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-3"
+                "name": "D.5.6: Trees - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-2"
               }
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6461,11 +6107,7 @@
           "type": "projects",
           "projectStart": {},
           "projectDue": {
-            "items": [
-              {
-                "name": "Project 4 MVP Deadline (deployed)"
-              }
-            ]
+            "items": [{ "name": "Project 4 MVP Deadline (deployed)" }]
           },
           "preClass": {},
           "inClass": {
@@ -6474,9 +6116,7 @@
                 "name": "Project 4 Scrum",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
               },
-              {
-                "name": "Project 4 In-Class Code Review"
-              }
+              { "name": "Project 4 In-Class Code Review" }
             ]
           },
           "postClass": {
@@ -6492,7 +6132,7 @@
     },
     "28-10-2021": {
       "courseDate": "28-10-2021",
-      "courseWeek": 16,
+      "courseWeek": 17,
       "weekDay": 4,
       "dayNumber": 4,
       "meetingDateTimeUTC": "2021-10-28T05:00:00.000Z",
@@ -6517,26 +6157,21 @@
           "inClass": {
             "items": [
               {
-                "name": "D.5.6: Trees - Part 4",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-4"
+                "name": "D.5.6: Trees - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-3"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.6: Trees - Part 4",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-4"
+                "name": "D.5.6: Trees - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-3"
               }
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6570,7 +6205,7 @@
     },
     "29-10-2021": {
       "courseDate": "29-10-2021",
-      "courseWeek": 16,
+      "courseWeek": 17,
       "weekDay": 5,
       "dayNumber": 5,
       "meetingDateTimeUTC": "2021-10-29T05:00:00.000Z",
@@ -6595,26 +6230,21 @@
           "inClass": {
             "items": [
               {
-                "name": "D.5.6: Trees - Part 5",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-5"
+                "name": "D.5.6: Trees - Part 4",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-4"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.6: Trees - Part 5",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-5"
+                "name": "D.5.6: Trees - Part 4",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-4"
               }
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6625,13 +6255,7 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Project 4 Feature Freeze"
-              }
-            ]
-          },
+          "projectDue": { "items": [{ "name": "Project 4 Feature Freeze" }] },
           "preClass": {},
           "inClass": {
             "items": [
@@ -6654,7 +6278,7 @@
     },
     "01-11-2021": {
       "courseDate": "01-11-2021",
-      "courseWeek": 17,
+      "courseWeek": 18,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2021-11-01T05:00:00.000Z",
@@ -6679,26 +6303,21 @@
           "inClass": {
             "items": [
               {
-                "name": "D.5.6: Trees - Part 6",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-6"
+                "name": "D.5.6: Trees - Part 5",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-5"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.6: Trees - Part 6",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-6"
+                "name": "D.5.6: Trees - Part 5",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-5"
               }
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6732,7 +6351,7 @@
     },
     "02-11-2021": {
       "courseDate": "02-11-2021",
-      "courseWeek": 17,
+      "courseWeek": 18,
       "weekDay": 2,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2021-11-02T05:00:00.000Z",
@@ -6754,15 +6373,24 @@
         "dsa": {
           "type": "dsa",
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "D.5.6: Trees - Part 6",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-6"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "D.5.6: Trees - Part 6",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-6"
+              }
+            ]
+          }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6807,7 +6435,7 @@
     },
     "03-11-2021": {
       "courseDate": "03-11-2021",
-      "courseWeek": 17,
+      "courseWeek": 18,
       "weekDay": 3,
       "dayNumber": 3,
       "meetingDateTimeUTC": "2021-11-03T05:00:00.000Z",
@@ -6818,6 +6446,10 @@
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "8.0: Module 8 Overview",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.0-module-8-overview"
+              },
               {
                 "name": "8.1: Create React App",
                 "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.1-create-react-app"
@@ -6843,37 +6475,11 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.5.7: Graphs - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.7-graphs"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "D.5.7: Graphs - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.7-graphs#part-1"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "D.5.7: Graphs - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.7-graphs#part-1"
-              }
-            ]
-          }
-        },
-        "ux": {
-          "type": "ux",
           "preClass": {},
           "inClass": {},
           "postClass": {}
         },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6901,7 +6507,7 @@
     "04-11-2021": {
       "courseDay": null,
       "courseDate": "04-11-2021",
-      "courseWeek": 17,
+      "courseWeek": 18,
       "dayNumber": 4,
       "dateTypes": {
         "holidayType": "public holiday",
@@ -6912,7 +6518,7 @@
     },
     "05-11-2021": {
       "courseDate": "05-11-2021",
-      "courseWeek": 17,
+      "courseWeek": 18,
       "weekDay": 4,
       "dayNumber": 5,
       "meetingDateTimeUTC": "2021-11-05T05:00:00.000Z",
@@ -6962,16 +6568,32 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "preClass": {
+            "items": [
+              {
+                "name": "D.5.7: Graphs - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.7-graphs"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "D.5.7: Graphs - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.7-graphs#part-1"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "D.5.7: Graphs - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.7-graphs#part-1"
+              }
+            ]
+          }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6998,7 +6620,7 @@
     },
     "08-11-2021": {
       "courseDate": "08-11-2021",
-      "courseWeek": 18,
+      "courseWeek": 19,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2021-11-08T05:00:00.000Z",
@@ -7034,29 +6656,10 @@
         "dsa": {
           "type": "dsa",
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "D.5.7: Graphs - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.7-graphs#part-2"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "D.5.7: Graphs - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.7-graphs#part-2"
-              }
-            ]
-          }
-        },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
           "inClass": {},
           "postClass": {}
         },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7090,7 +6693,7 @@
     },
     "09-11-2021": {
       "courseDate": "09-11-2021",
-      "courseWeek": 18,
+      "courseWeek": 19,
       "weekDay": 2,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2021-11-09T05:00:00.000Z",
@@ -7133,37 +6736,25 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.5.8: Heaps - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.8-heaps#pre-class"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {
             "items": [
               {
-                "name": "D.5.8: Heaps - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.4-queues#part-1"
+                "name": "D.5.7: Graphs - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.7-graphs#part-2"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.8: Heaps - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.4-queues#part-1"
+                "name": "D.5.7: Graphs - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.7-graphs#part-2"
               }
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7190,7 +6781,7 @@
     },
     "10-11-2021": {
       "courseDate": "10-11-2021",
-      "courseWeek": 18,
+      "courseWeek": 19,
       "weekDay": 3,
       "dayNumber": 3,
       "meetingDateTimeUTC": "2021-11-10T05:00:00.000Z",
@@ -7225,30 +6816,32 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "D.5.8: Heaps - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.8-heaps#pre-class"
+              }
+            ]
+          },
           "inClass": {
             "items": [
               {
-                "name": "D.5.8: Heaps - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.8-heaps#part-2"
+                "name": "D.5.8: Heaps - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.4-queues#part-1"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.8: Heaps - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.8-heaps#part-2"
+                "name": "D.5.8: Heaps - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.4-queues#part-1"
               }
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7275,7 +6868,7 @@
     },
     "11-11-2021": {
       "courseDate": "11-11-2021",
-      "courseWeek": 18,
+      "courseWeek": 19,
       "weekDay": 4,
       "dayNumber": 4,
       "meetingDateTimeUTC": "2021-11-11T05:00:00.000Z",
@@ -7314,30 +6907,25 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
+          "preClass": {},
+          "inClass": {
             "items": [
               {
-                "name": "D.5.8: Heaps - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.8-heaps#part-3"
+                "name": "D.5.8: Heaps - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.8-heaps#part-2"
               }
             ]
           },
-          "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "D.5.8: Heaps - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.8-heaps#part-3"
+                "name": "D.5.8: Heaps - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.8-heaps#part-2"
               }
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7364,7 +6952,7 @@
     },
     "12-11-2021": {
       "courseDate": "12-11-2021",
-      "courseWeek": 18,
+      "courseWeek": 19,
       "weekDay": 5,
       "dayNumber": 5,
       "meetingDateTimeUTC": "2021-11-12T05:00:00.000Z",
@@ -7381,6 +6969,79 @@
               }
             ]
           },
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "8.POCE.2: (Group Project) Climbing Trip",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.poce-post-class-exercises/8.poce.2-rock-climbing-trip-planner"
+              }
+            ]
+          }
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {
+            "items": [
+              {
+                "name": "D.5.8: Heaps - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.8-heaps#part-3"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "D.5.8: Heaps - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.8-heaps#part-3"
+              }
+            ]
+          }
+        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 5 Ideation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "15-11-2021": {
+      "courseDate": "15-11-2021",
+      "courseWeek": 20,
+      "weekDay": 1,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2021-11-15T05:00:00.000Z",
+      "courseDay": 88,
+      "dateTypes": {
+        "module": "Module 8: Advanced React",
+        "general": {
+          "type": "general",
+          "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
@@ -7424,90 +7085,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "projects": {
-          "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 5 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
-              }
-            ]
-          }
-        }
-      }
-    },
-    "15-11-2021": {
-      "courseDate": "15-11-2021",
-      "courseWeek": 19,
-      "weekDay": 1,
-      "dayNumber": 1,
-      "meetingDateTimeUTC": "2021-11-15T05:00:00.000Z",
-      "courseDay": 88,
-      "dateTypes": {
-        "module": "Module 8: Advanced React",
-        "general": {
-          "type": "general",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "8.POCE.2: (Group Project) Climbing Trip",
-                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.poce-post-class-exercises/8.poce.2-rock-climbing-trip-planner"
-              }
-            ]
-          }
-        },
-        "css": {
-          "type": "css",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "dsa": {
-          "type": "dsa",
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "D.9: Dynamic Programming - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#part-2"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "D.9: Dynamic Programming - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#part-2"
-              }
-            ]
-          }
-        },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7520,9 +7098,7 @@
           "projectStart": {},
           "projectDue": {
             "items": [
-              {
-                "name": "Project 5 deadline to post ideas and teams in Slack"
-              }
+              { "name": "Project 5 deadline to post ideas and teams in Slack" }
             ]
           },
           "preClass": {},
@@ -7540,7 +7116,7 @@
     },
     "16-11-2021": {
       "courseDate": "16-11-2021",
-      "courseWeek": 19,
+      "courseWeek": 20,
       "weekDay": 2,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2021-11-16T05:00:00.000Z",
@@ -7572,26 +7148,21 @@
           "inClass": {
             "items": [
               {
-                "name": "D.9: Dynamic Programming - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#part-3"
+                "name": "D.9: Dynamic Programming - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#part-2"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.9: Dynamic Programming - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#part-3"
+                "name": "D.9: Dynamic Programming - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#part-2"
               }
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7618,11 +7189,84 @@
     },
     "17-11-2021": {
       "courseDate": "17-11-2021",
-      "courseWeek": 19,
+      "courseWeek": 20,
       "weekDay": 3,
       "dayNumber": 3,
       "meetingDateTimeUTC": "2021-11-17T05:00:00.000Z",
       "courseDay": 90,
+      "dateTypes": {
+        "module": "Module 8: Advanced React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "D.9: Dynamic Programming - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#part-3"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "D.9: Dynamic Programming - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#part-3"
+              }
+            ]
+          }
+        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 5 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 5 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "18-11-2021": {
+      "courseDate": "18-11-2021",
+      "courseWeek": 20,
+      "weekDay": 4,
+      "dayNumber": 4,
+      "meetingDateTimeUTC": "2021-11-18T05:00:00.000Z",
+      "courseDay": 91,
       "dateTypes": {
         "module": "Module 8: Advanced React",
         "general": {
@@ -7672,90 +7316,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "projects": {
-          "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 5 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 5 Implementation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app"
-              }
-            ]
-          }
-        }
-      }
-    },
-    "18-11-2021": {
-      "courseDate": "18-11-2021",
-      "courseWeek": 19,
-      "weekDay": 4,
-      "dayNumber": 4,
-      "meetingDateTimeUTC": "2021-11-18T05:00:00.000Z",
-      "courseDay": 91,
-      "dateTypes": {
-        "module": "Module 8: Advanced React",
-        "general": {
-          "type": "general",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "css": {
-          "type": "css",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "dsa": {
-          "type": "dsa",
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "DS&A Open Practice",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "DS&A Open Practice",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
-              }
-            ]
-          }
-        },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7789,7 +7350,7 @@
     },
     "19-11-2021": {
       "courseDate": "19-11-2021",
-      "courseWeek": 19,
+      "courseWeek": 20,
       "weekDay": 5,
       "dayNumber": 5,
       "meetingDateTimeUTC": "2021-11-19T05:00:00.000Z",
@@ -7828,12 +7389,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7867,7 +7423,7 @@
     },
     "22-11-2021": {
       "courseDate": "22-11-2021",
-      "courseWeek": 20,
+      "courseWeek": 21,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2021-11-22T05:00:00.000Z",
@@ -7906,12 +7462,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7922,13 +7473,7 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Project 5 MVP (deployed)"
-              }
-            ]
-          },
+          "projectDue": { "items": [{ "name": "Project 5 MVP (deployed)" }] },
           "preClass": {},
           "inClass": {
             "items": [
@@ -7955,7 +7500,7 @@
     },
     "23-11-2021": {
       "courseDate": "23-11-2021",
-      "courseWeek": 20,
+      "courseWeek": 21,
       "weekDay": 2,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2021-11-23T05:00:00.000Z",
@@ -7994,12 +7539,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8033,7 +7573,7 @@
     },
     "24-11-2021": {
       "courseDate": "24-11-2021",
-      "courseWeek": 20,
+      "courseWeek": 21,
       "weekDay": 3,
       "dayNumber": 3,
       "meetingDateTimeUTC": "2021-11-24T05:00:00.000Z",
@@ -8072,12 +7612,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8111,7 +7646,7 @@
     },
     "25-11-2021": {
       "courseDate": "25-11-2021",
-      "courseWeek": 20,
+      "courseWeek": 21,
       "weekDay": 4,
       "dayNumber": 4,
       "meetingDateTimeUTC": "2021-11-25T05:00:00.000Z",
@@ -8150,12 +7685,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8200,7 +7730,7 @@
     },
     "26-11-2021": {
       "courseDate": "26-11-2021",
-      "courseWeek": 20,
+      "courseWeek": 21,
       "weekDay": 5,
       "dayNumber": 5,
       "meetingDateTimeUTC": "2021-11-26T05:00:00.000Z",
@@ -8239,12 +7769,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8278,7 +7803,7 @@
     },
     "29-11-2021": {
       "courseDate": "29-11-2021",
-      "courseWeek": 21,
+      "courseWeek": 22,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2021-11-29T05:00:00.000Z",
@@ -8300,7 +7825,14 @@
         "dsa": {
           "type": "dsa",
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
@@ -8310,12 +7842,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8371,7 +7898,7 @@
     },
     "30-11-2021": {
       "courseDate": "30-11-2021",
-      "courseWeek": 21,
+      "courseWeek": 22,
       "weekDay": 2,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2021-11-30T05:00:00.000Z",
@@ -8382,6 +7909,10 @@
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "9.0: Module 9 Overview",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.0-module-9-overview"
+              },
               {
                 "name": "9.1: Testing",
                 "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.1-testing"
@@ -8411,14 +7942,7 @@
         "dsa": {
           "type": "dsa",
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "DS&A Open Practice",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -8428,12 +7952,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8464,7 +7983,7 @@
     },
     "01-12-2021": {
       "courseDate": "01-12-2021",
-      "courseWeek": 21,
+      "courseWeek": 22,
       "weekDay": 3,
       "dayNumber": 3,
       "meetingDateTimeUTC": "2021-12-01T05:00:00.000Z",
@@ -8514,12 +8033,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8553,7 +8067,7 @@
     },
     "02-12-2021": {
       "courseDate": "02-12-2021",
-      "courseWeek": 21,
+      "courseWeek": 22,
       "weekDay": 4,
       "dayNumber": 4,
       "meetingDateTimeUTC": "2021-12-02T05:00:00.000Z",
@@ -8590,7 +8104,14 @@
         "dsa": {
           "type": "dsa",
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
@@ -8600,12 +8121,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8639,7 +8155,7 @@
     },
     "03-12-2021": {
       "courseDate": "03-12-2021",
-      "courseWeek": 21,
+      "courseWeek": 22,
       "weekDay": 5,
       "dayNumber": 5,
       "meetingDateTimeUTC": "2021-12-03T05:00:00.000Z",
@@ -8668,14 +8184,7 @@
         "dsa": {
           "type": "dsa",
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "DS&A Open Practice",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -8685,12 +8194,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8724,7 +8228,7 @@
     },
     "06-12-2021": {
       "courseDate": "06-12-2021",
-      "courseWeek": 22,
+      "courseWeek": 23,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2021-12-06T05:00:00.000Z",
@@ -8770,12 +8274,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8809,7 +8308,7 @@
     },
     "07-12-2021": {
       "courseDate": "07-12-2021",
-      "courseWeek": 22,
+      "courseWeek": 23,
       "weekDay": 2,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2021-12-07T05:00:00.000Z",
@@ -8855,12 +8354,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8894,7 +8388,7 @@
     },
     "08-12-2021": {
       "courseDate": "08-12-2021",
-      "courseWeek": 22,
+      "courseWeek": 23,
       "weekDay": 3,
       "dayNumber": 3,
       "meetingDateTimeUTC": "2021-12-08T05:00:00.000Z",
@@ -8948,12 +8442,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8987,7 +8476,7 @@
     },
     "09-12-2021": {
       "courseDate": "09-12-2021",
-      "courseWeek": 22,
+      "courseWeek": 23,
       "weekDay": 4,
       "dayNumber": 4,
       "meetingDateTimeUTC": "2021-12-09T05:00:00.000Z",
@@ -9026,12 +8515,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -9098,7 +8582,7 @@
     },
     "10-12-2021": {
       "courseDate": "10-12-2021",
-      "courseWeek": 22,
+      "courseWeek": 23,
       "weekDay": 5,
       "dayNumber": 5,
       "meetingDateTimeUTC": "2021-12-10T05:00:00.000Z",
@@ -9137,12 +8621,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -9183,7 +8662,7 @@
     },
     "13-12-2021": {
       "courseDate": "13-12-2021",
-      "courseWeek": 23,
+      "courseWeek": 24,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2021-12-13T05:00:00.000Z",
@@ -9222,21 +8701,10 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
-          "cpDue": {
-            "items": [
-              {
-                "name": "Resume 1st Draft"
-              }
-            ]
-          },
+          "cpDue": { "items": [{ "name": "Resume 1st Draft" }] },
           "preClass": {
             "items": [
               {
@@ -9281,7 +8749,7 @@
     },
     "14-12-2021": {
       "courseDate": "14-12-2021",
-      "courseWeek": 23,
+      "courseWeek": 24,
       "weekDay": 2,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2021-12-14T05:00:00.000Z",
@@ -9320,12 +8788,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -9366,7 +8829,7 @@
     },
     "15-12-2021": {
       "courseDate": "15-12-2021",
-      "courseWeek": 23,
+      "courseWeek": 24,
       "weekDay": 3,
       "dayNumber": 3,
       "meetingDateTimeUTC": "2021-12-15T05:00:00.000Z",
@@ -9405,12 +8868,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {
@@ -9465,7 +8923,7 @@
     },
     "16-12-2021": {
       "courseDate": "16-12-2021",
-      "courseWeek": 23,
+      "courseWeek": 24,
       "weekDay": 4,
       "dayNumber": 4,
       "meetingDateTimeUTC": "2021-12-16T05:00:00.000Z",
@@ -9504,12 +8962,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -9550,7 +9003,7 @@
     },
     "17-12-2021": {
       "courseDate": "17-12-2021",
-      "courseWeek": 23,
+      "courseWeek": 24,
       "weekDay": 5,
       "dayNumber": 5,
       "meetingDateTimeUTC": "2021-12-17T05:00:00.000Z",
@@ -9589,21 +9042,10 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
-          "cpDue": {
-            "items": [
-              {
-                "name": "Job List 1st Draft"
-              }
-            ]
-          },
+          "cpDue": { "items": [{ "name": "Job List 1st Draft" }] },
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -9634,7 +9076,7 @@
     },
     "20-12-2021": {
       "courseDate": "20-12-2021",
-      "courseWeek": 24,
+      "courseWeek": 25,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2021-12-20T05:00:00.000Z",
@@ -9673,12 +9115,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -9723,7 +9160,7 @@
     },
     "21-12-2021": {
       "courseDate": "21-12-2021",
-      "courseWeek": 24,
+      "courseWeek": 25,
       "weekDay": 2,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2021-12-21T05:00:00.000Z",
@@ -9762,12 +9199,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -9801,7 +9233,7 @@
     },
     "22-12-2021": {
       "courseDate": "22-12-2021",
-      "courseWeek": 24,
+      "courseWeek": 25,
       "weekDay": 3,
       "dayNumber": 3,
       "meetingDateTimeUTC": "2021-12-22T05:00:00.000Z",
@@ -9823,15 +9255,24 @@
         "dsa": {
           "type": "dsa",
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -9864,5 +9305,5 @@
       }
     }
   },
-  "courseName": "12-07-2021_22-12-2021_BATCH4"
+  "courseName": "09-07-2021_22-12-2021_BATCH4"
 }
