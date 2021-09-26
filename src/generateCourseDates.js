@@ -56,7 +56,7 @@ const generateTopLevelObject = (courseType, topLevelObject, lessonDays, courseNa
         if (courseType === 'Basics') {
             topLevelObject = {
                 daysOfWeek: lessonDays,
-                courseStartIndex: 0,
+                courseStartIndex: basicsData.courseStartIndex,
                 totalCourseDays: basicsData.totalCourseDays,
                 ...topLevelObject
             };
@@ -88,11 +88,20 @@ const generateTopLevelObject = (courseType, topLevelObject, lessonDays, courseNa
     }
 
 // helper function that generates dateObj if the course date falls on a public holiday
-const generateHolidayObject = (dateString, date, dateObj) => {
+const generateHolidayObject = (dateString, week, date, dateObj, courseType) => {
+    let weekOfCourse;
+    console.log('courseType', courseType);
+    console.log(courseType.includes('Bootcamp'));
+    if (courseType.includes('Bootcamp') && companyHolidayArray.includes(dateString)) {
+        weekOfCourse = null;
+    } else {
+        weekOfCourse = week;
+    }
+
     dateObj = {
         courseDay: null,
         courseDate: dateString,
-        courseWeek: null,
+        courseWeek: weekOfCourse,
         dayNumber: date.weekday,
         dateTypes: {}
     }
@@ -141,6 +150,20 @@ const generateDataObject = (startDate, courseName, courseType, input, lessonDays
         bootcampData = bootcampDataJson;
     }
 
+    // used to set the time for basics course
+    let basicsTimeslots;
+    if (lessonDays) {
+        if (lessonDays[0] === 1 && lessonDays[1] === 4) {
+            basicsTimeslots = ['T19:30', 'T19:30'];
+        } else if (lessonDays[0] === 7 && lessonDays[1] === 4) {
+            basicsTimeslots = ['T19:00', 'T19:30'];
+        } else {
+            basicsTimeslots = ['T19:30', 'T13:00'];
+        }
+    }
+
+    console.log('bascis timesleot', basicsTimeslots);
+
     let date = DateTime.fromFormat(startDate, "yyyy-MM-dd");
     let utc;
     utc = getLocalDateTime(utc, 'T16:00', courseName, courseType, date);
@@ -168,6 +191,8 @@ const generateDataObject = (startDate, courseName, courseType, input, lessonDays
     }
 
     const dayArray = data.daysOfWeek;
+    console.log('day array', dayArray);
+
     let dayIndex = data.courseStartIndex;
 
     while (courseDayCount > 0) {
@@ -185,8 +210,8 @@ const generateDataObject = (startDate, courseName, courseType, input, lessonDays
         let dateObj;
         // if date is a public holiday
         if (phWithoutCh.includes(dateString) || winterBreak.includes(dateString)) {
-            dateObj = generateHolidayObject (dateString, week, date, dateObj);
-
+            dateObj = generateHolidayObject (dateString, week, date, dateObj, courseType);
+            console.log('date obj', dateObj);
         // if date is not a holiday
         } else {
             dateObj = generateCourseDayObject (dateObj, dateString, week, weekDay, date, utc, courseType, courseDay);
@@ -224,7 +249,6 @@ const generateDataObject = (startDate, courseName, courseType, input, lessonDays
                 differenceInDays = 9;
             }
             // getting the extra dates to Friday
-            console.log('days left', differenceInDays);
             const datesToAdd = [];
             for (let i = 1; i <= differenceInDays; i += 1) {
                 const newDate =  date.plus({ days: i }).toFormat('dd-MM-yyyy');
@@ -268,8 +292,11 @@ const generateDataObject = (startDate, courseName, courseType, input, lessonDays
                 lastDay = newDateObjectsArray[newDateObjectsArray.length - 2].date;
             } else {
                 lastDay = newDateObjectsArray[newDateObjectsArray.length - 1].date;
+
             };
             
+            // needed to find totalcourse days after adding days
+            let lastCourseDay;
             // generate new dateObjs 
             for (let j = 0; j < newDateObjectsArray.length; j += 1) {
                 const targetWeekday = DateTime.fromFormat(newDateObjectsArray[j].date, 'dd-MM-yyyy').weekday;
@@ -287,10 +314,11 @@ const generateDataObject = (startDate, courseName, courseType, input, lessonDays
                 } else if (newDateObjectsArray[j].date === lastDay) {
                     dateObj = generateCourseDayObject (dateObj, newDateObjectsArray[j].date, week, targetWeekday, newDate, utc, courseType, 115);
                     addDateObjToSchedule(dateObj);
+                    lastCourseDay = dateObj.courseDay;
                     // content is the same for all other days, except if the day is a public holiday
                 } else {
                     if (phWithoutCh.includes(newDateObjectsArray[j].date)) {
-                        dateObj = generateHolidayObject (newDateObjectsArray[j].date, newDate, dateObj);
+                        dateObj = generateHolidayObject (newDateObjectsArray[j].date, newDate, dateObj, courseType);
                         addDateObjToSchedule(dateObj);
                     } else {
                         dateObj = generateCourseDayObject (dateObj, newDateObjectsArray[j].date, week, targetWeekday, newDate, utc, courseType, 114);
@@ -300,8 +328,7 @@ const generateDataObject = (startDate, courseName, courseType, input, lessonDays
 
 
             }
-            data.totalCourseDays += differenceInDays;
-            console.log('updated data', data.days);
+            data.totalCourseDays = lastCourseDay;
             break;
 
         } else {
@@ -319,13 +346,13 @@ const generateDataObject = (startDate, courseName, courseType, input, lessonDays
                 // return to beginning of array (return to beginning of week)
                 dayIndex = 0;
                 date = date.plus({ weeks: 1 }).set({ weekday: dayArray[dayIndex] })
-                utc = getLocalDateTime (utc, 'T19:30', courseName, courseType, date);
+                utc = getLocalDateTime (utc, basicsTimeslots[1], courseName, courseType, date);
 
             } else {
                 // day within the week
                 dayIndex += 1;
                 date = date.set({ weekday: dayArray[dayIndex] })
-                utc = getLocalDateTime (utc, 'T13:00', courseName, courseType, date);
+                utc = getLocalDateTime (utc, basicsTimeslots[0], courseName, courseType, date);
 
                 if (!phWithoutCh.includes(dateString)) {
                     weekDay += 1;
@@ -339,6 +366,7 @@ const generateDataObject = (startDate, courseName, courseType, input, lessonDays
     if (courseType === 'Bootcamp FT' && courseName === '4') {
         data.days['09-07-2021'].dayNumber = 1;
     }
+    console.log('data', data);
     return data;
 }
 

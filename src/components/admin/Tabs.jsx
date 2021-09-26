@@ -32,7 +32,7 @@ const TabsContainer = ({ batchArray }) => {
   }
 
   return (
-    <div class="container">
+    <div className="container">
     <Tabs
       id="controlled-tab-example"
       activeKey={key}

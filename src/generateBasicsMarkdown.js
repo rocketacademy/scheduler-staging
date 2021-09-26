@@ -46,12 +46,13 @@ const generateCourseArrays = (data) => {
         dates.push(date);
     })
 
+    console.log('dates', dates);
     // all possible day numbers that course days fall on
     dates.forEach((date) => {
         dayNumbers.push(data.days[date].dayNumber);
     })
     dayNumbers = [...new Set(dayNumbers)].sort();
-
+    console.log('daynumber', dayNumbers);
     // all possible names of days of week courdays fall on (this is the table header)
     dayNumbers.forEach((number) => {
         daysOfWeek.push(dayNames[number]);
@@ -82,6 +83,8 @@ const generateCourseArrays = (data) => {
         
         // each element in each subarray of weekDates is compared to the element in the same index
         // position in dayNumbers array
+        console.log('weekdates', weekDates);
+        console.log(dayNumbers);
         for (let m = 0; m < weekDates[n].length; m += 1) {
             for (let p = 0; p < dayNumbers.length; p += 1) {
                 // if element.dayNumber === element at the same index position in dayNumbers array 
@@ -92,6 +95,7 @@ const generateCourseArrays = (data) => {
                         displayWeek[p] = `[${dateString}](#course-day-${data.days[weekDates[n][m]].courseDay})`;
                     } else {
                         // if title of the day does not exist, it means it's a public holiday
+                        console.log('public holiday', data.days[weekDates[n][m]].dateTypes.holidayType);
                         displayWeek[p] = `${data.days[weekDates[n][m]].dateTypes.holidayType} (${data.days[weekDates[n][m]].dateTypes.location})`;
                     }
                 }
@@ -103,6 +107,7 @@ const generateCourseArrays = (data) => {
 
 // helper function that generates course days table marksown
 const generateCourseDaysTable = (output) => {
+    console.log('days of week', daysOfWeek);
     // schedule table header 
     output += '| Week |';
     for (let p = 0; p < daysOfWeek.length; p += 1) {

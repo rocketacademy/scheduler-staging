@@ -37,10 +37,9 @@ const DatePicker = ({
     }
   };
 
-  const addToGitHubRepo = async (e) => {
+  const addToGitHubRepo = (e) => {
     e.preventDefault();
-    try {
-      const data = await generateDataObject(startDate, courseName, courseType, null, null);
+      const data = generateDataObject(startDate, courseName, courseType, null, null);
       console.log('data', data);
       // from stackoverflow, https://stackoverflow.com/questions/58376758/how-to-copy-a-json-data-to-the-clipboard-with-the-button
       let selBox = document.createElement('textarea');
@@ -57,10 +56,7 @@ const DatePicker = ({
       document.body.removeChild(selBox);
 
       // opens a new window in the browser at specified address(gitbook create new page)
-      // window.open('https://github.com/rocketacademy/scheduler/new/main/src/data', "_blank")
-    } catch (error) {
-      console.log(error);
-    }
+      window.open('https://github.com/rocketacademy/scheduler/new/main/src/data', "_blank");
   }
 
   const generateMarkdown = async () => {
