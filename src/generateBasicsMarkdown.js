@@ -231,6 +231,7 @@ const generateBasicsMarkdown = (data) => {
     // add further reading section to the end of page
     output += '# Further Reading\n### Past Projects\n * [Drawing With Emojis](https://basics.rocketacademy.co/past-projects/drawing-with-emojis)\n * [Guess The Word](https://basics.rocketacademy.co/past-projects/guess-the-word)';
 
+    console.log(output);
    return output;
 }
 
