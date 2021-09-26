@@ -240,19 +240,40 @@ const generateDataObject = (startDate, courseName, courseType, input, lessonDays
             console.log('dates to add', datesToAdd);
             
             // put all dates we want to add to schedule in combinedDates array
+            // take into consideration possibility of public holiday occuring during those days
             const newDateObjectsArray = [];
             for (let k = 0; k < datesToAdd.length; k += 1) {
-                const dateObj = {
-                    date: datesToAdd[k],
-                    courseday: 113 + k
+                let addedCourseday;
+                if (phWithoutCh.includes(datesToAdd[k])) {
+                    addedCourseday = null;
+                } else {
+                    addedCourseday = 113 + k;
                 }
-                newDateObjectsArray.push(dateObj);
+                const dateInfo = {
+                    date: datesToAdd[k],
+                    courseday: addedCourseday
+                }
+                newDateObjectsArray.push(dateInfo);
             }
-            // third last day of course is feature freeze day
-            const thirdLastDay = newDateObjectsArray[newDateObjectsArray.length - 3].date;
-            // last day of course id project presentation day
-            const lastDay = newDateObjectsArray[newDateObjectsArray.length - 1].date;
-            // generate new dateObjs to replace the ones we deleted
+            // third last courseday is feature freeze day
+            // move it forward if this day falls on a public holiday
+            let featureFreezeDay;
+            if (phWithoutCh.includes(newDateObjectsArray[newDateObjectsArray.length - 3].date)) {
+                featureFreezeDay = newDateObjectsArray[newDateObjectsArray.length - 4].date;
+            } else {
+                featureFreezeDay = newDateObjectsArray[newDateObjectsArray.length - 3].date;
+            }
+
+            // last day of course is project presentation day
+            // move it forward if this day falls on a public holiday
+            let lastDay;
+            if (phWithoutCh.includes(newDateObjectsArray[newDateObjectsArray.length - 1].date)) {
+                lastDay = newDateObjectsArray[newDateObjectsArray.length - 2].date;
+            } else {
+                lastDay = newDateObjectsArray[newDateObjectsArray.length - 1].date;
+            };
+            
+            // generate new dateObjs 
             for (let j = 0; j < newDateObjectsArray.length; j += 1) {
                 const targetWeekday = DateTime.fromFormat(newDateObjectsArray[j].date, 'dd-MM-yyyy').weekday;
                 const newDate = DateTime.fromFormat(newDateObjectsArray[j].date, 'dd-MM-yyyy');
@@ -263,16 +284,21 @@ const generateDataObject = (startDate, courseName, courseType, input, lessonDays
                     data.days[newDateObjectsArray[j].date].courseDay = newDateObjectsArray[j].courseday;
                 }
                 
-                if (newDateObjectsArray[j].date === thirdLastDay) {
+                if (newDateObjectsArray[j].date === featureFreezeDay) {
                     dateObj = generateCourseDayObject (dateObj, newDateObjectsArray[j].date, week, targetWeekday, newDate, utc, courseType, 113);
                     addDateObjToSchedule(dateObj);
                 } else if (newDateObjectsArray[j].date === lastDay) {
                     dateObj = generateCourseDayObject (dateObj, newDateObjectsArray[j].date, week, targetWeekday, newDate, utc, courseType, 115);
                     addDateObjToSchedule(dateObj);
-                    // content is the same for all other days
+                    // content is the same for all other days, except if the day is a public holiday
                 } else {
-                    dateObj = generateCourseDayObject (dateObj, newDateObjectsArray[j].date, week, targetWeekday, newDate, utc, courseType, 114);
-                    addDateObjToSchedule(dateObj);
+                    if (phWithoutCh.includes(newDateObjectsArray[j].date)) {
+                        dateObj = generateHolidayObject (newDateObjectsArray[j].date, newDate, dateObj);
+                        addDateObjToSchedule(dateObj);
+                    } else {
+                        dateObj = generateCourseDayObject (dateObj, newDateObjectsArray[j].date, week, targetWeekday, newDate, utc, courseType, 114);
+                        addDateObjToSchedule(dateObj);
+                    }
                 }
 
 
