@@ -75,7 +75,7 @@ const generateTopLevelObject = (courseType, topLevelObject, lessonDays, courseNa
                 bootcampDays = bootcampData.daysOfWeek.partTime;
                 startIndex = bootcampData.courseStartIndex;
             }
-            console.log('start index', startIndex)
+
             topLevelObject = {
                 daysOfWeek: bootcampDays,
                 courseStartIndex: startIndex,
@@ -109,17 +109,14 @@ const generateHolidayObject = (dateString, week, date, dateObj) => {
 // helper function that generates dateObj for a normal courseday
 const generateCourseDayObject = (dateObj, dateString, week, weekDay, date, utc, courseType, courseDay) => {
     // get whatever index of basicsData that is specified by courseDayCount
-    
-
         dateObj = {
-        courseDate: dateString,
-        courseWeek: week,
-        weekDay: weekDay,
-        dayNumber: date.weekday, 
-        meetingDateTimeUTC: utc,
-        };
+            courseDate: dateString,
+            courseWeek: week,
+            weekDay: weekDay,
+            dayNumber: date.weekday, 
+            meetingDateTimeUTC: utc,
+            };
     
-
     // data is different for basics and bootcamp
     if (courseType === 'Basics') {
         dateObj = {

@@ -212,11 +212,11 @@ const whenFileIsRead = (error, content) => {
     }
 
     console.log('output', output);
-    // fs.writeFile(`src/markdown/${data.courseName}.md`, output, (writeErr) => {
-    //     if (writeErr) {
-    //         console.error('Writing error', writeErr);
-    //     }
-    // });
+    fs.writeFile(`src/markdown/${data.courseName}.md`, output, (writeErr) => {
+        if (writeErr) {
+            console.error('Writing error', writeErr);
+        }
+    });
 }
 
 fs.readFile(filename, 'utf8', whenFileIsRead);
