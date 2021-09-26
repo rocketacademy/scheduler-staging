@@ -236,7 +236,7 @@ const generateDataObject = (startDate, courseName, courseType, input, lessonDays
         // increase classDatesCount regardless of whether it is a public holiday
         classDatesCount += 1;
     }
-    // TODO: needs to be removed after ftbc4 are finished
+    // TODO: needs to be removed after ftbc4 is finished
     if (courseType === 'Bootcamp FT' && courseName === '4') {
         data.days['09-07-2021'].dayNumber = 1;
     }
