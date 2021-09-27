@@ -16,29 +16,18 @@ const DatePicker = ({
   const [secondDay, setSecondDay] = useState(null);
 
   // function that generates and downloads schedule data when download button is clicked
-  const handleDownload = async (e) => {
-    e.preventDefault();
-    try {
-      const data = await generateDataObject(startDate, courseName, courseType, null, null);
-      download(data, `${data.courseName}.json`);
-    } catch (error) {
-      console.log(error);
-    }
+  const handleDownload = () => {
+    const data = generateDataObject(startDate, courseName, courseType, null, null);
+    download(data, `${data.courseName}.json`);
   };
 
   // function that generates and renders schedule data when button is clicked
-  const handleRender = async (e) => {
-    e.preventDefault();
-    try {
-      const data = await generateDataObject(startDate, courseName, courseType, null, null);
-      await setBootcampData(JSON.parse(JSON.stringify(data.days)));
-    } catch (error) {
-      console.log(error);
-    }
+  const handleRender = () => {
+    const data = generateDataObject(startDate, courseName, courseType, null, null);
+    setBootcampData(JSON.parse(JSON.stringify(data.days)));
   };
 
-  const addToGitHubRepo = (e) => {
-    e.preventDefault();
+  const addToGitHubRepo = () => {
       const data = generateDataObject(startDate, courseName, courseType, null, null);
       console.log('data', data);
       // from stackoverflow, https://stackoverflow.com/questions/58376758/how-to-copy-a-json-data-to-the-clipboard-with-the-button
@@ -59,8 +48,7 @@ const DatePicker = ({
       window.open('https://github.com/rocketacademy/scheduler/new/main/src/data', "_blank");
   }
 
-  const generateMarkdown = async () => {
-    try {
+  const generateMarkdown = () => {
       const dayNumbers = {
         'Monday': 1,
         'Tuesday': 2,
@@ -72,8 +60,7 @@ const DatePicker = ({
       };
 
       const lessonDays = [dayNumbers[firstDay], dayNumbers[secondDay]];
-      console.log(lessonDays);
-      let data = await generateDataObject(startDate, courseName, courseType, null, lessonDays);
+      let data = generateDataObject(startDate, courseName, courseType, null, lessonDays);
       data = generateBasicsMarkdown(data);
       console.log('data', data);
       // from stackoverflow, https://stackoverflow.com/questions/58376758/how-to-copy-a-json-data-to-the-clipboard-with-the-button
@@ -92,13 +79,6 @@ const DatePicker = ({
       // opens a new window in the browser at specified address(gitbook create new page)
       window.open('https://github.com/rocketacademy/basics-docs/new/master/course-logistics', "_blank")
     }
-    catch(error) {
-      console.log(error);
-    }
-  }
-
-  console.log('first day', firstDay);
-  console.log('second day', secondDay);
 
   return (
     <>
@@ -182,8 +162,8 @@ const DatePicker = ({
               className="create-file"
               variant="primary"
               type="submit"
-              onClick={(e) => {
-                handleRender(e);
+              onClick={() => {
+                handleRender();
               }}
             >
               Render Schedule
@@ -192,8 +172,8 @@ const DatePicker = ({
               className="create-file"
               variant="primary"
               type="submit"
-              onClick={(e) => {
-                handleDownload(e);
+              onClick={() => {
+                handleDownload();
               }}
             >
               Download Schedule
@@ -202,8 +182,8 @@ const DatePicker = ({
               className="create-file"
               variant="primary"
               type="submit"
-              onClick={(e) => {
-                addToGitHubRepo(e);
+              onClick={() => {
+                addToGitHubRepo();
               }}
             >
               Add to GitHub Repo
@@ -212,8 +192,8 @@ const DatePicker = ({
               className="create-file"
               variant="primary"
               type="submit"
-              onClick={(e) => {
-                generateMarkdown(e);
+              onClick={() => {
+                generateMarkdown();
               }}
             >
               Basics Markdown

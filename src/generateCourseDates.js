@@ -51,40 +51,39 @@ const getLocalDateTime = (utc, timeString, courseName, courseType, date) => {
 
 // helper function for deciding what goes in topLevelObject based on course type
 const generateTopLevelObject = (courseType, topLevelObject, lessonDays, courseName) => {
-    console.log('lesson days', lessonDays);
 
-        if (courseType === 'Basics') {
-            topLevelObject = {
-                daysOfWeek: lessonDays,
-                courseStartIndex: basicsData.courseStartIndex,
-                totalCourseDays: basicsData.totalCourseDays,
-                ...topLevelObject
-            };
-        } else if (courseType === 'Bootcamp FT' || courseType === 'Bootcamp PT') {
-            let bootcampDays;
-            // TODO:  this is to be removed when ftbc4 finishes
-            let startIndex;
+    if (courseType === 'Basics') {
+        topLevelObject = {
+            daysOfWeek: lessonDays,
+            courseStartIndex: basicsData.courseStartIndex,
+            totalCourseDays: basicsData.totalCourseDays,
+            ...topLevelObject
+        };
+    } else if (courseType === 'Bootcamp FT' || courseType === 'Bootcamp PT') {
+        let bootcampDays;
+        // TODO:  this is to be removed when ftbc4 finishes
+        let startIndex;
 
-            if (courseType === 'Bootcamp FT') {
-                bootcampDays = bootcampData.daysOfWeek.fullTime;
-                startIndex = bootcampData.courseStartIndex;
-                if (courseName === '4') {
-                    startIndex = 4;
-                }
-            } else {
-                bootcampDays = bootcampData.daysOfWeek.partTime;
-                startIndex = bootcampData.courseStartIndex;
+        if (courseType === 'Bootcamp FT') {
+            bootcampDays = bootcampData.daysOfWeek.fullTime;
+            startIndex = bootcampData.courseStartIndex;
+            if (courseName === '4') {
+                startIndex = 4;
             }
-
-            topLevelObject = {
-                daysOfWeek: bootcampDays,
-                courseStartIndex: startIndex,
-                totalCourseDays: bootcampData.totalCourseDays,
-                ...topLevelObject
-            }
+        } else {
+            bootcampDays = bootcampData.daysOfWeek.partTime;
+            startIndex = bootcampData.courseStartIndex;
         }
 
-        return topLevelObject;
+        topLevelObject = {
+            daysOfWeek: bootcampDays,
+            courseStartIndex: startIndex,
+            totalCourseDays: bootcampData.totalCourseDays,
+            ...topLevelObject
+        }
+    }
+
+    return topLevelObject;
     }
 
 // helper function that generates dateObj if the course date falls on a public holiday
@@ -172,7 +171,6 @@ const generateDataObject = (startDate, courseName, courseType, input, lessonDays
     if (basicsTimeslots === undefined) {
         basicsTimeslots = ['T19:30', 'T13:00'];
     }
-    console.log('bascis timesleot', basicsTimeslots);
 
     let date = DateTime.fromFormat(startDate, "yyyy-MM-dd");
     let utc;
@@ -201,8 +199,6 @@ const generateDataObject = (startDate, courseName, courseType, input, lessonDays
     }
 
     const dayArray = data.daysOfWeek;
-    console.log('day array', dayArray);
-
     let dayIndex = data.courseStartIndex;
 
     while (courseDayCount > 0) {
@@ -219,7 +215,6 @@ const generateDataObject = (startDate, courseName, courseType, input, lessonDays
         // if date is a public holiday
         if (phWithoutCh.includes(dateString) || winterBreak.includes(dateString)) {
             dateObj = generateHolidayObject (dateString, week, date, dateObj, courseType);
-            console.log('date obj', dateObj);
         // if date is not a holiday
         } else {
             dateObj = generateCourseDayObject (dateObj, dateString, week, weekDay, date, utc, courseType, courseDay);
@@ -234,8 +229,7 @@ const generateDataObject = (startDate, courseName, courseType, input, lessonDays
         // used to check for first day of basics course
         const firstDay = DateTime.fromFormat(startDate, "yyyy-MM-dd").toFormat('dd-MM-yyyy');
         const formattedDate = date.toFormat('dd-MM-yyyy');
-        console.log(date.toFormat('dd-MM-yyyy'));
-        console.log(data.days[date.toFormat('dd-MM-yyyy')].courseDay);
+
         if (classDatesCount === data.totalCourseDays && courseType === 'Basics') {
             date = date.plus({ days: 2 }); 
             utc = getLocalDateTime (utc, 'T19:30', courseName, courseType, date);
@@ -268,7 +262,6 @@ const generateDataObject = (startDate, courseName, courseType, input, lessonDays
                     datesToAdd.push(newDate);
                 }
             }
-            console.log('dates to add', datesToAdd);
             
             // put all dates we want to add to schedule in combinedDates array
             // take into consideration possibility of public holiday occuring during those days
