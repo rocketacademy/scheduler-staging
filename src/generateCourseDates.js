@@ -89,9 +89,8 @@ const generateTopLevelObject = (courseType, topLevelObject, lessonDays, courseNa
 
 // helper function that generates dateObj if the course date falls on a public holiday
 const generateHolidayObject = (dateString, week, date, dateObj, courseType) => {
+
     let weekOfCourse;
-    console.log('courseType', courseType);
-    console.log(courseType.includes('Bootcamp'));
     if (courseType.includes('Bootcamp') && companyHolidayArray.includes(dateString)) {
         weekOfCourse = null;
     } else {
@@ -139,6 +138,13 @@ const generateCourseDayObject = (dateObj, dateString, week, weekDay, date, utc, 
     return dateObj;
 }
 
+// helprt function for generating filename
+const getFilename = (startDate, dateString, courseName) => {
+    const displayDate = DateTime.fromFormat(startDate, "yyyy-MM-dd");
+    const displayName = `${displayDate.toFormat('dd-MM-yyyy')}_${dateString}_BATCH${courseName}`;
+    return displayName;
+}
+ 
 // ##################################################################
 // ##################################################################
 
@@ -162,6 +168,10 @@ const generateDataObject = (startDate, courseName, courseType, input, lessonDays
         }
     }
 
+    // random times, basicsTimeslots is only used for basics course
+    if (basicsTimeslots === undefined) {
+        basicsTimeslots = ['T19:30', 'T13:00'];
+    }
     console.log('bascis timesleot', basicsTimeslots);
 
     let date = DateTime.fromFormat(startDate, "yyyy-MM-dd");
@@ -202,9 +212,7 @@ const generateDataObject = (startDate, courseName, courseType, input, lessonDays
         // if this condition is met, dateString will be the end date of course
         if (courseDay + 1 === data.totalCourseDays) {
             // start date
-            const displayDate = DateTime.fromFormat(startDate, "yyyy-MM-dd");
-            const displayName = `${displayDate.toFormat('dd-MM-yyyy')}_${dateString}_BATCH${courseName}`;
-            data.courseName = displayName;
+            data.courseName = getFilename(startDate, dateString, courseName);
         }
 
         let dateObj;
@@ -318,7 +326,7 @@ const generateDataObject = (startDate, courseName, courseType, input, lessonDays
                     // content is the same for all other days, except if the day is a public holiday
                 } else {
                     if (phWithoutCh.includes(newDateObjectsArray[j].date)) {
-                        dateObj = generateHolidayObject (newDateObjectsArray[j].date, newDate, dateObj, courseType);
+                        dateObj = generateHolidayObject (newDateObjectsArray[j].date, week, newDate, dateObj, courseType);
                         addDateObjToSchedule(dateObj);
                     } else {
                         dateObj = generateCourseDayObject (dateObj, newDateObjectsArray[j].date, week, targetWeekday, newDate, utc, courseType, 114);
@@ -328,6 +336,7 @@ const generateDataObject = (startDate, courseName, courseType, input, lessonDays
 
 
             }
+            data.courseName = getFilename(startDate, lastDay, courseName);
             data.totalCourseDays = lastCourseDay;
             break;
 
@@ -346,13 +355,13 @@ const generateDataObject = (startDate, courseName, courseType, input, lessonDays
                 // return to beginning of array (return to beginning of week)
                 dayIndex = 0;
                 date = date.plus({ weeks: 1 }).set({ weekday: dayArray[dayIndex] })
-                utc = getLocalDateTime (utc, basicsTimeslots[1], courseName, courseType, date);
+                utc = getLocalDateTime (utc, basicsTimeslots[0], courseName, courseType, date);
 
             } else {
                 // day within the week
                 dayIndex += 1;
                 date = date.set({ weekday: dayArray[dayIndex] })
-                utc = getLocalDateTime (utc, basicsTimeslots[0], courseName, courseType, date);
+                utc = getLocalDateTime (utc, basicsTimeslots[1], courseName, courseType, date);
 
                 if (!phWithoutCh.includes(dateString)) {
                     weekDay += 1;

@@ -65,6 +65,7 @@ const generateCourseArrays = (data) => {
     for  (let l = 0; l < lastWeek; l += 1) {
         const week = [];
         for (let k = 0; k < dates.length; k += 1) {
+            console.log('course week', data.days[dates[k]].courseWeek);
             if (data.days[dates[k]].courseWeek === weekCount) {
                 week.push(data.days[dates[k]].courseDate);
             }
