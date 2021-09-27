@@ -1,5 +1,11 @@
 {
-  "daysOfWeek": [1, 2, 3, 4, 5],
+  "daysOfWeek": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
   "courseStartIndex": 4,
   "totalCourseDays": 117,
   "courseType": "Bootcamp FT",
@@ -18,8 +24,14 @@
           "preClass": {},
           "inClass": {
             "items": [
-              { "name": "Day 1 Photo!", "url": "" },
-              { "name": "Course and Student Introductions", "url": "" }
+              {
+                "name": "Day 1 Photo!",
+                "url": ""
+              },
+              {
+                "name": "Course and Student Introductions",
+                "url": ""
+              }
             ]
           },
           "postClass": {}
@@ -36,7 +48,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -142,7 +159,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -189,7 +211,9 @@
           },
           "inClass": {
             "items": [
-              { "name": "Review 1 student's 1.POCE.1: Noodle Recipe Website" },
+              {
+                "name": "Review 1 student's 1.POCE.1: Noodle Recipe Website"
+              },
               {
                 "name": "1.ICE.1: Drawing DOM (continued)",
                 "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.ice-in-class-exercises/1.ice.1-drawing-dom"
@@ -224,7 +248,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -271,7 +300,10 @@
           },
           "inClass": {
             "items": [
-              { "name": "Review 1 student's 1.POCE.2: High Card", "url": "" },
+              {
+                "name": "Review 1 student's 1.POCE.2: High Card",
+                "url": ""
+              },
               {
                 "name": "1.ICE.2: Timeout / High Card Redux",
                 "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.ice-in-class-exercises/1.ice.2-high-card-redux"
@@ -306,7 +338,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -349,7 +386,9 @@
           },
           "inClass": {
             "items": [
-              { "name": "Review 1 student's 1.POCE.3: Match Game" },
+              {
+                "name": "Review 1 student's 1.POCE.3: Match Game"
+              },
               {
                 "name": "1.ICE.3: setInterval",
                 "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.ice-in-class-exercises/1.ice.3-setinterval"
@@ -388,7 +427,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -431,7 +475,10 @@
           },
           "inClass": {
             "items": [
-              { "name": "Review 1 student's 1.POCE.4: Timer", "url": "" }
+              {
+                "name": "Review 1 student's 1.POCE.4: Timer",
+                "url": ""
+              }
             ]
           },
           "postClass": {
@@ -466,7 +513,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -508,7 +560,11 @@
             ]
           },
           "inClass": {
-            "items": [{ "name": "Review 1 student's 1.POCE.5: Tic Tac Toe" }]
+            "items": [
+              {
+                "name": "Review 1 student's 1.POCE.5: Tic Tac Toe"
+              }
+            ]
           },
           "postClass": {}
         },
@@ -535,7 +591,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -624,7 +685,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -704,7 +770,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -777,7 +848,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -854,7 +930,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -917,7 +998,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1026,7 +1112,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1096,7 +1187,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1183,7 +1279,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1275,7 +1376,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1353,7 +1459,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1434,7 +1545,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1508,7 +1624,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1584,7 +1705,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1672,7 +1798,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1752,7 +1883,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1818,7 +1954,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1897,7 +2038,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2158,7 +2304,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2242,7 +2393,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2323,7 +2479,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2404,7 +2565,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2481,7 +2647,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2493,7 +2664,11 @@
           "type": "projects",
           "projectStart": {},
           "projectDue": {
-            "items": [{ "name": "Project 2 deadline to post ideas in Slack" }]
+            "items": [
+              {
+                "name": "Project 2 deadline to post ideas in Slack"
+              }
+            ]
           },
           "preClass": {},
           "inClass": {},
@@ -2561,7 +2736,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2624,7 +2804,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2705,7 +2890,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2780,7 +2970,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2846,7 +3041,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2905,7 +3105,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2916,7 +3121,13 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": { "items": [{ "name": "Project 2 MVP (deployed)" }] },
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 2 MVP (deployed)"
+              }
+            ]
+          },
           "preClass": {},
           "inClass": {
             "items": [
@@ -2979,7 +3190,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3045,7 +3261,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3111,7 +3332,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3122,7 +3348,13 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": { "items": [{ "name": "Project 2 Feature Freeze" }] },
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 2 Feature Freeze"
+              }
+            ]
+          },
           "preClass": {},
           "inClass": {
             "items": [
@@ -3170,7 +3402,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3262,7 +3499,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3354,7 +3596,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3435,7 +3682,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3512,7 +3764,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3578,7 +3835,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3652,7 +3914,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3722,7 +3989,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3792,7 +4064,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3887,7 +4164,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3971,7 +4253,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4057,17 +4344,18 @@
               {
                 "name": "D.4: Interview Strategies",
                 "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.4-interview-strategies"
-              },
-              {
-                "name": "D.5.1: Arrays - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.1-arrays#pre-class"
               }
             ]
           },
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4144,7 +4432,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4188,7 +4481,13 @@
               }
             ]
           },
-          "inClass": { "items": [{ "name": "AJAX Cards Redux" }] },
+          "inClass": {
+            "items": [
+              {
+                "name": "AJAX Cards Redux"
+              }
+            ]
+          },
           "postClass": {}
         },
         "css": {
@@ -4199,7 +4498,14 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "D.5.1: Arrays - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.1-arrays#pre-class"
+              }
+            ]
+          },
           "inClass": {
             "items": [
               {
@@ -4217,7 +4523,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4229,7 +4540,11 @@
           "type": "projects",
           "projectStart": {},
           "projectDue": {
-            "items": [{ "name": "Deadline to post Project 3 ideas in Slack" }]
+            "items": [
+              {
+                "name": "Deadline to post Project 3 ideas in Slack"
+              }
+            ]
           },
           "preClass": {},
           "inClass": {},
@@ -4274,7 +4589,7 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": { "items": [] },
+          "preClass": {},
           "inClass": {
             "items": [
               {
@@ -4292,7 +4607,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4350,29 +4670,34 @@
           "preClass": {
             "items": [
               {
-                "name": "D.6: Binary Search - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.6-binary-search#pre-class"
+                "name": "D.5.2: Hash Tables - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables"
               }
             ]
           },
           "inClass": {
             "items": [
               {
-                "name": "D.6: Binary Search - Part 1 ",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.6-binary-search#part-1"
+                "name": "D.5.2: Hash Tables - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables#part-1"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.6: Binary Search - Part 1 ",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.6-binary-search#part-1"
+                "name": "D.5.2: Hash Tables - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables#part-1"
               }
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4430,29 +4755,34 @@
           "preClass": {
             "items": [
               {
-                "name": "D.7: Sliding Windows - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-sliding-windows#pre-class"
+                "name": "D.6: Binary Search - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.6-binary-search#pre-class"
               }
             ]
           },
           "inClass": {
             "items": [
               {
-                "name": "D.7: Sliding Windows - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-sliding-windows#part-1"
+                "name": "D.6: Binary Search - Part 1 ",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.6-binary-search#part-1"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.7: Sliding Windows - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-sliding-windows#part-1"
+                "name": "D.6: Binary Search - Part 1 ",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.6-binary-search#part-1"
               }
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4510,29 +4840,34 @@
           "preClass": {
             "items": [
               {
-                "name": "D.5.2: Hash Tables - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables"
+                "name": "D.7: Sliding Windows - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-sliding-windows#pre-class"
               }
             ]
           },
           "inClass": {
             "items": [
               {
-                "name": "D.5.2: Hash Tables - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables#part-1"
+                "name": "D.7: Sliding Windows - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-sliding-windows#part-1"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.2: Hash Tables - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables#part-1"
+                "name": "D.7: Sliding Windows - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-sliding-windows#part-1"
               }
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4616,7 +4951,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4707,7 +5047,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4780,7 +5125,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4885,7 +5235,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4969,7 +5324,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5068,7 +5428,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5153,7 +5518,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5237,7 +5607,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5314,7 +5689,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5408,7 +5788,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5481,7 +5866,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5561,7 +5951,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5641,7 +6036,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5653,7 +6053,11 @@
           "type": "projects",
           "projectStart": {},
           "projectDue": {
-            "items": [{ "name": "Project 4 deadline to post ideas to Slack" }]
+            "items": [
+              {
+                "name": "Project 4 deadline to post ideas to Slack"
+              }
+            ]
           },
           "preClass": {},
           "inClass": {},
@@ -5723,7 +6127,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5789,7 +6198,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5862,7 +6276,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5942,7 +6361,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6022,7 +6446,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6095,7 +6524,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6107,7 +6541,11 @@
           "type": "projects",
           "projectStart": {},
           "projectDue": {
-            "items": [{ "name": "Project 4 MVP Deadline (deployed)" }]
+            "items": [
+              {
+                "name": "Project 4 MVP Deadline (deployed)"
+              }
+            ]
           },
           "preClass": {},
           "inClass": {
@@ -6116,7 +6554,9 @@
                 "name": "Project 4 Scrum",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
               },
-              { "name": "Project 4 In-Class Code Review" }
+              {
+                "name": "Project 4 In-Class Code Review"
+              }
             ]
           },
           "postClass": {
@@ -6171,7 +6611,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6244,7 +6689,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6255,7 +6705,13 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": { "items": [{ "name": "Project 4 Feature Freeze" }] },
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 4 Feature Freeze"
+              }
+            ]
+          },
           "preClass": {},
           "inClass": {
             "items": [
@@ -6317,7 +6773,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6390,7 +6851,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6479,7 +6945,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6593,7 +7064,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6659,7 +7135,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6754,7 +7235,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6841,7 +7327,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6925,7 +7416,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7005,7 +7501,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7085,7 +7586,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7098,7 +7604,9 @@
           "projectStart": {},
           "projectDue": {
             "items": [
-              { "name": "Project 5 deadline to post ideas and teams in Slack" }
+              {
+                "name": "Project 5 deadline to post ideas and teams in Slack"
+              }
             ]
           },
           "preClass": {},
@@ -7162,7 +7670,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7228,7 +7741,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7316,7 +7834,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7389,7 +7912,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7462,7 +7990,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7473,7 +8006,13 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": { "items": [{ "name": "Project 5 MVP (deployed)" }] },
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 5 MVP (deployed)"
+              }
+            ]
+          },
           "preClass": {},
           "inClass": {
             "items": [
@@ -7539,7 +8078,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7612,7 +8156,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7685,7 +8234,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7769,7 +8323,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7842,7 +8401,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7952,7 +8516,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8033,7 +8602,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8121,7 +8695,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8194,7 +8773,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8274,7 +8858,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8354,7 +8943,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8442,7 +9036,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8515,7 +9114,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8621,7 +9225,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8701,10 +9310,21 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
-          "cpDue": { "items": [{ "name": "Resume 1st Draft" }] },
+          "cpDue": {
+            "items": [
+              {
+                "name": "Resume 1st Draft"
+              }
+            ]
+          },
           "preClass": {
             "items": [
               {
@@ -8788,7 +9408,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8868,7 +9493,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {
@@ -8962,7 +9592,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -9042,10 +9677,21 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
-          "cpDue": { "items": [{ "name": "Job List 1st Draft" }] },
+          "cpDue": {
+            "items": [
+              {
+                "name": "Job List 1st Draft"
+              }
+            ]
+          },
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -9076,7 +9722,7 @@
     },
     "20-12-2021": {
       "courseDate": "20-12-2021",
-      "courseWeek": 25,
+      "courseWeek": 24,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2021-12-20T05:00:00.000Z",
@@ -9115,7 +9761,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -9149,7 +9800,7 @@
     },
     "21-12-2021": {
       "courseDate": "21-12-2021",
-      "courseWeek": 25,
+      "courseWeek": 24,
       "weekDay": 2,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2021-12-21T05:00:00.000Z",
@@ -9188,7 +9839,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -9222,7 +9878,7 @@
     },
     "22-12-2021": {
       "courseDate": "22-12-2021",
-      "courseWeek": 25,
+      "courseWeek": 24,
       "weekDay": 3,
       "dayNumber": 3,
       "meetingDateTimeUTC": "2021-12-22T05:00:00.000Z",
@@ -9261,7 +9917,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -9306,7 +9967,7 @@
     },
     "23-12-2021": {
       "courseDate": "23-12-2021",
-      "courseWeek": 25,
+      "courseWeek": 24,
       "weekDay": 4,
       "dayNumber": 4,
       "meetingDateTimeUTC": "2021-12-23T05:00:00.000Z",
@@ -9345,7 +10006,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -9379,7 +10045,7 @@
     },
     "24-12-2021": {
       "courseDate": "24-12-2021",
-      "courseWeek": 25,
+      "courseWeek": 24,
       "weekDay": 5,
       "dayNumber": 5,
       "meetingDateTimeUTC": "2021-12-24T05:00:00.000Z",
@@ -9418,7 +10084,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
