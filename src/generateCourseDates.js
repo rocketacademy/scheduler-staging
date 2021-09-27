@@ -251,11 +251,13 @@ const generateDataObject = (startDate, courseName, courseType, input, lessonDays
                 differenceInDays = 5 - date.weekday;
             } else if (date.weekday === 5) {
                 differenceInDays = 7;
+                week += 1;
             } else if (date.weekday === 4) {
                 differenceInDays = 8;
             } else {
                 differenceInDays = 9;
             }
+    
             // getting the extra dates to Friday
             const datesToAdd = [];
             for (let i = 1; i <= differenceInDays; i += 1) {
