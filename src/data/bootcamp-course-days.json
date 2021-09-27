@@ -4068,10 +4068,6 @@
               {
                 "name": "D.4: Interview Strategies",
                 "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.4-interview-strategies"
-              },
-              {
-                "name": "D.5.1: Arrays - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.1-arrays#pre-class"
               }
             ]
           },
@@ -4216,7 +4212,14 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "D.5.1: Arrays - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.1-arrays#pre-class"
+              }
+            ]
+          },
           "inClass": {
             "items": [
               {
@@ -4295,9 +4298,7 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": []
-          },
+          "preClass": {},
           "inClass": {
             "items": [
               {
@@ -4354,6 +4355,86 @@
     },
     {
       "courseDay": 55,
+      "dateTypes": {
+        "module": "Module 6: Frontend Infrastructure",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {
+            "items": [
+              {
+                "name": "D.5.2: Hash Tables - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "D.5.2: Hash Tables - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables#part-1"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "D.5.2: Hash Tables - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables#part-1"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 3 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 3 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 56,
       "dateTypes": {
         "module": "Module 6: Frontend Infrastructure",
         "general": {
@@ -4433,7 +4514,7 @@
       }
     },
     {
-      "courseDay": 56,
+      "courseDay": 57,
       "dateTypes": {
         "module": "Module 6: Frontend Infrastructure",
         "general": {
@@ -4471,86 +4552,6 @@
               {
                 "name": "D.7: Sliding Windows - Part 1",
                 "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-sliding-windows#part-1"
-              }
-            ]
-          }
-        },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "projects": {
-          "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 3 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 3 Implementation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game"
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "courseDay": 57,
-      "dateTypes": {
-        "module": "Module 6: Frontend Infrastructure",
-        "general": {
-          "type": "general",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "css": {
-          "type": "css",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "dsa": {
-          "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.5.2: Hash Tables - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "D.5.2: Hash Tables - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables#part-1"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "D.5.2: Hash Tables - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables#part-1"
               }
             ]
           }
