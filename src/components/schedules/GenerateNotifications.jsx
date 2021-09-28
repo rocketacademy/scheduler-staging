@@ -28,13 +28,20 @@ const GenerateNotifications = ({
   return (
     <>
       {status && status.items && (
-        <div className="notifications">
-          <DisplaySection
-            heading={heading}
-            sectionType={status.items}
-            day={day}
-          />
-        </div>
+        status.items.map((item) => {
+          return (
+            <li>
+              <a href={item.url} className="notification-item"><h6>{item.name}</h6></a>
+            </li>
+          )
+        })
+        // <div className="notifications">
+        //   <DisplaySection
+        //     heading={heading}
+        //     sectionType={status.items}
+        //     day={day}
+        //   />
+        // </div>
       )}
     </>
   );

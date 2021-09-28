@@ -54,6 +54,11 @@
   }
 }
 
+.notification-item {
+  color: $primary;
+  text-decoration-color: $primary;
+}
+
 .today-date {
   margin-bottom: 50px;
 }

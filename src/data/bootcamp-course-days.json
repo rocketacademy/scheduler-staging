@@ -3,17 +3,8 @@
     "edit": "https://github.com/rocketacademy/scheduler/edit/main/src/data/bootcamp-course-days.json"
   },
   "daysOfWeek": {
-    "fullTime": [
-      1,
-      2,
-      3,
-      4,
-      5
-    ],
-    "partTime": [
-      1,
-      6
-    ]
+    "fullTime": [1, 2, 3, 4, 5],
+    "partTime": [1, 6]
   },
   "courseStartIndex": 0,
   "totalCourseDays": 116,
@@ -2171,8 +2162,8 @@
           "projectStart": {
             "items": [
               {
-                "name": "Project 2: Server-Side App",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app"
+                "name": "Start: Project 2 Ideation Phase 1",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
               }
             ]
           },
@@ -2182,7 +2173,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 2 Ideation",
+                "name": "Project 2 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
               }
             ]
@@ -2259,7 +2250,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 2 Ideation",
+                "name": "Project 2 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
               }
             ]
@@ -2340,7 +2331,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 2 Ideation",
+                "name": "Project 2 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
               }
             ]
@@ -2414,15 +2405,22 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
+          "projectStart": {
+            "items": [
+              {
+                "name": "Start: Project 2 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
+              }
+            ]
+          },
           "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 2 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
+                "name": "Project 2 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
               }
             ]
           }
@@ -2492,20 +2490,14 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Project 2 deadline to post ideas in Slack"
-              }
-            ]
-          },
+          "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 2 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
+                "name": "Project 2 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
               }
             ]
           }
@@ -2575,18 +2567,32 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {
+          "projectStart": {
             "items": [
               {
-                "name": "Project 2 Ideation Phase 2",
+                "name": "Start: Project 2 Start",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app"
+              }
+            ]
+          },
+          "projectDue": {
+            "items": [
+              {
+                "name": "Due: Project 2 Ideation Phase 2",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
               }
             ]
-          }
+          },
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 2 Peer Planning Review",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
+              }
+            ]
+          },
+          "postClass": {}
         }
       }
     },
@@ -2646,10 +2652,6 @@
               {
                 "name": "Project 2 Scrum",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              },
-              {
-                "name": "Project 2 Planning: Peer Discussion",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
               }
             ]
           },
@@ -2923,7 +2925,8 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 2 MVP (deployed)"
+                "name": "Due: Project 2 MVP deadline",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#mvp-deadline"
               }
             ]
           },
@@ -3135,7 +3138,8 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 2 Feature Freeze"
+                "name": "Due: Project 2 Feature Freeze",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#feature-freeze"
               }
             ]
           },
@@ -3200,20 +3204,13 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 2: Server-Side App",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app"
-              }
-            ]
-          },
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 2 Presentations",
+                "name": "Due: Project 2 Presentations",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-presentations"
               }
             ]
           },
+          "preClass": {},
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -3465,7 +3462,7 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 2 Demo Video",
+                "name": "Due: Project 2 Demo Video",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#video-demo"
               }
             ]
@@ -3821,7 +3818,7 @@
           "projectStart": {
             "items": [
               {
-                "name": "Project 3: Full-Stack Game",
+                "name": "Project 3: Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-1"
               }
             ]
@@ -3832,7 +3829,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 3 Ideation",
+                "name": "Project 3 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-1"
               }
             ]
@@ -3920,7 +3917,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 3 Ideation",
+                "name": "Project 3 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-1"
               }
             ]
@@ -4004,7 +4001,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 3 Ideation",
+                "name": "Project 3 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-1"
               }
             ]
@@ -4093,15 +4090,22 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
+          "projectStart": {
+            "items": [
+              {
+                "name": "Start: Project 3 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
+              }
+            ]
+          },
           "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 3 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-1"
+                "name": "Project 3 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
               }
             ]
           }
@@ -4177,8 +4181,8 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 3 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-1"
+                "name": "Project 3 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
               }
             ]
           }
@@ -4249,21 +4253,36 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
+          "projectStart": {
+            "items": [
+              {
+                "name": "Start: Project 3",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
+              }
+            ]
+          },
           "projectDue": {
             "items": [
               {
-                "name": "Deadline to post Project 3 ideas in Slack"
+                "name": "Due: Project 3 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
               }
             ]
           },
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Peer Planning Review",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
-                "name": "Project 3 Ideation Phase 2",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
+                "name": "Project 3 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game"
               }
             ]
           }
@@ -4658,7 +4677,7 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 3 MVP Deadline (deployed)",
+                "name": "Due: Project 3 MVP Deadline",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#mvp-deadline"
               }
             ]
@@ -4822,7 +4841,7 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 3 Feature Freeze",
+                "name": "Due: Project 3 Feature Freeze",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#feature-freeze"
               }
             ]
@@ -5011,25 +5030,22 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 3",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game"
-              }
-            ]
-          },
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 3 Presentations",
+                "name": "Due: Project 3 Presentations",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-presentations"
               }
             ]
           },
+          "preClass": {},
+          "inClass": {},
           "postClass": {
             "items": [
               {
                 "name": "Project 3 Post-Mortems",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-post-mortem-meeting"
+              },
+              {
+                "name": "Project 3 Video Demo",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#video-demo"
               }
             ]
           }
@@ -5109,7 +5125,14 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Peer project review exercise",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#project-presentations"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
@@ -5198,7 +5221,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 3 Video Demo",
+                "name": "Due: Project 3 Video Demo",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#video-demo"
               }
             ]
@@ -5276,17 +5299,17 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {
+          "projectDue": {
             "items": [
               {
-                "name": "Project 3 Video Demo",
+                "name": "Due: Project 3 Video Demo",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#video-demo"
               }
             ]
-          }
+          },
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         }
       }
     },
@@ -5356,8 +5379,8 @@
             "projectStart": {
               "items": [
                 {
-                  "name": "Project 4: Full-Stack React App",
-                  "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app"
+                  "name": "Start: Project 4 Ideation Phase 1",
+                  "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-1"
                 }
               ]
             }
@@ -5368,11 +5391,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 3 Video Demo",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#video-demo"
-              },
-              {
-                "name": "Project 4 Ideation",
+                "name": "Project 4 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-1"
               }
             ]
@@ -5447,20 +5466,13 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Project 3 Video Demo",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#video-demo"
-              }
-            ]
-          },
+          "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 4 Ideation",
+                "name": "Project 4 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-1"
               }
             ]
@@ -5526,7 +5538,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 4 Ideation",
+                "name": "Project 4 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-1"
               }
             ]
@@ -5599,15 +5611,22 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
+          "projectStart": {
+            "items": [
+              {
+                "name": "Start: Project 4 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-2"
+              }
+            ]
+          },
           "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 4 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-1"
+                "name": "Project 4 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-2"
               }
             ]
           }
@@ -5680,20 +5699,14 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Project 4 deadline to post ideas to Slack"
-              }
-            ]
-          },
+          "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 4 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-1"
+                "name": "Project 4 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-2"
               }
             ]
           }
@@ -5765,15 +5778,36 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
+          "projectStart": {
+            "items": [
+              {
+                "name": "Start: Project 4 Start",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app"
+              }
+            ]
+          },
+          "projectDue": {
+            "items": [
+              {
+                "name": "Due: Project 4 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-2"
+              }
+            ]
+          },
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Peer Planning Review",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-2"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
-                "name": "Project 4 Ideation Phase 2",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-2"
+                "name": "Start: Project 4 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app"
               }
             ]
           }
@@ -6141,7 +6175,8 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 4 MVP Deadline (deployed)"
+                "name": "Due: Project 4 MVP Deadline",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#mvp-deadline"
               }
             ]
           },
@@ -6296,7 +6331,8 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 4 Feature Freeze"
+                "name": "Due: Project 4 Feature Freeze",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#feature-freeze"
               }
             ]
           },
@@ -6448,20 +6484,13 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 4: Full-Stack React App",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app"
-              }
-            ]
-          },
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 4 Presentations",
+                "name": "Due: Project 4 Presentations",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-presentations"
               }
             ]
           },
+          "preClass": {},
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -6639,7 +6668,7 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 4 Video Demo",
+                "name": "Due: Project 4 Video Demo",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#video-demo"
               }
             ]
@@ -6704,8 +6733,8 @@
           "projectStart": {
             "items": [
               {
-                "name": "Project 5: Group React App",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app"
+                "name": "Start: Project 5 Ideation Phase 1",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
               }
             ]
           },
@@ -6715,7 +6744,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 5 Ideation",
+                "name": "Project 5 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
               }
             ]
@@ -6803,7 +6832,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 5 Ideation",
+                "name": "Project 5 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
               }
             ]
@@ -6890,7 +6919,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 5 Ideation",
+                "name": "Project 5 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
               }
             ]
@@ -6967,15 +6996,22 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
+          "projectStart": {
+            "items": [
+              {
+                "name": "Start: Project 5 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-2"
+              }
+            ]
+          },
           "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 5 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
+                "name": "Project 5 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-2"
               }
             ]
           }
@@ -7054,8 +7090,8 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 5 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
+                "name": "Project 5 Ideation 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-2"
               }
             ]
           }
@@ -7128,20 +7164,14 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Project 5 deadline to post ideas and teams in Slack"
-              }
-            ]
-          },
+          "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 5 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
+                "name": "Project 5 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-2"
               }
             ]
           }
@@ -7206,18 +7236,32 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {
+          "projectStart": {
             "items": [
               {
-                "name": "Project 5 Ideation Phase 2",
+                "name": "Start: Project 5",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app"
+              }
+            ]
+          },
+          "projectDue": {
+            "items": [
+              {
+                "name": "Due: Project 5 Ideation Phase 2",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-2"
               }
             ]
-          }
+          },
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Peer Planning Review",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app"
+              }
+            ]
+          },
+          "postClass": {}
         }
       }
     },
@@ -7510,7 +7554,8 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 5 MVP (deployed)"
+                "name": "Due: Project 5 MVP Deadline",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#mvp-deadline"
               }
             ]
           },
@@ -7739,7 +7784,7 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 5 Feature Freeze",
+                "name": "Due: Project 5 Feature Freeze",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#feature-freeze"
               }
             ]
@@ -7895,7 +7940,7 @@
           "projectStart": {
             "items": [
               {
-                "name": "Project 6: Capstone",
+                "name": "Start: Project 6 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
               }
             ]
@@ -7903,20 +7948,13 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 5: Group React App",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app"
-              }
-            ]
-          },
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 5 Presentations",
+                "name": "Due: Project 5 Presentations",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-presentations"
               }
             ]
           },
+          "preClass": {},
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -7928,7 +7966,7 @@
                 "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#video-demo"
               },
               {
-                "name": "Project 6 Ideation",
+                "name": "Project 6 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#ideation-phase-1"
               }
             ]
@@ -8003,9 +8041,23 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Start: Project 6 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#ideation-phase-2"
+              }
+            ]
+          },
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 5: Peer Project Review Exercise",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
@@ -8013,8 +8065,8 @@
                 "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#video-demo"
               },
               {
-                "name": "Project 6 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#ideation-phase-1"
+                "name": "Project 6 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#ideation-phase-2"
               }
             ]
           }
@@ -8083,22 +8135,40 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
+          "projectStart": {
+            "items": [
+              {
+                "name": "Start: Project 6 Start",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
+              }
+            ]
+          },
           "projectDue": {
             "items": [
               {
-                "name": "Project 5 Video",
+                "name": "Due: Project 6 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#ideation-phase-2"
+              },
+              {
+                "name": "Due: Project 5 Video",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#video-demo"
               }
             ]
           },
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 6 Peer Planning Review",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
-                "name": "Project 6 Ideation Phase 2",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#ideation-phase-2"
+                "name": "Project 6 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
               }
             ]
           }
@@ -8591,7 +8661,7 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 6 MVP (deployed)",
+                "name": "Due: Project 6 MVP Deadline",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#mvp-deadline"
               }
             ]
@@ -8747,7 +8817,8 @@
           "cpDue": {
             "items": [
               {
-                "name": "Resume 1st Draft"
+                "name": "Due: Resume 1st Draft",
+                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.2-resume"
               }
             ]
           },
@@ -8920,7 +8991,7 @@
           "cpDue": {
             "items": [
               {
-                "name": "IP.3: Portfolio",
+                "name": "Due: Portfolio",
                 "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.3-portfolio"
               }
             ]
@@ -9094,7 +9165,8 @@
           "cpDue": {
             "items": [
               {
-                "name": "Job List 1st Draft"
+                "name": "Due: Job List 1st Draft",
+                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.4-job-list"
               }
             ]
           },
@@ -9181,7 +9253,7 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 6 Feature Freeze",
+                "name": "Due: Project 6 Feature Freeze",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#feature-freeze"
               }
             ]
@@ -9335,21 +9407,25 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {
+          "projectDue": {
             "items": [
               {
-                "name": "Project 6 Presentations",
+                "name": "Due: Project 6 Presentations",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-presentations"
               }
             ]
           },
+          "preClass": {},
+          "inClass": {},
           "postClass": {
             "items": [
               {
                 "name": "Project 6 Post-Mortems",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-post-mortem-meeting"
+              },
+              {
+                "name": "Project 6 Video Demo ",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#video-demo"
               }
             ]
           }

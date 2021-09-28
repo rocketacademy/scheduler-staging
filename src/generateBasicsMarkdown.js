@@ -46,26 +46,25 @@ const generateCourseArrays = (data) => {
         dates.push(date);
     })
 
-    console.log('dates', dates);
     // all possible day numbers that course days fall on
     dates.forEach((date) => {
         dayNumbers.push(data.days[date].dayNumber);
     })
     dayNumbers = [...new Set(dayNumbers)].sort();
-    console.log('daynumber', dayNumbers);
+    
     // all possible names of days of week courdays fall on (this is the table header)
     dayNumbers.forEach((number) => {
         daysOfWeek.push(dayNames[number]);
     })
 
-    // getting last week of course
-    lastWeek = data.days[dates[dates.length -1]].courseWeek;
+    // getting last week of course, + 1 because course week starts at 0
+    lastWeek = data.days[dates[dates.length -1]].courseWeek + 1;
 
     // getting the dates the coursedays fall on for each week
     for  (let l = 0; l < lastWeek; l += 1) {
         const week = [];
         for (let k = 0; k < dates.length; k += 1) {
-            console.log('course week', data.days[dates[k]].courseWeek);
+            console.log(data.days[dates[k]].courseWeek);
             if (data.days[dates[k]].courseWeek === weekCount) {
                 week.push(data.days[dates[k]].courseDate);
             }
@@ -84,10 +83,10 @@ const generateCourseArrays = (data) => {
         
         // each element in each subarray of weekDates is compared to the element in the same index
         // position in dayNumbers array
-        console.log('weekdates', weekDates);
         console.log(dayNumbers);
         for (let m = 0; m < weekDates[n].length; m += 1) {
             for (let p = 0; p < dayNumbers.length; p += 1) {
+                console.log(data.days[weekDates[n][m]].dayNumber === dayNumbers[p])
                 // if element.dayNumber === element at the same index position in dayNumbers array 
                 if (data.days[weekDates[n][m]].dayNumber === dayNumbers[p]) {
                     if (data.days[weekDates[n][m]].dateTypes.title) {
@@ -108,7 +107,6 @@ const generateCourseArrays = (data) => {
 
 // helper function that generates course days table marksown
 const generateCourseDaysTable = (output) => {
-    console.log('days of week', daysOfWeek);
     // schedule table header 
     output += '| Week |';
     for (let p = 0; p < daysOfWeek.length; p += 1) {
@@ -204,7 +202,8 @@ const dayNames = {
         3: 'Wednesday',
         4: 'Thursday',
         5: 'Friday',
-        6: 'Saturday'
+        6: 'Saturday',
+        7: 'Sunday'
     }
 
 /* ###################################################
@@ -215,7 +214,7 @@ const dates = [];
 let dayNumbers = [];
 const daysOfWeek = [];
 const weekDates = [];
-let weekCount = 1;
+let weekCount = 0;
 let lastWeek;
 const tableRows = [];
 
