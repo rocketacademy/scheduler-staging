@@ -606,7 +606,7 @@
           "projectStart": {
             "items": [
               {
-                "name": "Project 1: Video Poker",
+                "name": "Start: Project 1 Video Poker",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-1-video-poker"
               }
             ]
@@ -971,7 +971,7 @@
     "27-12-2021": {
       "courseDay": null,
       "courseDate": "27-12-2021",
-      "courseWeek": 7,
+      "courseWeek": null,
       "dayNumber": 1,
       "dateTypes": {
         "holidayType": "company holiday",
@@ -983,7 +983,7 @@
     "01-01-2022": {
       "courseDay": null,
       "courseDate": "01-01-2022",
-      "courseWeek": 7,
+      "courseWeek": null,
       "dayNumber": 6,
       "dateTypes": {
         "holidayType": "company holiday",
@@ -994,7 +994,7 @@
     },
     "03-01-2022": {
       "courseDate": "03-01-2022",
-      "courseWeek": 8,
+      "courseWeek": 7,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-01-03T11:30:00.000Z",
@@ -1038,7 +1038,7 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 1: Video Poker",
+                "name": "Due: Project 1 Video Poker",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-1-video-poker"
               }
             ]
@@ -1072,7 +1072,7 @@
     },
     "08-01-2022": {
       "courseDate": "08-01-2022",
-      "courseWeek": 8,
+      "courseWeek": 7,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-01-08T02:00:00.000Z",
@@ -1158,7 +1158,7 @@
     },
     "10-01-2022": {
       "courseDate": "10-01-2022",
-      "courseWeek": 9,
+      "courseWeek": 8,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-01-10T11:30:00.000Z",
@@ -1233,7 +1233,7 @@
     },
     "15-01-2022": {
       "courseDate": "15-01-2022",
-      "courseWeek": 9,
+      "courseWeek": 8,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-01-15T02:00:00.000Z",
@@ -1325,7 +1325,7 @@
     },
     "17-01-2022": {
       "courseDate": "17-01-2022",
-      "courseWeek": 10,
+      "courseWeek": 9,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-01-17T11:30:00.000Z",
@@ -1422,7 +1422,7 @@
     },
     "22-01-2022": {
       "courseDate": "22-01-2022",
-      "courseWeek": 10,
+      "courseWeek": 9,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-01-22T02:00:00.000Z",
@@ -1505,7 +1505,7 @@
     },
     "24-01-2022": {
       "courseDate": "24-01-2022",
-      "courseWeek": 11,
+      "courseWeek": 10,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-01-24T11:30:00.000Z",
@@ -1591,7 +1591,7 @@
     },
     "29-01-2022": {
       "courseDate": "29-01-2022",
-      "courseWeek": 11,
+      "courseWeek": 10,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-01-29T02:00:00.000Z",
@@ -1670,7 +1670,7 @@
     },
     "31-01-2022": {
       "courseDate": "31-01-2022",
-      "courseWeek": 12,
+      "courseWeek": 11,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-01-31T11:30:00.000Z",
@@ -1751,7 +1751,7 @@
     },
     "05-02-2022": {
       "courseDate": "05-02-2022",
-      "courseWeek": 12,
+      "courseWeek": 11,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-02-05T02:00:00.000Z",
@@ -1832,7 +1832,7 @@
     },
     "07-02-2022": {
       "courseDate": "07-02-2022",
-      "courseWeek": 13,
+      "courseWeek": 12,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-02-07T11:30:00.000Z",
@@ -1917,7 +1917,7 @@
     },
     "12-02-2022": {
       "courseDate": "12-02-2022",
-      "courseWeek": 13,
+      "courseWeek": 12,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-02-12T02:00:00.000Z",
@@ -1988,7 +1988,7 @@
     },
     "14-02-2022": {
       "courseDate": "14-02-2022",
-      "courseWeek": 14,
+      "courseWeek": 13,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-02-14T11:30:00.000Z",
@@ -2072,7 +2072,7 @@
     },
     "19-02-2022": {
       "courseDate": "19-02-2022",
-      "courseWeek": 14,
+      "courseWeek": 13,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-02-19T02:00:00.000Z",
@@ -2173,7 +2173,7 @@
     },
     "21-02-2022": {
       "courseDate": "21-02-2022",
-      "courseWeek": 15,
+      "courseWeek": 14,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-02-21T11:30:00.000Z",
@@ -2259,7 +2259,7 @@
     },
     "26-02-2022": {
       "courseDate": "26-02-2022",
-      "courseWeek": 15,
+      "courseWeek": 14,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-02-26T02:00:00.000Z",
@@ -2331,8 +2331,8 @@
           "projectStart": {
             "items": [
               {
-                "name": "Project 2: Server-Side App",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app"
+                "name": "Start: Project 2 Ideation Phase 1",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
               }
             ]
           },
@@ -2342,7 +2342,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 2 Ideation",
+                "name": "Project 2 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
               }
             ]
@@ -2352,7 +2352,7 @@
     },
     "28-02-2022": {
       "courseDate": "28-02-2022",
-      "courseWeek": 16,
+      "courseWeek": 15,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-02-28T11:30:00.000Z",
@@ -2424,7 +2424,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 2 Ideation",
+                "name": "Project 2 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
               }
             ]
@@ -2434,7 +2434,7 @@
     },
     "05-03-2022": {
       "courseDate": "05-03-2022",
-      "courseWeek": 16,
+      "courseWeek": 15,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-03-05T02:00:00.000Z",
@@ -2510,7 +2510,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 2 Ideation",
+                "name": "Project 2 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
               }
             ]
@@ -2520,7 +2520,7 @@
     },
     "07-03-2022": {
       "courseDate": "07-03-2022",
-      "courseWeek": 17,
+      "courseWeek": 16,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-03-07T11:30:00.000Z",
@@ -2589,15 +2589,22 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
+          "projectStart": {
+            "items": [
+              {
+                "name": "Start: Project 2 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
+              }
+            ]
+          },
           "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 2 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
+                "name": "Project 2 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
               }
             ]
           }
@@ -2606,7 +2613,7 @@
     },
     "12-03-2022": {
       "courseDate": "12-03-2022",
-      "courseWeek": 17,
+      "courseWeek": 16,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-03-12T02:00:00.000Z",
@@ -2672,20 +2679,14 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Project 2 deadline to post ideas in Slack"
-              }
-            ]
-          },
+          "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 2 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
+                "name": "Project 2 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
               }
             ]
           }
@@ -2694,7 +2695,7 @@
     },
     "14-03-2022": {
       "courseDate": "14-03-2022",
-      "courseWeek": 18,
+      "courseWeek": 17,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-03-14T11:30:00.000Z",
@@ -2760,24 +2761,38 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {
+          "projectStart": {
             "items": [
               {
-                "name": "Project 2 Ideation Phase 2",
+                "name": "Start: Project 2 Start",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app"
+              }
+            ]
+          },
+          "projectDue": {
+            "items": [
+              {
+                "name": "Due: Project 2 Ideation Phase 2",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
               }
             ]
-          }
+          },
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 2 Peer Planning Review",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
+              }
+            ]
+          },
+          "postClass": {}
         }
       }
     },
     "19-03-2022": {
       "courseDate": "19-03-2022",
-      "courseWeek": 18,
+      "courseWeek": 17,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-03-19T02:00:00.000Z",
@@ -2836,10 +2851,6 @@
               {
                 "name": "Project 2 Scrum",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              },
-              {
-                "name": "Project 2 Planning: Peer Discussion",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
               }
             ]
           },
@@ -2860,7 +2871,7 @@
     },
     "21-03-2022": {
       "courseDate": "21-03-2022",
-      "courseWeek": 19,
+      "courseWeek": 18,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-03-21T11:30:00.000Z",
@@ -2938,7 +2949,7 @@
     },
     "26-03-2022": {
       "courseDate": "26-03-2022",
-      "courseWeek": 19,
+      "courseWeek": 18,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-03-26T02:00:00.000Z",
@@ -3018,7 +3029,7 @@
     },
     "28-03-2022": {
       "courseDate": "28-03-2022",
-      "courseWeek": 20,
+      "courseWeek": 19,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-03-28T11:30:00.000Z",
@@ -3089,7 +3100,7 @@
     },
     "02-04-2022": {
       "courseDate": "02-04-2022",
-      "courseWeek": 20,
+      "courseWeek": 19,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-04-02T02:00:00.000Z",
@@ -3133,7 +3144,8 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 2 MVP (deployed)"
+                "name": "Due: Project 2 MVP deadline",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#mvp-deadline"
               }
             ]
           },
@@ -3167,7 +3179,7 @@
     },
     "04-04-2022": {
       "courseDate": "04-04-2022",
-      "courseWeek": 21,
+      "courseWeek": 20,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-04-04T11:30:00.000Z",
@@ -3238,7 +3250,7 @@
     },
     "09-04-2022": {
       "courseDate": "09-04-2022",
-      "courseWeek": 21,
+      "courseWeek": 20,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-04-09T02:00:00.000Z",
@@ -3309,7 +3321,7 @@
     },
     "11-04-2022": {
       "courseDate": "11-04-2022",
-      "courseWeek": 22,
+      "courseWeek": 21,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-04-11T11:30:00.000Z",
@@ -3360,7 +3372,8 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 2 Feature Freeze"
+                "name": "Due: Project 2 Feature Freeze",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#feature-freeze"
               }
             ]
           },
@@ -3386,7 +3399,7 @@
     },
     "16-04-2022": {
       "courseDate": "16-04-2022",
-      "courseWeek": 22,
+      "courseWeek": 21,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-04-16T02:00:00.000Z",
@@ -3430,20 +3443,13 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 2: Server-Side App",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app"
-              }
-            ]
-          },
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 2 Presentations",
+                "name": "Due: Project 2 Presentations",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-presentations"
               }
             ]
           },
+          "preClass": {},
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -3457,7 +3463,7 @@
     },
     "18-04-2022": {
       "courseDate": "18-04-2022",
-      "courseWeek": 23,
+      "courseWeek": 22,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-04-18T11:30:00.000Z",
@@ -3547,7 +3553,7 @@
     },
     "23-04-2022": {
       "courseDate": "23-04-2022",
-      "courseWeek": 23,
+      "courseWeek": 22,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-04-23T02:00:00.000Z",
@@ -3637,7 +3643,7 @@
     },
     "25-04-2022": {
       "courseDate": "25-04-2022",
-      "courseWeek": 24,
+      "courseWeek": 23,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-04-25T11:30:00.000Z",
@@ -3710,7 +3716,7 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 2 Demo Video",
+                "name": "Due: Project 2 Demo Video",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#video-demo"
               }
             ]
@@ -3723,7 +3729,7 @@
     },
     "30-04-2022": {
       "courseDate": "30-04-2022",
-      "courseWeek": 24,
+      "courseWeek": 23,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-04-30T02:00:00.000Z",
@@ -3799,7 +3805,7 @@
     "02-05-2022": {
       "courseDay": null,
       "courseDate": "02-05-2022",
-      "courseWeek": 25,
+      "courseWeek": 24,
       "dayNumber": 1,
       "dateTypes": {
         "holidayType": "public holiday",
@@ -3810,7 +3816,7 @@
     },
     "07-05-2022": {
       "courseDate": "07-05-2022",
-      "courseWeek": 25,
+      "courseWeek": 24,
       "weekDay": 1,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-05-07T02:00:00.000Z",
@@ -3881,7 +3887,7 @@
     },
     "09-05-2022": {
       "courseDate": "09-05-2022",
-      "courseWeek": 26,
+      "courseWeek": 25,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-05-09T11:30:00.000Z",
@@ -3960,7 +3966,7 @@
     },
     "14-05-2022": {
       "courseDate": "14-05-2022",
-      "courseWeek": 26,
+      "courseWeek": 25,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-05-14T02:00:00.000Z",
@@ -4036,7 +4042,7 @@
     "16-05-2022": {
       "courseDay": null,
       "courseDate": "16-05-2022",
-      "courseWeek": 27,
+      "courseWeek": 26,
       "dayNumber": 1,
       "dateTypes": {
         "holidayType": "public holiday",
@@ -4047,7 +4053,7 @@
     },
     "21-05-2022": {
       "courseDate": "21-05-2022",
-      "courseWeek": 27,
+      "courseWeek": 26,
       "weekDay": 1,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-05-21T02:00:00.000Z",
@@ -4115,7 +4121,7 @@
           "projectStart": {
             "items": [
               {
-                "name": "Project 3: Full-Stack Game",
+                "name": "Start: Project 3 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-1"
               }
             ]
@@ -4126,7 +4132,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 3 Ideation",
+                "name": "Project 3 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-1"
               }
             ]
@@ -4136,7 +4142,7 @@
     },
     "23-05-2022": {
       "courseDate": "23-05-2022",
-      "courseWeek": 28,
+      "courseWeek": 27,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-05-23T11:30:00.000Z",
@@ -4219,7 +4225,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 3 Ideation",
+                "name": "Project 3 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-1"
               }
             ]
@@ -4229,7 +4235,7 @@
     },
     "28-05-2022": {
       "courseDate": "28-05-2022",
-      "courseWeek": 28,
+      "courseWeek": 27,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-05-28T02:00:00.000Z",
@@ -4247,6 +4253,14 @@
               {
                 "name": "5.2.2: AJAX Cards",
                 "url": "https://bootcamp.rocketacademy.co/5-full-stack-applications/5.2-ajax/5.2.2-ajax-cards"
+              },
+              {
+                "name": "6.1.1: Webpack with Local Modules",
+                "url": "https://bootcamp.rocketacademy.co/6-frontend-infrastructure/6.1-webpack/6.1.1-webpack-with-local-modules"
+              },
+              {
+                "name": "6.0: Module 6 Overview",
+                "url": "https://bootcamp.rocketacademy.co/6-frontend-infrastructure/6.0-module-6-overview"
               }
             ]
           },
@@ -4308,7 +4322,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 3 Ideation",
+                "name": "Project 3 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-1"
               }
             ]
@@ -4318,7 +4332,7 @@
     },
     "30-05-2022": {
       "courseDate": "30-05-2022",
-      "courseWeek": 29,
+      "courseWeek": 28,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-05-30T11:30:00.000Z",
@@ -4329,14 +4343,6 @@
           "type": "general",
           "preClass": {
             "items": [
-              {
-                "name": "6.0: Module 6 Overview",
-                "url": "https://bootcamp.rocketacademy.co/6-frontend-infrastructure/6.0-module-6-overview"
-              },
-              {
-                "name": "6.1.1: Webpack with Local Modules",
-                "url": "https://bootcamp.rocketacademy.co/6-frontend-infrastructure/6.1-webpack/6.1.1-webpack-with-local-modules"
-              },
               {
                 "name": "6.1.2: Webpack with NPM Modules",
                 "url": "https://bootcamp.rocketacademy.co/6-frontend-infrastructure/6.1-webpack/6.1.2-webpack-with-npm-modules"
@@ -4379,8 +4385,8 @@
                 "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.4-interview-strategies"
               },
               {
-                "name": "D.5.1: Arrays - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.1-arrays#pre-class"
+                "name": "D.4.1 Introduction to Algorithm Problems",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.4-interview-strategies/d.4.1-introduction-to-algorithm-problems#pre-class"
               }
             ]
           },
@@ -4402,15 +4408,22 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
+          "projectStart": {
+            "items": [
+              {
+                "name": "Start: Project 3 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
+              }
+            ]
+          },
           "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 3 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-1"
+                "name": "Project 3 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
               }
             ]
           }
@@ -4419,7 +4432,7 @@
     },
     "04-06-2022": {
       "courseDate": "04-06-2022",
-      "courseWeek": 29,
+      "courseWeek": 28,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-06-04T02:00:00.000Z",
@@ -4461,8 +4474,8 @@
           "preClass": {
             "items": [
               {
-                "name": "D.4.1 Introduction to Algorithm Problems",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.4-interview-strategies/d.4.1-introduction-to-algorithm-problems#pre-class"
+                "name": "D.5.1: Arrays - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.1-arrays#pre-class"
               }
             ]
           },
@@ -4491,8 +4504,8 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 3 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-1"
+                "name": "Project 3 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
               }
             ]
           }
@@ -4501,7 +4514,7 @@
     },
     "06-06-2022": {
       "courseDate": "06-06-2022",
-      "courseWeek": 30,
+      "courseWeek": 29,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-06-06T11:30:00.000Z",
@@ -4568,21 +4581,36 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
+          "projectStart": {
+            "items": [
+              {
+                "name": "Start: Project 3",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
+              }
+            ]
+          },
           "projectDue": {
             "items": [
               {
-                "name": "Deadline to post Project 3 ideas in Slack"
+                "name": "Due: Project 3 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
               }
             ]
           },
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Peer Planning Review",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
-                "name": "Project 3 Ideation Phase 2",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
+                "name": "Project 3 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game"
               }
             ]
           }
@@ -4591,7 +4619,7 @@
     },
     "11-06-2022": {
       "courseDate": "11-06-2022",
-      "courseWeek": 30,
+      "courseWeek": 29,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-06-11T02:00:00.000Z",
@@ -4620,7 +4648,12 @@
         "dsa": {
           "type": "dsa",
           "preClass": {
-            "items": []
+            "items": [
+              {
+                "name": "D.5.2: Hash Tables - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables"
+              }
+            ]
           },
           "inClass": {
             "items": [
@@ -4678,7 +4711,7 @@
     },
     "13-06-2022": {
       "courseDate": "13-06-2022",
-      "courseWeek": 31,
+      "courseWeek": 30,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-06-13T11:30:00.000Z",
@@ -4710,16 +4743,16 @@
           "inClass": {
             "items": [
               {
-                "name": "D.6: Binary Search - Part 1 ",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.6-binary-search#part-1"
+                "name": "D.5.2: Hash Tables - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables#part-1"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.6: Binary Search - Part 1 ",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.6-binary-search#part-1"
+                "name": "D.5.2: Hash Tables - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables#part-1"
               }
             ]
           }
@@ -4763,7 +4796,7 @@
     },
     "18-06-2022": {
       "courseDate": "18-06-2022",
-      "courseWeek": 31,
+      "courseWeek": 30,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-06-18T02:00:00.000Z",
@@ -4795,16 +4828,16 @@
           "inClass": {
             "items": [
               {
-                "name": "D.7: Sliding Windows - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-sliding-windows#part-1"
+                "name": "D.6: Binary Search - Part 1 ",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.6-binary-search#part-1"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.7: Sliding Windows - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-sliding-windows#part-1"
+                "name": "D.6: Binary Search - Part 1 ",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.6-binary-search#part-1"
               }
             ]
           }
@@ -4848,7 +4881,7 @@
     },
     "20-06-2022": {
       "courseDate": "20-06-2022",
-      "courseWeek": 32,
+      "courseWeek": 31,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-06-20T11:30:00.000Z",
@@ -4869,27 +4902,20 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.5.2: Hash Tables - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {
             "items": [
               {
-                "name": "D.5.2: Hash Tables - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables#part-1"
+                "name": "D.7: Sliding Windows - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-sliding-windows#part-1"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.2: Hash Tables - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables#part-1"
+                "name": "D.7: Sliding Windows - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-sliding-windows#part-1"
               }
             ]
           }
@@ -4933,7 +4959,7 @@
     },
     "25-06-2022": {
       "courseDate": "25-06-2022",
-      "courseWeek": 32,
+      "courseWeek": 31,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-06-25T02:00:00.000Z",
@@ -4965,7 +4991,14 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "D.5.3: Stacks - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#pre-class"
+              }
+            ]
+          },
           "inClass": {
             "items": [
               {
@@ -5002,7 +5035,7 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 3 MVP Deadline (deployed)",
+                "name": "Due: Project 3 MVP Deadline",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#mvp-deadline"
               }
             ]
@@ -5033,7 +5066,7 @@
     },
     "27-06-2022": {
       "courseDate": "27-06-2022",
-      "courseWeek": 33,
+      "courseWeek": 32,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-06-27T11:30:00.000Z",
@@ -5054,14 +5087,7 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.5.3: Stacks - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#pre-class"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {
             "items": [
               {
@@ -5118,7 +5144,7 @@
     },
     "02-07-2022": {
       "courseDate": "02-07-2022",
-      "courseWeek": 33,
+      "courseWeek": 32,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-07-02T02:00:00.000Z",
@@ -5139,7 +5165,14 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "D.5.4: Queues - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.4-queues#pre-class"
+              }
+            ]
+          },
           "inClass": {
             "items": [
               {
@@ -5176,7 +5209,7 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 3 Feature Freeze",
+                "name": "Due: Project 3 Feature Freeze",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#feature-freeze"
               }
             ]
@@ -5207,7 +5240,7 @@
     },
     "04-07-2022": {
       "courseDate": "04-07-2022",
-      "courseWeek": 34,
+      "courseWeek": 33,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-07-04T11:30:00.000Z",
@@ -5245,8 +5278,12 @@
           "preClass": {
             "items": [
               {
-                "name": "D.5.4: Queues - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.4-queues#pre-class"
+                "name": "D.6: Object-Oriented Programming",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.6-intro-to-object-oriented-programming"
+              },
+              {
+                "name": "D.5.5: Linked Lists - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#pre-class"
               }
             ]
           },
@@ -5307,7 +5344,7 @@
     "09-07-2022": {
       "courseDay": null,
       "courseDate": "09-07-2022",
-      "courseWeek": 34,
+      "courseWeek": 33,
       "dayNumber": 6,
       "dateTypes": {
         "holidayType": "public holiday",
@@ -5318,7 +5355,7 @@
     },
     "11-07-2022": {
       "courseDate": "11-07-2022",
-      "courseWeek": 35,
+      "courseWeek": 34,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-07-11T11:30:00.000Z",
@@ -5339,18 +5376,7 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.6: Object-Oriented Programming",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.6-intro-to-object-oriented-programming"
-              },
-              {
-                "name": "D.5.5: Linked Lists - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#pre-class"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {
             "items": [
               {
@@ -5387,25 +5413,22 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 3",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game"
-              }
-            ]
-          },
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 3 Presentations",
+                "name": "Due: Project 3 Presentations",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-presentations"
               }
             ]
           },
+          "preClass": {},
+          "inClass": {},
           "postClass": {
             "items": [
               {
                 "name": "Project 3 Post-Mortems",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-post-mortem-meeting"
+              },
+              {
+                "name": "Project 3 Video Demo",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#video-demo"
               }
             ]
           }
@@ -5414,7 +5437,7 @@
     },
     "16-07-2022": {
       "courseDate": "16-07-2022",
-      "courseWeek": 35,
+      "courseWeek": 34,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-07-16T02:00:00.000Z",
@@ -5490,7 +5513,14 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Peer project review exercise",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#project-presentations"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
@@ -5504,7 +5534,7 @@
     },
     "18-07-2022": {
       "courseDate": "18-07-2022",
-      "courseWeek": 36,
+      "courseWeek": 35,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-07-18T11:30:00.000Z",
@@ -5558,7 +5588,14 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "D.8: Sorting Algorithms",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.8-sorting-algorithms"
+              }
+            ]
+          },
           "inClass": {},
           "postClass": {}
         },
@@ -5594,7 +5631,7 @@
     },
     "23-07-2022": {
       "courseDate": "23-07-2022",
-      "courseWeek": 36,
+      "courseWeek": 35,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-07-23T02:00:00.000Z",
@@ -5640,14 +5677,7 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.8: Sorting Algorithms",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.8-sorting-algorithms"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {},
           "postClass": {}
         },
@@ -5667,23 +5697,23 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {
+          "projectDue": {
             "items": [
               {
-                "name": "Project 3 Video Demo",
+                "name": "Due: Project 3 Video Demo",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#video-demo"
               }
             ]
-          }
+          },
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         }
       }
     },
     "25-07-2022": {
       "courseDate": "25-07-2022",
-      "courseWeek": 37,
+      "courseWeek": 36,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-07-25T11:30:00.000Z",
@@ -5752,8 +5782,8 @@
             "projectStart": {
               "items": [
                 {
-                  "name": "Project 4: Full-Stack React App",
-                  "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app"
+                  "name": "Start: Project 4 Ideation Phase 1",
+                  "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-1"
                 }
               ]
             }
@@ -5764,11 +5794,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 3 Video Demo",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#video-demo"
-              },
-              {
-                "name": "Project 4 Ideation",
+                "name": "Project 4 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-1"
               }
             ]
@@ -5778,7 +5804,7 @@
     },
     "30-07-2022": {
       "courseDate": "30-07-2022",
-      "courseWeek": 37,
+      "courseWeek": 36,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-07-30T02:00:00.000Z",
@@ -5848,20 +5874,13 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Project 3 Video Demo",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#video-demo"
-              }
-            ]
-          },
+          "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 4 Ideation",
+                "name": "Project 4 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-1"
               }
             ]
@@ -5871,7 +5890,7 @@
     },
     "01-08-2022": {
       "courseDate": "01-08-2022",
-      "courseWeek": 38,
+      "courseWeek": 37,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-08-01T11:30:00.000Z",
@@ -5932,7 +5951,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 4 Ideation",
+                "name": "Project 4 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-1"
               }
             ]
@@ -5942,7 +5961,7 @@
     },
     "06-08-2022": {
       "courseDate": "06-08-2022",
-      "courseWeek": 38,
+      "courseWeek": 37,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-08-06T02:00:00.000Z",
@@ -6010,15 +6029,22 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
+          "projectStart": {
+            "items": [
+              {
+                "name": "Start: Project 4 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-2"
+              }
+            ]
+          },
           "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 4 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-1"
+                "name": "Project 4 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-2"
               }
             ]
           }
@@ -6027,7 +6053,7 @@
     },
     "08-08-2022": {
       "courseDate": "08-08-2022",
-      "courseWeek": 39,
+      "courseWeek": 38,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-08-08T11:30:00.000Z",
@@ -6062,90 +6088,6 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "D.5.5: Linked Lists - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-3"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "D.5.5: Linked Lists - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-3"
-              }
-            ]
-          }
-        },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "projects": {
-          "type": "projects",
-          "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Project 4 deadline to post ideas to Slack"
-              }
-            ]
-          },
-          "preClass": {},
-          "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 4 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-1"
-              }
-            ]
-          }
-        }
-      }
-    },
-    "13-08-2022": {
-      "courseDate": "13-08-2022",
-      "courseWeek": 39,
-      "weekDay": 2,
-      "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-08-13T02:00:00.000Z",
-      "courseDay": 71,
-      "dateTypes": {
-        "module": "Module 7: React",
-        "general": {
-          "type": "general",
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Review 7.POCE.4: Hot Pot Bill Splitter",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#peer-code-review"
-              }
-            ]
-          },
-          "postClass": {}
-        },
-        "css": {
-          "type": "css",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "dsa": {
-          "type": "dsa",
           "preClass": {
             "items": [
               {
@@ -6157,16 +6099,16 @@
           "inClass": {
             "items": [
               {
-                "name": "D.7: Recursion - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-1"
+                "name": "D.5.5: Linked Lists - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-3"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.7: Recursion - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-1"
+                "name": "D.5.5: Linked Lists - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-3"
               }
             ]
           }
@@ -6201,9 +6143,108 @@
         }
       }
     },
+    "13-08-2022": {
+      "courseDate": "13-08-2022",
+      "courseWeek": 38,
+      "weekDay": 2,
+      "dayNumber": 6,
+      "meetingDateTimeUTC": "2022-08-13T02:00:00.000Z",
+      "courseDay": 71,
+      "dateTypes": {
+        "module": "Module 7: React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Review 7.POCE.4: Hot Pot Bill Splitter",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#peer-code-review"
+              }
+            ]
+          },
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "D.7: Recursion - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-1"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "D.7: Recursion - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-1"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {
+            "items": [
+              {
+                "name": "Start: Project 4 Start",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app"
+              }
+            ]
+          },
+          "projectDue": {
+            "items": [
+              {
+                "name": "Due: Project 4 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-2"
+              }
+            ]
+          },
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Peer Planning Review",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-2"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Start: Project 4 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app"
+              }
+            ]
+          }
+        }
+      }
+    },
     "15-08-2022": {
       "courseDate": "15-08-2022",
-      "courseWeek": 40,
+      "courseWeek": 39,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-08-15T11:30:00.000Z",
@@ -6281,7 +6322,7 @@
     },
     "20-08-2022": {
       "courseDate": "20-08-2022",
-      "courseWeek": 40,
+      "courseWeek": 39,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-08-20T02:00:00.000Z",
@@ -6302,7 +6343,14 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "D.11.1: Recursive Backtracking - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.11-notable-patterns/d.11.1-recursive-backtracking#pre-class"
+              }
+            ]
+          },
           "inClass": {
             "items": [
               {
@@ -6359,7 +6407,7 @@
     },
     "22-08-2022": {
       "courseDate": "22-08-2022",
-      "courseWeek": 41,
+      "courseWeek": 40,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-08-22T11:30:00.000Z",
@@ -6383,8 +6431,8 @@
           "preClass": {
             "items": [
               {
-                "name": "D.11.1: Recursive Backtracking - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.11-notable-patterns/d.11.1-recursive-backtracking#pre-class"
+                "name": "D.5.6: Trees - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#pre-class"
               }
             ]
           },
@@ -6444,7 +6492,7 @@
     },
     "27-08-2022": {
       "courseDate": "27-08-2022",
-      "courseWeek": 41,
+      "courseWeek": 40,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-08-27T02:00:00.000Z",
@@ -6465,14 +6513,7 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.5.6: Trees - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#pre-class"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {
             "items": [
               {
@@ -6529,7 +6570,7 @@
     },
     "29-08-2022": {
       "courseDate": "29-08-2022",
-      "courseWeek": 42,
+      "courseWeek": 41,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-08-29T11:30:00.000Z",
@@ -6587,7 +6628,8 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 4 MVP Deadline (deployed)"
+                "name": "Due: Project 4 MVP Deadline",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#mvp-deadline"
               }
             ]
           },
@@ -6616,7 +6658,7 @@
     },
     "03-09-2022": {
       "courseDate": "03-09-2022",
-      "courseWeek": 42,
+      "courseWeek": 41,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-09-03T02:00:00.000Z",
@@ -6694,7 +6736,7 @@
     },
     "05-09-2022": {
       "courseDate": "05-09-2022",
-      "courseWeek": 43,
+      "courseWeek": 42,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-09-05T11:30:00.000Z",
@@ -6752,7 +6794,8 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 4 Feature Freeze"
+                "name": "Due: Project 4 Feature Freeze",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#feature-freeze"
               }
             ]
           },
@@ -6778,7 +6821,7 @@
     },
     "10-09-2022": {
       "courseDate": "10-09-2022",
-      "courseWeek": 43,
+      "courseWeek": 42,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-09-10T02:00:00.000Z",
@@ -6856,7 +6899,7 @@
     },
     "12-09-2022": {
       "courseDate": "12-09-2022",
-      "courseWeek": 44,
+      "courseWeek": 43,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-09-12T11:30:00.000Z",
@@ -6914,20 +6957,13 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 4: Full-Stack React App",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app"
-              }
-            ]
-          },
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 4 Presentations",
+                "name": "Due: Project 4 Presentations",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-presentations"
               }
             ]
           },
+          "preClass": {},
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -6945,7 +6981,7 @@
     },
     "17-09-2022": {
       "courseDate": "17-09-2022",
-      "courseWeek": 44,
+      "courseWeek": 43,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-09-17T02:00:00.000Z",
@@ -6985,7 +7021,14 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "D.5.7: Graphs - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.7-graphs"
+              }
+            ]
+          },
           "inClass": {},
           "postClass": {}
         },
@@ -7021,7 +7064,7 @@
     },
     "19-09-2022": {
       "courseDate": "19-09-2022",
-      "courseWeek": 45,
+      "courseWeek": 44,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-09-19T11:30:00.000Z",
@@ -7071,14 +7114,7 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.5.7: Graphs - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.7-graphs"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {
             "items": [
               {
@@ -7115,7 +7151,7 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 4 Video Demo",
+                "name": "Due: Project 4 Video Demo",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#video-demo"
               }
             ]
@@ -7128,7 +7164,7 @@
     },
     "24-09-2022": {
       "courseDate": "24-09-2022",
-      "courseWeek": 45,
+      "courseWeek": 44,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-09-24T02:00:00.000Z",
@@ -7185,8 +7221,8 @@
           "projectStart": {
             "items": [
               {
-                "name": "Project 5: Group React App",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app"
+                "name": "Start: Project 5 Ideation Phase 1",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
               }
             ]
           },
@@ -7196,7 +7232,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 5 Ideation",
+                "name": "Project 5 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
               }
             ]
@@ -7206,7 +7242,7 @@
     },
     "26-09-2022": {
       "courseDate": "26-09-2022",
-      "courseWeek": 46,
+      "courseWeek": 45,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-09-26T11:30:00.000Z",
@@ -7249,7 +7285,14 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "D.5.8: Heaps - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.8-heaps#pre-class"
+              }
+            ]
+          },
           "inClass": {
             "items": [
               {
@@ -7289,7 +7332,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 5 Ideation",
+                "name": "Project 5 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
               }
             ]
@@ -7299,7 +7342,7 @@
     },
     "01-10-2022": {
       "courseDate": "01-10-2022",
-      "courseWeek": 46,
+      "courseWeek": 45,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-10-01T02:00:00.000Z",
@@ -7334,14 +7377,7 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.5.8: Heaps - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.8-heaps#pre-class"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {
             "items": [
               {
@@ -7381,7 +7417,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 5 Ideation",
+                "name": "Project 5 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
               }
             ]
@@ -7391,7 +7427,7 @@
     },
     "03-10-2022": {
       "courseDate": "03-10-2022",
-      "courseWeek": 47,
+      "courseWeek": 46,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-10-03T11:30:00.000Z",
@@ -7430,7 +7466,14 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "D.5.8: Heaps - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.8-heaps#part-3"
+              }
+            ]
+          },
           "inClass": {
             "items": [
               {
@@ -7463,15 +7506,22 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
+          "projectStart": {
+            "items": [
+              {
+                "name": "Start: Project 5 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-2"
+              }
+            ]
+          },
           "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 5 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
+                "name": "Project 5 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-2"
               }
             ]
           }
@@ -7480,7 +7530,7 @@
     },
     "08-10-2022": {
       "courseDate": "08-10-2022",
-      "courseWeek": 47,
+      "courseWeek": 46,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-10-08T02:00:00.000Z",
@@ -7518,8 +7568,8 @@
           "preClass": {
             "items": [
               {
-                "name": "D.5.8: Heaps - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.8-heaps#part-3"
+                "name": "D.9: Dynamic Programming - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#pre-class"
               }
             ]
           },
@@ -7555,8 +7605,8 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 5 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
+                "name": "Project 5 Ideation 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-2"
               }
             ]
           }
@@ -7565,7 +7615,7 @@
     },
     "10-10-2022": {
       "courseDate": "10-10-2022",
-      "courseWeek": 48,
+      "courseWeek": 47,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-10-10T11:30:00.000Z",
@@ -7593,14 +7643,7 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.9: Dynamic Programming - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#pre-class"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {
             "items": [
               {
@@ -7634,20 +7677,14 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Project 5 deadline to post ideas and teams in Slack"
-              }
-            ]
-          },
+          "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 5 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
+                "name": "Project 5 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-2"
               }
             ]
           }
@@ -7656,7 +7693,7 @@
     },
     "15-10-2022": {
       "courseDate": "15-10-2022",
-      "courseWeek": 48,
+      "courseWeek": 47,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-10-15T02:00:00.000Z",
@@ -7717,24 +7754,38 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {
+          "projectStart": {
             "items": [
               {
-                "name": "Project 5 Ideation Phase 2",
+                "name": "Start: Project 5",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app"
+              }
+            ]
+          },
+          "projectDue": {
+            "items": [
+              {
+                "name": "Due: Project 5 Ideation Phase 2",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-2"
               }
             ]
-          }
+          },
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Peer Planning Review",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app"
+              }
+            ]
+          },
+          "postClass": {}
         }
       }
     },
     "17-10-2022": {
       "courseDate": "17-10-2022",
-      "courseWeek": 49,
+      "courseWeek": 48,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-10-17T11:30:00.000Z",
@@ -7755,7 +7806,14 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "D.10: Bit Manipulation - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.10-bit-manipulation#pre-class"
+              }
+            ]
+          },
           "inClass": {
             "items": [
               {
@@ -7812,7 +7870,7 @@
     },
     "22-10-2022": {
       "courseDate": "22-10-2022",
-      "courseWeek": 49,
+      "courseWeek": 48,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-10-22T02:00:00.000Z",
@@ -7833,14 +7891,7 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.10: Bit Manipulation - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.10-bit-manipulation#pre-class"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {
             "items": [
               {
@@ -7906,7 +7957,7 @@
     "24-10-2022": {
       "courseDay": null,
       "courseDate": "24-10-2022",
-      "courseWeek": 50,
+      "courseWeek": 49,
       "dayNumber": 1,
       "dateTypes": {
         "holidayType": "public holiday",
@@ -7917,7 +7968,7 @@
     },
     "29-10-2022": {
       "courseDate": "29-10-2022",
-      "courseWeek": 50,
+      "courseWeek": 49,
       "weekDay": 1,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-10-29T02:00:00.000Z",
@@ -7995,7 +8046,7 @@
     },
     "31-10-2022": {
       "courseDate": "31-10-2022",
-      "courseWeek": 51,
+      "courseWeek": 50,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-10-31T11:30:00.000Z",
@@ -8053,7 +8104,8 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 5 MVP (deployed)"
+                "name": "Due: Project 5 MVP Deadline",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#mvp-deadline"
               }
             ]
           },
@@ -8083,7 +8135,7 @@
     },
     "05-11-2022": {
       "courseDate": "05-11-2022",
-      "courseWeek": 51,
+      "courseWeek": 50,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-11-05T02:00:00.000Z",
@@ -8161,7 +8213,7 @@
     },
     "07-11-2022": {
       "courseDate": "07-11-2022",
-      "courseWeek": 52,
+      "courseWeek": 51,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-11-07T11:30:00.000Z",
@@ -8239,7 +8291,7 @@
     },
     "12-11-2022": {
       "courseDate": "12-11-2022",
-      "courseWeek": 52,
+      "courseWeek": 51,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-11-12T02:00:00.000Z",
@@ -8297,7 +8349,7 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 5 Feature Freeze",
+                "name": "Due: Project 5 Feature Freeze",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#feature-freeze"
               }
             ]
@@ -8328,7 +8380,7 @@
     },
     "14-11-2022": {
       "courseDate": "14-11-2022",
-      "courseWeek": 53,
+      "courseWeek": 52,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-11-14T11:30:00.000Z",
@@ -8406,7 +8458,7 @@
     },
     "19-11-2022": {
       "courseDate": "19-11-2022",
-      "courseWeek": 53,
+      "courseWeek": 52,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-11-19T02:00:00.000Z",
@@ -8463,7 +8515,7 @@
           "projectStart": {
             "items": [
               {
-                "name": "Project 6: Capstone",
+                "name": "Start: Project 6 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
               }
             ]
@@ -8471,20 +8523,13 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 5: Group React App",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app"
-              }
-            ]
-          },
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 5 Presentations",
+                "name": "Due: Project 5 Presentations",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-presentations"
               }
             ]
           },
+          "preClass": {},
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -8496,7 +8541,7 @@
                 "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#video-demo"
               },
               {
-                "name": "Project 6 Ideation",
+                "name": "Project 6 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#ideation-phase-1"
               }
             ]
@@ -8506,7 +8551,7 @@
     },
     "21-11-2022": {
       "courseDate": "21-11-2022",
-      "courseWeek": 54,
+      "courseWeek": 53,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-11-21T11:30:00.000Z",
@@ -8576,9 +8621,23 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Start: Project 6 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#ideation-phase-2"
+              }
+            ]
+          },
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 5: Peer Project Review Exercise",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
@@ -8586,8 +8645,8 @@
                 "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#video-demo"
               },
               {
-                "name": "Project 6 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#ideation-phase-1"
+                "name": "Project 6 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#ideation-phase-2"
               }
             ]
           }
@@ -8596,7 +8655,7 @@
     },
     "26-11-2022": {
       "courseDate": "26-11-2022",
-      "courseWeek": 54,
+      "courseWeek": 53,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-11-26T02:00:00.000Z",
@@ -8661,22 +8720,40 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
+          "projectStart": {
+            "items": [
+              {
+                "name": "Start: Project 6 Start",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
+              }
+            ]
+          },
           "projectDue": {
             "items": [
               {
-                "name": "Project 5 Video",
+                "name": "Due: Project 6 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#ideation-phase-2"
+              },
+              {
+                "name": "Due: Project 5 Video",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#video-demo"
               }
             ]
           },
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 6 Peer Planning Review",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
-                "name": "Project 6 Ideation Phase 2",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#ideation-phase-2"
+                "name": "Project 6 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
               }
             ]
           }
@@ -8685,7 +8762,7 @@
     },
     "28-11-2022": {
       "courseDate": "28-11-2022",
-      "courseWeek": 55,
+      "courseWeek": 54,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-11-28T11:30:00.000Z",
@@ -8778,7 +8855,7 @@
     },
     "03-12-2022": {
       "courseDate": "03-12-2022",
-      "courseWeek": 55,
+      "courseWeek": 54,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-12-03T02:00:00.000Z",
@@ -8856,7 +8933,7 @@
     },
     "05-12-2022": {
       "courseDate": "05-12-2022",
-      "courseWeek": 56,
+      "courseWeek": 55,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-12-05T11:30:00.000Z",
@@ -8941,7 +9018,7 @@
     },
     "10-12-2022": {
       "courseDate": "10-12-2022",
-      "courseWeek": 56,
+      "courseWeek": 55,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-12-10T02:00:00.000Z",
@@ -9026,7 +9103,7 @@
     },
     "12-12-2022": {
       "courseDate": "12-12-2022",
-      "courseWeek": 57,
+      "courseWeek": 56,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-12-12T11:30:00.000Z",
@@ -9119,7 +9196,7 @@
     },
     "17-12-2022": {
       "courseDate": "17-12-2022",
-      "courseWeek": 57,
+      "courseWeek": 56,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-12-17T02:00:00.000Z",
@@ -9199,7 +9276,7 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 6 MVP (deployed)",
+                "name": "Due: Project 6 MVP Deadline",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#mvp-deadline"
               }
             ]
@@ -9230,7 +9307,7 @@
     },
     "19-12-2022": {
       "courseDate": "19-12-2022",
-      "courseWeek": 58,
+      "courseWeek": 57,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-12-19T11:30:00.000Z",
@@ -9315,7 +9392,7 @@
     },
     "24-12-2022": {
       "courseDate": "24-12-2022",
-      "courseWeek": 58,
+      "courseWeek": 57,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-12-24T02:00:00.000Z",
@@ -9365,7 +9442,8 @@
           "cpDue": {
             "items": [
               {
-                "name": "Resume 1st Draft"
+                "name": "Due: Resume 1st Draft",
+                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.2-resume"
               }
             ]
           },
@@ -9414,7 +9492,7 @@
     "26-12-2022": {
       "courseDay": null,
       "courseDate": "26-12-2022",
-      "courseWeek": 59,
+      "courseWeek": 58,
       "dayNumber": 1,
       "dateTypes": {
         "holidayType": "public holiday",
@@ -9425,7 +9503,7 @@
     },
     "31-12-2022": {
       "courseDate": "31-12-2022",
-      "courseWeek": 59,
+      "courseWeek": 58,
       "weekDay": 1,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-12-31T02:00:00.000Z",
@@ -9510,7 +9588,7 @@
     },
     "02-01-2023": {
       "courseDate": "02-01-2023",
-      "courseWeek": 60,
+      "courseWeek": 59,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2023-01-02T11:30:00.000Z",
@@ -9560,7 +9638,7 @@
           "cpDue": {
             "items": [
               {
-                "name": "IP.3: Portfolio",
+                "name": "Due: Portfolio",
                 "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.3-portfolio"
               }
             ]
@@ -9609,7 +9687,7 @@
     },
     "07-01-2023": {
       "courseDate": "07-01-2023",
-      "courseWeek": 60,
+      "courseWeek": 59,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2023-01-07T02:00:00.000Z",
@@ -9694,7 +9772,7 @@
     },
     "09-01-2023": {
       "courseDate": "09-01-2023",
-      "courseWeek": 61,
+      "courseWeek": 60,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2023-01-09T11:30:00.000Z",
@@ -9744,7 +9822,8 @@
           "cpDue": {
             "items": [
               {
-                "name": "Job List 1st Draft"
+                "name": "Due: Job List 1st Draft",
+                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.4-job-list"
               }
             ]
           },
@@ -9778,7 +9857,7 @@
     },
     "14-01-2023": {
       "courseDate": "14-01-2023",
-      "courseWeek": 61,
+      "courseWeek": 60,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2023-01-14T02:00:00.000Z",
@@ -9836,7 +9915,7 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 6 Feature Freeze",
+                "name": "Due: Project 6 Feature Freeze",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#feature-freeze"
               }
             ]
@@ -9867,7 +9946,7 @@
     },
     "16-01-2023": {
       "courseDate": "16-01-2023",
-      "courseWeek": 62,
+      "courseWeek": 61,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2023-01-16T11:30:00.000Z",
@@ -9945,7 +10024,7 @@
     },
     "21-01-2023": {
       "courseDate": "21-01-2023",
-      "courseWeek": 62,
+      "courseWeek": 61,
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2023-01-21T02:00:00.000Z",
@@ -10000,21 +10079,25 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {
+          "projectDue": {
             "items": [
               {
-                "name": "Project 6 Presentations",
+                "name": "Due: Project 6 Presentations",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-presentations"
               }
             ]
           },
+          "preClass": {},
+          "inClass": {},
           "postClass": {
             "items": [
               {
                 "name": "Project 6 Post-Mortems",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-post-mortem-meeting"
+              },
+              {
+                "name": "Project 6 Video Demo ",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#video-demo"
               }
             ]
           }
