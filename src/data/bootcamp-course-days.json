@@ -573,7 +573,7 @@
           "projectStart": {
             "items": [
               {
-                "name": "Project 1: Video Poker",
+                "name": "Start: Project 1 Video Poker",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-1-video-poker"
               }
             ]
@@ -944,7 +944,7 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 1: Video Poker",
+                "name": "Due: Project 1 Video Poker",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-1-video-poker"
               }
             ]
