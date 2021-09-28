@@ -609,7 +609,7 @@
           "projectStart": {
             "items": [
               {
-                "name": "Project 1: Video Poker",
+                "name": "Start: Project 1 Video Poker",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-1-video-poker"
               }
             ]
@@ -1017,7 +1017,7 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 1: Video Poker",
+                "name": "Due: Project 1 Video Poker",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-1-video-poker"
               }
             ]
@@ -2322,8 +2322,8 @@
           "projectStart": {
             "items": [
               {
-                "name": "Project 2: Server-Side App",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app"
+                "name": "Start: Project 2 Ideation Phase 1",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
               }
             ]
           },
@@ -2333,7 +2333,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 2 Ideation",
+                "name": "Project 2 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
               }
             ]
@@ -2415,7 +2415,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 2 Ideation",
+                "name": "Project 2 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
               }
             ]
@@ -2501,7 +2501,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 2 Ideation",
+                "name": "Project 2 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
               }
             ]
@@ -2580,15 +2580,22 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
+          "projectStart": {
+            "items": [
+              {
+                "name": "Start: Project 2 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
+              }
+            ]
+          },
           "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 2 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
+                "name": "Project 2 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
               }
             ]
           }
@@ -2663,20 +2670,14 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Project 2 deadline to post ideas in Slack"
-              }
-            ]
-          },
+          "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 2 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
+                "name": "Project 2 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
               }
             ]
           }
@@ -2751,18 +2752,32 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {
+          "projectStart": {
             "items": [
               {
-                "name": "Project 2 Ideation Phase 2",
+                "name": "Start: Project 2 Start",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app"
+              }
+            ]
+          },
+          "projectDue": {
+            "items": [
+              {
+                "name": "Due: Project 2 Ideation Phase 2",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
               }
             ]
-          }
+          },
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 2 Peer Planning Review",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
+              }
+            ]
+          },
+          "postClass": {}
         }
       }
     },
@@ -2827,10 +2842,6 @@
               {
                 "name": "Project 2 Scrum",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              },
-              {
-                "name": "Project 2 Planning: Peer Discussion",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
               }
             ]
           },
@@ -3124,7 +3135,8 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 2 MVP (deployed)"
+                "name": "Due: Project 2 MVP deadline",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#mvp-deadline"
               }
             ]
           },
@@ -3351,7 +3363,8 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 2 Feature Freeze"
+                "name": "Due: Project 2 Feature Freeze",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#feature-freeze"
               }
             ]
           },
@@ -3421,20 +3434,13 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 2: Server-Side App",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app"
-              }
-            ]
-          },
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 2 Presentations",
+                "name": "Due: Project 2 Presentations",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-presentations"
               }
             ]
           },
+          "preClass": {},
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -3701,7 +3707,7 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 2 Demo Video",
+                "name": "Due: Project 2 Demo Video",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#video-demo"
               }
             ]
@@ -4082,7 +4088,7 @@
           "projectStart": {
             "items": [
               {
-                "name": "Project 3: Full-Stack Game",
+                "name": "Start: Project 3 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-1"
               }
             ]
@@ -4093,7 +4099,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 3 Ideation",
+                "name": "Project 3 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-1"
               }
             ]
@@ -4186,7 +4192,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 3 Ideation",
+                "name": "Project 3 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-1"
               }
             ]
@@ -4214,6 +4220,14 @@
               {
                 "name": "5.2.2: AJAX Cards",
                 "url": "https://bootcamp.rocketacademy.co/5-full-stack-applications/5.2-ajax/5.2.2-ajax-cards"
+              },
+              {
+                "name": "6.1.1: Webpack with Local Modules",
+                "url": "https://bootcamp.rocketacademy.co/6-frontend-infrastructure/6.1-webpack/6.1.1-webpack-with-local-modules"
+              },
+              {
+                "name": "6.0: Module 6 Overview",
+                "url": "https://bootcamp.rocketacademy.co/6-frontend-infrastructure/6.0-module-6-overview"
               }
             ]
           },
@@ -4275,7 +4289,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 3 Ideation",
+                "name": "Project 3 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-1"
               }
             ]
@@ -4296,14 +4310,6 @@
           "type": "general",
           "preClass": {
             "items": [
-              {
-                "name": "6.0: Module 6 Overview",
-                "url": "https://bootcamp.rocketacademy.co/6-frontend-infrastructure/6.0-module-6-overview"
-              },
-              {
-                "name": "6.1.1: Webpack with Local Modules",
-                "url": "https://bootcamp.rocketacademy.co/6-frontend-infrastructure/6.1-webpack/6.1.1-webpack-with-local-modules"
-              },
               {
                 "name": "6.1.2: Webpack with NPM Modules",
                 "url": "https://bootcamp.rocketacademy.co/6-frontend-infrastructure/6.1-webpack/6.1.2-webpack-with-npm-modules"
@@ -4344,6 +4350,10 @@
               {
                 "name": "D.4: Interview Strategies",
                 "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.4-interview-strategies"
+              },
+              {
+                "name": "D.4.1 Introduction to Algorithm Problems",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.4-interview-strategies/d.4.1-introduction-to-algorithm-problems#pre-class"
               }
             ]
           },
@@ -4365,15 +4375,22 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
+          "projectStart": {
+            "items": [
+              {
+                "name": "Start: Project 3 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
+              }
+            ]
+          },
           "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 3 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-1"
+                "name": "Project 3 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
               }
             ]
           }
@@ -4424,8 +4441,8 @@
           "preClass": {
             "items": [
               {
-                "name": "D.4.1 Introduction to Algorithm Problems",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.4-interview-strategies/d.4.1-introduction-to-algorithm-problems#pre-class"
+                "name": "D.5.1: Arrays - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.1-arrays#pre-class"
               }
             ]
           },
@@ -4454,8 +4471,8 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 3 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-1"
+                "name": "Project 3 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
               }
             ]
           }
@@ -4498,14 +4515,7 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.5.1: Arrays - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.1-arrays#pre-class"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {
             "items": [
               {
@@ -4538,21 +4548,36 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
+          "projectStart": {
+            "items": [
+              {
+                "name": "Start: Project 3",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
+              }
+            ]
+          },
           "projectDue": {
             "items": [
               {
-                "name": "Deadline to post Project 3 ideas in Slack"
+                "name": "Due: Project 3 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
               }
             ]
           },
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Peer Planning Review",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
-                "name": "Project 3 Ideation Phase 2",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
+                "name": "Project 3 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game"
               }
             ]
           }
@@ -4589,9 +4614,30 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "preClass": {
+            "items": [
+              {
+                "name": "D.5.2: Hash Tables - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "D.5.1: Arrays - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.1-arrays#part-2"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "D.5.1: Arrays - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.1-arrays#part-2"
+              }
+            ]
+          }
         },
         "ux": {
           "type": "ux",
@@ -4653,20 +4699,27 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "D.6: Binary Search - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.6-binary-search#pre-class"
+              }
+            ]
+          },
           "inClass": {
             "items": [
               {
-                "name": "D.5.1: Arrays - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.1-arrays#part-2"
+                "name": "D.5.2: Hash Tables - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables#part-1"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.1: Arrays - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.1-arrays#part-2"
+                "name": "D.5.2: Hash Tables - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables#part-1"
               }
             ]
           }
@@ -4734,24 +4787,24 @@
           "preClass": {
             "items": [
               {
-                "name": "D.5.2: Hash Tables - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables"
+                "name": "D.7: Sliding Windows - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-sliding-windows#pre-class"
               }
             ]
           },
           "inClass": {
             "items": [
               {
-                "name": "D.5.2: Hash Tables - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables#part-1"
+                "name": "D.6: Binary Search - Part 1 ",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.6-binary-search#part-1"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.2: Hash Tables - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables#part-1"
+                "name": "D.6: Binary Search - Part 1 ",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.6-binary-search#part-1"
               }
             ]
           }
@@ -4816,27 +4869,20 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.6: Binary Search - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.6-binary-search#pre-class"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {
             "items": [
               {
-                "name": "D.6: Binary Search - Part 1 ",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.6-binary-search#part-1"
+                "name": "D.7: Sliding Windows - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-sliding-windows#part-1"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.6: Binary Search - Part 1 ",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.6-binary-search#part-1"
+                "name": "D.7: Sliding Windows - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-sliding-windows#part-1"
               }
             ]
           }
@@ -4915,24 +4961,24 @@
           "preClass": {
             "items": [
               {
-                "name": "D.7: Sliding Windows - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-sliding-windows#pre-class"
+                "name": "D.5.3: Stacks - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#pre-class"
               }
             ]
           },
           "inClass": {
             "items": [
               {
-                "name": "D.7: Sliding Windows - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-sliding-windows#part-1"
+                "name": "D.5.2: Hash Tables - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables#part-2"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.7: Sliding Windows - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-sliding-windows#part-1"
+                "name": "D.5.2: Hash Tables - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables#part-2"
               }
             ]
           }
@@ -4953,13 +4999,24 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Due: Project 3 MVP Deadline",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#mvp-deadline"
+              }
+            ]
+          },
           "preClass": {},
           "inClass": {
             "items": [
               {
                 "name": "Project 3 Scrum",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              },
+              {
+                "name": "Project 3 Peer Code Review",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#mvp-deadline"
               }
             ]
           },
@@ -5001,16 +5058,16 @@
           "inClass": {
             "items": [
               {
-                "name": "D.5.2: Hash Tables - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables#part-2"
+                "name": "D.5.3: Stacks - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#part-1"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.2: Hash Tables - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.2-hash-tables#part-2"
+                "name": "D.5.3: Stacks - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#part-1"
               }
             ]
           }
@@ -5031,24 +5088,13 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Project 3 MVP Deadline (deployed)",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#mvp-deadline"
-              }
-            ]
-          },
+          "projectDue": {},
           "preClass": {},
           "inClass": {
             "items": [
               {
                 "name": "Project 3 Scrum",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              },
-              {
-                "name": "Project 3 Peer Code Review",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#mvp-deadline"
               }
             ]
           },
@@ -5089,24 +5135,24 @@
           "preClass": {
             "items": [
               {
-                "name": "D.5.3: Stacks - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#pre-class"
+                "name": "D.5.4: Queues - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.4-queues#pre-class"
               }
             ]
           },
           "inClass": {
             "items": [
               {
-                "name": "D.5.3: Stacks - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#part-1"
+                "name": "D.5.3: Stacks - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#part-2"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.3: Stacks - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#part-1"
+                "name": "D.5.3: Stacks - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#part-2"
               }
             ]
           }
@@ -5127,17 +5173,35 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Due: Project 3 Feature Freeze",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#feature-freeze"
+              }
+            ]
+          },
           "preClass": {},
           "inClass": {
             "items": [
               {
                 "name": "Project 3 Scrum",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              },
+              {
+                "name": "Project 3 Feature Freeze In-Class Review",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#feature-freeze"
               }
             ]
           },
-          "postClass": {}
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 3 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game"
+              }
+            ]
+          }
         }
       }
     },
@@ -5178,20 +5242,31 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "D.6: Object-Oriented Programming",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.6-intro-to-object-oriented-programming"
+              },
+              {
+                "name": "D.5.5: Linked Lists - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#pre-class"
+              }
+            ]
+          },
           "inClass": {
             "items": [
               {
-                "name": "D.5.3: Stacks - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#part-2"
+                "name": "D.5.4: Queues - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.4-queues#part-1"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.3: Stacks - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#part-2"
+                "name": "D.5.4: Queues - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.4-queues#part-1"
               }
             ]
           }
@@ -5227,10 +5302,6 @@
               {
                 "name": "Project 3 Implementation",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game"
-              },
-              {
-                "name": "Project 3 Implementation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game"
               }
             ]
           }
@@ -5260,27 +5331,20 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.5.4: Queues - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.4-queues#pre-class"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {
             "items": [
               {
-                "name": "D.5.4: Queues - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.4-queues#part-1"
+                "name": "D.5.5: Linked Lists - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-1"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.4: Queues - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.4-queues#part-1"
+                "name": "D.5.5: Linked Lists - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-1"
               }
             ]
           }
@@ -5304,21 +5368,25 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 3 Feature Freeze",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#feature-freeze"
+                "name": "Due: Project 3 Presentations",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-presentations"
               }
             ]
           },
           "preClass": {},
-          "inClass": {
+          "inClass": {},
+          "postClass": {
             "items": [
               {
-                "name": "Project 3 Feature Freeze In-Class Review",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#feature-freeze"
+                "name": "Project 3 Post-Mortems",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-post-mortem-meeting"
+              },
+              {
+                "name": "Project 3 Video Demo",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#video-demo"
               }
             ]
-          },
-          "postClass": {}
+          }
         }
       }
     },
@@ -5329,152 +5397,6 @@
       "dayNumber": 5,
       "meetingDateTimeUTC": "2021-10-08T05:00:00.000Z",
       "courseDay": 63,
-      "dateTypes": {
-        "module": "Module 7: React",
-        "general": {
-          "type": "general",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "css": {
-          "type": "css",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "dsa": {
-          "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.6: Object-Oriented Programming",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.6-intro-to-object-oriented-programming"
-              },
-              {
-                "name": "D.5.5: Linked Lists - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#pre-class"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "D.5.5: Linked Lists - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-1"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "D.5.5: Linked Lists - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-1"
-              }
-            ]
-          }
-        },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "projects": {
-          "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        }
-      }
-    },
-    "11-10-2021": {
-      "courseDate": "11-10-2021",
-      "courseWeek": 15,
-      "weekDay": 1,
-      "dayNumber": 1,
-      "meetingDateTimeUTC": "2021-10-11T05:00:00.000Z",
-      "courseDay": 64,
-      "dateTypes": {
-        "module": "Module 7: React",
-        "general": {
-          "type": "general",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "css": {
-          "type": "css",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "dsa": {
-          "type": "dsa",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "projects": {
-          "type": "projects",
-          "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Project 3",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game"
-              }
-            ]
-          },
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 3 Presentations",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-presentations"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 3 Post-Mortems",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-post-mortem-meeting"
-              }
-            ]
-          }
-        }
-      }
-    },
-    "12-10-2021": {
-      "courseDate": "12-10-2021",
-      "courseWeek": 15,
-      "weekDay": 2,
-      "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-10-12T05:00:00.000Z",
-      "courseDay": 65,
       "dateTypes": {
         "module": "Module 7: React",
         "general": {
@@ -5546,18 +5468,32 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Peer project review exercise",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#project-presentations"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 3 Video Demo",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#video-demo"
+              }
+            ]
+          }
         }
       }
     },
-    "13-10-2021": {
-      "courseDate": "13-10-2021",
+    "11-10-2021": {
+      "courseDate": "11-10-2021",
       "courseWeek": 15,
-      "weekDay": 3,
-      "dayNumber": 3,
-      "meetingDateTimeUTC": "2021-10-13T05:00:00.000Z",
-      "courseDay": 66,
+      "weekDay": 1,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2021-10-11T05:00:00.000Z",
+      "courseDay": 64,
       "dateTypes": {
         "module": "Module 7: React",
         "general": {
@@ -5633,16 +5569,7 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {
-            "projectStart": {
-              "items": [
-                {
-                  "name": "Project 4: Full-Stack React App",
-                  "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app"
-                }
-              ]
-            }
-          },
+          "projectStart": {},
           "projectDue": {},
           "preClass": {},
           "inClass": {},
@@ -5657,13 +5584,13 @@
         }
       }
     },
-    "14-10-2021": {
-      "courseDate": "14-10-2021",
+    "12-10-2021": {
+      "courseDate": "12-10-2021",
       "courseWeek": 15,
-      "weekDay": 4,
-      "dayNumber": 4,
-      "meetingDateTimeUTC": "2021-10-14T05:00:00.000Z",
-      "courseDay": 67,
+      "weekDay": 2,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2021-10-12T05:00:00.000Z",
+      "courseDay": 65,
       "dateTypes": {
         "module": "Module 7: React",
         "general": {
@@ -5725,27 +5652,27 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {
+          "projectDue": {
             "items": [
               {
-                "name": "Project 3 Video Demo",
+                "name": "Due: Project 3 Video Demo",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#video-demo"
               }
             ]
-          }
+          },
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         }
       }
     },
-    "15-10-2021": {
-      "courseDate": "15-10-2021",
+    "13-10-2021": {
+      "courseDate": "13-10-2021",
       "courseWeek": 15,
-      "weekDay": 5,
-      "dayNumber": 5,
-      "meetingDateTimeUTC": "2021-10-15T05:00:00.000Z",
-      "courseDay": 68,
+      "weekDay": 3,
+      "dayNumber": 3,
+      "meetingDateTimeUTC": "2021-10-13T05:00:00.000Z",
+      "courseDay": 66,
       "dateTypes": {
         "module": "Module 7: React",
         "general": {
@@ -5806,28 +5733,37 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
+          "projectStart": {
+            "projectStart": {
+              "items": [
+                {
+                  "name": "Start: Project 4 Ideation Phase 1",
+                  "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-1"
+                }
+              ]
+            }
+          },
           "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 3 Video Demo",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#video-demo"
+                "name": "Project 4 Ideation Phase 1",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-1"
               }
             ]
           }
         }
       }
     },
-    "18-10-2021": {
-      "courseDate": "18-10-2021",
-      "courseWeek": 16,
-      "weekDay": 1,
-      "dayNumber": 1,
-      "meetingDateTimeUTC": "2021-10-18T05:00:00.000Z",
-      "courseDay": 69,
+    "14-10-2021": {
+      "courseDate": "14-10-2021",
+      "courseWeek": 15,
+      "weekDay": 4,
+      "dayNumber": 4,
+      "meetingDateTimeUTC": "2021-10-14T05:00:00.000Z",
+      "courseDay": 67,
       "dateTypes": {
         "module": "Module 7: React",
         "general": {
@@ -5893,24 +5829,13 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Project 3 Video Demo",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#video-demo"
-              }
-            ]
-          },
+          "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 3 Video Demo",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#video-demo"
-              },
-              {
-                "name": "Project 4 Ideation",
+                "name": "Project 4 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-1"
               }
             ]
@@ -5918,13 +5843,13 @@
         }
       }
     },
-    "19-10-2021": {
-      "courseDate": "19-10-2021",
-      "courseWeek": 16,
-      "weekDay": 2,
-      "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-10-19T05:00:00.000Z",
-      "courseDay": 70,
+    "15-10-2021": {
+      "courseDate": "15-10-2021",
+      "courseWeek": 15,
+      "weekDay": 5,
+      "dayNumber": 5,
+      "meetingDateTimeUTC": "2021-10-15T05:00:00.000Z",
+      "courseDay": 68,
       "dateTypes": {
         "module": "Module 7: React",
         "general": {
@@ -5956,22 +5881,8 @@
         "dsa": {
           "type": "dsa",
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "D.5.5: Linked Lists - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-2"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "D.5.5: Linked Lists - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-2"
-              }
-            ]
-          }
+          "inClass": {},
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
@@ -5995,7 +5906,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 4 Ideation",
+                "name": "Project 4 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-1"
               }
             ]
@@ -6003,13 +5914,13 @@
         }
       }
     },
-    "20-10-2021": {
-      "courseDate": "20-10-2021",
+    "18-10-2021": {
+      "courseDate": "18-10-2021",
       "courseWeek": 16,
-      "weekDay": 3,
-      "dayNumber": 3,
-      "meetingDateTimeUTC": "2021-10-20T05:00:00.000Z",
-      "courseDay": 71,
+      "weekDay": 1,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2021-10-18T05:00:00.000Z",
+      "courseDay": 69,
       "dateTypes": {
         "module": "Module 7: React",
         "general": {
@@ -6044,16 +5955,16 @@
           "inClass": {
             "items": [
               {
-                "name": "D.5.5: Linked Lists - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-3"
+                "name": "D.5.5: Linked Lists - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-2"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.5: Linked Lists - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-3"
+                "name": "D.5.5: Linked Lists - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-2"
               }
             ]
           }
@@ -6073,28 +5984,35 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
+          "projectStart": {
+            "items": [
+              {
+                "name": "Start: Project 4 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-2"
+              }
+            ]
+          },
           "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 4 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-1"
+                "name": "Project 4 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-2"
               }
             ]
           }
         }
       }
     },
-    "21-10-2021": {
-      "courseDate": "21-10-2021",
+    "19-10-2021": {
+      "courseDate": "19-10-2021",
       "courseWeek": 16,
-      "weekDay": 4,
-      "dayNumber": 4,
-      "meetingDateTimeUTC": "2021-10-21T05:00:00.000Z",
-      "courseDay": 72,
+      "weekDay": 2,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2021-10-19T05:00:00.000Z",
+      "courseDay": 70,
       "dateTypes": {
         "module": "Module 7: React",
         "general": {
@@ -6136,6 +6054,84 @@
           "inClass": {
             "items": [
               {
+                "name": "D.5.5: Linked Lists - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-3"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "D.5.5: Linked Lists - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-3"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 4 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-2"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "20-10-2021": {
+      "courseDate": "20-10-2021",
+      "courseWeek": 16,
+      "weekDay": 3,
+      "dayNumber": 3,
+      "meetingDateTimeUTC": "2021-10-20T05:00:00.000Z",
+      "courseDay": 71,
+      "dateTypes": {
+        "module": "Module 7: React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Review 7.POCE.4: Hot Pot Bill Splitter",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#peer-code-review"
+              }
+            ]
+          },
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
                 "name": "D.7: Recursion - Part 1",
                 "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-1"
               }
@@ -6165,47 +6161,55 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
+          "projectStart": {
+            "items": [
+              {
+                "name": "Start: Project 4 Start",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app"
+              }
+            ]
+          },
           "projectDue": {
             "items": [
               {
-                "name": "Project 4 deadline to post ideas to Slack"
+                "name": "Due: Project 4 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-2"
               }
             ]
           },
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Peer Planning Review",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-2"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
-                "name": "Project 4 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-1"
+                "name": "Start: Project 4 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app"
               }
             ]
           }
         }
       }
     },
-    "22-10-2021": {
-      "courseDate": "22-10-2021",
+    "21-10-2021": {
+      "courseDate": "21-10-2021",
       "courseWeek": 16,
-      "weekDay": 5,
-      "dayNumber": 5,
-      "meetingDateTimeUTC": "2021-10-22T05:00:00.000Z",
-      "courseDay": 73,
+      "weekDay": 4,
+      "dayNumber": 4,
+      "meetingDateTimeUTC": "2021-10-21T05:00:00.000Z",
+      "courseDay": 72,
       "dateTypes": {
         "module": "Module 7: React",
         "general": {
           "type": "general",
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Review 7.POCE.4: Hot Pot Bill Splitter",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#peer-code-review"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {}
         },
         "css": {
@@ -6252,25 +6256,32 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 4 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
-                "name": "Project 4 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-1"
+                "name": "Project 4 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app"
               }
             ]
           }
         }
       }
     },
-    "25-10-2021": {
-      "courseDate": "25-10-2021",
-      "courseWeek": 17,
-      "weekDay": 1,
-      "dayNumber": 1,
-      "meetingDateTimeUTC": "2021-10-25T05:00:00.000Z",
-      "courseDay": 74,
+    "22-10-2021": {
+      "courseDate": "22-10-2021",
+      "courseWeek": 16,
+      "weekDay": 5,
+      "dayNumber": 5,
+      "meetingDateTimeUTC": "2021-10-22T05:00:00.000Z",
+      "courseDay": 73,
       "dateTypes": {
         "module": "Module 7: React",
         "general": {
@@ -6287,7 +6298,14 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "D.11.1: Recursive Backtracking - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.11-notable-patterns/d.11.1-recursive-backtracking#pre-class"
+              }
+            ]
+          },
           "inClass": {
             "items": [
               {
@@ -6334,8 +6352,93 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 4 Ideation Phase 2",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-2"
+                "name": "Project 4 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "25-10-2021": {
+      "courseDate": "25-10-2021",
+      "courseWeek": 17,
+      "weekDay": 1,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2021-10-25T05:00:00.000Z",
+      "courseDay": 74,
+      "dateTypes": {
+        "module": "Module 7: React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {
+            "items": [
+              {
+                "name": "D.5.6: Trees - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#pre-class"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "D.11.1: Recursive Backtracking - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.11-notable-patterns/d.11.1-recursive-backtracking#part-1"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "D.11.1: Recursive Backtracking - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.11-notable-patterns/d.11.1-recursive-backtracking#part-1"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 4 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 4 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app"
               }
             ]
           }
@@ -6365,27 +6468,20 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.11.1: Recursive Backtracking - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.11-notable-patterns/d.11.1-recursive-backtracking#pre-class"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {
             "items": [
               {
-                "name": "D.11.1: Recursive Backtracking - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.11-notable-patterns/d.11.1-recursive-backtracking#part-1"
+                "name": "D.5.6: Trees - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-1"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.11.1: Recursive Backtracking - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.11-notable-patterns/d.11.1-recursive-backtracking#part-1"
+                "name": "D.5.6: Trees - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-1"
               }
             ]
           }
@@ -6450,27 +6546,20 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.5.6: Trees - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#pre-class"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {
             "items": [
               {
-                "name": "D.5.6: Trees - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-1"
+                "name": "D.5.6: Trees - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-2"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.6: Trees - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-1"
+                "name": "D.5.6: Trees - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-2"
               }
             ]
           }
@@ -6491,13 +6580,23 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Due: Project 4 MVP Deadline",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#mvp-deadline"
+              }
+            ]
+          },
           "preClass": {},
           "inClass": {
             "items": [
               {
                 "name": "Project 4 Scrum",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              },
+              {
+                "name": "Project 4 In-Class Code Review"
               }
             ]
           },
@@ -6539,16 +6638,16 @@
           "inClass": {
             "items": [
               {
-                "name": "D.5.6: Trees - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-2"
+                "name": "D.5.6: Trees - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-3"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.6: Trees - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-2"
+                "name": "D.5.6: Trees - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-3"
               }
             ]
           }
@@ -6617,16 +6716,16 @@
           "inClass": {
             "items": [
               {
-                "name": "D.5.6: Trees - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-3"
+                "name": "D.5.6: Trees - Part 4",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-4"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.6: Trees - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-3"
+                "name": "D.5.6: Trees - Part 4",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-4"
               }
             ]
           }
@@ -6650,7 +6749,8 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 4 MVP Deadline (deployed)"
+                "name": "Due: Project 4 Feature Freeze",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#feature-freeze"
               }
             ]
           },
@@ -6660,9 +6760,6 @@
               {
                 "name": "Project 4 Scrum",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              },
-              {
-                "name": "Project 4 In-Class Code Review"
               }
             ]
           },
@@ -6704,16 +6801,16 @@
           "inClass": {
             "items": [
               {
-                "name": "D.5.6: Trees - Part 4",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-4"
+                "name": "D.5.6: Trees - Part 5",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-5"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.6: Trees - Part 4",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-4"
+                "name": "D.5.6: Trees - Part 5",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-5"
               }
             ]
           }
@@ -6782,16 +6879,16 @@
           "inClass": {
             "items": [
               {
-                "name": "D.5.6: Trees - Part 5",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-5"
+                "name": "D.5.6: Trees - Part 6",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-6"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.6: Trees - Part 5",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-5"
+                "name": "D.5.6: Trees - Part 6",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-6"
               }
             ]
           }
@@ -6815,24 +6912,22 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 4 Feature Freeze"
+                "name": "Due: Project 4 Presentations",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-presentations"
               }
             ]
           },
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 4 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 4 Implementation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app"
+                "name": "Project 4 Post-Mortems",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-post-mortem-meeting"
+              },
+              {
+                "name": "Project 4 Video Demo",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#video-demo"
               }
             ]
           }
@@ -6850,7 +6945,26 @@
         "module": "Module 8: Advanced React",
         "general": {
           "type": "general",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "8.0: Module 8 Overview",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.0-module-8-overview"
+              },
+              {
+                "name": "8.1: Create React App",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.1-create-react-app"
+              },
+              {
+                "name": "8.1.1: Create React App Full Stack",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.1-create-react-app/8.1.1-create-react-app-full-stack-setup"
+              },
+              {
+                "name": "8.2: Higher Order Components",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.3-higher-order-components"
+              }
+            ]
+          },
           "inClass": {},
           "postClass": {}
         },
@@ -6862,23 +6976,16 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "D.5.6: Trees - Part 6",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-6"
+                "name": "D.5.7: Graphs - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.7-graphs"
               }
             ]
           },
-          "postClass": {
-            "items": [
-              {
-                "name": "D.5.6: Trees - Part 6",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-6"
-              }
-            ]
-          }
+          "inClass": {},
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
@@ -6898,19 +7005,12 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 4 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 4 Implementation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app"
+                "name": "Project 4 Video Demo",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#video-demo"
               }
             ]
           }
@@ -6981,14 +7081,7 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.5.7: Graphs - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.7-graphs"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {
             "items": [
               {
@@ -7025,7 +7118,7 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 4 Video Demo",
+                "name": "Due: Project 4 Video Demo",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#video-demo"
               }
             ]
@@ -7095,8 +7188,8 @@
           "projectStart": {
             "items": [
               {
-                "name": "Project 5: Group React App",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app"
+                "name": "Start: Project 5 Ideation Phase 1",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
               }
             ]
           },
@@ -7106,7 +7199,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 5 Ideation",
+                "name": "Project 5 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
               }
             ]
@@ -7159,7 +7252,14 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "D.5.8: Heaps - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.8-heaps#pre-class"
+              }
+            ]
+          },
           "inClass": {
             "items": [
               {
@@ -7199,7 +7299,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 5 Ideation",
+                "name": "Project 5 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
               }
             ]
@@ -7244,14 +7344,7 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.5.8: Heaps - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.8-heaps#pre-class"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {
             "items": [
               {
@@ -7291,7 +7384,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 5 Ideation",
+                "name": "Project 5 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
               }
             ]
@@ -7340,7 +7433,14 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "D.5.8: Heaps - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.8-heaps#part-3"
+              }
+            ]
+          },
           "inClass": {
             "items": [
               {
@@ -7373,15 +7473,22 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
+          "projectStart": {
+            "items": [
+              {
+                "name": "Start: Project 5 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-2"
+              }
+            ]
+          },
           "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 5 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
+                "name": "Project 5 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-2"
               }
             ]
           }
@@ -7428,8 +7535,8 @@
           "preClass": {
             "items": [
               {
-                "name": "D.5.8: Heaps - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.8-heaps#part-3"
+                "name": "D.9: Dynamic Programming - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#pre-class"
               }
             ]
           },
@@ -7465,8 +7572,8 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 5 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
+                "name": "Project 5 Ideation 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-2"
               }
             ]
           }
@@ -7503,14 +7610,7 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.9: Dynamic Programming - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#pre-class"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {
             "items": [
               {
@@ -7544,20 +7644,14 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Project 5 deadline to post ideas and teams in Slack"
-              }
-            ]
-          },
+          "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 5 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
+                "name": "Project 5 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-2"
               }
             ]
           }
@@ -7627,18 +7721,32 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {
+          "projectStart": {
             "items": [
               {
-                "name": "Project 5 Ideation Phase 2",
+                "name": "Start: Project 5",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app"
+              }
+            ]
+          },
+          "projectDue": {
+            "items": [
+              {
+                "name": "Due: Project 5 Ideation Phase 2",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-2"
               }
             ]
-          }
+          },
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Peer Planning Review",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app"
+              }
+            ]
+          },
+          "postClass": {}
         }
       }
     },
@@ -7665,7 +7773,14 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "D.10: Bit Manipulation - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.10-bit-manipulation#pre-class"
+              }
+            ]
+          },
           "inClass": {
             "items": [
               {
@@ -7743,14 +7858,7 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.10: Bit Manipulation - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.10-bit-manipulation#pre-class"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {
             "items": [
               {
@@ -7951,7 +8059,8 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 5 MVP (deployed)"
+                "name": "Due: Project 5 MVP Deadline",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#mvp-deadline"
               }
             ]
           },
@@ -8195,7 +8304,7 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 5 Feature Freeze",
+                "name": "Due: Project 5 Feature Freeze",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#feature-freeze"
               }
             ]
@@ -8361,7 +8470,7 @@
           "projectStart": {
             "items": [
               {
-                "name": "Project 6: Capstone",
+                "name": "Start: Project 6 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
               }
             ]
@@ -8369,20 +8478,13 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 5: Group React App",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app"
-              }
-            ]
-          },
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 5 Presentations",
+                "name": "Due: Project 5 Presentations",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-presentations"
               }
             ]
           },
+          "preClass": {},
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -8394,7 +8496,7 @@
                 "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#video-demo"
               },
               {
-                "name": "Project 6 Ideation",
+                "name": "Project 6 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#ideation-phase-1"
               }
             ]
@@ -8474,9 +8576,23 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Start: Project 6 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#ideation-phase-2"
+              }
+            ]
+          },
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 5: Peer Project Review Exercise",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
@@ -8484,8 +8600,8 @@
                 "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#video-demo"
               },
               {
-                "name": "Project 6 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#ideation-phase-1"
+                "name": "Project 6 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#ideation-phase-2"
               }
             ]
           }
@@ -8559,22 +8675,40 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
+          "projectStart": {
+            "items": [
+              {
+                "name": "Start: Project 6 Start",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
+              }
+            ]
+          },
           "projectDue": {
             "items": [
               {
-                "name": "Project 5 Video",
+                "name": "Due: Project 6 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#ideation-phase-2"
+              },
+              {
+                "name": "Due: Project 5 Video",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#video-demo"
               }
             ]
           },
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 6 Peer Planning Review",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
-                "name": "Project 6 Ideation Phase 2",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#ideation-phase-2"
+                "name": "Project 6 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
               }
             ]
           }
@@ -9097,7 +9231,7 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 6 MVP (deployed)",
+                "name": "Due: Project 6 MVP Deadline",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#mvp-deadline"
               }
             ]
@@ -9263,7 +9397,8 @@
           "cpDue": {
             "items": [
               {
-                "name": "Resume 1st Draft"
+                "name": "Due: Resume 1st Draft",
+                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.2-resume"
               }
             ]
           },
@@ -9446,7 +9581,7 @@
           "cpDue": {
             "items": [
               {
-                "name": "IP.3: Portfolio",
+                "name": "Due: Portfolio",
                 "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.3-portfolio"
               }
             ]
@@ -9630,7 +9765,8 @@
           "cpDue": {
             "items": [
               {
-                "name": "Job List 1st Draft"
+                "name": "Due: Job List 1st Draft",
+                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.4-job-list"
               }
             ]
           },
@@ -9664,7 +9800,7 @@
     },
     "20-12-2021": {
       "courseDate": "20-12-2021",
-      "courseWeek": 24,
+      "courseWeek": 25,
       "weekDay": 1,
       "dayNumber": 1,
       "meetingDateTimeUTC": "2021-12-20T05:00:00.000Z",
@@ -9742,7 +9878,7 @@
     },
     "21-12-2021": {
       "courseDate": "21-12-2021",
-      "courseWeek": 24,
+      "courseWeek": 25,
       "weekDay": 2,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2021-12-21T05:00:00.000Z",
@@ -9820,7 +9956,7 @@
     },
     "22-12-2021": {
       "courseDate": "22-12-2021",
-      "courseWeek": 24,
+      "courseWeek": 25,
       "weekDay": 3,
       "dayNumber": 3,
       "meetingDateTimeUTC": "2021-12-22T05:00:00.000Z",
@@ -9878,7 +10014,7 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 6 Feature Freeze",
+                "name": "Due: Project 6 Feature Freeze",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#feature-freeze"
               }
             ]
@@ -9909,7 +10045,7 @@
     },
     "23-12-2021": {
       "courseDate": "23-12-2021",
-      "courseWeek": 24,
+      "courseWeek": 25,
       "weekDay": 4,
       "dayNumber": 4,
       "meetingDateTimeUTC": "2021-12-23T05:00:00.000Z",
@@ -9987,7 +10123,7 @@
     },
     "24-12-2021": {
       "courseDate": "24-12-2021",
-      "courseWeek": 24,
+      "courseWeek": 25,
       "weekDay": 5,
       "dayNumber": 5,
       "meetingDateTimeUTC": "2021-12-24T05:00:00.000Z",
@@ -10042,21 +10178,25 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {
+          "projectDue": {
             "items": [
               {
-                "name": "Project 6 Presentations",
+                "name": "Due: Project 6 Presentations",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-presentations"
               }
             ]
           },
+          "preClass": {},
+          "inClass": {},
           "postClass": {
             "items": [
               {
                 "name": "Project 6 Post-Mortems",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-post-mortem-meeting"
+              },
+              {
+                "name": "Project 6 Video Demo ",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#video-demo"
               }
             ]
           }
