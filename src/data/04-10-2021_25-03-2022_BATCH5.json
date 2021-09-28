@@ -1,5 +1,11 @@
 {
-  "daysOfWeek": [1, 2, 3, 4, 5],
+  "daysOfWeek": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
   "courseStartIndex": 0,
   "totalCourseDays": 116,
   "courseType": "Bootcamp FT",
@@ -18,8 +24,14 @@
           "preClass": {},
           "inClass": {
             "items": [
-              { "name": "Day 1 Photo!", "url": "" },
-              { "name": "Course and Student Introductions", "url": "" }
+              {
+                "name": "Day 1 Photo!",
+                "url": ""
+              },
+              {
+                "name": "Course and Student Introductions",
+                "url": ""
+              }
             ]
           },
           "postClass": {}
@@ -36,7 +48,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -142,7 +159,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -189,7 +211,9 @@
           },
           "inClass": {
             "items": [
-              { "name": "Review 1 student's 1.POCE.1: Noodle Recipe Website" },
+              {
+                "name": "Review 1 student's 1.POCE.1: Noodle Recipe Website"
+              },
               {
                 "name": "1.ICE.1: Drawing DOM (continued)",
                 "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.ice-in-class-exercises/1.ice.1-drawing-dom"
@@ -224,7 +248,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -271,7 +300,10 @@
           },
           "inClass": {
             "items": [
-              { "name": "Review 1 student's 1.POCE.2: High Card", "url": "" },
+              {
+                "name": "Review 1 student's 1.POCE.2: High Card",
+                "url": ""
+              },
               {
                 "name": "1.ICE.2: Timeout / High Card Redux",
                 "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.ice-in-class-exercises/1.ice.2-high-card-redux"
@@ -306,7 +338,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -349,7 +386,9 @@
           },
           "inClass": {
             "items": [
-              { "name": "Review 1 student's 1.POCE.3: Match Game" },
+              {
+                "name": "Review 1 student's 1.POCE.3: Match Game"
+              },
               {
                 "name": "1.ICE.3: setInterval",
                 "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.ice-in-class-exercises/1.ice.3-setinterval"
@@ -388,7 +427,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -431,7 +475,10 @@
           },
           "inClass": {
             "items": [
-              { "name": "Review 1 student's 1.POCE.4: Timer", "url": "" }
+              {
+                "name": "Review 1 student's 1.POCE.4: Timer",
+                "url": ""
+              }
             ]
           },
           "postClass": {
@@ -466,7 +513,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -508,7 +560,11 @@
             ]
           },
           "inClass": {
-            "items": [{ "name": "Review 1 student's 1.POCE.5: Tic Tac Toe" }]
+            "items": [
+              {
+                "name": "Review 1 student's 1.POCE.5: Tic Tac Toe"
+              }
+            ]
           },
           "postClass": {}
         },
@@ -535,7 +591,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -612,7 +673,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -692,7 +758,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -765,7 +836,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -842,7 +918,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -905,7 +986,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1014,7 +1100,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1084,7 +1175,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1171,7 +1267,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1263,7 +1364,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1341,7 +1447,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1422,7 +1533,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1496,7 +1612,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1572,7 +1693,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1648,7 +1774,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1728,7 +1859,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1794,7 +1930,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -1885,7 +2026,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2146,7 +2292,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2159,8 +2310,8 @@
           "projectStart": {
             "items": [
               {
-                "name": "Project 2: Server-Side App",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app"
+                "name": "Start: Project 2 Ideation Phase 1",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
               }
             ]
           },
@@ -2170,7 +2321,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 2 Ideation",
+                "name": "Project 2 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
               }
             ]
@@ -2230,7 +2381,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2247,7 +2403,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 2 Ideation",
+                "name": "Project 2 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
               }
             ]
@@ -2311,7 +2467,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2328,7 +2489,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 2 Ideation",
+                "name": "Project 2 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
               }
             ]
@@ -2392,7 +2553,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2402,15 +2568,22 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
+          "projectStart": {
+            "items": [
+              {
+                "name": "Start: Project 2 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
+              }
+            ]
+          },
           "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 2 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
+                "name": "Project 2 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
               }
             ]
           }
@@ -2469,7 +2642,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2480,16 +2658,14 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [{ "name": "Project 2 deadline to post ideas in Slack" }]
-          },
+          "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 2 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
+                "name": "Project 2 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
               }
             ]
           }
@@ -2549,7 +2725,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2559,18 +2740,32 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {
+          "projectStart": {
             "items": [
               {
-                "name": "Project 2 Ideation Phase 2",
+                "name": "Start: Project 2 Start",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app"
+              }
+            ]
+          },
+          "projectDue": {
+            "items": [
+              {
+                "name": "Due: Project 2 Ideation Phase 2",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
               }
             ]
-          }
+          },
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 2 Peer Planning Review",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
+              }
+            ]
+          },
+          "postClass": {}
         }
       }
     },
@@ -2612,7 +2807,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2630,10 +2830,6 @@
               {
                 "name": "Project 2 Scrum",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              },
-              {
-                "name": "Project 2 Planning: Peer Discussion",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
               }
             ]
           },
@@ -2693,7 +2889,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2768,7 +2969,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2834,7 +3040,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2893,7 +3104,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -2904,7 +3120,14 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": { "items": [{ "name": "Project 2 MVP (deployed)" }] },
+          "projectDue": {
+            "items": [
+              {
+                "name": "Due: Project 2 MVP deadline",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#mvp-deadline"
+              }
+            ]
+          },
           "preClass": {},
           "inClass": {
             "items": [
@@ -2967,7 +3190,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3033,7 +3261,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3099,7 +3332,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3110,7 +3348,14 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": { "items": [{ "name": "Project 2 Feature Freeze" }] },
+          "projectDue": {
+            "items": [
+              {
+                "name": "Due: Project 2 Feature Freeze",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#feature-freeze"
+              }
+            ]
+          },
           "preClass": {},
           "inClass": {
             "items": [
@@ -3158,7 +3403,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3172,20 +3422,13 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 2: Server-Side App",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app"
-              }
-            ]
-          },
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 2 Presentations",
+                "name": "Due: Project 2 Presentations",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-presentations"
               }
             ]
           },
+          "preClass": {},
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -3250,7 +3493,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3342,7 +3590,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3423,7 +3676,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3437,7 +3695,7 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 2 Demo Video",
+                "name": "Due: Project 2 Demo Video",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#video-demo"
               }
             ]
@@ -3500,7 +3758,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3566,7 +3829,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3640,7 +3908,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3710,7 +3983,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3780,7 +4058,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3793,7 +4076,7 @@
           "projectStart": {
             "items": [
               {
-                "name": "Project 3: Full-Stack Game",
+                "name": "Project 3: Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-1"
               }
             ]
@@ -3804,7 +4087,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 3 Ideation",
+                "name": "Project 3 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-1"
               }
             ]
@@ -3875,7 +4158,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3892,7 +4180,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 3 Ideation",
+                "name": "Project 3 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-1"
               }
             ]
@@ -3959,7 +4247,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -3976,7 +4269,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 3 Ideation",
+                "name": "Project 3 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-1"
               }
             ]
@@ -4055,7 +4348,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4065,15 +4363,22 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
+          "projectStart": {
+            "items": [
+              {
+                "name": "Start: Project 3 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
+              }
+            ]
+          },
           "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 3 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-1"
+                "name": "Project 3 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
               }
             ]
           }
@@ -4132,7 +4437,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4149,8 +4459,8 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 3 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-1"
+                "name": "Project 3 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
               }
             ]
           }
@@ -4176,7 +4486,13 @@
               }
             ]
           },
-          "inClass": { "items": [{ "name": "AJAX Cards Redux" }] },
+          "inClass": {
+            "items": [
+              {
+                "name": "AJAX Cards Redux"
+              }
+            ]
+          },
           "postClass": {}
         },
         "css": {
@@ -4205,7 +4521,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4215,17 +4536,36 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
+          "projectStart": {
+            "items": [
+              {
+                "name": "Start: Project 3",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
+              }
+            ]
+          },
           "projectDue": {
-            "items": [{ "name": "Deadline to post Project 3 ideas in Slack" }]
+            "items": [
+              {
+                "name": "Due: Project 3 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
+              }
+            ]
           },
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Peer Planning Review",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
-                "name": "Project 3 Ideation Phase 2",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
+                "name": "Project 3 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game"
               }
             ]
           }
@@ -4262,7 +4602,9 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": { "items": [] },
+          "preClass": {
+            "items": []
+          },
           "inClass": {
             "items": [
               {
@@ -4280,7 +4622,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4360,7 +4707,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4440,7 +4792,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4520,7 +4877,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4604,7 +4966,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4618,7 +4985,7 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 3 MVP Deadline (deployed)",
+                "name": "Due: Project 3 MVP Deadline",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#mvp-deadline"
               }
             ]
@@ -4755,7 +5122,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4828,7 +5200,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -4842,7 +5219,7 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 3 Feature Freeze",
+                "name": "Due: Project 3 Feature Freeze",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#feature-freeze"
               }
             ]
@@ -4933,7 +5310,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5017,7 +5399,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5031,25 +5418,22 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 3",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game"
-              }
-            ]
-          },
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 3 Presentations",
+                "name": "Due: Project 3 Presentations",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-presentations"
               }
             ]
           },
+          "preClass": {},
+          "inClass": {},
           "postClass": {
             "items": [
               {
                 "name": "Project 3 Post-Mortems",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-post-mortem-meeting"
+              },
+              {
+                "name": "Project 3 Video Demo",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#video-demo"
               }
             ]
           }
@@ -5116,7 +5500,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5129,7 +5518,14 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Peer project review exercise",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#project-presentations"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
@@ -5201,7 +5597,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5218,7 +5619,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 3 Video Demo",
+                "name": "Due: Project 3 Video Demo",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#video-demo"
               }
             ]
@@ -5285,7 +5686,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5296,17 +5702,17 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {
+          "projectDue": {
             "items": [
               {
-                "name": "Project 3 Video Demo",
+                "name": "Due: Project 3 Video Demo",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#video-demo"
               }
             ]
-          }
+          },
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         }
       }
     },
@@ -5362,7 +5768,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5376,8 +5787,8 @@
             "projectStart": {
               "items": [
                 {
-                  "name": "Project 4: Full-Stack React App",
-                  "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app"
+                  "name": "Start: Project 4 Ideation Phase 1",
+                  "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-1"
                 }
               ]
             }
@@ -5388,11 +5799,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 3 Video Demo",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#video-demo"
-              },
-              {
-                "name": "Project 4 Ideation",
+                "name": "Project 4 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-1"
               }
             ]
@@ -5456,7 +5863,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5467,20 +5879,13 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Project 3 Video Demo",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#video-demo"
-              }
-            ]
-          },
+          "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 4 Ideation",
+                "name": "Project 4 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-1"
               }
             ]
@@ -5529,7 +5934,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5546,7 +5956,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 4 Ideation",
+                "name": "Project 4 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-1"
               }
             ]
@@ -5609,7 +6019,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5619,15 +6034,22 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
+          "projectStart": {
+            "items": [
+              {
+                "name": "Start: Project 4 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-2"
+              }
+            ]
+          },
           "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 4 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-1"
+                "name": "Project 4 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-2"
               }
             ]
           }
@@ -5689,7 +6111,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5700,16 +6127,14 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [{ "name": "Project 4 deadline to post ideas to Slack" }]
-          },
+          "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 4 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-1"
+                "name": "Project 4 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-2"
               }
             ]
           }
@@ -5771,7 +6196,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5781,15 +6211,36 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
+          "projectStart": {
+            "items": [
+              {
+                "name": "Start: Project 4 Start",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app"
+              }
+            ]
+          },
+          "projectDue": {
+            "items": [
+              {
+                "name": "Due: Project 4 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-2"
+              }
+            ]
+          },
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Peer Planning Review",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-2"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
-                "name": "Project 4 Ideation Phase 2",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-2"
+                "name": "Start: Project 4 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app"
               }
             ]
           }
@@ -5837,7 +6288,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5910,7 +6366,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -5990,7 +6451,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6070,7 +6536,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6143,7 +6614,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6155,7 +6631,12 @@
           "type": "projects",
           "projectStart": {},
           "projectDue": {
-            "items": [{ "name": "Project 4 MVP Deadline (deployed)" }]
+            "items": [
+              {
+                "name": "Due: Project 4 MVP Deadline",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#mvp-deadline"
+              }
+            ]
           },
           "preClass": {},
           "inClass": {
@@ -6164,7 +6645,9 @@
                 "name": "Project 4 Scrum",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
               },
-              { "name": "Project 4 In-Class Code Review" }
+              {
+                "name": "Project 4 In-Class Code Review"
+              }
             ]
           },
           "postClass": {
@@ -6219,7 +6702,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6292,7 +6780,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6303,7 +6796,14 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": { "items": [{ "name": "Project 4 Feature Freeze" }] },
+          "projectDue": {
+            "items": [
+              {
+                "name": "Due: Project 4 Feature Freeze",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#feature-freeze"
+              }
+            ]
+          },
           "preClass": {},
           "inClass": {
             "items": [
@@ -6365,7 +6865,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6462,7 +6967,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6476,20 +6986,13 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 4: Full-Stack React App",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app"
-              }
-            ]
-          },
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 4 Presentations",
+                "name": "Due: Project 4 Presentations",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-presentations"
               }
             ]
           },
+          "preClass": {},
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -6551,7 +7054,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6653,7 +7161,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6667,7 +7180,7 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 4 Video Demo",
+                "name": "Due: Project 4 Video Demo",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#video-demo"
               }
             ]
@@ -6719,7 +7232,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6732,8 +7250,8 @@
           "projectStart": {
             "items": [
               {
-                "name": "Project 5: Group React App",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app"
+                "name": "Start: Project 5 Ideation Phase 1",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
               }
             ]
           },
@@ -6743,7 +7261,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 5 Ideation",
+                "name": "Project 5 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
               }
             ]
@@ -6814,7 +7332,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6831,7 +7354,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 5 Ideation",
+                "name": "Project 5 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
               }
             ]
@@ -6901,7 +7424,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6918,7 +7446,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 5 Ideation",
+                "name": "Project 5 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
               }
             ]
@@ -6985,7 +7513,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -6995,15 +7528,22 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
+          "projectStart": {
+            "items": [
+              {
+                "name": "Start: Project 5 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-2"
+              }
+            ]
+          },
           "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 5 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
+                "name": "Project 5 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-2"
               }
             ]
           }
@@ -7065,7 +7605,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7082,8 +7627,8 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 5 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
+                "name": "Project 5 Ideation 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-2"
               }
             ]
           }
@@ -7145,7 +7690,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7156,18 +7706,14 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [
-              { "name": "Project 5 deadline to post ideas and teams in Slack" }
-            ]
-          },
+          "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 5 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
+                "name": "Project 5 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-2"
               }
             ]
           }
@@ -7222,7 +7768,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7232,18 +7783,32 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {
+          "projectStart": {
             "items": [
               {
-                "name": "Project 5 Ideation Phase 2",
+                "name": "Start: Project 5",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app"
+              }
+            ]
+          },
+          "projectDue": {
+            "items": [
+              {
+                "name": "Due: Project 5 Ideation Phase 2",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-2"
               }
             ]
-          }
+          },
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Peer Planning Review",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app"
+              }
+            ]
+          },
+          "postClass": {}
         }
       }
     },
@@ -7288,7 +7853,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7376,7 +7946,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7449,7 +8024,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7522,7 +8102,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7533,7 +8118,14 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": { "items": [{ "name": "Project 5 MVP (deployed)" }] },
+          "projectDue": {
+            "items": [
+              {
+                "name": "Due: Project 5 MVP Deadline",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#mvp-deadline"
+              }
+            ]
+          },
           "preClass": {},
           "inClass": {
             "items": [
@@ -7599,7 +8191,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7672,7 +8269,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7745,7 +8347,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7759,7 +8366,7 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 5 Feature Freeze",
+                "name": "Due: Project 5 Feature Freeze",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#feature-freeze"
               }
             ]
@@ -7829,7 +8436,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7902,7 +8514,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -7915,7 +8532,7 @@
           "projectStart": {
             "items": [
               {
-                "name": "Project 6: Capstone",
+                "name": "Start: Project 6 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
               }
             ]
@@ -7923,20 +8540,13 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 5: Group React App",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app"
-              }
-            ]
-          },
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 5 Presentations",
+                "name": "Due: Project 5 Presentations",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-presentations"
               }
             ]
           },
+          "preClass": {},
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -7948,7 +8558,7 @@
                 "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#video-demo"
               },
               {
-                "name": "Project 6 Ideation",
+                "name": "Project 6 Ideation Phase 1",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#ideation-phase-1"
               }
             ]
@@ -8012,7 +8622,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8023,9 +8638,23 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Start: Project 6 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#ideation-phase-2"
+              }
+            ]
+          },
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 5: Peer Project Review Exercise",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
@@ -8033,8 +8662,8 @@
                 "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#video-demo"
               },
               {
-                "name": "Project 6 Ideation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#ideation-phase-1"
+                "name": "Project 6 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#ideation-phase-2"
               }
             ]
           }
@@ -8093,7 +8722,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8103,22 +8737,40 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
+          "projectStart": {
+            "items": [
+              {
+                "name": "Start: Project 6 Start",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
+              }
+            ]
+          },
           "projectDue": {
             "items": [
               {
-                "name": "Project 5 Video",
+                "name": "Due: Project 6 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#ideation-phase-2"
+              },
+              {
+                "name": "Due: Project 5 Video",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#video-demo"
               }
             ]
           },
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 6 Peer Planning Review",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
-                "name": "Project 6 Ideation Phase 2",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#ideation-phase-2"
+                "name": "Project 6 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
               }
             ]
           }
@@ -8181,7 +8833,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8254,7 +8911,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8334,7 +8996,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8414,7 +9081,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8502,7 +9174,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8575,7 +9252,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8611,7 +9293,7 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 6 MVP (deployed)",
+                "name": "Due: Project 6 MVP Deadline",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#mvp-deadline"
               }
             ]
@@ -8681,7 +9363,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8761,10 +9448,22 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
-          "cpDue": { "items": [{ "name": "Resume 1st Draft" }] },
+          "cpDue": {
+            "items": [
+              {
+                "name": "Due: Resume 1st Draft",
+                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.2-resume"
+              }
+            ]
+          },
           "preClass": {
             "items": [
               {
@@ -8848,7 +9547,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -8928,13 +9632,18 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {
             "items": [
               {
-                "name": "IP.3: Portfolio",
+                "name": "Due: Portfolio",
                 "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.3-portfolio"
               }
             ]
@@ -9022,7 +9731,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -9102,10 +9816,22 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
-          "cpDue": { "items": [{ "name": "Job List 1st Draft" }] },
+          "cpDue": {
+            "items": [
+              {
+                "name": "Due: Job List 1st Draft",
+                "url": "https://bootcamp.rocketacademy.co/interview-prep/ip.4-job-list"
+              }
+            ]
+          },
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -9175,7 +9901,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -9248,7 +9979,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -9262,7 +9998,7 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 6 Feature Freeze",
+                "name": "Due: Project 6 Feature Freeze",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#feature-freeze"
               }
             ]
@@ -9332,7 +10068,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -9405,7 +10146,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "cp": {
           "type": "cp",
           "cpDue": {},
@@ -9416,21 +10162,25 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {
+          "projectDue": {
             "items": [
               {
-                "name": "Project 6 Presentations",
+                "name": "Due: Project 6 Presentations",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-presentations"
               }
             ]
           },
+          "preClass": {},
+          "inClass": {},
           "postClass": {
             "items": [
               {
                 "name": "Project 6 Post-Mortems",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-post-mortem-meeting"
+              },
+              {
+                "name": "Project 6 Video Demo ",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#video-demo"
               }
             ]
           }
