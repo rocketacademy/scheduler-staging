@@ -7246,8 +7246,38 @@
         "module": "Module 8: Advanced React",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "9.0: Module 9 Overview",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.0-module-9-overview"
+              },
+              {
+                "name": "9.1: Testing",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.1-testing"
+              },
+              {
+                "name": "9.1.1: Unit Testing",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.1-testing/9.1.1-unit-testing"
+              },
+              {
+                "name": "9.1.2: TDD",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.1-testing/9.1.2-tdd"
+              },
+              {
+                "name": "9.1.3: CI",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.1-testing/9.1.3-ci"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "9.ICE.1: Unit Testing",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.ice-in-class-exercises/9.ice.1-unit-testing"
+              }
+            ]
+          },
           "postClass": {}
         },
         "css": {
@@ -7261,8 +7291,8 @@
           "preClass": {
             "items": [
               {
-                "name": "D.5.8: Heaps - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.8-heaps#part-3"
+                "name": "D.9: Dynamic Programming - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#pre-class"
               }
             ]
           },
@@ -7326,7 +7356,22 @@
         "module": "Module 8: Advanced React",
         "general": {
           "type": "general",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "9.2.1: XSS",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.2-security/9.2.1-xss"
+              },
+              {
+                "name": "9.2.2: CSRF",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.2-security/9.2.2-csrf"
+              },
+              {
+                "name": "9.2.3: SQL Injection",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.2-security/9.2.3-sql-injection"
+              }
+            ]
+          },
           "inClass": {},
           "postClass": {}
         },
@@ -7338,14 +7383,7 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.9: Dynamic Programming - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#pre-class"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {
             "items": [
               {
@@ -7406,7 +7444,14 @@
         "module": "Module 8: Advanced React",
         "general": {
           "type": "general",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "9.3: Django",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.3-django"
+              }
+            ]
+          },
           "inClass": {},
           "postClass": {}
         },
@@ -7479,7 +7524,14 @@
         "module": "Module 8: Advanced React",
         "general": {
           "type": "general",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "9.3.1: Django User Login",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.3-django/9.3.1-django-user-login"
+              }
+            ]
+          },
           "inClass": {},
           "postClass": {}
         },
@@ -7571,7 +7623,14 @@
         "module": "Module 8: Advanced React",
         "general": {
           "type": "general",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "9.4: React Native",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.4-react-native"
+              }
+            ]
+          },
           "inClass": {},
           "postClass": {}
         },
@@ -7651,7 +7710,22 @@
         "module": "Module 8: Advanced React",
         "general": {
           "type": "general",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "9.5.2: ML - Naive Bayes Classifier Python",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.5-ml-bayes-theorem/9.5.2-ml-naive-bayes-classifier-python"
+              },
+              {
+                "name": "9.5.1: ML - Naive Bayes Classifier JS",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.5-ml-bayes-theorem/9.5.1-ml-naive-bayes-classifier-javascript"
+              },
+              {
+                "name": "9.5: ML - Naive Bayes Theorem",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.5-ml-bayes-theorem"
+              }
+            ]
+          },
           "inClass": {},
           "postClass": {}
         },
@@ -7969,30 +8043,8 @@
         "module": "Module 9: Advanced Topics",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "9.0: Module 9 Overview",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.0-module-9-overview"
-              },
-              {
-                "name": "9.1: Testing",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.1-testing"
-              },
-              {
-                "name": "9.1.1: Unit Testing",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.1-testing/9.1.1-unit-testing"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "9.ICE.1: Unit Testing",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.ice-in-class-exercises/9.ice.1-unit-testing"
-              }
-            ]
-          },
+          "preClass": {},
+          "inClass": {},
           "postClass": {}
         },
         "css": {
@@ -8061,8 +8113,8 @@
                 "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#video-demo"
               },
               {
-                "name": "Project 6 Ideation Phase 2",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#ideation-phase-2"
+                "name": "Project 6 Exploration Time",
+                "url": ""
               }
             ]
           }
@@ -8075,18 +8127,7 @@
         "module": "Module 9: Advanced Topics",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "9.1.2: TDD",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.1-testing/9.1.2-tdd"
-              },
-              {
-                "name": "9.1.3: CI",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.1-testing/9.1.3-ci"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {},
           "postClass": {}
         },
@@ -8165,6 +8206,10 @@
               {
                 "name": "Project 6 Implementation",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
+              },
+              {
+                "name": "Project 6 Exploration Time",
+                "url": ""
               }
             ]
           }
@@ -8177,22 +8222,7 @@
         "module": "Module 9: Advanced Topics",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "9.2.1: XSS",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.2-security/9.2.1-xss"
-              },
-              {
-                "name": "9.2.2: CSRF",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.2-security/9.2.2-csrf"
-              },
-              {
-                "name": "9.2.3: SQL Injection",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.2-security/9.2.3-sql-injection"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {},
           "postClass": {}
         },
@@ -8246,6 +8276,10 @@
               {
                 "name": "Project 6 Implementation",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
+              },
+              {
+                "name": "Project 6 Exploration Time",
+                "url": ""
               }
             ]
           }
@@ -8258,14 +8292,7 @@
         "module": "Module 9: Advanced Topics",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "9.3: Django",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.3-django"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {},
           "postClass": {}
         },
@@ -8326,6 +8353,10 @@
               {
                 "name": "Project 6 Implementation",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
+              },
+              {
+                "name": "Project 6 Exploration Time",
+                "url": ""
               }
             ]
           }
@@ -8338,14 +8369,7 @@
         "module": "Module 9: Advanced Topics",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "9.3.1: Django User Login",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.3-django/9.3.1-django-user-login"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {},
           "postClass": {}
         },
@@ -8406,6 +8430,10 @@
               {
                 "name": "Project 6 Implementation",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
+              },
+              {
+                "name": "Project 6 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone#ideation-phase-2"
               }
             ]
           }
@@ -8418,14 +8446,7 @@
         "module": "Module 9: Advanced Topics",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "9.4: React Native",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.4-react-native"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {},
           "postClass": {}
         },
@@ -8491,22 +8512,7 @@
         "module": "Module 9: Advanced Topics",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "9.5: ML - Naive Bayes Theorem",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.5-ml-bayes-theorem"
-              },
-              {
-                "name": "9.5.1: ML - Naive Bayes Classifier JS",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.5-ml-bayes-theorem/9.5.1-ml-naive-bayes-classifier-javascript"
-              },
-              {
-                "name": "9.5.2: ML - Naive Bayes Classifier Python",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.5-ml-bayes-theorem/9.5.2-ml-naive-bayes-classifier-python"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {},
           "postClass": {}
         },
@@ -9290,8 +9296,22 @@
         "dsa": {
           "type": "dsa",
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.13-open-practice"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.13-open-practice"
+              }
+            ]
+          }
         },
         "ux": {
           "type": "ux",
@@ -9354,35 +9374,11 @@
               {
                 "name": "DS&A Open Practice",
                 "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
-              },
-              {
-                "name": "DS&A Open Practice",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
-              },
-              {
-                "name": "DS&A Open Practice",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
-              },
-              {
-                "name": "DS&A Open Practice",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
               }
             ]
           },
           "postClass": {
             "items": [
-              {
-                "name": "DS&A Open Practice",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
-              },
-              {
-                "name": "DS&A Open Practice",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
-              },
-              {
-                "name": "DS&A Open Practice",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
-              },
               {
                 "name": "DS&A Open Practice",
                 "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
