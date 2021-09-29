@@ -4,32 +4,45 @@ A front-end app to edit and generate a dated schedule for all Rocket Academy Cou
 
 The app is Timezone aware.
 
-The app consists of 2 parts, a react app and a node script.
 
 # Instructions for use
 
 The app is deployed at <https://rocketacademy.github.io/scheduler/#/admin>
 
-Fill in the form with required information, please make sure date picked for Basics start date is a Saturday, and date picked for Bootcamp start date is a Monday.
+# To generate schedule for a new Batch
 
-Click the 'download file' button.
+Click on the "Batch" tab
+Under Generate Schedule Data File, fill in the form with required information, please make sure date picked for Bootcamp start date is a Monday.
+Select from -
+"render schedule": which will render the generated file in the app 
+"download schedule": which will download the generated file into the downloads folder of your computer 
+"add to github": this will take you to the create new file page of the github repo, press ctrl -a followed by ctrl -v to paste the generated file into the github repo
+"basics markdown": this will take you to the create new file page of the basics-docs repo, press ctrl -a followed by ctrl -v to paste the generated file into the github repo
 
-When the file downloads, start the node script by running:
+# To edit main bootcamp json file
 
-- 'npm run basics-md <PATH_TO_DOWNLOADED_FILE>' to generate a markdown file for basics
-- 'npm run bootcamp-md <PATH_TO_DOWNLOADED_FILE>' to generate a markdown file for bootcamp
+Click on the "Main" tab
+Next to each schedule item are 4 buttons -
+trash can symbol: deletes that item
+up arrow: used to move that item up a day in the schedule
+down arrow: used to move that item down a day in the schedule
+rectangular symbol: used to move that item to any day in the schedule
 
-A markdown file will be created in the `markdown` folder (in `src`).
+The up and down arrows on the right side of each section are used to move the entire section up/ down one day
 
-# Generate Test Data
+After you have finished making your changes, click "edit in github repo" to make changes to the main file, then click the "update" buttons to edit that particular batch's schedule (click on the button, press ctrl -a, ctrl -v to paste the updated schedule into the github repo)
 
-To generate test data run:
+# To edit individual batch json files
+Click on the "Batch" tab
+Next to each schedule item are 4 buttons -
+trash can symbol: deletes that item
+up arrow: used to move that item up a day in the schedule
+down arrow: used to move that item down a day in the schedule
+rectangular symbol: used to move that item to any day in the schedule
 
-```
-node test/index.js
-```
+The up and down arrows on the right side of each section are used to move the entire section up/ down one day
 
-This will create a file called `data.json` in `src/data`.
+After you have finished making your changes, either click "edit in github repo" (click on the button, press ctrl -a, ctrl -v to paste the updated schedule into the github repo), or "download modified file" to download the edited file into the downloads folder of your computer
 
 # Getting Started with Create React App
 
