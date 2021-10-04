@@ -4944,30 +4944,9 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.5.3: Stacks - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#pre-class"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "D.5.3: Stacks - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#part-1"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "D.5.3: Stacks - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#part-1"
-              }
-            ]
-          }
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
@@ -5022,20 +5001,27 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "D.5.3: Stacks - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#pre-class"
+              }
+            ]
+          },
           "inClass": {
             "items": [
               {
-                "name": "D.5.3: Stacks - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#part-2"
+                "name": "D.5.3: Stacks - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#part-1"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.3: Stacks - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#part-2"
+                "name": "D.5.3: Stacks - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#part-1"
               }
             ]
           }
@@ -5111,27 +5097,20 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.5.5: Linked Lists - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#pre-class"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {
             "items": [
               {
-                "name": "D.5.5: Linked Lists - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-1"
+                "name": "D.5.3: Stacks - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#part-2"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.5: Linked Lists - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-1"
+                "name": "D.5.3: Stacks - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.3-stacks#part-2"
               }
             ]
           }
@@ -5210,20 +5189,27 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "D.5.5: Linked Lists - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#pre-class"
+              }
+            ]
+          },
           "inClass": {
             "items": [
               {
-                "name": "D.5.5: Linked Lists - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-2"
+                "name": "D.5.5: Linked Lists - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-1"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "D.5.5: Linked Lists - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-2"
+                "name": "D.5.5: Linked Lists - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-1"
               }
             ]
           }
@@ -5282,8 +5268,22 @@
         "dsa": {
           "type": "dsa",
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "D.5.5: Linked Lists - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-2"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "D.5.5: Linked Lists - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-2"
+              }
+            ]
+          }
         },
         "ux": {
           "type": "ux",
@@ -5507,23 +5507,9 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.6: Binary Search - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.6-binary-search#pre-class"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "D.5.5: Linked Lists - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-3"
-              }
-            ]
-          }
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
@@ -5618,9 +5604,23 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "D.6: Binary Search - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.6-binary-search#pre-class"
+              }
+            ]
+          },
           "inClass": {},
-          "postClass": {}
+          "postClass": {
+            "items": [
+              {
+                "name": "D.5.5: Linked Lists - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.5-linked-lists#part-3"
+              }
+            ]
+          }
         },
         "ux": {
           "type": "ux",
@@ -5709,23 +5709,9 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.7: Sliding Windows - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-sliding-windows#pre-class"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "D.6: Binary Search - Part 1 ",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.6-binary-search#part-1"
-              }
-            ]
-          }
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
@@ -5805,13 +5791,20 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "D.7: Sliding Windows - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-sliding-windows#pre-class"
+              }
+            ]
+          },
           "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "D.7: Sliding Windows - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-sliding-windows#part-1"
+                "name": "D.6: Binary Search - Part 1 ",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.6-binary-search#part-1"
               }
             ]
           }
@@ -5898,23 +5891,16 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
             "items": [
               {
-                "name": "D.5.4: Queues - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.4-queues#pre-class"
+                "name": "D.7: Sliding Windows - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-sliding-windows#part-1"
               }
             ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "D.5.4: Queues - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.4-queues#part-1"
-              }
-            ]
-          },
-          "postClass": {}
+          }
         },
         "ux": {
           "type": "ux",
@@ -5993,27 +5979,20 @@
           "preClass": {
             "items": [
               {
-                "name": "D.7: Recursion - Required Reading",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#required-reading"
+                "name": "D.5.4: Queues - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.4-queues#pre-class"
               }
             ]
           },
           "inClass": {
             "items": [
               {
-                "name": "D.7: Recursion - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-1"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
                 "name": "D.5.4: Queues - Part 1",
                 "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.4-queues#part-1"
               }
             ]
-          }
+          },
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
@@ -6082,13 +6061,27 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {
+          "preClass": {
+            "items": [
+              {
+                "name": "D.7: Recursion - Required Reading",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#required-reading"
+              }
+            ]
+          },
+          "inClass": {
             "items": [
               {
                 "name": "D.7: Recursion - Part 1",
                 "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-1"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "D.5.4: Queues - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.4-queues#part-1"
               }
             ]
           }
@@ -6168,15 +6161,15 @@
         "dsa": {
           "type": "dsa",
           "preClass": {},
-          "inClass": {
+          "inClass": {},
+          "postClass": {
             "items": [
               {
-                "name": "D.7: Recursion - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-2"
+                "name": "D.7: Recursion - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-1"
               }
             ]
-          },
-          "postClass": {}
+          }
         },
         "ux": {
           "type": "ux",
@@ -6242,19 +6235,12 @@
           "inClass": {
             "items": [
               {
-                "name": "D.7: Recursion - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-3"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
                 "name": "D.7: Recursion - Part 2",
                 "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-2"
               }
             ]
-          }
+          },
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
@@ -6307,6 +6293,84 @@
       "dayNumber": 1,
       "meetingDateTimeUTC": "2021-10-25T05:00:00.000Z",
       "courseDay": 74,
+      "dateTypes": {
+        "module": "Module 7: React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "dsa": {
+          "type": "dsa",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "D.7: Recursion - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-3"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "D.7: Recursion - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.7-recursion#part-2"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "cp": {
+          "type": "cp",
+          "cpDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 4 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 4 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "26-10-2021": {
+      "courseDate": "26-10-2021",
+      "courseWeek": 17,
+      "weekDay": 2,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2021-10-26T05:00:00.000Z",
+      "courseDay": 75,
       "dateTypes": {
         "module": "Module 7: React",
         "general": {
@@ -6385,13 +6449,13 @@
         }
       }
     },
-    "26-10-2021": {
-      "courseDate": "26-10-2021",
+    "27-10-2021": {
+      "courseDate": "27-10-2021",
       "courseWeek": 17,
-      "weekDay": 2,
-      "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-10-26T05:00:00.000Z",
-      "courseDay": 75,
+      "weekDay": 3,
+      "dayNumber": 3,
+      "meetingDateTimeUTC": "2021-10-27T05:00:00.000Z",
+      "courseDay": 76,
       "dateTypes": {
         "module": "Module 7: React",
         "general": {
@@ -6463,13 +6527,13 @@
         }
       }
     },
-    "27-10-2021": {
-      "courseDate": "27-10-2021",
+    "28-10-2021": {
+      "courseDate": "28-10-2021",
       "courseWeek": 17,
-      "weekDay": 3,
-      "dayNumber": 3,
-      "meetingDateTimeUTC": "2021-10-27T05:00:00.000Z",
-      "courseDay": 76,
+      "weekDay": 4,
+      "dayNumber": 4,
+      "meetingDateTimeUTC": "2021-10-28T05:00:00.000Z",
+      "courseDay": 77,
       "dateTypes": {
         "module": "Module 7: React",
         "general": {
@@ -6541,13 +6605,13 @@
         }
       }
     },
-    "28-10-2021": {
-      "courseDate": "28-10-2021",
+    "29-10-2021": {
+      "courseDate": "29-10-2021",
       "courseWeek": 17,
-      "weekDay": 4,
-      "dayNumber": 4,
-      "meetingDateTimeUTC": "2021-10-28T05:00:00.000Z",
-      "courseDay": 77,
+      "weekDay": 5,
+      "dayNumber": 5,
+      "meetingDateTimeUTC": "2021-10-29T05:00:00.000Z",
+      "courseDay": 78,
       "dateTypes": {
         "module": "Module 7: React",
         "general": {
@@ -6578,91 +6642,6 @@
               {
                 "name": "D.5.6: Trees - Part 2",
                 "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-2"
-              }
-            ]
-          }
-        },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "projects": {
-          "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 4 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 4 Implementation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app"
-              }
-            ]
-          }
-        }
-      }
-    },
-    "29-10-2021": {
-      "courseDate": "29-10-2021",
-      "courseWeek": 17,
-      "weekDay": 5,
-      "dayNumber": 5,
-      "meetingDateTimeUTC": "2021-10-29T05:00:00.000Z",
-      "courseDay": 78,
-      "dateTypes": {
-        "module": "Module 7: React",
-        "general": {
-          "type": "general",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "css": {
-          "type": "css",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "dsa": {
-          "type": "dsa",
-          "preClass": {
-            "items": [
-              {
-                "name": "D.10: Sorting Algorithms - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.10-sorting-algorithms#divide-and-conquer"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "D.10: Sorting Algorithms - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.10-sorting-algorithms#divide-and-conquer"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "D.5.6: Trees - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-3"
               }
             ]
           }
@@ -6740,20 +6719,27 @@
           "preClass": {
             "items": [
               {
-                "name": "D.11.1: Recursive Backtracking - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.11-notable-patterns/d.11.1-recursive-backtracking#pre-class"
+                "name": "D.10: Sorting Algorithms - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.10-sorting-algorithms#divide-and-conquer"
               }
             ]
           },
           "inClass": {
             "items": [
               {
-                "name": "D.11.1: Recursive Backtracking - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.11-notable-patterns/d.11.1-recursive-backtracking#part-1"
+                "name": "D.10: Sorting Algorithms - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.10-sorting-algorithms#divide-and-conquer"
               }
             ]
           },
-          "postClass": {}
+          "postClass": {
+            "items": [
+              {
+                "name": "D.5.6: Trees - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-3"
+              }
+            ]
+          }
         },
         "ux": {
           "type": "ux",
@@ -6822,16 +6808,23 @@
         },
         "dsa": {
           "type": "dsa",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {
+          "preClass": {
+            "items": [
+              {
+                "name": "D.11.1: Recursive Backtracking - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.11-notable-patterns/d.11.1-recursive-backtracking#pre-class"
+              }
+            ]
+          },
+          "inClass": {
             "items": [
               {
                 "name": "D.11.1: Recursive Backtracking - Part 1",
                 "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.11-notable-patterns/d.11.1-recursive-backtracking#part-1"
               }
             ]
-          }
+          },
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
@@ -6894,15 +6887,15 @@
         "dsa": {
           "type": "dsa",
           "preClass": {},
-          "inClass": {
+          "inClass": {},
+          "postClass": {
             "items": [
               {
-                "name": "D.5.6: Trees - Part 4",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.6-trees#part-4"
+                "name": "D.11.1: Recursive Backtracking - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.11-notable-patterns/d.11.1-recursive-backtracking#part-1"
               }
             ]
-          },
-          "postClass": {}
+          }
         },
         "ux": {
           "type": "ux",
