@@ -10,7 +10,7 @@ function TableSectionContent({ sectionArray }) {
                 <>
                 {item.url && (
                     <li>
-                        <a href={item.url}>{item.name}</a>
+                        <a href={item.url} target="_blank" rel="noopener noreferrer">{item.name}</a>
                     </li>
                 )}
                 {!item.url && (

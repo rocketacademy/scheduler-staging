@@ -37,7 +37,7 @@ const findPreviousDay = (scheduleData, today, coursetype, firstDayOfCourse) => {
   return dayBefore;
 };
 
-//helper funcyion that finds next course day
+//helper function that finds next course day
 const findNextDay = (scheduleData, today, coursetype, firstDayOfCourse) => {
   let nextDay;
 
@@ -76,12 +76,8 @@ function CurrentDaySection({ scheduleData, coursetype, today, firstDayOfCourse }
   let nextDay;
   let previousDayId;
   // finds previous course day, only applicable if course has already started
-  console.log('date now', DateTime.now());
-  console.log('first dat', firstDayOfCourse);
-  console.log(DateTime.now() > firstDayOfCourse);
   if (DateTime.now() > firstDayOfCourse) {
     previousDay = findPreviousDay(scheduleData, today, coursetype, firstDayOfCourse);
-    console.log('previous day', previousDay);
     if(scheduleData[previousDay]) {
       previousDayId = `${coursetype}-week-${scheduleData[previousDay].courseWeek}-day-${scheduleData[previousDay].dayNumber}`;
     }
@@ -96,7 +92,7 @@ function CurrentDaySection({ scheduleData, coursetype, today, firstDayOfCourse }
   return (
     <div>
       <div className="today-date">
-        {nextDay && (
+        {scheduleData[nextDay] && (
           <>
             <div>
               <GenerateCourseDayHeader

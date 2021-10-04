@@ -88,6 +88,8 @@ function CourseWeeks({ scheduleData, coursetype, firstDayOfCourse }) {
           const navId = `${index + 1}`;
           const id = `${coursetype}-week-${week}-day-1`;
           const sidebarId = `${coursetype}-sidebar-week-${week}`;
+          console.log('week', week);
+          console.log('week number', weekNumber);
           return (
             <Nav.Item>
               <Nav.Link
@@ -103,7 +105,7 @@ function CourseWeeks({ scheduleData, coursetype, firstDayOfCourse }) {
               >
                 {week === weekNumber[0] && DateTime.now() > firstDayOfCourse && <CurrentWeekDiv />}
                 <div>
-                  Week {week}
+                  {week === null ? "Break" : `Week ${week}`}
                   {/* week indicator that indicates that a certain week is the current week  */}
                   {weeks[index] === weekNumber[0] && (
                     <span id={sidebarId} className="current-wk-indicator">

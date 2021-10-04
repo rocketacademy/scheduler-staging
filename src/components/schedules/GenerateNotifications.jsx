@@ -31,7 +31,7 @@ const GenerateNotifications = ({
         status.items.map((item) => {
           return (
             <li>
-              <a href={item.url} className="notification-item"><h6>{item.name}</h6></a>
+              <a href={item.url} target="_blank" rel="noopener noreferrer" className="notification-item"><h6>{item.name}</h6></a>
             </li>
           )
         })

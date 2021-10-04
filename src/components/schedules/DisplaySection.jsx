@@ -21,7 +21,7 @@ function DisplaySection({ heading, sectionType, day }) {
             <>
               {item.url && (
                 <li id={id}>
-                  <a href={item.url}>{item.name}</a>
+                  <a href={item.url} target="_blank" rel="noopener noreferrer">{item.name}</a>
                 </li>
               )}
               {!item.url && <li>{item.name}</li>}
