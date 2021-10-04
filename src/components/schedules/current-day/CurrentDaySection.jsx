@@ -6,10 +6,10 @@ import GenerateDatetypeSections from "../GenerateDatetypeSections";
 import { DateTime } from "luxon";
 
 // helper function that finds previous course day
-const findPreviousDay = (scheduleData, today, coursetype) => {
+const findPreviousDay = (scheduleData, today, coursetype, firstDayOfCourse) => {
   let dayBefore;
 
-  if (coursetype === "ft") {
+  if (coursetype === "ft" && DateTime.now() > firstDayOfCourse) {
     if (today.weekday === 1) {
       dayBefore = today.plus({ days: -3 }).toFormat("dd-MM-yyyy");
     } else if (today.weekday === 7) {
@@ -17,7 +17,7 @@ const findPreviousDay = (scheduleData, today, coursetype) => {
     } else {
       dayBefore = today.plus({ days: -1 }).toFormat('dd-MM-yyyy');
     }
-  } else if (coursetype === "pt") {
+  } else if (coursetype === "pt" && DateTime.now() > firstDayOfCourse) {
     if (today.weekday === 1) {
       dayBefore = today
         .plus({ weeks: -1 })
@@ -30,7 +30,7 @@ const findPreviousDay = (scheduleData, today, coursetype) => {
     }
   }
 
-  if (scheduleData[dayBefore].dateTypes.holidayType) {
+  if (scheduleData[dayBefore] && scheduleData[dayBefore].dateTypes.holidayType) {
     dayBefore = findPreviousDay(scheduleData, dayBefore, coursetype);
   }
 
@@ -41,7 +41,7 @@ const findPreviousDay = (scheduleData, today, coursetype) => {
 const findNextDay = (scheduleData, today, coursetype, firstDayOfCourse) => {
   let nextDay;
 
-  if (coursetype === "ft" && DateTime.now() > firstDayOfCourse) {
+  if (coursetype === "ft" && DateTime.now() >= firstDayOfCourse) {
     if (today.weekday === 6) {
       nextDay = today.plus({ days: 2 }).toFormat("dd-MM-yyyy");
     } else if (today.weekday === 7) {
@@ -49,7 +49,7 @@ const findNextDay = (scheduleData, today, coursetype, firstDayOfCourse) => {
     } else {
       nextDay = today.toFormat("dd-MM-yyyy");
     }
-  } else if (coursetype === "pt" && DateTime.now() > firstDayOfCourse) {
+  } else if (coursetype === "pt" && DateTime.now() >= firstDayOfCourse) {
     if (today.weekday === 1) {
       nextDay = today.toFormat('dd-MM-yyyy');
     } else if (today.weekday > 1 && today.weekday <= 6) {
@@ -61,7 +61,7 @@ const findNextDay = (scheduleData, today, coursetype, firstDayOfCourse) => {
     nextDay = today.toFormat('dd-MM-yyyy');
   }
 
-  if (scheduleData[nextDay].dateTypes.holidayType) {
+  if (scheduleData[nextDay] && scheduleData[nextDay].dateTypes.holidayType) {
     nextDay = findNextDay(scheduleData, nextDay, coursetype);
   }
 
@@ -76,9 +76,15 @@ function CurrentDaySection({ scheduleData, coursetype, today, firstDayOfCourse }
   let nextDay;
   let previousDayId;
   // finds previous course day, only applicable if course has already started
+  console.log('date now', DateTime.now());
+  console.log('first dat', firstDayOfCourse);
+  console.log(DateTime.now() > firstDayOfCourse);
   if (DateTime.now() > firstDayOfCourse) {
-    previousDay = findPreviousDay(scheduleData, today, coursetype);
-    previousDayId = `${coursetype}-week-${scheduleData[previousDay].courseWeek}-day-${scheduleData[previousDay].dayNumber}`;
+    previousDay = findPreviousDay(scheduleData, today, coursetype, firstDayOfCourse);
+    console.log('previous day', previousDay);
+    if(scheduleData[previousDay]) {
+      previousDayId = `${coursetype}-week-${scheduleData[previousDay].courseWeek}-day-${scheduleData[previousDay].dayNumber}`;
+    }
   }
 
   // find the next day if current day is not a course day
@@ -146,7 +152,7 @@ function CurrentDaySection({ scheduleData, coursetype, today, firstDayOfCourse }
                     Previous Course Day:
                   </h5>
                   <br></br>
-                  {previousDay && (
+                  {scheduleData[previousDay] && (
                     <GenerateDatetypeSections
                     datetype={scheduleData[previousDay].dateTypes}
                     classType="postClass"
