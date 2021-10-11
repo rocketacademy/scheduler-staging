@@ -25,7 +25,6 @@ function SectionClass({
           if (bootcampData[bootcampDataArray[startDay + index]].dateTypes[section][sectionclass]
               .items) {
             sectionArray[index].forEach((item) => {
-              console.log.log('item', item);
               bootcampData[bootcampDataArray[startDay + index]].dateTypes[section][
                 sectionclass
               ].items.push(item);
