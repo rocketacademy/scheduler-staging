@@ -546,11 +546,11 @@
           "preClass": {
             "items": [
               {
-                "name": "CSS.2.5 Display Inline Block",
+                "name": "CSS.2.5: Display Inline Block",
                 "url": "https://bootcamp.rocketacademy.co/css/css.2-layout/css.2.5-display-inline-block"
               },
               {
-                "name": "CSS.2.6 Layout Col / Card",
+                "name": "CSS.2.6: Layout Col / Card",
                 "url": "https://bootcamp.rocketacademy.co/css/css.2-layout/css.2.6-layout-columns-and-cards"
               }
             ]
@@ -708,7 +708,7 @@
           "inClass": {
             "items": [
               {
-                "name": "1.ICE.CSS.Wikipedia",
+                "name": "1.ICE.CSS.2: Wikipedia",
                 "url": "https://bootcamp.rocketacademy.co/css/1.ice.css-in-class-css-exercises/1.ice.css.2-css-practice-6-wikipedia"
               }
             ]
