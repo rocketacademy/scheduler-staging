@@ -39,7 +39,7 @@ const generateCourseDayHeader = (localDate, courseDate, datetype, output, course
 }
 
 // helper function for generating project start/ due in page content
-const generateNotifications = (status, cpdue, projectdue, projectstart, output) => {
+const generateNotifications = (status, ipdue, projectdue, projectstart, output) => {
     // if projectDue/ projectStart does exist
     if (status) {
         // and if there are items in projectDue/ projectStart
@@ -49,7 +49,7 @@ const generateNotifications = (status, cpdue, projectdue, projectstart, output) 
                 output += `### Project Due\n`;
             } else if (status === projectstart) {
                 output += `### Project Start\n`;
-            } else if (status === cpdue) {
+            } else if (status === ipdue) {
                 output += `### Interview Prep Due\n`;
             }
             // content is added
@@ -121,13 +121,13 @@ const generateDatetypeSections = (dateSections, output, classType) => {
 const generateCourseDayContent = (datetype, output) => {
     const projectdue = datetype.projects.projectDue;
     const projectstart = datetype.projects.projectStart;
-    const cpdue = datetype.cp.cpDue;
+    const ipdue = datetype.ip.ipDue;
 
     // generating project due section from projects
-    output = generateNotifications (projectdue, cpdue, projectdue, projectstart, output); 
+    output = generateNotifications (projectdue, ipdue, projectdue, projectstart, output); 
     
-    // generating cp due section from cp
-    output = generateNotifications (cpdue, cpdue, projectdue, projectstart, output);
+    // generating ip due section from ip
+    output = generateNotifications (ipdue, ipdue, projectdue, projectstart, output);
 
     // generating pre class section of course day's content
     const preClassDateSections = getSectionArray(datetype, 'preClass');
@@ -142,7 +142,7 @@ const generateCourseDayContent = (datetype, output) => {
     output = generateDatetypeSections(postClassDateSections, output, 'postClass');
 
     // generate project start section
-    output = generateNotifications (projectstart, cpdue, projectdue, projectstart, output); 
+    output = generateNotifications (projectstart, ipdue, projectdue, projectstart, output); 
     
     return output;
 }

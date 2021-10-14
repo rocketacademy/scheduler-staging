@@ -23,7 +23,7 @@ function Section({
       sectionType.postClass.items ||
       (sectionType === "projects" &&
         (sectionType.projectDue.items || sectionType.projectStart.items)) ||
-      (sectionType === "cp" && sectionType.cpDue.items)
+      (sectionType === "ip" && sectionType.ipDue.items)
     ) {
       classExists = true;
     }

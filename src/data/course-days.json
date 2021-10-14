@@ -32,8 +32,8 @@
             }
           ]
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": [
             {
               "name": "Try to generate the ADP hard drive, maybe it will index the neural monitor!",
@@ -110,8 +110,8 @@
           ],
           "postClass": []
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": [],
           "inClass": [
             {
@@ -217,8 +217,8 @@
             }
           ]
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": [
             {
               "name": "Try to override the USB system, maybe it will input the cross-platform driver!",
@@ -321,8 +321,8 @@
             }
           ]
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": [
             {
               "name": "We need to calculate the online JSON panel!",
@@ -425,8 +425,8 @@
             }
           ]
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": [
             {
               "name": "programming the microchip won't do anything, we need to compress the bluetooth HTTP alarm!",
@@ -508,8 +508,8 @@
             }
           ]
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": [
             {
               "name": "We need to reboot the bluetooth COM sensor!",
@@ -590,8 +590,8 @@
             }
           ]
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": [
             {
               "name": "Try to back up the EXE feed, maybe it will calculate the multi-byte driver!",
@@ -706,8 +706,8 @@
             }
           ]
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": [
             {
               "name": "Use the auxiliary EXE alarm, then you can override the haptic bandwidth!",
@@ -785,8 +785,8 @@
             }
           ]
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": [
             {
               "name": "I'll synthesize the neural SMTP bandwidth, that should alarm the SMS firewall!",
@@ -897,8 +897,8 @@
             }
           ]
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": [
             {
               "name": "The XML bandwidth is down, back up the redundant sensor so we can navigate the SMTP program!",

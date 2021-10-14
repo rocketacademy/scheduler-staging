@@ -6,22 +6,22 @@ import GenerateDatetypeSections from "./GenerateDatetypeSections";
 const GenerateCourseDayContent = ({ day }) => {
   const projectdue = day.dateTypes.projects.projectDue;
   const projectstart = day.dateTypes.projects.projectStart;
-  const cpdue = day.dateTypes.cp.cpDue;
+  const ipdue = day.dateTypes.ip.ipDue;
 
   return (
     <>
       {/* project due notification  */}
       <GenerateNotifications
         status={projectdue}
-        cpdue={cpdue}
+        ipdue={ipdue}
         projectdue={projectdue}
         projectstart={projectstart}
         day={day}
       />
       {/* career prep due notification  */}
       <GenerateNotifications
-        status={cpdue}
-        cpdue={cpdue}
+        status={ipdue}
+        ipdue={ipdue}
         projectdue={projectdue}
         projectstart={projectstart}
         day={day}
@@ -47,7 +47,7 @@ const GenerateCourseDayContent = ({ day }) => {
       {/* project start notification  */}
       <GenerateNotifications
         status={projectstart}
-        cpdue={cpdue}
+        ipdue={ipdue}
         projectdue={projectdue}
         projectstart={projectstart}
         day={day}

@@ -3,17 +3,8 @@
     "edit": "https://github.com/rocketacademy/scheduler/edit/main/src/data/bootcamp-course-days.json"
   },
   "daysOfWeek": {
-    "fullTime": [
-      1,
-      2,
-      3,
-      4,
-      5
-    ],
-    "partTime": [
-      1,
-      6
-    ]
+    "fullTime": [1, 2, 3, 4, 5],
+    "partTime": [1, 6]
   },
   "courseStartIndex": 0,
   "totalCourseDays": 116,
@@ -45,8 +36,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -57,9 +48,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -151,8 +142,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -163,9 +154,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -235,8 +226,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -247,9 +238,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -320,8 +311,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -332,9 +323,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -404,8 +395,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -416,9 +407,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -485,8 +476,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -497,9 +488,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -558,8 +549,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -570,9 +561,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -635,8 +626,8 @@
           },
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -647,9 +638,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -715,8 +706,8 @@
           },
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -727,9 +718,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -788,8 +779,8 @@
           },
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -800,9 +791,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -865,8 +856,8 @@
           },
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -877,9 +868,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -928,8 +919,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -940,9 +931,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -1037,8 +1028,8 @@
             ]
           }
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -1049,9 +1040,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -1107,8 +1098,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -1119,9 +1110,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -1194,8 +1185,8 @@
             ]
           }
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -1206,9 +1197,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -1286,8 +1277,8 @@
             ]
           }
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -1298,9 +1289,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -1364,8 +1355,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -1376,9 +1367,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -1445,8 +1436,8 @@
             ]
           }
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -1457,9 +1448,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -1519,8 +1510,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -1531,9 +1522,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -1595,8 +1586,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -1607,9 +1598,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -1671,8 +1662,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -1683,9 +1674,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -1751,8 +1742,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -1763,9 +1754,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -1817,8 +1808,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -1829,9 +1820,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -1896,8 +1887,8 @@
           },
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -1908,9 +1899,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -1981,8 +1972,8 @@
           },
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -2004,9 +1995,9 @@
             ]
           }
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -2066,8 +2057,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -2085,9 +2076,9 @@
             ]
           }
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -2147,8 +2138,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -2159,9 +2150,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -2231,8 +2222,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -2243,9 +2234,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -2312,8 +2303,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -2324,9 +2315,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -2393,8 +2384,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -2405,9 +2396,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -2477,8 +2468,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -2489,9 +2480,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -2555,8 +2546,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -2567,9 +2558,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -2632,8 +2623,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -2644,9 +2635,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -2709,8 +2700,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -2721,9 +2712,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -2784,8 +2775,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -2796,9 +2787,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -2850,8 +2841,8 @@
           },
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -2862,9 +2853,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -2909,8 +2900,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -2921,9 +2912,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -2990,8 +2981,8 @@
           },
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -3002,9 +2993,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -3056,8 +3047,8 @@
           },
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -3068,9 +3059,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -3122,8 +3113,8 @@
           },
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -3134,9 +3125,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -3188,8 +3179,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -3200,9 +3191,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -3273,8 +3264,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -3285,9 +3276,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -3365,8 +3356,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -3377,9 +3368,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -3446,8 +3437,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -3458,9 +3449,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -3523,8 +3514,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -3535,9 +3526,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -3589,8 +3580,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -3601,9 +3592,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -3663,8 +3654,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -3675,9 +3666,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -3733,8 +3724,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -3745,9 +3736,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -3803,8 +3794,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -3815,9 +3806,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -3883,8 +3874,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {
             "items": [
               {
@@ -3910,9 +3901,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -3983,8 +3974,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {
             "items": [
               {
@@ -4002,9 +3993,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -4063,8 +4054,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {
             "items": [
               {
@@ -4090,9 +4081,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -4155,8 +4146,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {
             "items": [
               {
@@ -4174,9 +4165,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -4227,8 +4218,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {
             "items": [
@@ -4253,9 +4244,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -4321,8 +4312,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {
             "items": [
@@ -4347,9 +4338,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -4394,8 +4385,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {
             "items": [
               {
@@ -4427,9 +4418,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -4474,8 +4465,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {
             "items": [
@@ -4500,9 +4491,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -4547,8 +4538,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {
             "items": [
               {
@@ -4573,9 +4564,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -4631,8 +4622,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {
             "items": [
               {
@@ -4664,9 +4655,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -4722,8 +4713,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {
             "items": [
@@ -4748,9 +4739,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -4795,8 +4786,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {
             "items": [
               {
@@ -4828,9 +4819,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -4900,8 +4891,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {
             "items": [
@@ -4926,9 +4917,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -4973,8 +4964,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -4985,9 +4976,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -5069,8 +5060,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -5081,9 +5072,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -5161,8 +5152,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {
@@ -5180,9 +5171,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -5245,8 +5236,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {
             "items": [
               {
@@ -5264,9 +5255,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -5329,8 +5320,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {
@@ -5348,9 +5339,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -5426,8 +5417,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {
             "items": [
               {
@@ -5452,9 +5443,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -5506,8 +5497,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -5518,9 +5509,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -5572,8 +5563,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {
             "items": [
               {
@@ -5605,9 +5596,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -5666,8 +5657,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {
             "items": [
               {
@@ -5699,9 +5690,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -5746,8 +5737,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -5758,9 +5749,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -5819,8 +5810,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {
             "items": [
@@ -5845,9 +5836,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -5892,8 +5883,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {
             "items": [
@@ -5918,9 +5909,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -5965,8 +5956,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {
             "items": [
               {
@@ -5991,9 +5982,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -6038,8 +6029,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {
             "items": [
               {
@@ -6071,9 +6062,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -6118,8 +6109,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {
             "items": [
@@ -6144,9 +6135,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -6201,8 +6192,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {
             "items": [
@@ -6227,9 +6218,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -6281,8 +6272,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {
             "items": [
               {
@@ -6307,9 +6298,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -6354,8 +6345,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {
             "items": [
               {
@@ -6387,9 +6378,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -6434,8 +6425,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -6446,9 +6437,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -6516,8 +6507,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {
             "items": [
@@ -6542,9 +6533,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -6611,8 +6602,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -6623,9 +6614,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -6677,8 +6668,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {
             "items": [
@@ -6703,9 +6694,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -6772,8 +6763,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {
             "items": [
@@ -6798,9 +6789,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -6852,8 +6843,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {
             "items": [
               {
@@ -6885,9 +6876,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -6943,8 +6934,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {
             "items": [
@@ -6969,9 +6960,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -7030,8 +7021,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {
             "items": [
@@ -7056,9 +7047,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -7103,8 +7094,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {
             "items": [
               {
@@ -7136,9 +7127,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -7183,8 +7174,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {
@@ -7202,9 +7193,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -7286,8 +7277,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {
             "items": [
               {
@@ -7319,9 +7310,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -7381,8 +7372,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {
             "items": [
@@ -7407,9 +7398,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -7461,8 +7452,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {
             "items": [
@@ -7487,9 +7478,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -7541,8 +7532,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {
             "items": [
@@ -7575,9 +7566,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -7640,8 +7631,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {
             "items": [
               {
@@ -7673,9 +7664,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -7735,8 +7726,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {
             "items": [
@@ -7761,9 +7752,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -7808,8 +7799,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {
             "items": [
@@ -7834,9 +7825,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -7892,8 +7883,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {
             "items": [
@@ -7918,9 +7909,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -7965,8 +7956,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {
             "items": [
@@ -7991,9 +7982,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -8053,8 +8044,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {
             "items": [
@@ -8079,9 +8070,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -8137,8 +8128,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {
             "items": [
@@ -8163,9 +8154,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -8232,8 +8223,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {
@@ -8251,9 +8242,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -8302,8 +8293,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {
             "items": [
@@ -8328,9 +8319,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -8379,8 +8370,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {
             "items": [
@@ -8405,9 +8396,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -8456,8 +8447,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {
@@ -8475,9 +8466,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -8522,8 +8513,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {
             "items": [
@@ -8548,9 +8539,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -8595,8 +8586,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {
             "items": [
@@ -8621,9 +8612,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {
             "items": [
               {
@@ -8701,8 +8692,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {
             "items": [
@@ -8727,9 +8718,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {
@@ -8781,8 +8772,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {
             "items": [
@@ -8807,9 +8798,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {
+        "ip": {
+          "type": "ip",
+          "ipDue": {
             "items": [
               {
                 "name": "Due: Resume 1st Draft",
@@ -8875,8 +8866,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {
             "items": [
@@ -8901,9 +8892,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {
@@ -8955,8 +8946,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {
             "items": [
@@ -8981,9 +8972,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {
+        "ip": {
+          "type": "ip",
+          "ipDue": {
             "items": [
               {
                 "name": "Due: Portfolio",
@@ -9049,8 +9040,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {
             "items": [
@@ -9075,9 +9066,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {
@@ -9129,8 +9120,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {
             "items": [
@@ -9155,9 +9146,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {
+        "ip": {
+          "type": "ip",
+          "ipDue": {
             "items": [
               {
                 "name": "Due: Job List 1st Draft",
@@ -9209,8 +9200,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {
             "items": [
@@ -9235,9 +9226,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -9293,8 +9284,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {
             "items": [
@@ -9319,9 +9310,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -9366,8 +9357,8 @@
           "inClass": {},
           "postClass": {}
         },
-        "dsa": {
-          "type": "dsa",
+        "algos": {
+          "type": "algos",
           "preClass": {},
           "inClass": {
             "items": [
@@ -9392,9 +9383,9 @@
           "inClass": {},
           "postClass": {}
         },
-        "cp": {
-          "type": "cp",
-          "cpDue": {},
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}

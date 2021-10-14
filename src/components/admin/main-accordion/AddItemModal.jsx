@@ -9,7 +9,7 @@ function AddItemModal({
   bootcampdata,
   coursedate,
   setDaysInBatchFile,
-  setDaysInMainFile
+  setDaysInMainFile,
 }) {
   // input fields for a entry of a new item into the main data file
   const [title, setTitle] = useState("");
@@ -38,7 +38,7 @@ function AddItemModal({
     );
 
     // the new content is saved in state
-     bootcampdata.constructor === Array
+    bootcampdata.constructor === Array
       ? setDaysInMainFile([...bootcampdata])
       : setDaysInBatchFile({ ...bootcampdata });
   };
@@ -88,8 +88,8 @@ function AddItemModal({
             <option value="css">css</option>
             <option value="ux">ux</option>
             <option value="projects">projects</option>
-            <option value="cp">cp</option>
-            <option value="dsa">dsa</option>
+            <option value="ip">ip</option>
+            <option value="algos">algorithms</option>
           </Form.Select>
 
           <Form.Label>Class </Form.Label>
@@ -108,7 +108,7 @@ function AddItemModal({
                 <option value="projectStart">projectStart</option>
               </>
             )}
-            {section === "cp" && <option value="cpDue">cpDue</option>}
+            {section === "ip" && <option value="ipDue">ipDue</option>}
           </Form.Select>
           <Button
             variant="primary"

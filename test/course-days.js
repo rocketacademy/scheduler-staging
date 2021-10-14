@@ -56,13 +56,13 @@ for( let i=0; i<60; i++){
 
   if( i<10 ){
 
-    const dateObjDsa = {
-      type: 'dsa',
+    const dateObjAlgos = {
+      type: 'algos',
       preClass:createLinkList(),
       inClass:createLinkList(1),
       postClass:createLinkList()
     }
-    dateObj.dateTypes['dsa'] = dateObjDsa;
+    dateObj.dateTypes['algos'] = dateObjAlgos;
 
     const dateObjUx = {
       type: 'ux',

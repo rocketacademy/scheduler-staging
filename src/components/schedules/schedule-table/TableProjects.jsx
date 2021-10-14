@@ -5,18 +5,18 @@ import GenerateNotifications from '../GenerateNotifications';
 function TableProjects({ day }) {
     const projectdue = day.dateTypes.projects.projectDue;
     const projectstart = day.dateTypes.projects.projectStart;
-    const cpdue = day.dateTypes.cp.cpDue;
+    const ipdue = day.dateTypes.ip.ipDue;
 
     return (
         <div className="table-projects">
             <GenerateNotifications status={projectdue} 
-                               cpdue={cpdue} 
+                               ipdue={ipdue} 
                                projectdue={projectdue} 
                                projectstart={projectstart} 
                                day={day}
                                />
             <GenerateNotifications status={projectstart} 
-                               cpdue={cpdue} 
+                               ipdue={ipdue} 
                                projectdue={projectdue} 
                                projectstart={projectstart} 
                                day={day}
