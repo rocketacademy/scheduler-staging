@@ -3,8 +3,17 @@
     "edit": "https://github.com/rocketacademy/scheduler/edit/main/src/data/bootcamp-course-days.json"
   },
   "daysOfWeek": {
-    "fullTime": [1, 2, 3, 4, 5],
-    "partTime": [1, 6]
+    "fullTime": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "partTime": [
+      1,
+      6
+    ]
   },
   "courseStartIndex": 0,
   "totalCourseDays": 116,
@@ -846,14 +855,7 @@
               }
             ]
           },
-          "inClass": {
-            "items": [
-              {
-                "name": "1.ICE.CSS.5: Trombone Product Page",
-                "url": "https://bootcamp.rocketacademy.co/css/1.ice.css-in-class-css-exercises/1.ice.css.5-trombones"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {}
         },
         "algos": {
