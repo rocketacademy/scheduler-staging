@@ -160,7 +160,11 @@ function ClassItem({
       if (sectionType[classType].items.length === 0) {
         delete sectionType[classType].items;
       }
-      setBootcampData([...bootcampData]);
+      // depending on whether the main (array) or individual (object) schedule files were updated, new version of data file is saved
+      bootcampData.constructor === Array
+        ? setDaysInMainFile([...bootcampData])
+        : setDaysInBatchFile({...bootcampData})
+
     }
   };
 
