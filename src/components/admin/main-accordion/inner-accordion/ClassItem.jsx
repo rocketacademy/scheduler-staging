@@ -35,7 +35,6 @@ const shiftOneDay = (
   setDaysInBatchFile
   ) => {
 
-    console.log('inside shift function');
       let bootcampDataArray;
       let target; 
        if(bootcampData.constructor === Object) {
@@ -45,23 +44,19 @@ const shiftOneDay = (
             holidayDates.push(date);
           })
          })
-         console.log('holidya dates========', holidayDates);
          bootcampDataArray = Object.keys(bootcampData);
 
-         console.log('bootcamp data array', bootcampDataArray);
          if(direction === 'up') {
            target = bootcampData[bootcampDataArray[dayIndex - 1]].courseDate;
            if (holidayDates.includes(target)) {
             target = bootcampData[bootcampDataArray[(dayIndex - 1) -1]].courseDate;
            }         
-          console.log('target', target);
           
          } else {
            target = bootcampData[bootcampDataArray[dayIndex + 1]].courseDate;
            if (holidayDates.includes(target)) {
             target = bootcampData[bootcampDataArray[(dayIndex + 1) +1]].courseDate;
            }
-           console.log('target', target);
            
          }
       } else {
