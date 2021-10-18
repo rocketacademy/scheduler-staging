@@ -4,6 +4,7 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import DeleteOutlinedIcon from '@material-ui/icons/DeleteOutlined';
 import ShiftItemModal from "./ShiftItemModal";
 import DragIndicatorIcon from '@material-ui/icons/DragIndicator';
+import holidayData from '../../../../data/2021-sg-stat-holidays.json';
 
 // helper functions that populates dateArray
 // ##########################################################
@@ -33,16 +34,33 @@ const shiftOneDay = (
   setDaysInMainFile,
   setDaysInBatchFile
   ) => {
+
     console.log('inside shift function');
       let bootcampDataArray;
       let target; 
        if(bootcampData.constructor === Object) {
+         const holidayDates = [];
+         Object.keys(holidayData).forEach((type) => {
+          Object.keys(holidayData[type]).forEach((date) => {
+            holidayDates.push(date);
+          })
+         })
+         console.log('holidya dates========', holidayDates);
          bootcampDataArray = Object.keys(bootcampData);
+
          console.log('bootcamp data array', bootcampDataArray);
          if(direction === 'up') {
            target = bootcampData[bootcampDataArray[dayIndex - 1]].courseDate;
+           if (holidayDates.includes(target)) {
+            target = bootcampData[bootcampDataArray[(dayIndex - 1) -1]].courseDate;
+           }         
+          console.log('target', target);
+          
          } else {
            target = bootcampData[bootcampDataArray[dayIndex + 1]].courseDate;
+           if (holidayDates.includes(target)) {
+            target = bootcampData[bootcampDataArray[(dayIndex + 1) +1]].courseDate;
+           }
            console.log('target', target);
            
          }
