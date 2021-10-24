@@ -1,5 +1,11 @@
 {
-  "daysOfWeek": [1, 2, 3, 4, 5],
+  "daysOfWeek": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
   "courseStartIndex": 4,
   "totalCourseDays": 117,
   "courseType": "Bootcamp FT",
@@ -6879,14 +6885,7 @@
           "type": "algos",
           "preClass": {},
           "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "D.11.1: Recursive Backtracking - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.11-notable-patterns/d.11.1-recursive-backtracking#part-1"
-              }
-            ]
-          }
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
@@ -6948,6 +6947,63 @@
         "module": "Module 8: Advanced React",
         "general": {
           "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 4 Presentation",
+                "url": ""
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    "08-11-2021": {
+      "courseDate": "08-11-2021",
+      "courseWeek": 19,
+      "weekDay": 1,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2021-11-08T05:00:00.000Z",
+      "courseDay": 83,
+      "dateTypes": {
+        "module": "Module 8: Advanced React",
+        "general": {
+          "type": "general",
           "preClass": {
             "items": [
               {
@@ -6998,84 +7054,6 @@
               }
             ]
           },
-          "postClass": {}
-        },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "ip": {
-          "type": "ip",
-          "ipDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "projects": {
-          "type": "projects",
-          "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Due: Project 4 Video Demo",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#video-demo"
-              }
-            ]
-          },
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        }
-      }
-    },
-    "08-11-2021": {
-      "courseDate": "08-11-2021",
-      "courseWeek": 19,
-      "weekDay": 1,
-      "dayNumber": 1,
-      "meetingDateTimeUTC": "2021-11-08T05:00:00.000Z",
-      "courseDay": 83,
-      "dateTypes": {
-        "module": "Module 8: Advanced React",
-        "general": {
-          "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "8.3.4: React E-Commerce App with Store",
-                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.2-usecontext/8.3.4-react-e-commerce-app-with-store"
-              }
-            ]
-          },
-          "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "8.POCE.1: Car Rental",
-                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.poce-post-class-exercises/8.poce.1-car-rental"
-              }
-            ]
-          }
-        },
-        "css": {
-          "type": "css",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "algos": {
-          "type": "algos",
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "D.5.7: Graphs - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.7-graphs#part-1"
-              }
-            ]
-          },
           "postClass": {
             "items": [
               {
@@ -7108,7 +7086,14 @@
               }
             ]
           },
-          "projectDue": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Due: Project 4 Video Demo",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#video-demo"
+              }
+            ]
+          },
           "preClass": {},
           "inClass": {},
           "postClass": {
@@ -7136,16 +7121,8 @@
           "preClass": {
             "items": [
               {
-                "name": "8.4: React Router",
-                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.4-react-router"
-              },
-              {
-                "name": "8.4.1: React Router Shopping",
-                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.4-react-router/8.4.1-react-router-shopping"
-              },
-              {
-                "name": "8.4.2: React Router Deep Linking",
-                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.4-react-router/8.4.2-react-router-deep-linking"
+                "name": "8.3.4: React E-Commerce App with Store",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.2-usecontext/8.3.4-react-e-commerce-app-with-store"
               }
             ]
           },
@@ -7178,8 +7155,8 @@
           "inClass": {
             "items": [
               {
-                "name": "D.5.7: Graphs - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.7-graphs#part-2"
+                "name": "D.5.7: Graphs - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.7-graphs#part-1"
               }
             ]
           },
@@ -7236,8 +7213,16 @@
           "preClass": {
             "items": [
               {
-                "name": "8.5: Advanced useEffect",
-                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.5-advanced-useeffect"
+                "name": "8.4: React Router",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.4-react-router"
+              },
+              {
+                "name": "8.4.1: React Router Shopping",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.4-react-router/8.4.1-react-router-shopping"
+              },
+              {
+                "name": "8.4.2: React Router Deep Linking",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.4-react-router/8.4.2-react-router-deep-linking"
               }
             ]
           },
@@ -7245,8 +7230,8 @@
           "postClass": {
             "items": [
               {
-                "name": "8.POCE.2: (Group Project) Climbing Trip",
-                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.poce-post-class-exercises/8.poce.2-rock-climbing-trip-planner"
+                "name": "8.POCE.1: Car Rental",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.poce-post-class-exercises/8.poce.1-car-rental"
               }
             ]
           }
@@ -7263,8 +7248,8 @@
           "inClass": {
             "items": [
               {
-                "name": "D.5.8: Heaps - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.4-queues#part-1"
+                "name": "D.5.7: Graphs - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.7-graphs#part-2"
               }
             ]
           },
@@ -7321,12 +7306,8 @@
           "preClass": {
             "items": [
               {
-                "name": "8.6: Styled Components",
-                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.6-styled-components"
-              },
-              {
-                "name": "8.7: React Portals",
-                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.7-react-portals"
+                "name": "8.5: Advanced useEffect",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.5-advanced-useeffect"
               }
             ]
           },
@@ -7359,8 +7340,8 @@
           "inClass": {
             "items": [
               {
-                "name": "D.5.8: Heaps - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.8-heaps#part-2"
+                "name": "D.5.8: Heaps - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.4-queues#part-1"
               }
             ]
           },
@@ -7424,8 +7405,12 @@
           "preClass": {
             "items": [
               {
-                "name": "8.8: React NPM Packages",
-                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.8-react-npm-packages"
+                "name": "8.6: Styled Components",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.6-styled-components"
+              },
+              {
+                "name": "8.7: React Portals",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.7-react-portals"
               }
             ]
           },
@@ -7448,7 +7433,14 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "D.5.8: Heaps - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.5-data-structures/d.5.8-heaps#part-2"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
@@ -7499,7 +7491,14 @@
         "module": "Module 8: Advanced React",
         "general": {
           "type": "general",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "8.8: React NPM Packages",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.8-react-npm-packages"
+              }
+            ]
+          },
           "inClass": {},
           "postClass": {
             "items": [
@@ -7519,14 +7518,7 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "D.9: Dynamic Programming - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#part-1"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -7578,15 +7570,15 @@
         "general": {
           "type": "general",
           "preClass": {},
-          "inClass": {
+          "inClass": {},
+          "postClass": {
             "items": [
               {
-                "name": "8.POCE.2: Climbing Trip Redux",
+                "name": "8.POCE.2: (Group Project) Climbing Trip",
                 "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.poce-post-class-exercises/8.poce.2-rock-climbing-trip-planner"
               }
             ]
-          },
-          "postClass": {}
+          }
         },
         "css": {
           "type": "css",
@@ -7600,8 +7592,8 @@
           "inClass": {
             "items": [
               {
-                "name": "D.9: Dynamic Programming - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#part-2"
+                "name": "D.9: Dynamic Programming - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#part-1"
               }
             ]
           },
@@ -7669,35 +7661,12 @@
         "module": "Module 8: Advanced React",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "9.0: Module 9 Overview",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.0-module-9-overview"
-              },
-              {
-                "name": "9.1: Testing",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.1-testing"
-              },
-              {
-                "name": "9.1.1: Unit Testing",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.1-testing/9.1.1-unit-testing"
-              },
-              {
-                "name": "9.1.2: TDD",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.1-testing/9.1.2-tdd"
-              },
-              {
-                "name": "9.1.3: CI",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.1-testing/9.1.3-ci"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {
             "items": [
               {
-                "name": "9.ICE.1: Unit Testing",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.ice-in-class-exercises/9.ice.1-unit-testing"
+                "name": "8.POCE.2: Climbing Trip Redux",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.poce-post-class-exercises/8.poce.2-rock-climbing-trip-planner"
               }
             ]
           },
@@ -7722,8 +7691,8 @@
           "inClass": {
             "items": [
               {
-                "name": "D.9: Dynamic Programming - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#part-3"
+                "name": "D.9: Dynamic Programming - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#part-2"
               }
             ]
           },
@@ -7787,20 +7756,35 @@
           "preClass": {
             "items": [
               {
-                "name": "9.2.1: XSS",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.2-security/9.2.1-xss"
+                "name": "9.0: Module 9 Overview",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.0-module-9-overview"
               },
               {
-                "name": "9.2.2: CSRF",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.2-security/9.2.2-csrf"
+                "name": "9.1: Testing",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.1-testing"
               },
               {
-                "name": "9.2.3: SQL Injection",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.2-security/9.2.3-sql-injection"
+                "name": "9.1.1: Unit Testing",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.1-testing/9.1.1-unit-testing"
+              },
+              {
+                "name": "9.1.2: TDD",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.1-testing/9.1.2-tdd"
+              },
+              {
+                "name": "9.1.3: CI",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.1-testing/9.1.3-ci"
               }
             ]
           },
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "9.ICE.1: Unit Testing",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.ice-in-class-exercises/9.ice.1-unit-testing"
+              }
+            ]
+          },
           "postClass": {}
         },
         "css": {
@@ -7815,12 +7799,8 @@
           "inClass": {
             "items": [
               {
-                "name": "DS&A Open Practice",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
-              },
-              {
-                "name": "D.10: Bit Manipulation - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.10-bit-manipulation#part-1"
+                "name": "D.9: Dynamic Programming - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.9-dynamic-programming#part-3"
               }
             ]
           },
@@ -7884,8 +7864,16 @@
           "preClass": {
             "items": [
               {
-                "name": "9.3: Django",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.3-django"
+                "name": "9.2.1: XSS",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.2-security/9.2.1-xss"
+              },
+              {
+                "name": "9.2.2: CSRF",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.2-security/9.2.2-csrf"
+              },
+              {
+                "name": "9.2.3: SQL Injection",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.2-security/9.2.3-sql-injection"
               }
             ]
           },
@@ -7906,6 +7894,10 @@
               {
                 "name": "DS&A Open Practice",
                 "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              },
+              {
+                "name": "D.10: Bit Manipulation - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.10-bit-manipulation#part-1"
               }
             ]
           },
@@ -7969,8 +7961,8 @@
           "preClass": {
             "items": [
               {
-                "name": "9.3.1: Django User Login",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.3-django/9.3.1-django-user-login"
+                "name": "9.3: Django",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.3-django"
               }
             ]
           },
@@ -8069,8 +8061,8 @@
           "preClass": {
             "items": [
               {
-                "name": "9.4: React Native",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.4-react-native"
+                "name": "9.3.1: Django User Login",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.3-django/9.3.1-django-user-login"
               }
             ]
           },
@@ -8154,16 +8146,8 @@
           "preClass": {
             "items": [
               {
-                "name": "9.5.2: ML - Naive Bayes Classifier Python",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.5-ml-bayes-theorem/9.5.2-ml-naive-bayes-classifier-python"
-              },
-              {
-                "name": "9.5.1: ML - Naive Bayes Classifier JS",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.5-ml-bayes-theorem/9.5.1-ml-naive-bayes-classifier-javascript"
-              },
-              {
-                "name": "9.5: ML - Naive Bayes Theorem",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.5-ml-bayes-theorem"
+                "name": "9.4: React Native",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.4-react-native"
               }
             ]
           },
@@ -8244,7 +8228,22 @@
         "module": "Module 8: Advanced React",
         "general": {
           "type": "general",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "9.5.2: ML - Naive Bayes Classifier Python",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.5-ml-bayes-theorem/9.5.2-ml-naive-bayes-classifier-python"
+              },
+              {
+                "name": "9.5.1: ML - Naive Bayes Classifier JS",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.5-ml-bayes-theorem/9.5.1-ml-naive-bayes-classifier-javascript"
+              },
+              {
+                "name": "9.5: ML - Naive Bayes Theorem",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.5-ml-bayes-theorem"
+              }
+            ]
+          },
           "inClass": {},
           "postClass": {}
         },
@@ -8517,7 +8516,14 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
@@ -8599,14 +8605,7 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "DS&A Open Practice",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -8781,7 +8780,14 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
@@ -8856,14 +8862,7 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "DS&A Open Practice",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -9577,7 +9576,7 @@
             "items": [
               {
                 "name": "DS&A Open Practice",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.13-open-practice"
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
               }
             ]
           },
@@ -9747,7 +9746,7 @@
             "items": [
               {
                 "name": "DS&A Open Practice",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.13-open-practice"
               }
             ]
           },
@@ -9825,7 +9824,7 @@
             "items": [
               {
                 "name": "DS&A Open Practice",
-                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.13-open-practice"
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.12-open-practice"
               }
             ]
           },
@@ -9899,7 +9898,14 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "DS&A Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/data-structures-and-algorithms/d.13-open-practice"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
