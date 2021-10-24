@@ -1596,7 +1596,14 @@
         "css": {
           "type": "css",
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "1.POCE.10: Bootstrap Adobe",
+                "url": "https://bootcamp.rocketacademy.co/css/1.poce.css-post-class-css-exercises/1.poce.css.4-bootstrap-adobe"
+              }
+            ]
+          },
           "postClass": {}
         },
         "algos": {
