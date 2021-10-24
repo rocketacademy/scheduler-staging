@@ -3,6 +3,13 @@ import GenerateNotifications from '../GenerateNotifications';
 
 // renders projects section of table
 function TableProjects({ day }) {
+    // this may be a holiday without a projects key
+    if( day.dateTypes.projects === undefined ){
+      return (
+          <div className="table-projects">
+          </div>
+      )
+    }
     const projectdue = day.dateTypes.projects.projectDue;
     const projectstart = day.dateTypes.projects.projectStart;
     const ipdue = day.dateTypes.ip.ipDue;
