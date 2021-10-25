@@ -46,6 +46,8 @@ const GenerateDataShiftContent = ({
 
   // function that handles download of individual batch data file after edits
   const handleBatchDownloadClick = () => {
+    console.log('bootcamp data', bootcampData)
+    console.log('batch file', batchFile);
     download(
       batchFile,
       `modified-${batchFile.courseName}-file.json`
@@ -60,6 +62,7 @@ const GenerateDataShiftContent = ({
 
   // copys json data file to clipboard
   const handleEditInGithub = (data) => {
+    console.log('data', data);
     copyToClipboard(data);
 
     let gitbookUrl;

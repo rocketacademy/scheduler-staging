@@ -13,6 +13,7 @@ const DataShift = ({
   setDaysInMainFile
  }) => {
  
+  console.log('batch file', batchFile);
   return (
     <>
       <div className="datashift-container">
@@ -30,6 +31,7 @@ const DataShift = ({
             <DatePicker
               bootcampData={bootcampData}
               setBootcampData={setBootcampData}
+              setBatchFile={setBatchFile}
             />
             {/* this component allows the user to edit the schedule rendered */}
             <GenerateDataShiftContent

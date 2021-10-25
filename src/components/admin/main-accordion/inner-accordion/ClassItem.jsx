@@ -56,6 +56,7 @@ const shiftOneDay = (
            target = bootcampData[bootcampDataArray[dayIndex + 1]].courseDate;
            if (holidayDates.includes(target)) {
             target = bootcampData[bootcampDataArray[(dayIndex + 1) +1]].courseDate;
+            console.log('target', target);
            }
            
          }
@@ -66,6 +67,7 @@ const shiftOneDay = (
           target = dayIndex + 1
         }
       }
+      console.log('class type', classType);
       // finding the selected item in the data file
       let selectedItem = sectionType[classType].items[classIndex];
       // removing it from it's original position
@@ -77,7 +79,7 @@ const shiftOneDay = (
       }
       // this is where we want to move the item to
       const targetDay = bootcampData[target].dateTypes[section];
-
+      console.log('target day', targetDay);
       // checking to see if items array exists at destination, if not, an empty array called items is added
       if (!targetDay[classType].items) {
         targetDay[classType].items = [];
