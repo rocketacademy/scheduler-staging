@@ -13,7 +13,6 @@ const DataShift = ({
   setDaysInMainFile
  }) => {
  
-  console.log('batch file', batchFile);
   return (
     <>
       <div className="datashift-container">

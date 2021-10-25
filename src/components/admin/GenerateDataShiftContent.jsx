@@ -60,7 +60,6 @@ const GenerateDataShiftContent = ({
 
   // copys json data file to clipboard
   const handleEditInGithub = (data) => {
-    console.log('data', data);
     copyToClipboard(data);
 
     let gitbookUrl;
