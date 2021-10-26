@@ -77,7 +77,6 @@ const shiftOneDay = (
       }
       // this is where we want to move the item to
       const targetDay = bootcampData[target].dateTypes[section];
-
       // checking to see if items array exists at destination, if not, an empty array called items is added
       if (!targetDay[classType].items) {
         targetDay[classType].items = [];

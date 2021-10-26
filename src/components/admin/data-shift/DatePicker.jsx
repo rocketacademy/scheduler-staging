@@ -7,6 +7,7 @@ import generateBasicsMarkdown from "../../../generateBasicsMarkdown.js";
 
 const DatePicker = ({ 
   setBootcampData, 
+  setBatchFile
  }) => {
     // inputs from user used to generate course data
   const [startDate, setStartDate] = useState("");
@@ -24,7 +25,9 @@ const DatePicker = ({
   // function that generates and renders schedule data when button is clicked
   const handleRender = () => {
     const data = generateDataObject(startDate, courseName, courseType, null, null);
+    console.log('batch 4 data', data);
     setBootcampData(JSON.parse(JSON.stringify(data.days)));
+    setBatchFile(JSON.parse(JSON.stringify(data)))
   };
 
   const addToGitHubRepo = () => {

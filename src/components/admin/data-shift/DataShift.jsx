@@ -30,6 +30,7 @@ const DataShift = ({
             <DatePicker
               bootcampData={bootcampData}
               setBootcampData={setBootcampData}
+              setBatchFile={setBatchFile}
             />
             {/* this component allows the user to edit the schedule rendered */}
             <GenerateDataShiftContent
