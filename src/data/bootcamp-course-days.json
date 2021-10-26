@@ -3,17 +3,8 @@
     "edit": "https://github.com/rocketacademy/scheduler/edit/main/src/data/bootcamp-course-days.json"
   },
   "daysOfWeek": {
-    "fullTime": [
-      1,
-      2,
-      3,
-      4,
-      5
-    ],
-    "partTime": [
-      1,
-      6
-    ]
+    "fullTime": [1, 2, 3, 4, 5],
+    "partTime": [1, 6]
   },
   "courseStartIndex": 0,
   "totalCourseDays": 116,
@@ -1645,6 +1636,10 @@
               {
                 "name": "3.2: EJS",
                 "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.2-ejs"
+              },
+              {
+                "name": "3.2.1: EJS Loops",
+                "url": "https://bootcamp.rocketacademy.co/3-3-backend-applications/3.2-ejs/3.2.1-ejs-loops"
               }
             ]
           },
