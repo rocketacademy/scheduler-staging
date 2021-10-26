@@ -1742,6 +1742,10 @@
               {
                 "name": "3.2: EJS",
                 "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.2-ejs"
+              },
+              {
+                "name": "3.2.1: EJS Loops",
+                "url": "https://bootcamp.rocketacademy.co/3-3-backend-applications/3.2-ejs/3.2.1-ejs-loops"
               }
             ]
           },
