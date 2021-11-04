@@ -31,7 +31,7 @@ const findPreviousDay = (scheduleData, today, coursetype, firstDayOfCourse) => {
   }
 
   if (scheduleData[dayBefore] && scheduleData[dayBefore].dateTypes.holidayType) {
-    dayBefore = findPreviousDay(scheduleData, dayBefore, coursetype);
+    dayBefore = DateTime.fromFormat(dayBefore, 'dd-MM-yyyy').minus({ days: 2 }).toFormat('dd-MM-yyyy');
   }
 
   return dayBefore;
@@ -40,7 +40,8 @@ const findPreviousDay = (scheduleData, today, coursetype, firstDayOfCourse) => {
 //helper function that finds next course day
 const findNextDay = (scheduleData, today, coursetype, firstDayOfCourse) => {
   let nextDay;
-
+  console.log('today', DateTime.now())
+  console.log(DateTime.now() >= firstDayOfCourse);
   if (coursetype === "ft" && DateTime.now() >= firstDayOfCourse) {
     if (today.weekday === 6) {
       nextDay = today.plus({ days: 2 }).toFormat("dd-MM-yyyy");
@@ -58,11 +59,14 @@ const findNextDay = (scheduleData, today, coursetype, firstDayOfCourse) => {
       nextDay = today.plus({ days: 1 }).toFormat("dd-MM-yyyy");
     }
   } else {
-    nextDay = today.toFormat('dd-MM-yyyy');
+    nextDay = today;
   }
 
   if (scheduleData[nextDay] && scheduleData[nextDay].dateTypes.holidayType) {
-    nextDay = findNextDay(scheduleData, nextDay, coursetype);
+    console.log('holiday if ran');
+    nextDay = DateTime.fromFormat(nextDay, 'dd-MM-yyyy').plus({ days: 1 }).toFormat('dd-MM-yyyy');
+    // console.log('next day', nextDay);
+    // nextDay = findNextDay(scheduleData, nextDay, coursetype, firstDayOfCourse);
   }
 
   return nextDay;
@@ -70,6 +74,7 @@ const findNextDay = (scheduleData, today, coursetype, firstDayOfCourse) => {
 // ##############################################################################
 
 function CurrentDaySection({ scheduleData, coursetype, today, firstDayOfCourse }) {
+
   // indicates whether or not courseweek and course day is shown on the courseday header
   const todaySectionHeader = true;
   let previousDay = null;
@@ -84,10 +89,13 @@ function CurrentDaySection({ scheduleData, coursetype, today, firstDayOfCourse }
   }
 
   // find the next day if current day is not a course day
+  
   nextDay = findNextDay(scheduleData, today, coursetype, firstDayOfCourse);
 
   // creating ids for scrollTo function for top section
+ 
   const currentDayId = `${coursetype}-week-${scheduleData[nextDay].courseWeek}-day-${scheduleData[nextDay].dayNumber}`;
+  
 
   return (
     <div>
