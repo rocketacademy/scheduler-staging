@@ -1,5 +1,8 @@
 {
-  "daysOfWeek": [1, 6],
+  "daysOfWeek": [
+    1,
+    6
+  ],
   "courseStartIndex": 0,
   "totalCourseDays": 116,
   "courseType": "Bootcamp PT",
@@ -1973,10 +1976,6 @@
               {
                 "name": "Scrum",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              },
-              {
-                "name": "1.ICE.7: CSS Practice 1 - MyTunes",
-                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.ice-in-class-exercises/1.ice.7-css-practice-1-mytunes"
               }
             ]
           },
@@ -1997,6 +1996,10 @@
               {
                 "name": "1.ICE.CSS.4: MyTunes",
                 "url": "https://bootcamp.rocketacademy.co/css/1.ice.css-in-class-css-exercises/1.ice.css.3-mytunes"
+              },
+              {
+                "name": "1.ICE.CSS.5: Restaurant",
+                "url": "https://bootcamp.rocketacademy.co/css/1.ice.css-in-class-css-exercises/1.ice.css.5-restaurant"
               }
             ]
           },
