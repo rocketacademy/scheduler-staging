@@ -141,7 +141,7 @@ const generateCourseData = (output, data) => {
             // getting the date/time from utc string, timezone is manually set
             localDate = DateTime.fromISO(data.days[dates[i]].meetingDateTimeUTC, { zone: timeZoneSet });
             const formattedDate = localDate.toFormat('EEE d MMM');
-            output += `# ${formattedDate}, Week ${data.days[dates[i]].courseWeek}, Course Day ${data.days[dates[i]].courseDay}{#course-day-${data.days[dates[i]].courseDay}}:`;
+            output += `# ${formattedDate}, Week ${data.days[dates[i]].courseWeek}, Course Day ${data.days[dates[i]].courseDay}<a href="course-day-${data.days[dates[i]].courseDay}" id="course-day-${data.days[dates[i]].courseDay}"></a>:`;
             // adding title to heading
             output += ` ${data.days[dates[i]].dateTypes.title}\n`;
             // getting meeting time
