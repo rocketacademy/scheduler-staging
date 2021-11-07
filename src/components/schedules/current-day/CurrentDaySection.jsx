@@ -40,8 +40,7 @@ const findPreviousDay = (scheduleData, today, coursetype, firstDayOfCourse) => {
 //helper function that finds next course day
 const findNextDay = (scheduleData, today, coursetype, firstDayOfCourse) => {
   let nextDay;
-  console.log('today', DateTime.now())
-  console.log(DateTime.now() >= firstDayOfCourse);
+
   if (coursetype === "ft" && DateTime.now() >= firstDayOfCourse) {
     if (today.weekday === 6) {
       nextDay = today.plus({ days: 2 }).toFormat("dd-MM-yyyy");
@@ -58,12 +57,9 @@ const findNextDay = (scheduleData, today, coursetype, firstDayOfCourse) => {
     } else {
       nextDay = today.plus({ days: 1 }).toFormat("dd-MM-yyyy");
     }
-  } else {
-    nextDay = today;
   }
 
   if (scheduleData[nextDay] && scheduleData[nextDay].dateTypes.holidayType) {
-    console.log('holiday if ran');
     nextDay = DateTime.fromFormat(nextDay, 'dd-MM-yyyy').plus({ days: 1 }).toFormat('dd-MM-yyyy');
     // console.log('next day', nextDay);
     // nextDay = findNextDay(scheduleData, nextDay, coursetype, firstDayOfCourse);
@@ -80,22 +76,23 @@ function CurrentDaySection({ scheduleData, coursetype, today, firstDayOfCourse }
   let previousDay = null;
   let nextDay;
   let previousDayId;
+  let currentDayId; 
+
   // finds previous course day, only applicable if course has already started
   if (DateTime.now() > firstDayOfCourse) {
     previousDay = findPreviousDay(scheduleData, today, coursetype, firstDayOfCourse);
+    nextDay = findNextDay(scheduleData, today, coursetype, firstDayOfCourse);
+
     if(scheduleData[previousDay]) {
       previousDayId = `${coursetype}-week-${scheduleData[previousDay].courseWeek}-day-${scheduleData[previousDay].dayNumber}`;
     }
+
+    if(scheduleData[nextDay]) {
+      currentDayId = `${coursetype}-week-${scheduleData[nextDay].courseWeek}-day-${scheduleData[nextDay].dayNumber}`;
+    }
+  } else {
+    nextDay = firstDayOfCourse.toFormat('dd-MM-yyyy');
   }
-
-  // find the next day if current day is not a course day
-  
-  nextDay = findNextDay(scheduleData, today, coursetype, firstDayOfCourse);
-
-  // creating ids for scrollTo function for top section
- 
-  const currentDayId = `${coursetype}-week-${scheduleData[nextDay].courseWeek}-day-${scheduleData[nextDay].dayNumber}`;
-  
 
   return (
     <div>

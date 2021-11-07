@@ -4,7 +4,6 @@ import GenerateDatetypeSections from "./GenerateDatetypeSections";
 
 // generates the content and section headings for each course day
 const GenerateCourseDayContent = ({ day }) => {
-  console.log('day number', day.dateTypes.projects);
   let projectdue;
   let projectstart;
   let ipdue;

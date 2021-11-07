@@ -88,8 +88,7 @@ function CourseWeeks({ scheduleData, coursetype, firstDayOfCourse }) {
           const navId = `${index + 1}`;
           const id = `${coursetype}-week-${week}-day-1`;
           const sidebarId = `${coursetype}-sidebar-week-${week}`;
-          console.log('week', week);
-          console.log('week number', weekNumber);
+      
           return (
             <Nav.Item>
               <Nav.Link
