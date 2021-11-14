@@ -18,12 +18,12 @@ const findPreviousDay = (scheduleData, today, coursetype, firstDayOfCourse) => {
       dayBefore = today.plus({ days: -1 }).toFormat('dd-MM-yyyy');
     }
   } else if (coursetype === "pt" && DateTime.now() > firstDayOfCourse) {
-    if (today.weekday === 1) {
+    if (today.weekday === 2) {
       dayBefore = today
         .plus({ weeks: -1 })
         .set({ weekday: 6 })
         .toFormat("dd-MM-yyyy");
-    } else if (today.weekday > 1 && today.weekday <= 6) {
+    } else if (today.weekday > 2 && today.weekday <= 6) {
       dayBefore = today.set({ weekday: 1 }).toFormat("dd-MM-yyyy");
     } else {
       dayBefore = today.set({ weekday: 6 }).toFormat("dd-MM-yyyy");
@@ -50,9 +50,9 @@ const findNextDay = (scheduleData, today, coursetype, firstDayOfCourse) => {
       nextDay = today.toFormat("dd-MM-yyyy");
     }
   } else if (coursetype === "pt" && DateTime.now() >= firstDayOfCourse) {
-    if (today.weekday === 1) {
+    if (today.weekday === 2) {
       nextDay = today.toFormat('dd-MM-yyyy');
-    } else if (today.weekday > 1 && today.weekday <= 6) {
+    } else if (today.weekday > 2 && today.weekday <= 6) {
       nextDay = today.set({ weekday: 6 }).toFormat("dd-MM-yyyy");
     } else {
       nextDay = today.plus({ days: 1 }).toFormat("dd-MM-yyyy");
