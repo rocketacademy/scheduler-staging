@@ -7791,8 +7791,8 @@
           "preClass": {
             "items": [
               {
-                "name": "A.5.7: Graphs - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.5-data-structures/a.5.7-graphs"
+                "name": "Graphs - Part 1 - Traversal - DFS & BFS",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.5-data-structures/a.5.7-graphs#traversal-algorithms"
               }
             ]
           },
@@ -7874,7 +7874,14 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Graphs - Part 2 - Path Finding ",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.5-data-structures/a.5.7-graphs#graph-problems"
+              }
+            ]
+          },
           "postClass": {}
         },
         "ux": {
@@ -7941,19 +7948,12 @@
           "inClass": {
             "items": [
               {
-                "name": "A.5.7: Graphs - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.5-data-structures/a.5.7-graphs#part-2"
+                "name": "Graphs - Part 3 - Shortest Path",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.5-data-structures/a.5.7-graphs#graph-problems"
               }
             ]
           },
-          "postClass": {
-            "items": [
-              {
-                "name": "A.5.7: Graphs - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.5-data-structures/a.5.7-graphs#part-2"
-              }
-            ]
-          }
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
@@ -8026,15 +8026,15 @@
         },
         "algos": {
           "type": "algos",
-          "preClass": {
+          "preClass": {},
+          "inClass": {
             "items": [
               {
-                "name": "A.9: Dynamic Programming - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.9-dynamic-programming#pre-class"
+                "name": "Graphs - Part 4 - Practice",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.5-data-structures/a.5.7-graphs#graph-problems"
               }
             ]
           },
-          "inClass": {},
           "postClass": {}
         },
         "ux": {
@@ -8097,7 +8097,14 @@
         },
         "algos": {
           "type": "algos",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "A.9: Dynamic Programming - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.9-dynamic-programming#pre-class"
+              }
+            ]
+          },
           "inClass": {
             "items": [
               {
@@ -8630,14 +8637,7 @@
         },
         "algos": {
           "type": "algos",
-          "preClass": {
-            "items": [
-              {
-                "name": "A.10: Bit Manipulation - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.10-bit-manipulation#pre-class"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {
             "items": [
               {
@@ -8726,7 +8726,14 @@
         },
         "algos": {
           "type": "algos",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "A.10: Bit Manipulation - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.10-bit-manipulation#pre-class"
+              }
+            ]
+          },
           "inClass": {},
           "postClass": {}
         },
