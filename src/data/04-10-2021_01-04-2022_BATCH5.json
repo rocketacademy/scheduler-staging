@@ -2355,7 +2355,7 @@
             "items": [
               {
                 "name": "3.3.5: Non-FK Relationship Data in Join Table",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.3-sql-language/3.3.2-sql-relationships-one-to-many"
+                "url": "https://bootcamp.rocketacademy.co/3-3-backend-applications/3.3-sql-language/3.3.5-non-fk-relationship-data-in-join-table"
               },
               {
                 "name": "3.4.6: Forms for Many-to-Many Relationships",
@@ -2841,7 +2841,7 @@
             "items": [
               {
                 "name": "1.ICE.CSS.5: Restaurant",
-                "url": "https://bootcamp.rocketacademy.co/css/1.ice.css-in-class-css-exercises/1.ice.css.5-trombones"
+                "url": "https://bootcamp.rocketacademy.co/css/1.ice.css-in-class-css-exercises/1.ice.css.5-restaurant"
               }
             ]
           },
