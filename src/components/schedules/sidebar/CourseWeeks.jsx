@@ -86,7 +86,12 @@ function CourseWeeks({ scheduleData, coursetype, firstDayOfCourse }) {
           // generating id that is linked to id of an element in main content of page
           // on click, page will scroll to where the element is
           const navId = `${index + 1}`;
-          const id = `${coursetype}-week-${week}-day-1`;
+          let id;
+          if (coursetype === 'pt') {
+            id = `${coursetype}-week-${week}-day-2`;
+          } else {
+            id = `${coursetype}-week-${week}-day-1`;
+          }
           const sidebarId = `${coursetype}-sidebar-week-${week}`;
       
           return (

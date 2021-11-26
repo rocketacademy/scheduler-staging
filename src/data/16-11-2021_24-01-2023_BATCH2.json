@@ -4,12 +4,12 @@
   "totalCourseDays": 116,
   "courseType": "Bootcamp PT",
   "days": {
-    "17-08-2021": {
-      "courseDate": "17-08-2021",
+    "16-11-2021": {
+      "courseDate": "16-11-2021",
       "courseWeek": 1,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-08-17T11:30:00.000Z",
+      "meetingDateTimeUTC": "2021-11-16T11:30:00.000Z",
       "courseDay": 0,
       "dateTypes": {
         "module": "Module 1: Frontend Basics",
@@ -54,12 +54,12 @@
         }
       }
     },
-    "21-08-2021": {
-      "courseDate": "21-08-2021",
+    "20-11-2021": {
+      "courseDate": "20-11-2021",
       "courseWeek": 1,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2021-08-21T02:00:00.000Z",
+      "meetingDateTimeUTC": "2021-11-20T02:00:00.000Z",
       "courseDay": 1,
       "dateTypes": {
         "module": "Module 1: Frontend Basics",
@@ -160,12 +160,12 @@
         }
       }
     },
-    "24-08-2021": {
-      "courseDate": "24-08-2021",
+    "23-11-2021": {
+      "courseDate": "23-11-2021",
       "courseWeek": 2,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-08-24T11:30:00.000Z",
+      "meetingDateTimeUTC": "2021-11-23T11:30:00.000Z",
       "courseDay": 2,
       "dateTypes": {
         "module": "Module 1: Frontend Basics",
@@ -242,12 +242,12 @@
         }
       }
     },
-    "28-08-2021": {
-      "courseDate": "28-08-2021",
+    "27-11-2021": {
+      "courseDate": "27-11-2021",
       "courseWeek": 2,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2021-08-28T02:00:00.000Z",
+      "meetingDateTimeUTC": "2021-11-27T02:00:00.000Z",
       "courseDay": 3,
       "dateTypes": {
         "module": "Module 1: Frontend Basics",
@@ -324,12 +324,12 @@
         }
       }
     },
-    "31-08-2021": {
-      "courseDate": "31-08-2021",
+    "30-11-2021": {
+      "courseDate": "30-11-2021",
       "courseWeek": 3,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-08-31T11:30:00.000Z",
+      "meetingDateTimeUTC": "2021-11-30T11:30:00.000Z",
       "courseDay": 4,
       "dateTypes": {
         "module": "Module 1: Frontend Basics",
@@ -406,12 +406,12 @@
         }
       }
     },
-    "04-09-2021": {
-      "courseDate": "04-09-2021",
+    "04-12-2021": {
+      "courseDate": "04-12-2021",
       "courseWeek": 3,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2021-09-04T02:00:00.000Z",
+      "meetingDateTimeUTC": "2021-12-04T02:00:00.000Z",
       "courseDay": 5,
       "dateTypes": {
         "module": "Module 1: Frontend Basics",
@@ -484,12 +484,12 @@
         }
       }
     },
-    "07-09-2021": {
-      "courseDate": "07-09-2021",
+    "07-12-2021": {
+      "courseDate": "07-12-2021",
       "courseWeek": 4,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-09-07T11:30:00.000Z",
+      "meetingDateTimeUTC": "2021-12-07T11:30:00.000Z",
       "courseDay": 6,
       "dateTypes": {
         "module": "Module 1: Frontend Basics",
@@ -567,12 +567,12 @@
         }
       }
     },
-    "11-09-2021": {
-      "courseDate": "11-09-2021",
+    "11-12-2021": {
+      "courseDate": "11-12-2021",
       "courseWeek": 4,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2021-09-11T02:00:00.000Z",
+      "meetingDateTimeUTC": "2021-12-11T02:00:00.000Z",
       "courseDay": 7,
       "dateTypes": {
         "module": "Module 1: Frontend Basics",
@@ -644,12 +644,12 @@
         }
       }
     },
-    "14-09-2021": {
-      "courseDate": "14-09-2021",
+    "14-12-2021": {
+      "courseDate": "14-12-2021",
       "courseWeek": 5,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-09-14T11:30:00.000Z",
+      "meetingDateTimeUTC": "2021-12-14T11:30:00.000Z",
       "courseDay": 8,
       "dateTypes": {
         "module": "Module 1: Frontend Basics",
@@ -724,12 +724,12 @@
         }
       }
     },
-    "18-09-2021": {
-      "courseDate": "18-09-2021",
+    "18-12-2021": {
+      "courseDate": "18-12-2021",
       "courseWeek": 5,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2021-09-18T02:00:00.000Z",
+      "meetingDateTimeUTC": "2021-12-18T02:00:00.000Z",
       "courseDay": 9,
       "dateTypes": {
         "module": "Module 1: Frontend Basics",
@@ -797,12 +797,12 @@
         }
       }
     },
-    "21-09-2021": {
-      "courseDate": "21-09-2021",
+    "21-12-2021": {
+      "courseDate": "21-12-2021",
       "courseWeek": 6,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-09-21T11:30:00.000Z",
+      "meetingDateTimeUTC": "2021-12-21T11:30:00.000Z",
       "courseDay": 10,
       "dateTypes": {
         "module": "Module 1: Frontend Basics",
@@ -871,12 +871,72 @@
         }
       }
     },
-    "25-09-2021": {
-      "courseDate": "25-09-2021",
+    "25-12-2021": {
+      "courseDay": null,
+      "courseDate": "25-12-2021",
       "courseWeek": 6,
-      "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2021-09-25T02:00:00.000Z",
+      "dateTypes": {
+        "holidayType": "public holiday",
+        "date": "25-12-2021",
+        "location": "SG",
+        "name": "Christmas Day"
+      }
+    },
+    "28-12-2021": {
+      "courseDay": null,
+      "courseDate": "28-12-2021",
+      "courseWeek": null,
+      "dayNumber": 2,
+      "dateTypes": {
+        "holidayType": "company holiday",
+        "date": "28-12-2021",
+        "location": "SG",
+        "name": "winter break"
+      }
+    },
+    "01-01-2022": {
+      "courseDay": null,
+      "courseDate": "01-01-2022",
+      "courseWeek": null,
+      "dayNumber": 6,
+      "dateTypes": {
+        "holidayType": "company holiday",
+        "date": "01-01-2022",
+        "location": "SG",
+        "name": "winter break"
+      }
+    },
+    "04-01-2022": {
+      "courseDay": null,
+      "courseDate": "04-01-2022",
+      "courseWeek": null,
+      "dayNumber": 2,
+      "dateTypes": {
+        "holidayType": "company holiday",
+        "date": "04-01-2022",
+        "location": "SG",
+        "name": "winter break"
+      }
+    },
+    "08-01-2022": {
+      "courseDay": null,
+      "courseDate": "08-01-2022",
+      "courseWeek": null,
+      "dayNumber": 6,
+      "dateTypes": {
+        "holidayType": "company holiday",
+        "date": "08-01-2022",
+        "location": "SG",
+        "name": "winter break"
+      }
+    },
+    "11-01-2022": {
+      "courseDate": "11-01-2022",
+      "courseWeek": 7,
+      "weekDay": 1,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2022-01-11T11:30:00.000Z",
       "courseDay": 11,
       "dateTypes": {
         "module": "Module 1: Frontend Basics",
@@ -944,12 +1004,12 @@
         }
       }
     },
-    "28-09-2021": {
-      "courseDate": "28-09-2021",
+    "15-01-2022": {
+      "courseDate": "15-01-2022",
       "courseWeek": 7,
-      "weekDay": 1,
-      "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-09-28T11:30:00.000Z",
+      "weekDay": 2,
+      "dayNumber": 6,
+      "meetingDateTimeUTC": "2022-01-15T02:00:00.000Z",
       "courseDay": 12,
       "dateTypes": {
         "module": "Module 2: Backend Basics",
@@ -1025,12 +1085,12 @@
         }
       }
     },
-    "02-10-2021": {
-      "courseDate": "02-10-2021",
-      "courseWeek": 7,
-      "weekDay": 2,
-      "dayNumber": 6,
-      "meetingDateTimeUTC": "2021-10-02T02:00:00.000Z",
+    "18-01-2022": {
+      "courseDate": "18-01-2022",
+      "courseWeek": 8,
+      "weekDay": 1,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2022-01-18T11:30:00.000Z",
       "courseDay": 13,
       "dateTypes": {
         "module": "Module 2: Backend Basics",
@@ -1095,12 +1155,12 @@
         }
       }
     },
-    "05-10-2021": {
-      "courseDate": "05-10-2021",
+    "22-01-2022": {
+      "courseDate": "22-01-2022",
       "courseWeek": 8,
-      "weekDay": 1,
-      "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-10-05T11:30:00.000Z",
+      "weekDay": 2,
+      "dayNumber": 6,
+      "meetingDateTimeUTC": "2022-01-22T02:00:00.000Z",
       "courseDay": 14,
       "dateTypes": {
         "module": "Module 2: Backend Basics",
@@ -1182,12 +1242,12 @@
         }
       }
     },
-    "09-10-2021": {
-      "courseDate": "09-10-2021",
-      "courseWeek": 8,
-      "weekDay": 2,
-      "dayNumber": 6,
-      "meetingDateTimeUTC": "2021-10-09T02:00:00.000Z",
+    "25-01-2022": {
+      "courseDate": "25-01-2022",
+      "courseWeek": 9,
+      "weekDay": 1,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2022-01-25T11:30:00.000Z",
       "courseDay": 15,
       "dateTypes": {
         "module": "Module 2: Backend Basics",
@@ -1274,12 +1334,12 @@
         }
       }
     },
-    "12-10-2021": {
-      "courseDate": "12-10-2021",
+    "29-01-2022": {
+      "courseDate": "29-01-2022",
       "courseWeek": 9,
-      "weekDay": 1,
-      "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-10-12T11:30:00.000Z",
+      "weekDay": 2,
+      "dayNumber": 6,
+      "meetingDateTimeUTC": "2022-01-29T02:00:00.000Z",
       "courseDay": 16,
       "dateTypes": {
         "module": "Module 2: Backend Basics",
@@ -1352,12 +1412,24 @@
         }
       }
     },
-    "16-10-2021": {
-      "courseDate": "16-10-2021",
-      "courseWeek": 9,
-      "weekDay": 2,
+    "01-02-2022": {
+      "courseDay": null,
+      "courseDate": "01-02-2022",
+      "courseWeek": 10,
+      "dayNumber": 2,
+      "dateTypes": {
+        "holidayType": "public holiday",
+        "date": "01-02-2022",
+        "location": "SG",
+        "name": "Chinese New Year Day 1"
+      }
+    },
+    "05-02-2022": {
+      "courseDate": "05-02-2022",
+      "courseWeek": 10,
+      "weekDay": 1,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2021-10-16T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-02-05T02:00:00.000Z",
       "courseDay": 17,
       "dateTypes": {
         "module": "Module 2: Backend Basics",
@@ -1433,12 +1505,12 @@
         }
       }
     },
-    "19-10-2021": {
-      "courseDate": "19-10-2021",
-      "courseWeek": 10,
+    "08-02-2022": {
+      "courseDate": "08-02-2022",
+      "courseWeek": 11,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-10-19T11:30:00.000Z",
+      "meetingDateTimeUTC": "2022-02-08T11:30:00.000Z",
       "courseDay": 18,
       "dateTypes": {
         "module": "Module 2: Backend Basics",
@@ -1514,12 +1586,12 @@
         }
       }
     },
-    "23-10-2021": {
-      "courseDate": "23-10-2021",
-      "courseWeek": 10,
+    "12-02-2022": {
+      "courseDate": "12-02-2022",
+      "courseWeek": 11,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2021-10-23T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-02-12T02:00:00.000Z",
       "courseDay": 19,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -1590,12 +1662,12 @@
         }
       }
     },
-    "26-10-2021": {
-      "courseDate": "26-10-2021",
-      "courseWeek": 11,
+    "15-02-2022": {
+      "courseDate": "15-02-2022",
+      "courseWeek": 12,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-10-26T11:30:00.000Z",
+      "meetingDateTimeUTC": "2022-02-15T11:30:00.000Z",
       "courseDay": 20,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -1670,12 +1742,12 @@
         }
       }
     },
-    "30-10-2021": {
-      "courseDate": "30-10-2021",
-      "courseWeek": 11,
+    "19-02-2022": {
+      "courseDate": "19-02-2022",
+      "courseWeek": 12,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2021-10-30T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-02-19T02:00:00.000Z",
       "courseDay": 21,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -1750,12 +1822,12 @@
         }
       }
     },
-    "02-11-2021": {
-      "courseDate": "02-11-2021",
-      "courseWeek": 12,
+    "22-02-2022": {
+      "courseDate": "22-02-2022",
+      "courseWeek": 13,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-11-02T11:30:00.000Z",
+      "meetingDateTimeUTC": "2022-02-22T11:30:00.000Z",
       "courseDay": 22,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -1816,12 +1888,12 @@
         }
       }
     },
-    "06-11-2021": {
-      "courseDate": "06-11-2021",
-      "courseWeek": 12,
+    "26-02-2022": {
+      "courseDate": "26-02-2022",
+      "courseWeek": 13,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2021-11-06T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-02-26T02:00:00.000Z",
       "courseDay": 23,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -1895,12 +1967,12 @@
         }
       }
     },
-    "09-11-2021": {
-      "courseDate": "09-11-2021",
-      "courseWeek": 13,
+    "01-03-2022": {
+      "courseDate": "01-03-2022",
+      "courseWeek": 14,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-11-09T11:30:00.000Z",
+      "meetingDateTimeUTC": "2022-03-01T11:30:00.000Z",
       "courseDay": 24,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -1996,12 +2068,12 @@
         }
       }
     },
-    "13-11-2021": {
-      "courseDate": "13-11-2021",
-      "courseWeek": 13,
+    "05-03-2022": {
+      "courseDate": "05-03-2022",
+      "courseWeek": 14,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2021-11-13T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-03-05T02:00:00.000Z",
       "courseDay": 25,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -2082,12 +2154,12 @@
         }
       }
     },
-    "16-11-2021": {
-      "courseDate": "16-11-2021",
-      "courseWeek": 14,
+    "08-03-2022": {
+      "courseDate": "08-03-2022",
+      "courseWeek": 15,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-11-16T11:30:00.000Z",
+      "meetingDateTimeUTC": "2022-03-08T11:30:00.000Z",
       "courseDay": 26,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -2170,12 +2242,12 @@
         }
       }
     },
-    "20-11-2021": {
-      "courseDate": "20-11-2021",
-      "courseWeek": 14,
+    "12-03-2022": {
+      "courseDate": "12-03-2022",
+      "courseWeek": 15,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2021-11-20T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-03-12T02:00:00.000Z",
       "courseDay": 27,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -2247,12 +2319,12 @@
         }
       }
     },
-    "23-11-2021": {
-      "courseDate": "23-11-2021",
-      "courseWeek": 15,
+    "15-03-2022": {
+      "courseDate": "15-03-2022",
+      "courseWeek": 16,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-11-23T11:30:00.000Z",
+      "meetingDateTimeUTC": "2022-03-15T11:30:00.000Z",
       "courseDay": 28,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -2328,12 +2400,12 @@
         }
       }
     },
-    "27-11-2021": {
-      "courseDate": "27-11-2021",
-      "courseWeek": 15,
+    "19-03-2022": {
+      "courseDate": "19-03-2022",
+      "courseWeek": 16,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2021-11-27T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-03-19T02:00:00.000Z",
       "courseDay": 29,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -2416,12 +2488,12 @@
         }
       }
     },
-    "30-11-2021": {
-      "courseDate": "30-11-2021",
-      "courseWeek": 16,
+    "22-03-2022": {
+      "courseDate": "22-03-2022",
+      "courseWeek": 17,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-11-30T11:30:00.000Z",
+      "meetingDateTimeUTC": "2022-03-22T11:30:00.000Z",
       "courseDay": 30,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -2493,12 +2565,12 @@
         }
       }
     },
-    "04-12-2021": {
-      "courseDate": "04-12-2021",
-      "courseWeek": 16,
+    "26-03-2022": {
+      "courseDate": "26-03-2022",
+      "courseWeek": 17,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2021-12-04T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-03-26T02:00:00.000Z",
       "courseDay": 31,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -2585,12 +2657,12 @@
         }
       }
     },
-    "07-12-2021": {
-      "courseDate": "07-12-2021",
-      "courseWeek": 17,
+    "29-03-2022": {
+      "courseDate": "29-03-2022",
+      "courseWeek": 18,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-12-07T11:30:00.000Z",
+      "meetingDateTimeUTC": "2022-03-29T11:30:00.000Z",
       "courseDay": 32,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -2659,12 +2731,12 @@
         }
       }
     },
-    "11-12-2021": {
-      "courseDate": "11-12-2021",
-      "courseWeek": 17,
+    "02-04-2022": {
+      "courseDate": "02-04-2022",
+      "courseWeek": 18,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2021-12-11T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-04-02T02:00:00.000Z",
       "courseDay": 33,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -2732,12 +2804,12 @@
         }
       }
     },
-    "14-12-2021": {
-      "courseDate": "14-12-2021",
-      "courseWeek": 18,
+    "05-04-2022": {
+      "courseDate": "05-04-2022",
+      "courseWeek": 19,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-12-14T11:30:00.000Z",
+      "meetingDateTimeUTC": "2022-04-05T11:30:00.000Z",
       "courseDay": 34,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -2807,12 +2879,12 @@
         }
       }
     },
-    "18-12-2021": {
-      "courseDate": "18-12-2021",
-      "courseWeek": 18,
+    "09-04-2022": {
+      "courseDate": "09-04-2022",
+      "courseWeek": 19,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2021-12-18T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-04-09T02:00:00.000Z",
       "courseDay": 35,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -2873,12 +2945,12 @@
         }
       }
     },
-    "21-12-2021": {
-      "courseDate": "21-12-2021",
-      "courseWeek": 19,
+    "12-04-2022": {
+      "courseDate": "12-04-2022",
+      "courseWeek": 20,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2021-12-21T11:30:00.000Z",
+      "meetingDateTimeUTC": "2022-04-12T11:30:00.000Z",
       "courseDay": 36,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -2947,48 +3019,12 @@
         }
       }
     },
-    "25-12-2021": {
-      "courseDay": null,
-      "courseDate": "25-12-2021",
-      "courseWeek": 19,
-      "dayNumber": 6,
-      "dateTypes": {
-        "holidayType": "public holiday",
-        "date": "25-12-2021",
-        "location": "SG",
-        "name": "Christmas Day"
-      }
-    },
-    "28-12-2021": {
-      "courseDay": null,
-      "courseDate": "28-12-2021",
-      "courseWeek": null,
-      "dayNumber": 2,
-      "dateTypes": {
-        "holidayType": "company holiday",
-        "date": "28-12-2021",
-        "location": "SG",
-        "name": "winter break"
-      }
-    },
-    "01-01-2022": {
-      "courseDay": null,
-      "courseDate": "01-01-2022",
-      "courseWeek": null,
-      "dayNumber": 6,
-      "dateTypes": {
-        "holidayType": "company holiday",
-        "date": "01-01-2022",
-        "location": "SG",
-        "name": "winter break"
-      }
-    },
-    "04-01-2022": {
-      "courseDate": "04-01-2022",
+    "16-04-2022": {
+      "courseDate": "16-04-2022",
       "courseWeek": 20,
-      "weekDay": 1,
-      "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-01-04T11:30:00.000Z",
+      "weekDay": 2,
+      "dayNumber": 6,
+      "meetingDateTimeUTC": "2022-04-16T02:00:00.000Z",
       "courseDay": 37,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -3049,12 +3085,12 @@
         }
       }
     },
-    "08-01-2022": {
-      "courseDate": "08-01-2022",
-      "courseWeek": 20,
-      "weekDay": 2,
-      "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-01-08T02:00:00.000Z",
+    "19-04-2022": {
+      "courseDate": "19-04-2022",
+      "courseWeek": 21,
+      "weekDay": 1,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2022-04-19T11:30:00.000Z",
       "courseDay": 38,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -3115,12 +3151,12 @@
         }
       }
     },
-    "11-01-2022": {
-      "courseDate": "11-01-2022",
+    "23-04-2022": {
+      "courseDate": "23-04-2022",
       "courseWeek": 21,
-      "weekDay": 1,
-      "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-01-11T11:30:00.000Z",
+      "weekDay": 2,
+      "dayNumber": 6,
+      "meetingDateTimeUTC": "2022-04-23T02:00:00.000Z",
       "courseDay": 39,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -3188,12 +3224,12 @@
         }
       }
     },
-    "15-01-2022": {
-      "courseDate": "15-01-2022",
-      "courseWeek": 21,
-      "weekDay": 2,
-      "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-01-15T02:00:00.000Z",
+    "26-04-2022": {
+      "courseDate": "26-04-2022",
+      "courseWeek": 22,
+      "weekDay": 1,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2022-04-26T11:30:00.000Z",
       "courseDay": 40,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
@@ -3247,12 +3283,12 @@
         }
       }
     },
-    "18-01-2022": {
-      "courseDate": "18-01-2022",
+    "30-04-2022": {
+      "courseDate": "30-04-2022",
       "courseWeek": 22,
-      "weekDay": 1,
-      "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-01-18T11:30:00.000Z",
+      "weekDay": 2,
+      "dayNumber": 6,
+      "meetingDateTimeUTC": "2022-04-30T02:00:00.000Z",
       "courseDay": 41,
       "dateTypes": {
         "module": "Module 4: Backend Structure",
@@ -3332,12 +3368,24 @@
         }
       }
     },
-    "22-01-2022": {
-      "courseDate": "22-01-2022",
-      "courseWeek": 22,
-      "weekDay": 2,
+    "03-05-2022": {
+      "courseDay": null,
+      "courseDate": "03-05-2022",
+      "courseWeek": 23,
+      "dayNumber": 2,
+      "dateTypes": {
+        "holidayType": "public holiday",
+        "date": "03-05-2022",
+        "location": "SG",
+        "name": "Labour Day (observed)"
+      }
+    },
+    "07-05-2022": {
+      "courseDate": "07-05-2022",
+      "courseWeek": 23,
+      "weekDay": 1,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-01-22T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-05-07T02:00:00.000Z",
       "courseDay": 42,
       "dateTypes": {
         "module": "Module 4: Backend Structure",
@@ -3417,12 +3465,12 @@
         }
       }
     },
-    "25-01-2022": {
-      "courseDate": "25-01-2022",
-      "courseWeek": 23,
+    "10-05-2022": {
+      "courseDate": "10-05-2022",
+      "courseWeek": 24,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-01-25T11:30:00.000Z",
+      "meetingDateTimeUTC": "2022-05-10T11:30:00.000Z",
       "courseDay": 43,
       "dateTypes": {
         "module": "Module 4: Backend Structure",
@@ -3498,12 +3546,12 @@
         }
       }
     },
-    "29-01-2022": {
-      "courseDate": "29-01-2022",
-      "courseWeek": 23,
+    "14-05-2022": {
+      "courseDate": "14-05-2022",
+      "courseWeek": 24,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-01-29T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-05-14T02:00:00.000Z",
       "courseDay": 44,
       "dateTypes": {
         "module": "Module 4: Backend Structure",
@@ -3568,24 +3616,12 @@
         }
       }
     },
-    "01-02-2022": {
-      "courseDay": null,
-      "courseDate": "01-02-2022",
-      "courseWeek": 24,
-      "dayNumber": 2,
-      "dateTypes": {
-        "holidayType": "public holiday",
-        "date": "01-02-2022",
-        "location": "SG",
-        "name": "Chinese New Year Day 1"
-      }
-    },
-    "05-02-2022": {
-      "courseDate": "05-02-2022",
-      "courseWeek": 24,
+    "17-05-2022": {
+      "courseDate": "17-05-2022",
+      "courseWeek": 25,
       "weekDay": 1,
-      "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-02-05T02:00:00.000Z",
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2022-05-17T11:30:00.000Z",
       "courseDay": 45,
       "dateTypes": {
         "module": "Module 4: Backend Structure",
@@ -3646,12 +3682,12 @@
         }
       }
     },
-    "08-02-2022": {
-      "courseDate": "08-02-2022",
+    "21-05-2022": {
+      "courseDate": "21-05-2022",
       "courseWeek": 25,
-      "weekDay": 1,
-      "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-02-08T11:30:00.000Z",
+      "weekDay": 2,
+      "dayNumber": 6,
+      "meetingDateTimeUTC": "2022-05-21T02:00:00.000Z",
       "courseDay": 46,
       "dateTypes": {
         "module": "Module 5: Full-Stack Applications",
@@ -3720,12 +3756,12 @@
         }
       }
     },
-    "12-02-2022": {
-      "courseDate": "12-02-2022",
-      "courseWeek": 25,
-      "weekDay": 2,
-      "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-02-12T02:00:00.000Z",
+    "24-05-2022": {
+      "courseDate": "24-05-2022",
+      "courseWeek": 26,
+      "weekDay": 1,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2022-05-24T11:30:00.000Z",
       "courseDay": 47,
       "dateTypes": {
         "module": "Module 5: Full-Stack Applications",
@@ -3790,12 +3826,12 @@
         }
       }
     },
-    "15-02-2022": {
-      "courseDate": "15-02-2022",
+    "28-05-2022": {
+      "courseDate": "28-05-2022",
       "courseWeek": 26,
-      "weekDay": 1,
-      "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-02-15T11:30:00.000Z",
+      "weekDay": 2,
+      "dayNumber": 6,
+      "meetingDateTimeUTC": "2022-05-28T02:00:00.000Z",
       "courseDay": 48,
       "dateTypes": {
         "module": "Module 5: Full-Stack Applications",
@@ -3874,12 +3910,12 @@
         }
       }
     },
-    "19-02-2022": {
-      "courseDate": "19-02-2022",
-      "courseWeek": 26,
-      "weekDay": 2,
-      "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-02-19T02:00:00.000Z",
+    "31-05-2022": {
+      "courseDate": "31-05-2022",
+      "courseWeek": 27,
+      "weekDay": 1,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2022-05-31T11:30:00.000Z",
       "courseDay": 49,
       "dateTypes": {
         "module": "Module 5: Full-Stack Applications",
@@ -3962,12 +3998,12 @@
         }
       }
     },
-    "22-02-2022": {
-      "courseDate": "22-02-2022",
+    "04-06-2022": {
+      "courseDate": "04-06-2022",
       "courseWeek": 27,
-      "weekDay": 1,
-      "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-02-22T11:30:00.000Z",
+      "weekDay": 2,
+      "dayNumber": 6,
+      "meetingDateTimeUTC": "2022-06-04T02:00:00.000Z",
       "courseDay": 50,
       "dateTypes": {
         "module": "Module 6: Frontend Infrastructure",
@@ -4054,12 +4090,12 @@
         }
       }
     },
-    "26-02-2022": {
-      "courseDate": "26-02-2022",
-      "courseWeek": 27,
-      "weekDay": 2,
-      "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-02-26T02:00:00.000Z",
+    "07-06-2022": {
+      "courseDate": "07-06-2022",
+      "courseWeek": 28,
+      "weekDay": 1,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2022-06-07T11:30:00.000Z",
       "courseDay": 51,
       "dateTypes": {
         "module": "Module 6: Frontend Infrastructure",
@@ -4149,12 +4185,12 @@
         }
       }
     },
-    "01-03-2022": {
-      "courseDate": "01-03-2022",
+    "11-06-2022": {
+      "courseDate": "11-06-2022",
       "courseWeek": 28,
-      "weekDay": 1,
-      "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-03-01T11:30:00.000Z",
+      "weekDay": 2,
+      "dayNumber": 6,
+      "meetingDateTimeUTC": "2022-06-11T02:00:00.000Z",
       "courseDay": 52,
       "dateTypes": {
         "module": "Module 6: Frontend Infrastructure",
@@ -4226,12 +4262,12 @@
         }
       }
     },
-    "05-03-2022": {
-      "courseDate": "05-03-2022",
-      "courseWeek": 28,
-      "weekDay": 2,
-      "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-03-05T02:00:00.000Z",
+    "14-06-2022": {
+      "courseDate": "14-06-2022",
+      "courseWeek": 29,
+      "weekDay": 1,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2022-06-14T11:30:00.000Z",
       "courseDay": 53,
       "dateTypes": {
         "module": "Module 6: Frontend Infrastructure",
@@ -4320,12 +4356,12 @@
         }
       }
     },
-    "08-03-2022": {
-      "courseDate": "08-03-2022",
+    "18-06-2022": {
+      "courseDate": "18-06-2022",
       "courseWeek": 29,
-      "weekDay": 1,
-      "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-03-08T11:30:00.000Z",
+      "weekDay": 2,
+      "dayNumber": 6,
+      "meetingDateTimeUTC": "2022-06-18T02:00:00.000Z",
       "courseDay": 54,
       "dateTypes": {
         "module": "Module 6: Frontend Infrastructure",
@@ -4400,12 +4436,12 @@
         }
       }
     },
-    "12-03-2022": {
-      "courseDate": "12-03-2022",
-      "courseWeek": 29,
-      "weekDay": 2,
-      "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-03-12T02:00:00.000Z",
+    "21-06-2022": {
+      "courseDate": "21-06-2022",
+      "courseWeek": 30,
+      "weekDay": 1,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2022-06-21T11:30:00.000Z",
       "courseDay": 55,
       "dateTypes": {
         "module": "Module 6: Frontend Infrastructure",
@@ -4480,12 +4516,12 @@
         }
       }
     },
-    "15-03-2022": {
-      "courseDate": "15-03-2022",
+    "25-06-2022": {
+      "courseDate": "25-06-2022",
       "courseWeek": 30,
-      "weekDay": 1,
-      "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-03-15T11:30:00.000Z",
+      "weekDay": 2,
+      "dayNumber": 6,
+      "meetingDateTimeUTC": "2022-06-25T02:00:00.000Z",
       "courseDay": 56,
       "dateTypes": {
         "module": "Module 6: Frontend Infrastructure",
@@ -4553,12 +4589,12 @@
         }
       }
     },
-    "19-03-2022": {
-      "courseDate": "19-03-2022",
-      "courseWeek": 30,
-      "weekDay": 2,
-      "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-03-19T02:00:00.000Z",
+    "28-06-2022": {
+      "courseDate": "28-06-2022",
+      "courseWeek": 31,
+      "weekDay": 1,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2022-06-28T11:30:00.000Z",
       "courseDay": 57,
       "dateTypes": {
         "module": "Module 6: Frontend Infrastructure",
@@ -4626,12 +4662,12 @@
         }
       }
     },
-    "22-03-2022": {
-      "courseDate": "22-03-2022",
+    "02-07-2022": {
+      "courseDate": "02-07-2022",
       "courseWeek": 31,
-      "weekDay": 1,
-      "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-03-22T11:30:00.000Z",
+      "weekDay": 2,
+      "dayNumber": 6,
+      "meetingDateTimeUTC": "2022-07-02T02:00:00.000Z",
       "courseDay": 58,
       "dateTypes": {
         "module": "Module 6: Frontend Infrastructure",
@@ -4728,12 +4764,12 @@
         }
       }
     },
-    "26-03-2022": {
-      "courseDate": "26-03-2022",
-      "courseWeek": 31,
-      "weekDay": 2,
-      "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-03-26T02:00:00.000Z",
+    "05-07-2022": {
+      "courseDate": "05-07-2022",
+      "courseWeek": 32,
+      "weekDay": 1,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2022-07-05T11:30:00.000Z",
       "courseDay": 59,
       "dateTypes": {
         "module": "Module 6: Frontend Infrastructure",
@@ -4801,12 +4837,24 @@
         }
       }
     },
-    "29-03-2022": {
-      "courseDate": "29-03-2022",
+    "09-07-2022": {
+      "courseDay": null,
+      "courseDate": "09-07-2022",
       "courseWeek": 32,
+      "dayNumber": 6,
+      "dateTypes": {
+        "holidayType": "public holiday",
+        "date": "09-07-2022",
+        "location": "SG",
+        "name": "Hari Raya Haji"
+      }
+    },
+    "12-07-2022": {
+      "courseDate": "12-07-2022",
+      "courseWeek": 33,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-03-29T11:30:00.000Z",
+      "meetingDateTimeUTC": "2022-07-12T11:30:00.000Z",
       "courseDay": 60,
       "dateTypes": {
         "module": "Module 6: Frontend Infrastructure",
@@ -4892,12 +4940,12 @@
         }
       }
     },
-    "02-04-2022": {
-      "courseDate": "02-04-2022",
-      "courseWeek": 32,
+    "16-07-2022": {
+      "courseDate": "16-07-2022",
+      "courseWeek": 33,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-04-02T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-07-16T02:00:00.000Z",
       "courseDay": 61,
       "dateTypes": {
         "module": "Module 6: Frontend Infrastructure",
@@ -4979,12 +5027,12 @@
         }
       }
     },
-    "05-04-2022": {
-      "courseDate": "05-04-2022",
-      "courseWeek": 33,
+    "19-07-2022": {
+      "courseDate": "19-07-2022",
+      "courseWeek": 34,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-04-05T11:30:00.000Z",
+      "meetingDateTimeUTC": "2022-07-19T11:30:00.000Z",
       "courseDay": 62,
       "dateTypes": {
         "module": "Module 6: Frontend Infrastructure",
@@ -5042,12 +5090,12 @@
         }
       }
     },
-    "09-04-2022": {
-      "courseDate": "09-04-2022",
-      "courseWeek": 33,
+    "23-07-2022": {
+      "courseDate": "23-07-2022",
+      "courseWeek": 34,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-04-09T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-07-23T02:00:00.000Z",
       "courseDay": 63,
       "dateTypes": {
         "module": "Module 7: React",
@@ -5134,12 +5182,12 @@
         }
       }
     },
-    "12-04-2022": {
-      "courseDate": "12-04-2022",
-      "courseWeek": 34,
+    "26-07-2022": {
+      "courseDate": "26-07-2022",
+      "courseWeek": 35,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-04-12T11:30:00.000Z",
+      "meetingDateTimeUTC": "2022-07-26T11:30:00.000Z",
       "courseDay": 64,
       "dateTypes": {
         "module": "Module 7: React",
@@ -5226,12 +5274,12 @@
         }
       }
     },
-    "16-04-2022": {
-      "courseDate": "16-04-2022",
-      "courseWeek": 34,
+    "30-07-2022": {
+      "courseDate": "30-07-2022",
+      "courseWeek": 35,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-04-16T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-07-30T02:00:00.000Z",
       "courseDay": 65,
       "dateTypes": {
         "module": "Module 7: React",
@@ -5310,12 +5358,12 @@
         }
       }
     },
-    "19-04-2022": {
-      "courseDate": "19-04-2022",
-      "courseWeek": 35,
+    "02-08-2022": {
+      "courseDate": "02-08-2022",
+      "courseWeek": 36,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-04-19T11:30:00.000Z",
+      "meetingDateTimeUTC": "2022-08-02T11:30:00.000Z",
       "courseDay": 66,
       "dateTypes": {
         "module": "Module 7: React",
@@ -5403,12 +5451,12 @@
         }
       }
     },
-    "23-04-2022": {
-      "courseDate": "23-04-2022",
-      "courseWeek": 35,
+    "06-08-2022": {
+      "courseDate": "06-08-2022",
+      "courseWeek": 36,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-04-23T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-08-06T02:00:00.000Z",
       "courseDay": 67,
       "dateTypes": {
         "module": "Module 7: React",
@@ -5498,12 +5546,24 @@
         }
       }
     },
-    "26-04-2022": {
-      "courseDate": "26-04-2022",
-      "courseWeek": 36,
-      "weekDay": 1,
+    "09-08-2022": {
+      "courseDay": null,
+      "courseDate": "09-08-2022",
+      "courseWeek": 37,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-04-26T11:30:00.000Z",
+      "dateTypes": {
+        "holidayType": "public holiday",
+        "date": "09-08-2022",
+        "location": "SG",
+        "name": "National Day"
+      }
+    },
+    "13-08-2022": {
+      "courseDate": "13-08-2022",
+      "courseWeek": 37,
+      "weekDay": 1,
+      "dayNumber": 6,
+      "meetingDateTimeUTC": "2022-08-13T02:00:00.000Z",
       "courseDay": 68,
       "dateTypes": {
         "module": "Module 7: React",
@@ -5564,12 +5624,12 @@
         }
       }
     },
-    "30-04-2022": {
-      "courseDate": "30-04-2022",
-      "courseWeek": 36,
-      "weekDay": 2,
-      "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-04-30T02:00:00.000Z",
+    "16-08-2022": {
+      "courseDate": "16-08-2022",
+      "courseWeek": 38,
+      "weekDay": 1,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2022-08-16T11:30:00.000Z",
       "courseDay": 69,
       "dateTypes": {
         "module": "Module 7: React",
@@ -5658,24 +5718,12 @@
         }
       }
     },
-    "03-05-2022": {
-      "courseDay": null,
-      "courseDate": "03-05-2022",
-      "courseWeek": 37,
-      "dayNumber": 2,
-      "dateTypes": {
-        "holidayType": "public holiday",
-        "date": "03-05-2022",
-        "location": "SG",
-        "name": "Labour Day (observed)"
-      }
-    },
-    "07-05-2022": {
-      "courseDate": "07-05-2022",
-      "courseWeek": 37,
-      "weekDay": 1,
+    "20-08-2022": {
+      "courseDate": "20-08-2022",
+      "courseWeek": 38,
+      "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-05-07T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-08-20T02:00:00.000Z",
       "courseDay": 70,
       "dateTypes": {
         "module": "Module 7: React",
@@ -5757,12 +5805,12 @@
         }
       }
     },
-    "10-05-2022": {
-      "courseDate": "10-05-2022",
-      "courseWeek": 38,
+    "23-08-2022": {
+      "courseDate": "23-08-2022",
+      "courseWeek": 39,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-05-10T11:30:00.000Z",
+      "meetingDateTimeUTC": "2022-08-23T11:30:00.000Z",
       "courseDay": 71,
       "dateTypes": {
         "module": "Module 7: React",
@@ -5837,12 +5885,12 @@
         }
       }
     },
-    "14-05-2022": {
-      "courseDate": "14-05-2022",
-      "courseWeek": 38,
+    "27-08-2022": {
+      "courseDate": "27-08-2022",
+      "courseWeek": 39,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-05-14T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-08-27T02:00:00.000Z",
       "courseDay": 72,
       "dateTypes": {
         "module": "Module 7: React",
@@ -5910,12 +5958,12 @@
         }
       }
     },
-    "17-05-2022": {
-      "courseDate": "17-05-2022",
-      "courseWeek": 39,
+    "30-08-2022": {
+      "courseDate": "30-08-2022",
+      "courseWeek": 40,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-05-17T11:30:00.000Z",
+      "meetingDateTimeUTC": "2022-08-30T11:30:00.000Z",
       "courseDay": 73,
       "dateTypes": {
         "module": "Module 7: React",
@@ -5983,12 +6031,12 @@
         }
       }
     },
-    "21-05-2022": {
-      "courseDate": "21-05-2022",
-      "courseWeek": 39,
+    "03-09-2022": {
+      "courseDate": "03-09-2022",
+      "courseWeek": 40,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-05-21T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-09-03T02:00:00.000Z",
       "courseDay": 74,
       "dateTypes": {
         "module": "Module 7: React",
@@ -6056,12 +6104,12 @@
         }
       }
     },
-    "24-05-2022": {
-      "courseDate": "24-05-2022",
-      "courseWeek": 40,
+    "06-09-2022": {
+      "courseDate": "06-09-2022",
+      "courseWeek": 41,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-05-24T11:30:00.000Z",
+      "meetingDateTimeUTC": "2022-09-06T11:30:00.000Z",
       "courseDay": 75,
       "dateTypes": {
         "module": "Module 7: React",
@@ -6129,12 +6177,12 @@
         }
       }
     },
-    "28-05-2022": {
-      "courseDate": "28-05-2022",
-      "courseWeek": 40,
+    "10-09-2022": {
+      "courseDate": "10-09-2022",
+      "courseWeek": 41,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-05-28T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-09-10T02:00:00.000Z",
       "courseDay": 76,
       "dateTypes": {
         "module": "Module 7: React",
@@ -6210,12 +6258,12 @@
         }
       }
     },
-    "31-05-2022": {
-      "courseDate": "31-05-2022",
-      "courseWeek": 41,
+    "13-09-2022": {
+      "courseDate": "13-09-2022",
+      "courseWeek": 42,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-05-31T11:30:00.000Z",
+      "meetingDateTimeUTC": "2022-09-13T11:30:00.000Z",
       "courseDay": 77,
       "dateTypes": {
         "module": "Module 7: React",
@@ -6283,12 +6331,12 @@
         }
       }
     },
-    "04-06-2022": {
-      "courseDate": "04-06-2022",
-      "courseWeek": 41,
+    "17-09-2022": {
+      "courseDate": "17-09-2022",
+      "courseWeek": 42,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-06-04T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-09-17T02:00:00.000Z",
       "courseDay": 78,
       "dateTypes": {
         "module": "Module 7: React",
@@ -6363,12 +6411,12 @@
         }
       }
     },
-    "07-06-2022": {
-      "courseDate": "07-06-2022",
-      "courseWeek": 42,
+    "20-09-2022": {
+      "courseDate": "20-09-2022",
+      "courseWeek": 43,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-06-07T11:30:00.000Z",
+      "meetingDateTimeUTC": "2022-09-20T11:30:00.000Z",
       "courseDay": 79,
       "dateTypes": {
         "module": "Module 7: React",
@@ -6443,12 +6491,12 @@
         }
       }
     },
-    "11-06-2022": {
-      "courseDate": "11-06-2022",
-      "courseWeek": 42,
+    "24-09-2022": {
+      "courseDate": "24-09-2022",
+      "courseWeek": 43,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-06-11T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-09-24T02:00:00.000Z",
       "courseDay": 80,
       "dateTypes": {
         "module": "Module 7: React",
@@ -6506,12 +6554,12 @@
         }
       }
     },
-    "14-06-2022": {
-      "courseDate": "14-06-2022",
-      "courseWeek": 43,
+    "27-09-2022": {
+      "courseDate": "27-09-2022",
+      "courseWeek": 44,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-06-14T11:30:00.000Z",
+      "meetingDateTimeUTC": "2022-09-27T11:30:00.000Z",
       "courseDay": 81,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -6591,12 +6639,12 @@
         }
       }
     },
-    "18-06-2022": {
-      "courseDate": "18-06-2022",
-      "courseWeek": 43,
+    "01-10-2022": {
+      "courseDate": "01-10-2022",
+      "courseWeek": 44,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-06-18T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-10-01T02:00:00.000Z",
       "courseDay": 82,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -6686,12 +6734,12 @@
         }
       }
     },
-    "21-06-2022": {
-      "courseDate": "21-06-2022",
-      "courseWeek": 44,
+    "04-10-2022": {
+      "courseDate": "04-10-2022",
+      "courseWeek": 45,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-06-21T11:30:00.000Z",
+      "meetingDateTimeUTC": "2022-10-04T11:30:00.000Z",
       "courseDay": 83,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -6773,12 +6821,12 @@
         }
       }
     },
-    "25-06-2022": {
-      "courseDate": "25-06-2022",
-      "courseWeek": 44,
+    "08-10-2022": {
+      "courseDate": "08-10-2022",
+      "courseWeek": 45,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-06-25T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-10-08T02:00:00.000Z",
       "courseDay": 84,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -6861,12 +6909,12 @@
         }
       }
     },
-    "28-06-2022": {
-      "courseDate": "28-06-2022",
-      "courseWeek": 45,
+    "11-10-2022": {
+      "courseDate": "11-10-2022",
+      "courseWeek": 46,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-06-28T11:30:00.000Z",
+      "meetingDateTimeUTC": "2022-10-11T11:30:00.000Z",
       "courseDay": 85,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -6948,12 +6996,12 @@
         }
       }
     },
-    "02-07-2022": {
-      "courseDate": "02-07-2022",
-      "courseWeek": 45,
+    "15-10-2022": {
+      "courseDate": "15-10-2022",
+      "courseWeek": 46,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-07-02T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-10-15T02:00:00.000Z",
       "courseDay": 86,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -7039,12 +7087,12 @@
         }
       }
     },
-    "05-07-2022": {
-      "courseDate": "05-07-2022",
-      "courseWeek": 46,
+    "18-10-2022": {
+      "courseDate": "18-10-2022",
+      "courseWeek": 47,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-07-05T11:30:00.000Z",
+      "meetingDateTimeUTC": "2022-10-18T11:30:00.000Z",
       "courseDay": 87,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -7112,24 +7160,12 @@
         }
       }
     },
-    "09-07-2022": {
-      "courseDay": null,
-      "courseDate": "09-07-2022",
-      "courseWeek": 46,
-      "dayNumber": 6,
-      "dateTypes": {
-        "holidayType": "public holiday",
-        "date": "09-07-2022",
-        "location": "SG",
-        "name": "Hari Raya Haji"
-      }
-    },
-    "12-07-2022": {
-      "courseDate": "12-07-2022",
+    "22-10-2022": {
+      "courseDate": "22-10-2022",
       "courseWeek": 47,
-      "weekDay": 1,
-      "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-07-12T11:30:00.000Z",
+      "weekDay": 2,
+      "dayNumber": 6,
+      "meetingDateTimeUTC": "2022-10-22T02:00:00.000Z",
       "courseDay": 88,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -7204,12 +7240,12 @@
         }
       }
     },
-    "16-07-2022": {
-      "courseDate": "16-07-2022",
-      "courseWeek": 47,
-      "weekDay": 2,
-      "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-07-16T02:00:00.000Z",
+    "25-10-2022": {
+      "courseDate": "25-10-2022",
+      "courseWeek": 48,
+      "weekDay": 1,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2022-10-25T11:30:00.000Z",
       "courseDay": 89,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -7298,12 +7334,12 @@
         }
       }
     },
-    "19-07-2022": {
-      "courseDate": "19-07-2022",
+    "29-10-2022": {
+      "courseDate": "29-10-2022",
       "courseWeek": 48,
-      "weekDay": 1,
-      "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-07-19T11:30:00.000Z",
+      "weekDay": 2,
+      "dayNumber": 6,
+      "meetingDateTimeUTC": "2022-10-29T02:00:00.000Z",
       "courseDay": 90,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -7387,12 +7423,12 @@
         }
       }
     },
-    "23-07-2022": {
-      "courseDate": "23-07-2022",
-      "courseWeek": 48,
-      "weekDay": 2,
-      "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-07-23T02:00:00.000Z",
+    "01-11-2022": {
+      "courseDate": "01-11-2022",
+      "courseWeek": 49,
+      "weekDay": 1,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2022-11-01T11:30:00.000Z",
       "courseDay": 91,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -7475,12 +7511,12 @@
         }
       }
     },
-    "26-07-2022": {
-      "courseDate": "26-07-2022",
+    "05-11-2022": {
+      "courseDate": "05-11-2022",
       "courseWeek": 49,
-      "weekDay": 1,
-      "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-07-26T11:30:00.000Z",
+      "weekDay": 2,
+      "dayNumber": 6,
+      "meetingDateTimeUTC": "2022-11-05T02:00:00.000Z",
       "courseDay": 92,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -7548,12 +7584,12 @@
         }
       }
     },
-    "30-07-2022": {
-      "courseDate": "30-07-2022",
-      "courseWeek": 49,
-      "weekDay": 2,
-      "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-07-30T02:00:00.000Z",
+    "08-11-2022": {
+      "courseDate": "08-11-2022",
+      "courseWeek": 50,
+      "weekDay": 1,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2022-11-08T11:30:00.000Z",
       "courseDay": 93,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -7639,12 +7675,12 @@
         }
       }
     },
-    "02-08-2022": {
-      "courseDate": "02-08-2022",
+    "12-11-2022": {
+      "courseDate": "12-11-2022",
       "courseWeek": 50,
-      "weekDay": 1,
-      "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-08-02T11:30:00.000Z",
+      "weekDay": 2,
+      "dayNumber": 6,
+      "meetingDateTimeUTC": "2022-11-12T02:00:00.000Z",
       "courseDay": 94,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -7719,12 +7755,12 @@
         }
       }
     },
-    "06-08-2022": {
-      "courseDate": "06-08-2022",
-      "courseWeek": 50,
-      "weekDay": 2,
-      "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-08-06T02:00:00.000Z",
+    "15-11-2022": {
+      "courseDate": "15-11-2022",
+      "courseWeek": 51,
+      "weekDay": 1,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2022-11-15T11:30:00.000Z",
       "courseDay": 95,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -7807,24 +7843,12 @@
         }
       }
     },
-    "09-08-2022": {
-      "courseDay": null,
-      "courseDate": "09-08-2022",
+    "19-11-2022": {
+      "courseDate": "19-11-2022",
       "courseWeek": 51,
-      "dayNumber": 2,
-      "dateTypes": {
-        "holidayType": "public holiday",
-        "date": "09-08-2022",
-        "location": "SG",
-        "name": "National Day"
-      }
-    },
-    "13-08-2022": {
-      "courseDate": "13-08-2022",
-      "courseWeek": 51,
-      "weekDay": 1,
+      "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-08-13T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-11-19T02:00:00.000Z",
       "courseDay": 96,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -7918,12 +7942,12 @@
         }
       }
     },
-    "16-08-2022": {
-      "courseDate": "16-08-2022",
+    "22-11-2022": {
+      "courseDate": "22-11-2022",
       "courseWeek": 52,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-08-16T11:30:00.000Z",
+      "meetingDateTimeUTC": "2022-11-22T11:30:00.000Z",
       "courseDay": 97,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -7991,12 +8015,12 @@
         }
       }
     },
-    "20-08-2022": {
-      "courseDate": "20-08-2022",
+    "26-11-2022": {
+      "courseDate": "26-11-2022",
       "courseWeek": 52,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-08-20T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-11-26T02:00:00.000Z",
       "courseDay": 98,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -8079,12 +8103,12 @@
         }
       }
     },
-    "23-08-2022": {
-      "courseDate": "23-08-2022",
+    "29-11-2022": {
+      "courseDate": "29-11-2022",
       "courseWeek": 53,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-08-23T11:30:00.000Z",
+      "meetingDateTimeUTC": "2022-11-29T11:30:00.000Z",
       "courseDay": 99,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -8160,12 +8184,12 @@
         }
       }
     },
-    "27-08-2022": {
-      "courseDate": "27-08-2022",
+    "03-12-2022": {
+      "courseDate": "03-12-2022",
       "courseWeek": 53,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-08-27T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-12-03T02:00:00.000Z",
       "courseDay": 100,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -8252,12 +8276,12 @@
         }
       }
     },
-    "30-08-2022": {
-      "courseDate": "30-08-2022",
+    "06-12-2022": {
+      "courseDate": "06-12-2022",
       "courseWeek": 54,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-08-30T11:30:00.000Z",
+      "meetingDateTimeUTC": "2022-12-06T11:30:00.000Z",
       "courseDay": 101,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -8326,12 +8350,12 @@
         }
       }
     },
-    "03-09-2022": {
-      "courseDate": "03-09-2022",
+    "10-12-2022": {
+      "courseDate": "10-12-2022",
       "courseWeek": 54,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-09-03T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-12-10T02:00:00.000Z",
       "courseDay": 102,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -8400,12 +8424,12 @@
         }
       }
     },
-    "06-09-2022": {
-      "courseDate": "06-09-2022",
+    "13-12-2022": {
+      "courseDate": "13-12-2022",
       "courseWeek": 55,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-09-06T11:30:00.000Z",
+      "meetingDateTimeUTC": "2022-12-13T11:30:00.000Z",
       "courseDay": 103,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -8477,12 +8501,12 @@
         }
       }
     },
-    "10-09-2022": {
-      "courseDate": "10-09-2022",
+    "17-12-2022": {
+      "courseDate": "17-12-2022",
       "courseWeek": 55,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-09-10T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-12-17T02:00:00.000Z",
       "courseDay": 104,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -8543,12 +8567,12 @@
         }
       }
     },
-    "13-09-2022": {
-      "courseDate": "13-09-2022",
+    "20-12-2022": {
+      "courseDate": "20-12-2022",
       "courseWeek": 56,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-09-13T11:30:00.000Z",
+      "meetingDateTimeUTC": "2022-12-20T11:30:00.000Z",
       "courseDay": 105,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -8616,12 +8640,12 @@
         }
       }
     },
-    "17-09-2022": {
-      "courseDate": "17-09-2022",
+    "24-12-2022": {
+      "courseDate": "24-12-2022",
       "courseWeek": 56,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-09-17T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-12-24T02:00:00.000Z",
       "courseDay": 106,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -8722,12 +8746,12 @@
         }
       }
     },
-    "20-09-2022": {
-      "courseDate": "20-09-2022",
+    "27-12-2022": {
+      "courseDate": "27-12-2022",
       "courseWeek": 57,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-09-20T11:30:00.000Z",
+      "meetingDateTimeUTC": "2022-12-27T11:30:00.000Z",
       "courseDay": 107,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -8795,12 +8819,12 @@
         }
       }
     },
-    "24-09-2022": {
-      "courseDate": "24-09-2022",
+    "31-12-2022": {
+      "courseDate": "31-12-2022",
       "courseWeek": 57,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-09-24T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-12-31T02:00:00.000Z",
       "courseDay": 108,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -8889,12 +8913,12 @@
         }
       }
     },
-    "27-09-2022": {
-      "courseDate": "27-09-2022",
+    "03-01-2023": {
+      "courseDate": "03-01-2023",
       "courseWeek": 58,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-09-27T11:30:00.000Z",
+      "meetingDateTimeUTC": "2023-01-03T11:30:00.000Z",
       "courseDay": 109,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -8969,12 +8993,12 @@
         }
       }
     },
-    "01-10-2022": {
-      "courseDate": "01-10-2022",
+    "07-01-2023": {
+      "courseDate": "07-01-2023",
       "courseWeek": 58,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-10-01T02:00:00.000Z",
+      "meetingDateTimeUTC": "2023-01-07T02:00:00.000Z",
       "courseDay": 110,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -9063,12 +9087,12 @@
         }
       }
     },
-    "04-10-2022": {
-      "courseDate": "04-10-2022",
+    "10-01-2023": {
+      "courseDate": "10-01-2023",
       "courseWeek": 59,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-10-04T11:30:00.000Z",
+      "meetingDateTimeUTC": "2023-01-10T11:30:00.000Z",
       "courseDay": 111,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -9143,12 +9167,12 @@
         }
       }
     },
-    "08-10-2022": {
-      "courseDate": "08-10-2022",
+    "14-01-2023": {
+      "courseDate": "14-01-2023",
       "courseWeek": 59,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-10-08T02:00:00.000Z",
+      "meetingDateTimeUTC": "2023-01-14T02:00:00.000Z",
       "courseDay": 112,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -9223,12 +9247,12 @@
         }
       }
     },
-    "11-10-2022": {
-      "courseDate": "11-10-2022",
+    "17-01-2023": {
+      "courseDate": "17-01-2023",
       "courseWeek": 60,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-10-11T11:30:00.000Z",
+      "meetingDateTimeUTC": "2023-01-17T11:30:00.000Z",
       "courseDay": 113,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -9293,12 +9317,12 @@
         }
       }
     },
-    "15-10-2022": {
-      "courseDate": "15-10-2022",
+    "21-01-2023": {
+      "courseDate": "21-01-2023",
       "courseWeek": 60,
       "weekDay": 2,
       "dayNumber": 6,
-      "meetingDateTimeUTC": "2022-10-15T02:00:00.000Z",
+      "meetingDateTimeUTC": "2023-01-21T02:00:00.000Z",
       "courseDay": 114,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -9352,12 +9376,12 @@
         }
       }
     },
-    "18-10-2022": {
-      "courseDate": "18-10-2022",
+    "24-01-2023": {
+      "courseDate": "24-01-2023",
       "courseWeek": 61,
       "weekDay": 1,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-10-18T11:30:00.000Z",
+      "meetingDateTimeUTC": "2023-01-24T11:30:00.000Z",
       "courseDay": 115,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -9470,5 +9494,5 @@
       }
     }
   },
-  "courseName": "17-08-2021_18-10-2022_BATCH1"
+  "courseName": "16-11-2021_24-01-2023_BATCH2"
 }
