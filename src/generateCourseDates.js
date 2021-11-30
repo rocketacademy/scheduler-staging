@@ -2,6 +2,7 @@ import { DateTime } from 'luxon';
 import holidayData from './data/2021-sg-stat-holidays.json';
 import basicsData from './data/basics-course-days.json';
 import bootcampDataJson from './data/bootcamp-course-days.json';
+import ptbcDataJson from './data/ptbc-course-days.json';
 
 const publicHolidays = holidayData.PH;
 const publicHolidayArray = [];
@@ -55,21 +56,14 @@ const generateTopLevelObject = (courseType, topLevelObject, lessonDays, courseNa
             totalCourseDays: basicsData.totalCourseDays,
             ...topLevelObject
         };
-    } else if (courseType === 'Bootcamp FT' || courseType === 'Bootcamp PT') {
-        let bootcampDays;
-        // TODO:  this is to be removed when ftbc4 finishes
-        let startIndex;
+    } else {
+        const bootcampDays = bootcampData.daysOfWeek;       
+        let startIndex = bootcampData.courseStartIndex;
 
-        if (courseType === 'Bootcamp FT') {
-            bootcampDays = bootcampData.daysOfWeek.fullTime;
-            startIndex = bootcampData.courseStartIndex;
-            if (courseName === '4') {
-                startIndex = 4;
-            }
-        } else {
-            bootcampDays = bootcampData.daysOfWeek.partTime;
-            startIndex = bootcampData.courseStartIndex;
-        }
+        // TODO:  this is to be removed when ftbc4 finishes
+        if (courseType === 'Bootcamp FT' && courseName === '4') {
+            startIndex = 4;
+        } 
 
         topLevelObject = {
             daysOfWeek: bootcampDays,
@@ -148,8 +142,10 @@ const generateDataObject = (startDate, courseName, courseType, input, lessonDays
     // used if we are generating batch schedule straight after making changes to main json file
     if (input) {
         bootcampData = input;
-    } else {
+    } else if (courseType === 'Bootcamp FT') {
         bootcampData = bootcampDataJson;
+    } else if (courseType === 'Bootcamp PT') {
+        bootcampData = ptbcDataJson;
     }
 
     console.log('lesson days', lessonDays);
@@ -197,8 +193,10 @@ const generateDataObject = (startDate, courseName, courseType, input, lessonDays
     // set the number of course days based on course type
     if (courseType === 'Basics') {
         courseDayCount = 13;
-    } else if (courseType === 'Bootcamp FT' || courseType === 'Bootcamp PT') {
+    } else if (courseType === 'Bootcamp FT') {
         courseDayCount = 116;
+    } else if (courseType === 'Bootcamp PT') {
+        courseDayCount = 97;
     }
 
     const dayArray = data.daysOfWeek;
