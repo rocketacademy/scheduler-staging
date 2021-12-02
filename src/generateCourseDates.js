@@ -192,11 +192,11 @@ const generateDataObject = (startDate, courseName, courseType, input, lessonDays
 
     // set the number of course days based on course type
     if (courseType === 'Basics') {
-        courseDayCount = 13;
+        courseDayCount = basicsData.days.length;
     } else if (courseType === 'Bootcamp FT') {
-        courseDayCount = 116;
+        courseDayCount = bootcampDataJson.days.length;
     } else if (courseType === 'Bootcamp PT') {
-        courseDayCount = 97;
+        courseDayCount = ptbcDataJson.days.length;
     }
 
     const dayArray = data.daysOfWeek;
