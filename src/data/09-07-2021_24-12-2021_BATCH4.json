@@ -8697,27 +8697,20 @@
           "preClass": {
             "items": [
               {
-                "name": "A.10: Bit Manipulation - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.10-bit-manipulation#pre-class"
+                "name": "Bit Manipulation: Pre-class",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.12-bit-manipulation"
               }
             ]
           },
           "inClass": {
             "items": [
               {
-                "name": "A.10: Bit Manipulation - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.10-bit-manipulation#part-1"
+                "name": "Bit Manipulation: Part 1",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.12-bit-manipulation"
               }
             ]
           },
-          "postClass": {
-            "items": [
-              {
-                "name": "A.10: Bit Manipulation - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.10-bit-manipulation#part-1"
-              }
-            ]
-          }
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
@@ -8798,7 +8791,14 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Bit Manipulation - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.12-bit-manipulation"
+              }
+            ]
+          },
           "postClass": {}
         },
         "ux": {
