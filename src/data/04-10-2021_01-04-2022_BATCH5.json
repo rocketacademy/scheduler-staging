@@ -1,5 +1,11 @@
 {
-  "daysOfWeek": [1, 2, 3, 4, 5],
+  "daysOfWeek": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
   "courseStartIndex": 0,
   "totalCourseDays": 116,
   "courseType": "Bootcamp FT",
@@ -18,8 +24,14 @@
           "preClass": {},
           "inClass": {
             "items": [
-              { "name": "Day 1 Photo!", "url": "" },
-              { "name": "Course and Student Introductions", "url": "" }
+              {
+                "name": "Day 1 Photo!",
+                "url": ""
+              },
+              {
+                "name": "Course and Student Introductions",
+                "url": ""
+              }
             ]
           },
           "postClass": {}
@@ -36,7 +48,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -142,7 +159,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -189,7 +211,9 @@
           },
           "inClass": {
             "items": [
-              { "name": "Review 1 student's 1.POCE.1: Noodle Recipe Website" },
+              {
+                "name": "Review 1 student's 1.POCE.1: Noodle Recipe Website"
+              },
               {
                 "name": "1.ICE.1: Drawing DOM (continued)",
                 "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.ice-in-class-exercises/1.ice.1-drawing-dom"
@@ -224,7 +248,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -271,7 +300,10 @@
           },
           "inClass": {
             "items": [
-              { "name": "Review 1 student's 1.POCE.2: High Card", "url": "" },
+              {
+                "name": "Review 1 student's 1.POCE.2: High Card",
+                "url": ""
+              },
               {
                 "name": "1.ICE.2: Timeout / High Card Redux",
                 "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.ice-in-class-exercises/1.ice.2-high-card-redux"
@@ -306,7 +338,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -349,7 +386,9 @@
           },
           "inClass": {
             "items": [
-              { "name": "Review 1 student's 1.POCE.3: Match Game" },
+              {
+                "name": "Review 1 student's 1.POCE.3: Match Game"
+              },
               {
                 "name": "1.ICE.3: setInterval",
                 "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.ice-in-class-exercises/1.ice.3-setinterval"
@@ -388,7 +427,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -431,7 +475,10 @@
           },
           "inClass": {
             "items": [
-              { "name": "Review 1 student's 1.POCE.4: Timer", "url": "" }
+              {
+                "name": "Review 1 student's 1.POCE.4: Timer",
+                "url": ""
+              }
             ]
           },
           "postClass": {
@@ -466,7 +513,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -508,7 +560,11 @@
             ]
           },
           "inClass": {
-            "items": [{ "name": "Review 1 student's 1.POCE.5: Tic Tac Toe" }]
+            "items": [
+              {
+                "name": "Review 1 student's 1.POCE.5: Tic Tac Toe"
+              }
+            ]
           },
           "postClass": {}
         },
@@ -535,7 +591,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -612,7 +673,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -692,7 +758,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -765,7 +836,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -835,7 +911,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -898,7 +979,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1007,7 +1093,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1077,7 +1168,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1164,7 +1260,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1256,7 +1357,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1334,7 +1440,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1415,7 +1526,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1496,7 +1612,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1572,7 +1693,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1652,7 +1778,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1732,7 +1863,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1798,7 +1934,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1889,7 +2030,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2150,7 +2296,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2234,7 +2385,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2315,7 +2471,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2396,7 +2557,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2480,7 +2646,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2558,7 +2729,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2635,7 +2811,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2712,7 +2893,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2787,7 +2973,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2853,7 +3044,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2912,7 +3108,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2993,7 +3194,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3059,7 +3265,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3125,7 +3336,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3191,7 +3407,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3276,7 +3497,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3368,7 +3594,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3449,7 +3680,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3526,7 +3762,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3592,7 +3833,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3666,7 +3912,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3736,7 +3987,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3806,7 +4062,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3901,7 +4162,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3993,7 +4259,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4081,7 +4352,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4165,7 +4441,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4209,7 +4490,13 @@
               }
             ]
           },
-          "inClass": { "items": [{ "name": "AJAX Cards Redux" }] },
+          "inClass": {
+            "items": [
+              {
+                "name": "AJAX Cards Redux"
+              }
+            ]
+          },
           "postClass": {}
         },
         "css": {
@@ -4238,7 +4525,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4332,7 +4624,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4412,7 +4709,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4485,7 +4787,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4558,7 +4865,12 @@
           },
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4649,7 +4961,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4853,7 +5170,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4933,7 +5255,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -5031,7 +5358,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -5090,7 +5422,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -5186,7 +5523,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -5285,7 +5627,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -5369,7 +5716,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -5453,7 +5805,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -5557,7 +5914,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -5623,7 +5985,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -5710,7 +6077,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -5804,7 +6176,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -5863,7 +6240,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -5950,7 +6332,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -6023,7 +6410,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -6096,7 +6488,12 @@
           },
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -6193,7 +6590,12 @@
           },
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -6266,7 +6668,12 @@
           },
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -6292,7 +6699,9 @@
                 "name": "Project 4 Scrum",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
               },
-              { "name": "Project 4 In-Class Code Review" }
+              {
+                "name": "Project 4 In-Class Code Review"
+              }
             ]
           },
           "postClass": {
@@ -6340,7 +6749,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -6427,7 +6841,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -6507,7 +6926,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -6566,7 +6990,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -6662,7 +7091,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -6757,7 +7191,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -6837,7 +7276,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -6932,7 +7376,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -7019,7 +7468,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -7103,7 +7557,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -7183,7 +7642,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -7263,7 +7727,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -7343,7 +7812,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -7439,7 +7913,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -7527,7 +8006,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -7589,18 +8073,30 @@
         },
         "algos": {
           "type": "algos",
-          "preClass": {
+          "preClass": {},
+          "inClass": {
             "items": [
               {
-                "name": "A.9: Dynamic Programming - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.9-dynamic-programming#pre-class"
+                "name": "Graphs - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.5-data-structures/a.5.7-graphs"
               }
             ]
           },
+          "postClass": {
+            "items": [
+              {
+                "name": "Graphs - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.5-data-structures/a.5.7-graphs"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -7666,21 +8162,26 @@
           "inClass": {
             "items": [
               {
-                "name": "A.9: Dynamic Programming - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.9-dynamic-programming#part-1"
+                "name": "Graphs - Part 4",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.5-data-structures/a.5.7-graphs"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "A.9: Dynamic Programming - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.9-dynamic-programming#part-1"
+                "name": "Graphs - Part 4",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.5-data-structures/a.5.7-graphs"
               }
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -7753,25 +8254,37 @@
         },
         "algos": {
           "type": "algos",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "A.9: Dynamic Programming - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.9-dynamic-programming#pre-class"
+              }
+            ]
+          },
           "inClass": {
             "items": [
               {
-                "name": "A.9: Dynamic Programming - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.9-dynamic-programming#part-2"
+                "name": "A.9: Dynamic Programming - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.9-dynamic-programming#part-1"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "A.9: Dynamic Programming - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.9-dynamic-programming#part-2"
+                "name": "A.9: Dynamic Programming - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.9-dynamic-programming#part-1"
               }
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -7845,21 +8358,26 @@
           "inClass": {
             "items": [
               {
-                "name": "A.9: Dynamic Programming - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.9-dynamic-programming#part-3"
+                "name": "A.9: Dynamic Programming - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.9-dynamic-programming#part-2"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "A.9: Dynamic Programming - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.9-dynamic-programming#part-3"
+                "name": "A.9: Dynamic Programming - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.9-dynamic-programming#part-2"
               }
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -7914,40 +8432,30 @@
         },
         "algos": {
           "type": "algos",
-          "preClass": {
-            "items": [
-              {
-                "name": "A.10: Bit Manipulation - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.10-bit-manipulation#pre-class"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {
             "items": [
               {
-                "name": "Algorithms Open Practice",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.12-open-practice"
-              },
-              {
-                "name": "A.10: Bit Manipulation - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.10-bit-manipulation#part-1"
+                "name": "A.9: Dynamic Programming - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.9-dynamic-programming#part-3"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "Algorithms Open Practice",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.12-open-practice"
-              },
-              {
-                "name": "A.10: Bit Manipulation - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.10-bit-manipulation#part-1"
+                "name": "A.9: Dynamic Programming - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.9-dynamic-programming#part-3"
               }
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -8019,6 +8527,10 @@
               {
                 "name": "Algorithms Open Practice",
                 "url": "https://bootcamp.rocketacademy.co/algorithms/a.12-open-practice"
+              },
+              {
+                "name": "A.10: Bit Manipulation - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.10-bit-manipulation#part-1"
               }
             ]
           },
@@ -8027,11 +8539,20 @@
               {
                 "name": "Algorithms Open Practice",
                 "url": "https://bootcamp.rocketacademy.co/algorithms/a.12-open-practice"
+              },
+              {
+                "name": "A.10: Bit Manipulation - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.10-bit-manipulation#part-1"
               }
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -8086,7 +8607,14 @@
         },
         "algos": {
           "type": "algos",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "A.10: Bit Manipulation - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.10-bit-manipulation#pre-class"
+              }
+            ]
+          },
           "inClass": {
             "items": [
               {
@@ -8104,7 +8632,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -8192,7 +8725,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -8226,7 +8764,10 @@
                 "name": "Project 5 Video",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#video-demo"
               },
-              { "name": "Project 6 Exploration Time", "url": "" }
+              {
+                "name": "Project 6 Exploration Time",
+                "url": ""
+              }
             ]
           }
         }
@@ -8273,7 +8814,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -8318,7 +8864,10 @@
                 "name": "Project 6 Implementation",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
               },
-              { "name": "Project 6 Exploration Time", "url": "" }
+              {
+                "name": "Project 6 Exploration Time",
+                "url": ""
+              }
             ]
           }
         }
@@ -8365,7 +8914,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -8392,7 +8946,10 @@
                 "name": "Project 6 Implementation",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
               },
-              { "name": "Project 6 Exploration Time", "url": "" }
+              {
+                "name": "Project 6 Exploration Time",
+                "url": ""
+              }
             ]
           }
         }
@@ -8439,7 +8996,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -8466,7 +9028,10 @@
                 "name": "Project 6 Implementation",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
               },
-              { "name": "Project 6 Exploration Time", "url": "" }
+              {
+                "name": "Project 6 Exploration Time",
+                "url": ""
+              }
             ]
           }
         }
@@ -8513,7 +9078,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -8573,7 +9143,14 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Algorithms Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.12-open-practice"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
@@ -8583,7 +9160,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -8639,14 +9221,7 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Algorithms Open Practice",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.12-open-practice"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -8656,7 +9231,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -8729,7 +9309,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -8818,7 +9403,14 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Algorithms Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.12-open-practice"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
@@ -8828,7 +9420,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -8891,14 +9488,7 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Algorithms Open Practice",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.12-open-practice"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -8908,7 +9498,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {
@@ -9002,7 +9597,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -9082,7 +9682,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {
@@ -9176,7 +9781,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -9256,7 +9866,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {
@@ -9322,7 +9937,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -9378,10 +9998,29 @@
         "algos": {
           "type": "algos",
           "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Algorithms Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.12-open-practice"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Algorithms Open Practice",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.12-open-practice"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -9451,7 +10090,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -9564,7 +10208,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
