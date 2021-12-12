@@ -64,6 +64,13 @@
   width: 100%;
 }
 
+.data-button-container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .accordion-container {
   padding: 0 30px;
 }
