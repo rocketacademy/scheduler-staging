@@ -1,11 +1,5 @@
 {
-  "daysOfWeek": [
-    1,
-    2,
-    3,
-    4,
-    5
-  ],
+  "daysOfWeek": [1, 2, 3, 4, 5],
   "courseStartIndex": 0,
   "totalCourseDays": 116,
   "courseType": "Bootcamp FT",
@@ -24,14 +18,8 @@
           "preClass": {},
           "inClass": {
             "items": [
-              {
-                "name": "Day 1 Photo!",
-                "url": ""
-              },
-              {
-                "name": "Course and Student Introductions",
-                "url": ""
-              }
+              { "name": "Day 1 Photo!", "url": "" },
+              { "name": "Course and Student Introductions", "url": "" }
             ]
           },
           "postClass": {}
@@ -48,12 +36,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -159,12 +142,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -211,9 +189,7 @@
           },
           "inClass": {
             "items": [
-              {
-                "name": "Review 1 student's 1.POCE.1: Noodle Recipe Website"
-              },
+              { "name": "Review 1 student's 1.POCE.1: Noodle Recipe Website" },
               {
                 "name": "1.ICE.1: Drawing DOM (continued)",
                 "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.ice-in-class-exercises/1.ice.1-drawing-dom"
@@ -248,12 +224,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -300,10 +271,7 @@
           },
           "inClass": {
             "items": [
-              {
-                "name": "Review 1 student's 1.POCE.2: High Card",
-                "url": ""
-              },
+              { "name": "Review 1 student's 1.POCE.2: High Card", "url": "" },
               {
                 "name": "1.ICE.2: Timeout / High Card Redux",
                 "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.ice-in-class-exercises/1.ice.2-high-card-redux"
@@ -338,12 +306,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -386,9 +349,7 @@
           },
           "inClass": {
             "items": [
-              {
-                "name": "Review 1 student's 1.POCE.3: Match Game"
-              },
+              { "name": "Review 1 student's 1.POCE.3: Match Game" },
               {
                 "name": "1.ICE.3: setInterval",
                 "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.ice-in-class-exercises/1.ice.3-setinterval"
@@ -427,12 +388,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -475,10 +431,7 @@
           },
           "inClass": {
             "items": [
-              {
-                "name": "Review 1 student's 1.POCE.4: Timer",
-                "url": ""
-              }
+              { "name": "Review 1 student's 1.POCE.4: Timer", "url": "" }
             ]
           },
           "postClass": {
@@ -513,12 +466,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -560,11 +508,7 @@
             ]
           },
           "inClass": {
-            "items": [
-              {
-                "name": "Review 1 student's 1.POCE.5: Tic Tac Toe"
-              }
-            ]
+            "items": [{ "name": "Review 1 student's 1.POCE.5: Tic Tac Toe" }]
           },
           "postClass": {}
         },
@@ -591,12 +535,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -660,8 +599,8 @@
           "inClass": {
             "items": [
               {
-                "name": "1.ICE.CSS.1: Straits Times",
-                "url": "https://bootcamp.rocketacademy.co/css/1.ice.css-in-class-css-exercises/1.ice.css.1-straits-times-css"
+                "name": "CSS.ICE.1: Straits Times",
+                "url": "https://bootcamp.rocketacademy.co/css/css.ice-in-class-exercises/css.ice.1-straits-times-css"
               }
             ]
           },
@@ -673,12 +612,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -745,8 +679,8 @@
           "inClass": {
             "items": [
               {
-                "name": "1.ICE.CSS.2: Wikipedia",
-                "url": "https://bootcamp.rocketacademy.co/css/1.ice.css-in-class-css-exercises/1.ice.css.2-css-practice-6-wikipedia"
+                "name": "CSS.ICE.2: Wikipedia",
+                "url": "https://bootcamp.rocketacademy.co/css/css.ice-in-class-exercises/css.ice.2-wikipedia"
               }
             ]
           },
@@ -758,12 +692,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -823,8 +752,8 @@
           "inClass": {
             "items": [
               {
-                "name": "1.ICE.CSS.4: Etsy",
-                "url": "https://bootcamp.rocketacademy.co/css/1.ice.css-in-class-css-exercises/1.ice.css.4-etsy-css"
+                "name": "CSS.ICE.4: Etsy",
+                "url": "https://bootcamp.rocketacademy.co/css/css.ice-in-class-exercises/css.ice.4-etsy"
               }
             ]
           },
@@ -836,12 +765,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -911,12 +835,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -979,12 +898,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1081,8 +995,8 @@
           "postClass": {
             "items": [
               {
-                "name": "1.POCE.6: CSS Flexbox",
-                "url": "https://bootcamp.rocketacademy.co/css/1.poce.css-post-class-css-exercises/1.poce.css.1-technical-documentation-page-flexbox-responsive"
+                "name": "CSS.POCE.1: Flexbox Docs Page",
+                "url": "https://bootcamp.rocketacademy.co/css/css.poce-post-class-exercises/css.poce.1-flexbox-docs-page"
               }
             ]
           }
@@ -1093,12 +1007,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1168,12 +1077,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1248,8 +1152,8 @@
           "postClass": {
             "items": [
               {
-                "name": "1.POCE.8: Flexbox Personal Page",
-                "url": "https://bootcamp.rocketacademy.co/css/1.poce.css-post-class-css-exercises/1.poce.css.2-flexbox-personal-page"
+                "name": "CSS.POCE.2: Flexbox Personal Page",
+                "url": "https://bootcamp.rocketacademy.co/css/css.poce-post-class-exercises/css.poce.2-flexbox-personal-page"
               }
             ]
           }
@@ -1260,12 +1164,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1345,8 +1244,8 @@
           "postClass": {
             "items": [
               {
-                "name": "1.POCE.9: Bootstrap",
-                "url": "https://bootcamp.rocketacademy.co/css/1.poce.css-post-class-css-exercises/1.poce.css.3-bootstrap-columns"
+                "name": "CSS.POCE.3: Bootstrap Columns",
+                "url": "https://bootcamp.rocketacademy.co/css/css.poce-post-class-exercises/css.poce.3-bootstrap-columns"
               }
             ]
           }
@@ -1357,12 +1256,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1440,12 +1334,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1514,8 +1403,8 @@
           "postClass": {
             "items": [
               {
-                "name": "1.POCE.10: Bootstrap Adobe",
-                "url": "https://bootcamp.rocketacademy.co/css/1.poce.css-post-class-css-exercises/1.poce.css.4-bootstrap-adobe"
+                "name": "CSS.POCE.4: Bootstrap Adobe",
+                "url": "https://bootcamp.rocketacademy.co/css/css.poce-post-class-exercises/css.poce.4-bootstrap-adobe"
               }
             ]
           }
@@ -1526,12 +1415,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1599,8 +1483,8 @@
           "inClass": {
             "items": [
               {
-                "name": "1.POCE.10: Bootstrap Adobe",
-                "url": "https://bootcamp.rocketacademy.co/css/1.poce.css-post-class-css-exercises/1.poce.css.4-bootstrap-adobe"
+                "name": "CSS.POCE.4: Bootstrap Adobe",
+                "url": "https://bootcamp.rocketacademy.co/css/css.poce-post-class-exercises/css.poce.4-bootstrap-adobe"
               }
             ]
           },
@@ -1612,12 +1496,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1693,12 +1572,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1778,12 +1652,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1863,12 +1732,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1934,12 +1798,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1997,8 +1856,8 @@
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
               },
               {
-                "name": "1.ICE.7: CSS Practice 1 - MyTunes",
-                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.ice-in-class-exercises/1.ice.7-css-practice-1-mytunes"
+                "name": "CSS.ICE.3: MyTunes",
+                "url": "https://bootcamp.rocketacademy.co/css/css.ice-in-class-exercises/css.ice.3-mytunes"
               }
             ]
           },
@@ -2017,8 +1876,8 @@
           "inClass": {
             "items": [
               {
-                "name": "1.ICE.CSS.4: MyTunes",
-                "url": "https://bootcamp.rocketacademy.co/css/1.ice.css-in-class-css-exercises/1.ice.css.3-mytunes"
+                "name": "CSS.ICE.3: MyTunes",
+                "url": "https://bootcamp.rocketacademy.co/css/css.ice-in-class-exercises/css.ice.3-mytunes"
               }
             ]
           },
@@ -2030,12 +1889,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2107,8 +1961,8 @@
           "inClass": {
             "items": [
               {
-                "name": "1.ICE.CSS.4: MyTunes",
-                "url": "https://bootcamp.rocketacademy.co/css/1.ice.css-in-class-css-exercises/1.ice.css.3-mytunes"
+                "name": "CSS.ICE.3: MyTunes",
+                "url": "https://bootcamp.rocketacademy.co/css/css.ice-in-class-exercises/css.ice.3-mytunes"
               }
             ]
           },
@@ -2296,12 +2150,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2385,12 +2234,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2471,12 +2315,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2557,12 +2396,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2646,12 +2480,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2729,12 +2558,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2811,12 +2635,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2893,12 +2712,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2973,12 +2787,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3031,8 +2840,8 @@
           "inClass": {
             "items": [
               {
-                "name": "1.ICE.CSS.5: Restaurant",
-                "url": "https://bootcamp.rocketacademy.co/css/1.ice.css-in-class-css-exercises/1.ice.css.5-restaurant"
+                "name": "CSS.ICE.5: Restaurant",
+                "url": "https://bootcamp.rocketacademy.co/css/css.ice-in-class-exercises/css.ice.5-restaurant"
               }
             ]
           },
@@ -3044,12 +2853,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3108,12 +2912,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3181,8 +2980,8 @@
           "inClass": {
             "items": [
               {
-                "name": "1.ICE.CSS.6: NTU",
-                "url": "https://bootcamp.rocketacademy.co/css/1.ice.css-in-class-css-exercises/1.ice.css.6-ntu"
+                "name": "CSS.ICE.6: NTU",
+                "url": "https://bootcamp.rocketacademy.co/css/css.ice-in-class-exercises/css.ice.6-ntu"
               }
             ]
           },
@@ -3194,12 +2993,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3252,8 +3046,8 @@
           "inClass": {
             "items": [
               {
-                "name": "1.ICE.CSS.7: Zillow",
-                "url": "https://bootcamp.rocketacademy.co/css/1.ice.css-in-class-css-exercises/1.ice.css.7-zillow"
+                "name": "CSS.ICE.7: Zillow",
+                "url": "https://bootcamp.rocketacademy.co/css/css.ice-in-class-exercises/css.ice.7-zillow"
               }
             ]
           },
@@ -3265,12 +3059,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3323,8 +3112,8 @@
           "inClass": {
             "items": [
               {
-                "name": "1.ICE.CSS.8: Chase Bank",
-                "url": "https://bootcamp.rocketacademy.co/css/1.ice.css-in-class-css-exercises/1.ice.css.8-chase-bank"
+                "name": "CSS.ICE.8: Chase Bank",
+                "url": "https://bootcamp.rocketacademy.co/css/css.ice-in-class-exercises/css.ice.8-chase-bank"
               }
             ]
           },
@@ -3336,12 +3125,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3407,12 +3191,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3497,12 +3276,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3594,12 +3368,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3680,12 +3449,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3762,12 +3526,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3833,12 +3592,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3912,12 +3666,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3987,12 +3736,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4062,12 +3806,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4162,12 +3901,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4259,12 +3993,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4352,12 +4081,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4441,12 +4165,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4490,13 +4209,7 @@
               }
             ]
           },
-          "inClass": {
-            "items": [
-              {
-                "name": "AJAX Cards Redux"
-              }
-            ]
-          },
+          "inClass": { "items": [{ "name": "AJAX Cards Redux" }] },
           "postClass": {}
         },
         "css": {
@@ -4525,12 +4238,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4624,12 +4332,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4709,12 +4412,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4787,12 +4485,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4865,12 +4558,7 @@
           },
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4961,12 +4649,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -5070,71 +4753,11 @@
       }
     },
     "03-01-2022": {
-      "courseDay": null,
       "courseDate": "03-01-2022",
-      "courseWeek": null,
-      "dayNumber": 1,
-      "dateTypes": {
-        "holidayType": "company holiday",
-        "date": "03-01-2022",
-        "location": "SG",
-        "name": "winter break"
-      }
-    },
-    "04-01-2022": {
-      "courseDay": null,
-      "courseDate": "04-01-2022",
-      "courseWeek": null,
-      "dayNumber": 2,
-      "dateTypes": {
-        "holidayType": "company holiday",
-        "date": "04-01-2022",
-        "location": "SG",
-        "name": "winter break"
-      }
-    },
-    "05-01-2022": {
-      "courseDay": null,
-      "courseDate": "05-01-2022",
-      "courseWeek": null,
-      "dayNumber": 3,
-      "dateTypes": {
-        "holidayType": "company holiday",
-        "date": "05-01-2022",
-        "location": "SG",
-        "name": "winter break"
-      }
-    },
-    "06-01-2022": {
-      "courseDay": null,
-      "courseDate": "06-01-2022",
-      "courseWeek": null,
-      "dayNumber": 4,
-      "dateTypes": {
-        "holidayType": "company holiday",
-        "date": "06-01-2022",
-        "location": "SG",
-        "name": "winter break"
-      }
-    },
-    "07-01-2022": {
-      "courseDay": null,
-      "courseDate": "07-01-2022",
-      "courseWeek": null,
-      "dayNumber": 5,
-      "dateTypes": {
-        "holidayType": "company holiday",
-        "date": "07-01-2022",
-        "location": "SG",
-        "name": "winter break"
-      }
-    },
-    "10-01-2022": {
-      "courseDate": "10-01-2022",
       "courseWeek": 13,
       "weekDay": 1,
       "dayNumber": 1,
-      "meetingDateTimeUTC": "2022-01-10T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-01-03T02:00:00.000Z",
       "courseDay": 59,
       "dateTypes": {
         "module": "Module 6: Frontend Infrastructure",
@@ -5170,12 +4793,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -5207,12 +4825,12 @@
         }
       }
     },
-    "11-01-2022": {
-      "courseDate": "11-01-2022",
+    "04-01-2022": {
+      "courseDate": "04-01-2022",
       "courseWeek": 13,
       "weekDay": 2,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-01-11T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-01-04T02:00:00.000Z",
       "courseDay": 60,
       "dateTypes": {
         "module": "Module 6: Frontend Infrastructure",
@@ -5255,12 +4873,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -5303,12 +4916,12 @@
         }
       }
     },
-    "12-01-2022": {
-      "courseDate": "12-01-2022",
+    "05-01-2022": {
+      "courseDate": "05-01-2022",
       "courseWeek": 13,
       "weekDay": 3,
       "dayNumber": 3,
-      "meetingDateTimeUTC": "2022-01-12T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-01-05T02:00:00.000Z",
       "courseDay": 61,
       "dateTypes": {
         "module": "Module 6: Frontend Infrastructure",
@@ -5358,12 +4971,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -5395,12 +5003,12 @@
         }
       }
     },
-    "13-01-2022": {
-      "courseDate": "13-01-2022",
+    "06-01-2022": {
+      "courseDate": "06-01-2022",
       "courseWeek": 13,
       "weekDay": 4,
       "dayNumber": 4,
-      "meetingDateTimeUTC": "2022-01-13T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-01-06T02:00:00.000Z",
       "courseDay": 62,
       "dateTypes": {
         "module": "Module 6: Frontend Infrastructure",
@@ -5422,12 +5030,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -5463,12 +5066,12 @@
         }
       }
     },
-    "14-01-2022": {
-      "courseDate": "14-01-2022",
+    "07-01-2022": {
+      "courseDate": "07-01-2022",
       "courseWeek": 13,
       "weekDay": 5,
       "dayNumber": 5,
-      "meetingDateTimeUTC": "2022-01-14T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-01-07T02:00:00.000Z",
       "courseDay": 63,
       "dateTypes": {
         "module": "Module 7: React",
@@ -5523,12 +5126,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -5560,12 +5158,12 @@
         }
       }
     },
-    "17-01-2022": {
-      "courseDate": "17-01-2022",
+    "10-01-2022": {
+      "courseDate": "10-01-2022",
       "courseWeek": 14,
       "weekDay": 1,
       "dayNumber": 1,
-      "meetingDateTimeUTC": "2022-01-17T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-01-10T02:00:00.000Z",
       "courseDay": 64,
       "dateTypes": {
         "module": "Module 7: React",
@@ -5627,12 +5225,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -5657,12 +5250,12 @@
         }
       }
     },
-    "18-01-2022": {
-      "courseDate": "18-01-2022",
+    "11-01-2022": {
+      "courseDate": "11-01-2022",
       "courseWeek": 14,
       "weekDay": 2,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-01-18T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-01-11T02:00:00.000Z",
       "courseDay": 65,
       "dateTypes": {
         "module": "Module 7: React",
@@ -5716,12 +5309,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -5746,12 +5334,12 @@
         }
       }
     },
-    "19-01-2022": {
-      "courseDate": "19-01-2022",
+    "12-01-2022": {
+      "courseDate": "12-01-2022",
       "courseWeek": 14,
       "weekDay": 3,
       "dayNumber": 3,
-      "meetingDateTimeUTC": "2022-01-19T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-01-12T02:00:00.000Z",
       "courseDay": 66,
       "dateTypes": {
         "module": "Module 7: React",
@@ -5805,12 +5393,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -5844,12 +5427,12 @@
         }
       }
     },
-    "20-01-2022": {
-      "courseDate": "20-01-2022",
+    "13-01-2022": {
+      "courseDate": "13-01-2022",
       "courseWeek": 14,
       "weekDay": 4,
       "dayNumber": 4,
-      "meetingDateTimeUTC": "2022-01-20T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-01-13T02:00:00.000Z",
       "courseDay": 67,
       "dateTypes": {
         "module": "Module 7: React",
@@ -5914,12 +5497,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -5944,12 +5522,12 @@
         }
       }
     },
-    "21-01-2022": {
-      "courseDate": "21-01-2022",
+    "14-01-2022": {
+      "courseDate": "14-01-2022",
       "courseWeek": 14,
       "weekDay": 5,
       "dayNumber": 5,
-      "meetingDateTimeUTC": "2022-01-21T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-01-14T02:00:00.000Z",
       "courseDay": 68,
       "dateTypes": {
         "module": "Module 7: React",
@@ -5985,12 +5563,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -6015,12 +5588,12 @@
         }
       }
     },
-    "24-01-2022": {
-      "courseDate": "24-01-2022",
+    "17-01-2022": {
+      "courseDate": "17-01-2022",
       "courseWeek": 15,
       "weekDay": 1,
       "dayNumber": 1,
-      "meetingDateTimeUTC": "2022-01-24T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-01-17T02:00:00.000Z",
       "courseDay": 69,
       "dateTypes": {
         "module": "Module 7: React",
@@ -6077,12 +5650,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -6114,12 +5682,12 @@
         }
       }
     },
-    "25-01-2022": {
-      "courseDate": "25-01-2022",
+    "18-01-2022": {
+      "courseDate": "18-01-2022",
       "courseWeek": 15,
       "weekDay": 2,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-01-25T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-01-18T02:00:00.000Z",
       "courseDay": 70,
       "dateTypes": {
         "module": "Module 7: React",
@@ -6176,12 +5744,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -6206,12 +5769,12 @@
         }
       }
     },
-    "26-01-2022": {
-      "courseDate": "26-01-2022",
+    "19-01-2022": {
+      "courseDate": "19-01-2022",
       "courseWeek": 15,
       "weekDay": 3,
       "dayNumber": 3,
-      "meetingDateTimeUTC": "2022-01-26T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-01-19T02:00:00.000Z",
       "courseDay": 71,
       "dateTypes": {
         "module": "Module 7: React",
@@ -6240,12 +5803,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -6291,12 +5849,12 @@
         }
       }
     },
-    "27-01-2022": {
-      "courseDate": "27-01-2022",
+    "20-01-2022": {
+      "courseDate": "20-01-2022",
       "courseWeek": 15,
       "weekDay": 4,
       "dayNumber": 4,
-      "meetingDateTimeUTC": "2022-01-27T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-01-20T02:00:00.000Z",
       "courseDay": 72,
       "dateTypes": {
         "module": "Module 7: React",
@@ -6332,12 +5890,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -6369,12 +5922,12 @@
         }
       }
     },
-    "28-01-2022": {
-      "courseDate": "28-01-2022",
+    "21-01-2022": {
+      "courseDate": "21-01-2022",
       "courseWeek": 15,
       "weekDay": 5,
       "dayNumber": 5,
-      "meetingDateTimeUTC": "2022-01-28T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-01-21T02:00:00.000Z",
       "courseDay": 73,
       "dateTypes": {
         "module": "Module 7: React",
@@ -6410,12 +5963,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -6447,12 +5995,12 @@
         }
       }
     },
-    "31-01-2022": {
-      "courseDate": "31-01-2022",
+    "24-01-2022": {
+      "courseDate": "24-01-2022",
       "courseWeek": 16,
       "weekDay": 1,
       "dayNumber": 1,
-      "meetingDateTimeUTC": "2022-01-31T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-01-24T02:00:00.000Z",
       "courseDay": 74,
       "dateTypes": {
         "module": "Module 7: React",
@@ -6488,12 +6036,7 @@
           },
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -6525,36 +6068,12 @@
         }
       }
     },
-    "01-02-2022": {
-      "courseDay": null,
-      "courseDate": "01-02-2022",
-      "courseWeek": 16,
-      "dayNumber": 2,
-      "dateTypes": {
-        "holidayType": "public holiday",
-        "date": "01-02-2022",
-        "location": "SG",
-        "name": "Chinese New Year Day 1"
-      }
-    },
-    "02-02-2022": {
-      "courseDay": null,
-      "courseDate": "02-02-2022",
-      "courseWeek": 16,
-      "dayNumber": 3,
-      "dateTypes": {
-        "holidayType": "public holiday",
-        "date": "02-02-2022",
-        "location": "SG",
-        "name": "Chinese New Year Day 2"
-      }
-    },
-    "03-02-2022": {
-      "courseDate": "03-02-2022",
+    "25-01-2022": {
+      "courseDate": "25-01-2022",
       "courseWeek": 16,
       "weekDay": 2,
-      "dayNumber": 4,
-      "meetingDateTimeUTC": "2022-02-03T02:00:00.000Z",
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2022-01-25T02:00:00.000Z",
       "courseDay": 75,
       "dateTypes": {
         "module": "Module 7: React",
@@ -6590,12 +6109,7 @@
           },
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -6627,12 +6141,12 @@
         }
       }
     },
-    "04-02-2022": {
-      "courseDate": "04-02-2022",
+    "26-01-2022": {
+      "courseDate": "26-01-2022",
       "courseWeek": 16,
       "weekDay": 3,
-      "dayNumber": 5,
-      "meetingDateTimeUTC": "2022-02-04T02:00:00.000Z",
+      "dayNumber": 3,
+      "meetingDateTimeUTC": "2022-01-26T02:00:00.000Z",
       "courseDay": 76,
       "dateTypes": {
         "module": "Module 7: React",
@@ -6668,12 +6182,7 @@
           },
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -6699,9 +6208,7 @@
                 "name": "Project 4 Scrum",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
               },
-              {
-                "name": "Project 4 In-Class Code Review"
-              }
+              { "name": "Project 4 In-Class Code Review" }
             ]
           },
           "postClass": {
@@ -6715,12 +6222,12 @@
         }
       }
     },
-    "07-02-2022": {
-      "courseDate": "07-02-2022",
-      "courseWeek": 17,
-      "weekDay": 1,
-      "dayNumber": 1,
-      "meetingDateTimeUTC": "2022-02-07T02:00:00.000Z",
+    "27-01-2022": {
+      "courseDate": "27-01-2022",
+      "courseWeek": 16,
+      "weekDay": 4,
+      "dayNumber": 4,
+      "meetingDateTimeUTC": "2022-01-27T02:00:00.000Z",
       "courseDay": 77,
       "dateTypes": {
         "module": "Module 7: React",
@@ -6749,12 +6256,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -6793,12 +6295,12 @@
         }
       }
     },
-    "08-02-2022": {
-      "courseDate": "08-02-2022",
-      "courseWeek": 17,
-      "weekDay": 2,
-      "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-02-08T02:00:00.000Z",
+    "28-01-2022": {
+      "courseDate": "28-01-2022",
+      "courseWeek": 16,
+      "weekDay": 5,
+      "dayNumber": 5,
+      "meetingDateTimeUTC": "2022-01-28T02:00:00.000Z",
       "courseDay": 78,
       "dateTypes": {
         "module": "Module 7: React",
@@ -6841,12 +6343,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -6878,12 +6375,12 @@
         }
       }
     },
-    "09-02-2022": {
-      "courseDate": "09-02-2022",
+    "31-01-2022": {
+      "courseDate": "31-01-2022",
       "courseWeek": 17,
-      "weekDay": 3,
-      "dayNumber": 3,
-      "meetingDateTimeUTC": "2022-02-09T02:00:00.000Z",
+      "weekDay": 1,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2022-01-31T02:00:00.000Z",
       "courseDay": 79,
       "dateTypes": {
         "module": "Module 7: React",
@@ -6926,12 +6423,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -6963,12 +6455,36 @@
         }
       }
     },
-    "10-02-2022": {
-      "courseDate": "10-02-2022",
+    "01-02-2022": {
+      "courseDay": null,
+      "courseDate": "01-02-2022",
       "courseWeek": 17,
-      "weekDay": 4,
+      "dayNumber": 2,
+      "dateTypes": {
+        "holidayType": "public holiday",
+        "date": "01-02-2022",
+        "location": "SG",
+        "name": "Chinese New Year Day 1"
+      }
+    },
+    "02-02-2022": {
+      "courseDay": null,
+      "courseDate": "02-02-2022",
+      "courseWeek": 17,
+      "dayNumber": 3,
+      "dateTypes": {
+        "holidayType": "public holiday",
+        "date": "02-02-2022",
+        "location": "SG",
+        "name": "Chinese New Year Day 2"
+      }
+    },
+    "03-02-2022": {
+      "courseDate": "03-02-2022",
+      "courseWeek": 17,
+      "weekDay": 2,
       "dayNumber": 4,
-      "meetingDateTimeUTC": "2022-02-10T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-02-03T02:00:00.000Z",
       "courseDay": 80,
       "dateTypes": {
         "module": "Module 7: React",
@@ -6990,12 +6506,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -7031,12 +6542,12 @@
         }
       }
     },
-    "11-02-2022": {
-      "courseDate": "11-02-2022",
+    "04-02-2022": {
+      "courseDate": "04-02-2022",
       "courseWeek": 17,
-      "weekDay": 5,
+      "weekDay": 3,
       "dayNumber": 5,
-      "meetingDateTimeUTC": "2022-02-11T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-02-04T02:00:00.000Z",
       "courseDay": 81,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -7091,12 +6602,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -7121,12 +6627,12 @@
         }
       }
     },
-    "14-02-2022": {
-      "courseDate": "14-02-2022",
+    "07-02-2022": {
+      "courseDate": "07-02-2022",
       "courseWeek": 18,
       "weekDay": 1,
       "dayNumber": 1,
-      "meetingDateTimeUTC": "2022-02-14T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-02-07T02:00:00.000Z",
       "courseDay": 82,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -7191,12 +6697,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -7221,12 +6722,12 @@
         }
       }
     },
-    "15-02-2022": {
-      "courseDate": "15-02-2022",
+    "08-02-2022": {
+      "courseDate": "08-02-2022",
       "courseWeek": 18,
       "weekDay": 2,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-02-15T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-02-08T02:00:00.000Z",
       "courseDay": 83,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -7276,12 +6777,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -7313,12 +6809,12 @@
         }
       }
     },
-    "16-02-2022": {
-      "courseDate": "16-02-2022",
+    "09-02-2022": {
+      "courseDate": "09-02-2022",
       "courseWeek": 18,
       "weekDay": 3,
       "dayNumber": 3,
-      "meetingDateTimeUTC": "2022-02-16T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-02-09T02:00:00.000Z",
       "courseDay": 84,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -7376,12 +6872,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -7406,12 +6897,12 @@
         }
       }
     },
-    "17-02-2022": {
-      "courseDate": "17-02-2022",
+    "10-02-2022": {
+      "courseDate": "10-02-2022",
       "courseWeek": 18,
       "weekDay": 4,
       "dayNumber": 4,
-      "meetingDateTimeUTC": "2022-02-17T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-02-10T02:00:00.000Z",
       "courseDay": 85,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -7468,12 +6959,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -7498,12 +6984,12 @@
         }
       }
     },
-    "18-02-2022": {
-      "courseDate": "18-02-2022",
+    "11-02-2022": {
+      "courseDate": "11-02-2022",
       "courseWeek": 18,
       "weekDay": 5,
       "dayNumber": 5,
-      "meetingDateTimeUTC": "2022-02-18T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-02-11T02:00:00.000Z",
       "courseDay": 86,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -7557,12 +7043,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -7594,12 +7075,12 @@
         }
       }
     },
-    "21-02-2022": {
-      "courseDate": "21-02-2022",
+    "14-02-2022": {
+      "courseDate": "14-02-2022",
       "courseWeek": 19,
       "weekDay": 1,
       "dayNumber": 1,
-      "meetingDateTimeUTC": "2022-02-21T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-02-14T02:00:00.000Z",
       "courseDay": 87,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -7642,12 +7123,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -7672,12 +7148,12 @@
         }
       }
     },
-    "22-02-2022": {
-      "courseDate": "22-02-2022",
+    "15-02-2022": {
+      "courseDate": "15-02-2022",
       "courseWeek": 19,
       "weekDay": 2,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-02-22T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-02-15T02:00:00.000Z",
       "courseDay": 88,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -7727,12 +7203,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -7757,12 +7228,12 @@
         }
       }
     },
-    "23-02-2022": {
-      "courseDate": "23-02-2022",
+    "16-02-2022": {
+      "courseDate": "16-02-2022",
       "courseWeek": 19,
       "weekDay": 3,
       "dayNumber": 3,
-      "meetingDateTimeUTC": "2022-02-23T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-02-16T02:00:00.000Z",
       "courseDay": 89,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -7812,12 +7283,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -7856,12 +7322,12 @@
         }
       }
     },
-    "24-02-2022": {
-      "courseDate": "24-02-2022",
+    "17-02-2022": {
+      "courseDate": "17-02-2022",
       "courseWeek": 19,
       "weekDay": 4,
       "dayNumber": 4,
-      "meetingDateTimeUTC": "2022-02-24T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-02-17T02:00:00.000Z",
       "courseDay": 90,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -7913,12 +7379,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -7950,12 +7411,12 @@
         }
       }
     },
-    "25-02-2022": {
-      "courseDate": "25-02-2022",
+    "18-02-2022": {
+      "courseDate": "18-02-2022",
       "courseWeek": 19,
       "weekDay": 5,
       "dayNumber": 5,
-      "meetingDateTimeUTC": "2022-02-25T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-02-18T02:00:00.000Z",
       "courseDay": 91,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -8006,12 +7467,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -8043,12 +7499,12 @@
         }
       }
     },
-    "28-02-2022": {
-      "courseDate": "28-02-2022",
+    "21-02-2022": {
+      "courseDate": "21-02-2022",
       "courseWeek": 20,
       "weekDay": 1,
       "dayNumber": 1,
-      "meetingDateTimeUTC": "2022-02-28T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-02-21T02:00:00.000Z",
       "courseDay": 92,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -8091,12 +7547,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -8128,12 +7579,12 @@
         }
       }
     },
-    "01-03-2022": {
-      "courseDate": "01-03-2022",
+    "22-02-2022": {
+      "courseDate": "22-02-2022",
       "courseWeek": 20,
       "weekDay": 2,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-03-01T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-02-22T02:00:00.000Z",
       "courseDay": 93,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -8176,12 +7627,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -8224,12 +7670,12 @@
         }
       }
     },
-    "02-03-2022": {
-      "courseDate": "02-03-2022",
+    "23-02-2022": {
+      "courseDate": "23-02-2022",
       "courseWeek": 20,
       "weekDay": 3,
       "dayNumber": 3,
-      "meetingDateTimeUTC": "2022-03-02T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-02-23T02:00:00.000Z",
       "courseDay": 94,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -8279,12 +7725,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -8316,12 +7757,12 @@
         }
       }
     },
-    "03-03-2022": {
-      "courseDate": "03-03-2022",
+    "24-02-2022": {
+      "courseDate": "24-02-2022",
       "courseWeek": 20,
       "weekDay": 4,
       "dayNumber": 4,
-      "meetingDateTimeUTC": "2022-03-03T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-02-24T02:00:00.000Z",
       "courseDay": 95,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -8372,12 +7813,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -8409,12 +7845,12 @@
         }
       }
     },
-    "04-03-2022": {
-      "courseDate": "04-03-2022",
+    "25-02-2022": {
+      "courseDate": "25-02-2022",
       "courseWeek": 20,
       "weekDay": 5,
       "dayNumber": 5,
-      "meetingDateTimeUTC": "2022-03-04T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-02-25T02:00:00.000Z",
       "courseDay": 96,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -8450,12 +7886,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -8498,12 +7929,12 @@
         }
       }
     },
-    "07-03-2022": {
-      "courseDate": "07-03-2022",
+    "28-02-2022": {
+      "courseDate": "28-02-2022",
       "courseWeek": 21,
       "weekDay": 1,
       "dayNumber": 1,
-      "meetingDateTimeUTC": "2022-03-07T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-02-28T02:00:00.000Z",
       "courseDay": 97,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -8547,12 +7978,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -8584,12 +8010,12 @@
         }
       }
     },
-    "08-03-2022": {
-      "courseDate": "08-03-2022",
+    "01-03-2022": {
+      "courseDate": "01-03-2022",
       "courseWeek": 21,
       "weekDay": 2,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-03-08T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-03-01T02:00:00.000Z",
       "courseDay": 98,
       "dateTypes": {
         "module": "Module 8: Advanced React",
@@ -8632,12 +8058,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -8684,12 +8105,12 @@
         }
       }
     },
-    "09-03-2022": {
-      "courseDate": "09-03-2022",
+    "02-03-2022": {
+      "courseDate": "02-03-2022",
       "courseWeek": 21,
       "weekDay": 3,
       "dayNumber": 3,
-      "meetingDateTimeUTC": "2022-03-09T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-03-02T02:00:00.000Z",
       "courseDay": 99,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -8725,12 +8146,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -8764,21 +8180,18 @@
                 "name": "Project 5 Video",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#video-demo"
               },
-              {
-                "name": "Project 6 Exploration Time",
-                "url": ""
-              }
+              { "name": "Project 6 Exploration Time", "url": "" }
             ]
           }
         }
       }
     },
-    "10-03-2022": {
-      "courseDate": "10-03-2022",
+    "03-03-2022": {
+      "courseDate": "03-03-2022",
       "courseWeek": 21,
       "weekDay": 4,
       "dayNumber": 4,
-      "meetingDateTimeUTC": "2022-03-10T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-03-03T02:00:00.000Z",
       "courseDay": 100,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -8814,12 +8227,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -8864,21 +8272,18 @@
                 "name": "Project 6 Implementation",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
               },
-              {
-                "name": "Project 6 Exploration Time",
-                "url": ""
-              }
+              { "name": "Project 6 Exploration Time", "url": "" }
             ]
           }
         }
       }
     },
-    "11-03-2022": {
-      "courseDate": "11-03-2022",
+    "04-03-2022": {
+      "courseDate": "04-03-2022",
       "courseWeek": 21,
       "weekDay": 5,
       "dayNumber": 5,
-      "meetingDateTimeUTC": "2022-03-11T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-03-04T02:00:00.000Z",
       "courseDay": 101,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -8914,12 +8319,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -8946,21 +8346,18 @@
                 "name": "Project 6 Implementation",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
               },
-              {
-                "name": "Project 6 Exploration Time",
-                "url": ""
-              }
+              { "name": "Project 6 Exploration Time", "url": "" }
             ]
           }
         }
       }
     },
-    "14-03-2022": {
-      "courseDate": "14-03-2022",
+    "07-03-2022": {
+      "courseDate": "07-03-2022",
       "courseWeek": 22,
       "weekDay": 1,
       "dayNumber": 1,
-      "meetingDateTimeUTC": "2022-03-14T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-03-07T02:00:00.000Z",
       "courseDay": 102,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -8996,12 +8393,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -9028,21 +8420,18 @@
                 "name": "Project 6 Implementation",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
               },
-              {
-                "name": "Project 6 Exploration Time",
-                "url": ""
-              }
+              { "name": "Project 6 Exploration Time", "url": "" }
             ]
           }
         }
       }
     },
-    "15-03-2022": {
-      "courseDate": "15-03-2022",
+    "08-03-2022": {
+      "courseDate": "08-03-2022",
       "courseWeek": 22,
       "weekDay": 2,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-03-15T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-03-08T02:00:00.000Z",
       "courseDay": 103,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -9078,12 +8467,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -9119,12 +8503,12 @@
         }
       }
     },
-    "16-03-2022": {
-      "courseDate": "16-03-2022",
+    "09-03-2022": {
+      "courseDate": "09-03-2022",
       "courseWeek": 22,
       "weekDay": 3,
       "dayNumber": 3,
-      "meetingDateTimeUTC": "2022-03-16T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-03-09T02:00:00.000Z",
       "courseDay": 104,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -9160,12 +8544,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -9197,12 +8576,12 @@
         }
       }
     },
-    "17-03-2022": {
-      "courseDate": "17-03-2022",
+    "10-03-2022": {
+      "courseDate": "10-03-2022",
       "courseWeek": 22,
       "weekDay": 4,
       "dayNumber": 4,
-      "meetingDateTimeUTC": "2022-03-17T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-03-10T02:00:00.000Z",
       "courseDay": 105,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -9231,12 +8610,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -9268,12 +8642,12 @@
         }
       }
     },
-    "18-03-2022": {
-      "courseDate": "18-03-2022",
+    "11-03-2022": {
+      "courseDate": "11-03-2022",
       "courseWeek": 22,
       "weekDay": 5,
       "dayNumber": 5,
-      "meetingDateTimeUTC": "2022-03-18T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-03-11T02:00:00.000Z",
       "courseDay": 106,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -9309,12 +8683,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -9379,12 +8748,12 @@
         }
       }
     },
-    "21-03-2022": {
-      "courseDate": "21-03-2022",
+    "14-03-2022": {
+      "courseDate": "14-03-2022",
       "courseWeek": 23,
       "weekDay": 1,
       "dayNumber": 1,
-      "meetingDateTimeUTC": "2022-03-21T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-03-14T02:00:00.000Z",
       "courseDay": 107,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -9420,12 +8789,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -9464,12 +8828,12 @@
         }
       }
     },
-    "22-03-2022": {
-      "courseDate": "22-03-2022",
+    "15-03-2022": {
+      "courseDate": "15-03-2022",
       "courseWeek": 23,
       "weekDay": 2,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-03-22T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-03-15T02:00:00.000Z",
       "courseDay": 108,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -9498,12 +8862,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {
@@ -9556,12 +8915,12 @@
         }
       }
     },
-    "23-03-2022": {
-      "courseDate": "23-03-2022",
+    "16-03-2022": {
+      "courseDate": "16-03-2022",
       "courseWeek": 23,
       "weekDay": 3,
       "dayNumber": 3,
-      "meetingDateTimeUTC": "2022-03-23T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-03-16T02:00:00.000Z",
       "courseDay": 109,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -9597,12 +8956,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -9641,12 +8995,12 @@
         }
       }
     },
-    "24-03-2022": {
-      "courseDate": "24-03-2022",
+    "17-03-2022": {
+      "courseDate": "17-03-2022",
       "courseWeek": 23,
       "weekDay": 4,
       "dayNumber": 4,
-      "meetingDateTimeUTC": "2022-03-24T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-03-17T02:00:00.000Z",
       "courseDay": 110,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -9682,12 +9036,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {
@@ -9740,12 +9089,12 @@
         }
       }
     },
-    "25-03-2022": {
-      "courseDate": "25-03-2022",
+    "18-03-2022": {
+      "courseDate": "18-03-2022",
       "courseWeek": 23,
       "weekDay": 5,
       "dayNumber": 5,
-      "meetingDateTimeUTC": "2022-03-25T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-03-18T02:00:00.000Z",
       "courseDay": 111,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -9781,12 +9130,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -9825,12 +9169,12 @@
         }
       }
     },
-    "28-03-2022": {
-      "courseDate": "28-03-2022",
+    "21-03-2022": {
+      "courseDate": "21-03-2022",
       "courseWeek": 24,
       "weekDay": 1,
       "dayNumber": 1,
-      "meetingDateTimeUTC": "2022-03-28T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-03-21T02:00:00.000Z",
       "courseDay": 112,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -9866,12 +9210,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {
@@ -9910,12 +9249,12 @@
         }
       }
     },
-    "29-03-2022": {
-      "courseDate": "29-03-2022",
+    "22-03-2022": {
+      "courseDate": "22-03-2022",
       "courseWeek": 24,
       "weekDay": 2,
       "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-03-29T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-03-22T02:00:00.000Z",
       "courseDay": 113,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -9937,12 +9276,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -9974,12 +9308,12 @@
         }
       }
     },
-    "30-03-2022": {
-      "courseDate": "30-03-2022",
+    "23-03-2022": {
+      "courseDate": "23-03-2022",
       "courseWeek": 24,
       "weekDay": 3,
       "dayNumber": 3,
-      "meetingDateTimeUTC": "2022-03-30T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-03-23T02:00:00.000Z",
       "courseDay": 114,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -10015,12 +9349,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -10063,12 +9392,12 @@
         }
       }
     },
-    "31-03-2022": {
-      "courseDate": "31-03-2022",
+    "24-03-2022": {
+      "courseDate": "24-03-2022",
       "courseWeek": 24,
       "weekDay": 4,
       "dayNumber": 4,
-      "meetingDateTimeUTC": "2022-03-31T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-03-24T02:00:00.000Z",
       "courseDay": 115,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -10090,12 +9419,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -10127,12 +9451,12 @@
         }
       }
     },
-    "01-04-2022": {
-      "courseDate": "01-04-2022",
+    "25-03-2022": {
+      "courseDate": "25-03-2022",
       "courseWeek": 24,
       "weekDay": 5,
       "dayNumber": 5,
-      "meetingDateTimeUTC": "2022-04-01T02:00:00.000Z",
+      "meetingDateTimeUTC": "2022-03-25T02:00:00.000Z",
       "courseDay": 116,
       "dateTypes": {
         "module": "Module 9: Advanced Topics",
@@ -10208,12 +9532,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -10250,5 +9569,5 @@
       }
     }
   },
-  "courseName": "04-10-2021_01-04-2022_BATCH5"
+  "courseName": "04-10-2021_25-03-2022_BATCH5"
 }
