@@ -22,6 +22,7 @@ Select from -
 # To edit main bootcamp json file
 
 Click on the "Main" tab
+Choose either part time or full time button to render either schedule
 Next to each schedule item are 4 buttons -
 * trash can symbol: deletes that item
 * up arrow: used to move that item up a day in the schedule
