@@ -629,8 +629,8 @@
           "inClass": {
             "items": [
               {
-                "name": "CSS.ICE.1: Straits Times",
-                "url": "https://bootcamp.rocketacademy.co/css/css.ice-in-class-css-exercises/css.ice.1-straits-times-css"
+                "name": "1.ICE.CSS.1: Straits Times",
+                "url": "https://bootcamp.rocketacademy.co/css/1.ice.css-in-class-css-exercises/1.ice.css.1-straits-times-css"
               }
             ]
           },
@@ -712,8 +712,8 @@
           "inClass": {
             "items": [
               {
-                "name": "CSS.ICE.2: Wikipedia",
-                "url": "https://bootcamp.rocketacademy.co/css/css.ice-in-class-exercises/css.ice.2-wikipedia"
+                "name": "1.ICE.CSS.2: Wikipedia",
+                "url": "https://bootcamp.rocketacademy.co/css/1.ice.css-in-class-css-exercises/1.ice.css.2-css-practice-6-wikipedia"
               }
             ]
           },
@@ -787,8 +787,8 @@
           "inClass": {
             "items": [
               {
-                "name": "CSS.ICE.4: Etsy",
-                "url": "https://bootcamp.rocketacademy.co/css/css.ice-in-class-exercises/css.ice.4-etsy"
+                "name": "1.ICE.CSS.4: Etsy",
+                "url": "https://bootcamp.rocketacademy.co/css/1.ice.css-in-class-css-exercises/1.ice.css.4-etsy-css"
               }
             ]
           },
@@ -992,7 +992,7 @@
     {
       "courseDay": 12,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 2: Backend Basics",
         "general": {
           "type": "general",
           "preClass": {
@@ -1036,8 +1036,8 @@
           "postClass": {
             "items": [
               {
-                "name": "CSS.POCE.1: Flexbox Docs Page",
-                "url": "https://bootcamp.rocketacademy.co/css/css.poce-post-class-exercises/css.poce.1-flexbox-docs-page"
+                "name": "1.POCE.6: CSS Flexbox",
+                "url": "https://bootcamp.rocketacademy.co/css/1.poce.css-post-class-css-exercises/1.poce.css.1-technical-documentation-page-flexbox-responsive"
               }
             ]
           },
@@ -1075,7 +1075,7 @@
     {
       "courseDay": 13,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 2: Backend Basics",
         "general": {
           "type": "general",
           "preClass": {
@@ -1146,7 +1146,7 @@
     {
       "courseDay": 14,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 2: Backend Basics",
         "general": {
           "type": "general",
           "projectStart": {},
@@ -1235,7 +1235,7 @@
     {
       "courseDay": 15,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 2: Backend Basics",
         "general": {
           "type": "general",
           "preClass": {
@@ -1290,8 +1290,8 @@
           "postClass": {
             "items": [
               {
-                "name": "CSS.POCE.3: Bootstrap Columns",
-                "url": "https://bootcamp.rocketacademy.co/css/css.poce-post-class-exercises/css.poce.3-bootstrap-columns"
+                "name": "1.POCE.9: Bootstrap",
+                "url": "https://bootcamp.rocketacademy.co/css/1.poce.css-post-class-css-exercises/1.poce.css.3-bootstrap-columns"
               }
             ]
           },
@@ -1329,7 +1329,7 @@
     {
       "courseDay": 16,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 2: Backend Basics",
         "general": {
           "type": "general",
           "preClass": {
@@ -1408,7 +1408,7 @@
     {
       "courseDay": 17,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 2: Backend Basics",
         "general": {
           "type": "general",
           "preClass": {
@@ -1452,8 +1452,8 @@
           "postClass": {
             "items": [
               {
-                "name": "CSS.POCE.4: Bootstrap Adobe",
-                "url": "https://bootcamp.rocketacademy.co/css/css.poce-post-class-exercises/css.poce.4-bootstrap-adobe"
+                "name": "1.POCE.10: Bootstrap Adobe",
+                "url": "https://bootcamp.rocketacademy.co/css/1.poce.css-post-class-css-exercises/1.poce.css.4-bootstrap-adobe"
               }
             ]
           },
@@ -1491,7 +1491,7 @@
     {
       "courseDay": 18,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 2: Backend Basics",
         "general": {
           "type": "general",
           "preClass": {
@@ -1534,8 +1534,8 @@
           "inClass": {
             "items": [
               {
-                "name": "CSS.POCE.4: Bootstrap Adobe",
-                "url": "https://bootcamp.rocketacademy.co/css/css.poce-post-class-exercises/css.poce.4-bootstrap-adobe"
+                "name": "1.POCE.10: Bootstrap Adobe",
+                "url": "https://bootcamp.rocketacademy.co/css/1.poce.css-post-class-css-exercises/1.poce.css.4-bootstrap-adobe"
               }
             ]
           },
@@ -1574,7 +1574,7 @@
     {
       "courseDay": 19,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 3: Backend Applications",
         "general": {
           "type": "general",
           "projectStart": {},
@@ -1651,7 +1651,7 @@
     {
       "courseDay": 20,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 3: Backend Applications",
         "general": {
           "type": "general",
           "projectStart": {},
@@ -1728,7 +1728,7 @@
     {
       "courseDay": 21,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 3: Backend Applications",
         "general": {
           "type": "general",
           "projectStart": {},
@@ -1809,7 +1809,7 @@
     {
       "courseDay": 22,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 3: Backend Applications",
         "general": {
           "type": "general",
           "preClass": {
@@ -1876,7 +1876,7 @@
     {
       "courseDay": 23,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 3: Backend Applications",
         "general": {
           "type": "general",
           "projectStart": {},
@@ -1896,8 +1896,8 @@
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
               },
               {
-                "name": "CSS.ICE.3: MyTunes",
-                "url": "https://bootcamp.rocketacademy.co/css/css.ice-in-class-exercises/css.ice.3-mytunes"
+                "name": "1.ICE.7: CSS Practice 1 - MyTunes",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.ice-in-class-exercises/1.ice.7-css-practice-1-mytunes"
               }
             ]
           },
@@ -1917,8 +1917,8 @@
           "inClass": {
             "items": [
               {
-                "name": "CSS.ICE.3: MyTunes",
-                "url": "https://bootcamp.rocketacademy.co/css/ss.ice-in-class-exercises/css.ice.3-mytunes"
+                "name": "1.ICE.CSS.4: MyTunes",
+                "url": "https://bootcamp.rocketacademy.co/css/1.ice.css-in-class-css-exercises/1.ice.css.3-mytunes"
               }
             ]
           },
@@ -1957,7 +1957,7 @@
     {
       "courseDay": 24,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 3: Backend Applications",
         "general": {
           "type": "general",
           "preClass": {
@@ -2004,8 +2004,8 @@
           "inClass": {
             "items": [
               {
-                "name": "CSS.ICE.3: MyTunes",
-                "url": "https://bootcamp.rocketacademy.co/css/css.ice-in-class-exercises/css.ice.3-mytunes"
+                "name": "1.ICE.CSS.4: MyTunes",
+                "url": "https://bootcamp.rocketacademy.co/css/1.ice.css-in-class-css-exercises/1.ice.css.3-mytunes"
               }
             ]
           },
@@ -2044,7 +2044,7 @@
     {
       "courseDay": 25,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 3: Backend Applications",
         "general": {
           "type": "general",
           "preClass": {
@@ -2119,7 +2119,7 @@
     {
       "courseDay": 26,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 3: Backend Applications",
         "general": {
           "type": "general",
           "preClass": {
@@ -2194,7 +2194,7 @@
     {
       "courseDay": 27,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 3: Backend Applications",
         "general": {
           "type": "general",
           "preClass": {
@@ -2265,7 +2265,7 @@
     {
       "courseDay": 28,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 3: Backend Applications",
         "general": {
           "type": "general",
           "preClass": {
@@ -2340,7 +2340,7 @@
     {
       "courseDay": 29,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 3: Backend Applications",
         "general": {
           "type": "general",
           "preClass": {
@@ -2415,7 +2415,7 @@
     {
       "courseDay": 30,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 3: Backend Applications",
         "general": {
           "type": "general",
           "preClass": {
@@ -2494,7 +2494,7 @@
     {
       "courseDay": 31,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 3: Backend Applications",
         "general": {
           "type": "general",
           "preClass": {
@@ -2574,7 +2574,7 @@
     {
       "courseDay": 32,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 3: Backend Applications",
         "general": {
           "type": "general",
           "preClass": {
@@ -2646,7 +2646,7 @@
     {
       "courseDay": 33,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 3: Backend Applications",
         "general": {
           "type": "general",
           "preClass": {
@@ -2714,7 +2714,7 @@
     {
       "courseDay": 34,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 3: Backend Applications",
         "general": {
           "type": "general",
           "projectStart": {},
@@ -2798,7 +2798,7 @@
     {
       "courseDay": 35,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 3: Backend Applications",
         "general": {
           "type": "general",
           "preClass": {},
@@ -2811,8 +2811,8 @@
           "inClass": {
             "items": [
               {
-                "name": "CSS.ICE.5: Restaurant",
-                "url": "https://bootcamp.rocketacademy.co/css/css.ice-in-class-exercises/css.ice.5-restaurant"
+                "name": "1.ICE.CSS.5: Restaurant",
+                "url": "https://bootcamp.rocketacademy.co/css/1.ice.css-in-class-css-exercises/1.ice.css.5-trombones"
               }
             ]
           },
@@ -2870,7 +2870,7 @@
     {
       "courseDay": 36,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 3: Backend Applications",
         "general": {
           "type": "general",
           "preClass": {},
@@ -2930,7 +2930,7 @@
     {
       "courseDay": 37,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 3: Backend Applications",
         "general": {
           "type": "general",
           "preClass": {},
@@ -2943,8 +2943,8 @@
           "inClass": {
             "items": [
               {
-                "name": "CSS.ICE.6: NTU",
-                "url": "https://bootcamp.rocketacademy.co/css/css.ice-in-class-exercises/css.ice.6-ntu"
+                "name": "1.ICE.CSS.6: NTU",
+                "url": "https://bootcamp.rocketacademy.co/css/1.ice.css-in-class-css-exercises/1.ice.css.6-ntu"
               }
             ]
           },
@@ -3013,7 +3013,7 @@
     {
       "courseDay": 38,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 3: Backend Applications",
         "general": {
           "type": "general",
           "preClass": {},
@@ -3026,8 +3026,8 @@
           "inClass": {
             "items": [
               {
-                "name": "CSS.ICE.7: Zillow",
-                "url": "https://bootcamp.rocketacademy.co/css/css.ice-in-class-exercises/css.ice.7-zillow"
+                "name": "1.ICE.CSS.7: Zillow",
+                "url": "https://bootcamp.rocketacademy.co/css/1.ice.css-in-class-css-exercises/1.ice.css.7-zillow"
               }
             ]
           },
@@ -3081,7 +3081,7 @@
     {
       "courseDay": 39,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 3: Backend Applications",
         "general": {
           "type": "general",
           "preClass": {},
@@ -3094,8 +3094,8 @@
           "inClass": {
             "items": [
               {
-                "name": "CSS.ICE.8: Chase Bank",
-                "url": "https://bootcamp.rocketacademy.co/css/css.ice-in-class-exercises/css.ice.8-chase-bank"
+                "name": "1.ICE.CSS.8: Chase Bank",
+                "url": "https://bootcamp.rocketacademy.co/css/1.ice.css-in-class-css-exercises/1.ice.css.8-chase-bank"
               }
             ]
           },
@@ -3149,7 +3149,7 @@
     {
       "courseDay": 40,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 3: Backend Applications",
         "general": {
           "type": "general",
           "preClass": {},
@@ -3216,7 +3216,7 @@
     {
       "courseDay": 41,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 3: Backend Applications",
         "general": {
           "type": "general",
           "preClass": {},
@@ -3269,7 +3269,7 @@
     {
       "courseDay": 42,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 3: Backend Applications",
         "general": {
           "type": "general",
           "preClass": {
@@ -3341,7 +3341,7 @@
     {
       "courseDay": 43,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 4: Backend Structure",
         "general": {
           "type": "general",
           "preClass": {
@@ -3420,7 +3420,7 @@
     {
       "courseDay": 44,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 4: Backend Structure",
         "general": {
           "type": "general",
           "preClass": {
@@ -3495,7 +3495,7 @@
     {
       "courseDay": 45,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 4: Backend Structure",
         "general": {
           "type": "general",
           "preClass": {
@@ -3578,7 +3578,7 @@
     {
       "courseDay": 46,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 4: Backend Structure",
         "general": {
           "type": "general",
           "preClass": {
@@ -3653,7 +3653,7 @@
     {
       "courseDay": 47,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 5: Full Stack Application",
         "general": {
           "type": "general",
           "preClass": {
@@ -3728,7 +3728,7 @@
     {
       "courseDay": 48,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 5: Full Stack Application",
         "general": {
           "type": "general",
           "preClass": {
@@ -3799,7 +3799,7 @@
     {
       "courseDay": 49,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 5: Full Stack Application",
         "general": {
           "type": "general",
           "preClass": {
@@ -3886,7 +3886,7 @@
     {
       "courseDay": 50,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 5: Full Stack Application",
         "general": {
           "type": "general",
           "preClass": {
@@ -3961,7 +3961,7 @@
     {
       "courseDay": 51,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 6: Frontend Infrastructure",
         "general": {
           "type": "general",
           "preClass": {
@@ -4071,7 +4071,7 @@
     {
       "courseDay": 52,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 6: Frontend Infrastructure",
         "general": {
           "type": "general",
           "preClass": {
@@ -4154,7 +4154,7 @@
     {
       "courseDay": 53,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 6: Frontend Infrastructure",
         "general": {
           "type": "general",
           "preClass": {
@@ -4248,7 +4248,7 @@
     {
       "courseDay": 54,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 6: Frontend Infrastructure",
         "general": {
           "type": "general",
           "preClass": {
@@ -4330,7 +4330,7 @@
     {
       "courseDay": 55,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 6: Frontend Infrastructure",
         "general": {
           "type": "general",
           "preClass": {
@@ -4434,7 +4434,7 @@
     {
       "courseDay": 56,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 6: Frontend Infrastructure",
         "general": {
           "type": "general",
           "preClass": {},
@@ -4509,7 +4509,7 @@
     {
       "courseDay": 57,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 6: Frontend Infrastructure",
         "general": {
           "type": "general",
           "preClass": {
@@ -4596,7 +4596,7 @@
     {
       "courseDay": 58,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 6: Frontend Infrastructure",
         "general": {
           "type": "general",
           "preClass": {},
@@ -4678,7 +4678,7 @@
     {
       "courseDay": 59,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 6: Frontend Infrastructure",
         "general": {
           "type": "general",
           "preClass": {},
@@ -4753,7 +4753,7 @@
     {
       "courseDay": 60,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 6: Frontend Infrastructure",
         "general": {
           "type": "general",
           "preClass": {},
@@ -4835,7 +4835,7 @@
     {
       "courseDay": 61,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 6: Frontend Infrastructure",
         "general": {
           "type": "general",
           "preClass": {},
@@ -4914,7 +4914,7 @@
     {
       "courseDay": 62,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 7: React",
         "general": {
           "type": "general",
           "preClass": {
@@ -5008,7 +5008,7 @@
     {
       "courseDay": 63,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 7: React",
         "general": {
           "type": "general",
           "preClass": {
@@ -5095,7 +5095,7 @@
     {
       "courseDay": 64,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 7: React",
         "general": {
           "type": "general",
           "preClass": {
@@ -5174,7 +5174,7 @@
     {
       "courseDay": 65,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 7: React",
         "general": {
           "type": "general",
           "preClass": {
@@ -5253,7 +5253,7 @@
     {
       "courseDay": 66,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 7: React",
         "general": {
           "type": "general",
           "preClass": {
@@ -5336,7 +5336,7 @@
     {
       "courseDay": 67,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 7: React",
         "general": {
           "type": "general",
           "preClass": {},
@@ -5428,7 +5428,7 @@
     {
       "courseDay": 68,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 7: React",
         "general": {
           "type": "general",
           "preClass": {
@@ -5496,7 +5496,7 @@
     {
       "courseDay": 69,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 7: React",
         "general": {
           "type": "general",
           "preClass": {
@@ -5586,7 +5586,7 @@
     {
       "courseDay": 70,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 7: React",
         "general": {
           "type": "general",
           "preClass": {},
@@ -5676,7 +5676,7 @@
     {
       "courseDay": 71,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 7: React",
         "general": {
           "type": "general",
           "preClass": {},
@@ -5750,7 +5750,7 @@
     {
       "courseDay": 72,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 7: React",
         "general": {
           "type": "general",
           "preClass": {},
@@ -5825,7 +5825,7 @@
     {
       "courseDay": 73,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 7: React",
         "general": {
           "type": "general",
           "preClass": {},
@@ -5900,7 +5900,7 @@
     {
       "courseDay": 74,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 7: React",
         "general": {
           "type": "general",
           "preClass": {},
@@ -5975,7 +5975,7 @@
     {
       "courseDay": 75,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 7: React",
         "general": {
           "type": "general",
           "preClass": {},
@@ -6057,7 +6057,7 @@
     {
       "courseDay": 76,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 7: React",
         "general": {
           "type": "general",
           "preClass": {},
@@ -6142,7 +6142,7 @@
     {
       "courseDay": 77,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 7: React",
         "general": {
           "type": "general",
           "preClass": {},
@@ -6221,7 +6221,7 @@
     {
       "courseDay": 78,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 7: React",
         "general": {
           "type": "general",
           "preClass": {
@@ -6316,7 +6316,7 @@
     {
       "courseDay": 79,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 7: React",
         "general": {
           "type": "general",
           "preClass": {
@@ -6421,7 +6421,7 @@
     {
       "courseDay": 80,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 7: React",
         "general": {
           "type": "general",
           "preClass": {
@@ -6489,7 +6489,7 @@
     {
       "courseDay": 81,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 8: Advanced React",
         "general": {
           "type": "general",
           "preClass": {
@@ -6580,7 +6580,7 @@
     {
       "courseDay": 82,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 8: Advanced React",
         "general": {
           "type": "general",
           "preClass": {
@@ -6662,7 +6662,7 @@
     {
       "courseDay": 83,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 8: Advanced React",
         "general": {
           "type": "general",
           "preClass": {
@@ -6756,7 +6756,7 @@
     {
       "courseDay": 84,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 8: Advanced React",
         "general": {
           "type": "general",
           "preClass": {
@@ -6846,7 +6846,7 @@
     {
       "courseDay": 85,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 8: Advanced React",
         "general": {
           "type": "general",
           "preClass": {},
@@ -6936,7 +6936,7 @@
     {
       "courseDay": 86,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 8: Advanced React",
         "general": {
           "type": "general",
           "preClass": {},
@@ -7042,7 +7042,7 @@
     {
       "courseDay": 87,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 9: Advanced Topics",
         "general": {
           "type": "general",
           "preClass": {
@@ -7167,7 +7167,7 @@
     {
       "courseDay": 88,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 9: Advanced Topics",
         "general": {
           "type": "general",
           "preClass": {
@@ -7287,7 +7287,7 @@
     {
       "courseDay": 89,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 9: Advanced Topics",
         "general": {
           "type": "general",
           "preClass": {},
@@ -7378,7 +7378,7 @@
     {
       "courseDay": 90,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 9: Advanced Topics",
         "general": {
           "type": "general",
           "preClass": {},
@@ -7493,7 +7493,7 @@
     {
       "courseDay": 91,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 9: Advanced Topics",
         "general": {
           "type": "general",
           "preClass": {},
@@ -7580,7 +7580,7 @@
     {
       "courseDay": 92,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 9: Advanced Topics",
         "general": {
           "type": "general",
           "preClass": {},
@@ -7659,7 +7659,7 @@
     {
       "courseDay": 93,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 9: Advanced Topics",
         "general": {
           "type": "general",
           "preClass": {},
@@ -7742,7 +7742,7 @@
     {
       "courseDay": 94,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 9: Advanced Topics",
         "general": {
           "type": "general",
           "preClass": {},
@@ -7824,7 +7824,7 @@
     {
       "courseDay": 95,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 9: Advanced Topics",
         "general": {
           "type": "general",
           "preClass": {},
@@ -7884,7 +7884,7 @@
     {
       "courseDay": 96,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 9: Advanced Topics",
         "general": {
           "type": "general",
           "preClass": {},
