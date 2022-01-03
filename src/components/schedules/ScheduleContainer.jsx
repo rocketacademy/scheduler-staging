@@ -11,7 +11,7 @@ function ScheduleContainer({ batchArray }) {
   // pass individual batch json files into BatchSchedule to generate schedules
   return (
     <>
-      <Navbar variant="dark" bg="secondary">
+      <Navbar variant="dark" bg="info">
         <Navbar.Brand href="#home">
           <img src={logo} alt="company logo"></img>
         </Navbar.Brand>
