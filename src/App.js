@@ -1,10 +1,9 @@
 import React from 'react';
 import TabsContainer from './components/admin/Tabs';
 import ptbc1 from '../src/data/17-08-2021_13-08-2022_BATCH1.json';
-import ftbc4 from '../src/data/09-07-2021_24-12-2021_BATCH4.json';
 import ptbc2 from '../src/data/16-11-2021_12-11-2022_BATCH2.json';
 import ftbc5 from '../src/data/04-10-2021_25-03-2022_BATCH5.json';
-
+import ftbc6 from '../src/data/10-01-2022_01-07-2022_BATCH6.json';
 import {
   HashRouter,
   Switch,
@@ -15,7 +14,7 @@ import ScheduleContainer from './components/schedules/ScheduleContainer';
 function App() {
 
   // put all batch data files in an array to be passed into separate components for /shedule and /admin
-  const batchArray = [{name:"ptbc1", content: ptbc1}, {name:"ptbc2", content: ptbc2}, {name: "ftbc4", content: ftbc4}, {name:"ftbc5", content: ftbc5}];
+  const batchArray = [{name:"ptbc1", content: ptbc1}, {name:"ptbc2", content: ptbc2}, {name:"ftbc5", content: ftbc5}, {name:"ftbc6", content: ftbc6}];
 
   return (
     <div className="App">
