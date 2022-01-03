@@ -8,6 +8,7 @@ import {
   HashRouter,
   Switch,
   Route,
+  Redirect,
 } from "react-router-dom";
 import ScheduleContainer from './components/schedules/ScheduleContainer';
 
@@ -28,6 +29,15 @@ function App() {
             <Route path="/schedules">
               <ScheduleContainer batchArray={batchArray} />
             </Route>
+            <Route
+                path="/"
+                render={() => (
+                    <Redirect
+                        push
+                        to={`/schedules`}
+                    />
+                )}
+            />
           </Switch>
         </HashRouter>
     </div>
