@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Switch, Link, useRouteMatch, Redirect } from "react-router-dom";
+import { Route, Switch, Link, useRouteMatch, Redirect, NavLink } from "react-router-dom";
 import logo from "../../assets/4-MILK.png";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -19,13 +19,19 @@ function ScheduleContainer({ batchArray }) {
           {batchArray.map((batch) => {
             return (
               <>
-              <Nav.Link as={Link} to={`${url}/${batch.name}`}>
+              <Nav.Link as={NavLink} to={`${url}/${batch.name}`}>
                 {batch.name.toUpperCase()}
               </Nav.Link>
               </>
             );
           })}
         </Nav>
+        <Nav className="">
+          <Nav.Link as={NavLink} to="/admin/base">
+            admin
+          </Nav.Link>
+        </Nav>
+
       </Navbar>
       <Switch>
         <Route exact path={path}>

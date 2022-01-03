@@ -30,6 +30,7 @@ function App() {
               <ScheduleContainer batchArray={batchArray} />
             </Route>
             <Route
+                exact
                 path="/"
                 render={() => (
                     <Redirect
