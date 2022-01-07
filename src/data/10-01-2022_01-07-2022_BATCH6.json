@@ -1,5 +1,11 @@
 {
-  "daysOfWeek": [1, 2, 3, 4, 5],
+  "daysOfWeek": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
   "courseStartIndex": 0,
   "totalCourseDays": 118,
   "courseType": "Bootcamp FT",
@@ -18,8 +24,14 @@
           "preClass": {},
           "inClass": {
             "items": [
-              { "name": "Day 1 Photo!", "url": "" },
-              { "name": "Course and Student Introductions", "url": "" }
+              {
+                "name": "Day 1 Photo!",
+                "url": ""
+              },
+              {
+                "name": "Course and Student Introductions",
+                "url": ""
+              }
             ]
           },
           "postClass": {}
@@ -36,7 +48,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -142,7 +159,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -189,7 +211,9 @@
           },
           "inClass": {
             "items": [
-              { "name": "Review 1 student's 1.POCE.1: Noodle Recipe Website" },
+              {
+                "name": "Review 1 student's 1.POCE.1: Noodle Recipe Website"
+              },
               {
                 "name": "1.ICE.1: Drawing DOM (continued)",
                 "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.ice-in-class-exercises/1.ice.1-drawing-dom"
@@ -224,7 +248,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -271,7 +300,10 @@
           },
           "inClass": {
             "items": [
-              { "name": "Review 1 student's 1.POCE.2: High Card", "url": "" },
+              {
+                "name": "Review 1 student's 1.POCE.2: High Card",
+                "url": ""
+              },
               {
                 "name": "1.ICE.2: Timeout / High Card Redux",
                 "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.ice-in-class-exercises/1.ice.2-high-card-redux"
@@ -306,7 +338,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -349,7 +386,9 @@
           },
           "inClass": {
             "items": [
-              { "name": "Review 1 student's 1.POCE.3: Match Game" },
+              {
+                "name": "Review 1 student's 1.POCE.3: Match Game"
+              },
               {
                 "name": "1.ICE.3: setInterval",
                 "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.ice-in-class-exercises/1.ice.3-setinterval"
@@ -388,7 +427,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -431,7 +475,10 @@
           },
           "inClass": {
             "items": [
-              { "name": "Review 1 student's 1.POCE.4: Timer", "url": "" }
+              {
+                "name": "Review 1 student's 1.POCE.4: Timer",
+                "url": ""
+              }
             ]
           },
           "postClass": {
@@ -466,7 +513,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -508,7 +560,11 @@
             ]
           },
           "inClass": {
-            "items": [{ "name": "Review 1 student's 1.POCE.5: Tic Tac Toe" }]
+            "items": [
+              {
+                "name": "Review 1 student's 1.POCE.5: Tic Tac Toe"
+              }
+            ]
           },
           "postClass": {}
         },
@@ -535,7 +591,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -612,7 +673,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -673,6 +739,10 @@
               {
                 "name": "CSS.3 Flexbox",
                 "url": "https://bootcamp.rocketacademy.co/css/css.3-flexbox"
+              },
+              {
+                "name": "CSS.3.1: Flexbox Columns",
+                "url": "https://bootcamp.rocketacademy.co/css/css.3-flexbox/css.3.1-flexbox-layout"
               }
             ]
           },
@@ -692,7 +762,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -744,8 +819,12 @@
           "preClass": {
             "items": [
               {
-                "name": "CSS.3.1: Flexbox Columns",
-                "url": "https://bootcamp.rocketacademy.co/css/css.3-flexbox/css.3.1-flexbox-layout"
+                "name": "CSS.4 Responsive Design",
+                "url": "https://bootcamp.rocketacademy.co/css/css.4-responsive-design"
+              },
+              {
+                "name": "CSS.5: Web Design Basics",
+                "url": "https://bootcamp.rocketacademy.co/css/css.5-web-design-basics"
               }
             ]
           },
@@ -765,7 +844,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -817,16 +901,19 @@
           "preClass": {
             "items": [
               {
-                "name": "CSS.4 Responsive Design",
-                "url": "https://bootcamp.rocketacademy.co/css/css.4-responsive-design"
-              },
-              {
-                "name": "CSS.5: Web Design Basics",
-                "url": "https://bootcamp.rocketacademy.co/css/css.5-web-design-basics"
+                "name": "CSS.6 Bootstrap",
+                "url": "https://bootcamp.rocketacademy.co/css/css.6-bootstrap"
               }
             ]
           },
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "CSS.POCE.4: Bootstrap Adobe",
+                "url": "https://bootcamp.rocketacademy.co/css/css.poce-post-class-exercises/css.poce.4-bootstrap-adobe"
+              }
+            ]
+          },
           "postClass": {}
         },
         "algos": {
@@ -835,7 +922,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -888,6 +980,70 @@
         },
         "css": {
           "type": "css",
+          "preClass": {
+            "items": [
+              {
+                "name": "CSS.6 Bootstrap - 2",
+                "url": "https://bootcamp.rocketacademy.co/css/css.6-bootstrap"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "CSS.ICE.8: Chase Bank",
+                "url": "https://bootcamp.rocketacademy.co/css/1.ice.css-in-class-css-exercises/1.ice.css.8-chase-bank"
+              }
+            ]
+          },
+          "postClass": {}
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        }
+      }
+    },
+    "26-01-2022": {
+      "courseDate": "26-01-2022",
+      "courseWeek": 3,
+      "weekDay": 3,
+      "dayNumber": 3,
+      "meetingDateTimeUTC": "2022-01-26T02:00:00.000Z",
+      "courseDay": 12,
+      "dateTypes": {
+        "module": "Module 2: Backend Basics",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -898,7 +1054,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -944,13 +1105,13 @@
         }
       }
     },
-    "26-01-2022": {
-      "courseDate": "26-01-2022",
+    "27-01-2022": {
+      "courseDate": "27-01-2022",
       "courseWeek": 3,
-      "weekDay": 3,
-      "dayNumber": 3,
-      "meetingDateTimeUTC": "2022-01-26T02:00:00.000Z",
-      "courseDay": 12,
+      "weekDay": 4,
+      "dayNumber": 4,
+      "meetingDateTimeUTC": "2022-01-27T02:00:00.000Z",
+      "courseDay": 13,
       "dateTypes": {
         "module": "Module 2: Backend Basics",
         "general": {
@@ -992,14 +1153,7 @@
           "type": "css",
           "preClass": {},
           "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "CSS.POCE.1: Flexbox Docs Page",
-                "url": "https://bootcamp.rocketacademy.co/css/css.poce-post-class-exercises/css.poce.1-flexbox-docs-page"
-              }
-            ]
-          }
+          "postClass": {}
         },
         "algos": {
           "type": "algos",
@@ -1007,7 +1161,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1025,17 +1184,19 @@
         }
       }
     },
-    "27-01-2022": {
-      "courseDate": "27-01-2022",
+    "28-01-2022": {
+      "courseDate": "28-01-2022",
       "courseWeek": 3,
-      "weekDay": 4,
-      "dayNumber": 4,
-      "meetingDateTimeUTC": "2022-01-27T02:00:00.000Z",
-      "courseDay": 13,
+      "weekDay": 5,
+      "dayNumber": 5,
+      "meetingDateTimeUTC": "2022-01-28T02:00:00.000Z",
+      "courseDay": 14,
       "dateTypes": {
         "module": "Module 2: Backend Basics",
         "general": {
           "type": "general",
+          "projectStart": {},
+          "projectDue": {},
           "preClass": {
             "items": [
               {
@@ -1077,7 +1238,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1095,19 +1261,17 @@
         }
       }
     },
-    "28-01-2022": {
-      "courseDate": "28-01-2022",
-      "courseWeek": 3,
-      "weekDay": 5,
-      "dayNumber": 5,
-      "meetingDateTimeUTC": "2022-01-28T02:00:00.000Z",
-      "courseDay": 14,
+    "31-01-2022": {
+      "courseDate": "31-01-2022",
+      "courseWeek": 4,
+      "weekDay": 1,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2022-01-31T02:00:00.000Z",
+      "courseDay": 15,
       "dateTypes": {
         "module": "Module 2: Backend Basics",
         "general": {
           "type": "general",
-          "projectStart": {},
-          "projectDue": {},
           "preClass": {
             "items": [
               {
@@ -1149,14 +1313,7 @@
           "type": "css",
           "preClass": {},
           "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "CSS.POCE.2: Flexbox Personal Page",
-                "url": "https://bootcamp.rocketacademy.co/css/css.poce-post-class-exercises/css.poce.2-flexbox-personal-page"
-              }
-            ]
-          }
+          "postClass": {}
         },
         "algos": {
           "type": "algos",
@@ -1164,99 +1321,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
-        "ip": {
-          "type": "ip",
-          "ipDue": {},
+        "ux": {
+          "type": "ux",
           "preClass": {},
           "inClass": {},
           "postClass": {}
         },
-        "projects": {
-          "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        }
-      }
-    },
-    "31-01-2022": {
-      "courseDate": "31-01-2022",
-      "courseWeek": 4,
-      "weekDay": 1,
-      "dayNumber": 1,
-      "meetingDateTimeUTC": "2022-01-31T02:00:00.000Z",
-      "courseDay": 15,
-      "dateTypes": {
-        "module": "Module 2: Backend Basics",
-        "general": {
-          "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "2.9: HTTP Requests and Responses",
-                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.9-http"
-              },
-              {
-                "name": "2.10: HTTP File Server",
-                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.10-http-file-server"
-              },
-              {
-                "name": "Install ngrok. We will use it in 2.ICE.4.",
-                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.0-module-2-overview#ngrok"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "Review 2.POCE.3: CSS Processor",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#peer-code-review"
-              },
-              {
-                "name": "2.ICE.4: Servers and Requests",
-                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.ice-in-class-exercises/2.ice.4-servers-and-requests"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "2.POCE.4: File Server",
-                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.poce-post-class-exercises/2.poce.4-file-server"
-              }
-            ]
-          }
-        },
-        "css": {
-          "type": "css",
-          "preClass": {
-            "items": [
-              {
-                "name": "CSS.6 Bootstrap",
-                "url": "https://bootcamp.rocketacademy.co/css/css.6-bootstrap"
-              }
-            ]
-          },
-          "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "CSS.POCE.3: Bootstrap Columns",
-                "url": "https://bootcamp.rocketacademy.co/css/css.poce-post-class-exercises/css.poce.3-bootstrap-columns"
-              }
-            ]
-          }
-        },
-        "algos": {
-          "type": "algos",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1312,6 +1382,89 @@
           "preClass": {
             "items": [
               {
+                "name": "2.9: HTTP Requests and Responses",
+                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.9-http"
+              },
+              {
+                "name": "2.10: HTTP File Server",
+                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.10-http-file-server"
+              },
+              {
+                "name": "Install ngrok. We will use it in 2.ICE.4.",
+                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.0-module-2-overview#ngrok"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "Review 2.POCE.3: CSS Processor",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#peer-code-review"
+              },
+              {
+                "name": "2.ICE.4: Servers and Requests",
+                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.ice-in-class-exercises/2.ice.4-servers-and-requests"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "2.POCE.4: File Server",
+                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.poce-post-class-exercises/2.poce.4-file-server"
+              }
+            ]
+          }
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        }
+      }
+    },
+    "04-02-2022": {
+      "courseDate": "04-02-2022",
+      "courseWeek": 4,
+      "weekDay": 3,
+      "dayNumber": 5,
+      "meetingDateTimeUTC": "2022-02-04T02:00:00.000Z",
+      "courseDay": 17,
+      "dateTypes": {
+        "module": "Module 2: Backend Basics",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
                 "name": "2.11: Deploy Server to Cloud",
                 "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.11-deploy-server-to-cloud"
               },
@@ -1358,7 +1511,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1376,13 +1534,13 @@
         }
       }
     },
-    "04-02-2022": {
-      "courseDate": "04-02-2022",
-      "courseWeek": 4,
-      "weekDay": 3,
-      "dayNumber": 5,
-      "meetingDateTimeUTC": "2022-02-04T02:00:00.000Z",
-      "courseDay": 17,
+    "07-02-2022": {
+      "courseDate": "07-02-2022",
+      "courseWeek": 5,
+      "weekDay": 1,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2022-02-07T02:00:00.000Z",
+      "courseDay": 18,
       "dateTypes": {
         "module": "Module 2: Backend Basics",
         "general": {
@@ -1424,14 +1582,7 @@
           "type": "css",
           "preClass": {},
           "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "CSS.POCE.4: Bootstrap Adobe",
-                "url": "https://bootcamp.rocketacademy.co/css/css.poce-post-class-exercises/css.poce.4-bootstrap-adobe"
-              }
-            ]
-          }
+          "postClass": {}
         },
         "algos": {
           "type": "algos",
@@ -1439,7 +1590,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1457,17 +1613,19 @@
         }
       }
     },
-    "07-02-2022": {
-      "courseDate": "07-02-2022",
+    "08-02-2022": {
+      "courseDate": "08-02-2022",
       "courseWeek": 5,
-      "weekDay": 1,
-      "dayNumber": 1,
-      "meetingDateTimeUTC": "2022-02-07T02:00:00.000Z",
-      "courseDay": 18,
+      "weekDay": 2,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2022-02-08T02:00:00.000Z",
+      "courseDay": 19,
       "dateTypes": {
-        "module": "Module 2: Backend Basics",
+        "module": "Module 3: Backend Applications",
         "general": {
           "type": "general",
+          "projectStart": {},
+          "projectDue": {},
           "preClass": {
             "items": [
               {
@@ -1504,14 +1662,7 @@
         "css": {
           "type": "css",
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "CSS.POCE.4: Bootstrap Adobe",
-                "url": "https://bootcamp.rocketacademy.co/css/css.poce-post-class-exercises/css.poce.4-bootstrap-adobe"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {}
         },
         "algos": {
@@ -1520,7 +1671,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1538,13 +1694,13 @@
         }
       }
     },
-    "08-02-2022": {
-      "courseDate": "08-02-2022",
+    "09-02-2022": {
+      "courseDate": "09-02-2022",
       "courseWeek": 5,
-      "weekDay": 2,
-      "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-02-08T02:00:00.000Z",
-      "courseDay": 19,
+      "weekDay": 3,
+      "dayNumber": 3,
+      "meetingDateTimeUTC": "2022-02-09T02:00:00.000Z",
+      "courseDay": 20,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
         "general": {
@@ -1596,7 +1752,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1614,13 +1775,13 @@
         }
       }
     },
-    "09-02-2022": {
-      "courseDate": "09-02-2022",
+    "10-02-2022": {
+      "courseDate": "10-02-2022",
       "courseWeek": 5,
-      "weekDay": 3,
-      "dayNumber": 3,
-      "meetingDateTimeUTC": "2022-02-09T02:00:00.000Z",
-      "courseDay": 20,
+      "weekDay": 4,
+      "dayNumber": 4,
+      "meetingDateTimeUTC": "2022-02-10T02:00:00.000Z",
+      "courseDay": 21,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
         "general": {
@@ -1676,7 +1837,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1694,19 +1860,17 @@
         }
       }
     },
-    "10-02-2022": {
-      "courseDate": "10-02-2022",
+    "11-02-2022": {
+      "courseDate": "11-02-2022",
       "courseWeek": 5,
-      "weekDay": 4,
-      "dayNumber": 4,
-      "meetingDateTimeUTC": "2022-02-10T02:00:00.000Z",
-      "courseDay": 21,
+      "weekDay": 5,
+      "dayNumber": 5,
+      "meetingDateTimeUTC": "2022-02-11T02:00:00.000Z",
+      "courseDay": 22,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
         "general": {
           "type": "general",
-          "projectStart": {},
-          "projectDue": {},
           "preClass": {
             "items": [
               {
@@ -1756,73 +1920,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
-        "ip": {
-          "type": "ip",
-          "ipDue": {},
+        "ux": {
+          "type": "ux",
           "preClass": {},
           "inClass": {},
           "postClass": {}
         },
-        "projects": {
-          "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        }
-      }
-    },
-    "11-02-2022": {
-      "courseDate": "11-02-2022",
-      "courseWeek": 5,
-      "weekDay": 5,
-      "dayNumber": 5,
-      "meetingDateTimeUTC": "2022-02-11T02:00:00.000Z",
-      "courseDay": 22,
-      "dateTypes": {
-        "module": "Module 3: Backend Applications",
-        "general": {
-          "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "3.1.4: PUT, DELETE Requests",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.1-express-js/3.1.4-put-delete-requests"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "3.POCE.3: UFO Sightings",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.poce-post-class-exercises/3.poce.3-express-ufos"
-              }
-            ]
-          }
-        },
-        "css": {
-          "type": "css",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "algos": {
-          "type": "algos",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1856,8 +1959,8 @@
           "preClass": {
             "items": [
               {
-                "name": "3.2.3: EJS Partials",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.2-ejs/3.2.3-advanced-ejs"
+                "name": "3.1.4: PUT, DELETE Requests",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.1-express-js/3.1.4-put-delete-requests"
               }
             ]
           },
@@ -1866,10 +1969,6 @@
               {
                 "name": "Scrum",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              },
-              {
-                "name": "CSS.ICE.3: MyTunes",
-                "url": "https://bootcamp.rocketacademy.co/css/css.ice-in-class-exercises/css.ice.3-mytunes"
               }
             ]
           },
@@ -1901,7 +2000,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1933,16 +2037,8 @@
           "preClass": {
             "items": [
               {
-                "name": "3.3: SQL Language",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.3-sql-language"
-              },
-              {
-                "name": "3.3.1: Basic SQL Commands",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.3-sql-language/3.3.1-basic-sql-commands"
-              },
-              {
-                "name": "3.5.1: Cookies",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.5-authentication/3.5.1-cookies"
+                "name": "3.2.3: EJS Partials",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.2-ejs/3.2.3-advanced-ejs"
               }
             ]
           },
@@ -1953,8 +2049,8 @@
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
               },
               {
-                "name": "3.ICE.4: Cookies",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.4-cookies"
+                "name": "CSS.ICE.3: MyTunes",
+                "url": "https://bootcamp.rocketacademy.co/css/css.ice-in-class-exercises/css.ice.3-mytunes"
               }
             ]
           },
@@ -2034,32 +2130,36 @@
           "preClass": {
             "items": [
               {
-                "name": "3.4: SQL Applications",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications"
+                "name": "3.3: SQL Language",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.3-sql-language"
               },
               {
-                "name": "3.4.1: PostgreSQL, psql",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.1-postgresql-psql"
+                "name": "3.3.1: Basic SQL Commands",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.3-sql-language/3.3.1-basic-sql-commands"
               },
               {
-                "name": "3.4.2: PostgreSQL Node App",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.2-postgresql-node-app"
+                "name": "3.5.1: Cookies",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.5-authentication/3.5.1-cookies"
               }
             ]
           },
           "inClass": {
             "items": [
               {
-                "name": "Project Presentation: 3.POCE.3",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-presentations"
+                "name": "Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              },
+              {
+                "name": "3.ICE.4: Cookies",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.4-cookies"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "3.POCE.4: Meal Tracker",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.poce-post-class-exercises/3.poce.4-sql-meal-keeper"
+                "name": "3.POCE.3: UFO Sightings",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.poce-post-class-exercises/3.poce.3-express-ufos"
               }
             ]
           }
@@ -2120,32 +2220,32 @@
           "preClass": {
             "items": [
               {
-                "name": "3.3.2: SQL Relationships (One to Many)",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.3-sql-language/3.3.2-sql-relationships-one-to-many"
+                "name": "3.4: SQL Applications",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications"
               },
               {
-                "name": "3.4.3: Nested SQL Queries",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.3-nested-sql-queries"
+                "name": "3.4.1: PostgreSQL, psql",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.1-postgresql-psql"
               },
               {
-                "name": "3.4.4: PostgreSQL Express App",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.4-postgresql-express-app"
+                "name": "3.4.2: PostgreSQL Node App",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.2-postgresql-node-app"
               }
             ]
           },
           "inClass": {
             "items": [
               {
-                "name": "3.ICE.5: One to Many",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.5-one-to-many"
+                "name": "Project Presentation: 3.POCE.3",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-presentations"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "3.POCE.5: Bird Watching",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.poce-post-class-exercises/3.poce.5-bird-watching"
+                "name": "3.POCE.4: Meal Tracker",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.poce-post-class-exercises/3.poce.4-sql-meal-keeper"
               }
             ]
           }
@@ -2162,7 +2262,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2208,6 +2313,92 @@
           "preClass": {
             "items": [
               {
+                "name": "3.3.2: SQL Relationships (One to Many)",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.3-sql-language/3.3.2-sql-relationships-one-to-many"
+              },
+              {
+                "name": "3.4.3: Nested SQL Queries",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.3-nested-sql-queries"
+              },
+              {
+                "name": "3.4.4: PostgreSQL Express App",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.4-postgresql-express-app"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "3.ICE.5: One to Many",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.5-one-to-many"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "3.POCE.5: Bird Watching",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.poce-post-class-exercises/3.poce.5-bird-watching"
+              }
+            ]
+          }
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 2 Ideation Phase 1",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "21-02-2022": {
+      "courseDate": "21-02-2022",
+      "courseWeek": 7,
+      "weekDay": 1,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2022-02-21T02:00:00.000Z",
+      "courseDay": 28,
+      "dateTypes": {
+        "module": "Module 3: Backend Applications",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
                 "name": "3.3.4: Inner Join",
                 "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.3-sql-language/3.3.4-inner-join"
               },
@@ -2246,7 +2437,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2271,13 +2467,13 @@
         }
       }
     },
-    "21-02-2022": {
-      "courseDate": "21-02-2022",
+    "22-02-2022": {
+      "courseDate": "22-02-2022",
       "courseWeek": 7,
-      "weekDay": 1,
-      "dayNumber": 1,
-      "meetingDateTimeUTC": "2022-02-21T02:00:00.000Z",
-      "courseDay": 28,
+      "weekDay": 2,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2022-02-22T02:00:00.000Z",
+      "courseDay": 29,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
         "general": {
@@ -2327,7 +2523,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2337,28 +2538,35 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
+          "projectStart": {
+            "items": [
+              {
+                "name": "Start: Project 2 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
+              }
+            ]
+          },
           "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 2 Ideation Phase 1",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
+                "name": "Project 2 Ideation Phase 2",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
               }
             ]
           }
         }
       }
     },
-    "22-02-2022": {
-      "courseDate": "22-02-2022",
+    "23-02-2022": {
+      "courseDate": "23-02-2022",
       "courseWeek": 7,
-      "weekDay": 2,
-      "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-02-22T02:00:00.000Z",
-      "courseDay": 29,
+      "weekDay": 3,
+      "dayNumber": 3,
+      "meetingDateTimeUTC": "2022-02-23T02:00:00.000Z",
+      "courseDay": 30,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
         "general": {
@@ -2408,7 +2616,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2418,14 +2631,7 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {
-            "items": [
-              {
-                "name": "Start: Project 2 Ideation Phase 2",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
-              }
-            ]
-          },
+          "projectStart": {},
           "projectDue": {},
           "preClass": {},
           "inClass": {},
@@ -2440,13 +2646,13 @@
         }
       }
     },
-    "23-02-2022": {
-      "courseDate": "23-02-2022",
+    "24-02-2022": {
+      "courseDate": "24-02-2022",
       "courseWeek": 7,
-      "weekDay": 3,
-      "dayNumber": 3,
-      "meetingDateTimeUTC": "2022-02-23T02:00:00.000Z",
-      "courseDay": 30,
+      "weekDay": 4,
+      "dayNumber": 4,
+      "meetingDateTimeUTC": "2022-02-24T02:00:00.000Z",
+      "courseDay": 31,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
         "general": {
@@ -2492,85 +2698,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
-        "ip": {
-          "type": "ip",
-          "ipDue": {},
+        "ux": {
+          "type": "ux",
           "preClass": {},
           "inClass": {},
           "postClass": {}
         },
-        "projects": {
-          "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 2 Ideation Phase 2",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
-              }
-            ]
-          }
-        }
-      }
-    },
-    "24-02-2022": {
-      "courseDate": "24-02-2022",
-      "courseWeek": 7,
-      "weekDay": 4,
-      "dayNumber": 4,
-      "meetingDateTimeUTC": "2022-02-24T02:00:00.000Z",
-      "courseDay": 31,
-      "dateTypes": {
-        "module": "Module 3: Backend Applications",
-        "general": {
-          "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "0.8: JS Promises",
-                "url": "https://bootcamp.rocketacademy.co/0-language-and-tooling/0.8-js-promises"
-              },
-              {
-                "name": "0.8.1: Promise.prototype.catch, Promise.all",
-                "url": "https://bootcamp.rocketacademy.co/0-language-and-tooling/0.8-js-promises/0.8.1-promise.prototype.catch-promise.all"
-              },
-              {
-                "name": "3.4.7: pg Promises",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.7-pg-promises"
-              },
-              {
-                "name": "3.4.8: SQL Clients",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.8-sql-clients"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "3.ICE.10: Bird Watching Redux",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.10-bird-watching-redux"
-              }
-            ]
-          },
-          "postClass": {}
-        },
-        "css": {
-          "type": "css",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "algos": {
-          "type": "algos",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2623,16 +2756,31 @@
           "preClass": {
             "items": [
               {
-                "name": "3.4.9: Database Setup Files",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.9-database-setup-files"
+                "name": "0.8: JS Promises",
+                "url": "https://bootcamp.rocketacademy.co/0-language-and-tooling/0.8-js-promises"
               },
               {
-                "name": "3.5.5: Custom Middleware for Authentication",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.5-authentication/3.5.5-custom-middleware-for-authentication"
+                "name": "0.8.1: Promise.prototype.catch, Promise.all",
+                "url": "https://bootcamp.rocketacademy.co/0-language-and-tooling/0.8-js-promises/0.8.1-promise.prototype.catch-promise.all"
+              },
+              {
+                "name": "3.4.7: pg Promises",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.7-pg-promises"
+              },
+              {
+                "name": "3.4.8: SQL Clients",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.8-sql-clients"
               }
             ]
           },
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "3.ICE.10: Bird Watching Redux",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.10-bird-watching-redux"
+              }
+            ]
+          },
           "postClass": {}
         },
         "css": {
@@ -2647,7 +2795,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2697,19 +2850,16 @@
           "preClass": {
             "items": [
               {
-                "name": "3.4.10: Dates in SQL and JS",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.10-dates-in-sql-and-js"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
+                "name": "3.4.9: Database Setup Files",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.9-database-setup-files"
+              },
               {
-                "name": "3.ICE.11: DB Schema Design - Uber",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.11-db-schema-design-uber"
+                "name": "3.5.5: Custom Middleware for Authentication",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.5-authentication/3.5.5-custom-middleware-for-authentication"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         },
         "css": {
@@ -2724,7 +2874,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2772,16 +2927,16 @@
           "preClass": {
             "items": [
               {
-                "name": "3.4.11: File Uploads",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.11-file-uploads"
+                "name": "3.4.10: Dates in SQL and JS",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.10-dates-in-sql-and-js"
               }
             ]
           },
           "inClass": {
             "items": [
               {
-                "name": "3.ICE.12: DB Schema Design - Instagram",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.12-db-schema-design-instagram"
+                "name": "3.ICE.11: DB Schema Design - Uber",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.11-db-schema-design-uber"
               }
             ]
           },
@@ -2799,7 +2954,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2842,8 +3002,22 @@
         "module": "Module 3: Backend Applications",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "3.4.11: File Uploads",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.11-file-uploads"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "3.ICE.12: DB Schema Design - Instagram",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.12-db-schema-design-instagram"
+              }
+            ]
+          },
           "postClass": {}
         },
         "css": {
@@ -2865,7 +3039,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2924,7 +3103,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3005,7 +3189,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3071,7 +3260,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3137,7 +3331,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3203,7 +3402,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3242,6 +3446,70 @@
       "dayNumber": 4,
       "meetingDateTimeUTC": "2022-03-10T02:00:00.000Z",
       "courseDay": 41,
+      "dateTypes": {
+        "module": "Module 4: Backend Structure",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 2 Redux (Peer Code Review)",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#peer-code-review"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 2 Demo Video",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#video-demo"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "11-03-2022": {
+      "courseDate": "11-03-2022",
+      "courseWeek": 9,
+      "weekDay": 5,
+      "dayNumber": 5,
+      "meetingDateTimeUTC": "2022-03-11T02:00:00.000Z",
+      "courseDay": 42,
       "dateTypes": {
         "module": "Module 4: Backend Structure",
         "general": {
@@ -3288,7 +3556,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3301,14 +3574,7 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 2 Redux (Peer Code Review)",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#peer-code-review"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -3320,13 +3586,13 @@
         }
       }
     },
-    "11-03-2022": {
-      "courseDate": "11-03-2022",
-      "courseWeek": 9,
-      "weekDay": 5,
-      "dayNumber": 5,
-      "meetingDateTimeUTC": "2022-03-11T02:00:00.000Z",
-      "courseDay": 42,
+    "14-03-2022": {
+      "courseDate": "14-03-2022",
+      "courseWeek": 10,
+      "weekDay": 1,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2022-03-14T02:00:00.000Z",
+      "courseDay": 43,
       "dateTypes": {
         "module": "Module 4: Backend Structure",
         "general": {
@@ -3380,7 +3646,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3391,27 +3662,27 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {
+          "projectDue": {
             "items": [
               {
-                "name": "Project 2 Demo Video",
+                "name": "Due: Project 2 Demo Video",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#video-demo"
               }
             ]
-          }
+          },
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         }
       }
     },
-    "14-03-2022": {
-      "courseDate": "14-03-2022",
+    "15-03-2022": {
+      "courseDate": "15-03-2022",
       "courseWeek": 10,
-      "weekDay": 1,
-      "dayNumber": 1,
-      "meetingDateTimeUTC": "2022-03-14T02:00:00.000Z",
-      "courseDay": 43,
+      "weekDay": 2,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2022-03-15T02:00:00.000Z",
+      "courseDay": 44,
       "dateTypes": {
         "module": "Module 4: Backend Structure",
         "general": {
@@ -3461,7 +3732,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3472,27 +3748,20 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Due: Project 2 Demo Video",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#video-demo"
-              }
-            ]
-          },
+          "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
         }
       }
     },
-    "15-03-2022": {
-      "courseDate": "15-03-2022",
+    "16-03-2022": {
+      "courseDate": "16-03-2022",
       "courseWeek": 10,
-      "weekDay": 2,
-      "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-03-15T02:00:00.000Z",
-      "courseDay": 44,
+      "weekDay": 3,
+      "dayNumber": 3,
+      "meetingDateTimeUTC": "2022-03-16T02:00:00.000Z",
+      "courseDay": 45,
       "dateTypes": {
         "module": "Module 4: Backend Structure",
         "general": {
@@ -3538,7 +3807,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3556,15 +3830,15 @@
         }
       }
     },
-    "16-03-2022": {
-      "courseDate": "16-03-2022",
+    "17-03-2022": {
+      "courseDate": "17-03-2022",
       "courseWeek": 10,
-      "weekDay": 3,
-      "dayNumber": 3,
-      "meetingDateTimeUTC": "2022-03-16T02:00:00.000Z",
-      "courseDay": 45,
+      "weekDay": 4,
+      "dayNumber": 4,
+      "meetingDateTimeUTC": "2022-03-17T02:00:00.000Z",
+      "courseDay": 46,
       "dateTypes": {
-        "module": "Module 4: Backend Structure",
+        "module": "Module 5: Full-Stack Applications",
         "general": {
           "type": "general",
           "preClass": {
@@ -3604,7 +3878,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3622,13 +3901,13 @@
         }
       }
     },
-    "17-03-2022": {
-      "courseDate": "17-03-2022",
+    "18-03-2022": {
+      "courseDate": "18-03-2022",
       "courseWeek": 10,
-      "weekDay": 4,
-      "dayNumber": 4,
-      "meetingDateTimeUTC": "2022-03-17T02:00:00.000Z",
-      "courseDay": 46,
+      "weekDay": 5,
+      "dayNumber": 5,
+      "meetingDateTimeUTC": "2022-03-18T02:00:00.000Z",
+      "courseDay": 47,
       "dateTypes": {
         "module": "Module 5: Full-Stack Applications",
         "general": {
@@ -3678,7 +3957,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3696,13 +3980,13 @@
         }
       }
     },
-    "18-03-2022": {
-      "courseDate": "18-03-2022",
-      "courseWeek": 10,
-      "weekDay": 5,
-      "dayNumber": 5,
-      "meetingDateTimeUTC": "2022-03-18T02:00:00.000Z",
-      "courseDay": 47,
+    "21-03-2022": {
+      "courseDate": "21-03-2022",
+      "courseWeek": 11,
+      "weekDay": 1,
+      "dayNumber": 1,
+      "meetingDateTimeUTC": "2022-03-21T02:00:00.000Z",
+      "courseDay": 48,
       "dateTypes": {
         "module": "Module 5: Full-Stack Applications",
         "general": {
@@ -3748,77 +4032,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
-        "ip": {
-          "type": "ip",
-          "ipDue": {},
+        "ux": {
+          "type": "ux",
           "preClass": {},
           "inClass": {},
           "postClass": {}
         },
-        "projects": {
-          "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        }
-      }
-    },
-    "21-03-2022": {
-      "courseDate": "21-03-2022",
-      "courseWeek": 11,
-      "weekDay": 1,
-      "dayNumber": 1,
-      "meetingDateTimeUTC": "2022-03-21T02:00:00.000Z",
-      "courseDay": 48,
-      "dateTypes": {
-        "module": "Module 5: Full-Stack Applications",
-        "general": {
-          "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "4.1.7: Sequelize Eager Loading",
-                "url": "https://bootcamp.rocketacademy.co/4-backend-structure/4.1-orm-sequelize/4.1.7-sequelize-eager-loading"
-              },
-              {
-                "name": "5.2.1: AJAX POST Requests",
-                "url": "https://bootcamp.rocketacademy.co/5-full-stack-applications/5.2-ajax/5.2.1-ajax-post-requests"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "5.ICE.3: Bug Reports AJAX",
-                "url": "https://bootcamp.rocketacademy.co/5-full-stack-applications/5.ice-in-class-exercises/5.ice.3-bug-reports-ajax"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "5.POCE.1: Bug Reports AJAX",
-                "url": "https://bootcamp.rocketacademy.co/5-full-stack-applications/5.poce-post-class-exercises/5.poce.1-bug-reports-ajax"
-              }
-            ]
-          }
-        },
-        "css": {
-          "type": "css",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "algos": {
-          "type": "algos",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3864,6 +4083,103 @@
           "preClass": {
             "items": [
               {
+                "name": "4.1.7: Sequelize Eager Loading",
+                "url": "https://bootcamp.rocketacademy.co/4-backend-structure/4.1-orm-sequelize/4.1.7-sequelize-eager-loading"
+              },
+              {
+                "name": "5.2.1: AJAX POST Requests",
+                "url": "https://bootcamp.rocketacademy.co/5-full-stack-applications/5.2-ajax/5.2.1-ajax-post-requests"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "5.ICE.3: Bug Reports AJAX",
+                "url": "https://bootcamp.rocketacademy.co/5-full-stack-applications/5.ice-in-class-exercises/5.ice.3-bug-reports-ajax"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "5.POCE.1: Bug Reports AJAX",
+                "url": "https://bootcamp.rocketacademy.co/5-full-stack-applications/5.poce-post-class-exercises/5.poce.1-bug-reports-ajax"
+              }
+            ]
+          }
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {
+            "items": [
+              {
+                "name": "A.0: Algorithms Overview",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.0-algorithms-overview"
+              },
+              {
+                "name": "A.1: Intro to SWE Interviews",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-intro-to-swe-interviews"
+              },
+              {
+                "name": "A.2: Intro to Python (Exercises 1-8)",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.2-intro-to-python"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {}
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 3 Ideation Phase 1",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-1"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "23-03-2022": {
+      "courseDate": "23-03-2022",
+      "courseWeek": 11,
+      "weekDay": 3,
+      "dayNumber": 3,
+      "meetingDateTimeUTC": "2022-03-23T02:00:00.000Z",
+      "courseDay": 50,
+      "dateTypes": {
+        "module": "Module 6: Frontend Infrastructure",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
                 "name": "4.1.8: Multiple FK Columns Referencing Same Table",
                 "url": "https://bootcamp.rocketacademy.co/4-backend-structure/4.1-orm-sequelize/4.1.8-multiple-foreign-key-columns-referencing-same-table"
               }
@@ -3897,15 +4213,7 @@
           "preClass": {
             "items": [
               {
-                "name": "A.0: Algorithms Overview",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.0-algorithms-overview"
-              },
-              {
-                "name": "A.1: Intro to SWE Interviews",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-intro-to-swe-interviews"
-              },
-              {
-                "name": "A.2: Intro to Python (Exercises 1-8)",
+                "name": "A.2: Intro to Python (Exercises 9-11)",
                 "url": "https://bootcamp.rocketacademy.co/algorithms/a.2-intro-to-python"
               }
             ]
@@ -3913,7 +4221,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3938,13 +4251,13 @@
         }
       }
     },
-    "23-03-2022": {
-      "courseDate": "23-03-2022",
+    "24-03-2022": {
+      "courseDate": "24-03-2022",
       "courseWeek": 11,
-      "weekDay": 3,
-      "dayNumber": 3,
-      "meetingDateTimeUTC": "2022-03-23T02:00:00.000Z",
-      "courseDay": 50,
+      "weekDay": 4,
+      "dayNumber": 4,
+      "meetingDateTimeUTC": "2022-03-24T02:00:00.000Z",
+      "courseDay": 51,
       "dateTypes": {
         "module": "Module 6: Frontend Infrastructure",
         "general": {
@@ -3997,86 +4310,6 @@
           "preClass": {
             "items": [
               {
-                "name": "A.2: Intro to Python (Exercises 9-11)",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.2-intro-to-python"
-              }
-            ]
-          },
-          "inClass": {},
-          "postClass": {}
-        },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
-        "ip": {
-          "type": "ip",
-          "ipDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "projects": {
-          "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 3 Ideation Phase 1",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-1"
-              }
-            ]
-          }
-        }
-      }
-    },
-    "24-03-2022": {
-      "courseDate": "24-03-2022",
-      "courseWeek": 11,
-      "weekDay": 4,
-      "dayNumber": 4,
-      "meetingDateTimeUTC": "2022-03-24T02:00:00.000Z",
-      "courseDay": 51,
-      "dateTypes": {
-        "module": "Module 6: Frontend Infrastructure",
-        "general": {
-          "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "6.1.2: Webpack with NPM Modules",
-                "url": "https://bootcamp.rocketacademy.co/6-frontend-infrastructure/6.1-webpack/6.1.2-webpack-with-npm-modules"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "6.ICE.1: NPM Webpack",
-                "url": "https://bootcamp.rocketacademy.co/6-frontend-infrastructure/6.ice-in-class-exercises/6.ice.1-npm-webpack"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "5.POCE.3: AJAX Cards",
-                "url": "https://bootcamp.rocketacademy.co/5-full-stack-applications/5.poce-post-class-exercises/5.poce.3-ajax-cards"
-              }
-            ]
-          }
-        },
-        "css": {
-          "type": "css",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "algos": {
-          "type": "algos",
-          "preClass": {
-            "items": [
-              {
                 "name": "A.3: Complexity Analysis, Big-O Notation",
                 "url": "https://bootcamp.rocketacademy.co/algorithms/a.3-complexity-analysis-big-o-notation"
               },
@@ -4093,7 +4326,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4139,16 +4377,19 @@
           "preClass": {
             "items": [
               {
-                "name": "6.1.3: Webpack with Babel",
-                "url": "https://bootcamp.rocketacademy.co/6-frontend-infrastructure/6.1-webpack/6.1.3-webpack-with-babel"
-              },
-              {
-                "name": "6.1.4: Webpack with SASS",
-                "url": "https://bootcamp.rocketacademy.co/6-frontend-infrastructure/6.1-webpack/6.1.4-webpack-with-sass"
+                "name": "6.1.2: Webpack with NPM Modules",
+                "url": "https://bootcamp.rocketacademy.co/6-frontend-infrastructure/6.1-webpack/6.1.2-webpack-with-npm-modules"
               }
             ]
           },
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "6.ICE.1: NPM Webpack",
+                "url": "https://bootcamp.rocketacademy.co/6-frontend-infrastructure/6.ice-in-class-exercises/6.ice.1-npm-webpack"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
@@ -4177,7 +4418,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4216,13 +4462,24 @@
           "preClass": {
             "items": [
               {
-                "name": "6.1.5: Webpack with Express",
-                "url": "https://bootcamp.rocketacademy.co/6-frontend-infrastructure/6.1-webpack/6.1.5-webpack-with-express"
+                "name": "6.1.3: Webpack with Babel",
+                "url": "https://bootcamp.rocketacademy.co/6-frontend-infrastructure/6.1-webpack/6.1.3-webpack-with-babel"
+              },
+              {
+                "name": "6.1.4: Webpack with SASS",
+                "url": "https://bootcamp.rocketacademy.co/6-frontend-infrastructure/6.1-webpack/6.1.4-webpack-with-sass"
               }
             ]
           },
-          "inClass": { "items": [{ "name": "AJAX Cards Redux" }] },
-          "postClass": {}
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "5.POCE.3: AJAX Cards",
+                "url": "https://bootcamp.rocketacademy.co/5-full-stack-applications/5.poce-post-class-exercises/5.poce.3-ajax-cards"
+              }
+            ]
+          }
         },
         "css": {
           "type": "css",
@@ -4250,7 +4507,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4310,12 +4572,18 @@
           "preClass": {
             "items": [
               {
-                "name": "Group Work (for project management)",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/group-work"
+                "name": "6.1.5: Webpack with Express",
+                "url": "https://bootcamp.rocketacademy.co/6-frontend-infrastructure/6.1-webpack/6.1.5-webpack-with-express"
               }
             ]
           },
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "AJAX Cards Redux"
+              }
+            ]
+          },
           "postClass": {}
         },
         "css": {
@@ -4344,7 +4612,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4387,7 +4660,14 @@
         "module": "Module 6: Frontend Infrastructure",
         "general": {
           "type": "general",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "Group Work (for project management)",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/group-work"
+              }
+            ]
+          },
           "inClass": {},
           "postClass": {}
         },
@@ -4424,7 +4704,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4497,7 +4782,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4570,7 +4860,12 @@
           },
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4613,18 +4908,7 @@
         "module": "Module 6: Frontend Infrastructure",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "4.1.10: Deploy Sequelize App to Heroku",
-                "url": "https://bootcamp.rocketacademy.co/4-backend-structure/4.1-orm-sequelize/4.1.10-deploy-sequelize-app-to-heroku"
-              },
-              {
-                "name": "6.1.6: Deploy Webpack App to Heroku",
-                "url": "https://bootcamp.rocketacademy.co/6-frontend-infrastructure/6.1-webpack/6.1.6-express-mvc-webpack-and-heroku"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {},
           "postClass": {}
         },
@@ -4661,7 +4945,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4715,7 +5004,18 @@
         "module": "Module 6: Frontend Infrastructure",
         "general": {
           "type": "general",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "4.1.10: Deploy Sequelize App to Heroku",
+                "url": "https://bootcamp.rocketacademy.co/4-backend-structure/4.1-orm-sequelize/4.1.10-deploy-sequelize-app-to-heroku"
+              },
+              {
+                "name": "6.1.6: Deploy Webpack App to Heroku",
+                "url": "https://bootcamp.rocketacademy.co/6-frontend-infrastructure/6.1-webpack/6.1.6-express-mvc-webpack-and-heroku"
+              }
+            ]
+          },
           "inClass": {},
           "postClass": {}
         },
@@ -4745,7 +5045,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4825,7 +5130,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4880,22 +5190,8 @@
         "general": {
           "type": "general",
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 3 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 3 Implementation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game"
-              }
-            ]
-          }
+          "inClass": {},
+          "postClass": {}
         },
         "css": {
           "type": "css",
@@ -4923,7 +5219,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4967,8 +5268,22 @@
         "general": {
           "type": "general",
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 3 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 3 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game"
+              }
+            ]
+          }
         },
         "css": {
           "type": "css",
@@ -4982,7 +5297,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -5025,6 +5345,70 @@
       "dayNumber": 1,
       "meetingDateTimeUTC": "2022-04-11T02:00:00.000Z",
       "courseDay": 63,
+      "dateTypes": {
+        "module": "Module 7: React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Peer project review exercise",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#project-presentations"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 3 Video Demo",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#video-demo"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "12-04-2022": {
+      "courseDate": "12-04-2022",
+      "courseWeek": 14,
+      "weekDay": 2,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2022-04-12T02:00:00.000Z",
+      "courseDay": 64,
       "dateTypes": {
         "module": "Module 7: React",
         "general": {
@@ -5076,9 +5460,21 @@
           "type": "algos",
           "preClass": {},
           "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "A.5.5: Linked Lists - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.5-data-structures/a.5.5-linked-lists#part-3"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -5091,14 +5487,7 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Peer project review exercise",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#project-presentations"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -5110,13 +5499,13 @@
         }
       }
     },
-    "12-04-2022": {
-      "courseDate": "12-04-2022",
+    "13-04-2022": {
+      "courseDate": "13-04-2022",
       "courseWeek": 14,
-      "weekDay": 2,
-      "dayNumber": 2,
-      "meetingDateTimeUTC": "2022-04-12T02:00:00.000Z",
-      "courseDay": 64,
+      "weekDay": 3,
+      "dayNumber": 3,
+      "meetingDateTimeUTC": "2022-04-13T02:00:00.000Z",
+      "courseDay": 65,
       "dateTypes": {
         "module": "Module 7: React",
         "general": {
@@ -5166,18 +5555,23 @@
         },
         "algos": {
           "type": "algos",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {
+          "preClass": {
             "items": [
               {
-                "name": "A.5.5: Linked Lists - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.5-data-structures/a.5.5-linked-lists#part-3"
+                "name": "A.6: Binary Search - Pre-Class",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.6-binary-search#pre-class"
               }
             ]
-          }
+          },
+          "inClass": {},
+          "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -5188,27 +5582,27 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {
+          "projectDue": {
             "items": [
               {
-                "name": "Project 3 Video Demo",
+                "name": "Due: Project 3 Video Demo",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#video-demo"
               }
             ]
-          }
+          },
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         }
       }
     },
-    "13-04-2022": {
-      "courseDate": "13-04-2022",
+    "14-04-2022": {
+      "courseDate": "14-04-2022",
       "courseWeek": 14,
-      "weekDay": 3,
-      "dayNumber": 3,
-      "meetingDateTimeUTC": "2022-04-13T02:00:00.000Z",
-      "courseDay": 65,
+      "weekDay": 4,
+      "dayNumber": 4,
+      "meetingDateTimeUTC": "2022-04-14T02:00:00.000Z",
+      "courseDay": 66,
       "dateTypes": {
         "module": "Module 7: React",
         "general": {
@@ -5250,90 +5644,6 @@
         },
         "algos": {
           "type": "algos",
-          "preClass": {
-            "items": [
-              {
-                "name": "A.6: Binary Search - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.6-binary-search#pre-class"
-              }
-            ]
-          },
-          "inClass": {},
-          "postClass": {}
-        },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
-        "ip": {
-          "type": "ip",
-          "ipDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "projects": {
-          "type": "projects",
-          "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Due: Project 3 Video Demo",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-3-full-stack-game#video-demo"
-              }
-            ]
-          },
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        }
-      }
-    },
-    "14-04-2022": {
-      "courseDate": "14-04-2022",
-      "courseWeek": 14,
-      "weekDay": 4,
-      "dayNumber": 4,
-      "meetingDateTimeUTC": "2022-04-14T02:00:00.000Z",
-      "courseDay": 66,
-      "dateTypes": {
-        "module": "Module 7: React",
-        "general": {
-          "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "7.5: Controlled Forms",
-                "url": "https://bootcamp.rocketacademy.co/7-react/7.5-controlled-forms"
-              },
-              {
-                "name": "7.6: Passing Data Between Sibling Components",
-                "url": "https://bootcamp.rocketacademy.co/7-react/7.6-passing-data-between-sibling-components"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "7.ICE.4: Guess the Word",
-                "url": "https://bootcamp.rocketacademy.co/7-react/7.ice-in-class-exercises/7.ice.4-guess-the-word"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "7.POCE.3: Read Later",
-                "url": "https://bootcamp.rocketacademy.co/7-react/7.poce-post-class-exercises/7.poce.3-read-later"
-              }
-            ]
-          }
-        },
-        "css": {
-          "type": "css",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "algos": {
-          "type": "algos",
           "preClass": {},
           "inClass": {},
           "postClass": {
@@ -5345,7 +5655,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -5405,24 +5720,20 @@
           "preClass": {
             "items": [
               {
-                "name": "7.7: Designing Component Hierarchy",
-                "url": "https://bootcamp.rocketacademy.co/7-react/7.7-designing-component-hierarchy"
+                "name": "7.5: Controlled Forms",
+                "url": "https://bootcamp.rocketacademy.co/7-react/7.5-controlled-forms"
               },
               {
-                "name": "7.7.1: AJAX Requests from Components",
-                "url": "https://bootcamp.rocketacademy.co/7-react/7.7-designing-component-hierarchy/7.7.1-ajax-requests-from-components"
-              },
-              {
-                "name": "7.9: React Dev Tools",
-                "url": "https://bootcamp.rocketacademy.co/7-react/7.9-react-dev-tools"
+                "name": "7.6: Passing Data Between Sibling Components",
+                "url": "https://bootcamp.rocketacademy.co/7-react/7.6-passing-data-between-sibling-components"
               }
             ]
           },
           "inClass": {
             "items": [
               {
-                "name": "7.ICE.5: Create Item",
-                "url": "https://bootcamp.rocketacademy.co/7-react/7.ice-in-class-exercises/7.ice.5-create-item"
+                "name": "7.ICE.4: Guess the Word",
+                "url": "https://bootcamp.rocketacademy.co/7-react/7.ice-in-class-exercises/7.ice.4-guess-the-word"
               }
             ]
           },
@@ -5461,7 +5772,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -5497,20 +5813,35 @@
         "module": "Module 7: React",
         "general": {
           "type": "general",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "7.7: Designing Component Hierarchy",
+                "url": "https://bootcamp.rocketacademy.co/7-react/7.7-designing-component-hierarchy"
+              },
+              {
+                "name": "7.7.1: AJAX Requests from Components",
+                "url": "https://bootcamp.rocketacademy.co/7-react/7.7-designing-component-hierarchy/7.7.1-ajax-requests-from-components"
+              },
+              {
+                "name": "7.9: React Dev Tools",
+                "url": "https://bootcamp.rocketacademy.co/7-react/7.9-react-dev-tools"
+              }
+            ]
+          },
           "inClass": {
             "items": [
               {
-                "name": "Review 7.POCE.3: Read Later",
-                "url": "https://bootcamp.rocketacademy.co/7-react/7.poce-post-class-exercises/7.poce.3-read-later"
+                "name": "7.ICE.5: Create Item",
+                "url": "https://bootcamp.rocketacademy.co/7-react/7.ice-in-class-exercises/7.ice.5-create-item"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "7.POCE.4: Hot Pot Bill Splitter",
-                "url": "https://bootcamp.rocketacademy.co/7-react/7.poce-post-class-exercises/7.poce.4-hot-pot-bill-splitter"
+                "name": "7.POCE.3: Read Later",
+                "url": "https://bootcamp.rocketacademy.co/7-react/7.poce-post-class-exercises/7.poce.3-read-later"
               }
             ]
           }
@@ -5527,7 +5858,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -5563,15 +5899,15 @@
         "module": "Module 7: React",
         "general": {
           "type": "general",
-          "preClass": {
+          "preClass": {},
+          "inClass": {
             "items": [
               {
-                "name": "7.7.2: useEffect",
-                "url": "https://bootcamp.rocketacademy.co/7-react/7.7-designing-component-hierarchy/7.7.2-useeffect"
+                "name": "Review 7.POCE.3: Read Later",
+                "url": "https://bootcamp.rocketacademy.co/7-react/7.poce-post-class-exercises/7.poce.3-read-later"
               }
             ]
           },
-          "inClass": {},
           "postClass": {
             "items": [
               {
@@ -5614,7 +5950,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -5660,8 +6001,8 @@
           "preClass": {
             "items": [
               {
-                "name": "7.8: Error Boundaries",
-                "url": "https://bootcamp.rocketacademy.co/7-react/7.8-error-boundaries"
+                "name": "7.7.2: useEffect",
+                "url": "https://bootcamp.rocketacademy.co/7-react/7.7-designing-component-hierarchy/7.7.2-useeffect"
               }
             ]
           },
@@ -5708,7 +6049,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -5744,16 +6090,23 @@
         "module": "Module 7: React",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Review 7.POCE.4: Hot Pot Bill Splitter",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#peer-code-review"
+                "name": "7.8: Error Boundaries",
+                "url": "https://bootcamp.rocketacademy.co/7-react/7.8-error-boundaries"
               }
             ]
           },
-          "postClass": {}
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "7.POCE.4: Hot Pot Bill Splitter",
+                "url": "https://bootcamp.rocketacademy.co/7-react/7.poce-post-class-exercises/7.poce.4-hot-pot-bill-splitter"
+              }
+            ]
+          }
         },
         "css": {
           "type": "css",
@@ -5767,7 +6120,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -5825,7 +6183,14 @@
         "general": {
           "type": "general",
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Review 7.POCE.4: Hot Pot Bill Splitter",
+                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#peer-code-review"
+              }
+            ]
+          },
           "postClass": {}
         },
         "css": {
@@ -5854,7 +6219,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -5927,7 +6297,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -6000,7 +6375,12 @@
           },
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -6073,7 +6453,12 @@
           },
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -6146,7 +6531,12 @@
           },
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -6172,7 +6562,9 @@
                 "name": "Project 4 Scrum",
                 "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
               },
-              { "name": "Project 4 In-Class Code Review" }
+              {
+                "name": "Project 4 In-Class Code Review"
+              }
             ]
           },
           "postClass": {
@@ -6244,7 +6636,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -6331,7 +6728,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -6411,7 +6813,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -6470,7 +6877,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -6517,6 +6929,77 @@
         "module": "Module 8: Advanced React",
         "general": {
           "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "A.5.6: Trees - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.5-data-structures/a.5.6-trees#part-3"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "A.5.6: Trees - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.5-data-structures/a.5.6-trees#part-3"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 4 Video Demo",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#video-demo"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "11-05-2022": {
+      "courseDate": "11-05-2022",
+      "courseWeek": 18,
+      "weekDay": 3,
+      "dayNumber": 3,
+      "meetingDateTimeUTC": "2022-05-11T02:00:00.000Z",
+      "courseDay": 82,
+      "dateTypes": {
+        "module": "Module 8: Advanced React",
+        "general": {
+          "type": "general",
           "preClass": {
             "items": [
               {
@@ -6552,21 +7035,26 @@
           "inClass": {
             "items": [
               {
-                "name": "A.5.6: Trees - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.5-data-structures/a.5.6-trees#part-3"
+                "name": "A.5.6: Trees - Part 4",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.5-data-structures/a.5.6-trees#part-4"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "A.5.6: Trees - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.5-data-structures/a.5.6-trees#part-3"
+                "name": "A.5.6: Trees - Part 4",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.5-data-structures/a.5.6-trees#part-4"
               }
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -6577,27 +7065,27 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {
+          "projectDue": {
             "items": [
               {
-                "name": "Project 4 Video Demo",
+                "name": "Due: Project 4 Video Demo",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#video-demo"
               }
             ]
-          }
+          },
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         }
       }
     },
-    "11-05-2022": {
-      "courseDate": "11-05-2022",
+    "12-05-2022": {
+      "courseDate": "12-05-2022",
       "courseWeek": 18,
-      "weekDay": 3,
-      "dayNumber": 3,
-      "meetingDateTimeUTC": "2022-05-11T02:00:00.000Z",
-      "courseDay": 82,
+      "weekDay": 4,
+      "dayNumber": 4,
+      "meetingDateTimeUTC": "2022-05-12T02:00:00.000Z",
+      "courseDay": 83,
       "dateTypes": {
         "module": "Module 8: Advanced React",
         "general": {
@@ -6647,86 +7135,6 @@
           "inClass": {
             "items": [
               {
-                "name": "A.5.6: Trees - Part 4",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.5-data-structures/a.5.6-trees#part-4"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "A.5.6: Trees - Part 4",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.5-data-structures/a.5.6-trees#part-4"
-              }
-            ]
-          }
-        },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
-        "ip": {
-          "type": "ip",
-          "ipDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "projects": {
-          "type": "projects",
-          "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Due: Project 4 Video Demo",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-4-full-stack-react-app#video-demo"
-              }
-            ]
-          },
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        }
-      }
-    },
-    "12-05-2022": {
-      "courseDate": "12-05-2022",
-      "courseWeek": 18,
-      "weekDay": 4,
-      "dayNumber": 4,
-      "meetingDateTimeUTC": "2022-05-12T02:00:00.000Z",
-      "courseDay": 83,
-      "dateTypes": {
-        "module": "Module 8: Advanced React",
-        "general": {
-          "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "8.3.4: React E-Commerce App with Store",
-                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.2-usecontext/8.3.4-react-e-commerce-app-with-store"
-              }
-            ]
-          },
-          "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "8.POCE.1: Car Rental",
-                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.poce-post-class-exercises/8.poce.1-car-rental"
-              }
-            ]
-          }
-        },
-        "css": {
-          "type": "css",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "algos": {
-          "type": "algos",
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
                 "name": "A.5.6: Trees - Part 5",
                 "url": "https://bootcamp.rocketacademy.co/algorithms/a.5-data-structures/a.5.6-trees#part-5"
               }
@@ -6741,7 +7149,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -6787,16 +7200,8 @@
           "preClass": {
             "items": [
               {
-                "name": "8.4: React Router",
-                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.4-react-router"
-              },
-              {
-                "name": "8.4.1: React Router Shopping",
-                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.4-react-router/8.4.1-react-router-shopping"
-              },
-              {
-                "name": "8.4.2: React Router Deep Linking",
-                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.4-react-router/8.4.2-react-router-deep-linking"
+                "name": "8.3.4: React E-Commerce App with Store",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.2-usecontext/8.3.4-react-e-commerce-app-with-store"
               }
             ]
           },
@@ -6836,7 +7241,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -6887,8 +7297,16 @@
           "preClass": {
             "items": [
               {
-                "name": "8.5: Advanced useEffect",
-                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.5-advanced-useeffect"
+                "name": "8.4: React Router",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.4-react-router"
+              },
+              {
+                "name": "8.4.1: React Router Shopping",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.4-react-router/8.4.1-react-router-shopping"
+              },
+              {
+                "name": "8.4.2: React Router Deep Linking",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.4-react-router/8.4.2-react-router-deep-linking"
               }
             ]
           },
@@ -6896,8 +7314,8 @@
           "postClass": {
             "items": [
               {
-                "name": "8.POCE.2: (Group Project) Climbing Trip",
-                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.poce-post-class-exercises/8.poce.2-rock-climbing-trip-planner"
+                "name": "8.POCE.1: Car Rental",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.poce-post-class-exercises/8.poce.1-car-rental"
               }
             ]
           }
@@ -6935,7 +7353,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -6974,12 +7397,8 @@
           "preClass": {
             "items": [
               {
-                "name": "8.6: Styled Components",
-                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.6-styled-components"
-              },
-              {
-                "name": "8.7: React Portals",
-                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.7-react-portals"
+                "name": "8.5: Advanced useEffect",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.5-advanced-useeffect"
               }
             ]
           },
@@ -7019,7 +7438,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -7065,8 +7489,12 @@
           "preClass": {
             "items": [
               {
-                "name": "8.8: React NPM Packages",
-                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.8-react-npm-packages"
+                "name": "8.6: Styled Components",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.6-styled-components"
+              },
+              {
+                "name": "8.7: React Portals",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.7-react-portals"
               }
             ]
           },
@@ -7099,7 +7527,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -7135,7 +7568,14 @@
         "module": "Module 8: Advanced React",
         "general": {
           "type": "general",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "8.8: React NPM Packages",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.8-react-npm-packages"
+              }
+            ]
+          },
           "inClass": {},
           "postClass": {
             "items": [
@@ -7179,7 +7619,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -7216,15 +7661,15 @@
         "general": {
           "type": "general",
           "preClass": {},
-          "inClass": {
+          "inClass": {},
+          "postClass": {
             "items": [
               {
-                "name": "8.POCE.2: Climbing Trip Redux",
+                "name": "8.POCE.2: (Group Project) Climbing Trip",
                 "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.poce-post-class-exercises/8.poce.2-rock-climbing-trip-planner"
               }
             ]
-          },
-          "postClass": {}
+          }
         },
         "css": {
           "type": "css",
@@ -7259,7 +7704,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -7309,35 +7759,12 @@
         "module": "Module 8: Advanced React",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "9.0: Module 9 Overview",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.0-module-9-overview"
-              },
-              {
-                "name": "9.1: Testing",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.1-testing"
-              },
-              {
-                "name": "9.1.1: Unit Testing",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.1-testing/9.1.1-unit-testing"
-              },
-              {
-                "name": "9.1.2: TDD",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.1-testing/9.1.2-tdd"
-              },
-              {
-                "name": "9.1.3: CI",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.1-testing/9.1.3-ci"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {
             "items": [
               {
-                "name": "9.ICE.1: Unit Testing",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.ice-in-class-exercises/9.ice.1-unit-testing"
+                "name": "8.POCE.2: Climbing Trip Redux",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.poce-post-class-exercises/8.poce.2-rock-climbing-trip-planner"
               }
             ]
           },
@@ -7355,7 +7782,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -7401,20 +7833,35 @@
           "preClass": {
             "items": [
               {
-                "name": "9.2.1: XSS",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.2-security/9.2.1-xss"
+                "name": "9.0: Module 9 Overview",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.0-module-9-overview"
               },
               {
-                "name": "9.2.2: CSRF",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.2-security/9.2.2-csrf"
+                "name": "9.1: Testing",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.1-testing"
               },
               {
-                "name": "9.2.3: SQL Injection",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.2-security/9.2.3-sql-injection"
+                "name": "9.1.1: Unit Testing",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.1-testing/9.1.1-unit-testing"
+              },
+              {
+                "name": "9.1.2: TDD",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.1-testing/9.1.2-tdd"
+              },
+              {
+                "name": "9.1.3: CI",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.1-testing/9.1.3-ci"
               }
             ]
           },
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "9.ICE.1: Unit Testing",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.ice-in-class-exercises/9.ice.1-unit-testing"
+              }
+            ]
+          },
           "postClass": {}
         },
         "css": {
@@ -7443,7 +7890,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -7489,8 +7941,16 @@
           "preClass": {
             "items": [
               {
-                "name": "9.3: Django",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.3-django"
+                "name": "9.2.1: XSS",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.2-security/9.2.1-xss"
+              },
+              {
+                "name": "9.2.2: CSRF",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.2-security/9.2.2-csrf"
+              },
+              {
+                "name": "9.2.3: SQL Injection",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.2-security/9.2.3-sql-injection"
               }
             ]
           },
@@ -7523,7 +7983,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -7569,8 +8034,8 @@
           "preClass": {
             "items": [
               {
-                "name": "9.3.1: Django User Login",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.3-django/9.3.1-django-user-login"
+                "name": "9.3: Django",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.3-django"
               }
             ]
           },
@@ -7603,7 +8068,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -7660,8 +8130,8 @@
           "preClass": {
             "items": [
               {
-                "name": "9.4: React Native",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.4-react-native"
+                "name": "9.3.1: Django User Login",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.3-django/9.3.1-django-user-login"
               }
             ]
           },
@@ -7701,7 +8171,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -7747,16 +8222,8 @@
           "preClass": {
             "items": [
               {
-                "name": "9.5.2: ML - Naive Bayes Classifier Python",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.5-ml-bayes-theorem/9.5.2-ml-naive-bayes-classifier-python"
-              },
-              {
-                "name": "9.5.1: ML - Naive Bayes Classifier JS",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.5-ml-bayes-theorem/9.5.1-ml-naive-bayes-classifier-javascript"
-              },
-              {
-                "name": "9.5: ML - Naive Bayes Theorem",
-                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.5-ml-bayes-theorem"
+                "name": "9.4: React Native",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.4-react-native"
               }
             ]
           },
@@ -7789,7 +8256,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -7832,7 +8304,22 @@
         "module": "Module 8: Advanced React",
         "general": {
           "type": "general",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "9.5.2: ML - Naive Bayes Classifier Python",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.5-ml-bayes-theorem/9.5.2-ml-naive-bayes-classifier-python"
+              },
+              {
+                "name": "9.5.1: ML - Naive Bayes Classifier JS",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.5-ml-bayes-theorem/9.5.1-ml-naive-bayes-classifier-javascript"
+              },
+              {
+                "name": "9.5: ML - Naive Bayes Theorem",
+                "url": "https://bootcamp.rocketacademy.co/9-advanced-topics/9.5-ml-bayes-theorem"
+              }
+            ]
+          },
           "inClass": {},
           "postClass": {}
         },
@@ -7862,7 +8349,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -7954,7 +8446,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -8034,7 +8531,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -8122,7 +8624,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -8156,7 +8663,10 @@
                 "name": "Project 5 Video",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-5-group-react-app#video-demo"
               },
-              { "name": "Project 6 Exploration Time", "url": "" }
+              {
+                "name": "Project 6 Exploration Time",
+                "url": ""
+              }
             ]
           }
         }
@@ -8203,7 +8713,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -8248,7 +8763,10 @@
                 "name": "Project 6 Implementation",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
               },
-              { "name": "Project 6 Exploration Time", "url": "" }
+              {
+                "name": "Project 6 Exploration Time",
+                "url": ""
+              }
             ]
           }
         }
@@ -8295,7 +8813,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -8322,7 +8845,10 @@
                 "name": "Project 6 Implementation",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
               },
-              { "name": "Project 6 Exploration Time", "url": "" }
+              {
+                "name": "Project 6 Exploration Time",
+                "url": ""
+              }
             ]
           }
         }
@@ -8369,7 +8895,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -8396,7 +8927,10 @@
                 "name": "Project 6 Implementation",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-6-capstone"
               },
-              { "name": "Project 6 Exploration Time", "url": "" }
+              {
+                "name": "Project 6 Exploration Time",
+                "url": ""
+              }
             ]
           }
         }
@@ -8443,7 +8977,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -8520,7 +9059,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -8586,7 +9130,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -8659,7 +9208,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -8765,7 +9319,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -8838,7 +9397,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {
@@ -8932,7 +9496,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -9012,7 +9581,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {
@@ -9106,7 +9680,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -9186,7 +9765,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {
@@ -9252,7 +9836,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -9311,7 +9900,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -9370,7 +9964,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -9443,7 +10042,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -9513,7 +10117,12 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -9626,7 +10235,12 @@
             ]
           }
         },
-        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
         "ip": {
           "type": "ip",
           "ipDue": {},
