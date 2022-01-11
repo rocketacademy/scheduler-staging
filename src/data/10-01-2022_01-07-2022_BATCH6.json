@@ -5754,23 +5754,9 @@
         },
         "algos": {
           "type": "algos",
-          "preClass": {
-            "items": [
-              {
-                "name": "A.7: Sliding Windows - Pre-Class",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.7-sliding-windows#pre-class"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "A.7: Sliding Windows - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.7-sliding-windows#part-1"
-              }
-            ]
-          }
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
@@ -6793,6 +6779,10 @@
               {
                 "name": "Trees - Part 2",
                 "url": "https://bootcamp.rocketacademy.co/algorithms/a.5-data-structures/a.5.6-trees#part-2"
+              },
+              {
+                "name": "Binary Search Trees",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.5-data-structures/a.5.6-trees/a.5.6.2-binary-search-trees"
               }
             ]
           },
