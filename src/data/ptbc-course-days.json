@@ -284,7 +284,7 @@
 					"inClass": {
 						"items": [
 							{
-								"name": "Review 1 student's 1.POCE.2: High Card",
+								"name": "Peer-Review 1.POCE.2: High Card",
 								"url": ""
 							},
 							{
@@ -367,7 +367,7 @@
 					"inClass": {
 						"items": [
 							{
-								"name": "Review 1 student's 1.POCE.3: Match Game"
+								"name": "Peer-Review 1.POCE.3: Match Game"
 							},
 							{
 								"name": "1.ICE.3: setInterval",
@@ -453,7 +453,7 @@
 					"inClass": {
 						"items": [
 							{
-								"name": "Review 1 student's 1.POCE.4: Timer",
+								"name": "Peer-Review 1.POCE.4: Timer",
 								"url": ""
 							}
 						]
@@ -536,7 +536,7 @@
 					"inClass": {
 						"items": [
 							{
-								"name": "Review 1 student's 1.POCE.5: Tic Tac Toe"
+								"name": "Peer-Review 1.POCE.5: Tic Tac Toe"
 							}
 						]
 					},
