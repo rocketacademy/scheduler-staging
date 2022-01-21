@@ -3541,6 +3541,10 @@
 							{
 								"name": "3.6.3: Heroku S3",
 								"url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.6-heroku/3.6.3-heroku-s3"
+							},
+							{
+								"name": "0.10: Introduction to Classes",
+								"url": "https://bootcamp.rocketacademy.co/0-language-and-tooling/0.10-introduction-to-classes"
 							}
 						]
 					},
@@ -4878,8 +4882,8 @@
 					"preClass": {
 						"items": [
 							{
-								"name": "A.6: Object-Oriented Programming",
-								"url": "https://bootcamp.rocketacademy.co/algorithms/a.6-intro-to-object-oriented-programming"
+								"name": "A.8: Object-Oriented Programming",
+								"url": "https://bootcamp.rocketacademy.co/algorithms/a.8-intro-to-object-oriented-programming"
 							}
 						]
 					},
