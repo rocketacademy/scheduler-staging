@@ -1,11 +1,5 @@
 {
-  "daysOfWeek": [
-    1,
-    2,
-    3,
-    4,
-    5
-  ],
+  "daysOfWeek": [1, 2, 3, 4, 5],
   "courseStartIndex": 0,
   "totalCourseDays": 118,
   "courseType": "Bootcamp FT",
@@ -6017,24 +6011,24 @@
           "preClass": {
             "items": [
               {
-                "name": "A.7: Recursion - Required Reading",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.7-recursion#required-reading"
+                "name": "A.9: Recursion - Required Reading",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.9-recursion#required-reading"
               }
             ]
           },
           "inClass": {
             "items": [
               {
-                "name": "A.7: Recursion - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.7-recursion#part-1"
+                "name": "A.9: Recursion - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.9-recursion#part-1"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "A.7: Recursion - Part 1",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.7-recursion#part-1"
+                "name": "A.9: Recursion - Part 1",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.9-recursion#part-1"
               }
             ]
           }
@@ -6195,16 +6189,16 @@
           "inClass": {
             "items": [
               {
-                "name": "A.7: Recursion - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.7-recursion#part-2"
+                "name": "A.9: Recursion - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.9-recursion#part-2"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "A.7: Recursion - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.7-recursion#part-2"
+                "name": "A.9: Recursion - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.9-recursion#part-2"
               }
             ]
           }
@@ -6273,16 +6267,16 @@
           "inClass": {
             "items": [
               {
-                "name": "A.7: Recursion - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.7-recursion#part-3"
+                "name": "A.9: Recursion - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.9-recursion#part-3"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "A.7: Recursion - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.7-recursion#part-3"
+                "name": "A.9: Recursion - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.9-recursion#part-3"
               }
             ]
           }
