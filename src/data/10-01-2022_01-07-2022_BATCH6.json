@@ -1458,14 +1458,7 @@
           "type": "general",
           "preClass": {
             "items": [
-              {
-                "name": "2.11: Deploy Server to Cloud",
-                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.11-deploy-server-to-cloud"
-              },
-              {
-                "name": "2.12: Domain Names",
-                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.12-domain-names"
-              },
+              
               {
                 "name": "2.13: JSON",
                 "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.13-json"
