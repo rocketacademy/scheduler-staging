@@ -3877,16 +3877,17 @@
           "inClass": {
             "items": [
               {
-                "name": "4.POCE.3: Project 2 MVC Refactor",
-                "url": "https://bootcamp.rocketacademy.co/4-backend-structure/4.poce-post-class-exercises/4.poce.3-project-2-mvc-refactor"
+                "name": "4.POCE.2: Drummers for Hire",
+                "url": "https://bootcamp.rocketacademy.co/4-backend-structure/4.poce-post-class-exercises/4.poce.2-drummers-for-hire"
               }
+              
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "4.POCE.2: Drummers for Hire",
-                "url": "https://bootcamp.rocketacademy.co/4-backend-structure/4.poce-post-class-exercises/4.poce.2-drummers-for-hire"
+                "name": "4.POCE.3: Project 2 MVC Refactor",
+                "url": "https://bootcamp.rocketacademy.co/4-backend-structure/4.poce-post-class-exercises/4.poce.3-project-2-mvc-refactor"
               }
             ]
           },
