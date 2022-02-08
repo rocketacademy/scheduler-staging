@@ -1458,7 +1458,6 @@
           "type": "general",
           "preClass": {
             "items": [
-              
               {
                 "name": "2.13: JSON",
                 "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.13-json"
@@ -6337,8 +6336,8 @@
           "preClass": {
             "items": [
               {
-                "name": "A.8: Sorting Algorithms",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.8-sorting-algorithms"
+                "name": "A.10: Sorting Algorithms",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.10-sorting-algorithms"
               }
             ]
           },

@@ -3880,7 +3880,6 @@
                 "name": "4.POCE.2: Drummers for Hire",
                 "url": "https://bootcamp.rocketacademy.co/4-backend-structure/4.poce-post-class-exercises/4.poce.2-drummers-for-hire"
               }
-              
             ]
           },
           "postClass": {
@@ -6356,8 +6355,8 @@
           "preClass": {
             "items": [
               {
-                "name": "A.8: Sorting Algorithms",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.8-sorting-algorithms"
+                "name": "A.10: Sorting Algorithms",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.10-sorting-algorithms"
               }
             ]
           },
