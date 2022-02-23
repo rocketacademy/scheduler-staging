@@ -1,0 +1,1699 @@
+{
+  "repoUrls": {
+    "edit": "https://github.com/rocketacademy/scheduler/edit/main/src/data/bootcamp-course-days.json"
+  },
+  "daysOfWeek": [1, 2, 3, 4],
+  "courseStartIndex": 0,
+  "totalCourseDays": 88,
+  "days": [
+    {
+      "courseDay": 0,
+      "dateTypes": {
+        "module": "Module 1: Frontend Basics",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              { "name": "Day 1 Photo!", "url": "" },
+              { "name": "Course and Student Introductions", "url": "" }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 1,
+      "dateTypes": {
+        "module": "Module 1: Basic Frontend",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 1 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/module1/day-1"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 2,
+      "dateTypes": {
+        "module": "Module 1: Basic Frontend",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 2 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/module1/day-2"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 3,
+      "dateTypes": {
+        "module": "Module 1: Basic Frontend",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 3 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/module1/day-3"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 4,
+      "dateTypes": {
+        "module": "Module 1: Basic Frontend",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 4 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/module1/day-4"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 5,
+      "dateTypes": {
+        "module": "Module 1: Basic Frontend",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 5 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/module1/day-5"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 6,
+      "dateTypes": {
+        "module": "Module 1: Basic Frontend",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 6 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/module1/day-6"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 7,
+      "dateTypes": {
+        "module": "Module 1: Basic Frontend",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 7 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/module1/day-7"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 8,
+      "dateTypes": {
+        "module": "Module 1: Basic Frontend",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 8 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/module1/day-8"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 9,
+      "dateTypes": {
+        "module": "Module 1: Basic Frontend",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 9 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/module1/day-9"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 10,
+      "dateTypes": {
+        "module": "Module 1: Basic Frontend",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 10 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/module1/day-10"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 11,
+      "dateTypes": {
+        "module": "Module 1: Basic Frontend",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 11 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/module1/day-11"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 12,
+      "dateTypes": {
+        "module": "Module 1: Basic Frontend",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 12 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/module1/day-12"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 13,
+      "dateTypes": {
+        "module": "Module 1: Basic Frontend",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 13 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/module1/day-13"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 14,
+      "dateTypes": {
+        "module": "Module 1: Basic Frontend",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 14 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/module1/day-14"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 15,
+      "dateTypes": {
+        "module": "Module 1: Basic Frontend",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 15 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/module1/day-15"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 16,
+      "dateTypes": {
+        "module": "Module 2: Basic Backend",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 1 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/module2/day-1"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 17,
+      "dateTypes": {
+        "module": "Module 2: Basic Backend",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 2 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/module2/day-2"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 18,
+      "dateTypes": {
+        "module": "Module 2: Basic Backend",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 3 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/module2/day-3"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 19,
+      "dateTypes": {
+        "module": "Module 2: Basic Backend",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 4 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/module2/day-4"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 20,
+      "dateTypes": {
+        "module": "Module 2: Basic Backend",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 5 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/module2/day-5"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 21,
+      "dateTypes": {
+        "module": "Module 2: Basic Backend",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 6 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/module2/day-6"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 22,
+      "dateTypes": {
+        "module": "Module 2: Basic Backend",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 7 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/module2/day-7"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 23,
+      "dateTypes": {
+        "module": "Module 2: Basic Backend",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 8 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/module2/day-8"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 24,
+      "dateTypes": {
+        "module": "Module 2: Basic Backend",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 9 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/module2/day-9"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 25,
+      "dateTypes": {
+        "module": "Module 2: Basic Backend",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 10 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/module2/day-10"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 26,
+      "dateTypes": {
+        "module": "Module 2: Basic Backend",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 11 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/module2/day-11"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 27,
+      "dateTypes": {
+        "module": "Module 2: Basic Backend",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 12 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/module2/day-12"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 28,
+      "dateTypes": {
+        "module": "Module 2: Basic Backend",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 13 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/module2/day-13"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 29,
+      "dateTypes": {
+        "module": "Module 2: Basic Backend",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 14 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/module2/day-14"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 30,
+      "dateTypes": {
+        "module": "Module 2: Basic Backend",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 15 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/module2/day-15"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 31,
+      "dateTypes": {
+        "module": "Module 2: Basic Backend",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 16 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/module2/day-16"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 32,
+      "dateTypes": {
+        "module": "Module 3: Advanced Backend and Full Stack",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 1 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/module3/day-1"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 33,
+      "dateTypes": {
+        "module": "Module 3: Advanced Backend and Full Stack",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 2 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/module3/day-2"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 34,
+      "dateTypes": {
+        "module": "Module 3: Advanced Backend and Full Stack",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 3 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/module3/day-3"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 35,
+      "dateTypes": {
+        "module": "Module 3: Advanced Backend and Full Stack",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 4 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/module3/day-4"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 36,
+      "dateTypes": {
+        "module": "Module 3: Advanced Backend and Full Stack",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 5 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/module3/day-5"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 37,
+      "dateTypes": {
+        "module": "Module 3: Advanced Backend and Full Stack",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 6 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/module3/day-6"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 38,
+      "dateTypes": {
+        "module": "Module 3: Advanced Backend and Full Stack",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 7 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/module3/day-7"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 39,
+      "dateTypes": {
+        "module": "Module 3: Advanced Backend and Full Stack",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 8 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/module3/day-8"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 40,
+      "dateTypes": {
+        "module": "Module 3: Advanced Backend and Full Stack",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 9 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/module3/day-9"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 41,
+      "dateTypes": {
+        "module": "Module 3: Advanced Backend and Full Stack",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 10 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/module3/day-10"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 42,
+      "dateTypes": {
+        "module": "Module 3: Advanced Backend and Full Stack",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 11 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/module3/day-11"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 43,
+      "dateTypes": {
+        "module": "Module 3: Advanced Backend and Full Stack",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 12 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/module3/day-12"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 44,
+      "dateTypes": {
+        "module": "Module 3: Advanced Backend and Full Stack",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 13 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/module3/day-13"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 45,
+      "dateTypes": {
+        "module": "Module 3: Advanced Backend and Full Stack",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 14 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/module3/day-14"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 46,
+      "dateTypes": {
+        "module": "Module 3: Advanced Backend and Full Stack",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 15 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/module3/day-15"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 47,
+      "dateTypes": {
+        "module": "Module 3: Advanced Backend and Full Stack",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 16 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/module3/day-16"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 48,
+      "dateTypes": {
+        "module": "Module 3: Advanced Backend and Full Stack",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 17 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/module3/day-17"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 49,
+      "dateTypes": {
+        "module": "Module 3: Advanced Backend and Full Stack",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 18 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/module3/day-18"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 50,
+      "dateTypes": {
+        "module": "Module 3: Advanced Backend and Full Stack",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 19 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/module3/day-19"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 51,
+      "dateTypes": {
+        "module": "Module 4: Frontend Framework - React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 1 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/module4/day-1"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 52,
+      "dateTypes": {
+        "module": "Module 4: Frontend Framework - React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 2 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/module4/day-2"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 53,
+      "dateTypes": {
+        "module": "Module 4: Frontend Framework - React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 3 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/module4/day-3"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 54,
+      "dateTypes": {
+        "module": "Module 4: Frontend Framework - React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 4 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/module4/day-4"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 55,
+      "dateTypes": {
+        "module": "Module 4: Frontend Framework - React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 5 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/module4/day-5"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 56,
+      "dateTypes": {
+        "module": "Module 4: Frontend Framework - React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 6 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/module4/day-6"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 57,
+      "dateTypes": {
+        "module": "Module 4: Frontend Framework - React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 7 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/module4/day-7"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 58,
+      "dateTypes": {
+        "module": "Module 4: Frontend Framework - React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 8 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/module4/day-8"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 59,
+      "dateTypes": {
+        "module": "Module 4: Frontend Framework - React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 9 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/module4/day-9"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 60,
+      "dateTypes": {
+        "module": "Module 4: Frontend Framework - React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 10 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/module4/day-10"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 61,
+      "dateTypes": {
+        "module": "Module 4: Frontend Framework - React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 11 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/module4/day-11"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 62,
+      "dateTypes": {
+        "module": "Module 4: Frontend Framework - React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 12 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/module4/day-12"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 63,
+      "dateTypes": {
+        "module": "Module 4: Frontend Framework - React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 13 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/module4/day-13"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 64,
+      "dateTypes": {
+        "module": "Module 4: Frontend Framework - React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 14 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/module4/day-14"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 65,
+      "dateTypes": {
+        "module": "Module 4: Frontend Framework - React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 15 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/module4/day-15"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 66,
+      "dateTypes": {
+        "module": "Module 4: Frontend Framework - React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 16 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/module4/day-16"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 67,
+      "dateTypes": {
+        "module": "Module 4: Frontend Framework - React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 17 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/module4/day-17"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 68,
+      "dateTypes": {
+        "module": "Module 4: Frontend Framework - React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 18 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/module4/day-18"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 69,
+      "dateTypes": {
+        "module": "Module 4: Frontend Framework - React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 19 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/module4/day-19"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 70,
+      "dateTypes": {
+        "module": "Module 5: Advanced React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 1 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/module-5-advanced-react/day-1"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 71,
+      "dateTypes": {
+        "module": "Module 5: Advanced React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 2 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/module-5-advanced-react/day-2"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 72,
+      "dateTypes": {
+        "module": "Module 5: Advanced React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 3 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/module-5-advanced-react/day-3"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 73,
+      "dateTypes": {
+        "module": "Module 5: Advanced React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 4 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/module-5-advanced-react/day-4"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 74,
+      "dateTypes": {
+        "module": "Module 5: Advanced React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 5 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/module-5-advanced-react/day-5"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 75,
+      "dateTypes": {
+        "module": "Module 5: Advanced React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 6 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/module-5-advanced-react/day-6"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 76,
+      "dateTypes": {
+        "module": "Module 5: Advanced React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 7 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/module-5-advanced-react/day-7"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 77,
+      "dateTypes": {
+        "module": "Module 5: Advanced React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 8 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/module-5-advanced-react/day-8"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 78,
+      "dateTypes": {
+        "module": "Module 5: Advanced React",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 9 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/module-5-advanced-react/day-9"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 79,
+      "dateTypes": {
+        "module": "Module 6: Capstone Project",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 1 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-6-branching-out-to-become-a-software-engineer/module6/day-1"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 80,
+      "dateTypes": {
+        "module": "Module 6: Capstone Project",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 2 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-6-branching-out-to-become-a-software-engineer/module6/day-2"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 81,
+      "dateTypes": {
+        "module": "Module 6: Capstone Project",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 3 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-6-branching-out-to-become-a-software-engineer/module6/day-3"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 82,
+      "dateTypes": {
+        "module": "Module 6: Capstone Project",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 4 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-6-branching-out-to-become-a-software-engineer/module6/day-4"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 83,
+      "dateTypes": {
+        "module": "Module 6: Capstone Project",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 5 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-6-branching-out-to-become-a-software-engineer/module6/day-5"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 84,
+      "dateTypes": {
+        "module": "Module 6: Capstone Project",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 6 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-6-branching-out-to-become-a-software-engineer/module6/day-6"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 85,
+      "dateTypes": {
+        "module": "Module 6: Capstone Project",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 7 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-6-branching-out-to-become-a-software-engineer/module6/day-7"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 86,
+      "dateTypes": {
+        "module": "Module 6: Capstone Project",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 8 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-6-branching-out-to-become-a-software-engineer/module6/day-8"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 87,
+      "dateTypes": {
+        "module": "Module 6: Capstone Project",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 9 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-6-branching-out-to-become-a-software-engineer/module6/day-9"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 88,
+      "dateTypes": {
+        "module": "Module 6: Capstone Project",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Day 10 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-6-branching-out-to-become-a-software-engineer/module6/day-10"
+              }
+            ]
+          },
+          "postClass": {}
+        }
+      }
+    }
+  ]
+}
