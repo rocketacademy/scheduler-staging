@@ -2918,14 +2918,7 @@
               }
             ]
           },
-          "inClass": {
-            "items": [
-              {
-                "name": "3.ICE.11: DB Schema Design - Uber",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.11-db-schema-design-uber"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {}
         },
         "css": {
@@ -3159,14 +3152,7 @@
         "css": {
           "type": "css",
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "CSS.ICE.6: NTU",
-                "url": "https://bootcamp.rocketacademy.co/css/css.ice-in-class-exercises/css.ice.6-ntu"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {}
         },
         "algos": {
