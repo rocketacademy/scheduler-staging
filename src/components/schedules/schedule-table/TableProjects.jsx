@@ -9,25 +9,36 @@ function TableProjects({ day }) {
     let ipdue;
 
     if(!day.dateTypes.holidayType) {
+        if (day.dateTypes.projects) {
         projectdue = day.dateTypes.projects.projectDue;
         projectstart = day.dateTypes.projects.projectStart;
+        }
+
+        if (day.dateTypes.ip) {
         ipdue = day.dateTypes.ip.ipDue;
+        }
     }
     
     return (
         <div className="table-projects">
-            <GenerateNotifications status={projectdue} 
-                               ipdue={ipdue} 
-                               projectdue={projectdue} 
-                               projectstart={projectstart} 
-                               day={day}
-                               />
-            <GenerateNotifications status={projectstart} 
-                               ipdue={ipdue} 
-                               projectdue={projectdue} 
-                               projectstart={projectstart} 
-                               day={day}
-                               />
+            {projectdue !== undefined && (
+                <GenerateNotifications
+                status={projectdue}
+                ipdue={ipdue}
+                projectdue={projectdue}
+                projectstart={projectstart}
+                day={day}
+            />
+            )}
+            {projectstart !== undefined && (
+                <GenerateNotifications
+                status={projectstart}
+                ipdue={ipdue}
+                projectdue={projectdue}
+                projectstart={projectstart}
+                day={day}
+            />
+            )}
         </div>
     )
 }
