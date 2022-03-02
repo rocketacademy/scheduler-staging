@@ -1,27 +1,25 @@
 {
   "daysOfWeek": [2, 6],
-  "courseStartIndex": 0,
-  "totalCourseDays": 88,
+  "courseStartIndex": 1,
+  "totalCourseDays": 96,
   "courseType": "Bootcamp PT",
   "days": {
     "12-03-2022": {
       "courseDate": "12-03-2022",
       "courseWeek": 1,
-      "weekDay": 2,
+      "weekDay": 1,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-03-12T02:00:00.000Z",
-      "courseDay": 1,
+      "courseDay": 0,
       "dateTypes": {
-        "module": "Module 1: Basic Frontend",
+        "module": "Module 1: Frontend Basics",
         "general": {
           "type": "general",
           "preClass": {},
           "inClass": {
             "items": [
-              {
-                "name": "Day 1 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/module1/day-1"
-              }
+              { "name": "Day 1 Photo!", "url": "" },
+              { "name": "Course and Student Introductions", "url": "" }
             ]
           },
           "postClass": {}
@@ -34,20 +32,20 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-03-15T11:30:00.000Z",
-      "courseDay": 2,
+      "courseDay": 1,
       "dateTypes": {
         "module": "Module 1: Basic Frontend",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 2 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/module1/day-2"
+                "name": "Day 1 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-1"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -58,20 +56,20 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-03-19T02:00:00.000Z",
-      "courseDay": 3,
+      "courseDay": 2,
       "dateTypes": {
         "module": "Module 1: Basic Frontend",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 3 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/module1/day-3"
+                "name": "Day 2 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-2"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -82,20 +80,20 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-03-22T11:30:00.000Z",
-      "courseDay": 4,
+      "courseDay": 3,
       "dateTypes": {
         "module": "Module 1: Basic Frontend",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 4 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/module1/day-4"
+                "name": "Day 3 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-3"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -106,20 +104,20 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-03-26T02:00:00.000Z",
-      "courseDay": 5,
+      "courseDay": 4,
       "dateTypes": {
         "module": "Module 1: Basic Frontend",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 5 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/module1/day-5"
+                "name": "Day 4 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-4"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -130,20 +128,20 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-03-29T11:30:00.000Z",
-      "courseDay": 6,
+      "courseDay": 5,
       "dateTypes": {
         "module": "Module 1: Basic Frontend",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 6 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/module1/day-6"
+                "name": "Day 5 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-5"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -154,20 +152,20 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-04-02T02:00:00.000Z",
-      "courseDay": 7,
+      "courseDay": 6,
       "dateTypes": {
         "module": "Module 1: Basic Frontend",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 7 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/module1/day-7"
+                "name": "Day 6 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-6"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -178,20 +176,20 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-04-05T11:30:00.000Z",
-      "courseDay": 8,
+      "courseDay": 7,
       "dateTypes": {
         "module": "Module 1: Basic Frontend",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 8 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/module1/day-8"
+                "name": "Day 7 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-7"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -202,20 +200,20 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-04-09T02:00:00.000Z",
-      "courseDay": 9,
+      "courseDay": 8,
       "dateTypes": {
         "module": "Module 1: Basic Frontend",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 9 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/module1/day-9"
+                "name": "Day 8 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-8"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -226,20 +224,20 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-04-12T11:30:00.000Z",
-      "courseDay": 10,
+      "courseDay": 9,
       "dateTypes": {
         "module": "Module 1: Basic Frontend",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 10 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/module1/day-10"
+                "name": "Day 9 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-9"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -250,20 +248,20 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-04-16T02:00:00.000Z",
-      "courseDay": 11,
+      "courseDay": 10,
       "dateTypes": {
         "module": "Module 1: Basic Frontend",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 11 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/module1/day-11"
+                "name": "Day 10 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-10"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -274,20 +272,20 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-04-19T11:30:00.000Z",
-      "courseDay": 12,
+      "courseDay": 11,
       "dateTypes": {
         "module": "Module 1: Basic Frontend",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 12 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/module1/day-12"
+                "name": "Day 11 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-11"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -298,20 +296,20 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-04-23T02:00:00.000Z",
-      "courseDay": 13,
+      "courseDay": 12,
       "dateTypes": {
         "module": "Module 1: Basic Frontend",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 13 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/module1/day-13"
+                "name": "Day 12 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-12"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -322,20 +320,20 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-04-26T11:30:00.000Z",
-      "courseDay": 14,
+      "courseDay": 13,
       "dateTypes": {
         "module": "Module 1: Basic Frontend",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 14 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/module1/day-14"
+                "name": "Day 13 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-13"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -346,20 +344,20 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-04-30T02:00:00.000Z",
-      "courseDay": 15,
+      "courseDay": 14,
       "dateTypes": {
         "module": "Module 1: Basic Frontend",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 15 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/module1/day-15"
+                "name": "Day 14 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-14"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -382,20 +380,20 @@
       "weekDay": 1,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-05-07T02:00:00.000Z",
-      "courseDay": 16,
+      "courseDay": 15,
       "dateTypes": {
-        "module": "Module 2: Basic Backend",
+        "module": "Module 1: Basic Frontend",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 1 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/module2/day-1"
+                "name": "Day 15 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-15"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -406,20 +404,20 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-05-10T11:30:00.000Z",
-      "courseDay": 17,
+      "courseDay": 16,
       "dateTypes": {
-        "module": "Module 2: Basic Backend",
+        "module": "Module 1: Basic Frontend",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 2 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/module2/day-2"
+                "name": "Day 16 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-16"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -430,20 +428,20 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-05-14T02:00:00.000Z",
-      "courseDay": 18,
+      "courseDay": 17,
       "dateTypes": {
         "module": "Module 2: Basic Backend",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 3 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/module2/day-3"
+                "name": "Day 1 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-1"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -454,20 +452,20 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-05-17T11:30:00.000Z",
-      "courseDay": 19,
+      "courseDay": 18,
       "dateTypes": {
         "module": "Module 2: Basic Backend",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 4 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/module2/day-4"
+                "name": "Day 2 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-2"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -478,20 +476,20 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-05-21T02:00:00.000Z",
-      "courseDay": 20,
+      "courseDay": 19,
       "dateTypes": {
         "module": "Module 2: Basic Backend",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 5 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/module2/day-5"
+                "name": "Day 3 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-3"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -502,20 +500,20 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-05-24T11:30:00.000Z",
-      "courseDay": 21,
+      "courseDay": 20,
       "dateTypes": {
         "module": "Module 2: Basic Backend",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 6 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/module2/day-6"
+                "name": "Day 4 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-4"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -526,20 +524,20 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-05-28T02:00:00.000Z",
-      "courseDay": 22,
+      "courseDay": 21,
       "dateTypes": {
         "module": "Module 2: Basic Backend",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 7 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/module2/day-7"
+                "name": "Day 5 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-5"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -550,20 +548,20 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-05-31T11:30:00.000Z",
-      "courseDay": 23,
+      "courseDay": 22,
       "dateTypes": {
         "module": "Module 2: Basic Backend",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 8 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/module2/day-8"
+                "name": "Day 6 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-6"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -574,20 +572,20 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-06-04T02:00:00.000Z",
-      "courseDay": 24,
+      "courseDay": 23,
       "dateTypes": {
         "module": "Module 2: Basic Backend",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 9 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/module2/day-9"
+                "name": "Day 7 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-7"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -598,20 +596,20 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-06-07T11:30:00.000Z",
-      "courseDay": 25,
+      "courseDay": 24,
       "dateTypes": {
         "module": "Module 2: Basic Backend",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 10 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/module2/day-10"
+                "name": "Day 8 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-8"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -622,20 +620,20 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-06-11T02:00:00.000Z",
-      "courseDay": 26,
+      "courseDay": 25,
       "dateTypes": {
         "module": "Module 2: Basic Backend",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 11 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/module2/day-11"
+                "name": "Day 9 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-9"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -646,20 +644,20 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-06-14T11:30:00.000Z",
-      "courseDay": 27,
+      "courseDay": 26,
       "dateTypes": {
         "module": "Module 2: Basic Backend",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 12 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/module2/day-12"
+                "name": "Day 10 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-10"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -670,20 +668,20 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-06-18T02:00:00.000Z",
-      "courseDay": 28,
+      "courseDay": 27,
       "dateTypes": {
         "module": "Module 2: Basic Backend",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 13 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/module2/day-13"
+                "name": "Day 11 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-11"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -694,20 +692,20 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-06-21T11:30:00.000Z",
-      "courseDay": 29,
+      "courseDay": 28,
       "dateTypes": {
         "module": "Module 2: Basic Backend",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 14 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/module2/day-14"
+                "name": "Day 12 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-12"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -718,20 +716,20 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-06-25T02:00:00.000Z",
-      "courseDay": 30,
+      "courseDay": 29,
       "dateTypes": {
         "module": "Module 2: Basic Backend",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 15 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/module2/day-15"
+                "name": "Day 13 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-13"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -742,20 +740,20 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-06-28T11:30:00.000Z",
-      "courseDay": 31,
+      "courseDay": 30,
       "dateTypes": {
         "module": "Module 2: Basic Backend",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 16 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/module2/day-16"
+                "name": "Day 14 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-14"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -766,20 +764,20 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-07-02T02:00:00.000Z",
-      "courseDay": 32,
+      "courseDay": 31,
       "dateTypes": {
-        "module": "Module 3: Advanced Backend and Full Stack",
+        "module": "Module 2: Basic Backend",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 1 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/module3/day-1"
+                "name": "Day 15 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-15"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -790,20 +788,20 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-07-05T11:30:00.000Z",
-      "courseDay": 33,
+      "courseDay": 32,
       "dateTypes": {
-        "module": "Module 3: Advanced Backend and Full Stack",
+        "module": "Module 2: Basic Backend",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 2 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/module3/day-2"
+                "name": "Day 16 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-16"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -826,20 +824,20 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-07-12T11:30:00.000Z",
-      "courseDay": 34,
+      "courseDay": 33,
       "dateTypes": {
         "module": "Module 3: Advanced Backend and Full Stack",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 3 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/module3/day-3"
+                "name": "Day 1 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-1"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -850,20 +848,24 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-07-16T02:00:00.000Z",
-      "courseDay": 35,
+      "courseDay": 34,
       "dateTypes": {
         "module": "Module 3: Advanced Backend and Full Stack",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 4 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/module3/day-4"
+                "name": "Day 2 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-2"
+              },
+              {
+                "name": "Algo Day 1",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-1"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -874,20 +876,24 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-07-19T11:30:00.000Z",
-      "courseDay": 36,
+      "courseDay": 35,
       "dateTypes": {
         "module": "Module 3: Advanced Backend and Full Stack",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 5 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/module3/day-5"
+                "name": "Day 3 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-3"
+              },
+              {
+                "name": "Algo Day 2",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-2"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -898,20 +904,20 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-07-23T02:00:00.000Z",
-      "courseDay": 37,
+      "courseDay": 36,
       "dateTypes": {
         "module": "Module 3: Advanced Backend and Full Stack",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 6 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/module3/day-6"
+                "name": "Day 4 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-4"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -922,20 +928,24 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-07-26T11:30:00.000Z",
-      "courseDay": 38,
+      "courseDay": 37,
       "dateTypes": {
         "module": "Module 3: Advanced Backend and Full Stack",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 7 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/module3/day-7"
+                "name": "Day 5 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-5"
+              },
+              {
+                "name": "Algo Day 3",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-3"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -946,20 +956,24 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-07-30T02:00:00.000Z",
-      "courseDay": 39,
+      "courseDay": 38,
       "dateTypes": {
         "module": "Module 3: Advanced Backend and Full Stack",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 8 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/module3/day-8"
+                "name": "Day 6 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-6"
+              },
+              {
+                "name": "Algo Day 4",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-4"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -970,20 +984,20 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-08-02T11:30:00.000Z",
-      "courseDay": 40,
+      "courseDay": 39,
       "dateTypes": {
         "module": "Module 3: Advanced Backend and Full Stack",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 9 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/module3/day-9"
+                "name": "Day 7 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-7"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -994,20 +1008,24 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-08-06T02:00:00.000Z",
-      "courseDay": 41,
+      "courseDay": 40,
       "dateTypes": {
         "module": "Module 3: Advanced Backend and Full Stack",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 10 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/module3/day-10"
+                "name": "Day 8 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-8"
+              },
+              {
+                "name": "Algo Day 5",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-5"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1030,20 +1048,24 @@
       "weekDay": 1,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-08-13T02:00:00.000Z",
-      "courseDay": 42,
+      "courseDay": 41,
       "dateTypes": {
         "module": "Module 3: Advanced Backend and Full Stack",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 11 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/module3/day-11"
+                "name": "Day 9 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-9"
+              },
+              {
+                "name": "Algo Day 6",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-6"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1054,20 +1076,20 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-08-16T11:30:00.000Z",
-      "courseDay": 43,
+      "courseDay": 42,
       "dateTypes": {
         "module": "Module 3: Advanced Backend and Full Stack",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 12 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/module3/day-12"
+                "name": "Day 10 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-10"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1078,20 +1100,24 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-08-20T02:00:00.000Z",
-      "courseDay": 44,
+      "courseDay": 43,
       "dateTypes": {
         "module": "Module 3: Advanced Backend and Full Stack",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 13 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/module3/day-13"
+                "name": "Day 11 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-11"
+              },
+              {
+                "name": "Algo Day 7",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-7"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1102,20 +1128,24 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-08-23T11:30:00.000Z",
-      "courseDay": 45,
+      "courseDay": 44,
       "dateTypes": {
         "module": "Module 3: Advanced Backend and Full Stack",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 14 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/module3/day-14"
+                "name": "Day 12 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-12"
+              },
+              {
+                "name": "Algo Day 8",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-8"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1126,20 +1156,20 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-08-27T02:00:00.000Z",
-      "courseDay": 46,
+      "courseDay": 45,
       "dateTypes": {
         "module": "Module 3: Advanced Backend and Full Stack",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 15 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/module3/day-15"
+                "name": "Day 13 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-13"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1150,20 +1180,24 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-08-30T11:30:00.000Z",
-      "courseDay": 47,
+      "courseDay": 46,
       "dateTypes": {
         "module": "Module 3: Advanced Backend and Full Stack",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 16 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/module3/day-16"
+                "name": "Day 14 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-14"
+              },
+              {
+                "name": "Algo Day 9",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-9"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1174,20 +1208,24 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-09-03T02:00:00.000Z",
-      "courseDay": 48,
+      "courseDay": 47,
       "dateTypes": {
         "module": "Module 3: Advanced Backend and Full Stack",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 17 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/module3/day-17"
+                "name": "Day 15 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-15"
+              },
+              {
+                "name": "Algo Day 10",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-10"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1198,20 +1236,20 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-09-06T11:30:00.000Z",
-      "courseDay": 49,
+      "courseDay": 48,
       "dateTypes": {
         "module": "Module 3: Advanced Backend and Full Stack",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 18 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/module3/day-18"
+                "name": "Day 16 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-16"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1222,20 +1260,24 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-09-10T02:00:00.000Z",
-      "courseDay": 50,
+      "courseDay": 49,
       "dateTypes": {
-        "module": "Module 3: Advanced Backend and Full Stack",
+        "module": "Module 4: Frontend Framework - React",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 19 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/module3/day-19"
+                "name": "Day 1 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-1"
+              },
+              {
+                "name": "Algo Day 11",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-11"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1246,20 +1288,24 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-09-13T11:30:00.000Z",
-      "courseDay": 51,
+      "courseDay": 50,
       "dateTypes": {
         "module": "Module 4: Frontend Framework - React",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 1 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/module4/day-1"
+                "name": "Day 2 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-2"
+              },
+              {
+                "name": "Algo Day 12",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-12"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1270,20 +1316,20 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-09-17T02:00:00.000Z",
-      "courseDay": 52,
+      "courseDay": 51,
       "dateTypes": {
         "module": "Module 4: Frontend Framework - React",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 2 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/module4/day-2"
+                "name": "Day 3 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-3"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1294,20 +1340,24 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-09-20T11:30:00.000Z",
-      "courseDay": 53,
+      "courseDay": 52,
       "dateTypes": {
         "module": "Module 4: Frontend Framework - React",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 3 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/module4/day-3"
+                "name": "Day 4 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-4"
+              },
+              {
+                "name": "Algo Day 13",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-13"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1318,20 +1368,24 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-09-24T02:00:00.000Z",
-      "courseDay": 54,
+      "courseDay": 53,
       "dateTypes": {
         "module": "Module 4: Frontend Framework - React",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 4 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/module4/day-4"
+                "name": "Day 5 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-5"
+              },
+              {
+                "name": "Algo Day 14",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-14"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1342,20 +1396,20 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-09-27T11:30:00.000Z",
-      "courseDay": 55,
+      "courseDay": 54,
       "dateTypes": {
         "module": "Module 4: Frontend Framework - React",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 5 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/module4/day-5"
+                "name": "Day 6 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-6"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1366,20 +1420,24 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-10-01T02:00:00.000Z",
-      "courseDay": 56,
+      "courseDay": 55,
       "dateTypes": {
         "module": "Module 4: Frontend Framework - React",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 6 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/module4/day-6"
+                "name": "Day 7 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-7"
+              },
+              {
+                "name": "Algo Day 15",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-15"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1390,20 +1448,24 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-10-04T11:30:00.000Z",
-      "courseDay": 57,
+      "courseDay": 56,
       "dateTypes": {
         "module": "Module 4: Frontend Framework - React",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 7 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/module4/day-7"
+                "name": "Day 8 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-8"
+              },
+              {
+                "name": "Algo Day 16",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-16"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1414,20 +1476,20 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-10-08T02:00:00.000Z",
-      "courseDay": 58,
+      "courseDay": 57,
       "dateTypes": {
         "module": "Module 4: Frontend Framework - React",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 8 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/module4/day-8"
+                "name": "Day 9 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-9"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1438,20 +1500,24 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-10-11T11:30:00.000Z",
-      "courseDay": 59,
+      "courseDay": 58,
       "dateTypes": {
         "module": "Module 4: Frontend Framework - React",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 9 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/module4/day-9"
+                "name": "Day 10 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-10"
+              },
+              {
+                "name": "Algo Day 17",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-17"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1462,20 +1528,24 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-10-15T02:00:00.000Z",
-      "courseDay": 60,
+      "courseDay": 59,
       "dateTypes": {
         "module": "Module 4: Frontend Framework - React",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 10 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/module4/day-10"
+                "name": "Day 11 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-11"
+              },
+              {
+                "name": "Algo Day 18",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-18"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1486,20 +1556,20 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-10-18T11:30:00.000Z",
-      "courseDay": 61,
+      "courseDay": 60,
       "dateTypes": {
         "module": "Module 4: Frontend Framework - React",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 11 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/module4/day-11"
+                "name": "Day 12 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-12"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1510,20 +1580,24 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-10-22T02:00:00.000Z",
-      "courseDay": 62,
+      "courseDay": 61,
       "dateTypes": {
         "module": "Module 4: Frontend Framework - React",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 12 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/module4/day-12"
+                "name": "Day 13 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-13"
+              },
+              {
+                "name": "Algo Day 19",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-19"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1534,20 +1608,24 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-10-25T11:30:00.000Z",
-      "courseDay": 63,
+      "courseDay": 62,
       "dateTypes": {
         "module": "Module 4: Frontend Framework - React",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 13 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/module4/day-13"
+                "name": "Day 14 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-14"
+              },
+              {
+                "name": "Algo Day 20",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-20"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1558,20 +1636,20 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-10-29T02:00:00.000Z",
-      "courseDay": 64,
+      "courseDay": 63,
       "dateTypes": {
         "module": "Module 4: Frontend Framework - React",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 14 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/module4/day-14"
+                "name": "Day 15 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-15"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1582,20 +1660,24 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-11-01T11:30:00.000Z",
-      "courseDay": 65,
+      "courseDay": 64,
       "dateTypes": {
         "module": "Module 4: Frontend Framework - React",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 15 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/module4/day-15"
+                "name": "Day 16 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-16"
+              },
+              {
+                "name": "Algo Day 21",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-21"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1606,20 +1688,24 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-11-05T02:00:00.000Z",
-      "courseDay": 66,
+      "courseDay": 65,
       "dateTypes": {
-        "module": "Module 4: Frontend Framework - React",
+        "module": "Module 5: Advanced React",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 16 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/module4/day-16"
+                "name": "Day 1 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/day-1"
+              },
+              {
+                "name": "Algo Day 22",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-22"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1630,20 +1716,20 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-11-08T11:30:00.000Z",
-      "courseDay": 67,
+      "courseDay": 66,
       "dateTypes": {
-        "module": "Module 4: Frontend Framework - React",
+        "module": "Module 5: Advanced React",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 17 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/module4/day-17"
+                "name": "Day 2 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/day-2"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1654,20 +1740,24 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-11-12T02:00:00.000Z",
-      "courseDay": 68,
+      "courseDay": 67,
       "dateTypes": {
-        "module": "Module 4: Frontend Framework - React",
+        "module": "Module 5: Advanced React",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 18 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/module4/day-18"
+                "name": "Day 3 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/day-3"
+              },
+              {
+                "name": "Algo Day 23",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-23"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1678,20 +1768,24 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-11-15T11:30:00.000Z",
-      "courseDay": 69,
+      "courseDay": 68,
       "dateTypes": {
-        "module": "Module 4: Frontend Framework - React",
+        "module": "Module 5: Advanced React",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 19 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/module4/day-19"
+                "name": "Day 4 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/day-4"
+              },
+              {
+                "name": "Algo Day 24",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-24"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1702,20 +1796,20 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-11-19T02:00:00.000Z",
-      "courseDay": 70,
+      "courseDay": 69,
       "dateTypes": {
         "module": "Module 5: Advanced React",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 1 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/module-5-advanced-react/day-1"
+                "name": "Day 5 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/day-5"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1726,20 +1820,24 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-11-22T11:30:00.000Z",
-      "courseDay": 71,
+      "courseDay": 70,
       "dateTypes": {
         "module": "Module 5: Advanced React",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 2 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/module-5-advanced-react/day-2"
+                "name": "Day 6 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/day-6"
+              },
+              {
+                "name": "Algo Day 25",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-25"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1750,20 +1848,24 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-11-26T02:00:00.000Z",
-      "courseDay": 72,
+      "courseDay": 71,
       "dateTypes": {
         "module": "Module 5: Advanced React",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 3 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/module-5-advanced-react/day-3"
+                "name": "Day 7 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/day-7"
+              },
+              {
+                "name": "Algo Day 26",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-26"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1774,20 +1876,20 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-11-29T11:30:00.000Z",
-      "courseDay": 73,
+      "courseDay": 72,
       "dateTypes": {
         "module": "Module 5: Advanced React",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 4 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/module-5-advanced-react/day-4"
+                "name": "Day 8 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/day-8"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1798,20 +1900,24 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-12-03T02:00:00.000Z",
-      "courseDay": 74,
+      "courseDay": 73,
       "dateTypes": {
         "module": "Module 5: Advanced React",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 5 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/module-5-advanced-react/day-5"
+                "name": "Day 9 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/day-9"
+              },
+              {
+                "name": "Algo Day 27",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-27"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1822,20 +1928,24 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-12-06T11:30:00.000Z",
-      "courseDay": 75,
+      "courseDay": 74,
       "dateTypes": {
         "module": "Module 5: Advanced React",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 6 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/module-5-advanced-react/day-6"
+                "name": "Day 10 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/day-10"
+              },
+              {
+                "name": "Algo Day 28",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-28"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1846,20 +1956,20 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-12-10T02:00:00.000Z",
-      "courseDay": 76,
+      "courseDay": 75,
       "dateTypes": {
         "module": "Module 5: Advanced React",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 7 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/module-5-advanced-react/day-7"
+                "name": "Day 11 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/day-11"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1870,20 +1980,24 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-12-13T11:30:00.000Z",
-      "courseDay": 77,
+      "courseDay": 76,
       "dateTypes": {
         "module": "Module 5: Advanced React",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 8 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/module-5-advanced-react/day-8"
+                "name": "Day 12 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/day-12"
+              },
+              {
+                "name": "Algo Day 29",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-29"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1894,20 +2008,24 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-12-17T02:00:00.000Z",
-      "courseDay": 78,
+      "courseDay": 77,
       "dateTypes": {
         "module": "Module 5: Advanced React",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 9 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/module-5-advanced-react/day-9"
+                "name": "Day 13 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/day-13"
+              },
+              {
+                "name": "Algo Day 30",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-30"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1918,20 +2036,20 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-12-20T11:30:00.000Z",
-      "courseDay": 79,
+      "courseDay": 78,
       "dateTypes": {
-        "module": "Module 6: Capstone Project",
+        "module": "Module 5: Advanced React",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 1 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-6-branching-out-to-become-a-software-engineer/module6/day-1"
+                "name": "Day 14 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/day-14"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1942,20 +2060,24 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-12-24T02:00:00.000Z",
-      "courseDay": 80,
+      "courseDay": 79,
       "dateTypes": {
-        "module": "Module 6: Capstone Project",
+        "module": "Module 5: Advanced React",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 2 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-6-branching-out-to-become-a-software-engineer/module6/day-2"
+                "name": "Day 15 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/day-15"
+              },
+              {
+                "name": "Algo Day 31",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-31"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1966,20 +2088,24 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2022-12-27T11:30:00.000Z",
-      "courseDay": 81,
+      "courseDay": 80,
       "dateTypes": {
-        "module": "Module 6: Capstone Project",
+        "module": "Module 5: Advanced React",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 3 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-6-branching-out-to-become-a-software-engineer/module6/day-3"
+                "name": "Day 16 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/day-16"
+              },
+              {
+                "name": "Algo Day 32",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-32"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -1990,20 +2116,20 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2022-12-31T02:00:00.000Z",
-      "courseDay": 82,
+      "courseDay": 81,
       "dateTypes": {
         "module": "Module 6: Capstone Project",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 4 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-6-branching-out-to-become-a-software-engineer/module6/day-4"
+                "name": "Day 1 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-6-capstone-project/day-1"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -2014,20 +2140,24 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2023-01-03T11:30:00.000Z",
-      "courseDay": 83,
+      "courseDay": 82,
       "dateTypes": {
         "module": "Module 6: Capstone Project",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 5 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-6-branching-out-to-become-a-software-engineer/module6/day-5"
+                "name": "Day 2 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-6-capstone-project/day-2"
+              },
+              {
+                "name": "Algo Day 33",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-33"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -2038,20 +2168,24 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2023-01-07T02:00:00.000Z",
-      "courseDay": 84,
+      "courseDay": 83,
       "dateTypes": {
         "module": "Module 6: Capstone Project",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 6 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-6-branching-out-to-become-a-software-engineer/module6/day-6"
+                "name": "Day 3 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-6-capstone-project/day-3"
+              },
+              {
+                "name": "Algo Day 34",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-34"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -2062,20 +2196,20 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2023-01-10T11:30:00.000Z",
-      "courseDay": 85,
+      "courseDay": 84,
       "dateTypes": {
         "module": "Module 6: Capstone Project",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 7 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-6-branching-out-to-become-a-software-engineer/module6/day-7"
+                "name": "Day 4 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-6-capstone-project/day-4"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -2086,20 +2220,24 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2023-01-14T02:00:00.000Z",
-      "courseDay": 86,
+      "courseDay": 85,
       "dateTypes": {
         "module": "Module 6: Capstone Project",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 8 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-6-branching-out-to-become-a-software-engineer/module6/day-8"
+                "name": "Day 5 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-6-capstone-project/day-5"
+              },
+              {
+                "name": "Algo Day 35",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-35"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -2110,20 +2248,24 @@
       "weekDay": 1,
       "dayNumber": 2,
       "meetingDateTimeUTC": "2023-01-17T11:30:00.000Z",
-      "courseDay": 87,
+      "courseDay": 86,
       "dateTypes": {
         "module": "Module 6: Capstone Project",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 9 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-6-branching-out-to-become-a-software-engineer/module6/day-9"
+                "name": "Day 6 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-6-capstone-project/day-6"
+              },
+              {
+                "name": "Algo Day 36",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-36"
               }
             ]
           },
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -2134,24 +2276,264 @@
       "weekDay": 2,
       "dayNumber": 6,
       "meetingDateTimeUTC": "2023-01-21T02:00:00.000Z",
+      "courseDay": 87,
+      "dateTypes": {
+        "module": "Module 6: Capstone Project",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "Day 7 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-6-capstone-project/day-7"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {}
+        }
+      }
+    },
+    "24-01-2023": {
+      "courseDate": "24-01-2023",
+      "courseWeek": 47,
+      "weekDay": 1,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2023-01-24T11:30:00.000Z",
       "courseDay": 88,
       "dateTypes": {
         "module": "Module 6: Capstone Project",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {
+          "preClass": {
             "items": [
               {
-                "name": "Day 10 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-6-branching-out-to-become-a-software-engineer/module6/day-10"
+                "name": "Day 8 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-6-capstone-project/day-8"
+              },
+              {
+                "name": "Algo Day 37",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-37"
               }
             ]
           },
+          "inClass": {},
+          "postClass": {}
+        }
+      }
+    },
+    "28-01-2023": {
+      "courseDate": "28-01-2023",
+      "courseWeek": 47,
+      "weekDay": 2,
+      "dayNumber": 6,
+      "meetingDateTimeUTC": "2023-01-28T02:00:00.000Z",
+      "courseDay": 89,
+      "dateTypes": {
+        "module": "Module 6: Capstone Project",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "Day 9 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-6-capstone-project/day-9"
+              },
+              {
+                "name": "Algo Day 38",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-38"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {}
+        }
+      }
+    },
+    "31-01-2023": {
+      "courseDate": "31-01-2023",
+      "courseWeek": 48,
+      "weekDay": 1,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2023-01-31T11:30:00.000Z",
+      "courseDay": 90,
+      "dateTypes": {
+        "module": "Module 6: Capstone Project",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "Day 10 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-6-capstone-project/day-10"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {}
+        }
+      }
+    },
+    "04-02-2023": {
+      "courseDate": "04-02-2023",
+      "courseWeek": 48,
+      "weekDay": 2,
+      "dayNumber": 6,
+      "meetingDateTimeUTC": "2023-02-04T02:00:00.000Z",
+      "courseDay": 91,
+      "dateTypes": {
+        "module": "Module 6: Capstone Project",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "Day 11 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-6-capstone-project/day-11"
+              },
+              {
+                "name": "Algo Day 39",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-39"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {}
+        }
+      }
+    },
+    "07-02-2023": {
+      "courseDate": "07-02-2023",
+      "courseWeek": 49,
+      "weekDay": 1,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2023-02-07T11:30:00.000Z",
+      "courseDay": 92,
+      "dateTypes": {
+        "module": "Module 6: Capstone Project",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "Day 12 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-6-capstone-project/day-12"
+              },
+              {
+                "name": "Algo Day 40",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-40"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {}
+        }
+      }
+    },
+    "11-02-2023": {
+      "courseDate": "11-02-2023",
+      "courseWeek": 49,
+      "weekDay": 2,
+      "dayNumber": 6,
+      "meetingDateTimeUTC": "2023-02-11T02:00:00.000Z",
+      "courseDay": 93,
+      "dateTypes": {
+        "module": "Module 6: Capstone Project",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "Day 13 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-6-capstone-project/day-13"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {}
+        }
+      }
+    },
+    "14-02-2023": {
+      "courseDate": "14-02-2023",
+      "courseWeek": 50,
+      "weekDay": 1,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2023-02-14T11:30:00.000Z",
+      "courseDay": 94,
+      "dateTypes": {
+        "module": "Module 6: Capstone Project",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "Day 14 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-6-capstone-project/day-14"
+              },
+              {
+                "name": "Algo Day 41",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-41"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {}
+        }
+      }
+    },
+    "18-02-2023": {
+      "courseDate": "18-02-2023",
+      "courseWeek": 50,
+      "weekDay": 2,
+      "dayNumber": 6,
+      "meetingDateTimeUTC": "2023-02-18T02:00:00.000Z",
+      "courseDay": 95,
+      "dateTypes": {
+        "module": "Module 6: Capstone Project",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "Day 15 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-6-capstone-project/day-15"
+              },
+              {
+                "name": "Algo Day 42",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-42"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {}
+        }
+      }
+    },
+    "21-02-2023": {
+      "courseDate": "21-02-2023",
+      "courseWeek": 51,
+      "weekDay": 1,
+      "dayNumber": 2,
+      "meetingDateTimeUTC": "2023-02-21T11:30:00.000Z",
+      "courseDay": 96,
+      "dateTypes": {
+        "module": "Module 6: Capstone Project",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "Day 16 Coursework",
+                "url": "https://swebootcamp.rocketacademy.co/module-6-capstone-project/day-16"
+              }
+            ]
+          },
+          "inClass": {},
           "postClass": {}
         }
       }
     }
   },
-  "courseName": "12-03-2022_17-01-2023_BATCH3"
+  "courseName": "12-03-2022_18-02-2023_BATCH3"
 }

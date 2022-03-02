@@ -5,7 +5,7 @@ import ptbc2 from '../src/data/16-11-2021_12-11-2022_BATCH2.json';
 import ftbc5 from '../src/data/04-10-2021_25-03-2022_BATCH5.json';
 import ftbc6 from '../src/data/10-01-2022_01-07-2022_BATCH6.json';
 import ftbc7 from '../src/data/28-03-2022_15-09-2022_BATCH7.json';
-import ptbc3 from '../src/data/12-03-2022_17-01-2023_BATCH3.json';
+import ptbc3 from '../src/data/12-03-2022_18-02-2023_BATCH3.json';
 
 import {
   HashRouter,
