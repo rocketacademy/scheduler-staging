@@ -3002,14 +3002,7 @@
         "css": {
           "type": "css",
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "CSS.ICE.5: Restaurant",
-                "url": "https://bootcamp.rocketacademy.co/css/css.ice-in-class-exercises/css.ice.5-restaurant"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {}
         },
         "algos": {
@@ -3216,14 +3209,7 @@
         "css": {
           "type": "css",
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "CSS.ICE.7: Zillow",
-                "url": "https://bootcamp.rocketacademy.co/css/css.ice-in-class-exercises/css.ice.7-zillow"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {}
         },
         "algos": {
@@ -3287,14 +3273,7 @@
         "css": {
           "type": "css",
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "CSS.ICE.8: Chase Bank",
-                "url": "https://bootcamp.rocketacademy.co/css/css.ice-in-class-exercises/css.ice.8-chase-bank"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {}
         },
         "algos": {
