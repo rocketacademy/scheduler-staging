@@ -8,30 +8,41 @@ const GenerateCourseDayContent = ({ day }) => {
   let projectstart;
   let ipdue;
   if (!day.dateTypes.holidayType) {
-    projectdue = day.dateTypes.projects.projectDue;
-    projectstart = day.dateTypes.projects.projectStart;
-    ipdue = day.dateTypes.ip.ipDue;
+    if (day.dateTypes.projects) {
+      projectdue = day.dateTypes.projects.projectDue;
+      projectstart = day.dateTypes.projects.projectStart;
+    }
+
+    if (day.dateTypes.ip) {
+      ipdue = day.dateTypes.ip.ipDue;
+    }
   }
  
 
   return (
     <>
       {/* project due notification  */}
-      <GenerateNotifications
+      {projectdue !== undefined && (
+        <GenerateNotifications
         status={projectdue}
         ipdue={ipdue}
         projectdue={projectdue}
         projectstart={projectstart}
         day={day}
       />
+      )}
+      
       {/* career prep due notification  */}
-      <GenerateNotifications
+      {ipdue !== undefined && (
+        <GenerateNotifications
         status={ipdue}
         ipdue={ipdue}
         projectdue={projectdue}
         projectstart={projectstart}
         day={day}
       />
+      )}
+      
       {/* preclass section  */}
       <GenerateDatetypeSections
         datetype={day.dateTypes}
@@ -51,13 +62,16 @@ const GenerateCourseDayContent = ({ day }) => {
         day={day}
       />
       {/* project start notification  */}
-      <GenerateNotifications
+      {projectstart !== undefined && (
+        <GenerateNotifications
         status={projectstart}
         ipdue={ipdue}
         projectdue={projectdue}
         projectstart={projectstart}
         day={day}
       />
+      )}
+      
     </>
   );
 };
