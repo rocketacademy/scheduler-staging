@@ -1,5 +1,8 @@
 {
-  "daysOfWeek": [2, 6],
+  "daysOfWeek": [
+    2,
+    6
+  ],
   "courseStartIndex": 0,
   "totalCourseDays": 97,
   "courseType": "Bootcamp PT",
@@ -3037,8 +3040,8 @@
           "inClass": {
             "items": [
               {
-                "name": "1.ICE.CSS.5: Restaurant",
-                "url": "https://bootcamp.rocketacademy.co/css/1.ice.css-in-class-css-exercises/1.ice.css.5-trombones"
+                "name": "CSS.ICE.5: Restaurant",
+                "url": "https://bootcamp.rocketacademy.co/css/1.ice.css-in-class-css-exercises/1.ice.css.5-restaurant"
               }
             ]
           },
