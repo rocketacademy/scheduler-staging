@@ -675,12 +675,8 @@
           "preClass": {
             "items": [
               {
-                "name": "1.7: Flexbox",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.7-flexbox"
-              },
-              {
-                "name": "1.7.1: Flexbox Layout",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.7-flexbox/1.7.1-flexbox-layout"
+                "name": "1.6.9: Flexbox",
+                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.6-css-layout/1.6.9-flexbox"
               }
             ]
           },
@@ -752,12 +748,12 @@
           "preClass": {
             "items": [
               {
-                "name": "1.8: Responsive Design",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.8-responsive-design"
+                "name": "1.7: Responsive Design",
+                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.7-responsive-design"
               },
               {
-                "name": "1.9: Web Design Basics",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.9-web-design-basics"
+                "name": "1.8: Web Design Basics",
+                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.8-web-design-basics"
               }
             ]
           },
@@ -829,8 +825,8 @@
           "preClass": {
             "items": [
               {
-                "name": "1.10: Bootstrap (Part 1)",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.10-bootstrap"
+                "name": "1.9: Bootstrap (Part 1)",
+                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.9-bootstrap"
               }
             ]
           },
@@ -902,8 +898,8 @@
           "preClass": {
             "items": [
               {
-                "name": "1.10: Bootstrap (Part 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.10-bootstrap"
+                "name": "1.9: Bootstrap (Part 2)",
+                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.9-bootstrap"
               }
             ]
           },
