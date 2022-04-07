@@ -1,7 +1,7 @@
 {
   "daysOfWeek": [1, 2, 3, 4],
   "courseStartIndex": 0,
-  "totalCourseDays": 116,
+  "totalCourseDays": 80,
   "courseType": "Bootcamp FT",
   "days": {
     "11-04-2022": {
@@ -9479,14 +9479,6 @@
           }
         }
       }
-    },
-    "04-11-2022": {
-      "courseDate": "04-11-2022",
-      "courseWeek": 30,
-      "weekDay": 5,
-      "dayNumber": 5,
-      "meetingDateTimeUTC": "2022-11-04T02:00:00.000Z",
-      "courseDay": 116
     }
   },
   "courseName": "11-04-2022_04-11-2022_BATCH200"

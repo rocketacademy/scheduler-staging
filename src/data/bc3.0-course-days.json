@@ -9,30 +9,42 @@
     {
       "courseDay": 1,
       "dateTypes": {
-        "module": "Module 1: Frontend Fundamentals",
+        "module": "Module 1: Frontend",
         "general": {
           "type": "general",
           "preClass": {
             "items": [
               {
+                "name": "0.0: Module 0 Overview",
+                "url": "https://bc.rocketacademy.co/0-foundations/0.0-module-0-overview"
+              },
+              {
+                "name": "0.1.1: ES6",
+                "url": "https://bc.rocketacademy.co/0-foundations/0.1-javascript/0.1.1-es6"
+              },
+              {
+                "name": "0.1.2: Common Syntax",
+                "url": "https://bc.rocketacademy.co/0-foundations/0.1-javascript/0.1.2-common-syntax"
+              },
+              {
                 "name": "1.0: Module 1 Overview",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.0-module-1-overview"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.0-module-1-overview"
               },
               {
                 "name": "1.1: HTML",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.1-html"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.1-html"
               },
               {
                 "name": "1.2: DOM",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.2-dom"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.2-dom"
               },
               {
                 "name": "1.2.1: DOM - Creating HTML Elements",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.2-dom/1.2.1-creating-html-elements"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.2-dom/1.2.1-creating-html-elements"
               },
               {
                 "name": "1.2.2: DOM - Handling HTML Events",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.2-dom/1.2.2-handling-html-events"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.2-dom/1.2.2-handling-html-events"
               }
             ]
           },
@@ -44,7 +56,7 @@
               },
               {
                 "name": "1.ICE.1: Drawing with DOM Manipulation (Day 1 of 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.ice-in-class-exercises/1.ice.1-drawing-with-dom-manipulation"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.ice-in-class-exercises/1.ice.1-drawing-with-dom-manipulation"
               }
             ]
           },
@@ -52,7 +64,7 @@
             "items": [
               {
                 "name": "1.POCE.1: Noodle Recipe Website",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.poce-post-class-exercises/1.poce.1-noodle-recipe-website"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.poce-post-class-exercises/1.poce.1-noodle-recipe-website"
               }
             ]
           }
@@ -114,26 +126,21 @@
     {
       "courseDay": 2,
       "dateTypes": {
-        "module": "Module 1: Frontend Fundamentals",
+        "module": "Module 1: Frontend",
         "general": {
           "type": "general",
           "preClass": {
-            "items": [
-              {
-                "name": "0.3: Reading Documentation",
-                "url": "https://bc.rocketacademy.co/0-language-and-tooling/0.3-reading-documentation"
-              }
-            ]
+            "items": []
           },
           "inClass": {
             "items": [
               {
                 "name": "Peer Review 1.POCE.1: Noodle Recipe Website",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#peer-code-review"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#peer-code-review"
               },
               {
                 "name": "1.ICE.1: Drawing with DOM Manipulation (Day 2 of 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.ice-in-class-exercises/1.ice.1-drawing-with-dom-manipulation"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.ice-in-class-exercises/1.ice.1-drawing-with-dom-manipulation"
               }
             ]
           },
@@ -141,7 +148,7 @@
             "items": [
               {
                 "name": "1.POCE.2: High Card",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.poce-post-class-exercises/1.poce.2-high-card"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.poce-post-class-exercises/1.poce.2-high-card"
               }
             ]
           }
@@ -184,22 +191,22 @@
     {
       "courseDay": 3,
       "dateTypes": {
-        "module": "Module 1: Frontend Fundamentals",
+        "module": "Module 1: Frontend",
         "general": {
           "type": "general",
           "preClass": {
             "items": [
               {
-                "name": "0.2.4: Reference vs. Value",
-                "url": "https://bc.rocketacademy.co/0-language-and-tooling/0.2-es6/0.2.4-reference-vs.-value"
+                "name": "0.1.3: Reference vs Value",
+                "url": "https://bc.rocketacademy.co/0-foundations/0.1-javascript/0.1.3-reference-vs-value"
               },
               {
                 "name": "1.3: setTimeout",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.3-settimeout"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.3-settimeout"
               },
               {
                 "name": "1.5: Basic CSS (Exercises Part 1)",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.5-basic-css"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.5-basic-css"
               }
             ]
           },
@@ -207,11 +214,11 @@
             "items": [
               {
                 "name": "Peer Review 1.POCE.2: High Card",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#peer-code-review"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#peer-code-review"
               },
               {
                 "name": "1.ICE.2: High Card With Delay",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.ice-in-class-exercises/1.ice.2-high-card-with-delay"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.ice-in-class-exercises/1.ice.2-high-card-with-delay"
               }
             ]
           },
@@ -219,7 +226,7 @@
             "items": [
               {
                 "name": "1.POCE.3: Match Game",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.poce-post-class-exercises/1.poce.3-match-game"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.poce-post-class-exercises/1.poce.3-match-game"
               }
             ]
           }
@@ -262,26 +269,26 @@
     {
       "courseDay": 4,
       "dateTypes": {
-        "module": "Module 1: Frontend Fundamentals",
+        "module": "Module 1: Frontend",
         "general": {
           "type": "general",
           "preClass": {
             "items": [
               {
                 "name": "1.4: setInterval",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.4-setinterval"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.4-setinterval"
               },
               {
                 "name": "1.5: Basic CSS (Exercises Part 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.5-basic-css"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.5-basic-css"
               },
               {
                 "name": "1.5.1: Classes, IDs and Inheritance",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.5-basic-css/1.5.1-classes-ids-and-inheritance"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.5-basic-css/1.5.1-classes-ids-and-inheritance"
               },
               {
                 "name": "1.5.2: Cascading and Specificity",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.5-basic-css/1.5.2-cascading-and-specificity"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.5-basic-css/1.5.2-cascading-and-specificity"
               }
             ]
           },
@@ -289,11 +296,11 @@
             "items": [
               {
                 "name": "Peer Review 1.POCE.3: Match Game",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#peer-code-review"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#peer-code-review"
               },
               {
                 "name": "1.ICE.3: Timer and Stopwatch Logic",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.ice-in-class-exercises/1.ice.3-timer-and-stopwatch-logic"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.ice-in-class-exercises/1.ice.3-timer-and-stopwatch-logic"
               }
             ]
           },
@@ -301,7 +308,7 @@
             "items": [
               {
                 "name": "1.POCE.4: Timer",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.poce-post-class-exercises/1.poce.4-timer"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.poce-post-class-exercises/1.poce.4-timer"
               }
             ]
           }
@@ -344,22 +351,22 @@
     {
       "courseDay": 5,
       "dateTypes": {
-        "module": "Module 1: Frontend Fundamentals",
+        "module": "Module 1: Frontend",
         "general": {
           "type": "general",
           "preClass": {
             "items": [
               {
                 "name": "1.6: CSS Layout",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.6-css-layout"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.6-css-layout"
               },
               {
                 "name": "1.6.1: No Layout",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.6-css-layout/1.6.1-no-layout"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.6-css-layout/1.6.1-no-layout"
               },
               {
                 "name": "1.6.2: Display: Inline and Block",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.6-css-layout/1.6.2-display-inline-and-block"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.6-css-layout/1.6.2-display-inline-and-block"
               }
             ]
           },
@@ -367,11 +374,11 @@
             "items": [
               {
                 "name": "Peer Review 1.POCE.4: Timer",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#peer-code-review"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#peer-code-review"
               },
               {
                 "name": "1.ICE.4: Wikipedia (Day 1 of 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.ice-in-class-exercises/1.ice.4-wikipedia"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.ice-in-class-exercises/1.ice.4-wikipedia"
               }
             ]
           },
@@ -379,7 +386,7 @@
             "items": [
               {
                 "name": "1.POCE.5: Tic Tac Toe",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.poce-post-class-exercises/1.poce.5-tic-tac-toe"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.poce-post-class-exercises/1.poce.5-tic-tac-toe"
               }
             ]
           }
@@ -422,26 +429,26 @@
     {
       "courseDay": 6,
       "dateTypes": {
-        "module": "Module 1: Frontend Fundamentals",
+        "module": "Module 1: Frontend",
         "general": {
           "type": "general",
           "preClass": {
             "items": [
               {
                 "name": "0.4: JS Object as Tally",
-                "url": "https://bc.rocketacademy.co/0-language-and-tooling/0.4-js-object-as-tally"
+                "url": "https://bc.rocketacademy.co/0-foundations/0.4-js-object-as-tally"
               },
               {
                 "name": "1.2.4: Controlling CSS with DOM Manipulation",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.2.4-controlling-css-with-dom-manipulation"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.2.4-controlling-css-with-dom-manipulation"
               },
               {
                 "name": "1.6.3: Box Model",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.6-css-layout/1.6.3-box-model"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.6-css-layout/1.6.3-box-model"
               },
               {
                 "name": "1.6.4: Layout: Fixed, Percent and Max Width",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.6-css-layout/1.6.4-layout-fixed-percent-and-max-width"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.6-css-layout/1.6.4-layout-fixed-percent-and-max-width"
               }
             ]
           },
@@ -449,11 +456,11 @@
             "items": [
               {
                 "name": "Peer-Review 1.POCE.5: Tic Tac Toe",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#peer-code-review"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#peer-code-review"
               },
               {
                 "name": "1.ICE.4: Wikipedia (Day 2 of 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.ice-in-class-exercises/1.ice.4-wikipedia"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.ice-in-class-exercises/1.ice.4-wikipedia"
               }
             ]
           },
@@ -490,7 +497,7 @@
             "items": [
               {
                 "name": "Project 1: Video Poker",
-                "url": "https://bc.rocketacademy.co/course-projects/project-1-video-poker"
+                "url": "https://bc.rocketacademy.co/projects/project-1-video-poker"
               }
             ]
           },
@@ -501,7 +508,7 @@
             "items": [
               {
                 "name": "Project 1 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-1-video-poker"
+                "url": "https://bc.rocketacademy.co/projects/project-1-video-poker"
               }
             ]
           }
@@ -511,18 +518,18 @@
     {
       "courseDay": 7,
       "dateTypes": {
-        "module": "Module 1: Frontend Fundamentals",
+        "module": "Module 1: Frontend",
         "general": {
           "type": "general",
           "preClass": {
             "items": [
               {
                 "name": "1.6.5: Display: Inline Block",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.6-css-layout/1.6.5-display-inline-block"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.6-css-layout/1.6.5-display-inline-block"
               },
               {
                 "name": "1.6.6: Layout: Columns and Cards",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.6-css-layout/1.6.6-layout-columns-and-cards"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.6-css-layout/1.6.6-layout-columns-and-cards"
               }
             ]
           },
@@ -530,7 +537,7 @@
             "items": [
               {
                 "name": "1.ICE.5: Etsy (Day 1 of 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.ice-in-class-exercises/1.ice.5-etsy"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.ice-in-class-exercises/1.ice.5-etsy"
               }
             ]
           },
@@ -570,7 +577,7 @@
             "items": [
               {
                 "name": "Project 1 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -578,7 +585,7 @@
             "items": [
               {
                 "name": "Project 1 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-1-video-poker"
+                "url": "https://bc.rocketacademy.co/projects/project-1-video-poker"
               }
             ]
           }
@@ -588,7 +595,7 @@
     {
       "courseDay": 8,
       "dateTypes": {
-        "module": "Module 1: Frontend Fundamentals",
+        "module": "Module 1: Frontend",
         "general": {
           "type": "general",
           "preClass": {
@@ -599,11 +606,11 @@
               },
               {
                 "name": "1.6.7: Position",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.6-css-layout/1.6.7-position"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.6-css-layout/1.6.7-position"
               },
               {
                 "name": "1.6.8: Float",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.6-css-layout/1.6.8-float"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.6-css-layout/1.6.8-float"
               }
             ]
           },
@@ -611,7 +618,7 @@
             "items": [
               {
                 "name": "1.ICE.5: Etsy (Day 2 of 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.ice-in-class-exercises/1.ice.5-etsy"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.ice-in-class-exercises/1.ice.5-etsy"
               }
             ]
           },
@@ -651,7 +658,7 @@
             "items": [
               {
                 "name": "Project 1 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -659,7 +666,7 @@
             "items": [
               {
                 "name": "Project 1 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-1-video-poker"
+                "url": "https://bc.rocketacademy.co/projects/project-1-video-poker"
               }
             ]
           }
@@ -669,22 +676,22 @@
     {
       "courseDay": 9,
       "dateTypes": {
-        "module": "Module 1: Frontend Fundamentals",
+        "module": "Module 1: Frontend",
         "general": {
           "type": "general",
           "preClass": {
             "items": [
               {
                 "name": "1.6.9: Flexbox",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.6-css-layout/1.6.9-flexbox"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.6-css-layout/1.6.9-flexbox"
               }
             ]
           },
           "inClass": {
             "items": [
               {
-                "name": "1.ICE.6: Personal Page (Day 1 of 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.ice-in-class-exercises/1.ice.6-personal-page"
+                "name": "1.ICE.6: Portfolio Page (Day 1 of 2)",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.ice-in-class-exercises/1.ice.6-portfolio-page"
               }
             ]
           },
@@ -724,7 +731,7 @@
             "items": [
               {
                 "name": "Project 1 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -732,7 +739,7 @@
             "items": [
               {
                 "name": "Project 1 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-1-video-poker"
+                "url": "https://bc.rocketacademy.co/projects/project-1-video-poker"
               }
             ]
           }
@@ -742,26 +749,26 @@
     {
       "courseDay": 10,
       "dateTypes": {
-        "module": "Module 1: Frontend Fundamentals",
+        "module": "Module 1: Frontend",
         "general": {
           "type": "general",
           "preClass": {
             "items": [
               {
                 "name": "1.7: Responsive Design",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.7-responsive-design"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.7-responsive-design"
               },
               {
                 "name": "1.8: Web Design Basics",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.8-web-design-basics"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.8-web-design-basics"
               }
             ]
           },
           "inClass": {
             "items": [
               {
-                "name": "1.ICE.6: Personal Page (Day 2 of 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.ice-in-class-exercises/1.ice.6-personal-page"
+                "name": "1.ICE.6: Portfolio Page (Day 2 of 2)",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.ice-in-class-exercises/1.ice.6-portfolio-page"
               }
             ]
           },
@@ -801,7 +808,7 @@
             "items": [
               {
                 "name": "Project 1 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -809,7 +816,7 @@
             "items": [
               {
                 "name": "Project 1 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-1-video-poker"
+                "url": "https://bc.rocketacademy.co/projects/project-1-video-poker"
               }
             ]
           }
@@ -819,14 +826,14 @@
     {
       "courseDay": 11,
       "dateTypes": {
-        "module": "Module 1: Frontend Fundamentals",
+        "module": "Module 1: Frontend",
         "general": {
           "type": "general",
           "preClass": {
             "items": [
               {
                 "name": "1.9: Bootstrap (Part 1)",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.9-bootstrap"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.9-bootstrap"
               }
             ]
           },
@@ -834,7 +841,7 @@
             "items": [
               {
                 "name": "1.ICE.7: Bootstrap Columns (Day 1 of 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.ice-in-class-exercises/1.ice.7-bootstrap-columns"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.ice-in-class-exercises/1.ice.7-bootstrap-columns"
               }
             ]
           },
@@ -874,7 +881,7 @@
             "items": [
               {
                 "name": "Project 1 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -882,7 +889,7 @@
             "items": [
               {
                 "name": "Project 1 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-1-video-poker"
+                "url": "https://bc.rocketacademy.co/projects/project-1-video-poker"
               }
             ]
           }
@@ -892,14 +899,14 @@
     {
       "courseDay": 12,
       "dateTypes": {
-        "module": "Module 1: Frontend Fundamentals",
+        "module": "Module 1: Frontend",
         "general": {
           "type": "general",
           "preClass": {
             "items": [
               {
                 "name": "1.9: Bootstrap (Part 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.9-bootstrap"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.9-bootstrap"
               }
             ]
           },
@@ -907,7 +914,7 @@
             "items": [
               {
                 "name": "1.ICE.7: Bootstrap Columns (Day 2 of 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/1.ice-in-class-exercises/1.ice.7-bootstrap-columns"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.ice-in-class-exercises/1.ice.7-bootstrap-columns"
               }
             ]
           },
@@ -947,7 +954,7 @@
             "items": [
               {
                 "name": "Project 1 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -955,7 +962,7 @@
             "items": [
               {
                 "name": "Project 1 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-1-video-poker"
+                "url": "https://bc.rocketacademy.co/projects/project-1-video-poker"
               }
             ]
           }
@@ -965,7 +972,7 @@
     {
       "courseDay": 13,
       "dateTypes": {
-        "module": "Module 1: Frontend Fundamentals",
+        "module": "Module 1: Frontend",
         "general": {
           "type": "general",
           "preClass": {
@@ -1035,7 +1042,7 @@
             "items": [
               {
                 "name": "Project 1 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -1043,7 +1050,7 @@
             "items": [
               {
                 "name": "Project 1 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-1-video-poker"
+                "url": "https://bc.rocketacademy.co/projects/project-1-video-poker"
               }
             ]
           }
@@ -1053,7 +1060,7 @@
     {
       "courseDay": 14,
       "dateTypes": {
-        "module": "Module 1: Frontend Fundamentals",
+        "module": "Module 1: Frontend",
         "general": {
           "type": "general",
           "projectStart": {},
@@ -1121,7 +1128,7 @@
             "items": [
               {
                 "name": "Project 1 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -1129,7 +1136,7 @@
             "items": [
               {
                 "name": "Project 1 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-1-video-poker"
+                "url": "https://bc.rocketacademy.co/projects/project-1-video-poker"
               }
             ]
           }
@@ -1139,7 +1146,7 @@
     {
       "courseDay": 15,
       "dateTypes": {
-        "module": "Module 1: Frontend Fundamentals",
+        "module": "Module 1: Frontend",
         "general": {
           "type": "general",
           "preClass": {
@@ -1213,7 +1220,7 @@
             "items": [
               {
                 "name": "Project 1 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -1221,7 +1228,7 @@
             "items": [
               {
                 "name": "Project 1 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-1-video-poker"
+                "url": "https://bc.rocketacademy.co/projects/project-1-video-poker"
               },
               {
                 "name": "Project 1: Deploy to GitHub Pages",
@@ -1235,7 +1242,7 @@
     {
       "courseDay": 16,
       "dateTypes": {
-        "module": "Module 1: Frontend Fundamentals",
+        "module": "Module 1: Frontend",
         "general": {
           "type": "general",
           "preClass": {
@@ -1258,7 +1265,7 @@
             "items": [
               {
                 "name": "Review 2.POCE.3: CSS Processor",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#peer-code-review"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#peer-code-review"
               },
               {
                 "name": "2.ICE.4: Servers and Requests",
@@ -1307,7 +1314,7 @@
             "items": [
               {
                 "name": "Due: Project 1 Video Poker",
-                "url": "https://bc.rocketacademy.co/course-projects/project-1-video-poker"
+                "url": "https://bc.rocketacademy.co/projects/project-1-video-poker"
               }
             ]
           },
@@ -1316,7 +1323,7 @@
             "items": [
               {
                 "name": "Project 1 Presentations",
-                "url": "https://bc.rocketacademy.co/course-projects/project-1-video-poker"
+                "url": "https://bc.rocketacademy.co/projects/project-1-video-poker"
               }
             ]
           },
@@ -1324,7 +1331,7 @@
             "items": [
               {
                 "name": "Project 1 Post-Mortems",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-post-mortem-meeting"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-post-mortem-meeting"
               }
             ]
           }
@@ -1494,16 +1501,12 @@
           "preClass": {
             "items": [
               {
-                "name": "0.2.2: ES6 Array Iterators",
-                "url": "https://bc.rocketacademy.co/0-language-and-tooling/0.2-es6/0.2.2-es6-array-iterators"
+                "name": "0.2.1: Git Pull",
+                "url": "https://bc.rocketacademy.co/0-foundations/0.2-git/0.2.1-git-pull.md"
               },
               {
-                "name": "0.5.1: Git Pull",
-                "url": "https://bc.rocketacademy.co/0-language-and-tooling/0.5-advanced-git/0.5.1-git-pull"
-              },
-              {
-                "name": "0.5.2: Git Branches",
-                "url": "https://bc.rocketacademy.co/0-language-and-tooling/0.5-advanced-git/0.5.2-git-branches"
+                "name": "0.2.2: Git Branches",
+                "url": "https://bc.rocketacademy.co/0-foundations/0.2-git/0.2.2-git-branches.md"
               }
             ]
           },
@@ -1511,7 +1514,7 @@
             "items": [
               {
                 "name": "0.ICE.1: Git Branches",
-                "url": "https://bc.rocketacademy.co/0-language-and-tooling/0.ice-in-class-exercises/0.ice.1-git-branches"
+                "url": "https://bc.rocketacademy.co/0-foundations/0.ice-in-class-exercises/0.ice.1-git-branches"
               }
             ]
           },
@@ -1646,12 +1649,12 @@
           "preClass": {
             "items": [
               {
-                "name": "0.2.3: ES6 Destructuring, Spread Operators",
-                "url": "https://bc.rocketacademy.co/0-language-and-tooling/0.2-es6/0.2.3-es6-destructuring-spread-operators"
+                "name": "0.1.4: Destructuring and Spread Operator",
+                "url": "https://bc.rocketacademy.co/0-foundations/0.1-javascript/0.1.4-destructuring-and-spread-operator"
               },
               {
                 "name": "0.6: Nodemon",
-                "url": "https://bc.rocketacademy.co/0-language-and-tooling/0.6-nodemon"
+                "url": "https://bc.rocketacademy.co/0-foundations/0.6-nodemon"
               },
               {
                 "name": "3.2: EJS",
@@ -1737,7 +1740,7 @@
               },
               {
                 "name": "0.7: Thunder Client",
-                "url": "https://bc.rocketacademy.co/0-language-and-tooling/0.7-postman"
+                "url": "https://bc.rocketacademy.co/0-foundations/0.7-thunder-client"
               }
             ]
           },
@@ -1813,7 +1816,7 @@
             "items": [
               {
                 "name": "Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -1833,7 +1836,7 @@
             "items": [
               {
                 "name": "CSS.ICE.3: MyTunes",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/css.ice-in-class-exercises/css.ice.3-mytunes"
+                "url": "https://bc.rocketacademy.co/1-frontend/css.ice-in-class-exercises/css.ice.3-mytunes"
               }
             ]
           },
@@ -1886,11 +1889,11 @@
             "items": [
               {
                 "name": "Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               },
               {
                 "name": "CSS.ICE.3: MyTunes",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/css.ice-in-class-exercises/css.ice.3-mytunes"
+                "url": "https://bc.rocketacademy.co/1-frontend/css.ice-in-class-exercises/css.ice.3-mytunes"
               }
             ]
           },
@@ -1910,7 +1913,7 @@
             "items": [
               {
                 "name": "CSS.ICE.3: MyTunes",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/css.ice-in-class-exercises/css.ice.3-mytunes"
+                "url": "https://bc.rocketacademy.co/1-frontend/css.ice-in-class-exercises/css.ice.3-mytunes"
               }
             ]
           },
@@ -1982,7 +1985,7 @@
             "items": [
               {
                 "name": "Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               },
               {
                 "name": "3.ICE.4: Cookies",
@@ -2067,7 +2070,7 @@
             "items": [
               {
                 "name": "Project Presentation: 3.POCE.3",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-presentations"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-presentations"
               }
             ]
           },
@@ -2111,7 +2114,7 @@
             "items": [
               {
                 "name": "Start: Project 2 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/course-projects/project-2-server-side-app#ideation-phase-1"
+                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
               }
             ]
           },
@@ -2122,7 +2125,7 @@
             "items": [
               {
                 "name": "Project 2 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/course-projects/project-2-server-side-app#ideation-phase-1"
+                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
               }
             ]
           }
@@ -2203,7 +2206,7 @@
             "items": [
               {
                 "name": "Project 2 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/course-projects/project-2-server-side-app#ideation-phase-1"
+                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
               }
             ]
           }
@@ -2280,7 +2283,7 @@
             "items": [
               {
                 "name": "Project 2 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/course-projects/project-2-server-side-app#ideation-phase-1"
+                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
               }
             ]
           }
@@ -2357,7 +2360,7 @@
             "items": [
               {
                 "name": "Start: Project 2 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/course-projects/project-2-server-side-app#ideation-phase-2"
+                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
               }
             ]
           },
@@ -2368,7 +2371,7 @@
             "items": [
               {
                 "name": "Project 2 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/course-projects/project-2-server-side-app#ideation-phase-2"
+                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
               }
             ]
           }
@@ -2449,7 +2452,7 @@
             "items": [
               {
                 "name": "Project 2 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/course-projects/project-2-server-side-app#ideation-phase-2"
+                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
               }
             ]
           }
@@ -2522,7 +2525,7 @@
             "items": [
               {
                 "name": "Start: Project 2 Start",
-                "url": "https://bc.rocketacademy.co/course-projects/project-2-server-side-app"
+                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app"
               }
             ]
           },
@@ -2530,7 +2533,7 @@
             "items": [
               {
                 "name": "Due: Project 2 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/course-projects/project-2-server-side-app#ideation-phase-2"
+                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
               }
             ]
           },
@@ -2539,7 +2542,7 @@
             "items": [
               {
                 "name": "Project 2 Peer Planning Review",
-                "url": "https://bc.rocketacademy.co/course-projects/project-2-server-side-app#ideation-phase-2"
+                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
               }
             ]
           },
@@ -2556,12 +2559,12 @@
           "preClass": {
             "items": [
               {
-                "name": "0.8: JS Promises",
-                "url": "https://bc.rocketacademy.co/0-language-and-tooling/0.8-js-promises"
+                "name": "0.1.5: Promises",
+                "url": "https://bc.rocketacademy.co/0-foundations/0.1-javascript/0.1.5-promises"
               },
               {
-                "name": "0.8.1: Promise.prototype.catch, Promise.all",
-                "url": "https://bc.rocketacademy.co/0-language-and-tooling/0.8-js-promises/0.8.1-promise.prototype.catch-promise.all"
+                "name": "0.1.5.1: Promise.catch, Promise.all",
+                "url": "https://bc.rocketacademy.co/0-foundations/0.1-javascript/0.1.5-promises/0.1.5.1-promise.catch-promise.all"
               },
               {
                 "name": "3.4.7: pg Promises",
@@ -2617,7 +2620,7 @@
             "items": [
               {
                 "name": "Project 2 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -2625,11 +2628,11 @@
             "items": [
               {
                 "name": "Project 2 Instructor 1-1s",
-                "url": "https://bc.rocketacademy.co/course-projects/project-2-server-side-app#ideation-phase-2"
+                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
               },
               {
                 "name": "Project 2 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-2-server-side-app#recommended-order-of-implementation"
+                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#recommended-order-of-implementation"
               }
             ]
           }
@@ -2691,7 +2694,7 @@
             "items": [
               {
                 "name": "Project 2 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -2699,7 +2702,7 @@
             "items": [
               {
                 "name": "Project 2 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-2-server-side-app#recommended-order-of-implementation"
+                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#recommended-order-of-implementation"
               }
             ]
           }
@@ -2766,7 +2769,7 @@
             "items": [
               {
                 "name": "Project 2 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -2774,7 +2777,7 @@
             "items": [
               {
                 "name": "Project 2 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-2-server-side-app#recommended-order-of-implementation"
+                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#recommended-order-of-implementation"
               }
             ]
           }
@@ -2812,7 +2815,7 @@
             "items": [
               {
                 "name": "CSS.ICE.5: Restaurant",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/css.ice-in-class-exercises/css.ice.5-restaurant"
+                "url": "https://bc.rocketacademy.co/1-frontend/css.ice-in-class-exercises/css.ice.5-restaurant"
               }
             ]
           },
@@ -2846,7 +2849,7 @@
             "items": [
               {
                 "name": "Project 2 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -2854,7 +2857,7 @@
             "items": [
               {
                 "name": "Project 2 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-2-server-side-app#recommended-order-of-implementation"
+                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#recommended-order-of-implementation"
               }
             ]
           }
@@ -2903,7 +2906,7 @@
             "items": [
               {
                 "name": "Due: Project 2 MVP deadline",
-                "url": "https://bc.rocketacademy.co/course-projects/project-2-server-side-app#mvp-deadline"
+                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#mvp-deadline"
               }
             ]
           },
@@ -2912,11 +2915,11 @@
             "items": [
               {
                 "name": "Project 2 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               },
               {
                 "name": "Project 2 Mid-Point Peer Review",
-                "url": "https://bc.rocketacademy.co/course-projects/project-2-server-side-app#mid-point-peer-review-in-class"
+                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#mid-point-peer-review-in-class"
               }
             ]
           },
@@ -2924,11 +2927,11 @@
             "items": [
               {
                 "name": "Project 2 Mid-Point Instructor Meeting (30 minutes)",
-                "url": "https://bc.rocketacademy.co/course-projects/project-2-server-side-app#project-timeline"
+                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#project-timeline"
               },
               {
                 "name": "Project 2 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-2-server-side-app#recommended-order-of-implementation"
+                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#recommended-order-of-implementation"
               }
             ]
           }
@@ -2952,7 +2955,7 @@
             "items": [
               {
                 "name": "CSS.ICE.6: NTU",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/css.ice-in-class-exercises/css.ice.6-ntu"
+                "url": "https://bc.rocketacademy.co/1-frontend/css.ice-in-class-exercises/css.ice.6-ntu"
               }
             ]
           },
@@ -2986,7 +2989,7 @@
             "items": [
               {
                 "name": "Project 2 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -2994,7 +2997,7 @@
             "items": [
               {
                 "name": "Project 2 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-2-server-side-app#recommended-order-of-implementation"
+                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#recommended-order-of-implementation"
               }
             ]
           }
@@ -3018,7 +3021,7 @@
             "items": [
               {
                 "name": "CSS.ICE.7: Zillow",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/css.ice-in-class-exercises/css.ice.7-zillow"
+                "url": "https://bc.rocketacademy.co/1-frontend/css.ice-in-class-exercises/css.ice.7-zillow"
               }
             ]
           },
@@ -3052,7 +3055,7 @@
             "items": [
               {
                 "name": "Project 2 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -3060,7 +3063,7 @@
             "items": [
               {
                 "name": "Project 2 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-2-server-side-app#recommended-order-of-implementation"
+                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#recommended-order-of-implementation"
               }
             ]
           }
@@ -3084,7 +3087,7 @@
             "items": [
               {
                 "name": "CSS.ICE.8: Chase Bank",
-                "url": "https://bc.rocketacademy.co/1-frontend-fundamentals/css.ice-in-class-exercises/css.ice.8-chase-bank"
+                "url": "https://bc.rocketacademy.co/1-frontend/css.ice-in-class-exercises/css.ice.8-chase-bank"
               }
             ]
           },
@@ -3116,7 +3119,7 @@
             "items": [
               {
                 "name": "Due: Project 2 Feature Freeze",
-                "url": "https://bc.rocketacademy.co/course-projects/project-2-server-side-app#feature-freeze"
+                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#feature-freeze"
               }
             ]
           },
@@ -3125,7 +3128,7 @@
             "items": [
               {
                 "name": "Project 2 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -3133,7 +3136,7 @@
             "items": [
               {
                 "name": "Project 2 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-2-server-side-app#recommended-order-of-implementation"
+                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#recommended-order-of-implementation"
               }
             ]
           }
@@ -3182,7 +3185,7 @@
             "items": [
               {
                 "name": "Due: Project 2 Presentations",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-presentations"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-presentations"
               }
             ]
           },
@@ -3192,7 +3195,7 @@
             "items": [
               {
                 "name": "Project 2 Post-Mortems",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-post-mortem-meeting"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-post-mortem-meeting"
               }
             ]
           }
@@ -3243,7 +3246,7 @@
             "items": [
               {
                 "name": "Project 2 Redux (Peer Code Review)",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#peer-code-review"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#peer-code-review"
               }
             ]
           },
@@ -3251,7 +3254,7 @@
             "items": [
               {
                 "name": "Project 2 Demo Video",
-                "url": "https://bc.rocketacademy.co/course-projects/project-2-server-side-app#video-demo"
+                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#video-demo"
               }
             ]
           }
@@ -3283,8 +3286,8 @@
                 "url": "https://bc.rocketacademy.co/3-backend-applications/3.6-heroku/3.6.3-heroku-s3"
               },
               {
-                "name": "0.10: Introduction to Classes",
-                "url": "https://bc.rocketacademy.co/0-language-and-tooling/0.10-introduction-to-classes"
+                "name": "0.1.6: Classes",
+                "url": "https://bc.rocketacademy.co/0-foundations/0.1-javascript/0.1.6-classes"
               }
             ]
           },
@@ -3333,7 +3336,7 @@
             "items": [
               {
                 "name": "Project 2 Demo Video",
-                "url": "https://bc.rocketacademy.co/course-projects/project-2-server-side-app#video-demo"
+                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#video-demo"
               }
             ]
           }
@@ -3415,7 +3418,7 @@
             "items": [
               {
                 "name": "Due: Project 2 Demo Video",
-                "url": "https://bc.rocketacademy.co/course-projects/project-2-server-side-app#video-demo"
+                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#video-demo"
               }
             ]
           },
@@ -3434,15 +3437,15 @@
           "preClass": {
             "items": [
               {
-                "name": "0.8.2: Try Catch",
-                "url": "https://bc.rocketacademy.co/0-language-and-tooling/0.8-js-promises/0.8.2-try-catch"
+                "name": "0.1.5.2: Try Catch",
+                "url": "https://bc.rocketacademy.co/0-foundations/0.1-javascript/0.1.5-promises/0.1.5.2-try-catch"
               },
               {
-                "name": "0.8.3: Async/Await",
-                "url": "https://bc.rocketacademy.co/0-language-and-tooling/0.8-js-promises/0.8.3-async-await"
+                "name": "0.1.5.3: Async Await",
+                "url": "https://bc.rocketacademy.co/0-foundations/0.1-javascript/0.1.5-promises/0.1.5.3-async-await"
               },
               {
-                "name": "4.1.3: Async/Await with Sequelize",
+                "name": "4.1.3: Async Await with Sequelize",
                 "url": "https://bc.rocketacademy.co/4-backend-structure/4.1-orm-sequelize/4.1.3-async-await-with-sequelize"
               }
             ]
@@ -3775,7 +3778,7 @@
             "items": [
               {
                 "name": "Start: Project 3 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/course-projects/project-3-full-stack-game#ideation-phase-1"
+                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-1"
               }
             ]
           },
@@ -3786,7 +3789,7 @@
             "items": [
               {
                 "name": "Project 3 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/course-projects/project-3-full-stack-game#ideation-phase-1"
+                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-1"
               }
             ]
           }
@@ -3870,7 +3873,7 @@
             "items": [
               {
                 "name": "Project 3 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/course-projects/project-3-full-stack-game#ideation-phase-1"
+                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-1"
               }
             ]
           }
@@ -3950,7 +3953,7 @@
             "items": [
               {
                 "name": "Project 3 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/course-projects/project-3-full-stack-game#ideation-phase-1"
+                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-1"
               }
             ]
           }
@@ -3987,7 +3990,7 @@
             "items": [
               {
                 "name": "Bug Reports (5.POCE.1, 5.POCE.2) Redux ",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#peer-code-review"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#peer-code-review"
               }
             ]
           },
@@ -4038,7 +4041,7 @@
             "items": [
               {
                 "name": "Start: Project 3 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/course-projects/project-3-full-stack-game#ideation-phase-2"
+                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
               }
             ]
           },
@@ -4049,7 +4052,7 @@
             "items": [
               {
                 "name": "Project 3 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/course-projects/project-3-full-stack-game#ideation-phase-2"
+                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
               }
             ]
           }
@@ -4129,7 +4132,7 @@
             "items": [
               {
                 "name": "Project 3 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/course-projects/project-3-full-stack-game#ideation-phase-2"
+                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
               }
             ]
           }
@@ -4209,7 +4212,7 @@
             "items": [
               {
                 "name": "Start: Project 3",
-                "url": "https://bc.rocketacademy.co/course-projects/project-3-full-stack-game#ideation-phase-2"
+                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
               }
             ]
           },
@@ -4217,7 +4220,7 @@
             "items": [
               {
                 "name": "Due: Project 3 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/course-projects/project-3-full-stack-game#ideation-phase-2"
+                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
               }
             ]
           },
@@ -4226,7 +4229,7 @@
             "items": [
               {
                 "name": "Peer Planning Review",
-                "url": "https://bc.rocketacademy.co/course-projects/project-3-full-stack-game#ideation-phase-2"
+                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
               }
             ]
           },
@@ -4234,7 +4237,7 @@
             "items": [
               {
                 "name": "Project 3 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-3-full-stack-game"
+                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game"
               }
             ]
           }
@@ -4312,7 +4315,7 @@
             "items": [
               {
                 "name": "Project 3 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -4320,7 +4323,7 @@
             "items": [
               {
                 "name": "Project 3 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-3-full-stack-game"
+                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game"
               }
             ]
           }
@@ -4337,7 +4340,7 @@
             "items": [
               {
                 "name": "Group Work (for project management)",
-                "url": "https://bc.rocketacademy.co/course-logistics/group-work"
+                "url": "https://bc.rocketacademy.co/logistics/group-work"
               }
             ]
           },
@@ -4399,7 +4402,7 @@
             "items": [
               {
                 "name": "Project 3 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -4407,7 +4410,7 @@
             "items": [
               {
                 "name": "Project 3 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-3-full-stack-game"
+                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game"
               }
             ]
           }
@@ -4472,7 +4475,7 @@
             "items": [
               {
                 "name": "Project 3 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -4480,7 +4483,7 @@
             "items": [
               {
                 "name": "Project 3 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-3-full-stack-game"
+                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game"
               }
             ]
           }
@@ -4545,7 +4548,7 @@
             "items": [
               {
                 "name": "Project 3 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -4553,7 +4556,7 @@
             "items": [
               {
                 "name": "Project 3 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-3-full-stack-game"
+                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game"
               }
             ]
           }
@@ -4623,7 +4626,7 @@
             "items": [
               {
                 "name": "Due: Project 3 MVP Deadline",
-                "url": "https://bc.rocketacademy.co/course-projects/project-3-full-stack-game#mvp-deadline"
+                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game#mvp-deadline"
               }
             ]
           },
@@ -4632,11 +4635,11 @@
             "items": [
               {
                 "name": "Project 3 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               },
               {
                 "name": "Project 3 Peer Code Review",
-                "url": "https://bc.rocketacademy.co/course-projects/project-3-full-stack-game#mvp-deadline"
+                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game#mvp-deadline"
               }
             ]
           },
@@ -4644,7 +4647,7 @@
             "items": [
               {
                 "name": "Project 3 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-3-full-stack-game"
+                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game"
               }
             ]
           }
@@ -4720,7 +4723,7 @@
             "items": [
               {
                 "name": "Project 3 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -4728,7 +4731,7 @@
             "items": [
               {
                 "name": "Project 3 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-3-full-stack-game"
+                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game"
               }
             ]
           }
@@ -4798,7 +4801,7 @@
             "items": [
               {
                 "name": "Due: Project 3 Feature Freeze",
-                "url": "https://bc.rocketacademy.co/course-projects/project-3-full-stack-game#feature-freeze"
+                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game#feature-freeze"
               }
             ]
           },
@@ -4807,11 +4810,11 @@
             "items": [
               {
                 "name": "Project 3 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               },
               {
                 "name": "Project 3 Feature Freeze In-Class Review",
-                "url": "https://bc.rocketacademy.co/course-projects/project-3-full-stack-game#feature-freeze"
+                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game#feature-freeze"
               }
             ]
           },
@@ -4819,7 +4822,7 @@
             "items": [
               {
                 "name": "Project 3 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-3-full-stack-game"
+                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game"
               }
             ]
           }
@@ -4884,7 +4887,7 @@
             "items": [
               {
                 "name": "Project 3 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -4892,7 +4895,7 @@
             "items": [
               {
                 "name": "Project 3 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-3-full-stack-game"
+                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game"
               }
             ]
           }
@@ -4910,7 +4913,7 @@
             "items": [
               {
                 "name": "Project 3 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -4918,7 +4921,7 @@
             "items": [
               {
                 "name": "Project 3 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-3-full-stack-game"
+                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game"
               }
             ]
           }
@@ -4955,7 +4958,7 @@
             "items": [
               {
                 "name": "Due: Project 3 Presentations",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-presentations"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-presentations"
               }
             ]
           },
@@ -4965,11 +4968,11 @@
             "items": [
               {
                 "name": "Project 3 Post-Mortems",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-post-mortem-meeting"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-post-mortem-meeting"
               },
               {
                 "name": "Project 3 Video Demo",
-                "url": "https://bc.rocketacademy.co/course-projects/project-3-full-stack-game#video-demo"
+                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game#video-demo"
               }
             ]
           }
@@ -5020,7 +5023,7 @@
             "items": [
               {
                 "name": "Peer project review exercise",
-                "url": "https://bc.rocketacademy.co/course-projects/project-3-full-stack-game#project-presentations"
+                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game#project-presentations"
               }
             ]
           },
@@ -5028,7 +5031,7 @@
             "items": [
               {
                 "name": "Project 3 Video Demo",
-                "url": "https://bc.rocketacademy.co/course-projects/project-3-full-stack-game#video-demo"
+                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game#video-demo"
               }
             ]
           }
@@ -5120,7 +5123,7 @@
             "items": [
               {
                 "name": "Project 3 Video Demo",
-                "url": "https://bc.rocketacademy.co/course-projects/project-3-full-stack-game#video-demo"
+                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game#video-demo"
               }
             ]
           }
@@ -5209,7 +5212,7 @@
             "items": [
               {
                 "name": "Due: Project 3 Video Demo",
-                "url": "https://bc.rocketacademy.co/course-projects/project-3-full-stack-game#video-demo"
+                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game#video-demo"
               }
             ]
           },
@@ -5293,7 +5296,7 @@
               "items": [
                 {
                   "name": "Start: Project 4 Ideation Phase 1",
-                  "url": "https://bc.rocketacademy.co/course-projects/project-4-full-stack-react-app#ideation-phase-1"
+                  "url": "https://bc.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-1"
                 }
               ]
             }
@@ -5305,7 +5308,7 @@
             "items": [
               {
                 "name": "Project 4 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/course-projects/project-4-full-stack-react-app#ideation-phase-1"
+                "url": "https://bc.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-1"
               }
             ]
           }
@@ -5382,7 +5385,7 @@
             "items": [
               {
                 "name": "Project 4 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/course-projects/project-4-full-stack-react-app#ideation-phase-1"
+                "url": "https://bc.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-1"
               }
             ]
           }
@@ -5463,7 +5466,7 @@
             "items": [
               {
                 "name": "Project 4 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/course-projects/project-4-full-stack-react-app#ideation-phase-1"
+                "url": "https://bc.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-1"
               }
             ]
           }
@@ -5546,7 +5549,7 @@
             "items": [
               {
                 "name": "Start: Project 4 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/course-projects/project-4-full-stack-react-app#ideation-phase-2"
+                "url": "https://bc.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-2"
               }
             ]
           },
@@ -5557,7 +5560,7 @@
             "items": [
               {
                 "name": "Project 4 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/course-projects/project-4-full-stack-react-app#ideation-phase-2"
+                "url": "https://bc.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-2"
               }
             ]
           }
@@ -5644,7 +5647,7 @@
             "items": [
               {
                 "name": "Project 4 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/course-projects/project-4-full-stack-react-app#ideation-phase-2"
+                "url": "https://bc.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-2"
               }
             ]
           }
@@ -5706,7 +5709,7 @@
             "items": [
               {
                 "name": "Start: Project 4 Start",
-                "url": "https://bc.rocketacademy.co/course-projects/project-4-full-stack-react-app"
+                "url": "https://bc.rocketacademy.co/projects/project-4-full-stack-react-app"
               }
             ]
           },
@@ -5714,7 +5717,7 @@
             "items": [
               {
                 "name": "Due: Project 4 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/course-projects/project-4-full-stack-react-app#ideation-phase-2"
+                "url": "https://bc.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-2"
               }
             ]
           },
@@ -5723,7 +5726,7 @@
             "items": [
               {
                 "name": "Peer Planning Review",
-                "url": "https://bc.rocketacademy.co/course-projects/project-4-full-stack-react-app#ideation-phase-2"
+                "url": "https://bc.rocketacademy.co/projects/project-4-full-stack-react-app#ideation-phase-2"
               }
             ]
           },
@@ -5731,7 +5734,7 @@
             "items": [
               {
                 "name": "Start: Project 4 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-4-full-stack-react-app"
+                "url": "https://bc.rocketacademy.co/projects/project-4-full-stack-react-app"
               }
             ]
           }
@@ -5749,7 +5752,7 @@
             "items": [
               {
                 "name": "Review 7.POCE.4: Hot Pot Bill Splitter",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#peer-code-review"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#peer-code-review"
               }
             ]
           },
@@ -5803,7 +5806,7 @@
             "items": [
               {
                 "name": "Project 4 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -5811,7 +5814,7 @@
             "items": [
               {
                 "name": "Project 4 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-4-full-stack-react-app"
+                "url": "https://bc.rocketacademy.co/projects/project-4-full-stack-react-app"
               }
             ]
           }
@@ -5876,7 +5879,7 @@
             "items": [
               {
                 "name": "Project 4 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -5884,7 +5887,7 @@
             "items": [
               {
                 "name": "Project 4 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-4-full-stack-react-app"
+                "url": "https://bc.rocketacademy.co/projects/project-4-full-stack-react-app"
               }
             ]
           }
@@ -5949,7 +5952,7 @@
             "items": [
               {
                 "name": "Project 4 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -5957,7 +5960,7 @@
             "items": [
               {
                 "name": "Project 4 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-4-full-stack-react-app"
+                "url": "https://bc.rocketacademy.co/projects/project-4-full-stack-react-app"
               }
             ]
           }
@@ -6022,7 +6025,7 @@
             "items": [
               {
                 "name": "Project 4 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -6030,7 +6033,7 @@
             "items": [
               {
                 "name": "Project 4 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-4-full-stack-react-app"
+                "url": "https://bc.rocketacademy.co/projects/project-4-full-stack-react-app"
               }
             ]
           }
@@ -6093,7 +6096,7 @@
             "items": [
               {
                 "name": "Due: Project 4 MVP Deadline",
-                "url": "https://bc.rocketacademy.co/course-projects/project-4-full-stack-react-app#mvp-deadline"
+                "url": "https://bc.rocketacademy.co/projects/project-4-full-stack-react-app#mvp-deadline"
               }
             ]
           },
@@ -6102,7 +6105,7 @@
             "items": [
               {
                 "name": "Project 4 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               },
               {
                 "name": "Project 4 In-Class Code Review"
@@ -6113,7 +6116,7 @@
             "items": [
               {
                 "name": "Project 4 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-4-full-stack-react-app"
+                "url": "https://bc.rocketacademy.co/projects/project-4-full-stack-react-app"
               }
             ]
           }
@@ -6169,7 +6172,7 @@
             "items": [
               {
                 "name": "Due: Project 4 Feature Freeze",
-                "url": "https://bc.rocketacademy.co/course-projects/project-4-full-stack-react-app#feature-freeze"
+                "url": "https://bc.rocketacademy.co/projects/project-4-full-stack-react-app#feature-freeze"
               }
             ]
           },
@@ -6178,7 +6181,7 @@
             "items": [
               {
                 "name": "Project 4 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -6186,7 +6189,7 @@
             "items": [
               {
                 "name": "Project 4 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-4-full-stack-react-app"
+                "url": "https://bc.rocketacademy.co/projects/project-4-full-stack-react-app"
               }
             ]
           }
@@ -6258,7 +6261,7 @@
             "items": [
               {
                 "name": "Project 4 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -6266,7 +6269,7 @@
             "items": [
               {
                 "name": "Project 4 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-4-full-stack-react-app"
+                "url": "https://bc.rocketacademy.co/projects/project-4-full-stack-react-app"
               }
             ]
           }
@@ -6342,7 +6345,7 @@
             "items": [
               {
                 "name": "Project 4 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -6350,7 +6353,7 @@
             "items": [
               {
                 "name": "Project 4 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-4-full-stack-react-app"
+                "url": "https://bc.rocketacademy.co/projects/project-4-full-stack-react-app"
               }
             ]
           }
@@ -6399,7 +6402,7 @@
             "items": [
               {
                 "name": "Due: Project 4 Presentations",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-presentations"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-presentations"
               }
             ]
           },
@@ -6409,11 +6412,11 @@
             "items": [
               {
                 "name": "Project 4 Post-Mortems",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-post-mortem-meeting"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-post-mortem-meeting"
               },
               {
                 "name": "Project 4 Video Demo",
-                "url": "https://bc.rocketacademy.co/course-projects/project-4-full-stack-react-app#video-demo"
+                "url": "https://bc.rocketacademy.co/projects/project-4-full-stack-react-app#video-demo"
               }
             ]
           }
@@ -6479,7 +6482,7 @@
             "items": [
               {
                 "name": "Project 4 Video Demo",
-                "url": "https://bc.rocketacademy.co/course-projects/project-4-full-stack-react-app#video-demo"
+                "url": "https://bc.rocketacademy.co/projects/project-4-full-stack-react-app#video-demo"
               }
             ]
           }
@@ -6561,7 +6564,7 @@
             "items": [
               {
                 "name": "Due: Project 4 Video Demo",
-                "url": "https://bc.rocketacademy.co/course-projects/project-4-full-stack-react-app#video-demo"
+                "url": "https://bc.rocketacademy.co/projects/project-4-full-stack-react-app#video-demo"
               }
             ]
           },
@@ -6655,7 +6658,7 @@
             "items": [
               {
                 "name": "Start: Project 5 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/course-projects/project-5-group-react-app#ideation-phase-1"
+                "url": "https://bc.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
               }
             ]
           },
@@ -6666,7 +6669,7 @@
             "items": [
               {
                 "name": "Project 5 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/course-projects/project-5-group-react-app#ideation-phase-1"
+                "url": "https://bc.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
               }
             ]
           }
@@ -6746,7 +6749,7 @@
             "items": [
               {
                 "name": "Project 5 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/course-projects/project-5-group-react-app#ideation-phase-1"
+                "url": "https://bc.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
               }
             ]
           }
@@ -6841,7 +6844,7 @@
             "items": [
               {
                 "name": "Project 5 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/course-projects/project-5-group-react-app#ideation-phase-1"
+                "url": "https://bc.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-1"
               }
             ]
           }
@@ -6917,7 +6920,7 @@
             "items": [
               {
                 "name": "Start: Project 5 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/course-projects/project-5-group-react-app#ideation-phase-2"
+                "url": "https://bc.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-2"
               }
             ]
           },
@@ -6928,7 +6931,7 @@
             "items": [
               {
                 "name": "Project 5 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/course-projects/project-5-group-react-app#ideation-phase-2"
+                "url": "https://bc.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-2"
               }
             ]
           }
@@ -7005,7 +7008,7 @@
             "items": [
               {
                 "name": "Project 5 Ideation 2",
-                "url": "https://bc.rocketacademy.co/course-projects/project-5-group-react-app#ideation-phase-2"
+                "url": "https://bc.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-2"
               }
             ]
           }
@@ -7092,7 +7095,7 @@
             "items": [
               {
                 "name": "Project 5 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/course-projects/project-5-group-react-app#ideation-phase-2"
+                "url": "https://bc.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-2"
               }
             ]
           }
@@ -7168,7 +7171,7 @@
             "items": [
               {
                 "name": "Start: Project 5",
-                "url": "https://bc.rocketacademy.co/course-projects/project-5-group-react-app"
+                "url": "https://bc.rocketacademy.co/projects/project-5-group-react-app"
               }
             ]
           },
@@ -7176,7 +7179,7 @@
             "items": [
               {
                 "name": "Due: Project 5 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/course-projects/project-5-group-react-app#ideation-phase-2"
+                "url": "https://bc.rocketacademy.co/projects/project-5-group-react-app#ideation-phase-2"
               }
             ]
           },
@@ -7185,7 +7188,7 @@
             "items": [
               {
                 "name": "Peer Planning Review",
-                "url": "https://bc.rocketacademy.co/course-projects/project-5-group-react-app"
+                "url": "https://bc.rocketacademy.co/projects/project-5-group-react-app"
               }
             ]
           },
@@ -7244,7 +7247,7 @@
             "items": [
               {
                 "name": "Project 5 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -7252,7 +7255,7 @@
             "items": [
               {
                 "name": "Project 5 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-5-group-react-app"
+                "url": "https://bc.rocketacademy.co/projects/project-5-group-react-app"
               }
             ]
           }
@@ -7347,7 +7350,7 @@
             "items": [
               {
                 "name": "Project 5 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -7355,7 +7358,7 @@
             "items": [
               {
                 "name": "Project 5 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-5-group-react-app"
+                "url": "https://bc.rocketacademy.co/projects/project-5-group-react-app"
               }
             ]
           }
@@ -7435,7 +7438,7 @@
             "items": [
               {
                 "name": "Project 5 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -7443,7 +7446,7 @@
             "items": [
               {
                 "name": "Project 5 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-5-group-react-app"
+                "url": "https://bc.rocketacademy.co/projects/project-5-group-react-app"
               }
             ]
           }
@@ -7513,7 +7516,7 @@
             "items": [
               {
                 "name": "Due: Project 5 MVP Deadline",
-                "url": "https://bc.rocketacademy.co/course-projects/project-5-group-react-app#mvp-deadline"
+                "url": "https://bc.rocketacademy.co/projects/project-5-group-react-app#mvp-deadline"
               }
             ]
           },
@@ -7522,11 +7525,11 @@
             "items": [
               {
                 "name": "Project 5 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               },
               {
                 "name": "Project 5 MVP Review",
-                "url": "https://bc.rocketacademy.co/course-projects/project-5-group-react-app#mvp-deadline"
+                "url": "https://bc.rocketacademy.co/projects/project-5-group-react-app#mvp-deadline"
               }
             ]
           },
@@ -7534,7 +7537,7 @@
             "items": [
               {
                 "name": "Project 5 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-5-group-react-app"
+                "url": "https://bc.rocketacademy.co/projects/project-5-group-react-app"
               }
             ]
           }
@@ -7613,7 +7616,7 @@
             "items": [
               {
                 "name": "Project 5 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -7621,7 +7624,7 @@
             "items": [
               {
                 "name": "Project 5 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-5-group-react-app"
+                "url": "https://bc.rocketacademy.co/projects/project-5-group-react-app"
               }
             ]
           }
@@ -7693,7 +7696,7 @@
             "items": [
               {
                 "name": "Project 5 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -7701,7 +7704,7 @@
             "items": [
               {
                 "name": "Project 5 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-5-group-react-app"
+                "url": "https://bc.rocketacademy.co/projects/project-5-group-react-app"
               }
             ]
           }
@@ -7779,7 +7782,7 @@
             "items": [
               {
                 "name": "Due: Project 5 Feature Freeze",
-                "url": "https://bc.rocketacademy.co/course-projects/project-5-group-react-app#feature-freeze"
+                "url": "https://bc.rocketacademy.co/projects/project-5-group-react-app#feature-freeze"
               }
             ]
           },
@@ -7788,11 +7791,11 @@
             "items": [
               {
                 "name": "Project 5 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               },
               {
                 "name": "Project 5 Feature Freeze Review",
-                "url": "https://bc.rocketacademy.co/course-projects/project-5-group-react-app#feature-freeze"
+                "url": "https://bc.rocketacademy.co/projects/project-5-group-react-app#feature-freeze"
               }
             ]
           },
@@ -7800,7 +7803,7 @@
             "items": [
               {
                 "name": "Project 5 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-5-group-react-app"
+                "url": "https://bc.rocketacademy.co/projects/project-5-group-react-app"
               }
             ]
           }
@@ -7873,7 +7876,7 @@
             "items": [
               {
                 "name": "Project 5 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -7881,7 +7884,7 @@
             "items": [
               {
                 "name": "Project 5 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-5-group-react-app"
+                "url": "https://bc.rocketacademy.co/projects/project-5-group-react-app"
               }
             ]
           }
@@ -7950,7 +7953,7 @@
             "items": [
               {
                 "name": "Start: Project 6 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/course-projects/project-6-capstone"
+                "url": "https://bc.rocketacademy.co/projects/project-6-capstone"
               }
             ]
           },
@@ -7958,7 +7961,7 @@
             "items": [
               {
                 "name": "Due: Project 5 Presentations",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-presentations"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-presentations"
               }
             ]
           },
@@ -7968,15 +7971,15 @@
             "items": [
               {
                 "name": "Project 5 Post-Mortems",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-post-mortem-meeting"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-post-mortem-meeting"
               },
               {
                 "name": "Project 5 Video",
-                "url": "https://bc.rocketacademy.co/course-projects/project-5-group-react-app#video-demo"
+                "url": "https://bc.rocketacademy.co/projects/project-5-group-react-app#video-demo"
               },
               {
                 "name": "Project 6 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/course-projects/project-6-capstone#ideation-phase-1"
+                "url": "https://bc.rocketacademy.co/projects/project-6-capstone#ideation-phase-1"
               }
             ]
           }
@@ -8039,7 +8042,7 @@
             "items": [
               {
                 "name": "Start: Project 6 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/course-projects/project-6-capstone#ideation-phase-2"
+                "url": "https://bc.rocketacademy.co/projects/project-6-capstone#ideation-phase-2"
               }
             ]
           },
@@ -8048,7 +8051,7 @@
             "items": [
               {
                 "name": "Project 5: Peer Project Review Exercise",
-                "url": "https://bc.rocketacademy.co/course-projects/project-5-group-react-app"
+                "url": "https://bc.rocketacademy.co/projects/project-5-group-react-app"
               }
             ]
           },
@@ -8056,7 +8059,7 @@
             "items": [
               {
                 "name": "Project 5 Video",
-                "url": "https://bc.rocketacademy.co/course-projects/project-5-group-react-app#video-demo"
+                "url": "https://bc.rocketacademy.co/projects/project-5-group-react-app#video-demo"
               },
               {
                 "name": "Project 6 Exploration Time",
@@ -8122,7 +8125,7 @@
             "items": [
               {
                 "name": "Start: Project 6 Start",
-                "url": "https://bc.rocketacademy.co/course-projects/project-6-capstone"
+                "url": "https://bc.rocketacademy.co/projects/project-6-capstone"
               }
             ]
           },
@@ -8130,11 +8133,11 @@
             "items": [
               {
                 "name": "Due: Project 6 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/course-projects/project-6-capstone#ideation-phase-2"
+                "url": "https://bc.rocketacademy.co/projects/project-6-capstone#ideation-phase-2"
               },
               {
                 "name": "Due: Project 5 Video",
-                "url": "https://bc.rocketacademy.co/course-projects/project-5-group-react-app#video-demo"
+                "url": "https://bc.rocketacademy.co/projects/project-5-group-react-app#video-demo"
               }
             ]
           },
@@ -8143,7 +8146,7 @@
             "items": [
               {
                 "name": "Project 6 Peer Planning Review",
-                "url": "https://bc.rocketacademy.co/course-projects/project-6-capstone"
+                "url": "https://bc.rocketacademy.co/projects/project-6-capstone"
               }
             ]
           },
@@ -8151,7 +8154,7 @@
             "items": [
               {
                 "name": "Project 6 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-6-capstone"
+                "url": "https://bc.rocketacademy.co/projects/project-6-capstone"
               },
               {
                 "name": "Project 6 Exploration Time",
@@ -8220,7 +8223,7 @@
             "items": [
               {
                 "name": "Project 6 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -8228,7 +8231,7 @@
             "items": [
               {
                 "name": "Project 6 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-6-capstone"
+                "url": "https://bc.rocketacademy.co/projects/project-6-capstone"
               },
               {
                 "name": "Project 6 Exploration Time",
@@ -8297,7 +8300,7 @@
             "items": [
               {
                 "name": "Project 6 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -8305,7 +8308,7 @@
             "items": [
               {
                 "name": "Project 6 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-6-capstone"
+                "url": "https://bc.rocketacademy.co/projects/project-6-capstone"
               },
               {
                 "name": "Project 6 Exploration Time",
@@ -8374,7 +8377,7 @@
             "items": [
               {
                 "name": "Project 6 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -8382,11 +8385,11 @@
             "items": [
               {
                 "name": "Project 6 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-6-capstone"
+                "url": "https://bc.rocketacademy.co/projects/project-6-capstone"
               },
               {
                 "name": "Project 6 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/course-projects/project-6-capstone#ideation-phase-2"
+                "url": "https://bc.rocketacademy.co/projects/project-6-capstone#ideation-phase-2"
               }
             ]
           }
@@ -8451,7 +8454,7 @@
             "items": [
               {
                 "name": "Project 6 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -8459,7 +8462,7 @@
             "items": [
               {
                 "name": "Project 6 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-6-capstone"
+                "url": "https://bc.rocketacademy.co/projects/project-6-capstone"
               }
             ]
           }
@@ -8517,7 +8520,7 @@
             "items": [
               {
                 "name": "Project 6 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -8525,7 +8528,7 @@
             "items": [
               {
                 "name": "Project 6 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-6-capstone"
+                "url": "https://bc.rocketacademy.co/projects/project-6-capstone"
               }
             ]
           }
@@ -8610,7 +8613,7 @@
             "items": [
               {
                 "name": "Due: Project 6 MVP Deadline",
-                "url": "https://bc.rocketacademy.co/course-projects/project-6-capstone#mvp-deadline"
+                "url": "https://bc.rocketacademy.co/projects/project-6-capstone#mvp-deadline"
               }
             ]
           },
@@ -8619,11 +8622,11 @@
             "items": [
               {
                 "name": "Project 6 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               },
               {
                 "name": "Project 6 MVP Review",
-                "url": "https://bc.rocketacademy.co/course-projects/project-6-capstone#mvp-deadline"
+                "url": "https://bc.rocketacademy.co/projects/project-6-capstone#mvp-deadline"
               }
             ]
           },
@@ -8631,7 +8634,7 @@
             "items": [
               {
                 "name": "Project 6 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-6-capstone"
+                "url": "https://bc.rocketacademy.co/projects/project-6-capstone"
               }
             ]
           }
@@ -8703,7 +8706,7 @@
             "items": [
               {
                 "name": "Project 6 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -8711,7 +8714,7 @@
             "items": [
               {
                 "name": "Project 6 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-6-capstone"
+                "url": "https://bc.rocketacademy.co/projects/project-6-capstone"
               }
             ]
           }
@@ -8790,7 +8793,7 @@
             "items": [
               {
                 "name": "Project 6 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -8798,7 +8801,7 @@
             "items": [
               {
                 "name": "Project 6 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-6-capstone"
+                "url": "https://bc.rocketacademy.co/projects/project-6-capstone"
               }
             ]
           }
@@ -8870,7 +8873,7 @@
             "items": [
               {
                 "name": "Project 6 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -8878,7 +8881,7 @@
             "items": [
               {
                 "name": "Project 6 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-6-capstone"
+                "url": "https://bc.rocketacademy.co/projects/project-6-capstone"
               }
             ]
           }
@@ -8964,7 +8967,7 @@
             "items": [
               {
                 "name": "Project 6 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -8972,7 +8975,7 @@
             "items": [
               {
                 "name": "Project 6 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-6-capstone"
+                "url": "https://bc.rocketacademy.co/projects/project-6-capstone"
               }
             ]
           }
@@ -9044,7 +9047,7 @@
             "items": [
               {
                 "name": "Project 6 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -9052,7 +9055,7 @@
             "items": [
               {
                 "name": "Project 6 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-6-capstone"
+                "url": "https://bc.rocketacademy.co/projects/project-6-capstone"
               }
             ]
           }
@@ -9124,7 +9127,7 @@
             "items": [
               {
                 "name": "Project 6 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -9132,7 +9135,7 @@
             "items": [
               {
                 "name": "Project 6 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-6-capstone"
+                "url": "https://bc.rocketacademy.co/projects/project-6-capstone"
               }
             ]
           }
@@ -9195,7 +9198,7 @@
             "items": [
               {
                 "name": "Due: Project 6 Feature Freeze",
-                "url": "https://bc.rocketacademy.co/course-projects/project-6-capstone#feature-freeze"
+                "url": "https://bc.rocketacademy.co/projects/project-6-capstone#feature-freeze"
               }
             ]
           },
@@ -9204,11 +9207,11 @@
             "items": [
               {
                 "name": "Project 6 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               },
               {
                 "name": "Project 6 Feature Freeze Review",
-                "url": "https://bc.rocketacademy.co/course-projects/project-6-capstone#feature-freeze"
+                "url": "https://bc.rocketacademy.co/projects/project-6-capstone#feature-freeze"
               }
             ]
           },
@@ -9216,7 +9219,7 @@
             "items": [
               {
                 "name": "Project 6 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-6-capstone"
+                "url": "https://bc.rocketacademy.co/projects/project-6-capstone"
               }
             ]
           }
@@ -9267,7 +9270,7 @@
             "items": [
               {
                 "name": "Project 6 Scrum",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -9275,7 +9278,7 @@
             "items": [
               {
                 "name": "Project 6 Implementation",
-                "url": "https://bc.rocketacademy.co/course-projects/project-6-capstone"
+                "url": "https://bc.rocketacademy.co/projects/project-6-capstone"
               }
             ]
           }
@@ -9378,7 +9381,7 @@
             "items": [
               {
                 "name": "Due: Project 6 Presentations",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-presentations"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-presentations"
               }
             ]
           },
@@ -9388,11 +9391,11 @@
             "items": [
               {
                 "name": "Project 6 Post-Mortems",
-                "url": "https://bc.rocketacademy.co/course-logistics/course-methodology#project-post-mortem-meeting"
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#project-post-mortem-meeting"
               },
               {
                 "name": "Project 6 Video Demo ",
-                "url": "https://bc.rocketacademy.co/course-projects/project-6-capstone#video-demo"
+                "url": "https://bc.rocketacademy.co/projects/project-6-capstone#video-demo"
               }
             ]
           }
