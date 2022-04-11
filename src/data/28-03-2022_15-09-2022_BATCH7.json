@@ -40,6 +40,9 @@
           "preClass": {
             "items": [
               {
+                "name": "Module 1, Day 1"
+              },
+              {
                 "name": "0.0: Module 0 Overview",
                 "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-1/pre-class/0.0-module-0-overview"
               },
@@ -118,6 +121,9 @@
           "preClass": {
             "items": [
               {
+                "name": "Module 1, Day 2"
+              },
+              {
                 "name": "0.3: Reading Documentation",
                 "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-2"
               },
@@ -171,6 +177,9 @@
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "Module 1, Day 3"
+              },
               {
                 "name": "1.5: High Card setTimeout",
                 "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-3/pre-class/1.5-high-card-settimeout"
@@ -226,6 +235,9 @@
           "preClass": {
             "items": [
               {
+                "name": "Module 1, Day 4"
+              },
+              {
                 "name": "1.7: setInterval",
                 "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-4/pre-class/1.7-setinterval"
               },
@@ -280,6 +292,9 @@
           "preClass": {
             "items": [
               {
+                "name": "Module 1, Day 5"
+              },
+              {
                 "name": "1.9: Tic Tac Toe",
                 "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-5/pre-class/1.9-tic-tac-toe"
               },
@@ -329,6 +344,9 @@
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "Module 1, Day 6"
+              },
               {
                 "name": "1.11 CSS Control with DOM",
                 "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-6/pre-class/1.11-css-control-with-dom"
@@ -391,6 +409,9 @@
           "preClass": {
             "items": [
               {
+                "name": "Module 1, Day 7"
+              },
+              {
                 "name": "CSS 2.7: Position",
                 "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-7/pre-class/css.2.7-position"
               },
@@ -437,6 +458,9 @@
           "preClass": {
             "items": [
               {
+                "name": "Module 1, Day 8"
+              },
+              {
                 "name": "CSS 3: Flexbox",
                 "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-8/pre-class/css.3-flexbox"
               },
@@ -482,6 +506,9 @@
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "Module 1, Day 9"
+              },
               {
                 "name": "CSS 4: Responsive Design",
                 "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-9/pre-class/css.4-responsive-design"
@@ -533,6 +560,9 @@
           "preClass": {
             "items": [
               {
+                "name": "Module 1, Day 10"
+              },
+              {
                 "name": "CSS.6 Bootstrap - Day 1",
                 "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-10/pre-class/css.6-bootstrap"
               }
@@ -583,6 +613,9 @@
           "preClass": {
             "items": [
               {
+                "name": "Module 1, Day 11"
+              },
+              {
                 "name": "CSS.6 Bootstrap - Day 2",
                 "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-11/pre-class/css.6-bootstrap"
               }
@@ -628,6 +661,9 @@
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "Module 1, Day 12"
+              },
               {
                 "name": "Project 1 Implementation",
                 "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-11/post-class/project-1-video-poker"
@@ -677,6 +713,9 @@
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "Module 1, Day 13"
+              },
               {
                 "name": "2.0: Module 2 Overview",
                 "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-13/pre-class/2.0-module-2-overview"
@@ -728,6 +767,9 @@
           "preClass": {
             "items": [
               {
+                "name": "Module 1, Day 14"
+              },
+              {
                 "name": "2.4: Disk Reading",
                 "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-14/pre-class/2.4-disk-reading"
               },
@@ -778,6 +820,9 @@
           "preClass": {
             "items": [
               {
+                "name": "Module 1, Day 15"
+              },
+              {
                 "name": "2.7: Internet 101",
                 "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-15/pre-class/2.7-internet-101"
               },
@@ -819,6 +864,9 @@
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "Module 1, Day 16"
+              },
               {
                 "name": "2.9: HTTP Requests and Responses",
                 "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-16/pre-class/2.9-http"
@@ -866,6 +914,9 @@
           "preClass": {
             "items": [
               {
+                "name": "Module 2, Day 1"
+              },
+              {
                 "name": "3.0 Overview",
                 "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-1/pre-class/3.0-module-3-overview"
               },
@@ -912,6 +963,9 @@
           "preClass": {
             "items": [
               {
+                "name": "Module 2, Day 2"
+              },
+              {
                 "name": "3.2: EJS",
                 "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-2/pre-class/3.2-ejs"
               },
@@ -957,6 +1011,9 @@
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "Module 2, Day 3"
+              },
               {
                 "name": "3.1.2: HTML Forms",
                 "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-3/pre-class/3.1.2-html-forms"
@@ -1027,10 +1084,24 @@
       "courseDay": 20,
       "dateTypes": {
         "module": "Module 2: Basic Backend",
+        "projects": {
+          "type": "projects",
+          "projectStart": {
+            "items": [
+              {
+                "name": "Start: Project 2 Ideation Phase 1",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-5/post-class/project-2-server-side-app"
+              }
+            ]
+          }
+        },
         "general": {
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "Module 2, Day 4"
+              },
               {
                 "name": "3.3 SQL Language",
                 "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-4/pre-class/3.3-sql-language"
@@ -1066,6 +1137,10 @@
               {
                 "name": "3.POCE.3: UFO Sightings",
                 "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-4/post-class/3.poce.3-express-ufos"
+              },
+              {
+                "name": "Project 2 Ideation Phase 1",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-5/post-class/project-2-server-side-app"
               }
             ]
           }
@@ -1081,21 +1156,13 @@
       "courseDay": 21,
       "dateTypes": {
         "module": "Module 2: Basic Backend",
-        "projects": {
-          "type": "projects",
-          "projectStart": {
-            "items": [
-              {
-                "name": "Start: Project 2 Ideation Phase 1",
-                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-5/post-class/project-2-server-side-app"
-              }
-            ]
-          }
-        },
         "general": {
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "Module 2, Day 5"
+              },
               {
                 "name": "0.8 JS Promises",
                 "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-5/pre-class/0.8-js-promises"
@@ -1146,10 +1213,32 @@
       "courseDay": 22,
       "dateTypes": {
         "module": "Module 2: Basic Backend",
+        "projects": {
+          "type": "projects",
+          "projectStart": {
+            "items": [
+              {
+                "name": "Start: Project 2 Ideation Phase 2",
+                "url": ""
+              }
+            ]
+          },
+          "projectDue": {
+            "items": [
+              {
+                "name": "Due: Project 2 Ideation Phase 1",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-5/post-class/project-2-server-side-app"
+              }
+            ]
+          }
+        },
         "general": {
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "Module 2, Day 6"
+              },
               {
                 "name": "3.4.4: PostgreSQL Express App",
                 "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-6/pre-class/3.4.4-postgresql-express-app"
@@ -1179,7 +1268,7 @@
                 "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-6/post-class/3.poce.5-bird-watching"
               },
               {
-                "name": "Project 2 Ideation Phase 1",
+                "name": "Project 2 Ideation Phase 2",
                 "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-5/post-class/project-2-server-side-app"
               }
             ]
@@ -1196,21 +1285,13 @@
       "courseDay": 23,
       "dateTypes": {
         "module": "Module 2: Basic Backend",
-        "projects": {
-          "type": "projects",
-          "projectDue": {
-            "items": [
-              {
-                "name": "Due: Project 2 Ideation Phase 1",
-                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-5/post-class/project-2-server-side-app"
-              }
-            ]
-          }
-        },
         "general": {
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "Module 2, Day 7"
+              },
               {
                 "name": "3.4.7: pg Promises",
                 "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-7/pre-class/3.4.7-pg-promises"
@@ -1240,7 +1321,7 @@
                 "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-7/post-class/3.poce.7-bird-watching-species"
               },
               {
-                "name": "Project 2 Ideation Phase 1",
+                "name": "Project 2 Ideation Phase 2",
                 "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-5/post-class/project-2-server-side-app"
               }
             ]
@@ -1262,8 +1343,16 @@
           "projectStart": {
             "items": [
               {
-                "name": "Start: Project 2 Ideation Phase 2",
-                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-8/post-class/project-2-server-side-app"
+                "name": "Start: Project 2 Implementation",
+                "url": ""
+              }
+            ]
+          },
+          "projectDue": {
+            "items": [
+              {
+                "name": "Due: Project 2 Ideation Phase 2",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-5/post-class/project-2-server-side-app"
               }
             ]
           }
@@ -1272,6 +1361,9 @@
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "Module 2, Day 8"
+              },
               {
                 "name": "3.3.4: Inner Join",
                 "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-8/pre-class/3.3.4-inner-join"
@@ -1291,13 +1383,21 @@
               {
                 "name": "3.ICE.8: Multiple Foreign Keys",
                 "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-8/in-class/3.ice.8-multi-foreign-key"
+              },
+              {
+                "name": "Project 2 Scrum",
+                "url": "https://swebootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+              },
+              {
+                "name": "Project 2 Planning Docs Peer Review",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-14/post-class/project-2-server-side-app#ideation-phase-2"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "Project 2 Ideation Phase 2",
+                "name": "Project 2 Implementation",
                 "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-8/post-class/project-2-server-side-app"
               }
             ]
@@ -1318,6 +1418,9 @@
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "Module 2, Day 9"
+              },
               {
                 "name": "3.4.10: Dates in SQL and JS",
                 "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-9/pre-class/3.4.10-dates-in-sql-and-js"
@@ -1341,6 +1444,10 @@
               {
                 "name": "3.POCE.6: Bird Watching Users",
                 "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-9/in-class/3.poce.6-bird-watching-users"
+              },
+              {
+                "name": "Project 2 Scrum",
+                "url": "https://swebootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -1351,7 +1458,7 @@
                 "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-9/post-class/3.poce.8-bird-watching-behaviour"
               },
               {
-                "name": "Project 2 Ideation Phase 2",
+                "name": "Project 2 Implementation",
                 "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-9/post-class/project-2-server-side-app"
               }
             ]
@@ -1385,6 +1492,9 @@
           "preClass": {
             "items": [
               {
+                "name": "Module 2, Day 10"
+              },
+              {
                 "name": "3.4.8: SQL Clients",
                 "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-10/pre-class/3.4.8-sql-clients"
               },
@@ -1399,6 +1509,10 @@
               {
                 "name": "3.ICE.12: DB Schema Design - Instagram",
                 "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-10/in-class/3.ice.12-db-schema-design-instagram"
+              },
+              {
+                "name": "Project 2 Scrum",
+                "url": "https://swebootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -1409,7 +1523,7 @@
                 "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-10/post-class/3.poce.9-bird-watching-comments"
               },
               {
-                "name": "Project 2 Ideation Phase 2",
+                "name": "Project 2 Implementation",
                 "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-9/post-class/project-2-server-side-app"
               }
             ]
@@ -1426,33 +1540,20 @@
       "courseDay": 27,
       "dateTypes": {
         "module": "Module 2: Basic Backend",
-        "projects": {
-          "type": "projects",
-          "projectStart": {
+        "general": {
+          "type": "general",
+          "preClass": {
             "items": [
               {
-                "name": "Start: Project 2",
-                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-11/post-class/project-2-server-side-app"
+                "name": "Module 2, Day 11"
               }
             ]
           },
-          "projectDue": {
-            "items": [
-              {
-                "name": "Due: Project 2 Ideation Phase 2",
-                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-11/in-class/project-2-server-side-app"
-              }
-            ]
-          }
-        },
-        "general": {
-          "type": "general",
-          "preClass": {},
           "inClass": {
             "items": [
               {
-                "name": "Project 2 Planning Docs Peer Review",
-                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-14/post-class/project-2-server-side-app#ideation-phase-2"
+                "name": "Project 2 Scrum",
+                "url": "https://swebootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
               }
             ]
           },
@@ -1478,7 +1579,13 @@
         "module": "Module 2: Basic Backend",
         "general": {
           "type": "general",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "Module 2, Day 12"
+              }
+            ]
+          },
           "inClass": {
             "items": [
               {
@@ -1507,9 +1614,25 @@
       "courseDay": 29,
       "dateTypes": {
         "module": "Module 2: Basic Backend",
+        "projects": {
+          "type": "projects",
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 2 MVP Deadline"
+              }
+            ]
+          }
+        },
         "general": {
           "type": "general",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "Module 2, Day 13"
+              }
+            ]
+          },
           "inClass": {
             "items": [
               {
@@ -1544,7 +1667,13 @@
         "module": "Module 2: Basic Backend",
         "general": {
           "type": "general",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "Module 2, Day 14"
+              }
+            ]
+          },
           "inClass": {
             "items": [
               {
@@ -1573,9 +1702,45 @@
       "courseDay": 31,
       "dateTypes": {
         "module": "Module 2: Basic Backend",
+        "projects": {
+          "type": "projects",
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 2 Feature Freeze"
+              }
+            ]
+          }
+        },
         "general": {
           "type": "general",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "Module 2, Day 15"
+              },
+              {
+                "name": "3.6: Heroku",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-16/pre-class/3.6-heroku"
+              },
+              {
+                "name": "3.6.1: Heroku Deploy",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-16/pre-class/3.6.1-heroku-deploy"
+              },
+              {
+                "name": "3.6.2: Heroku Postgres",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-16/pre-class/3.6.2-heroku-postgres"
+              },
+              {
+                "name": "3.6.3: Heroku S3",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-16/pre-class/3.6.3-heroku-s3"
+              },
+              {
+                "name": "0.10: Introduction to Classes",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-16/pre-class/0.10-introduction-to-classes"
+              }
+            ]
+          },
           "inClass": {
             "items": [
               {
@@ -1589,6 +1754,10 @@
               {
                 "name": "Project 2 Implementation",
                 "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-11/post-class/project-2-server-side-app"
+              },
+              {
+                "name": "3.POCE.11: Heroku Deployment",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-16/post-class/3.poce.11-heroku-deployment"
               }
             ]
           }
@@ -1620,24 +1789,11 @@
           "preClass": {
             "items": [
               {
-                "name": "3.6: Heroku",
-                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-16/pre-class/3.6-heroku"
+                "name": "Module 2, Day 16"
               },
               {
-                "name": "3.6.1: Heroku Deploy",
-                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-16/pre-class/3.6.1-heroku-deploy"
-              },
-              {
-                "name": "3.6.2: Heroku Postgres",
-                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-16/pre-class/3.6.2-heroku-postgres"
-              },
-              {
-                "name": "3.6.3: Heroku S3",
-                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-16/pre-class/3.6.3-heroku-s3"
-              },
-              {
-                "name": "0.10: Introduction to Classes",
-                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-16/pre-class/0.10-introduction-to-classes"
+                "name": "Project 2 Implementation",
+                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-11/post-class/project-2-server-side-app"
               }
             ]
           },
@@ -1652,8 +1808,8 @@
           "postClass": {
             "items": [
               {
-                "name": "3.POCE.11: Heroku Deployment",
-                "url": "https://swebootcamp.rocketacademy.co/module-2-basic-backend/day-16/post-class/3.poce.11-heroku-deployment"
+                "name": "Project 2 Post-Mortems",
+                "url": ""
               }
             ]
           }
@@ -1673,6 +1829,9 @@
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "Module 3, Day 1"
+              },
               {
                 "name": "4.0: Module 4 Overview",
                 "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-1/pre-class/4.0-module-4-overview"
@@ -1723,6 +1882,9 @@
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "Module 3, Day 2"
+              },
               {
                 "name": "0.8.2: Try Catch",
                 "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-2/pre-class/0.8.2-try-catch"
@@ -1786,6 +1948,9 @@
           "preClass": {
             "items": [
               {
+                "name": "Module 3, Day 3"
+              },
+              {
                 "name": "4.2 MVC",
                 "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-3/pre-class/4.2-mvc"
               },
@@ -1836,6 +2001,9 @@
           "preClass": {
             "items": [
               {
+                "name": "Module 3, Day 4"
+              },
+              {
                 "name": "4.1.4: Sequelize Many-to-Many",
                 "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-4/pre-class/4.1.4-sequelize-many-to-many"
               }
@@ -1869,10 +2037,23 @@
       "courseDay": 37,
       "dateTypes": {
         "module": "Module 3: Advanced Backend and Full Stack",
+        "projects": {
+          "type": "projects",
+          "projectStart": {
+            "items": [
+              {
+                "name": "Start: Project 3 Ideation Phase 1"
+              }
+            ]
+          }
+        },
         "general": {
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "Module 3, Day 5"
+              },
               {
                 "name": "4.1.5: Sequelize Many-to-Many with Non-FK Attributes in \"Through Table\"",
                 "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-5/pre-class/4.1.5-sequelize-many-to-many-with-non-fk-attributes-in-through-table"
@@ -1884,6 +2065,9 @@
               {
                 "name": "5.1: DOM Manipulation with Express App",
                 "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-5/pre-class/5.1-dom-manipulation-with-express-app"
+              },
+              {
+                "name": "------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------"
               },
               {
                 "name": "Algo Day 3",
@@ -1916,6 +2100,10 @@
               {
                 "name": "4.POCE.3: Project 2 MVC Refactor",
                 "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-5/post-class/4.poce.3-project-2-mvc-refactor"
+              },
+              {
+                "name": "Project 3 Ideation Phase 1",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-9/post-class/project-3-full-stack-game"
               }
             ]
           }
@@ -1935,6 +2123,9 @@
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "Module 3, Day 6"
+              },
               {
                 "name": "4.1.6: Sequelize Validations",
                 "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-6/pre-class/4.1.6-sequelize-validations"
@@ -1966,6 +2157,10 @@
               {
                 "name": "4.POCE.3: Project 2 MVC Refactor",
                 "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-6/post-class/4.poce.3-project-2-mvc-refactor"
+              },
+              {
+                "name": "Project 3 Ideation Phase 1",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-9/post-class/project-3-full-stack-game"
               }
             ]
           }
@@ -1981,10 +2176,30 @@
       "courseDay": 39,
       "dateTypes": {
         "module": "Module 3: Advanced Backend and Full Stack",
+        "projects": {
+          "type": "projects",
+          "projectStart": {
+            "items": [
+              {
+                "name": "Start: Project 3 Ideation Phase 2"
+              }
+            ]
+          },
+          "projectDue": {
+            "items": [
+              {
+                "name": "Due: Project 3 Ideation Phase 1"
+              }
+            ]
+          }
+        },
         "general": {
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "Module 3, Day 7"
+              },
               {
                 "name": "4.1.7: Sequelize Eager Loading",
                 "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-7/pre-class/4.1.7-sequelize-eager-loading"
@@ -2008,6 +2223,10 @@
               {
                 "name": "5.POCE.1: Bug Reports AJAX",
                 "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-7/post-class/5.poce.1-bug-reports-ajax"
+              },
+              {
+                "name": "Project 3 Ideation Phase 2",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-9/post-class/project-3-full-stack-game"
               }
             ]
           }
@@ -2028,6 +2247,9 @@
           "preClass": {
             "items": [
               {
+                "name": "Module 3, Day 8"
+              },
+              {
                 "name": "4.1.8: Multiple FK Columns Referencing Same Table",
                 "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-8/pre-class/4.1.8-multiple-foreign-key-columns-referencing-same-table"
               }
@@ -2046,6 +2268,10 @@
               {
                 "name": "5.POCE.2: Bug Reports AJAX Users",
                 "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-8/post-class/5.poce.2-bug-reports-ajax-users"
+              },
+              {
+                "name": "Project 3 Ideation Phase 2",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-9/post-class/project-3-full-stack-game"
               }
             ]
           }
@@ -2066,8 +2292,14 @@
           "projectStart": {
             "items": [
               {
-                "name": "Start: Project 3 Ideation Phase 1",
-                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-9/post-class/project-3-full-stack-game"
+                "name": "Start: Project 3 Implementation"
+              }
+            ]
+          },
+          "projectDue": {
+            "items": [
+              {
+                "name": "Due: Project 3 Ideation Phase 2"
               }
             ]
           }
@@ -2076,6 +2308,9 @@
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "Module 3, Day 9"
+              },
               {
                 "name": "5.2.2: AJAX Cards",
                 "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-9/pre-class/5.2.2-ajax-cards"
@@ -2091,6 +2326,9 @@
               {
                 "name": "6.1.1: Webpack with Local Modules",
                 "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-9/pre-class/6.1.1-webpack-with-local-modules"
+              },
+              {
+                "name": "------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------"
               },
               {
                 "name": "Algo Day 6"
@@ -2116,7 +2354,7 @@
                 "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-9/post-class/5.poce.3-ajax-cards"
               },
               {
-                "name": "Project 3 Ideation Phase 1",
+                "name": "Project 3 Implementation",
                 "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-9/post-class/project-3-full-stack-game"
               }
             ]
@@ -2138,6 +2376,9 @@
           "preClass": {
             "items": [
               {
+                "name": "Module 3, Day 10"
+              },
+              {
                 "name": "6.1.2: Webpack with NPM Modules",
                 "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-10/pre-class/6.1.2-webpack-with-npm-modules"
               },
@@ -2148,6 +2389,9 @@
               {
                 "name": "Group Work (for project management",
                 "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-10/pre-class/group-work"
+              },
+              {
+                "name": "------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------"
               },
               {
                 "name": "Algo Day 7",
@@ -2174,7 +2418,7 @@
                 "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-10/post-class/5.poce.3-ajax-cards"
               },
               {
-                "name": "Project 3 Ideation Phase 1",
+                "name": "Project 3 Implementation",
                 "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-10/post-class/project-3-full-stack-game"
               }
             ]
@@ -2195,6 +2439,9 @@
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "Module 3, Day 11"
+              },
               {
                 "name": "6.1.2: Webpack with NPM Modules",
                 "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-10/pre-class/6.1.2-webpack-with-npm-modules"
@@ -2231,7 +2478,7 @@
                 "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-10/post-class/5.poce.3-ajax-cards"
               },
               {
-                "name": "Project 3 Ideation Phase 1",
+                "name": "Project 3 Implementation",
                 "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-10/post-class/project-3-full-stack-game"
               }
             ]
@@ -2253,12 +2500,18 @@
           "preClass": {
             "items": [
               {
+                "name": "Module 3, Day 12"
+              },
+              {
                 "name": "4.1.10: Deploy Sequelize App to Heroku",
                 "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-12/pre-class/4.1.10-deploy-sequelize-app-to-heroku"
               },
               {
                 "name": "6.1.6 Deploy Webpack App to Heroku",
                 "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-12/pre-class/6.1.6-express-mvc-webpack-and-heroku"
+              },
+              {
+                "name": "------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------"
               },
               {
                 "name": "Algo Day 8"
@@ -2290,9 +2543,25 @@
       "courseDay": 45,
       "dateTypes": {
         "module": "Module 3: Advanced Backend and Full Stack",
+        "projects": {
+          "type": "projects",
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 3 MVP Deadline"
+              }
+            ]
+          }
+        },
         "general": {
           "type": "general",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "Module 3, Day 13"
+              }
+            ]
+          },
           "inClass": {},
           "postClass": {
             "items": [
@@ -2318,6 +2587,9 @@
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "Module 3, Day 14"
+              },
               {
                 "name": "Algo Day 9"
               },
@@ -2348,10 +2620,23 @@
       "courseDay": 47,
       "dateTypes": {
         "module": "Module 3: Advanced Backend and Full Stack",
+        "projects": {
+          "type": "projects",
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 3 Feature Freeze"
+              }
+            ]
+          }
+        },
         "general": {
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "Module 3, Day 15"
+              },
               {
                 "name": "Algo Day 10"
               },
@@ -2382,10 +2667,36 @@
       "courseDay": 48,
       "dateTypes": {
         "module": "Module 3: Advanced Backend and Full Stack",
+        "projects": {
+          "type": "projects",
+          "projectDue": {
+            "items": [
+              {
+                "name": "Due: Project 3"
+              }
+            ]
+          }
+        },
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "Module 3, Day 16"
+              },
+              {
+                "name": "Project 3 Implementation",
+                "url": "https://swebootcamp.rocketacademy.co/module-3-advanced-backend-and-full-stack/day-12/post-class/project-3-full-stack-game"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 3 Presentations"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
@@ -2415,6 +2726,9 @@
           "preClass": {
             "items": [
               {
+                "name": "Module 4, Day 1"
+              },
+              {
                 "name": "7.0: Module 7 Overview",
                 "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-1/pre-class/7.0-module-7-overview"
               },
@@ -2429,6 +2743,9 @@
               {
                 "name": "7.1.2: Rendering in a Loop",
                 "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-1/pre-class/7.1.2-rendering-in-a-loop"
+              },
+              {
+                "name": "------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------"
               },
               {
                 "name": "Algo Day 11"
@@ -2476,6 +2793,9 @@
           "preClass": {
             "items": [
               {
+                "name": "Module 4, Day 2"
+              },
+              {
                 "name": "7.2 React Components",
                 "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-2/pre-class/7.2-react-components"
               },
@@ -2490,6 +2810,9 @@
               {
                 "name": "7.2.3: Class Components",
                 "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-2/pre-class/7.2.3-class-components"
+              },
+              {
+                "name": "------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------"
               },
               {
                 "name": "Algo Day 12"
@@ -2533,6 +2856,9 @@
           "preClass": {
             "items": [
               {
+                "name": "Module 4, Day 3"
+              },
+              {
                 "name": "7.3: Using React with Express and Webpack",
                 "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-3/pre-class/7.3-using-react-with-express-and-webpack"
               },
@@ -2575,12 +2901,18 @@
           "preClass": {
             "items": [
               {
+                "name": "Module 4, Day 4"
+              },
+              {
                 "name": "7.5: Controlled Forms",
                 "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-4/pre-class/7.5-controlled-forms"
               },
               {
                 "name": "7.6: Passing Data BEtween Sibling Components",
                 "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-4/pre-class/7.6-passing-data-between-sibling-components"
+              },
+              {
+                "name": "------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------"
               },
               {
                 "name": "Algo Day 13"
@@ -2619,10 +2951,24 @@
       "courseDay": 53,
       "dateTypes": {
         "module": "Module 4: Frontend Framework - React",
+        "projects": {
+          "type": "projects",
+          "projectStart": {
+            "items": [
+              {
+                "name": "Start: Project 4 Ideation Phase 1",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-6/post-class/project-4-full-stack-react-app"
+              }
+            ]
+          }
+        },
         "general": {
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "Module 4, Day 5"
+              },
               {
                 "name": "7.7: Designing Component Hierarchy",
                 "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-5/pre-class/7.7-designing-component-hierarchy"
@@ -2634,6 +2980,9 @@
               {
                 "name": "7.9: React Dev Tools",
                 "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-5/pre-class/7.9-react-dev-tools"
+              },
+              {
+                "name": "------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------"
               },
               {
                 "name": "Algo Day 14"
@@ -2657,6 +3006,10 @@
               {
                 "name": "7.POCE.3: Read Later",
                 "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-5/post-class/7.poce.3-read-later"
+              },
+              {
+                "name": "Project 4 Ideation Phase 1",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-6/post-class/project-4-full-stack-react-app"
               }
             ]
           }
@@ -2672,20 +3025,15 @@
       "courseDay": 54,
       "dateTypes": {
         "module": "Module 4: Frontend Framework - React",
-        "projects": {
-          "type": "projects",
-          "projectStart": {
-            "items": [
-              {
-                "name": "Start: Project 4 Ideation Phase 1",
-                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-6/post-class/project-4-full-stack-react-app"
-              }
-            ]
-          }
-        },
         "general": {
           "type": "general",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "Module 4, Day 6"
+              }
+            ]
+          },
           "inClass": {
             "items": [
               {
@@ -2701,7 +3049,7 @@
                 "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-6/post-class/7.poce.4-hot-pot-bill-splitter"
               },
               {
-                "name": "Start: Project 4 Ideation Phase 1",
+                "name": "Project 4 Ideation Phase 1",
                 "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-6/post-class/project-4-full-stack-react-app"
               }
             ]
@@ -2718,13 +3066,37 @@
       "courseDay": 55,
       "dateTypes": {
         "module": "Module 4: Frontend Framework - React",
+        "projects": {
+          "type": "projects",
+          "projectStart": {
+            "items": [
+              {
+                "name": "Start: Project 4 Ideation Phase 2",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-6/post-class/project-4-full-stack-react-app"
+              }
+            ]
+          },
+          "projectDue": {
+            "items": [
+              {
+                "name": "Due: Project 4 Ideation Phase 1"
+              }
+            ]
+          }
+        },
         "general": {
           "type": "general",
           "preClass": {
             "items": [
               {
+                "name": "Module 4, Day 7"
+              },
+              {
                 "name": "7.7.2: useEffect",
                 "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-7/pre-class/7.7.2-useeffect"
+              },
+              {
+                "name": "------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------"
               },
               {
                 "name": "Algo Day 15"
@@ -2743,7 +3115,7 @@
                 "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-6/post-class/7.poce.4-hot-pot-bill-splitter"
               },
               {
-                "name": "Start: Project 4 Ideation Phase 1",
+                "name": "Project 4 Ideation Phase 2",
                 "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-6/post-class/project-4-full-stack-react-app"
               }
             ]
@@ -2765,8 +3137,14 @@
           "preClass": {
             "items": [
               {
+                "name": "Module 4, Day 8"
+              },
+              {
                 "name": "7.8: Error Boundaries",
                 "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-8/pre-class/7.8-error-boundaries"
+              },
+              {
+                "name": "------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------"
               },
               {
                 "name": "Algo Day 16"
@@ -2785,7 +3163,7 @@
                 "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-6/post-class/7.poce.4-hot-pot-bill-splitter"
               },
               {
-                "name": "Project 4 Ideation Phase 1",
+                "name": "Project 4 Ideation Phase 2",
                 "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-6/post-class/project-4-full-stack-react-app"
               }
             ]
@@ -2807,7 +3185,7 @@
           "projectStart": {
             "items": [
               {
-                "name": "Start: Project 4 Ideation Phase 2",
+                "name": "Start: Project 4 Implementation",
                 "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-9/post-class/project-4-full-stack-react-app"
               }
             ]
@@ -2815,7 +3193,7 @@
           "projectDue": {
             "items": [
               {
-                "name": "Due: Project 4 Ideation Phase 1",
+                "name": "Due: Project 4 Ideation Phase 2",
                 "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-6/post-class/project-4-full-stack-react-app"
               }
             ]
@@ -2827,6 +3205,9 @@
           "inClass": {
             "items": [
               {
+                "name": "Module 4, Day 9"
+              },
+              {
                 "name": "Review 7.POCE.4: Hot Pot Bill Splitter",
                 "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-9/in-class/course-methodology"
               }
@@ -2835,7 +3216,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 4 Ideation Phase 2",
+                "name": "Project 4 Implementation",
                 "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-9/post-class/project-4-full-stack-react-app"
               }
             ]
@@ -2865,7 +3246,7 @@
           "projectDue": {
             "items": [
               {
-                "name": "Due: Project 4 Ideation Phase 2",
+                "name": "Due: Project 4 Implementation",
                 "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-9/post-class/project-4-full-stack-react-app"
               }
             ]
@@ -2875,6 +3256,9 @@
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "Module 4, Day 10"
+              },
               {
                 "name": "Algo Day 17"
               },
@@ -2909,6 +3293,9 @@
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "Module 4, Day 11"
+              },
               {
                 "name": "Algo Day 18"
               },
@@ -2947,7 +3334,13 @@
         "module": "Module 4: Frontend Framework - React",
         "general": {
           "type": "general",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "Module 4, Day 12"
+              }
+            ]
+          },
           "inClass": {
             "items": [
               {
@@ -2975,10 +3368,24 @@
       "courseDay": 61,
       "dateTypes": {
         "module": "Module 4: Frontend Framework - React",
+        "projects": {
+          "type": "projects",
+          "projectDue": {
+            "items": [
+              {
+                "name": "Due: Project 4 MVP Deadline",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-9/post-class/project-4-full-stack-react-app"
+              }
+            ]
+          }
+        },
         "general": {
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "Module 4, Day 13"
+              },
               {
                 "name": "Algo Day 19"
               },
@@ -3020,6 +3427,9 @@
           "preClass": {
             "items": [
               {
+                "name": "Module 4, Day 14"
+              },
+              {
                 "name": "Algo Day 20"
               },
               {
@@ -3055,9 +3465,26 @@
       "courseDay": 63,
       "dateTypes": {
         "module": "Module 4: Frontend Framework - React",
+        "projects": {
+          "type": "projects",
+          "projectDue": {
+            "items": [
+              {
+                "name": "Due: Project 4 Feature Freeze",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-9/post-class/project-4-full-stack-react-app"
+              }
+            ]
+          }
+        },
         "general": {
           "type": "general",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "Module 4, Day 15"
+              }
+            ]
+          },
           "inClass": {
             "items": [
               {
@@ -3085,10 +3512,31 @@
       "courseDay": 64,
       "dateTypes": {
         "module": "Module 4: Frontend Framework - React",
+        "projects": {
+          "type": "projects",
+          "projectDue": {
+            "items": [
+              {
+                "name": "Due: Project 4",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-9/post-class/project-4-full-stack-react-app"
+              }
+            ]
+          }
+        },
         "general": {
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "Module 4, Day 16"
+              },
+              {
+                "name": "Project 4 Implementation",
+                "url": "https://swebootcamp.rocketacademy.co/module-4-frontend-framework-react/day-10/post-class/project-4-full-stack-react-app"
+              },
+              {
+                "name": "------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------"
+              },
               {
                 "name": "Algo Day 21"
               },
@@ -3145,6 +3593,9 @@
           "preClass": {
             "items": [
               {
+                "name": "Module 5, Day 1"
+              },
+              {
                 "name": "8.0: Module 8 Overview",
                 "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/day-1/pre-class/8.0-module-8-overview"
               },
@@ -3194,6 +3645,9 @@
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "Module 5, Day 2"
+              },
               {
                 "name": "8.3.1: useContext",
                 "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/day-2/pre-class/8.3.1-usecontext"
@@ -3264,6 +3718,9 @@
           "preClass": {
             "items": [
               {
+                "name": "Module 5, Day 3"
+              },
+              {
                 "name": "8.3.4: React E-Commerce App with Store",
                 "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/day-3/pre-class/8.3.4-react-e-commerce-app-with-store"
               },
@@ -3325,6 +3782,9 @@
           "preClass": {
             "items": [
               {
+                "name": "Module 5, Day 4"
+              },
+              {
                 "name": "8.4: React Router",
                 "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/day-4/pre-class/8.4-react-router"
               },
@@ -3353,7 +3813,7 @@
                 "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/day-2/post-class/8.poce.1-car-rental"
               },
               {
-                "name": "Project 5 Ideation Phase 2",
+                "name": "Project 5 Implementation",
                 "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/day-2/post-class/project-5-group-react-app"
               }
             ]
@@ -3374,6 +3834,9 @@
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "Module 5, Day 5"
+              },
               {
                 "name": "8.5: Advanced useEffect",
                 "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/day-5/pre-class/8.5-advanced-useeffect"
@@ -3409,6 +3872,9 @@
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "Module 5, Day 6"
+              },
               {
                 "name": "8.6: Styled Components",
                 "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/day-6/pre-class/8.6-styled-components"
@@ -3456,6 +3922,9 @@
           "preClass": {
             "items": [
               {
+                "name": "Module 5, Day 7"
+              },
+              {
                 "name": "8.8: React NPM Packages",
                 "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/day-7/pre-class/8.8-react-npm-packages"
               },
@@ -3499,7 +3968,13 @@
         "module": "Module 5: Advanced React",
         "general": {
           "type": "general",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "Module 5, Day 8"
+              }
+            ]
+          },
           "inClass": {},
           "postClass": {
             "items": [
@@ -3529,6 +4004,9 @@
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "Module 5, Day 9"
+              },
               {
                 "name": "Algo Day 27"
               },
@@ -3583,6 +4061,9 @@
           "preClass": {
             "items": [
               {
+                "name": "Module 5, Day 10"
+              },
+              {
                 "name": "IP.0: Interview Prep Overview",
                 "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/day-10/pre-class/ip.0-interview-prep-overview"
               },
@@ -3619,7 +4100,13 @@
         "module": "Module 5: Advanced React",
         "general": {
           "type": "general",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "Module 5, Day 11"
+              }
+            ]
+          },
           "inClass": {},
           "postClass": {
             "items": [
@@ -3645,6 +4132,9 @@
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "Module 5, Day 12"
+              },
               {
                 "name": "Algo Day 29"
               },
@@ -3680,6 +4170,9 @@
           "preClass": {
             "items": [
               {
+                "name": "Module 5, Day 13"
+              },
+              {
                 "name": "Algo Day 30"
               },
               {
@@ -3711,7 +4204,13 @@
         "module": "Module 5: Advanced React",
         "general": {
           "type": "general",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "Module 5, Day 14"
+              }
+            ]
+          },
           "inClass": {},
           "postClass": {
             "items": [
@@ -3737,6 +4236,9 @@
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "Module 5, Day 15"
+              },
               {
                 "name": "Algo Day 31"
               },
@@ -3767,10 +4269,38 @@
       "courseDay": 80,
       "dateTypes": {
         "module": "Module 5: Advanced React",
+        "projects": {
+          "type": "projects",
+          "projectStart": {
+            "items": [
+              {
+                "name": "Start: Project 6 Ideation Phase 1"
+              }
+            ]
+          },
+          "projectDue": {
+            "items": [
+              {
+                "name": "Due: Project 5",
+                "url": "https://swebootcamp.rocketacademy.co/module-6-capstone-project/day-1/post-class/project-5-group-react-app"
+              }
+            ]
+          }
+        },
         "general": {
           "type": "general",
           "preClass": {
             "items": [
+              {
+                "name": "Module 5, Day 16"
+              },
+              {
+                "name": "Project 5 Implementation",
+                "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/day-15/post-class/project-5-group-react-app"
+              },
+              {
+                "name": "------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------"
+              },
               {
                 "name": "Algo Day 32",
                 "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-32"
@@ -3798,6 +4328,9 @@
               {
                 "name": "Project 5 Video",
                 "url": "https://swebootcamp.rocketacademy.co/module-5-advanced-react/day-16/post-class/project-5-group-react-app"
+              },
+              {
+                "name": "Project 6 Ideation Phase 1"
               }
             ]
           }
@@ -3850,8 +4383,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 5 Implementation",
-                "url": "https://swebootcamp.rocketacademy.co/module-6-capstone-project/day-1/post-class/project-5-group-react-app"
+                "name": "Project 6 Ideation Phase 1"
               }
             ]
           }
@@ -3867,6 +4399,24 @@
       "courseDay": 82,
       "dateTypes": {
         "module": "Module 6: Capstone Project",
+        "projects": {
+          "type": "projects",
+          "projectStart": {
+            "items": [
+              {
+                "name": "Start: Project 6 Ideation Phase 2",
+                "url": "https://swebootcamp.rocketacademy.co/module-6-capstone-project/day-1/post-class/project-5-group-react-app"
+              }
+            ]
+          },
+          "projectDue": {
+            "items": [
+              {
+                "name": "Due: Project 6 Ideation Phase 1"
+              }
+            ]
+          }
+        },
         "general": {
           "type": "general",
           "preClass": {
@@ -3884,6 +4434,9 @@
                 "url": ""
               },
               {
+                "name": "------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------ ------"
+              },
+              {
                 "name": "Algo Day 33"
               },
               {
@@ -3896,8 +4449,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 5 Implementation",
-                "url": "https://swebootcamp.rocketacademy.co/module-6-capstone-project/day-1/post-class/project-5-group-react-app"
+                "name": "Project 6 Ideation Phase 2"
               }
             ]
           }
@@ -3913,25 +4465,6 @@
       "courseDay": 83,
       "dateTypes": {
         "module": "Module 6: Capstone Project",
-        "projects": {
-          "type": "projects",
-          "projectStart": {
-            "items": [
-              {
-                "name": "Start: Project 6 Ideation",
-                "url": "https://swebootcamp.rocketacademy.co/module-6-capstone-project/day-1/post-class/project-5-group-react-app"
-              }
-            ]
-          },
-          "projectDue": {
-            "items": [
-              {
-                "name": "Due: Project 5",
-                "url": "https://swebootcamp.rocketacademy.co/module-6-capstone-project/day-1/post-class/project-5-group-react-app"
-              }
-            ]
-          }
-        },
         "general": {
           "type": "general",
           "preClass": {
@@ -3949,16 +4482,7 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 5 Post-Mortems",
-                "url": "https://swebootcamp.rocketacademy.co/module-6-capstone-project/day-3/post-class/course-methodology"
-              },
-              {
-                "name": "Project 5 Video",
-                "url": "https://swebootcamp.rocketacademy.co/module-6-capstone-project/day-3/post-class/project-5-group-react-app"
-              },
-              {
-                "name": "Project 6 Ideation Phase 1",
-                "url": "https://swebootcamp.rocketacademy.co/module-6-capstone-project/day-3/post-class/project-6-capstone"
+                "name": "Project 6 Ideation Phase 2"
               }
             ]
           }
@@ -3974,18 +4498,40 @@
       "courseDay": 84,
       "dateTypes": {
         "module": "Module 6: Capstone Project",
-        "general": {
-          "type": "general",
-          "preClass": {
+        "projects": {
+          "type": "projects",
+          "projectStart": {
             "items": [
               {
-                "name": "Day 4 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-6-capstone-project/day-4"
+                "name": "Start: Project 6 Implementation"
               }
             ]
           },
-          "inClass": {},
-          "postClass": {}
+          "projectDue": {
+            "items": [
+              {
+                "name": "Due: Project 6 Ideation Phase 2"
+              }
+            ]
+          }
+        },
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 6 Scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 6 Implementation"
+              }
+            ]
+          }
         }
       }
     },
@@ -4003,17 +4549,28 @@
           "preClass": {
             "items": [
               {
-                "name": "Day 5 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-6-capstone-project/day-5"
+                "name": "Algo Day 35"
               },
               {
-                "name": "Algo Day 35",
-                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-35"
+                "name": "A.5.7: Graphs",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-35/a.5.7-graphs"
               }
             ]
           },
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 6 Scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 6 Implementation"
+              }
+            ]
+          }
         }
       }
     },
@@ -4031,17 +4588,28 @@
           "preClass": {
             "items": [
               {
-                "name": "Day 6 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-6-capstone-project/day-6"
+                "name": "Algo Day 36"
               },
               {
-                "name": "Algo Day 36",
-                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-36"
+                "name": "A.5.7: Graphs - Part 2",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-36/a.5.7-graphs"
               }
             ]
           },
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 6 Scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 6 Implementation"
+              }
+            ]
+          }
         }
       }
     },
@@ -4056,16 +4624,21 @@
         "module": "Module 6: Capstone Project",
         "general": {
           "type": "general",
-          "preClass": {
+          "preClass": {},
+          "inClass": {
             "items": [
               {
-                "name": "Day 7 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-6-capstone-project/day-7"
+                "name": "Project 6 Scrum"
               }
             ]
           },
-          "inClass": {},
-          "postClass": {}
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 6 Implementation"
+              }
+            ]
+          }
         }
       }
     },
@@ -4083,17 +4656,28 @@
           "preClass": {
             "items": [
               {
-                "name": "Day 8 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-6-capstone-project/day-8"
+                "name": "Algo Day 37"
               },
               {
-                "name": "Algo Day 37",
-                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-37"
+                "name": "A.5.7: Graphs - Part 3",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-37/a.5.7-graphs"
               }
             ]
           },
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 6 Scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 6 Implementation"
+              }
+            ]
+          }
         }
       }
     },
@@ -4111,17 +4695,28 @@
           "preClass": {
             "items": [
               {
-                "name": "Day 9 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-6-capstone-project/day-9"
+                "name": "Algo Day 38"
               },
               {
-                "name": "Algo Day 38",
-                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-38"
+                "name": "A.5.7: Graphs - Part 4",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-38/a.5.7-graphs"
               }
             ]
           },
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 6 Scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 6 Implementation"
+              }
+            ]
+          }
         }
       }
     },
@@ -4136,16 +4731,21 @@
         "module": "Module 6: Capstone Project",
         "general": {
           "type": "general",
-          "preClass": {
+          "preClass": {},
+          "inClass": {
             "items": [
               {
-                "name": "Day 10 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-6-capstone-project/day-10"
+                "name": "Project 6 Scrum"
               }
             ]
           },
-          "inClass": {},
-          "postClass": {}
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 6 Implementation"
+              }
+            ]
+          }
         }
       }
     },
@@ -4163,17 +4763,28 @@
           "preClass": {
             "items": [
               {
-                "name": "Day 11 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-6-capstone-project/day-11"
+                "name": "Algo Day 39"
               },
               {
-                "name": "Algo Day 39",
-                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-39"
+                "name": "A.9: Dynamic Programming",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-39/a.11-dynamic-programming"
               }
             ]
           },
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 6 Scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 6 Implementation"
+              }
+            ]
+          }
         }
       }
     },
@@ -4191,17 +4802,28 @@
           "preClass": {
             "items": [
               {
-                "name": "Day 12 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-6-capstone-project/day-12"
+                "name": "Algo Day 40"
               },
               {
-                "name": "Algo Day 40",
-                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-40"
+                "name": "A.9: Dynamic Programming - Part 2",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-40/a.11-dynamic-programming"
               }
             ]
           },
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 6 Scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 6 Implementation"
+              }
+            ]
+          }
         }
       }
     },
@@ -4214,18 +4836,33 @@
       "courseDay": 93,
       "dateTypes": {
         "module": "Module 6: Capstone Project",
-        "general": {
-          "type": "general",
-          "preClass": {
+        "projects": {
+          "type": "projects",
+          "projectDue": {
             "items": [
               {
-                "name": "Day 13 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-6-capstone-project/day-13"
+                "name": "Project 6 MVP Deadline"
+              }
+            ]
+          }
+        },
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 6 Scrum"
               }
             ]
           },
-          "inClass": {},
-          "postClass": {}
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 6 Implementation"
+              }
+            ]
+          }
         }
       }
     },
@@ -4243,17 +4880,28 @@
           "preClass": {
             "items": [
               {
-                "name": "Day 14 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-6-capstone-project/day-14"
+                "name": "Algo Day 41"
               },
               {
-                "name": "Algo Day 41",
-                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-41"
+                "name": "A.9: Dynamic Programming - Part 3",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-41/a.11-dynamic-programming"
               }
             ]
           },
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 6 Scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 6 Implementation"
+              }
+            ]
+          }
         }
       }
     },
@@ -4266,22 +4914,43 @@
       "courseDay": 95,
       "dateTypes": {
         "module": "Module 6: Capstone Project",
+        "projects": {
+          "type": "projects",
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 6 Feature Freeze"
+              }
+            ]
+          }
+        },
         "general": {
           "type": "general",
           "preClass": {
             "items": [
               {
-                "name": "Day 15 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-6-capstone-project/day-15"
+                "name": "Algo Day 42"
               },
               {
-                "name": "Algo Day 42",
-                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-42"
+                "name": "A.10: Bit Manipulation - Part 1",
+                "url": "https://swebootcamp.rocketacademy.co/algorithms/algos/day-42/a.12-bit-manipulation"
               }
             ]
           },
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 6 Scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 6 Implementation"
+              }
+            ]
+          }
         }
       }
     },
@@ -4294,6 +4963,16 @@
       "courseDay": 96,
       "dateTypes": {
         "module": "Module 6: Capstone Project",
+        "projects": {
+          "type": "projects",
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 6 Deadline"
+              }
+            ]
+          }
+        },
         "general": {
           "type": "general",
           "preClass": {
@@ -4301,10 +4980,19 @@
               {
                 "name": "Day 16 Coursework",
                 "url": "https://swebootcamp.rocketacademy.co/module-6-capstone-project/day-16"
+              },
+              {
+                "name": "Project 6 Implementation"
               }
             ]
           },
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 6 Presentations"
+              }
+            ]
+          },
           "postClass": {}
         }
       }
