@@ -201,12 +201,12 @@
                 "url": "https://bc.rocketacademy.co/0-foundations/0.1-javascript/0.1.3-reference-vs-value"
               },
               {
-                "name": "1.3: setTimeout",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.3-settimeout"
+                "name": "1.3.1: setTimeout",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.3-browser-functions/1.3.1-settimeout"
               },
               {
-                "name": "1.5: Basic CSS (Exercises Part 1)",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.5-basic-css"
+                "name": "1.4.1: Basic CSS (Exercises Part 1)",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.4-css/1.4.1-basic-css"
               }
             ]
           },
@@ -275,20 +275,20 @@
           "preClass": {
             "items": [
               {
-                "name": "1.4: setInterval",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.4-setinterval"
+                "name": "1.3.2: setInterval",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.3-browser-functions/1.3.2-setinterval"
               },
               {
-                "name": "1.5: Basic CSS (Exercises Part 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.5-basic-css"
+                "name": "1.4.1: Basic CSS (Exercises Part 2)",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.4-css/1.4.1-basic-css"
               },
               {
-                "name": "1.5.1: Classes, IDs and Inheritance",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.5-basic-css/1.5.1-classes-ids-and-inheritance"
+                "name": "1.4.1.1: Classes, IDs and Inheritance",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.4-css/1.4.1-basic-css/1.4.1.1-classes-ids-and-inheritance"
               },
               {
-                "name": "1.5.2: Cascading and Specificity",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.5-basic-css/1.5.2-cascading-and-specificity"
+                "name": "1.4.1.2: Cascading and Specificity",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.4-css/1.4.1-basic-css/1.4.1.2-cascading-and-specificity"
               }
             ]
           },
@@ -357,16 +357,16 @@
           "preClass": {
             "items": [
               {
-                "name": "1.6: CSS Layout",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.6-css-layout"
+                "name": "1.4.2: CSS Layout",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.4-css/1.4.2-css-layout"
               },
               {
-                "name": "1.6.1: No Layout",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.6-css-layout/1.6.1-no-layout"
+                "name": "1.4.2.1: No Layout",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.4-css/1.4.2-css-layout/1.4.2.1-no-layout"
               },
               {
-                "name": "1.6.2: Display: Inline and Block",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.6-css-layout/1.6.2-display-inline-and-block"
+                "name": "1.4.2.2: Display: Inline and Block",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.4-css/1.4.2-css-layout/1.4.2.2-display-inline-and-block"
               }
             ]
           },
@@ -443,12 +443,12 @@
                 "url": "https://bc.rocketacademy.co/1-frontend/1.2.4-controlling-css-with-dom-manipulation"
               },
               {
-                "name": "1.6.3: Box Model",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.6-css-layout/1.6.3-box-model"
+                "name": "1.4.2.3: Box Model",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.4-css/1.4.2-css-layout/1.4.2.3-box-model"
               },
               {
-                "name": "1.6.4: Layout: Fixed, Percent and Max Width",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.6-css-layout/1.6.4-layout-fixed-percent-and-max-width"
+                "name": "1.4.2.4: Layout: Fixed, Percent and Max Width",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.4-css/1.4.2-css-layout/1.4.2.4-layout-fixed-percent-and-max-width"
               }
             ]
           },
@@ -524,12 +524,12 @@
           "preClass": {
             "items": [
               {
-                "name": "1.6.5: Display: Inline Block",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.6-css-layout/1.6.5-display-inline-block"
+                "name": "1.4.2.5: Display: Inline Block",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.4-css/1.4.2-css-layout/1.4.2.5-display-inline-block"
               },
               {
-                "name": "1.6.6: Layout: Columns and Cards",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.6-css-layout/1.6.6-layout-columns-and-cards"
+                "name": "1.4.2.6: Layout: Columns and Cards",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.4-css/1.4.2-css-layout/1.4.2.6-layout-columns-and-cards"
               }
             ]
           },
@@ -605,12 +605,12 @@
                 "url": "https://bc.rocketacademy.co/2-backend-basics/2.0-module-2-overview"
               },
               {
-                "name": "1.6.7: Position",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.6-css-layout/1.6.7-position"
+                "name": "1.4.2.7: Position",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.4-css/1.4.2-css-layout/1.4.2.7-position"
               },
               {
-                "name": "1.6.8: Float",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.6-css-layout/1.6.8-float"
+                "name": "1.4.2.8: Float",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.4-css/1.4.2-css-layout/1.4.2.8-float"
               }
             ]
           },
@@ -682,8 +682,8 @@
           "preClass": {
             "items": [
               {
-                "name": "1.6.9: Flexbox",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.6-css-layout/1.6.9-flexbox"
+                "name": "1.4.2.9: Flexbox",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.4-css/1.4.2-css-layout/1.4.2.9-flexbox"
               }
             ]
           },
@@ -755,12 +755,12 @@
           "preClass": {
             "items": [
               {
-                "name": "1.7: Responsive Design",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.7-responsive-design"
+                "name": "1.5.1: Responsive Design",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.5-design-principles/1.5.1-responsive-design"
               },
               {
-                "name": "1.8: Web Design Basics",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.8-web-design-basics"
+                "name": "1.5.2: Web Design Basics",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.5-design-principles/1.5.2-web-design-basics"
               }
             ]
           },
@@ -832,8 +832,8 @@
           "preClass": {
             "items": [
               {
-                "name": "1.9: Bootstrap (Part 1)",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.9-bootstrap"
+                "name": "1.4.3: Bootstrap (Part 1)",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.4-css/1.4.3-bootstrap"
               }
             ]
           },
@@ -905,8 +905,8 @@
           "preClass": {
             "items": [
               {
-                "name": "1.9: Bootstrap (Part 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.9-bootstrap"
+                "name": "1.4.3: Bootstrap (Part 2)",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.4-css/1.4.3-bootstrap"
               }
             ]
           },
