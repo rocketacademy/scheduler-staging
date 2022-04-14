@@ -856,7 +856,7 @@
           "preClass": {
             "items": [
               {
-                "name": "1.4.3: Bootstrap (Part 1)",
+                "name": "1.4.3: Bootstrap",
                 "url": "https://bc.rocketacademy.co/1-frontend/1.4-css/1.4.3-bootstrap"
               }
             ]
@@ -864,7 +864,7 @@
           "inClass": {
             "items": [
               {
-                "name": "1.ICE.7: Bootstrap Columns (Day 1 of 2)",
+                "name": "1.ICE.7: Bootstrap Columns",
                 "url": "https://bc.rocketacademy.co/1-frontend/1.ice-in-class-exercises/1.ice.7-bootstrap-columns"
               }
             ]
@@ -926,22 +926,8 @@
         "module": "Module 1: Frontend",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "1.4.3: Bootstrap (Part 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.4-css/1.4.3-bootstrap"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "1.ICE.7: Bootstrap Columns (Day 2 of 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.ice-in-class-exercises/1.ice.7-bootstrap-columns"
-              }
-            ]
-          },
+          "preClass": {},
+          "inClass": {},
           "postClass": {}
         },
         "css": {
@@ -1596,10 +1582,6 @@
           "projectDue": {},
           "preClass": {
             "items": [
-              {
-                "name": "3.0: Overview",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.0-module-3-overview"
-              },
               {
                 "name": "3.1: Express.js",
                 "url": "https://bc.rocketacademy.co/3-backend-applications/3.1-express-js"
