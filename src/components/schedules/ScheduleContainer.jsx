@@ -8,8 +8,6 @@ import logo from '../../assets/4-MILK.png';
 import BatchSchedule from './BatchSchedule';
 
 function ScheduleContainer({ batchArray }) {
-  const { url } = useRouteMatch();
-
   // pass individual batch json files into BatchSchedule to generate schedules
   return (
     <>
@@ -19,7 +17,7 @@ function ScheduleContainer({ batchArray }) {
         </Navbar.Brand>
         <Nav className="me-auto">
           {batchArray.map((batch) => (
-            <Nav.Link as={Link} to={`${url}/${batch.name}`}>
+            <Nav.Link as={Link} to={`/${batch.name}`}>
               {batch.name.toUpperCase()}
             </Nav.Link>
           ))}

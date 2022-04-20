@@ -1,15 +1,15 @@
-import React, { useEffect, useRef } from "react";
-import Nav from "react-bootstrap/Nav";
-import { scroller } from "react-scroll";
-import { DateTime } from "luxon";
-import KeyboardBackspaceIcon from "@material-ui/icons/KeyboardBackspace";
+import React, { useEffect, useRef } from 'react';
+import Nav from 'react-bootstrap/Nav';
+import { scroller } from 'react-scroll';
+import { DateTime } from 'luxon';
+import KeyboardBackspaceIcon from '@material-ui/icons/KeyboardBackspace';
 import Modules from './Modules';
 
 // one of the components in Sidebar
 function CourseWeeks({ scheduleData, coursetype, firstDayOfCourse }) {
   const weeks = [];
-  // used to scroll to current week on page load 
-  const executeScroll = () => currentWeekRef.current.scrollIntoView({ block: "center" });
+  // used to scroll to current week on page load
+  const executeScroll = () => currentWeekRef.current.scrollIntoView({ block: 'center' });
 
   useEffect(() => {
     if (DateTime.now() > firstDayOfCourse) {
@@ -17,13 +17,11 @@ function CourseWeeks({ scheduleData, coursetype, firstDayOfCourse }) {
     }
   }, []);
 
-  const CurrentWeekDiv = () => {
+  function CurrentWeekDiv() {
     return (
-      <>
-        <div ref={currentWeekRef}></div>
-      </>
+      <div ref={currentWeekRef} />
     );
-  };
+  }
 
   // getting all the week numbers
   Object.keys(scheduleData).forEach((day) => {
@@ -33,15 +31,15 @@ function CourseWeeks({ scheduleData, coursetype, firstDayOfCourse }) {
   });
 
   // getting first and last days of week
-  const firstDayOfWeek = DateTime.now().startOf("week");
-  const lastDayOfWeek = DateTime.now().endOf("week");
+  const firstDayOfWeek = DateTime.now().startOf('week');
+  const lastDayOfWeek = DateTime.now().endOf('week');
   let target = firstDayOfWeek;
   // array where all course dates in current week will be stored
   const weeksDates = [];
 
   // storing week's dates in the array
   while (target <= lastDayOfWeek) {
-    weeksDates.push(target.toFormat("dd-MM-yyyy"));
+    weeksDates.push(target.toFormat('dd-MM-yyyy'));
     target = target.plus({ days: 1 });
   }
 
@@ -51,8 +49,8 @@ function CourseWeeks({ scheduleData, coursetype, firstDayOfCourse }) {
 
   weeksDates.forEach((date) => {
     if (
-      scheduleData[date] &&
-      !weekNumber.includes(scheduleData[date].courseWeek)
+      scheduleData[date]
+      && !weekNumber.includes(scheduleData[date].courseWeek)
     ) {
       weekNumber.push(scheduleData[date].courseWeek);
     }
@@ -71,13 +69,11 @@ function CourseWeeks({ scheduleData, coursetype, firstDayOfCourse }) {
           <Nav.Link
             eventKey="0"
             // uses react-scroll library for scroll function
-            onClick={() =>
-              scroller.scrollTo(`${coursetype}-top`, {
-                smooth: true,
-                offset: -70,
-                duration: 100,
-              })
-            }
+            onClick={() => scroller.scrollTo(`${coursetype}-top`, {
+              smooth: true,
+              offset: -70,
+              duration: 100,
+            })}
           >
             Current Day
           </Nav.Link>
@@ -93,28 +89,26 @@ function CourseWeeks({ scheduleData, coursetype, firstDayOfCourse }) {
             id = `${coursetype}-week-${week}-day-1`;
           }
           const sidebarId = `${coursetype}-sidebar-week-${week}`;
-      
+
           return (
             <Nav.Item>
               <Nav.Link
                 eventKey={navId}
                 // uses react-scroll library for scroll function
-                onClick={() =>
-                  scroller.scrollTo(id, {
-                    smooth: true,
-                    offset: -70,
-                    duration: 100,
-                  })
-                }
+                onClick={() => scroller.scrollTo(id, {
+                  smooth: true,
+                  offset: -70,
+                  duration: 100,
+                })}
               >
                 {week === weekNumber[0] && DateTime.now() > firstDayOfCourse && <CurrentWeekDiv />}
                 <div>
-                  {week === null ? "Break" : `Week ${week}`}
+                  {week === null ? 'Break' : `Week ${week}`}
                   {/* week indicator that indicates that a certain week is the current week  */}
                   {weeks[index] === weekNumber[0] && (
                     <span id={sidebarId} className="current-wk-indicator">
                       <KeyboardBackspaceIcon />
-                      {"  "}
+                      {'  '}
                       this week
                     </span>
                   )}
