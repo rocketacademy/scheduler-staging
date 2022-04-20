@@ -5,8 +5,8 @@ import Button from "react-bootstrap/Button";
 import download from "../../download";
 import generateDataObject from "../../generateCourseDates";
 import { DateTime } from "luxon";
-import fulltimeDataFile from "../../data/bootcamp-course-days.json";
-import partTimeDataFile from "../../data/ptbc-course-days.json";
+import fulltimeDataFile from "../../data/schedule-templates/ftbc1.0-schedule-template.json";
+import partTimeDataFile from "../../data/schedule-templates/ptbc1.0-schedule-template.json";
 
 // helper function for cpoying data to clipboard
 const copyToClipboard = (data) => {
