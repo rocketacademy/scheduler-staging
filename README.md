@@ -8,7 +8,7 @@ Rocket built Scheduler using Create React App. To run the app locally, clone the
 
 # Production usage instructions
 
-The app is deployed at <https://rocketacademy.github.io/scheduler/#/admin>
+The app is deployed at <https://schedules.rocketacademy.co/#/admin>
 
 ## To generate schedule for new batch
 
