@@ -8,7 +8,7 @@ function BatchSchedule({ data, title }) {
 
   // needed to generate id for use with react-scroll library, also indicates if course is full time/ part time
   let coursetype;
-  if (data.courseType === "Bootcamp PT") {
+  if (data.courseType === "PTBC") {
     coursetype = "pt";
   } else {
     coursetype = "ft";

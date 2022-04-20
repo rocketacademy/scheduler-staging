@@ -2,7 +2,7 @@
   "daysOfWeek": [1, 2, 3, 4],
   "courseStartIndex": 0,
   "totalCourseDays": 96,
-  "courseType": "Bootcamp FT",
+  "courseType": "FTBC",
   "days": {
     "28-03-2022": {
       "courseDate": "28-03-2022",
@@ -4998,5 +4998,5 @@
       }
     }
   },
-  "courseName": "28-03-2022_15-09-2022_BATCH7"
+  "courseName": "28-03-2022_15-09-2022_FTBC7"
 }

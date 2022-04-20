@@ -118,8 +118,8 @@ const DatePicker = ({
               >
                 <option>Select course type</option>
                 <option value="Basics">Basics</option>
-                <option value="Bootcamp FT">Bootcamp FT</option>
-                <option value="Bootcamp PT">Bootcamp PT</option>
+                <option value="FTBC">FTBC</option>
+                <option value="PTBC">PTBC</option>
               </Form.Select>
             </Form.Group>
             </div>

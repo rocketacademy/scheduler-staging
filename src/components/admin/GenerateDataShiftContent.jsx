@@ -92,9 +92,9 @@ const GenerateDataShiftContent = ({
       ).toFormat("yyyy-MM-dd");
       let courseType;
       if (batch.name.includes("pt")) {
-        courseType = "Bootcamp PT";
+        courseType = "PTBC";
       } else {
-        courseType = "Bootcamp FT";
+        courseType = "FTBC";
       }
       const courseName =
         batch.content.courseName[batch.content.courseName.length - 1];

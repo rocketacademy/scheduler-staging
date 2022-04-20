@@ -2,7 +2,7 @@
   "daysOfWeek": [1, 2, 3, 4, 5],
   "courseStartIndex": 0,
   "totalCourseDays": 116,
-  "courseType": "Bootcamp FT",
+  "courseType": "FTBC",
   "days": {
     "19-10-2020": {
       "courseDate": "19-10-2020",

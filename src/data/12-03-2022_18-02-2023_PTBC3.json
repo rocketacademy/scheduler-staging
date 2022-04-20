@@ -2,7 +2,7 @@
   "daysOfWeek": [2, 6],
   "courseStartIndex": 1,
   "totalCourseDays": 96,
-  "courseType": "Bootcamp PT",
+  "courseType": "PTBC",
   "days": {
     "12-03-2022": {
       "courseDate": "12-03-2022",
@@ -2535,5 +2535,5 @@
       }
     }
   },
-  "courseName": "12-03-2022_18-02-2023_BATCH3"
+  "courseName": "12-03-2022_18-02-2023_PTBC3"
 }
