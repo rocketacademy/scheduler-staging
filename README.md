@@ -4,7 +4,6 @@ A front-end app to edit and generate a dated schedule for all Rocket Academy Cou
 
 The app is Timezone aware.
 
-
 # Instructions for use
 
 The app is deployed at <https://rocketacademy.github.io/scheduler/#/admin>
@@ -14,20 +13,22 @@ The app is deployed at <https://rocketacademy.github.io/scheduler/#/admin>
 Click on the "Batch" tab
 Under Generate Schedule Data File, fill in the form with required information, please make sure date picked for Bootcamp start date is a Monday.
 Select from -
-* "render schedule": which will render the generated file in the app 
-* "download schedule": which will download the generated file into the downloads folder of your computer 
-* "add to github": this will take you to the create new file page of the github repo, press ctrl -a followed by ctrl -v to paste the generated file into the github repo
-* "basics markdown": this will take you to the create new file page of the basics-docs repo, press ctrl -a followed by ctrl -v to paste the generated file into the github repo
+
+- "render schedule": which will render the generated file in the app
+- "download schedule": which will download the generated file into the downloads folder of your computer
+- "add to github": this will take you to the create new file page of the github repo, press ctrl -a followed by ctrl -v to paste the generated file into the github repo
+- "basics markdown": this will take you to the create new file page of the basics-docs repo, press ctrl -a followed by ctrl -v to paste the generated file into the github repo
 
 # To edit main bootcamp json file
 
 Click on the "Main" tab
 Choose either part time or full time button to render either schedule
 Next to each schedule item are 4 buttons -
-* trash can symbol: deletes that item
-* up arrow: used to move that item up a day in the schedule
-* down arrow: used to move that item down a day in the schedule
-* rectangular symbol: used to move that item to any day in the schedule
+
+- trash can symbol: deletes that item
+- up arrow: used to move that item up a day in the schedule
+- down arrow: used to move that item down a day in the schedule
+- rectangular symbol: used to move that item to any day in the schedule
 
 The up and down arrows on the right side of each section are used to move the entire section up/ down one day
 
@@ -37,10 +38,11 @@ After you have finished making your changes, click "edit in github repo" to make
 
 Click on the "Batch" tab
 Next to each schedule item are 4 buttons -
-* trash can symbol: deletes that item
-* up arrow: used to move that item up a day in the schedule
-* down arrow: used to move that item down a day in the schedule
-* rectangular symbol: used to move that item to any day in the schedule
+
+- trash can symbol: deletes that item
+- up arrow: used to move that item up a day in the schedule
+- down arrow: used to move that item down a day in the schedule
+- rectangular symbol: used to move that item to any day in the schedule
 
 The up and down arrows on the right side of each section are used to move the entire section up/ down one day
 
