@@ -194,7 +194,7 @@
             "items": [
               {
                 "name": "Peer-Review 1.POCE.1: Noodle Recipe Website",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#peer-code-review"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#peer-code-review"
               },
               {
                 "name": "1.ICE.1: Drawing DOM (continued)",
@@ -217,7 +217,7 @@
             "items": [
               {
                 "name": "CSS.1: Basic CSS (Exercises Part 1)",
-                "url": "https://bootcamp.rocketacademy.co/css/css-1-basic-css"
+                "url": "https://bootcamp.rocketacademy.co/css/css.1-basic-css"
               }
             ]
           },
@@ -279,7 +279,7 @@
             "items": [
               {
                 "name": "Peer-Review 1.POCE.2: High Card",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#peer-code-review"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#peer-code-review"
               },
               {
                 "name": "1.ICE.2: Timeout / High Card Redux",
@@ -302,7 +302,7 @@
             "items": [
               {
                 "name": "CSS.1: Basic CSS (Exercises Part 2)",
-                "url": "https://bootcamp.rocketacademy.co/css/css-1-basic-css"
+                "url": "https://bootcamp.rocketacademy.co/css/css.1-basic-css"
               }
             ]
           },
@@ -360,7 +360,7 @@
             "items": [
               {
                 "name": "Peer-Review 1.POCE.3: Match Game",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#peer-code-review"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#peer-code-review"
               },
               {
                 "name": "1.ICE.3: setInterval",
@@ -445,7 +445,7 @@
             "items": [
               {
                 "name": "Review 1 student's 1.POCE.4: Timer",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#peer-code-review"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#peer-code-review"
               }
             ]
           },
@@ -526,7 +526,7 @@
             "items": [
               {
                 "name": "Peer-Review 1.POCE.5: Tic Tac Toe",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#peer-code-review"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#peer-code-review"
               }
             ]
           },
@@ -620,7 +620,7 @@
             "items": [
               {
                 "name": "CSS.ICE.1: Straits Times",
-                "url": "https://bootcamp.rocketacademy.co/css/css.ice-in-class-exercises/css.ice.1-straits-times-css"
+                "url": "https://bootcamp.rocketacademy.co/css/css.ice-in-class-exercises/css.ice.1-portfolio-site"
               }
             ]
           },
@@ -654,7 +654,7 @@
             "items": [
               {
                 "name": "Project 1 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -738,7 +738,7 @@
             "items": [
               {
                 "name": "Project 1 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -815,7 +815,7 @@
             "items": [
               {
                 "name": "Project 1 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -888,7 +888,7 @@
             "items": [
               {
                 "name": "Project 1 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -899,8 +899,8 @@
                 "url": "https://bootcamp.rocketacademy.co/projects/project-1-video-poker"
               },
               {
-                "name": "Project 1: Deploy to GitHub Pages",
-                "url": "https://basics.rocketacademy.co/12-next-steps/12.3-deployment"
+                "name": "Project 1: Deploy to GitHub Pages (Project site, skip to Repository Settings)",
+                "url": "https://pages.github.com/"
               }
             ]
           }
@@ -931,7 +931,7 @@
             "items": [
               {
                 "name": "CSS.ICE.8: Chase Bank",
-                "url": "https://bootcamp.rocketacademy.co/css/1.ice.css-in-class-css-exercises/1.ice.css.8-chase-bank"
+                "url": "https://bootcamp.rocketacademy.co/css/css.ice-in-class-exercises/css.ice.8-chase-bank"
               }
             ]
           },
@@ -1032,7 +1032,7 @@
             "items": [
               {
                 "name": "Project 1 Post-Mortems",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-post-mortem-meeting"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#post-mortem"
               }
             ]
           }
@@ -1289,7 +1289,7 @@
             "items": [
               {
                 "name": "Review 2.POCE.3: CSS Processor",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#peer-code-review"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#peer-code-review"
               },
               {
                 "name": "2.ICE.4: Servers and Requests",
@@ -1823,7 +1823,7 @@
             "items": [
               {
                 "name": "Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -1896,7 +1896,7 @@
             "items": [
               {
                 "name": "Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               },
               {
                 "name": "CSS.ICE.3: MyTunes",
@@ -1992,7 +1992,7 @@
             "items": [
               {
                 "name": "Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               },
               {
                 "name": "3.ICE.4: Cookies",
@@ -2077,7 +2077,7 @@
             "items": [
               {
                 "name": "Project Presentation: 3.POCE.3",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-presentations"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#presentations"
               }
             ]
           },
@@ -2627,7 +2627,7 @@
             "items": [
               {
                 "name": "Project 2 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -2701,7 +2701,7 @@
             "items": [
               {
                 "name": "Project 2 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -2776,7 +2776,7 @@
             "items": [
               {
                 "name": "Project 2 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -2856,7 +2856,7 @@
             "items": [
               {
                 "name": "Project 2 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -2922,7 +2922,7 @@
             "items": [
               {
                 "name": "Project 2 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               },
               {
                 "name": "Project 2 Mid-Point Peer Review",
@@ -2996,7 +2996,7 @@
             "items": [
               {
                 "name": "Project 2 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -3062,7 +3062,7 @@
             "items": [
               {
                 "name": "Project 2 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -3135,7 +3135,7 @@
             "items": [
               {
                 "name": "Project 2 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -3192,7 +3192,7 @@
             "items": [
               {
                 "name": "Due: Project 2 Presentations",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-presentations"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#presentations"
               }
             ]
           },
@@ -3202,7 +3202,7 @@
             "items": [
               {
                 "name": "Project 2 Post-Mortems",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-post-mortem-meeting"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#post-mortem"
               }
             ]
           }
@@ -3253,7 +3253,7 @@
             "items": [
               {
                 "name": "Project 2 Redux (Peer Code Review)",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#peer-code-review"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#peer-code-review"
               }
             ]
           },
@@ -4005,7 +4005,7 @@
             "items": [
               {
                 "name": "Bug Reports (5.POCE.1, 5.POCE.2) Redux ",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#peer-code-review"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#peer-code-review"
               }
             ]
           },
@@ -4338,7 +4338,7 @@
             "items": [
               {
                 "name": "Project 3 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -4363,7 +4363,7 @@
             "items": [
               {
                 "name": "Group Work (for project management)",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/group-work"
+                "url": "https://bootcamp.rocketacademy.co/logistics/group-work"
               }
             ]
           },
@@ -4425,7 +4425,7 @@
             "items": [
               {
                 "name": "Project 3 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -4498,7 +4498,7 @@
             "items": [
               {
                 "name": "Project 3 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -4571,7 +4571,7 @@
             "items": [
               {
                 "name": "Project 3 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -4658,7 +4658,7 @@
             "items": [
               {
                 "name": "Project 3 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               },
               {
                 "name": "Project 3 Peer Code Review",
@@ -4746,7 +4746,7 @@
             "items": [
               {
                 "name": "Project 3 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -4833,7 +4833,7 @@
             "items": [
               {
                 "name": "Project 3 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               },
               {
                 "name": "Project 3 Feature Freeze In-Class Review",
@@ -4910,7 +4910,7 @@
             "items": [
               {
                 "name": "Project 3 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -4936,7 +4936,7 @@
             "items": [
               {
                 "name": "Project 3 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -4981,7 +4981,7 @@
             "items": [
               {
                 "name": "Due: Project 3 Presentations",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-presentations"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#presentations"
               }
             ]
           },
@@ -4991,7 +4991,7 @@
             "items": [
               {
                 "name": "Project 3 Post-Mortems",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-post-mortem-meeting"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#post-mortem"
               },
               {
                 "name": "Project 3 Video Demo",
@@ -5775,7 +5775,7 @@
             "items": [
               {
                 "name": "Review 7.POCE.4: Hot Pot Bill Splitter",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#peer-code-review"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#peer-code-review"
               }
             ]
           },
@@ -5829,7 +5829,7 @@
             "items": [
               {
                 "name": "Project 4 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -5902,7 +5902,7 @@
             "items": [
               {
                 "name": "Project 4 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -5975,7 +5975,7 @@
             "items": [
               {
                 "name": "Project 4 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -6048,7 +6048,7 @@
             "items": [
               {
                 "name": "Project 4 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -6128,7 +6128,7 @@
             "items": [
               {
                 "name": "Project 4 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               },
               {
                 "name": "Project 4 In-Class Code Review"
@@ -6204,7 +6204,7 @@
             "items": [
               {
                 "name": "Project 4 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -6284,7 +6284,7 @@
             "items": [
               {
                 "name": "Project 4 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -6368,7 +6368,7 @@
             "items": [
               {
                 "name": "Project 4 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -6425,7 +6425,7 @@
             "items": [
               {
                 "name": "Due: Project 4 Presentations",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-presentations"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#presentations"
               }
             ]
           },
@@ -6435,7 +6435,7 @@
             "items": [
               {
                 "name": "Project 4 Post-Mortems",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-post-mortem-meeting"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#post-mortem"
               },
               {
                 "name": "Project 4 Video Demo",
@@ -7270,7 +7270,7 @@
             "items": [
               {
                 "name": "Project 5 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -7373,7 +7373,7 @@
             "items": [
               {
                 "name": "Project 5 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -7461,7 +7461,7 @@
             "items": [
               {
                 "name": "Project 5 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -7548,7 +7548,7 @@
             "items": [
               {
                 "name": "Project 5 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               },
               {
                 "name": "Project 5 MVP Review",
@@ -7639,7 +7639,7 @@
             "items": [
               {
                 "name": "Project 5 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -7719,7 +7719,7 @@
             "items": [
               {
                 "name": "Project 5 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -7814,7 +7814,7 @@
             "items": [
               {
                 "name": "Project 5 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               },
               {
                 "name": "Project 5 Feature Freeze Review",
@@ -7899,7 +7899,7 @@
             "items": [
               {
                 "name": "Project 5 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -7984,7 +7984,7 @@
             "items": [
               {
                 "name": "Due: Project 5 Presentations",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-presentations"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#presentations"
               }
             ]
           },
@@ -7994,7 +7994,7 @@
             "items": [
               {
                 "name": "Project 5 Post-Mortems",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-post-mortem-meeting"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#post-mortem"
               },
               {
                 "name": "Project 5 Video",
@@ -8246,7 +8246,7 @@
             "items": [
               {
                 "name": "Project 6 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -8323,7 +8323,7 @@
             "items": [
               {
                 "name": "Project 6 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -8400,7 +8400,7 @@
             "items": [
               {
                 "name": "Project 6 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -8477,7 +8477,7 @@
             "items": [
               {
                 "name": "Project 6 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -8543,7 +8543,7 @@
             "items": [
               {
                 "name": "Project 6 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -8645,7 +8645,7 @@
             "items": [
               {
                 "name": "Project 6 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               },
               {
                 "name": "Project 6 MVP Review",
@@ -8729,7 +8729,7 @@
             "items": [
               {
                 "name": "Project 6 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -8816,7 +8816,7 @@
             "items": [
               {
                 "name": "Project 6 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -8896,7 +8896,7 @@
             "items": [
               {
                 "name": "Project 6 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -8990,7 +8990,7 @@
             "items": [
               {
                 "name": "Project 6 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -9070,7 +9070,7 @@
             "items": [
               {
                 "name": "Project 6 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -9150,7 +9150,7 @@
             "items": [
               {
                 "name": "Project 6 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -9230,7 +9230,7 @@
             "items": [
               {
                 "name": "Project 6 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               },
               {
                 "name": "Project 6 Feature Freeze Review",
@@ -9293,7 +9293,7 @@
             "items": [
               {
                 "name": "Project 6 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-scrums"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -9404,7 +9404,7 @@
             "items": [
               {
                 "name": "Due: Project 6 Presentations",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-presentations"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#presentations"
               }
             ]
           },
@@ -9414,7 +9414,7 @@
             "items": [
               {
                 "name": "Project 6 Post-Mortems",
-                "url": "https://bootcamp.rocketacademy.co/course-logistics/course-methodology#project-post-mortem-meeting"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#post-mortem"
               },
               {
                 "name": "Project 6 Video Demo ",

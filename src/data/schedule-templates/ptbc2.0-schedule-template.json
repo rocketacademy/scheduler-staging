@@ -9,34 +9,120 @@
     {
       "courseDay": 0,
       "dateTypes": {
-        "module": "Module 1: Frontend Basics",
+        "module": "Module 1: Basic Frontend",
         "general": {
           "type": "general",
           "preClass": {},
           "inClass": {
-            "items": [
-              { "name": "Day 1 Photo!", "url": "" },
-              { "name": "Course and Student Introductions", "url": "" }
-            ]
+            "items": [{ "name": "Course and student introductions", "url": "" }]
           },
-          "postClass": {}
+          "postClass": {},
+          "dayIndex": 0
         }
       }
     },
     {
       "courseDay": 1,
       "dateTypes": {
-        "module": "Module 1: Basic Frontend",
+        "module": "Module 1: Frontend Basics",
         "general": {
           "type": "general",
           "preClass": {
             "items": [
               {
-                "name": "Day 1 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-1"
+                "name": "0.0: Module 0 Overview",
+                "url": "https://bootcamp.rocketacademy.co/0-language-and-tooling/0.0-module-0-overview"
+              },
+              {
+                "name": "0.1: New JS Syntax",
+                "url": "https://bootcamp.rocketacademy.co/0-language-and-tooling/0.1-new-js-syntax"
+              },
+              {
+                "name": "0.2: ES6",
+                "url": "https://bootcamp.rocketacademy.co/0-language-and-tooling/0.2-es6"
+              },
+              {
+                "name": "0.2.1: ES6 Basics",
+                "url": "https://bootcamp.rocketacademy.co/0-language-and-tooling/0.2-es6/0.2.1-es6-basics"
+              },
+              {
+                "name": "1.0: Module 1 Overview",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.0-module-1-overview"
+              },
+              {
+                "name": "1.1: HTML",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.1-html"
+              },
+              {
+                "name": "1.1.0: Wireframes",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.1-html/1.1.0-wireframes"
+              },
+              {
+                "name": "1.1.1: HTML Basics",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.1-html/1.1.1-basic-html"
+              },
+              {
+                "name": "1.2: DOM Review",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.2-dom-review"
+              },
+              {
+                "name": "1.2.1: DOM Review - Creating Elements",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.2-dom-review/1.2.1-creating-elements"
+              },
+              {
+                "name": "1.2.2: DOM Review - Events",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.2-dom-review/1.2.2-events"
               }
             ]
           },
+          "inClass": {
+            "items": [
+              {
+                "name": "1.ICE.1: Drawing DOM",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.ice-in-class-exercises/1.ice.1-drawing-dom"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "1.POCE.1: Noodle Recipe Website",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.poce-post-class-exercises/1.poce.1-noodles"
+              }
+            ]
+          },
+          "dayIndex": 1
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
           "inClass": {},
           "postClass": {}
         }
@@ -45,17 +131,85 @@
     {
       "courseDay": 2,
       "dateTypes": {
-        "module": "Module 1: Basic Frontend",
+        "module": "Module 1: Frontend Basics",
         "general": {
           "type": "general",
           "preClass": {
             "items": [
               {
-                "name": "Day 2 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-2"
+                "name": "0.3: Reading Documentation",
+                "url": "https://bootcamp.rocketacademy.co/0-language-and-tooling/0.3-reading-documentation"
+              },
+              {
+                "name": "1.3: High Card DOM",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.3-high-card-dom"
+              },
+              {
+                "name": "1.4: setTimeout",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.4-settimeout"
               }
             ]
           },
+          "inClass": {
+            "items": [
+              {
+                "name": "Review 1 student's 1.POCE.1: Noodle Recipe Website",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.poce-post-class-exercises/1.poce.1-noodles"
+              },
+              {
+                "name": "1.ICE.1: Drawing DOM (continued)",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.ice-in-class-exercises/1.ice.1-drawing-dom"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "1.POCE.2: High Card DOM",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.poce-post-class-exercises/1.poce.2-high-card-dom"
+              }
+            ]
+          },
+          "dayIndex": 2
+        },
+        "css": {
+          "type": "css",
+          "preClass": {
+            "items": [
+              {
+                "name": "CSS.1: Basic CSS (Exercises Part 1)",
+                "url": "https://bootcamp.rocketacademy.co/css/css.1-basic-css"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {},
+          "dayIndex": 2
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
           "inClass": {},
           "postClass": {}
         }
@@ -64,17 +218,85 @@
     {
       "courseDay": 3,
       "dateTypes": {
-        "module": "Module 1: Basic Frontend",
+        "module": "Module 1: Frontend Basics",
         "general": {
           "type": "general",
           "preClass": {
             "items": [
               {
-                "name": "Day 3 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-3"
+                "name": "1.5: High Card setTimeout",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.5-high-card-settimeout"
+              },
+              {
+                "name": "1.6: Match Game",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.6-match-game"
+              },
+              {
+                "name": "0.2.4: Reference vs. Value",
+                "url": "https://bootcamp.rocketacademy.co/0-language-and-tooling/0.2-es6/0.2.4-reference-vs.-value"
               }
             ]
           },
+          "inClass": {
+            "items": [
+              {
+                "name": "Peer-Review: 1.POCE.2: High Card",
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#peer-code-review"
+              },
+              {
+                "name": "1.ICE.2: Timeout / High Card Redux",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.ice-in-class-exercises/1.ice.2-high-card-redux"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "1.POCE.3: Match Game",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.poce-post-class-exercises/1.poce.3-match-game"
+              }
+            ]
+          },
+          "dayIndex": 3
+        },
+        "css": {
+          "type": "css",
+          "preClass": {
+            "items": [
+              {
+                "name": "CSS.1: Basic CSS (Exercises Part 2)",
+                "url": "https://bootcamp.rocketacademy.co/css/css.1-basic-css"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {},
+          "dayIndex": 3
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
           "inClass": {},
           "postClass": {}
         }
@@ -83,17 +305,85 @@
     {
       "courseDay": 4,
       "dateTypes": {
-        "module": "Module 1: Basic Frontend",
+        "module": "Module 1: Frontend Basics",
         "general": {
           "type": "general",
           "preClass": {
             "items": [
               {
-                "name": "Day 4 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-4"
+                "name": "1.7: setInterval",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.7-setinterval"
+              },
+              {
+                "name": "1.8: Timer",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.8-timer"
               }
             ]
           },
+          "inClass": {
+            "items": [
+              {
+                "name": "Peer-Review: 1.POCE.3: Match Game",
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#peer-code-review"
+              },
+              {
+                "name": "1.ICE.3: setInterval",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.ice-in-class-exercises/1.ice.3-setinterval"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "1.POCE.4: Timer",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.poce-post-class-exercises/1.poce.4-timer"
+              }
+            ]
+          },
+          "dayIndex": 4
+        },
+        "css": {
+          "type": "css",
+          "preClass": {
+            "items": [
+              {
+                "name": "CSS.2.1 No Layout",
+                "url": "https://bootcamp.rocketacademy.co/css/css.2-layout/css.2.1-no-layout"
+              },
+              {
+                "name": "CSS.2.2 Display Inline Block",
+                "url": "https://bootcamp.rocketacademy.co/css/css.2-layout/css.2.2-display-inline-and-block"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {},
+          "dayIndex": 4
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
           "inClass": {},
           "postClass": {}
         }
@@ -102,17 +392,81 @@
     {
       "courseDay": 5,
       "dateTypes": {
-        "module": "Module 1: Basic Frontend",
+        "module": "Module 1: Frontend Basics",
         "general": {
           "type": "general",
           "preClass": {
             "items": [
               {
-                "name": "Day 5 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-5"
+                "name": "1.9: Tic Tac Toe",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.9-tic-tac-toe"
+              },
+              {
+                "name": "1.10: Multi File Refactor",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.10-multi-file-refactor"
               }
             ]
           },
+          "inClass": {
+            "items": [
+              {
+                "name": "Peer-Review: 1.POCE.4: Timer",
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#peer-code-review"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "1.POCE.5: Tic Tac Toe",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.poce-post-class-exercises/1.poce.5-tic-tac-toe"
+              }
+            ]
+          },
+          "dayIndex": 5
+        },
+        "css": {
+          "type": "css",
+          "preClass": {
+            "items": [
+              {
+                "name": "CSS.2.3: Box Model",
+                "url": "https://bootcamp.rocketacademy.co/css/css.2-layout/css.2.3-box-model"
+              },
+              {
+                "name": "CSS.2.4: Layout Width",
+                "url": "https://bootcamp.rocketacademy.co/css/css.2-layout/css.2.4-layout-fixed-width-and-max-width"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {},
+          "dayIndex": 5
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
           "inClass": {},
           "postClass": {}
         }
@@ -121,150 +475,654 @@
     {
       "courseDay": 6,
       "dateTypes": {
-        "module": "Module 1: Basic Frontend",
+        "module": "Module 1: Frontend Basics",
         "general": {
           "type": "general",
           "preClass": {
             "items": [
               {
-                "name": "Day 6 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-6"
+                "name": "1.11: CSS Control with DOM",
+                "url": "https://bootcamp.rocketacademy.co/1-frontend-basics/1.11-css-control-with-dom"
+              },
+              {
+                "name": "0.4: JS Object as Tally",
+                "url": "https://bootcamp.rocketacademy.co/0-language-and-tooling/0.4-js-object-as-tally"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "Peer-Review: 1.POCE.5: Tic Tac Toe",
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#peer-code-review"
+              }
+            ]
+          },
+          "postClass": {},
+          "dayIndex": 6
+        },
+        "css": {
+          "type": "css",
+          "preClass": {
+            "items": [
+              {
+                "name": "CSS.2.5: Display Inline Block",
+                "url": "https://bootcamp.rocketacademy.co/css/css.2-layout/css.2.5-display-inline-block"
+              },
+              {
+                "name": "CSS.2.6: Layout Col / Card",
+                "url": "https://bootcamp.rocketacademy.co/css/css.2-layout/css.2.6-layout-columns-and-cards"
               }
             ]
           },
           "inClass": {},
+          "postClass": {},
+          "dayIndex": 6
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {},
+          "inClass": {},
           "postClass": {}
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {
+            "items": [
+              {
+                "name": "Start: Project 1 Video Poker",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-1-video-poker"
+              }
+            ]
+          },
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 1 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-1-video-poker"
+              }
+            ]
+          },
+          "dayIndex": 6
         }
       }
     },
     {
       "courseDay": 7,
       "dateTypes": {
-        "module": "Module 1: Basic Frontend",
+        "module": "Module 1: Frontend Basics",
         "general": {
           "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
           "preClass": {
             "items": [
               {
-                "name": "Day 7 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-7"
+                "name": "CSS.2.7: Position",
+                "url": "https://bootcamp.rocketacademy.co/css/css.2-layout/css.2.7-position"
+              },
+              {
+                "name": "CSS.2.8: Float",
+                "url": "https://bootcamp.rocketacademy.co/css/css.2-layout/css.2.8-float"
               }
             ]
           },
+          "inClass": {
+            "items": [
+              {
+                "name": "CSS.ICE.1: Portfolio Site",
+                "url": "https://bootcamp.rocketacademy.co/css/css.ice-in-class-exercises/css.ice.1-portfolio-site"
+              }
+            ]
+          },
+          "postClass": {},
+          "dayIndex": 7
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {},
           "inClass": {},
           "postClass": {}
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 1 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 1 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-1-video-poker"
+              }
+            ]
+          },
+          "dayIndex": 7
         }
       }
     },
     {
       "courseDay": 8,
       "dateTypes": {
-        "module": "Module 1: Basic Frontend",
+        "module": "Module 1: Frontend Basics",
         "general": {
           "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {},
+          "dayIndex": 8
+        },
+        "css": {
+          "type": "css",
           "preClass": {
             "items": [
               {
-                "name": "Day 8 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-8"
+                "name": "CSS.3: Flexbox",
+                "url": "https://bootcamp.rocketacademy.co/css/css.3-flexbox"
+              },
+              {
+                "name": "CSS.3.1: Flexbox Columns",
+                "url": "https://bootcamp.rocketacademy.co/css/css.3-flexbox/css.3.1-flexbox-layout"
               }
             ]
           },
+          "inClass": {
+            "items": [
+              {
+                "name": "CSS.ICE.2: Wikipedia",
+                "url": "https://bootcamp.rocketacademy.co/css/css.ice-in-class-exercises/css.ice.2-wikipedia"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "CSS.POCE.1: Flexbox Docs Page",
+                "url": "https://bootcamp.rocketacademy.co/css/css.poce-post-class-exercises/css.poce.1-flexbox-docs-page"
+              }
+            ]
+          },
+          "dayIndex": 8
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {},
           "inClass": {},
           "postClass": {}
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 1 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 1 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-1-video-poker"
+              }
+            ]
+          },
+          "dayIndex": 8
         }
       }
     },
     {
       "courseDay": 9,
       "dateTypes": {
-        "module": "Module 1: Basic Frontend",
+        "module": "Module 1: Frontend Basics",
         "general": {
           "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
           "preClass": {
             "items": [
               {
-                "name": "Day 9 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-9"
+                "name": "CSS.4 Responsive Design",
+                "url": "https://bootcamp.rocketacademy.co/css/css.4-responsive-design"
+              },
+              {
+                "name": "CSS.5: Web Design Basics",
+                "url": "https://bootcamp.rocketacademy.co/css/css.5-web-design-basics"
               }
             ]
           },
+          "inClass": {
+            "items": [
+              {
+                "name": "CSS.ICE.4: Etsy",
+                "url": "https://bootcamp.rocketacademy.co/css/css.ice-in-class-exercises/css.ice.4-etsy"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "CSS.POCE.2: Flexbox Personal Page",
+                "url": "https://bootcamp.rocketacademy.co/css/css.poce-post-class-exercises/css.poce.2-flexbox-personal-page"
+              }
+            ]
+          },
+          "dayIndex": 9
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {},
           "inClass": {},
           "postClass": {}
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 1 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 1 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-1-video-poker"
+              }
+            ]
+          },
+          "dayIndex": 9
         }
       }
     },
     {
       "courseDay": 10,
       "dateTypes": {
-        "module": "Module 1: Basic Frontend",
+        "module": "Module 1: Frontend Basics",
         "general": {
           "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
           "preClass": {
             "items": [
               {
-                "name": "Day 10 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-10"
+                "name": "CSS.6: Bootstrap (Day 1)",
+                "url": "https://bootcamp.rocketacademy.co/css/css.6-bootstrap"
               }
             ]
           },
+          "inClass": {
+            "items": [
+              {
+                "name": "CSS.ICE.3: MyTunes",
+                "url": "https://bootcamp.rocketacademy.co/css/css.ice-in-class-exercises/css.ice.3-mytunes"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "CSS.POCE.3: Bootstrap Columns",
+                "url": "https://bootcamp.rocketacademy.co/css/css.poce-post-class-exercises/css.poce.3-bootstrap-columns"
+              }
+            ]
+          },
+          "dayIndex": 10
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {},
           "inClass": {},
           "postClass": {}
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 1 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 1 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-1-video-poker"
+              },
+              {
+                "name": "Project 1: Deploy to GitHub Pages (Project site, skip to Repository Settings)",
+                "url": "https://pages.github.com/"
+              }
+            ]
+          },
+          "dayIndex": 10
         }
       }
     },
     {
       "courseDay": 11,
       "dateTypes": {
-        "module": "Module 1: Basic Frontend",
+        "module": "Module 1: Frontend Basics",
         "general": {
           "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
           "preClass": {
             "items": [
               {
-                "name": "Day 11 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-11"
+                "name": "CSS.6: Bootstrap (Day 2)",
+                "url": "https://bootcamp.rocketacademy.co/css/css.6-bootstrap"
               }
             ]
           },
+          "inClass": {
+            "items": [
+              {
+                "name": "CSS.ICE.5: Restaurant",
+                "url": "https://bootcamp.rocketacademy.co/css/css.ice-in-class-exercises/css.ice.5-restaurant"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "CSS.POCE.4: Bootstrap Adobe",
+                "url": "https://bootcamp.rocketacademy.co/css/css.poce-post-class-exercises/css.poce.4-bootstrap-adobe"
+              }
+            ]
+          }
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {},
           "inClass": {},
           "postClass": {}
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 1 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 1 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-1-video-poker"
+              }
+            ]
+          },
+          "dayIndex": 11
         }
       }
     },
     {
       "courseDay": 12,
       "dateTypes": {
-        "module": "Module 1: Basic Frontend",
+        "module": "Module 1: Frontend Basics",
         "general": {
           "type": "general",
-          "preClass": {
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {
             "items": [
               {
-                "name": "Day 12 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-12"
+                "name": "Due: Project 1 Video Poker",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-1-video-poker"
               }
             ]
           },
-          "inClass": {},
-          "postClass": {}
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 1 Presentations",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-1-video-poker"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 1 Post-Mortems",
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#post-mortem"
+              }
+            ]
+          },
+          "dayIndex": 12
         }
       }
     },
     {
       "courseDay": 13,
       "dateTypes": {
-        "module": "Module 1: Basic Frontend",
+        "module": "Module 2: Backend Basics",
         "general": {
           "type": "general",
           "preClass": {
             "items": [
               {
-                "name": "Day 13 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-13"
+                "name": "2.0: Module 2 Overview",
+                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.0-module-2-overview"
+              },
+              {
+                "name": "2.1: My First Node.js Program",
+                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.1-my-first-node-program"
+              },
+              {
+                "name": "2.2: Command Line Programs",
+                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.2-command-line-programs"
+              },
+              {
+                "name": "2.3: Modules",
+                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.3-modules"
               }
             ]
           },
+          "inClass": {
+            "items": [
+              {
+                "name": "2.ICE.1: Conversions",
+                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.ice-in-class-exercises/2.ice.1-conversions"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "2.POCE.1: Command Line Colour Converter",
+                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.poce-post-class-exercises/2.poce.1-command-line-colour-converter"
+              }
+            ]
+          },
+          "dayIndex": 13
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
           "inClass": {},
           "postClass": {}
         }
@@ -273,17 +1131,77 @@
     {
       "courseDay": 14,
       "dateTypes": {
-        "module": "Module 1: Basic Frontend",
+        "module": "Module 2: Backend Basics",
         "general": {
           "type": "general",
           "preClass": {
             "items": [
               {
-                "name": "Day 14 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-14"
+                "name": "2.4: Disk Reading",
+                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.4-disk-reading"
+              },
+              {
+                "name": "2.5: Disk Writing",
+                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.5-disk-writing"
+              },
+              {
+                "name": "2.6: Disk Altering",
+                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.6-disk-altering"
               }
             ]
           },
+          "inClass": {
+            "items": [
+              {
+                "name": "2.ICE.2: Modules, Disk Reading",
+                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.ice-in-class-exercises/2.ice.2-modules-disk-reading"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "2.POCE.2: CSS Reader",
+                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.poce-post-class-exercises/2.poce.2-css-reader"
+              },
+              {
+                "name": "2.POCE.3: CSS Processor",
+                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.poce-post-class-exercises/2.poce.3-css-processor"
+              }
+            ]
+          },
+          "dayIndex": 14
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
           "inClass": {},
           "postClass": {}
         }
@@ -292,17 +1210,75 @@
     {
       "courseDay": 15,
       "dateTypes": {
-        "module": "Module 1: Basic Frontend",
+        "module": "Module 2: Backend Basics",
         "general": {
           "type": "general",
+          "projectStart": {},
+          "projectDue": {},
           "preClass": {
             "items": [
               {
-                "name": "Day 15 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-15"
+                "name": "2.7: Internet 101",
+                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.7-internet-101"
+              },
+              {
+                "name": "2.8: Chrome Networking",
+                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.8-chrome-networking"
               }
             ]
           },
+          "inClass": {
+            "items": [
+              {
+                "name": "2.ICE.3: Disk Altering",
+                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.ice-in-class-exercises/2.ice.3-disk-altering"
+              },
+              {
+                "name": "Review 2.POCE.2: CSS Reader",
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#peer-code-review"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "2.POCE.3: CSS Processor",
+                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.poce-post-class-exercises/2.poce.3-css-processor"
+              }
+            ]
+          },
+          "dayIndex": 15
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
           "inClass": {},
           "postClass": {}
         }
@@ -311,22 +1287,83 @@
     {
       "courseDay": 16,
       "dateTypes": {
-        "module": "Module 1: Basic Frontend",
+        "module": "Module 2: Backend Basics",
         "general": {
           "type": "general",
           "preClass": {
             "items": [
               {
-                "name": "Day 16 Coursework",
-                "url": "https://swebootcamp.rocketacademy.co/module-1-basic-frontend/day-16"
+                "name": "2.9: HTTP Requests and Responses",
+                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.9-http"
+              },
+              {
+                "name": "2.10: HTTP File Server",
+                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.10-http-file-server"
+              },
+              {
+                "name": "Install ngrok. We will use it in 2.ICE.4.",
+                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.0-module-2-overview#ngrok"
               }
             ]
           },
+          "inClass": {
+            "items": [
+              {
+                "name": "2.ICE.4: Servers and Requests",
+                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.ice-in-class-exercises/2.ice.4-servers-and-requests"
+              },
+              {
+                "name": "Review 2.POCE.3: CSS Processor",
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#peer-code-review"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "2.POCE.4: File Server",
+                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.poce-post-class-exercises/2.poce.4-file-server"
+              }
+            ]
+          },
+          "dayIndex": 16
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
           "inClass": {},
           "postClass": {}
         }
       }
     },
+
     {
       "courseDay": 17,
       "dateTypes": {

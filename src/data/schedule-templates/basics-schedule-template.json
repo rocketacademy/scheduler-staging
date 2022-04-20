@@ -102,7 +102,7 @@
             "items": [
               {
                 "name": "Review Social Rules",
-                "url": "https://basics.rocketacademy.co/course-logistics/love-social-rules"
+                "url": "https://basics.rocketacademy.co/logistics/love-social-rules"
               },
               {
                 "name": "5.1: Functions",
@@ -303,7 +303,7 @@
             "items": [
               {
                 "name": "Coding Strategies",
-                "url": "https://basics.rocketacademy.co/course-logistics/coding-strategies"
+                "url": "https://basics.rocketacademy.co/logistics/coding-strategies"
               },
               {
                 "name": "9.1: Arrays",
@@ -511,7 +511,7 @@
               },
               {
                 "name": "12.3: Project Deployment",
-                "url": "https://basics.rocketacademy.co/12-next-steps/12.3-deployment"
+                "url": "https://pages.github.com/"
               }
             ]
           },
@@ -574,7 +574,7 @@
               },
               {
                 "name": "Project presentations",
-                "url": "https://basics.rocketacademy.co/course-logistics/course-methodology#project-presentations"
+                "url": "https://basics.rocketacademy.co/logistics/course-methodology#presentations"
               },
               {
                 "name": "LinkedIn certificate presentations"
@@ -599,7 +599,7 @@
               },
               {
                 "name": "Deploy Blackjack to the internet with instructions from Module 12.3: Deployment",
-                "url": "https://basics.rocketacademy.co/12-next-steps/12.3-deployment"
+                "url": "https://pages.github.com/"
               }
             ]
           }
