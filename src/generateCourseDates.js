@@ -224,7 +224,7 @@ const generateDataObject = (startDate, batchNum, courseType, input, lessonDays) 
     }
     data.days[dateString] = dateObj;
 
-    // used to check for first day of basics course
+    // Check for first day of Basics course
     const firstDay = DateTime.fromFormat(startDate, 'yyyy-MM-dd').toFormat('dd-MM-yyyy');
     const formattedDate = date.toFormat('dd-MM-yyyy');
 
@@ -234,10 +234,9 @@ const generateDataObject = (startDate, batchNum, courseType, input, lessonDays) 
       weekDay += 1;
       week += 1;
 
-      // checking if the last day of bootcamp is a friday, if not, we need to add days to schedule
-      // to make it end on a friday
+      // If last day of FTBC is not Friday, add days to schedule to end on Friday
     } else if (courseType === 'FTBC' && data.days[date.toFormat('dd-MM-yyyy')].courseDay === 112 && date.weekday !== 2) {
-      // getting the number days to Friday
+      // Get number of days to Friday
       let differenceInDays;
       if (date.weekday === 1) {
         differenceInDays = 5 - date.weekday;
@@ -250,7 +249,7 @@ const generateDataObject = (startDate, batchNum, courseType, input, lessonDays) 
         differenceInDays = 9;
       }
 
-      // getting the extra dates to Friday
+      // Get extra dates to Friday
       const datesToAdd = [];
       for (let i = 1; i <= differenceInDays; i += 1) {
         const newDate = date.plus({ days: i }).toFormat('dd-MM-yyyy');
@@ -261,8 +260,8 @@ const generateDataObject = (startDate, batchNum, courseType, input, lessonDays) 
         }
       }
 
-      // put all dates we want to add to schedule in combinedDates array
-      // take into consideration possibility of public holiday occuring during those days
+      // Put all dates to add to schedule in combinedDates array
+      // Consider possibility of public holiday occuring during those days
       const newDateObjectsArray = [];
       for (let k = 0; k < datesToAdd.length; k += 1) {
         let addedCourseday;
@@ -277,8 +276,8 @@ const generateDataObject = (startDate, batchNum, courseType, input, lessonDays) 
         };
         newDateObjectsArray.push(dateInfo);
       }
-      // third last courseday is feature freeze day
-      // move it forward if this day falls on a public holiday
+      // Third-last courseday is feature freeze day
+      // Move forward if day falls on public holiday
       let featureFreezeDay;
       if (phWithoutCh.includes(newDateObjectsArray[newDateObjectsArray.length - 3].date)) {
         featureFreezeDay = newDateObjectsArray[newDateObjectsArray.length - 4].date;
@@ -286,8 +285,8 @@ const generateDataObject = (startDate, batchNum, courseType, input, lessonDays) 
         featureFreezeDay = newDateObjectsArray[newDateObjectsArray.length - 3].date;
       }
 
-      // end date of course is project presentation day
-      // move it forward if this day falls on a public holiday
+      // End date is project presentation day
+      // Move forward if day falls on public holiday
       let endDate;
       if (phWithoutCh.includes(newDateObjectsArray[newDateObjectsArray.length - 1].date)) {
         endDate = newDateObjectsArray[newDateObjectsArray.length - 2].date;
@@ -295,14 +294,14 @@ const generateDataObject = (startDate, batchNum, courseType, input, lessonDays) 
         endDate = newDateObjectsArray[newDateObjectsArray.length - 1].date;
       }
 
-      // needed to find totalcourse days after adding days
+      // Find total course days after adding days
       let lastCourseDay;
-      // generate new dateObjs
+      // Generate new dateObj
       for (let j = 0; j < newDateObjectsArray.length; j += 1) {
         const targetWeekday = DateTime.fromFormat(newDateObjectsArray[j].date, 'dd-MM-yyyy').weekday;
         const newDate = DateTime.fromFormat(newDateObjectsArray[j].date, 'dd-MM-yyyy');
         utc = getLocalDateTime(utc, 'T13:00', courseType, newDate);
-        // helper function for adding dateObj to schedule data
+        // Helper function to add dateObj to schedule data
         const addDateObjToSchedule = (dateObj) => {
           data.days[newDateObjectsArray[j].date] = dateObj;
           data.days[newDateObjectsArray[j].date].courseDay = newDateObjectsArray[j].courseday;
@@ -328,13 +327,12 @@ const generateDataObject = (startDate, batchNum, courseType, input, lessonDays) 
       data.totalCourseDays = lastCourseDay;
       break;
     } else {
-      // first meeting of basics is a pre-course meeting that always starts on a saturday
-      // (not included in daysOfWeek)
-      // this is the end of the dayArray (last day of the week)
+      // First Basics class is pre-course briefing on Saturday (not included in daysOfWeek)
+      // This end of dayArray (last day of week)
       if ((dayIndex === dayArray.length - 1)
                 || (formattedDate === firstDay && courseType === 'Basics')) {
         weekDay = 1;
-        // return to beginning of array (return to beginning of week)
+        // Return to beginning of array (return to beginning of week)
         dayIndex = 0;
         date = date.plus({ weeks: 1 }).set({ weekday: dayArray[dayIndex] });
         dateWeek = dateWeek.plus({ weeks: 1 });
@@ -343,7 +341,7 @@ const generateDataObject = (startDate, batchNum, courseType, input, lessonDays) 
         }
         utc = getLocalDateTime(utc, basicsTimeslots[0], courseType, date);
       } else {
-        // day within the week
+        // Day within week
         dayIndex += 1;
         date = date.set({ weekday: dayArray[dayIndex] });
         if (!phWithoutCh.includes(dateString)) {
@@ -352,7 +350,7 @@ const generateDataObject = (startDate, batchNum, courseType, input, lessonDays) 
         utc = getLocalDateTime(utc, basicsTimeslots[1], courseType, date);
       }
     }
-    // increase classDatesCount regardless of whether it is a public holiday
+    // Increase classDatesCount regardless of whether day is public holiday
     classDatesCount += 1;
   }
   console.log('data', data);
