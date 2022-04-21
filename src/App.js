@@ -8,7 +8,9 @@ import {
 import ftbc6 from './data/10-01-2022_01-07-2022_FTBC6.json';
 import ftbc7 from './data/28-03-2022_15-09-2022_FTBC7.json';
 import ptbc1 from './data/17-08-2021_13-08-2022_PTBC1.json';
+import ptbc1New from './data/17-08-2021_23-07-2022_PTBC1 (v1.1).json';
 import ptbc2 from './data/16-11-2021_12-11-2022_PTBC2.json';
+import ptbc2New from './data/16-11-2021_25-10-2022_PTBC2 (v1.1).json';
 import ptbc3 from './data/12-03-2022_18-02-2023_PTBC3.json';
 
 import ScheduleContainer from './components/schedules/ScheduleContainer';
@@ -18,12 +20,12 @@ function App() {
   // Create array of batch data for components for /schedule and /admin
   const batchArray = [
     { name: 'ptbc1', content: ptbc1 },
+    { name: 'ptbc1New', content: ptbc1New },
     { name: 'ptbc2', content: ptbc2 },
+    { name: 'ptbc2New', content: ptbc2New },
     { name: 'ptbc3', content: ptbc3 },
-    // { name: 'ptbc3New', content: ptbc3New },
     { name: 'ftbc6', content: ftbc6 },
     { name: 'ftbc7', content: ftbc7 }];
-  // { name: 'ftbc7New', content: ftbc7New }];
 
   return (
     <div className="App">

@@ -4,8 +4,8 @@ import basicsData from './data/schedule-templates/basics-schedule-template.json'
 // import ftbcDataJson from './data/schedule-templates/ftbc1.0-schedule-template.json';
 import ftbcDataJson from './data/schedule-templates/ftbc2.0-schedule-template.json';
 // import ftbcDataJson from './data/schedule-templates/ftbc3.0-schedule-template.json';
-// import ptbcDataJson from './data/schedule-templates/ptbc1.0-schedule-template.json';
-import ptbcDataJson from './data/schedule-templates/ptbc2.0-schedule-template.json';
+import ptbcDataJson from './data/schedule-templates/ptbc1.0-schedule-template.json';
+// import ptbcDataJson from './data/schedule-templates/ptbc2.0-schedule-template.json';
 
 const publicHolidays = holidayData.PH;
 const publicHolidayArray = [];
