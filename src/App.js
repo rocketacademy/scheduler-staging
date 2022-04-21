@@ -7,11 +7,9 @@ import {
 
 import ftbc6 from './data/10-01-2022_01-07-2022_FTBC6.json';
 import ftbc7 from './data/28-03-2022_15-09-2022_FTBC7.json';
-// import ftbc7New from './data/28-03-2022_15-09-2022_FTBC7 (v1.1).json';
 import ptbc1 from './data/17-08-2021_13-08-2022_PTBC1.json';
 import ptbc2 from './data/16-11-2021_12-11-2022_PTBC2.json';
 import ptbc3 from './data/12-03-2022_18-02-2023_PTBC3.json';
-// import ptbc3New from './data/12-03-2022_18-02-2023_PTBC3 (v1.1).json';
 
 import ScheduleContainer from './components/schedules/ScheduleContainer';
 import TabsContainer from './components/admin/Tabs';
