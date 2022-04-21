@@ -3507,11 +3507,29 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Due: Project 2: Server-Side App",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app"
+              }
+            ]
+          },
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 2 Presentations",
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#presentations"
+              }
+            ]
+          },
           "postClass": {
             "items": [
+              {
+                "name": "Project 2 Post-Mortems",
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#post-mortem"
+              },
               {
                 "name": "Project 2 Demo Video",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#video-demo"
