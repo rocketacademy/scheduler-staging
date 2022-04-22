@@ -1,8 +1,8 @@
 {
   "repoUrls": {
-    "edit": "https://github.com/rocketacademy/scheduler/edit/main/src/data/schedule-templates/ftbc3.0-schedule-template.json"
+    "edit": "https://github.com/rocketacademy/scheduler/edit/main/src/data/schedule-templates/ptbc3.0-schedule-template.json"
   },
-  "daysOfWeek": [1, 2, 3, 4],
+  "daysOfWeek": [2, 6],
   "courseStartIndex": 0,
   "totalCourseDays": 64,
   "days": [
