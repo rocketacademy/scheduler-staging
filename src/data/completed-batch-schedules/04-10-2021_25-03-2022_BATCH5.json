@@ -4867,7 +4867,7 @@
       "courseWeek": null,
       "dayNumber": 1,
       "dateTypes": {
-        "holidayType": "company holiday",
+        "holidayType": "school holiday",
         "date": "27-12-2021",
         "location": "SG",
         "name": "winter break"
@@ -4879,7 +4879,7 @@
       "courseWeek": null,
       "dayNumber": 2,
       "dateTypes": {
-        "holidayType": "company holiday",
+        "holidayType": "school holiday",
         "date": "28-12-2021",
         "location": "SG",
         "name": "winter break"
@@ -4891,7 +4891,7 @@
       "courseWeek": null,
       "dayNumber": 3,
       "dateTypes": {
-        "holidayType": "company holiday",
+        "holidayType": "school holiday",
         "date": "29-12-2021",
         "location": "SG",
         "name": "winter break"
@@ -4903,7 +4903,7 @@
       "courseWeek": null,
       "dayNumber": 4,
       "dateTypes": {
-        "holidayType": "company holiday",
+        "holidayType": "school holiday",
         "date": "30-12-2021",
         "location": "SG",
         "name": "winter break"
@@ -4915,7 +4915,7 @@
       "courseWeek": null,
       "dayNumber": 5,
       "dateTypes": {
-        "holidayType": "company holiday",
+        "holidayType": "school holiday",
         "date": "31-12-2021",
         "location": "SG",
         "name": "winter break"

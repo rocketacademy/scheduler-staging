@@ -1,7 +1,7 @@
-import React from "react";
-import Accordion from "react-bootstrap/Accordion";
-import AddIcon from "@material-ui/icons/Add";
-import Section from "./inner-accordion/Section";
+import React from 'react';
+import Accordion from 'react-bootstrap/Accordion';
+import AddIcon from '@material-ui/icons/Add';
+import Section from './inner-accordion/Section';
 
 function MainAccordion({
   dayIndex,
@@ -14,10 +14,8 @@ function MainAccordion({
   setAccordionKey,
   accordionKey,
   setDaysInBatchFile,
-  setDaysInMainFile
+  setDaysInMainFile,
 }) {
-  
-
   const handlePlusClick = (day) => {
     console.log(day);
     setCourseDate(day);
@@ -30,24 +28,37 @@ function MainAccordion({
         <Accordion key={accordionKey}>
           <Accordion.Item eventKey={dayIndex}>
             <div
-                className="course-day-symbol"
-                onClick={() => handlePlusClick(day)}
-              >
-                {" "}
-                <AddIcon />
+              className="course-day-symbol"
+              onClick={() => handlePlusClick(day)}
+            >
+              {' '}
+              <AddIcon />
             </div>
             <Accordion.Header>
               <div className="course-day-header">
                 {bootcampData.constructor === Object ? (
                   <>
-                    {day}, Week: {bootcampData[day].courseWeek}, Course Day:{" "}
-                    {bootcampData[day].courseDay},{" "}
-                    {bootcampData[day].dateTypes.module}{" "}
+                    {day}
+                    , Week:
+                    {' '}
+                    {bootcampData[day].courseWeek}
+                    , Course Day:
+                    {' '}
+                    {bootcampData[day].courseDay}
+                    ,
+                    {' '}
+                    {bootcampData[day].dateTypes.module}
+                    {' '}
                   </>
                 ) : (
                   <>
-                    Course Day: {bootcampData[day].courseDay},{" "}
-                    {bootcampData[day].dateTypes.module}{" "}
+                    Course Day:
+                    {' '}
+                    {bootcampData[day].courseDay}
+                    ,
+                    {' '}
+                    {bootcampData[day].dateTypes.module}
+                    {' '}
                   </>
                 )}
               </div>
@@ -67,7 +78,7 @@ function MainAccordion({
                         setDaysInBatchFile={setDaysInBatchFile}
                         setDaysInMainFile={setDaysInMainFile}
                       />
-                    )
+                    ),
                   )}
                 </div>
               </div>

@@ -2937,7 +2937,7 @@
       "courseWeek": 20,
       "dayNumber": 2,
       "dateTypes": {
-        "holidayType": "company holiday",
+        "holidayType": "school holiday",
         "date": "28-12-2021",
         "location": "SG",
         "name": "winter break"
@@ -2949,7 +2949,7 @@
       "courseWeek": 20,
       "dayNumber": 6,
       "dateTypes": {
-        "holidayType": "company holiday",
+        "holidayType": "school holiday",
         "date": "01-01-2022",
         "location": "SG",
         "name": "winter break"

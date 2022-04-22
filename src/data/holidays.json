@@ -1,5 +1,5 @@
 {
-  "PH": {
+  "publicHolidays": {
     "01-01-2021": {
       "holidayType": "public holiday",
       "date": "01-01-2021",
@@ -133,52 +133,142 @@
       "name": "Christmas Day (observed)"
     }
   },
-  "company": {
+  "schoolHolidays": {
     "26-12-2021": {
-      "holidayType": "company holiday",
+      "holidayType": "school holiday",
       "date": "26-12-2021",
       "location": "SG",
       "name": "winter break"
     },
     "27-12-2021": {
-      "holidayType": "company holiday",
+      "holidayType": "school holiday",
       "date": "27-12-2021",
       "location": "SG",
       "name": "winter break"
     },
     "28-12-2021": {
-      "holidayType": "company holiday",
+      "holidayType": "school holiday",
       "date": "28-12-2021",
       "location": "SG",
       "name": "winter break"
     },
     "29-12-2021": {
-      "holidayType": "company holiday",
+      "holidayType": "school holiday",
       "date": "29-12-2021",
       "location": "SG",
       "name": "winter break"
     },
     "30-12-2021": {
-      "holidayType": "company holiday",
+      "holidayType": "school holiday",
       "date": "30-12-2021",
       "location": "SG",
       "name": "winter break"
     },
     "31-12-2021": {
-      "holidayType": "company holiday",
+      "holidayType": "school holiday",
       "date": "31-12-2021",
       "location": "SG",
       "name": "winter break"
     },
     "01-01-2022": {
-      "holidayType": "company holiday",
+      "holidayType": "school holiday",
       "date": "01-01-2022",
       "location": "SG",
       "name": "winter break"
     },
-    "02-01-2022": {
-      "holidayType": "company holiday",
-      "date": "02-01-2022",
+    "18-12-2022": {
+      "holidayType": "school holiday",
+      "date": "18-12-2022",
+      "location": "SG",
+      "name": "winter break"
+    },
+    "19-12-2022": {
+      "holidayType": "school holiday",
+      "date": "19-12-2022",
+      "location": "SG",
+      "name": "winter break"
+    },
+    "20-12-2022": {
+      "holidayType": "school holiday",
+      "date": "20-12-2022",
+      "location": "SG",
+      "name": "winter break"
+    },
+    "21-12-2022": {
+      "holidayType": "school holiday",
+      "date": "21-12-2022",
+      "location": "SG",
+      "name": "winter break"
+    },
+    "22-12-2022": {
+      "holidayType": "school holiday",
+      "date": "22-12-2022",
+      "location": "SG",
+      "name": "winter break"
+    },
+    "23-12-2022": {
+      "holidayType": "school holiday",
+      "date": "23-12-2022",
+      "location": "SG",
+      "name": "winter break"
+    },
+    "24-12-2022": {
+      "holidayType": "school holiday",
+      "date": "24-12-2022",
+      "location": "SG",
+      "name": "winter break"
+    },
+    "25-12-2022": {
+      "holidayType": "school holiday",
+      "date": "25-12-2022",
+      "location": "SG",
+      "name": "winter break"
+    },
+    "26-12-2022": {
+      "holidayType": "school holiday",
+      "date": "26-12-2022",
+      "location": "SG",
+      "name": "winter break"
+    },
+    "27-12-2022": {
+      "holidayType": "school holiday",
+      "date": "27-12-2022",
+      "location": "SG",
+      "name": "winter break"
+    },
+    "28-12-2022": {
+      "holidayType": "school holiday",
+      "date": "28-12-2022",
+      "location": "SG",
+      "name": "winter break"
+    },
+    "29-12-2022": {
+      "holidayType": "school holiday",
+      "date": "29-12-2022",
+      "location": "SG",
+      "name": "winter break"
+    },
+    "30-12-2022": {
+      "holidayType": "school holiday",
+      "date": "30-12-2022",
+      "location": "SG",
+      "name": "winter break"
+    },
+    "31-12-2022": {
+      "holidayType": "school holiday",
+      "date": "31-12-2022",
+      "location": "SG",
+      "name": "winter break"
+    },
+    "01-01-2023": {
+      "holidayType": "school holiday",
+      "date": "01-01-2023",
+      "location": "SG",
+      "name": "winter break"
+    },
+    "02-01-2023": {
+      "holidayType": "school holiday",
+      "date": "02-01-2023",
       "location": "SG",
       "name": "winter break"
     }

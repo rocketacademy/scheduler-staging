@@ -1,13 +1,13 @@
-import React from "react";
-import { DateTime } from "luxon";
+import React from 'react';
+import { DateTime } from 'luxon';
 
-// helper function that generates course day header for a normal course day
-const NormalCourseDay = ({ todaySectionHeader, day, timeZoneSet, id }) => {
+// Generate course day header for normal course day
+function NormalCourseDay({ todaySectionHeader, day, timeZoneSet }) {
   localDate = DateTime.fromISO(day.meetingDateTimeUTC, { zone: timeZoneSet });
-  formattedDate = localDate.toFormat("EEE d MMM");
-  meetingTime = localDate.toFormat("t");
-  timeOffset = localDate.toFormat("ZZZZ");
-  timeZone = localDate.toFormat("z");
+  formattedDate = localDate.toFormat('EEE d MMM');
+  meetingTime = localDate.toFormat('t');
+  timeOffset = localDate.toFormat('ZZZZ');
+  timeZone = localDate.toFormat('z');
 
   return (
     <>
@@ -16,7 +16,12 @@ const NormalCourseDay = ({ todaySectionHeader, day, timeZoneSet, id }) => {
           <div className="main-header">
             {!todaySectionHeader ? (
               <h3 className="day-header">
-                {formattedDate}, Week {day.courseWeek}, Course Day{" "}
+                {formattedDate}
+                , Week
+                {' '}
+                {day.courseWeek}
+                , Course Day
+                {' '}
                 {day.courseDay}
               </h3>
             ) : (
@@ -24,7 +29,13 @@ const NormalCourseDay = ({ todaySectionHeader, day, timeZoneSet, id }) => {
             )}
           </div>
           <p>
-            Meeting Time: {meetingTime} SGT ({timeOffset})
+            Meeting Time:
+            {' '}
+            {meetingTime}
+            {' '}
+            SGT (
+            {timeOffset}
+            )
           </p>
           {day.courseDay > 0 && (
             <p>{day.dateTypes.module}</p>
@@ -33,19 +44,19 @@ const NormalCourseDay = ({ todaySectionHeader, day, timeZoneSet, id }) => {
       )}
     </>
   );
-};
+}
 
 // helper function that generates courseday header for a holiday
-const HolidayCourseDay = ({ day, timeZoneSet, id }) => {
-  localDate = DateTime.fromFormat(day.courseDate, "dd-MM-yyyy");
-  formattedDate = localDate.toFormat("EEE d MMM");
-  timeZone = localDate.toFormat("z");
-  // depending on if the holiday is a public/company holiday,
+function HolidayCourseDay({ day, timeZoneSet }) {
+  localDate = DateTime.fromFormat(day.courseDate, 'dd-MM-yyyy');
+  formattedDate = localDate.toFormat('EEE d MMM');
+  timeZone = localDate.toFormat('z');
+  // depending on if the holiday is a public/school holiday,
   // a different output will be rendered
-  if (day.dateTypes.holidayType === "public holiday") {
-    holiday = `Public Holiday (${day.dateTypes.name})`;
+  if (day.dateTypes.holidayType === 'public holiday') {
+    holiday = `${day.dateTypes.location} Public Holiday (${day.dateTypes.name})`;
   } else {
-    holiday = `Company Holiday (${day.dateTypes.name})`;
+    holiday = 'School Holiday';
   }
 
   return (
@@ -53,13 +64,13 @@ const HolidayCourseDay = ({ day, timeZoneSet, id }) => {
       {timeZone === timeZoneSet && (
         <div className="main-header">
           <h2>
-            {formattedDate}: {day.dateTypes.location} {holiday}
+            {`${formattedDate}: ${holiday}`}
           </h2>
         </div>
       )}
     </>
   );
-};
+}
 
 let localDate;
 let formattedDate;
@@ -72,9 +83,9 @@ let holiday;
 // ######################################################
 
 // function that generates the header for each course day
-const GenerateCourseDayHeader = ({ todaySectionHeader, day, coursetype }) => {
+function GenerateCourseDayHeader({ todaySectionHeader, day }) {
   // this is the timezone of the area we are in
-  const timeZoneSet = "Asia/Singapore";
+  const timeZoneSet = 'Asia/Singapore';
 
   if (day.meetingDateTimeUTC) {
     return (
@@ -84,15 +95,14 @@ const GenerateCourseDayHeader = ({ todaySectionHeader, day, coursetype }) => {
         timeZoneSet={timeZoneSet}
       />
     );
-  } else {
-    return (
-      <HolidayCourseDay
-        todaySectionHeader={todaySectionHeader}
-        day={day}
-        timeZoneSet={timeZoneSet}
-      />
-    );
   }
-};
+  return (
+    <HolidayCourseDay
+      todaySectionHeader={todaySectionHeader}
+      day={day}
+      timeZoneSet={timeZoneSet}
+    />
+  );
+}
 
 export default GenerateCourseDayHeader;
