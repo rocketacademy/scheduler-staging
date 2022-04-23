@@ -131,6 +131,72 @@
       "date": "26-12-2022",
       "location": "SG",
       "name": "Christmas Day (observed)"
+    },
+    "02-01-2023": {
+      "holidayType": "public holiday",
+      "date": "02-01-2023",
+      "location": "SG",
+      "name": "New Year's Day (observed)"
+    },
+    "23-01-2023": {
+      "holidayType": "public holiday",
+      "date": "23-01-2023",
+      "location": "SG",
+      "name": "Chinese New Year"
+    },
+    "24-01-2023": {
+      "holidayType": "public holiday",
+      "date": "24-01-2023",
+      "location": "SG",
+      "name": "Chinese New Year"
+    },
+    "07-04-2023": {
+      "holidayType": "public holiday",
+      "date": "07-04-2023",
+      "location": "SG",
+      "name": "Good Friday"
+    },
+    "22-04-2023": {
+      "holidayType": "public holiday",
+      "date": "22-04-2023",
+      "location": "SG",
+      "name": "Hari Raya Puasa"
+    },
+    "01-05-2023": {
+      "holidayType": "public holiday",
+      "date": "01-05-2023",
+      "location": "SG",
+      "name": "Labour Day"
+    },
+    "03-06-2023": {
+      "holidayType": "public holiday",
+      "date": "03-06-2023",
+      "location": "SG",
+      "name": "Vesak Day"
+    },
+    "29-06-2023": {
+      "holidayType": "public holiday",
+      "date": "29-06-2023",
+      "location": "SG",
+      "name": "Hari Raya Haji"
+    },
+    "09-08-2023": {
+      "holidayType": "public holiday",
+      "date": "09-08-2023",
+      "location": "SG",
+      "name": "National Day"
+    },
+    "13-11-2023": {
+      "holidayType": "public holiday",
+      "date": "13-11-2023",
+      "location": "SG",
+      "name": "Deepavali (observed)"
+    },
+    "25-12-2023": {
+      "holidayType": "public holiday",
+      "date": "25-12-2023",
+      "location": "SG",
+      "name": "Christmas Day"
     }
   },
   "schoolHolidays": {

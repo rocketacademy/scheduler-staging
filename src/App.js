@@ -11,7 +11,7 @@ import ptbc1 from './data/17-08-2021_13-08-2022_PTBC1.json';
 // import ptbc1New from './data/17-08-2021_23-07-2022_PTBC1 (v1.1).json';
 import ptbc2 from './data/16-11-2021_12-11-2022_PTBC2.json';
 // import ptbc2New from './data/16-11-2021_25-10-2022_PTBC2 (v1.1).json';
-import ptbc3 from './data/12-03-2022_04-03-2023_PTBC3.json';
+import ptbc3 from './data/12-03-2022_07-03-2023_PTBC3.json';
 
 import ScheduleContainer from './components/schedules/ScheduleContainer';
 import TabsContainer from './components/admin/Tabs';
