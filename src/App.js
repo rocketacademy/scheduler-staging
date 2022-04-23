@@ -18,9 +18,7 @@ function App() {
   // Create array of batch data for components for /schedule and /admin
   const batchArray = [
     { name: 'ptbc1', content: ptbc1 },
-    // { name: 'ptbc1New', content: ptbc1New },
     { name: 'ptbc2', content: ptbc2 },
-    // { name: 'ptbc2New', content: ptbc2New },
     { name: 'ptbc3', content: ptbc3 },
     { name: 'ftbc6', content: ftbc6 },
     { name: 'ftbc7', content: ftbc7 }];
