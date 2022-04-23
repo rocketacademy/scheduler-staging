@@ -4,7 +4,7 @@
   },
   "daysOfWeek": [1, 2, 3, 4],
   "courseStartIndex": 0,
-  "totalCourseDays": 96,
+  "totalCourseDays": 97,
   "days": [
     {
       "courseDay": 0,
