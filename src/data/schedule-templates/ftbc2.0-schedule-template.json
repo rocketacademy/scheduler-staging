@@ -1370,6 +1370,26 @@
           "preClass": {
             "items": [
               {
+                "name": "2.13: JSON",
+                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.13-json"
+              },
+              {
+                "name": "2.13.1: JSON File Storage Module - Add, Read, Write",
+                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.13-json/2.13.1-json-file-storage-module-add-read-write"
+              },
+              {
+                "name": "2.13.2: JSON File Storage Module - Passing Callbacks",
+                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.13-json/2.13.2-json-file-storage-module-passing-callbacks"
+              },
+              {
+                "name": "2.13.3: JSON File Storage Module - Summary",
+                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.13-json/2.13.3-json-file-storage-module-summary"
+              },
+              {
+                "name": "2.14: NPM",
+                "url": "https://bootcamp.rocketacademy.co/2-backend-basics/2.14-npm"
+              },
+              {
                 "name": "3.0: Overview",
                 "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.0-module-3-overview"
               },
@@ -1703,6 +1723,10 @@
               {
                 "name": "3.3.6: SQL Schema Design",
                 "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.3-sql-language/3.3.6-sql-schema-design"
+              },
+              {
+                "name": "3.4.4: PostgreSQL Express App",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.4-postgresql-express-app"
               }
             ]
           },
@@ -1711,18 +1735,18 @@
               {
                 "name": "3.ICE.9: DB Schema Design - Carousell",
                 "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.9-db-schema-design-carousell"
+              },
+              {
+                "name": "Project 2 Ideation Phase 1",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "3.POCE.3: UFO Sightings",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.poce-post-class-exercises/3.poce.3-express-ufos"
-              },
-              {
-                "name": "Project 2 Ideation Phase 1",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
+                "name": "3.POCE.5: Bird Watching",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.poce-post-class-exercises/3.poce.5-bird-watching"
               }
             ]
           },
@@ -1759,7 +1783,14 @@
           "projectDue": {},
           "preClass": {},
           "inClass": {},
-          "postClass": {}
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 2 Ideation Phase 1",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
+              }
+            ]
+          }
         }
       }
     },
@@ -1771,10 +1802,6 @@
           "type": "general",
           "preClass": {
             "items": [
-              {
-                "name": "3.4.4: PostgreSQL Express App",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.4-postgresql-express-app"
-              },
               {
                 "name": "3.3.2: SQL Relationships (One to Many)",
                 "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.3-sql-language/3.3.2-sql-relationships-one-to-many"
@@ -1796,8 +1823,8 @@
           "postClass": {
             "items": [
               {
-                "name": "3.POCE.5: Bird Watching",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.poce-post-class-exercises/3.poce.5-bird-watching"
+                "name": "3.POCE.7: Bird Watching Species",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.poce-post-class-exercises/3.poce.7-bird-watching-species"
               }
             ]
           },
@@ -1834,7 +1861,14 @@
           "projectDue": {},
           "preClass": {},
           "inClass": {},
-          "postClass": {}
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 2 Ideation Phase 1",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
+              }
+            ]
+          }
         }
       }
     },
@@ -1871,166 +1905,12 @@
           "postClass": {
             "items": [
               {
-                "name": "3.POCE.7: Bird Watching Species",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.poce-post-class-exercises/3.poce.7-bird-watching-species"
-              }
-            ]
-          },
-          "dayIndex": 23
-        },
-        "css": {
-          "type": "css",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "algos": {
-          "type": "algos",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "ip": {
-          "type": "ip",
-          "ipDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "projects": {
-          "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        }
-      }
-    },
-    {
-      "courseDay": 24,
-      "dateTypes": {
-        "module": "Module 3: Backend Applications",
-        "general": {
-          "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "3.3.4: Inner Join",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.3-sql-language/3.3.4-inner-join"
-              },
-              {
-                "name": "3.3.5: Non-FK Relationship Data in Join Table",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.3-sql-language/3.3.5-non-fk-relationship-data-in-join-table"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "3.ICE.6: Inner Joins",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.6-inner-join"
-              },
-              {
-                "name": "3.ICE.8: Multiple Foreign Keys",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.8-multi-foreign-key"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 2 Ideation Phase 2",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
-              }
-            ]
-          },
-          "dayIndex": 24
-        },
-        "css": {
-          "type": "css",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "algos": {
-          "type": "algos",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "ip": {
-          "type": "ip",
-          "ipDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "projects": {
-          "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        }
-      }
-    },
-    {
-      "courseDay": 25,
-      "dateTypes": {
-        "module": "Module 3: Backend Applications",
-        "general": {
-          "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "3.4.10: Dates in SQL and JS",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.10-dates-in-sql-and-js"
-              },
-              {
-                "name": "3.4.11: File Uploads",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.11-file-uploads"
-              },
-              {
-                "name": "3.5.1: Cookies",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.5-authentication/3.5.1-cookies"
-              },
-              {
-                "name": "3.5.2: User Auth",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.5-authentication/3.5.2-user-auth"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "3.POCE.6: Bird Watching Users",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.poce-post-class-exercises/3.poce.6-bird-watching-users"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "3.POCE.8: Bird Watching Behaviour",
+                "name": "(Optional) 3.POCE.8: Bird Watching Behaviour",
                 "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.poce-post-class-exercises/3.poce.8-bird-watching-behaviour"
               }
             ]
           },
-          "dayIndex": 25
+          "dayIndex": 23
         },
         "css": {
           "type": "css",
@@ -2075,7 +1955,7 @@
       }
     },
     {
-      "courseDay": 26,
+      "courseDay": 24,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
         "general": {
@@ -2083,82 +1963,29 @@
           "preClass": {
             "items": [
               {
-                "name": "3.4.9: Database Setup Files",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.9-database-setup-files"
+                "name": "3.3.4: Inner Join",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.3-sql-language/3.3.4-inner-join"
               },
               {
-                "name": "3.4.8: SQL Clients",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.8-sql-clients"
+                "name": "3.3.5: Non-FK Relationship Data in Join Table",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.3-sql-language/3.3.5-non-fk-relationship-data-in-join-table"
               }
             ]
           },
           "inClass": {
             "items": [
               {
-                "name": "3.ICE.12: DB Schema Design - Instagram",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.12-db-schema-design-instagram"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
+                "name": "3.ICE.6: Inner Joins",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.6-inner-join"
+              },
               {
-                "name": "3.POCE.9: Bird Watching Comments",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.poce-post-class-exercises/3.poce.9-bird-watching-comments"
+                "name": "3.ICE.8: Multiple Foreign Keys",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.8-multi-foreign-key"
               }
             ]
           },
-          "dayIndex": 26
-        },
-        "css": {
-          "type": "css",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "algos": {
-          "type": "algos",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "ip": {
-          "type": "ip",
-          "ipDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "projects": {
-          "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        }
-      }
-    },
-    {
-      "courseDay": 27,
-      "dateTypes": {
-        "module": "Module 3: Backend Applications",
-        "general": {
-          "type": "general",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {
-            "items": []
-          },
-          "inClass": {},
           "postClass": {},
-          "dayIndex": 27
+          "dayIndex": 24
         },
         "css": {
           "type": "css",
@@ -2209,6 +2036,252 @@
               {
                 "name": "Project 2 Peer Planning Review",
                 "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 2 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#recommended-order-of-implementation"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 25,
+      "dateTypes": {
+        "module": "Module 3: Backend Applications",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "3.4.10: Dates in SQL and JS",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.10-dates-in-sql-and-js"
+              },
+              {
+                "name": "3.4.11: File Uploads",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.11-file-uploads"
+              },
+              {
+                "name": "3.5.1: Cookies",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.5-authentication/3.5.1-cookies"
+              },
+              {
+                "name": "3.5.2: User Auth",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.5-authentication/3.5.2-user-auth"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "3.POCE.6: Bird Watching Users",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.poce-post-class-exercises/3.poce.6-bird-watching-users"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "(Optional) 3.POCE.9: Bird Watching Comments",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.poce-post-class-exercises/3.poce.9-bird-watching-comments"
+              }
+            ]
+          },
+          "dayIndex": 25
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 2 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 2 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#recommended-order-of-implementation"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 26,
+      "dateTypes": {
+        "module": "Module 3: Backend Applications",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "3.4.9: Database Setup Files",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.9-database-setup-files"
+              },
+              {
+                "name": "3.4.8: SQL Clients",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.8-sql-clients"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "3.ICE.12: DB Schema Design - Instagram",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.12-db-schema-design-instagram"
+              }
+            ]
+          },
+          "postClass": {},
+          "dayIndex": 26
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 2 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 2 Implementation",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#recommended-order-of-implementation"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 27,
+      "dateTypes": {
+        "module": "Module 3: Backend Applications",
+        "general": {
+          "type": "general",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {
+            "items": []
+          },
+          "inClass": {},
+          "postClass": {},
+          "dayIndex": 27
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Due: Project 2 MVP deadline",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#mvp-deadline"
+              }
+            ]
+          },
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 2 Scrum",
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
+              },
+              {
+                "name": "Project 2 Mid-Point Peer Review",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#mid-point-peer-review-in-class"
               }
             ]
           },
@@ -2325,24 +2398,13 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Due: Project 2 MVP deadline",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#mvp-deadline"
-              }
-            ]
-          },
+          "projectDue": {},
           "preClass": {},
           "inClass": {
             "items": [
               {
                 "name": "Project 2 Scrum",
                 "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
-              },
-              {
-                "name": "Project 2 Mid-Point Peer Review",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#mid-point-peer-review-in-class"
               }
             ]
           },
@@ -2557,7 +2619,14 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 2 Presentations",
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#presentations"
+              }
+            ]
+          },
           "preClass": {},
           "inClass": {
             "items": [
