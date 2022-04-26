@@ -5066,7 +5066,7 @@
     }
   },
   "daysOfWeek": [2, 6],
-  "courseStartIndex": 0,
+  "courseStartDaysOfWeekIndex": 0,
   "totalCourseDays": 64,
   "courseName": "14-05-2022_07-01-2023_PTBC4"
 }

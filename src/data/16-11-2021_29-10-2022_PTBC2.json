@@ -7770,7 +7770,7 @@
     }
   },
   "daysOfWeek": [2, 6],
-  "courseStartIndex": 0,
+  "courseStartDaysOfWeekIndex": 0,
   "totalCourseDays": 93,
   "courseName": "16-11-2021_29-10-2022_PTBC2"
 }

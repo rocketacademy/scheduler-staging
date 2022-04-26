@@ -3,7 +3,7 @@
     "edit": "https://github.com/rocketacademy/scheduler/edit/main/src/data/schedule-templates/ftbc2.0-schedule-template.json"
   },
   "daysOfWeek": [1, 2, 3, 4],
-  "courseStartIndex": 0,
+  "courseStartDaysOfWeekIndex": 0,
   "totalCourseDays": 97,
   "days": [
     {
@@ -1414,8 +1414,8 @@
           "postClass": {
             "items": [
               {
-                "name": "3.POCE.1: Express Noodle App",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.poce-post-class-exercises/3.poce.1-express-noodle-app"
+                "name": "3.ICE.1: Bigfoot",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.1-bigfoot"
               }
             ]
           },
@@ -1491,8 +1491,8 @@
           "postClass": {
             "items": [
               {
-                "name": "3.POCE.2: Express, EJS Noodle App",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.poce-post-class-exercises/3.poce.2-express-ejs-noodle-app"
+                "name": "3.ICE.2: Bigfoot EJS",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.2-bigfoot-ejs"
               }
             ]
           },

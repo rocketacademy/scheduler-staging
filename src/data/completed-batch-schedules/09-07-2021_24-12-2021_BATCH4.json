@@ -1,6 +1,6 @@
 {
   "daysOfWeek": [1, 2, 3, 4, 5],
-  "courseStartIndex": 4,
+  "courseStartDaysOfWeekIndex": 4,
   "totalCourseDays": 117,
   "courseType": "FTBC",
   "days": {

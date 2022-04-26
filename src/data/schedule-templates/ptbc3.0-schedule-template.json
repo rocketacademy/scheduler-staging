@@ -3,7 +3,7 @@
     "edit": "https://github.com/rocketacademy/scheduler/edit/main/src/data/schedule-templates/ptbc3.0-schedule-template.json"
   },
   "daysOfWeek": [2, 6],
-  "courseStartIndex": 0,
+  "courseStartDaysOfWeekIndex": 0,
   "totalCourseDays": 64,
   "days": [
     {

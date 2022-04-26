@@ -58,11 +58,11 @@ const generateTopLevelObject = (courseType, lessonDays) => {
 
   if (courseType === 'Basics') {
     topLevelObject.daysOfWeek = lessonDays;
-    topLevelObject.courseStartIndex = basicsData.courseStartIndex;
+    topLevelObject.courseStartDaysOfWeekIndex = basicsData.courseStartDaysOfWeekIndex;
     topLevelObject.totalCourseDays = basicsData.totalCourseDays;
   } else {
     topLevelObject.daysOfWeek = bootcampData.daysOfWeek;
-    topLevelObject.courseStartIndex = bootcampData.courseStartIndex;
+    topLevelObject.courseStartDaysOfWeekIndex = bootcampData.courseStartDaysOfWeekIndex;
     topLevelObject.totalCourseDays = bootcampData.totalCourseDays;
   }
 
@@ -170,7 +170,7 @@ const generateDataObject = (startDate, batchNum, courseType, input, lessonDays) 
   }
 
   const dayArray = data.daysOfWeek;
-  let dayIndex = data.courseStartIndex;
+  let dayIndex = data.courseStartDaysOfWeekIndex;
 
   while (courseDayCount > 0) {
     const dateString = currDate.toFormat('dd-MM-yyyy');

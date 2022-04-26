@@ -3,7 +3,7 @@
     "edit": "https://github.com/rocketacademy/scheduler/edit/main/src/data/schedule-templates/ftbc3.0-schedule-template.json"
   },
   "daysOfWeek": [1, 2, 3, 4],
-  "courseStartIndex": 0,
+  "courseStartDaysOfWeekIndex": 0,
   "totalCourseDays": 64,
   "days": [
     {
