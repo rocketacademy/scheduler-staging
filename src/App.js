@@ -24,7 +24,7 @@ function App() {
     { name: 'ptbc3', content: ptbc3 },
     // { name: 'ptbc3New', content: ptbc3New },
     { name: 'ftbc6', content: ftbc6 },
-    { name: 'ftbc7', content: ftbc7 },
+    { name: 'ftbc7', content: ftbc7 }];
     // { name: 'ftbc7New', content: ftbc7New }];
 
   return (
