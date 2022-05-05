@@ -1708,24 +1708,23 @@
           "preClass": {
             "items": [
               {
-                "name": "0.8: JS Promises",
+                "name": "[Moved] 0.8: JS Promises",
                 "url": "https://bootcamp.rocketacademy.co/0-language-and-tooling/0.8-js-promises"
               },
               {
-                "name": "0.8.1: Promise.prototype.catch, Promise.all",
+                "name": "[Moved] 0.8.1: Promise.prototype.catch, Promise.all",
                 "url": "https://bootcamp.rocketacademy.co/0-language-and-tooling/0.8-js-promises/0.8.1-promise.prototype.catch-promise.all"
               },
-
               {
-                "name": "3.4.3: Nested SQL Queries",
+                "name": "[Moved] 3.4.3: Nested SQL Queries",
                 "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.3-nested-sql-queries"
               },
               {
-                "name": "3.3.6: SQL Schema Design",
+                "name": "[Moved] 3.3.6: SQL Schema Design",
                 "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.3-sql-language/3.3.6-sql-schema-design"
               },
               {
-                "name": "3.4.4: PostgreSQL Express App",
+                "name": "[Moved] 3.4.4: PostgreSQL Express App",
                 "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.4-postgresql-express-app"
               }
             ]
@@ -1733,7 +1732,7 @@
           "inClass": {
             "items": [
               {
-                "name": "3.ICE.9: DB Schema Design - Carousell",
+                "name": "[Moved] 3.ICE.9: DB Schema Design - Carousell",
                 "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.9-db-schema-design-carousell"
               },
               {
@@ -1807,8 +1806,12 @@
                 "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.3-sql-language/3.3.2-sql-relationships-one-to-many"
               },
               {
-                "name": "3.4.5: Forms for One-to-Many Relationships",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.5-forms-for-one-to-many-relationships"
+                "name": "3.4.3: Nested SQL Queries",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.3-nested-sql-queries"
+              },
+              {
+                "name": "3.4.4: PostgreSQL Express App",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.4-postgresql-express-app"
               }
             ]
           },
@@ -1881,16 +1884,102 @@
           "preClass": {
             "items": [
               {
-                "name": "3.4.7: pg Promises",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.7-pg-promises"
+                "name": "3.3.4: Inner Join",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.3-sql-language/3.3.4-inner-join"
               },
+              {
+                "name": "3.5.1: Cookies",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.5-authentication/3.5.1-cookies"
+              },
+              {
+                "name": "3.5.2: User Auth",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.5-authentication/3.5.2-user-auth"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "3.ICE.4: Cookies",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.4-cookies"
+              },
+              {
+                "name": "3.ICE.6: Inner Joins",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.6-inner-join"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "3.POCE.6: Bird Watching Users",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.poce-post-class-exercises/3.poce.6-bird-watching-users"
+              }
+            ]
+          },
+          "dayIndex": 23
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 2 Ideation Phase 1",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 24,
+      "dateTypes": {
+        "module": "Module 3: Backend Applications",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
               {
                 "name": "3.3.3: SQL Relationships (Many to Many)",
                 "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.3-sql-language/3.3.3-sql-relationships-many-to-many"
               },
               {
-                "name": "3.4.6: Forms for Many-to-Many Relationships",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.6-forms-for-many-to-many-relationships"
+                "name": "3.4.5: Forms for One-to-Many Relationships",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.5-forms-for-one-to-many-relationships"
+              },
+              {
+                "name": "3.5.3: Password Hashing",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.5-authentication/3.5.3-password-hashing"
               }
             ]
           },
@@ -1905,12 +1994,91 @@
           "postClass": {
             "items": [
               {
-                "name": "(Optional) 3.POCE.8: Bird Watching Behaviour",
+                "name": "3.POCE.8: Bird Watching Behaviour",
                 "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.poce-post-class-exercises/3.poce.8-bird-watching-behaviour"
               }
             ]
           },
-          "dayIndex": 23
+          "dayIndex": 24
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 2 Ideation Phase 1",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 25,
+      "dateTypes": {
+        "module": "Module 3: Backend Applications",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "3.3.5: Non-FK Relationship Data in Join Table",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.3-sql-language/3.3.5-non-fk-relationship-data-in-join-table"
+              },
+              {
+                "name": "3.3.6: SQL Schema Design",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.3-sql-language/3.3.6-sql-schema-design"
+              },
+              {
+                "name": "3.4.6: Forms for Many-to-Many Relationships",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.6-forms-for-many-to-many-relationships"
+              },
+              {
+                "name": "3.5.5: Session Hashing",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.5-authentication/3.5.4-session-hashing"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "3.ICE.9: DB Schema Design - Carousell",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.9-db-schema-design-carousell"
+              }
+            ]
+          },
+          "postClass": {},
+          "dayIndex": 25
         },
         "css": {
           "type": "css",
@@ -1955,7 +2123,7 @@
       }
     },
     {
-      "courseDay": 24,
+      "courseDay": 26,
       "dateTypes": {
         "module": "Module 3: Backend Applications",
         "general": {
@@ -1963,29 +2131,37 @@
           "preClass": {
             "items": [
               {
-                "name": "3.3.4: Inner Join",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.3-sql-language/3.3.4-inner-join"
+                "name": "0.8: JS Promises",
+                "url": "https://bootcamp.rocketacademy.co/0-language-and-tooling/0.8-js-promises"
               },
               {
-                "name": "3.3.5: Non-FK Relationship Data in Join Table",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.3-sql-language/3.3.5-non-fk-relationship-data-in-join-table"
+                "name": "0.8.1: Promise.prototype.catch, Promise.all",
+                "url": "https://bootcamp.rocketacademy.co/0-language-and-tooling/0.8-js-promises/0.8.1-promise.prototype.catch-promise.all"
+              },
+              {
+                "name": "3.4.7: pg Promises",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.7-pg-promises"
+              },
+              {
+                "name": "3.4.8: SQL Clients",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.8-sql-clients"
+              },
+              {
+                "name": "3.4.9: Database Setup Files",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.9-database-setup-files"
               }
             ]
           },
           "inClass": {
             "items": [
               {
-                "name": "3.ICE.6: Inner Joins",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.6-inner-join"
-              },
-              {
-                "name": "3.ICE.8: Multiple Foreign Keys",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.8-multi-foreign-key"
+                "name": "Project 2 Peer Planning Review",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
               }
             ]
           },
           "postClass": {},
-          "dayIndex": 24
+          "dayIndex": 26
         },
         "css": {
           "type": "css",
@@ -2034,177 +2210,6 @@
           "inClass": {
             "items": [
               {
-                "name": "Project 2 Peer Planning Review",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 2 Implementation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#recommended-order-of-implementation"
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "courseDay": 25,
-      "dateTypes": {
-        "module": "Module 3: Backend Applications",
-        "general": {
-          "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "3.4.10: Dates in SQL and JS",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.10-dates-in-sql-and-js"
-              },
-              {
-                "name": "3.4.11: File Uploads",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.11-file-uploads"
-              },
-              {
-                "name": "3.5.1: Cookies",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.5-authentication/3.5.1-cookies"
-              },
-              {
-                "name": "3.5.2: User Auth",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.5-authentication/3.5.2-user-auth"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "3.POCE.6: Bird Watching Users",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.poce-post-class-exercises/3.poce.6-bird-watching-users"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "(Optional) 3.POCE.9: Bird Watching Comments",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.poce-post-class-exercises/3.poce.9-bird-watching-comments"
-              }
-            ]
-          },
-          "dayIndex": 25
-        },
-        "css": {
-          "type": "css",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "algos": {
-          "type": "algos",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "ip": {
-          "type": "ip",
-          "ipDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "projects": {
-          "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 2 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 2 Implementation",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#recommended-order-of-implementation"
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "courseDay": 26,
-      "dateTypes": {
-        "module": "Module 3: Backend Applications",
-        "general": {
-          "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "3.4.9: Database Setup Files",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.9-database-setup-files"
-              },
-              {
-                "name": "3.4.8: SQL Clients",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.8-sql-clients"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "3.ICE.12: DB Schema Design - Instagram",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.12-db-schema-design-instagram"
-              }
-            ]
-          },
-          "postClass": {},
-          "dayIndex": 26
-        },
-        "css": {
-          "type": "css",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "algos": {
-          "type": "algos",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "ip": {
-          "type": "ip",
-          "ipDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "projects": {
-          "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
                 "name": "Project 2 Scrum",
                 "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
@@ -2230,7 +2235,20 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {
-            "items": []
+            "items": [
+              {
+                "name": "3.4.10: Dates in SQL and JS",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.10-dates-in-sql-and-js"
+              },
+              {
+                "name": "3.4.11: File Uploads",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.11-file-uploads"
+              },
+              {
+                "name": "3.5.5: Custom Middleware for Authentication",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.5-authentication/3.5.5-custom-middleware-for-authentication"
+              }
+            ]
           },
           "inClass": {},
           "postClass": {},
@@ -2264,24 +2282,13 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Due: Project 2 MVP deadline",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#mvp-deadline"
-              }
-            ]
-          },
+          "projectDue": {},
           "preClass": {},
           "inClass": {
             "items": [
               {
                 "name": "Project 2 Scrum",
                 "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
-              },
-              {
-                "name": "Project 2 Mid-Point Peer Review",
-                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#mid-point-peer-review-in-class"
               }
             ]
           },
@@ -2335,13 +2342,24 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Due: Project 2 MVP deadline",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#mvp-deadline"
+              }
+            ]
+          },
           "preClass": {},
           "inClass": {
             "items": [
               {
                 "name": "Project 2 Scrum",
                 "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
+              },
+              {
+                "name": "Project 2 Mid-Point Peer Review",
+                "url": "https://bootcamp.rocketacademy.co/projects/project-2-server-side-app#mid-point-peer-review-in-class"
               }
             ]
           },
@@ -2556,39 +2574,9 @@
         "module": "Module 3: Backend Applications",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "3.6: Heroku",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.6-heroku"
-              },
-              {
-                "name": "3.6.1: Heroku Deploy",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.6-heroku/3.6.1-heroku-deploy"
-              },
-              {
-                "name": "3.6.2: Heroku Postgres",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.6-heroku/3.6.2-heroku-postgres"
-              },
-              {
-                "name": "3.6.3: Heroku S3",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.6-heroku/3.6.3-heroku-s3"
-              },
-              {
-                "name": "0.10: Introduction to Classes",
-                "url": "https://bootcamp.rocketacademy.co/0-language-and-tooling/0.10-introduction-to-classes"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "3.POCE.11: Heroku Deployment",
-                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.poce-post-class-exercises/3.poce.11-heroku-deployment"
-              }
-            ]
-          },
+          "postClass": {},
           "dayIndex": 32
         },
         "css": {
@@ -3928,7 +3916,30 @@
         "module": "Module 6: Frontend Infrastructure",
         "general": {
           "type": "general",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "3.6: Heroku",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.6-heroku"
+              },
+              {
+                "name": "3.6.1: Heroku Deploy",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.6-heroku/3.6.1-heroku-deploy"
+              },
+              {
+                "name": "3.6.2: Heroku Postgres",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.6-heroku/3.6.2-heroku-postgres"
+              },
+              {
+                "name": "3.6.3: Heroku S3",
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.6-heroku/3.6.3-heroku-s3"
+              },
+              {
+                "name": "0.10: Introduction to Classes",
+                "url": "https://bootcamp.rocketacademy.co/0-language-and-tooling/0.10-introduction-to-classes"
+              }
+            ]
+          },
           "inClass": {},
           "postClass": {}
         },
