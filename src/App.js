@@ -14,12 +14,12 @@ import TabsContainer from "./components/admin/Tabs";
 function App() {
   // Create array of batch data for components for /schedule and /admin
   const batchArray = [
+    { name: "ftbc6", content: ftbc6 },
+    { name: "ftbc7", content: ftbc7 },
     { name: "ptbc1", content: ptbc1 },
     { name: "ptbc2", content: ptbc2 },
     { name: "ptbc3", content: ptbc3 },
     { name: "ptbc4", content: ptbc4 },
-    { name: "ftbc6", content: ftbc6 },
-    { name: "ftbc7", content: ftbc7 },
   ];
 
   return (
