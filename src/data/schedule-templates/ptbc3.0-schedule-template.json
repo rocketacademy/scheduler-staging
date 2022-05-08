@@ -210,8 +210,8 @@
                 "url": "https://bc.rocketacademy.co/algorithms/a.2-intro-to-algorithm-problems"
               },
               {
-                "name": "A.3: Interview Strategies",
-                "url": "https://bc.rocketacademy.co/algorithms/a.3-interview-strategies"
+                "name": "A.3: Algorithm Interview Strategies",
+                "url": "https://bc.rocketacademy.co/algorithms/a.3-algorithm-interview-strategies"
               }
             ]
           },
@@ -544,24 +544,24 @@
           "preClass": {
             "items": [
               {
-                "name": "A.6: Binary Search",
-                "url": "https://bc.rocketacademy.co/algorithms/a.6-binary-search"
+                "name": "A.5.1.1: Binary Search",
+                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.1-arrays/a.5.1.1-binary-search"
               }
             ]
           },
           "inClass": {
             "items": [
               {
-                "name": "A.6: Binary Search",
-                "url": "https://bc.rocketacademy.co/algorithms/a.6-binary-search"
+                "name": "A.5.1.1: Binary Search",
+                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.1-arrays/a.5.1.1-binary-search"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "A.6: Binary Search",
-                "url": "https://bc.rocketacademy.co/algorithms/a.6-binary-search"
+                "name": "A.5.1.1: Binary Search",
+                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.1-arrays/a.5.1.1-binary-search"
               }
             ]
           }
@@ -650,24 +650,24 @@
           "preClass": {
             "items": [
               {
-                "name": "A.7: Sliding Windows",
-                "url": "https://bc.rocketacademy.co/algorithms/a.7-sliding-windows"
+                "name": "A.5.1.2: Sliding Windows",
+                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.1-arrays/a.5.1.2-sliding-windows"
               }
             ]
           },
           "inClass": {
             "items": [
               {
-                "name": "A.7: Sliding Windows",
-                "url": "https://bc.rocketacademy.co/algorithms/a.7-sliding-windows"
+                "name": "A.5.1.2: Sliding Windows",
+                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.1-arrays/a.5.1.2-sliding-windows"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "A.7: Sliding Windows",
-                "url": "https://bc.rocketacademy.co/algorithms/a.7-sliding-windows"
+                "name": "A.5.1.2: Sliding Windows",
+                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.1-arrays/a.5.1.2-sliding-windows"
               }
             ]
           }
@@ -754,8 +754,8 @@
           "postClass": {
             "items": [
               {
-                "name": "A.7: Sliding Windows",
-                "url": "https://bc.rocketacademy.co/algorithms/a.7-sliding-windows"
+                "name": "A.5.1.2: Sliding Windows",
+                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.1-arrays/a.5.1.2-sliding-windows"
               }
             ]
           }
