@@ -1,11 +1,9 @@
-import React from 'react';
-import {
-  Route, Switch, Link, useRouteMatch, Redirect,
-} from 'react-router-dom';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import logo from '../../assets/4-MILK.png';
-import BatchSchedule from './BatchSchedule';
+import React from "react";
+import { Route, Switch, Link, useRouteMatch, Redirect } from "react-router-dom";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import logo from "../../assets/4-MILK.png";
+import BatchSchedule from "./BatchSchedule";
 
 function ScheduleContainer({ batchArray }) {
   // pass individual batch json files into BatchSchedule to generate schedules
@@ -28,7 +26,6 @@ function ScheduleContainer({ batchArray }) {
           <Redirect to={`/${batchArray[0].name}`} />
         </Route>
         {batchArray.map((batch) => (
-
           <Route path={`/${batch.name}`}>
             <BatchSchedule
               data={batch.content}
