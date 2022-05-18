@@ -1,51 +1,18 @@
 # Scheduler
 
-A front-end app to edit and generate a dated schedule for all Rocket Academy Courses. The app is timezone aware.
+Edit and generate dated schedules for all Rocket Academy Courses.
 
-# How to run scheduler locally in development
+## How to edit/generate schedules
 
-Rocket built Scheduler using Create React App. To run the app locally, clone the repo and run `npm i` to install packages followed by `npm start` to start the server.
+We currently manage schedules by editing relevant schedule template JSON files in `src/data/schedule-templates` and re-generating the relevant batches' schedules using the Generate Schedule Data File interface in the Batch tab of `localhost:3000/#/admin` when running the app locally. Rocket recommends only updating the templates and not batch-specific schedules directly if possible, because the latter makes it difficult for Rocket to make cross-batch changes by updating templates and re-generating each batch's schedule (local batch changes would be overwritten).
 
-# Production usage instructions
-
-The app is deployed at <https://schedules.rocketacademy.co/#/admin>
-
-## To generate schedule for new batch
-
-Click on the "Batch" tab
-Under Generate Schedule Data File, fill in the form with required information, please make sure date picked for Bootcamp start date is a Monday.
-Select from -
-
-- "render schedule": which will render the generated file in the app
-- "download schedule": which will download the generated file into the downloads folder of your computer
-- "add to github": this will take you to the create new file page of the github repo, press ctrl -a followed by ctrl -v to paste the generated file into the github repo
-- "basics markdown": this will take you to the create new file page of the basics-docs repo, press ctrl -a followed by ctrl -v to paste the generated file into the github repo
-
-## To edit schedule template files
-
-Click on the "Main" tab
-Choose either part time or full time button to render either schedule
-Next to each schedule item are 4 buttons -
-
-- trash can symbol: deletes that item
-- up arrow: used to move that item up a day in the schedule
-- down arrow: used to move that item down a day in the schedule
-- rectangular symbol: used to move that item to any day in the schedule
-
-The up and down arrows on the right side of each section are used to move the entire section up/ down one day
-
-After you have finished making your changes, click "edit in github repo" to make changes to the main file, then click the "update" buttons to edit that particular batch's schedule (click on the button, press ctrl -a, ctrl -v to paste the updated schedule into the github repo)
-
-## To edit batch-specific schedule files
-
-Click on the "Batch" tab
-Next to each schedule item are 4 buttons -
-
-- trash can symbol: deletes that item
-- up arrow: used to move that item up a day in the schedule
-- down arrow: used to move that item down a day in the schedule
-- rectangular symbol: used to move that item to any day in the schedule
-
-The up and down arrows on the right side of each section are used to move the entire section up or down one day
-
-After you have finished making your changes, either click "edit in github repo" (click on the button, press ctrl -a, ctrl -v to paste the updated schedule into the github repo), or "download modified file" to download the edited file into the downloads folder of your computer
+To edit/generate a batch schedule, e.g. FTBC6:
+1. Clone scheduler repo locally
+2. Edit the FTBC1.0 template JSON file (in `src/data/schedule-templates`) to how we want it to be
+3. Edit `src/generateCourseDates.js` to reference the relevant FTBC1.0/2.0/3.0 template when generating FTBC schedules. E.g. for FTBC6, make it reference the FTBC1.0 template.
+4. `npm start` to run scheduler locally
+5. Navigate to the Batch tab in `localhost:3000/#/admin`, enter Start Date (e.g. 10 Jan ’22), Batch Number (e.g. 6) and Course Type (e.g. FTBC), and click Download Schedule. 
+6. Copy the downloaded schedule into the `src/data` folder
+7. Verify `src/App.js` is referencing the correct file that we just copied to `src/data` when rendering the relevant batch’s schedule
+8. Verify the schedule changes are as expected at `localhost:3000`
+9. Commit and push changes to GitHub, GitHub will automatically deploy changes to `schedules.rocketacademy.co`.
