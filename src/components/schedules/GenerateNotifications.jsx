@@ -27,22 +27,22 @@ const GenerateNotifications = ({
 
   return (
     <>
-      {status && status.items && (
+      {status &&
+        status.items &&
         status.items.map((item) => {
           return (
             <li>
-              <a href={item.url} target="_blank" rel="noopener noreferrer" className="notification-item"><h6>{item.name}</h6></a>
+              <a
+                href={item.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="notification-item"
+              >
+                <h6>{item.name}</h6>
+              </a>
             </li>
-          )
-        })
-        // <div className="notifications">
-        //   <DisplaySection
-        //     heading={heading}
-        //     sectionType={status.items}
-        //     day={day}
-        //   />
-        // </div>
-      )}
+          );
+        })}
     </>
   );
 };

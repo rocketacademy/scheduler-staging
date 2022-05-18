@@ -2,9 +2,9 @@ const generateSectionArray = (datetype, classType, sectionArray) => {
   Object.keys(datetype).forEach((section) => {
     let classTypeSection;
     // classTypeSection is determined by what classType is
-    if (classType === 'preClass') {
+    if (classType === "preClass") {
       classTypeSection = datetype[section].preClass;
-    } else if (classType === 'inClass') {
+    } else if (classType === "inClass") {
       classTypeSection = datetype[section].inClass;
     } else {
       classTypeSection = datetype[section].postClass;

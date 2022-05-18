@@ -5,11 +5,16 @@ import ContentTable from "./schedule-table/ContentTable";
 import { scroller } from "react-scroll";
 import ExpandLessIcon from "@material-ui/icons/ExpandLess";
 import CurrentDaySection from "./current-day/CurrentDaySection";
-import { DateTime } from "luxon";
 import Accordion from "react-bootstrap/Accordion";
 
 // generates schedule content for a particular course
-function ScheduleContent({ scheduleData, coursetype, title, today, firstDayOfCourse }) {
+function ScheduleContent({
+  scheduleData,
+  coursetype,
+  title,
+  today,
+  firstDayOfCourse,
+}) {
   // used by scrollTo function to identify where to scroll to from the up arrow at the bottom of the screen
   const id = `${coursetype}-top`;
   const todaySectionHeader = false;
@@ -34,7 +39,7 @@ function ScheduleContent({ scheduleData, coursetype, title, today, firstDayOfCou
   } else {
     nextToday = today.plus({ months: 1 });
   }
-  
+
   return (
     <div className="content">
       {/* button that takes user back to the top of the page  */}
@@ -52,7 +57,7 @@ function ScheduleContent({ scheduleData, coursetype, title, today, firstDayOfCou
       </div>
       <h1 className="schedule-header">{title}</h1>
       <p id={id}></p>
-     
+
       {/* generates table which shows schedule for current week/ month depending on course type */}
       <CurrentDaySection
         scheduleData={scheduleData}
