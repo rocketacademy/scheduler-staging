@@ -204,20 +204,8 @@
           "preClass": {
             "items": [
               {
-                "name": "A.0: Algorithms",
+                "name": "Intro to Algorithms",
                 "url": "https://bc.rocketacademy.co/algorithms"
-              },
-              {
-                "name": "A.1: Intro to SWE Interviews",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-intro-to-swe-interviews"
-              },
-              {
-                "name": "A.2: Intro to Algorithm Problems",
-                "url": "https://bc.rocketacademy.co/algorithms/a.2-intro-to-algorithm-problems"
-              },
-              {
-                "name": "A.3: Algorithm Interview Strategies",
-                "url": "https://bc.rocketacademy.co/algorithms/a.3-algorithm-interview-strategies"
               }
             ]
           },
@@ -289,24 +277,24 @@
           "preClass": {
             "items": [
               {
-                "name": "A.5.1: Arrays",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.1-arrays"
+                "name": "A.1.1: Arrays",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays"
               }
             ]
           },
           "inClass": {
             "items": [
               {
-                "name": "A.5.1: Arrays",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.1-arrays"
+                "name": "A.1.1: Arrays",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "A.5.1: Arrays",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.1-arrays"
+                "name": "A.1.1: Arrays",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays"
               }
             ]
           }
@@ -382,8 +370,8 @@
           "postClass": {
             "items": [
               {
-                "name": "A.5.1: Arrays",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.1-arrays"
+                "name": "A.1.1: Arrays",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays"
               }
             ]
           }
@@ -467,8 +455,8 @@
           "preClass": {
             "items": [
               {
-                "name": "A.4: Complexity Analysis, Big-O Notation",
-                "url": "https://bc.rocketacademy.co/algorithms/a.4-complexity-analysis-big-o-notation"
+                "name": "A.2: Complexity Analysis",
+                "url": "https://bc.rocketacademy.co/algorithms/a.2-complexity-analysis"
               }
             ]
           },
@@ -476,8 +464,8 @@
           "postClass": {
             "items": [
               {
-                "name": "A.5.1: Arrays",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.1-arrays"
+                "name": "A.1.1: Arrays",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays"
               }
             ]
           }
@@ -562,24 +550,24 @@
           "preClass": {
             "items": [
               {
-                "name": "A.5.1.1: Binary Search",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.1-arrays/a.5.1.1-binary-search"
+                "name": "A.1.1.1: Binary Search",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays/a.1.1.1-binary-search"
               }
             ]
           },
           "inClass": {
             "items": [
               {
-                "name": "A.5.1.1: Binary Search",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.1-arrays/a.5.1.1-binary-search"
+                "name": "A.1.1.1: Binary Search",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays/a.1.1.1-binary-search"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "A.5.1.1: Binary Search",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.1-arrays/a.5.1.1-binary-search"
+                "name": "A.1.1.1: Binary Search",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays/a.1.1.1-binary-search"
               }
             ]
           }
@@ -668,24 +656,24 @@
           "preClass": {
             "items": [
               {
-                "name": "A.5.1.2: Sliding Windows",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.1-arrays/a.5.1.2-sliding-windows"
+                "name": "A.1.1.2: Sliding Windows",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays/a.1.1.2-sliding-windows"
               }
             ]
           },
           "inClass": {
             "items": [
               {
-                "name": "A.5.1.2: Sliding Windows",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.1-arrays/a.5.1.2-sliding-windows"
+                "name": "A.1.1.2: Sliding Windows",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays/a.1.1.2-sliding-windows"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "A.5.1.2: Sliding Windows",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.1-arrays/a.5.1.2-sliding-windows"
+                "name": "A.1.1.2: Sliding Windows",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays/a.1.1.2-sliding-windows"
               }
             ]
           }
@@ -772,8 +760,8 @@
           "postClass": {
             "items": [
               {
-                "name": "A.5.1.2: Sliding Windows",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.1-arrays/a.5.1.2-sliding-windows"
+                "name": "A.1.1.2: Sliding Windows",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays/a.1.1.2-sliding-windows"
               }
             ]
           }
@@ -843,24 +831,24 @@
           "preClass": {
             "items": [
               {
-                "name": "A.5.2: Hash Tables",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.2-hash-tables"
+                "name": "A.1.2: Hash Tables",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.2-hash-tables"
               }
             ]
           },
           "inClass": {
             "items": [
               {
-                "name": "A.5.2: Hash Tables",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.2-hash-tables"
+                "name": "A.1.2: Hash Tables",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.2-hash-tables"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "A.5.2: Hash Tables",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.2-hash-tables"
+                "name": "A.1.2: Hash Tables",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.2-hash-tables"
               }
             ]
           }
@@ -932,8 +920,8 @@
           "postClass": {
             "items": [
               {
-                "name": "A.5.2: Hash Tables",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.2-hash-tables"
+                "name": "A.1.2: Hash Tables",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.2-hash-tables"
               }
             ]
           }
@@ -998,8 +986,8 @@
           "postClass": {
             "items": [
               {
-                "name": "A.5.2: Hash Tables",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.2-hash-tables"
+                "name": "A.1.2: Hash Tables",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.2-hash-tables"
               }
             ]
           }
@@ -1071,8 +1059,8 @@
           "postClass": {
             "items": [
               {
-                "name": "A.5.2: Hash Tables",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.2-hash-tables"
+                "name": "A.1.2: Hash Tables",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.2-hash-tables"
               }
             ]
           }
@@ -1139,8 +1127,8 @@
           "postClass": {
             "items": [
               {
-                "name": "A.5.2: Hash Tables",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.2-hash-tables"
+                "name": "A.1.2: Hash Tables",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.2-hash-tables"
               }
             ]
           }

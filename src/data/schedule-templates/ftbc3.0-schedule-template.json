@@ -15,83 +15,24 @@
           "preClass": {
             "items": [
               {
-                "name": "0.0: Module 0 Overview",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.0-module-0-overview"
+                "name": "Required Software",
+                "url": "https://bc.rocketacademy.co/logistics/required-software"
               },
               {
-                "name": "0.1.1: ES6",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.1-javascript/0.1.1-es6"
-              },
-              {
-                "name": "0.1.2: Common Syntax",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.1-javascript/0.1.2-common-syntax"
-              },
-              {
-                "name": "0.2: Command Line",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.2-command-line"
-              },
-              {
-                "name": "0.3.1: Intro to Git",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.3-git/0.3.1-intro-to-git"
-              },
-              {
-                "name": "0.4.1: Intro to GitHub",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.4-github/0.4.1-intro-to-github"
-              },
-              {
-                "name": "0.4.2: Navigating GitHub",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.4-github/0.4.2-navigating-github"
-              },
-              {
-                "name": "0.4.3: Fork",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.4-github/0.4.3-fork"
-              },
-              {
-                "name": "0.4.4: Pull Request",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.4-github/0.4.4-pull-request"
-              },
-              {
-                "name": "1.0: Module 1 Overview",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.0-module-1-overview"
-              },
-              {
-                "name": "1.1: HTML",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.1-html"
-              },
-              {
-                "name": "1.2: DOM",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.2-dom"
-              },
-              {
-                "name": "1.2.1: DOM - Creating HTML Elements",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.2-dom/1.2.1-creating-html-elements"
-              },
-              {
-                "name": "1.2.2: DOM - Handling HTML Events",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.2-dom/1.2.2-handling-html-events"
+                "name": "Course Methodology",
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology"
               }
             ]
           },
           "inClass": {
             "items": [
               {
-                "name": "Course and Student Introductions, Class Photo 😍",
+                "name": "Orientation, class photo 😍",
                 "url": ""
-              },
-              {
-                "name": "1.ICE.1: Drawing with DOM Manipulation (Day 1 of 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.ice-in-class-exercises/1.ice.1-drawing-with-dom-manipulation"
               }
             ]
           },
-          "postClass": {
-            "items": [
-              {
-                "name": "1.POCE.1: Noodle Recipe Website",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.poce-post-class-exercises/1.poce.1-noodle-recipe-website"
-              }
-            ]
-          }
+          "postClass": {}
         },
         "css": {
           "type": "css",
@@ -101,26 +42,7 @@
         },
         "algos": {
           "type": "algos",
-          "preClass": {
-            "items": [
-              {
-                "name": "A.0: Algorithms Overview",
-                "url": "https://bc.rocketacademy.co/algorithms/a.0-algorithms-overview"
-              },
-              {
-                "name": "A.1: Intro to SWE Interviews",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-intro-to-swe-interviews"
-              },
-              {
-                "name": "A.2: Intro to Algorithm Problems",
-                "url": "https://bc.rocketacademy.co/algorithms/a.2-intro-to-algorithm-problems"
-              },
-              {
-                "name": "A.3: Interview Strategies",
-                "url": "https://bc.rocketacademy.co/algorithms/a.3-interview-strategies"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {},
           "postClass": {}
         },
@@ -154,25 +76,42 @@
         "general": {
           "type": "general",
           "preClass": {
-            "items": []
+            "items": [
+              {
+                "name": "0.1: Command Line",
+                "url": "https://bc.rocketacademy.co/0-foundations/0.1-command-line"
+              },
+              {
+                "name": "0.2: Git",
+                "url": "https://bc.rocketacademy.co/0-foundations/0.2-git"
+              },
+              {
+                "name": "0.3: GitHub",
+                "url": "https://bc.rocketacademy.co/0-foundations/0.3-github"
+              },
+              {
+                "name": "0.3.1: Pull Requests",
+                "url": "https://bc.rocketacademy.co/0-foundations/0.3-github/0.3.1-pull-requests"
+              },
+              {
+                "name": "1.1: HTML",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.1-html"
+              }
+            ]
           },
           "inClass": {
             "items": [
               {
-                "name": "Peer Review 1.POCE.1: Noodle Recipe Website",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#peer-code-review"
-              },
-              {
-                "name": "1.ICE.1: Drawing with DOM Manipulation (Day 2 of 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.ice-in-class-exercises/1.ice.1-drawing-with-dom-manipulation"
+                "name": "1.E.1: Recipe Site",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.1-recipe-site"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "1.POCE.2: High Card",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.poce-post-class-exercises/1.poce.2-high-card"
+                "name": "1.E.1: Recipe Site",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.1-recipe-site"
               }
             ]
           }
@@ -221,36 +160,40 @@
           "preClass": {
             "items": [
               {
-                "name": "0.1.3: Reference vs Value",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.1-javascript/0.1.3-reference-vs-value"
+                "name": "1.2: CSS",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.2-css"
               },
               {
-                "name": "1.3.1: setTimeout",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.3-browser-functions/1.3.1-settimeout"
+                "name": "0.4.1: ES6",
+                "url": "https://bc.rocketacademy.co/0-foundations/0.4-javascript/0.4.1-es6"
               },
               {
-                "name": "1.4.1: Basic CSS (Exercises Part 1)",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.4-css/1.4.1-basic-css"
+                "name": "0.4.2: Common Syntax",
+                "url": "https://bc.rocketacademy.co/0-foundations/0.4-javascript/0.4.2-common-syntax"
+              },
+              {
+                "name": "0.4.3: Reference vs Value",
+                "url": "https://bc.rocketacademy.co/0-foundations/0.4-javascript/0.4.3-reference-vs-value"
+              },
+              {
+                "name": "0.5: Node.js (No need to read 0.5.X submodules for now)",
+                "url": "https://bc.rocketacademy.co/0-foundations/0.5-node.js"
               }
             ]
           },
           "inClass": {
             "items": [
               {
-                "name": "Peer Review 1.POCE.2: High Card",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#peer-code-review"
-              },
-              {
-                "name": "1.ICE.2: High Card With Delay",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.ice-in-class-exercises/1.ice.2-high-card-with-delay"
+                "name": "1.2: CSS - Codecademy Learn CSS - Syntax and Selectors, Visual Rules, The Box Model",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.2-css#codecademy-learn-css"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "1.POCE.3: Match Game",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.poce-post-class-exercises/1.poce.3-match-game"
+                "name": "1.2: CSS - Codecademy Learn CSS - Syntax and Selectors, Visual Rules, The Box Model",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.2-css#codecademy-learn-css"
               }
             ]
           }
@@ -263,7 +206,14 @@
         },
         "algos": {
           "type": "algos",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "Intro to Algorithms",
+                "url": "https://bc.rocketacademy.co/algorithms"
+              }
+            ]
+          },
           "inClass": {},
           "postClass": {}
         },
@@ -299,40 +249,24 @@
           "preClass": {
             "items": [
               {
-                "name": "1.3.2: setInterval",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.3-browser-functions/1.3.2-setinterval"
-              },
-              {
-                "name": "1.4.1: Basic CSS (Exercises Part 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.4-css/1.4.1-basic-css"
-              },
-              {
-                "name": "1.4.1.1: Classes, IDs and Inheritance",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.4-css/1.4.1-basic-css/1.4.1.1-classes-ids-and-inheritance"
-              },
-              {
-                "name": "1.4.1.2: Cascading and Specificity",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.4-css/1.4.1-basic-css/1.4.1.2-cascading-and-specificity"
+                "name": "1.2.1: Layout",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.2-css/1.2.1-layout"
               }
             ]
           },
           "inClass": {
             "items": [
               {
-                "name": "Peer Review 1.POCE.3: Match Game",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#peer-code-review"
-              },
-              {
-                "name": "1.ICE.3: Timer and Stopwatch Logic",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.ice-in-class-exercises/1.ice.3-timer-and-stopwatch-logic"
+                "name": "1.E.2: Portfolio Page",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.2-portfolio-page"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "1.POCE.4: Timer",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.poce-post-class-exercises/1.poce.4-timer"
+                "name": "1.E.2: Portfolio Page",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.2-portfolio-page"
               }
             ]
           }
@@ -345,9 +279,30 @@
         },
         "algos": {
           "type": "algos",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "preClass": {
+            "items": [
+              {
+                "name": "A.1.1: Arrays",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "A.1.1: Arrays",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "A.1.1: Arrays",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays"
+              }
+            ]
+          }
         },
         "ux": {
           "type": "ux",
@@ -381,36 +336,28 @@
           "preClass": {
             "items": [
               {
-                "name": "1.4.2: CSS Layout",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.4-css/1.4.2-css-layout"
+                "name": "0.4.4: Classes",
+                "url": "https://bc.rocketacademy.co/0-foundations/0.4-javascript/0.4.4-classes"
               },
               {
-                "name": "1.4.2.1: No Layout",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.4-css/1.4.2-css-layout/1.4.2.1-no-layout"
-              },
-              {
-                "name": "1.4.2.2: Display: Inline and Block",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.4-css/1.4.2-css-layout/1.4.2.2-display-inline-and-block"
+                "name": "1.3: React - Hello World, Introducing JSX, Rendering Elements, Components and Props",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react"
               }
             ]
           },
           "inClass": {
             "items": [
               {
-                "name": "Peer Review 1.POCE.4: Timer",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#peer-code-review"
-              },
-              {
-                "name": "1.ICE.4: Wikipedia (Day 1 of 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.ice-in-class-exercises/1.ice.4-wikipedia"
+                "name": "1.3: React - Codecademy React 101 - JSX, React Components",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#post-class-exercises-codecademy-react-101"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "1.POCE.5: Tic Tac Toe",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.poce-post-class-exercises/1.poce.5-tic-tac-toe"
+                "name": "1.3: React - Codecademy React 101 - JSX, React Components",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#post-class-exercises-codecademy-react-101"
               }
             ]
           }
@@ -425,82 +372,14 @@
           "type": "algos",
           "preClass": {},
           "inClass": {},
-          "postClass": {}
-        },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "ip": {
-          "type": "ip",
-          "ipDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "projects": {
-          "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        }
-      }
-    },
-    {
-      "courseDay": 6,
-      "dateTypes": {
-        "module": "Module 1: Frontend",
-        "general": {
-          "type": "general",
-          "preClass": {
+          "postClass": {
             "items": [
               {
-                "name": "0.4: JS Object as Tally",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.4-js-object-as-tally"
-              },
-              {
-                "name": "1.2.4: Controlling CSS with DOM Manipulation",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.2.4-controlling-css-with-dom-manipulation"
-              },
-              {
-                "name": "1.4.2.3: Box Model",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.4-css/1.4.2-css-layout/1.4.2.3-box-model"
-              },
-              {
-                "name": "1.4.2.4: Layout: Fixed, Percent and Max Width",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.4-css/1.4.2-css-layout/1.4.2.4-layout-fixed-percent-and-max-width"
+                "name": "A.1.1: Arrays",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays"
               }
             ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "Peer-Review 1.POCE.5: Tic Tac Toe",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#peer-code-review"
-              },
-              {
-                "name": "1.ICE.4: Wikipedia (Day 2 of 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.ice-in-class-exercises/1.ice.4-wikipedia"
-              }
-            ]
-          },
-          "postClass": {}
-        },
-        "css": {
-          "type": "css",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "algos": {
-          "type": "algos",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          }
         },
         "ux": {
           "type": "ux",
@@ -520,8 +399,8 @@
           "projectStart": {
             "items": [
               {
-                "name": "Project 1: Video Poker",
-                "url": "https://bc.rocketacademy.co/projects/project-1-video-poker"
+                "name": "Project 1 Ideation Phase 1",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
               }
             ]
           },
@@ -531,8 +410,95 @@
           "postClass": {
             "items": [
               {
-                "name": "Project 1 Implementation",
-                "url": "https://bc.rocketacademy.co/projects/project-1-video-poker"
+                "name": "Project 1 Ideation Phase 1",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 6,
+      "dateTypes": {
+        "module": "Module 1: Frontend",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "1.3: React - State and Lifecycle",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#5-state-and-lifecycle"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "1.3: React - Codecademy React 101 - Components Interacting, Lifecycle Methods",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#post-class-exercises-codecademy-react-101"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "1.3: React - Codecademy React 101 - Components Interacting, Lifecycle Methods",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#post-class-exercises-codecademy-react-101"
+              }
+            ]
+          }
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {
+            "items": [
+              {
+                "name": "A.2: Complexity Analysis",
+                "url": "https://bc.rocketacademy.co/algorithms/a.2-complexity-analysis"
+              }
+            ]
+          },
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "A.1.1: Arrays",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays"
+              }
+            ]
+          }
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 1 Ideation Phase 1",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
               }
             ]
           }
@@ -548,24 +514,35 @@
           "preClass": {
             "items": [
               {
-                "name": "1.4.2.5: Display: Inline Block",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.4-css/1.4.2-css-layout/1.4.2.5-display-inline-block"
+                "name": "1.3: React - Handling Events, Conditional Rendering, Lists and Keys",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react"
               },
               {
-                "name": "1.4.2.6: Layout: Columns and Cards",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.4-css/1.4.2-css-layout/1.4.2.6-layout-columns-and-cards"
+                "name": "0.5.1: Node Modules",
+                "url": "https://bc.rocketacademy.co/0-foundations/0.5-node.js/0.5.1-node-modules"
+              },
+              {
+                "name": "0.5.2: NPM",
+                "url": "https://bc.rocketacademy.co/0-foundations/0.5-node.js/0.5.2-npm"
               }
             ]
           },
           "inClass": {
             "items": [
               {
-                "name": "1.ICE.5: Etsy (Day 1 of 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.ice-in-class-exercises/1.ice.5-etsy"
+                "name": "1.E.3: High Card",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.3-high-card"
               }
             ]
           },
-          "postClass": {}
+          "postClass": {
+            "items": [
+              {
+                "name": "1.E.3: High Card",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.3-high-card"
+              }
+            ]
+          }
         },
         "css": {
           "type": "css",
@@ -575,9 +552,30 @@
         },
         "algos": {
           "type": "algos",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "preClass": {
+            "items": [
+              {
+                "name": "A.1.1.1: Binary Search",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays/a.1.1.1-binary-search"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "A.1.1.1: Binary Search",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays/a.1.1.1-binary-search"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "A.1.1.1: Binary Search",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays/a.1.1.1-binary-search"
+              }
+            ]
+          }
         },
         "ux": {
           "type": "ux",
@@ -597,19 +595,12 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 1 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 1 Implementation",
-                "url": "https://bc.rocketacademy.co/projects/project-1-video-poker"
+                "name": "Project 1 Ideation Phase 1",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
               }
             ]
           }
@@ -625,28 +616,39 @@
           "preClass": {
             "items": [
               {
-                "name": "2.0: Module 2 Setup",
-                "url": "https://bc.rocketacademy.co/2-backend-basics/2.0-module-2-overview"
+                "name": "0.4.5: Destructuring and Spread Operator",
+                "url": "https://bc.rocketacademy.co/0-foundations/0.4-javascript/0.4.5-destructuring-and-spread-operator"
               },
               {
-                "name": "1.4.2.7: Position",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.4-css/1.4.2-css-layout/1.4.2.7-position"
-              },
-              {
-                "name": "1.4.2.8: Float",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.4-css/1.4.2-css-layout/1.4.2.8-float"
+                "name": "1.3: React - Forms",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#9-forms"
               }
             ]
           },
           "inClass": {
             "items": [
               {
-                "name": "1.ICE.5: Etsy (Day 2 of 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.ice-in-class-exercises/1.ice.5-etsy"
+                "name": "1.3: React - Codecademy React 101 - React Forms",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#post-class-exercises-codecademy-react-101"
+              },
+              {
+                "name": "1.E.4: Guess The Word (Day 1 of 2)",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.4-guess-the-word"
               }
             ]
           },
-          "postClass": {}
+          "postClass": {
+            "items": [
+              {
+                "name": "1.3: React - Codecademy React 101 - React Forms",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#post-class-exercises-codecademy-react-101"
+              },
+              {
+                "name": "1.E.4: Guess The Word (Day 1 of 2)",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.4-guess-the-word"
+              }
+            ]
+          }
         },
         "css": {
           "type": "css",
@@ -656,9 +658,30 @@
         },
         "algos": {
           "type": "algos",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "preClass": {
+            "items": [
+              {
+                "name": "A.1.1.2: Sliding Windows",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays/a.1.1.2-sliding-windows"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "A.1.1.2: Sliding Windows",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays/a.1.1.2-sliding-windows"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "A.1.1.2: Sliding Windows",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays/a.1.1.2-sliding-windows"
+              }
+            ]
+          }
         },
         "ux": {
           "type": "ux",
@@ -678,19 +701,12 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 1 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 1 Implementation",
-                "url": "https://bc.rocketacademy.co/projects/project-1-video-poker"
+                "name": "Project 1 Ideation Phase 1",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
               }
             ]
           }
@@ -706,20 +722,35 @@
           "preClass": {
             "items": [
               {
-                "name": "1.4.2.9: Flexbox",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.4-css/1.4.2-css-layout/1.4.2.9-flexbox"
+                "name": "1.3: React - Lifting State Up",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#10-lifting-state-up"
               }
             ]
           },
           "inClass": {
             "items": [
               {
-                "name": "1.ICE.6: Portfolio Page (Day 1 of 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.ice-in-class-exercises/1.ice.6-portfolio-page"
+                "name": "1.3: React - Codecademy React 101 - Stateless Components from Stateful Components",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#post-class-exercises-codecademy-react-101"
+              },
+              {
+                "name": "1.E.4: Guess The Word (Day 2 of 2)",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.4-guess-the-word"
               }
             ]
           },
-          "postClass": {}
+          "postClass": {
+            "items": [
+              {
+                "name": "1.3: React - Codecademy React 101 - Stateless Components from Stateful Components",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#post-class-exercises-codecademy-react-101"
+              },
+              {
+                "name": "1.E.4: Guess The Word (Day 2 of 2)",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.4-guess-the-word"
+              }
+            ]
+          }
         },
         "css": {
           "type": "css",
@@ -731,7 +762,14 @@
           "type": "algos",
           "preClass": {},
           "inClass": {},
-          "postClass": {}
+          "postClass": {
+            "items": [
+              {
+                "name": "A.1.1.2: Sliding Windows",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays/a.1.1.2-sliding-windows"
+              }
+            ]
+          }
         },
         "ux": {
           "type": "ux",
@@ -748,22 +786,22 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {
+          "projectStart": {
             "items": [
               {
-                "name": "Project 1 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+                "name": "Project 1 Ideation Phase 2",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
               }
             ]
           },
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 1 Implementation",
-                "url": "https://bc.rocketacademy.co/projects/project-1-video-poker"
+                "name": "Project 1 Ideation Phase 2",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
               }
             ]
           }
@@ -779,23 +817,12 @@
           "preClass": {
             "items": [
               {
-                "name": "1.5.1: Responsive Design",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.5-design-principles/1.5.1-responsive-design"
-              },
-              {
-                "name": "1.5.2: Web Design Basics",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.5-design-principles/1.5.2-web-design-basics"
+                "name": "1.3: React - Composition vs Inheritance, Thinking in React",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react"
               }
             ]
           },
-          "inClass": {
-            "items": [
-              {
-                "name": "1.ICE.6: Portfolio Page (Day 2 of 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.ice-in-class-exercises/1.ice.6-portfolio-page"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {}
         },
         "css": {
@@ -806,9 +833,30 @@
         },
         "algos": {
           "type": "algos",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "preClass": {
+            "items": [
+              {
+                "name": "A.1.2: Hash Tables",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.2-hash-tables"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "A.1.2: Hash Tables",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.2-hash-tables"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "A.1.2: Hash Tables",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.2-hash-tables"
+              }
+            ]
+          }
         },
         "ux": {
           "type": "ux",
@@ -826,21 +874,21 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {
+          "projectDue": {
             "items": [
               {
-                "name": "Project 1 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+                "name": "Project 1 Ideation Phase 2",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
               }
             ]
           },
+          "preClass": {},
+          "inClass": {},
           "postClass": {
             "items": [
               {
                 "name": "Project 1 Implementation",
-                "url": "https://bc.rocketacademy.co/projects/project-1-video-poker"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
               }
             ]
           }
@@ -856,19 +904,12 @@
           "preClass": {
             "items": [
               {
-                "name": "1.4.3: Bootstrap",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.4-css/1.4.3-bootstrap"
+                "name": "1.3: React - Composition vs Inheritance, Thinking in React",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#tutorial-intro-to-react"
               }
             ]
           },
-          "inClass": {
-            "items": [
-              {
-                "name": "1.ICE.7: Bootstrap Columns",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.ice-in-class-exercises/1.ice.7-bootstrap-columns"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {}
         },
         "css": {
@@ -881,7 +922,14 @@
           "type": "algos",
           "preClass": {},
           "inClass": {},
-          "postClass": {}
+          "postClass": {
+            "items": [
+              {
+                "name": "A.1.2: Hash Tables",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.2-hash-tables"
+              }
+            ]
+          }
         },
         "ux": {
           "type": "ux",
@@ -913,7 +961,7 @@
             "items": [
               {
                 "name": "Project 1 Implementation",
-                "url": "https://bc.rocketacademy.co/projects/project-1-video-poker"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
               }
             ]
           }
@@ -940,7 +988,14 @@
           "type": "algos",
           "preClass": {},
           "inClass": {},
-          "postClass": {}
+          "postClass": {
+            "items": [
+              {
+                "name": "A.1.2: Hash Tables",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.2-hash-tables"
+              }
+            ]
+          }
         },
         "ux": {
           "type": "ux",
@@ -958,7 +1013,14 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 1 MVP Deadline",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
+              }
+            ]
+          },
           "preClass": {},
           "inClass": {
             "items": [
@@ -972,7 +1034,7 @@
             "items": [
               {
                 "name": "Project 1 Implementation",
-                "url": "https://bc.rocketacademy.co/projects/project-1-video-poker"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
               }
             ]
           }
@@ -985,38 +1047,9 @@
         "module": "Module 1: Frontend",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "2.0: Module 2 Overview",
-                "url": "https://bc.rocketacademy.co/2-backend-basics/2.0-module-2-overview"
-              },
-              {
-                "name": "2.1: My First Node.js Program",
-                "url": "https://bc.rocketacademy.co/2-backend-basics/2.1-my-first-node-program"
-              },
-              {
-                "name": "2.2: Command Line Programs",
-                "url": "https://bc.rocketacademy.co/2-backend-basics/2.2-command-line-programs"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "2.ICE.1: Conversions",
-                "url": "https://bc.rocketacademy.co/2-backend-basics/2.ice-in-class-exercises/2.ice.1-conversions"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "2.POCE.1: Command Line Colour Converter",
-                "url": "https://bc.rocketacademy.co/2-backend-basics/2.poce-post-class-exercises/2.poce.1-command-line-colour-converter"
-              }
-            ]
-          }
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         },
         "css": {
           "type": "css",
@@ -1028,7 +1061,14 @@
           "type": "algos",
           "preClass": {},
           "inClass": {},
-          "postClass": {}
+          "postClass": {
+            "items": [
+              {
+                "name": "A.1.2: Hash Tables",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.2-hash-tables"
+              }
+            ]
+          }
         },
         "ux": {
           "type": "ux",
@@ -1060,7 +1100,7 @@
             "items": [
               {
                 "name": "Project 1 Implementation",
-                "url": "https://bc.rocketacademy.co/projects/project-1-video-poker"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
               }
             ]
           }
@@ -1075,34 +1115,9 @@
           "type": "general",
           "projectStart": {},
           "projectDue": {},
-          "preClass": {
-            "items": [
-              {
-                "name": "2.3: Modules",
-                "url": "https://bc.rocketacademy.co/2-backend-basics/2.3-modules"
-              },
-              {
-                "name": "2.4: Disk Reading",
-                "url": "https://bc.rocketacademy.co/2-backend-basics/2.4-disk-reading"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "2.ICE.2: Modules, Disk Reading",
-                "url": "https://bc.rocketacademy.co/2-backend-basics/2.ice-in-class-exercises/2.ice.2-modules-disk-reading"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "2.POCE.2: CSS Reader",
-                "url": "https://bc.rocketacademy.co/2-backend-basics/2.poce-post-class-exercises/2.poce.2-css-reader"
-              }
-            ]
-          }
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         },
         "css": {
           "type": "css",
@@ -1114,7 +1129,14 @@
           "type": "algos",
           "preClass": {},
           "inClass": {},
-          "postClass": {}
+          "postClass": {
+            "items": [
+              {
+                "name": "A.1.2: Hash Tables",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.2-hash-tables"
+              }
+            ]
+          }
         },
         "ux": {
           "type": "ux",
@@ -1146,7 +1168,7 @@
             "items": [
               {
                 "name": "Project 1 Implementation",
-                "url": "https://bc.rocketacademy.co/projects/project-1-video-poker"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
               }
             ]
           }
@@ -1159,138 +1181,9 @@
         "module": "Module 1: Frontend",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "2.5: Disk Writing",
-                "url": "https://bc.rocketacademy.co/2-backend-basics/2.5-disk-writing"
-              },
-              {
-                "name": "2.6: Disk Altering",
-                "url": "https://bc.rocketacademy.co/2-backend-basics/2.6-disk-altering"
-              },
-              {
-                "name": "2.7: Internet 101",
-                "url": "https://bc.rocketacademy.co/2-backend-basics/2.7-internet-101"
-              },
-              {
-                "name": "2.8: Chrome Networking",
-                "url": "https://bc.rocketacademy.co/2-backend-basics/2.8-chrome-networking"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "2.ICE.3: Disk Altering",
-                "url": "https://bc.rocketacademy.co/2-backend-basics/2.ice-in-class-exercises/2.ice.3-disk-altering"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "2.POCE.3: CSS Processor",
-                "url": "https://bc.rocketacademy.co/2-backend-basics/2.poce-post-class-exercises/2.poce.3-css-processor"
-              }
-            ]
-          }
-        },
-        "css": {
-          "type": "css",
           "preClass": {},
           "inClass": {},
           "postClass": {}
-        },
-        "algos": {
-          "type": "algos",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "ip": {
-          "type": "ip",
-          "ipDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "projects": {
-          "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 1 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 1 Implementation",
-                "url": "https://bc.rocketacademy.co/projects/project-1-video-poker"
-              },
-              {
-                "name": "Project 1: Deploy to GitHub Pages (Project site, skip to Repository Settings)",
-                "url": "https://pages.github.com/"
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "courseDay": 16,
-      "dateTypes": {
-        "module": "Module 1: Frontend",
-        "general": {
-          "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "2.9: HTTP Requests and Responses",
-                "url": "https://bc.rocketacademy.co/2-backend-basics/2.9-http"
-              },
-              {
-                "name": "2.10: HTTP File Server",
-                "url": "https://bc.rocketacademy.co/2-backend-basics/2.10-http-file-server"
-              },
-              {
-                "name": "Install ngrok. We will use it in 2.ICE.4.",
-                "url": "https://bc.rocketacademy.co/2-backend-basics/2.0-module-2-overview#ngrok"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "Review 2.POCE.3: CSS Processor",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#peer-code-review"
-              },
-              {
-                "name": "2.ICE.4: Servers and Requests",
-                "url": "https://bc.rocketacademy.co/2-backend-basics/2.ice-in-class-exercises/2.ice.4-servers-and-requests"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "2.POCE.4: File Server",
-                "url": "https://bc.rocketacademy.co/2-backend-basics/2.poce-post-class-exercises/2.poce.4-file-server"
-              }
-            ]
-          }
         },
         "css": {
           "type": "css",
@@ -1323,8 +1216,74 @@
           "projectDue": {
             "items": [
               {
-                "name": "Due: Project 1 Video Poker",
-                "url": "https://bc.rocketacademy.co/projects/project-1-video-poker"
+                "name": "Project 1 Feature Freeze",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
+              }
+            ]
+          },
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 1 Scrum",
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 1 Implementation",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "courseDay": 16,
+      "dateTypes": {
+        "module": "Module 1: Frontend",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 1 Presentations",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
               }
             ]
           },
@@ -1333,7 +1292,7 @@
             "items": [
               {
                 "name": "Project 1 Presentations",
-                "url": "https://bc.rocketacademy.co/projects/project-1-video-poker"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
               }
             ]
           },
@@ -1351,45 +1310,12 @@
     {
       "courseDay": 17,
       "dateTypes": {
-        "module": "Module 2: Backend Basics",
+        "module": "Module 2: Full-Stack",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "2.11: Deploy Server to Cloud",
-                "url": "https://bc.rocketacademy.co/2-backend-basics/2.11-deploy-server-to-cloud"
-              },
-              {
-                "name": "2.12: Domain Names",
-                "url": "https://bc.rocketacademy.co/2-backend-basics/2.12-domain-names"
-              },
-              {
-                "name": "2.13: JSON",
-                "url": "https://bc.rocketacademy.co/2-backend-basics/2.13-json"
-              },
-              {
-                "name": "2.13.1: JSON File Storage Module - Add, Read, Write",
-                "url": "https://bc.rocketacademy.co/2-backend-basics/2.13-json/2.13.1-json-file-storage-module-add-read-write"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "2.ICE.5: Reading and Writing to JSON",
-                "url": "https://bc.rocketacademy.co/2-backend-basics/2.ice-in-class-exercises/2.ice.5-json-cards"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "2.POCE.5: Responsive Noodle Site",
-                "url": "https://bc.rocketacademy.co/2-backend-basics/2.poce-post-class-exercises/2.poce.5-responsive-noodle-site"
-              }
-            ]
-          }
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         },
         "css": {
           "type": "css",
@@ -1429,41 +1355,12 @@
     {
       "courseDay": 18,
       "dateTypes": {
-        "module": "Module 2: Backend Basics",
+        "module": "Module 2: Full-Stack",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "2.13.2: JSON File Storage Module - Passing Callbacks",
-                "url": "https://bc.rocketacademy.co/2-backend-basics/2.13-json/2.13.2-json-file-storage-module-passing-callbacks"
-              },
-              {
-                "name": "2.13.3: JSON File Storage Module - Summary",
-                "url": "https://bc.rocketacademy.co/2-backend-basics/2.13-json/2.13.3-json-file-storage-module-summary"
-              },
-              {
-                "name": "2.14: NPM",
-                "url": "https://bc.rocketacademy.co/2-backend-basics/2.14-npm"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "2.ICE.6: NPM, JSON File Storage",
-                "url": "https://bc.rocketacademy.co/2-backend-basics/2.ice-in-class-exercises/2.ice.6-npm-json-file-storage"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "2.POCE.6: To-Do List - JSON",
-                "url": "https://bc.rocketacademy.co/2-backend-basics/2.poce-post-class-exercises/2.poce.6-todo-list-json"
-              }
-            ]
-          }
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         },
         "css": {
           "type": "css",
@@ -1503,39 +1400,14 @@
     {
       "courseDay": 19,
       "dateTypes": {
-        "module": "Module 3: Backend Applications",
+        "module": "Module 2: Full-Stack",
         "general": {
           "type": "general",
           "projectStart": {},
           "projectDue": {},
-          "preClass": {
-            "items": [
-              {
-                "name": "0.3.2: Git Pull",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.2-git/0.3.2-git-pull.md"
-              },
-              {
-                "name": "0.3.3: Git Branches",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.2-git/0.3.3-git-branches.md"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "0.ICE.1: Git Branches",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.ice-in-class-exercises/0.ice.1-git-branches"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "2.POCE.6: To-Do List - JSON",
-                "url": "https://bc.rocketacademy.co/2-backend-basics/2.poce-post-class-exercises/2.poce.6-todo-list-json"
-              }
-            ]
-          }
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         },
         "css": {
           "type": "css",
@@ -1575,39 +1447,14 @@
     {
       "courseDay": 20,
       "dateTypes": {
-        "module": "Module 3: Backend Applications",
+        "module": "Module 2: Full-Stack",
         "general": {
           "type": "general",
           "projectStart": {},
           "projectDue": {},
-          "preClass": {
-            "items": [
-              {
-                "name": "3.1: Express.js",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.1-express-js"
-              },
-              {
-                "name": "3.1.1: Express with JSON DB",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.1-express-js/3.1.1-express-with-json-db"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "3.ICE.1: Bigfoot",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.1-bigfoot"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "3.POCE.1: Express Noodle App",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.poce-post-class-exercises/3.poce.1-express-noodle-app"
-              }
-            ]
-          }
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         },
         "css": {
           "type": "css",
@@ -1647,47 +1494,14 @@
     {
       "courseDay": 21,
       "dateTypes": {
-        "module": "Module 3: Backend Applications",
+        "module": "Module 2: Full-Stack",
         "general": {
           "type": "general",
           "projectStart": {},
           "projectDue": {},
-          "preClass": {
-            "items": [
-              {
-                "name": "0.1.4: Destructuring and Spread Operator",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.1-javascript/0.1.4-destructuring-and-spread-operator"
-              },
-              {
-                "name": "0.6: Nodemon",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.6-nodemon"
-              },
-              {
-                "name": "3.2: EJS",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.2-ejs"
-              },
-              {
-                "name": "3.2.1: EJS Loops",
-                "url": "https://bc.rocketacademy.co/3-3-backend-applications/3.2-ejs/3.2.1-ejs-loops"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "3.ICE.2: Bigfoot EJS",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.2-bigfoot-ejs"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "3.POCE.2: Express, EJS Noodle App",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.poce-post-class-exercises/3.poce.2-express-ejs-noodle-app"
-              }
-            ]
-          }
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         },
         "css": {
           "type": "css",
@@ -1727,45 +1541,12 @@
     {
       "courseDay": 22,
       "dateTypes": {
-        "module": "Module 3: Backend Applications",
+        "module": "Module 2: Full-Stack",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "3.1.2: HTML Forms",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.1-express-js/3.1.2-html-forms"
-              },
-              {
-                "name": "3.1.3: Handling POST Requests",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.1-express-js/3.1.3-handling-post-requests"
-              },
-              {
-                "name": "3.2.2: EJS Conditionals",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.2-ejs/3.2.2-ejs-conditionals"
-              },
-              {
-                "name": "0.7: Thunder Client",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.7-thunder-client"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "3.ICE.3: Bigfoot POST",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.3-bigfoot-post"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "3.POCE.3: UFO Sightings",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.poce-post-class-exercises/3.poce.3-express-ufos"
-              }
-            ]
-          }
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         },
         "css": {
           "type": "css",
@@ -1805,47 +1586,19 @@
     {
       "courseDay": 23,
       "dateTypes": {
-        "module": "Module 3: Backend Applications",
+        "module": "Module 2: Full-Stack",
         "general": {
           "type": "general",
           "projectStart": {},
           "projectDue": {},
-          "preClass": {
-            "items": [
-              {
-                "name": "3.1.4: PUT, DELETE Requests",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.1-express-js/3.1.4-put-delete-requests"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "3.POCE.3: UFO Sightings",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.poce-post-class-exercises/3.poce.3-express-ufos"
-              }
-            ]
-          }
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         },
         "css": {
           "type": "css",
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "CSS.ICE.3: MyTunes",
-                "url": "https://bc.rocketacademy.co/1-frontend/css.ice-in-class-exercises/css.ice.3-mytunes"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {}
         },
         "algos": {
@@ -1880,49 +1633,17 @@
     {
       "courseDay": 24,
       "dateTypes": {
-        "module": "Module 3: Backend Applications",
+        "module": "Module 2: Full-Stack",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "3.2.3: EJS Partials",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.2-ejs/3.2.3-advanced-ejs"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
-              },
-              {
-                "name": "CSS.ICE.3: MyTunes",
-                "url": "https://bc.rocketacademy.co/1-frontend/css.ice-in-class-exercises/css.ice.3-mytunes"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "3.POCE.3: UFO Sightings",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.poce-post-class-exercises/3.poce.3-express-ufos"
-              }
-            ]
-          }
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         },
         "css": {
           "type": "css",
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "CSS.ICE.3: MyTunes",
-                "url": "https://bc.rocketacademy.co/1-frontend/css.ice-in-class-exercises/css.ice.3-mytunes"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {}
         },
         "algos": {
@@ -1935,18 +1656,7 @@
           "type": "ux",
           "preClass": {},
           "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "UX.1: Overview",
-                "url": "https://bc.rocketacademy.co/user-experience/ux.1-overview"
-              },
-              {
-                "name": "UX.2: The UX Process",
-                "url": "https://bc.rocketacademy.co/user-experience/ux.2-the-ux-process"
-              }
-            ]
-          }
+          "postClass": {}
         },
         "ip": {
           "type": "ip",
@@ -1968,45 +1678,12 @@
     {
       "courseDay": 25,
       "dateTypes": {
-        "module": "Module 3: Backend Applications",
+        "module": "Module 2: Full-Stack",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "3.3: SQL Language",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.3-sql-language"
-              },
-              {
-                "name": "3.3.1: Basic SQL Commands",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.3-sql-language/3.3.1-basic-sql-commands"
-              },
-              {
-                "name": "3.5.1: Cookies",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.5-authentication/3.5.1-cookies"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
-              },
-              {
-                "name": "3.ICE.4: Cookies",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.4-cookies"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "3.POCE.3: UFO Sightings",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.poce-post-class-exercises/3.poce.3-express-ufos"
-              }
-            ]
-          }
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         },
         "css": {
           "type": "css",
@@ -2024,14 +1701,7 @@
           "type": "ux",
           "preClass": {},
           "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "UX.3: How to Design Your App",
-                "url": "https://bc.rocketacademy.co/user-experience/ux.3-how-to-design-your-app"
-              }
-            ]
-          }
+          "postClass": {}
         },
         "ip": {
           "type": "ip",
@@ -2053,41 +1723,12 @@
     {
       "courseDay": 26,
       "dateTypes": {
-        "module": "Module 3: Backend Applications",
+        "module": "Module 2: Full-Stack",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "3.4: SQL Applications",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.4-sql-applications"
-              },
-              {
-                "name": "3.4.1: PostgreSQL, psql",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.1-postgresql-psql"
-              },
-              {
-                "name": "3.4.2: PostgreSQL Node App",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.2-postgresql-node-app"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "Project Presentation: 3.POCE.3",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#presentations"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "3.POCE.4: Meal Tracker",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.poce-post-class-exercises/3.poce.4-sql-meal-keeper"
-              }
-            ]
-          }
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         },
         "css": {
           "type": "css",
@@ -2116,66 +1757,23 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {
-            "items": [
-              {
-                "name": "Start: Project 2 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
-              }
-            ]
-          },
+          "projectStart": {},
           "projectDue": {},
           "preClass": {},
           "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 2 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
-              }
-            ]
-          }
+          "postClass": {}
         }
       }
     },
     {
       "courseDay": 27,
       "dateTypes": {
-        "module": "Module 3: Backend Applications",
+        "module": "Module 2: Full-Stack",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "3.3.2: SQL Relationships (One to Many)",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.3-sql-language/3.3.2-sql-relationships-one-to-many"
-              },
-              {
-                "name": "3.4.3: Nested SQL Queries",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.3-nested-sql-queries"
-              },
-              {
-                "name": "3.4.4: PostgreSQL Express App",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.4-postgresql-express-app"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "3.ICE.5: One to Many",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.5-one-to-many"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "3.POCE.5: Bird Watching",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.poce-post-class-exercises/3.poce.5-bird-watching"
-              }
-            ]
-          }
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         },
         "css": {
           "type": "css",
@@ -2208,51 +1806,19 @@
           "projectDue": {},
           "preClass": {},
           "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 2 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
-              }
-            ]
-          }
+          "postClass": {}
         }
       }
     },
     {
       "courseDay": 28,
       "dateTypes": {
-        "module": "Module 3: Backend Applications",
+        "module": "Module 2: Full-Stack",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "3.3.4: Inner Join",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.3-sql-language/3.3.4-inner-join"
-              },
-              {
-                "name": "3.5.2: User Auth",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.5-authentication/3.5.2-user-auth"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "3.ICE.6: Inner Joins",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.6-inner-join"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "3.POCE.6: Bird Watching Users",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.poce-post-class-exercises/3.poce.6-bird-watching-users"
-              }
-            ]
-          }
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         },
         "css": {
           "type": "css",
@@ -2285,143 +1851,19 @@
           "projectDue": {},
           "preClass": {},
           "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 2 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-1"
-              }
-            ]
-          }
+          "postClass": {}
         }
       }
     },
     {
       "courseDay": 29,
       "dateTypes": {
-        "module": "Module 3: Backend Applications",
+        "module": "Module 2: Full-Stack",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "3.3.3: SQL Relationships (Many to Many)",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.3-sql-language/3.3.3-sql-relationships-many-to-many"
-              },
-              {
-                "name": "3.4.5: Forms for One-to-Many Relationships",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.5-forms-for-one-to-many-relationships"
-              },
-              {
-                "name": "3.5.3: Password Hashing",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.5-authentication/3.5.3-password-hashing"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "3.ICE.7: Many-to-Many",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.7-many-to-many"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "3.POCE.7: Bird Watching Species",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.poce-post-class-exercises/3.poce.7-bird-watching-species"
-              }
-            ]
-          }
-        },
-        "css": {
-          "type": "css",
           "preClass": {},
           "inClass": {},
           "postClass": {}
-        },
-        "algos": {
-          "type": "algos",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "ip": {
-          "type": "ip",
-          "ipDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "projects": {
-          "type": "projects",
-          "projectStart": {
-            "items": [
-              {
-                "name": "Start: Project 2 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
-              }
-            ]
-          },
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 2 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "courseDay": 30,
-      "dateTypes": {
-        "module": "Module 3: Backend Applications",
-        "general": {
-          "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "3.3.5: Non-FK Relationship Data in Join Table",
-                "url": "https://bc.rocketacademy.co/3-3-backend-applications/3.3-sql-language/3.3.5-non-fk-relationship-data-in-join-table"
-              },
-              {
-                "name": "3.4.6: Forms for Many-to-Many Relationships",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.6-forms-for-many-to-many-relationships"
-              },
-              {
-                "name": "3.5.4: Session Hashing",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.5-authentication/3.5.4-session-hashing"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "3.ICE.8: Multiple Foreign Keys",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.8-multi-foreign-key"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "3.POCE.8: Bird Watching Behaviour",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.poce-post-class-exercises/3.poce.8-bird-watching-behaviour"
-              }
-            ]
-          }
         },
         "css": {
           "type": "css",
@@ -2454,51 +1896,19 @@
           "projectDue": {},
           "preClass": {},
           "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 2 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
-              }
-            ]
-          }
+          "postClass": {}
         }
       }
     },
     {
-      "courseDay": 31,
+      "courseDay": 30,
       "dateTypes": {
-        "module": "Module 3: Backend Applications",
+        "module": "Module 2: Full-Stack",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "3.3.6: SQL Schema Design",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.3-sql-language/3.3.6-sql-schema-design"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "3.ICE.9: DB Schema Design - Carousell",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.9-db-schema-design-carousell"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "3.POCE.9: Bird Watching Comments",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.poce-post-class-exercises/3.poce.9-bird-watching-comments"
-              },
-              {
-                "name": "3.POCE.10: EC2 Deployment with Postgres",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.poce-post-class-exercises/3.poce.10-ec2-deployment-with-postgres"
-              }
-            ]
-          }
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         },
         "css": {
           "type": "css",
@@ -2527,31 +1937,55 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {
-            "items": [
-              {
-                "name": "Start: Project 2 Start",
-                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app"
-              }
-            ]
-          },
-          "projectDue": {
-            "items": [
-              {
-                "name": "Due: Project 2 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
-              }
-            ]
-          },
+          "projectStart": {},
+          "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 2 Peer Planning Review",
-                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
-              }
-            ]
-          },
+          "inClass": {},
+          "postClass": {}
+        }
+      }
+    },
+    {
+      "courseDay": 31,
+      "dateTypes": {
+        "module": "Module 2: Full-Stack",
+        "general": {
+          "type": "general",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ux": {
+          "type": "ux",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
           "postClass": {}
         }
       }
@@ -2559,37 +1993,11 @@
     {
       "courseDay": 32,
       "dateTypes": {
-        "module": "Module 3: Backend Applications",
+        "module": "Module 2: Full-Stack",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "0.1.5: Promises",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.1-javascript/0.1.5-promises"
-              },
-              {
-                "name": "0.1.5.1: Promise.catch, Promise.all",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.1-javascript/0.1.5-promises/0.1.5.1-promise.catch-promise.all"
-              },
-              {
-                "name": "3.4.7: pg Promises",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.7-pg-promises"
-              },
-              {
-                "name": "3.4.8: SQL Clients",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.8-sql-clients"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "3.ICE.10: Bird Watching Redux",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.10-bird-watching-redux"
-              }
-            ]
-          },
+          "preClass": {},
+          "inClass": {},
           "postClass": {}
         },
         "css": {
@@ -2622,47 +2030,18 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 2 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 2 Instructor 1-1s",
-                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#ideation-phase-2"
-              },
-              {
-                "name": "Project 2 Implementation",
-                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#recommended-order-of-implementation"
-              }
-            ]
-          }
+          "inClass": {},
+          "postClass": {}
         }
       }
     },
     {
       "courseDay": 33,
       "dateTypes": {
-        "module": "Module 3: Backend Applications",
+        "module": "Module 3: Backend",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "3.4.9: Database Setup Files",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.9-database-setup-files"
-              },
-              {
-                "name": "3.5.5: Custom Middleware for Authentication",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.5-authentication/3.5.5-custom-middleware-for-authentication"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {},
           "postClass": {}
         },
@@ -2696,49 +2075,21 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 2 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 2 Implementation",
-                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#recommended-order-of-implementation"
-              }
-            ]
-          }
+          "inClass": {},
+          "postClass": {}
         }
       }
     },
     {
       "courseDay": 34,
       "dateTypes": {
-        "module": "Module 3: Backend Applications",
+        "module": "Module 3: Backend",
         "general": {
           "type": "general",
           "projectStart": {},
           "projectDue": {},
-          "preClass": {
-            "items": [
-              {
-                "name": "3.4.10: Dates in SQL and JS",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.10-dates-in-sql-and-js"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "3.ICE.11: DB Schema Design - Uber",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.11-db-schema-design-uber"
-              }
-            ]
-          },
+          "preClass": {},
+          "inClass": {},
           "postClass": {}
         },
         "css": {
@@ -2771,60 +2122,25 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 2 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 2 Implementation",
-                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#recommended-order-of-implementation"
-              }
-            ]
-          }
+          "inClass": {},
+          "postClass": {}
         }
       }
     },
     {
       "courseDay": 35,
       "dateTypes": {
-        "module": "Module 3: Backend Applications",
+        "module": "Module 3: Backend",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "3.4.11: File Uploads",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.4-sql-applications/3.4.11-file-uploads"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "3.ICE.12: DB Schema Design - Instagram",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.12-db-schema-design-instagram"
-              }
-            ]
-          },
+          "preClass": {},
+          "inClass": {},
           "postClass": {}
         },
         "css": {
           "type": "css",
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "CSS.ICE.5: Restaurant",
-                "url": "https://bc.rocketacademy.co/1-frontend/css.ice-in-class-exercises/css.ice.5-restaurant"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {}
         },
         "algos": {
@@ -2851,29 +2167,15 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 2 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 2 Implementation",
-                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#recommended-order-of-implementation"
-              }
-            ]
-          }
+          "inClass": {},
+          "postClass": {}
         }
       }
     },
     {
       "courseDay": 36,
       "dateTypes": {
-        "module": "Module 3: Backend Applications",
+        "module": "Module 3: Backend",
         "general": {
           "type": "general",
           "preClass": {},
@@ -2908,46 +2210,17 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Due: Project 2 MVP deadline",
-                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#mvp-deadline"
-              }
-            ]
-          },
+          "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 2 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
-              },
-              {
-                "name": "Project 2 Mid-Point Peer Review",
-                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#mid-point-peer-review-in-class"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 2 Mid-Point Instructor Meeting (30 minutes)",
-                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#project-timeline"
-              },
-              {
-                "name": "Project 2 Implementation",
-                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#recommended-order-of-implementation"
-              }
-            ]
-          }
+          "inClass": {},
+          "postClass": {}
         }
       }
     },
     {
       "courseDay": 37,
       "dateTypes": {
-        "module": "Module 3: Backend Applications",
+        "module": "Module 3: Backend",
         "general": {
           "type": "general",
           "preClass": {},
@@ -2957,14 +2230,7 @@
         "css": {
           "type": "css",
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "CSS.ICE.6: NTU",
-                "url": "https://bc.rocketacademy.co/1-frontend/css.ice-in-class-exercises/css.ice.6-ntu"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {}
         },
         "algos": {
@@ -2991,29 +2257,15 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 2 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 2 Implementation",
-                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#recommended-order-of-implementation"
-              }
-            ]
-          }
+          "inClass": {},
+          "postClass": {}
         }
       }
     },
     {
       "courseDay": 38,
       "dateTypes": {
-        "module": "Module 3: Backend Applications",
+        "module": "Module 3: Backend",
         "general": {
           "type": "general",
           "preClass": {},
@@ -3023,14 +2275,7 @@
         "css": {
           "type": "css",
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "CSS.ICE.7: Zillow",
-                "url": "https://bc.rocketacademy.co/1-frontend/css.ice-in-class-exercises/css.ice.7-zillow"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {}
         },
         "algos": {
@@ -3057,29 +2302,15 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 2 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 2 Implementation",
-                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#recommended-order-of-implementation"
-              }
-            ]
-          }
+          "inClass": {},
+          "postClass": {}
         }
       }
     },
     {
       "courseDay": 39,
       "dateTypes": {
-        "module": "Module 3: Backend Applications",
+        "module": "Module 3: Backend",
         "general": {
           "type": "general",
           "preClass": {},
@@ -3089,14 +2320,7 @@
         "css": {
           "type": "css",
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "CSS.ICE.8: Chase Bank",
-                "url": "https://bc.rocketacademy.co/1-frontend/css.ice-in-class-exercises/css.ice.8-chase-bank"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {}
         },
         "algos": {
@@ -3121,38 +2345,17 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Due: Project 2 Feature Freeze",
-                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#feature-freeze"
-              }
-            ]
-          },
+          "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 2 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 2 Implementation",
-                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#recommended-order-of-implementation"
-              }
-            ]
-          }
+          "inClass": {},
+          "postClass": {}
         }
       }
     },
     {
       "courseDay": 40,
       "dateTypes": {
-        "module": "Module 3: Backend Applications",
+        "module": "Module 3: Backend",
         "general": {
           "type": "general",
           "preClass": {},
@@ -3187,31 +2390,17 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Due: Project 2 Presentations",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#presentations"
-              }
-            ]
-          },
+          "projectDue": {},
           "preClass": {},
           "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 2 Post-Mortems",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#post-mortem"
-              }
-            ]
-          }
+          "postClass": {}
         }
       }
     },
     {
       "courseDay": 41,
       "dateTypes": {
-        "module": "Module 4: Backend Structure",
+        "module": "Module 3: Backend",
         "general": {
           "type": "general",
           "preClass": {},
@@ -3248,64 +2437,20 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 2 Redux (Peer Code Review)",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#peer-code-review"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 2 Demo Video",
-                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#video-demo"
-              }
-            ]
-          }
+          "inClass": {},
+          "postClass": {}
         }
       }
     },
     {
       "courseDay": 42,
       "dateTypes": {
-        "module": "Module 4: Backend Structure",
+        "module": "Module 3: Backend",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "3.6: Heroku",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.6-heroku"
-              },
-              {
-                "name": "3.6.1: Heroku Deploy",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.6-heroku/3.6.1-heroku-deploy"
-              },
-              {
-                "name": "3.6.2: Heroku Postgres",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.6-heroku/3.6.2-heroku-postgres"
-              },
-              {
-                "name": "3.6.3: Heroku S3",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.6-heroku/3.6.3-heroku-s3"
-              },
-              {
-                "name": "0.1.6: Classes",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.1-javascript/0.1.6-classes"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "3.POCE.11: Heroku Deployment",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.poce-post-class-exercises/3.poce.11-heroku-deployment"
-              }
-            ]
-          }
+          "postClass": {}
         },
         "css": {
           "type": "css",
@@ -3338,59 +2483,19 @@
           "projectDue": {},
           "preClass": {},
           "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 2 Demo Video",
-                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#video-demo"
-              }
-            ]
-          }
+          "postClass": {}
         }
       }
     },
     {
       "courseDay": 43,
       "dateTypes": {
-        "module": "Module 4: Backend Structure",
+        "module": "Module 3: Backend",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "4.0: Module 4 Overview",
-                "url": "https://bc.rocketacademy.co/4-backend-structure/4.0-module-4-overview"
-              },
-              {
-                "name": "4.1: ORM, Sequelize",
-                "url": "https://bc.rocketacademy.co/4-backend-structure/4.1-orm-sequelize"
-              },
-              {
-                "name": "4.1.1: Intro to Sequelize",
-                "url": "https://bc.rocketacademy.co/4-backend-structure/4.1-orm-sequelize/4.1.1-intro-to-sequelize"
-              },
-              {
-                "name": "4.1.2: Sequelize One-to-Many",
-                "url": "https://bc.rocketacademy.co/4-backend-structure/4.1-orm-sequelize/4.1.2-sequelize-one-to-many-relationships"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "3.ICE.13: DB Schema Design - Airbnb",
-                "url": "https://bc.rocketacademy.co/3-backend-applications/3.ice-in-class-exercises/3.ice.13-db-schema-design-airbnb"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "4.POCE.1: Sequelize CLI App - Travel Itinerary",
-                "url": "https://bc.rocketacademy.co/4-backend-structure/4.poce-post-class-exercises/4.poce.1-sequelize-cli-app-travel-itinerary"
-              }
-            ]
-          }
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         },
         "css": {
           "type": "css",
@@ -3420,14 +2525,7 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Due: Project 2 Demo Video",
-                "url": "https://bc.rocketacademy.co/projects/project-2-server-side-app#video-demo"
-              }
-            ]
-          },
+          "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
@@ -3437,41 +2535,12 @@
     {
       "courseDay": 44,
       "dateTypes": {
-        "module": "Module 4: Backend Structure",
+        "module": "Module 3: Backend",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "0.1.5.2: Try Catch",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.1-javascript/0.1.5-promises/0.1.5.2-try-catch"
-              },
-              {
-                "name": "0.1.5.3: Async Await",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.1-javascript/0.1.5-promises/0.1.5.3-async-await"
-              },
-              {
-                "name": "4.1.3: Async Await with Sequelize",
-                "url": "https://bc.rocketacademy.co/4-backend-structure/4.1-orm-sequelize/4.1.3-async-await-with-sequelize"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "4.POCE.1: Sequelize CLI App - Travel Itinerary (Pair Programming)",
-                "url": "https://bc.rocketacademy.co/4-backend-structure/4.poce-post-class-exercises/4.poce.1-sequelize-cli-app-travel-itinerary"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "4.POCE.1: Sequelize CLI App - Travel Itinerary",
-                "url": "https://bc.rocketacademy.co/4-backend-structure/4.poce-post-class-exercises/4.poce.1-sequelize-cli-app-travel-itinerary"
-              }
-            ]
-          }
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         },
         "css": {
           "type": "css",
@@ -3511,37 +2580,12 @@
     {
       "courseDay": 45,
       "dateTypes": {
-        "module": "Module 4: Backend Structure",
+        "module": "Module 3: Backend",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "4.2: MVC",
-                "url": "https://bc.rocketacademy.co/4-backend-structure/4.2-mvc"
-              },
-              {
-                "name": "4.2.1: RESTful Routes",
-                "url": "https://bc.rocketacademy.co/4-backend-structure/4.2-mvc/4.2.1-restful-routes"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "4.POCE.2: Drummers for Hire",
-                "url": "https://bc.rocketacademy.co/4-backend-structure/4.poce-post-class-exercises/4.poce.2-drummers-for-hire"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "4.POCE.2: Drummers for Hire",
-                "url": "https://bc.rocketacademy.co/4-backend-structure/4.poce-post-class-exercises/4.poce.2-drummers-for-hire"
-              }
-            ]
-          }
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         },
         "css": {
           "type": "css",
@@ -3581,33 +2625,12 @@
     {
       "courseDay": 46,
       "dateTypes": {
-        "module": "Module 5: Full-Stack Applications",
+        "module": "Module 3: Backend",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "4.1.4: Sequelize Many-to-Many",
-                "url": "https://bc.rocketacademy.co/4-backend-structure/4.1-orm-sequelize/4.1.4-sequelize-many-to-many"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "4.POCE.3: Project 2 MVC Refactor",
-                "url": "https://bc.rocketacademy.co/4-backend-structure/4.poce-post-class-exercises/4.poce.3-project-2-mvc-refactor"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "4.POCE.2: Drummers for Hire",
-                "url": "https://bc.rocketacademy.co/4-backend-structure/4.poce-post-class-exercises/4.poce.2-drummers-for-hire"
-              }
-            ]
-          }
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         },
         "css": {
           "type": "css",
@@ -3647,41 +2670,12 @@
     {
       "courseDay": 47,
       "dateTypes": {
-        "module": "Module 5: Full-Stack Applications",
+        "module": "Module 3: Backend",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "4.1.5: Sequelize Many-to-Many with Non-FK Attributes in \"Through Table\"",
-                "url": "https://bc.rocketacademy.co/4-backend-structure/4.1-orm-sequelize/4.1.5-sequelize-many-to-many-with-non-fk-attributes-in-through-table"
-              },
-              {
-                "name": "5.0: Module 5 Overview",
-                "url": "https://bc.rocketacademy.co/5-full-stack-applications/5.0-module-5-overview"
-              },
-              {
-                "name": "5.1: DOM Manipulation with Express App",
-                "url": "https://bc.rocketacademy.co/5-full-stack-applications/5.1-dom-manipulation-with-express-app"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "5.ICE.1: Full-Stack Modal",
-                "url": "https://bc.rocketacademy.co/5-full-stack-applications/5.ice-in-class-exercises/5.ice.1-full-stack-modal"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "4.POCE.3: Project 2 MVC Refactor",
-                "url": "https://bc.rocketacademy.co/4-backend-structure/4.poce-post-class-exercises/4.poce.3-project-2-mvc-refactor"
-              }
-            ]
-          }
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         },
         "css": {
           "type": "css",
@@ -3721,37 +2715,12 @@
     {
       "courseDay": 48,
       "dateTypes": {
-        "module": "Module 5: Full-Stack Applications",
+        "module": "Module 3: Backend",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "4.1.6 Sequelize Validations",
-                "url": "https://bc.rocketacademy.co/4-backend-structure/4.1-orm-sequelize/4.1.6-sequelize-validations"
-              },
-              {
-                "name": "5.2: AJAX",
-                "url": "https://bc.rocketacademy.co/5-full-stack-applications/5.2-ajax"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "5.ICE.2: AJAX",
-                "url": "https://bc.rocketacademy.co/5-full-stack-applications/5.ice-in-class-exercises/5.ice.2-ajax"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "4.POCE.3: Project 2 MVC Refactor",
-                "url": "https://bc.rocketacademy.co/4-backend-structure/4.poce-post-class-exercises/4.poce.3-project-2-mvc-refactor"
-              }
-            ]
-          }
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         },
         "css": {
           "type": "css",
@@ -3780,62 +2749,23 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {
-            "items": [
-              {
-                "name": "Start: Project 3 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-1"
-              }
-            ]
-          },
+          "projectStart": {},
           "projectDue": {},
           "preClass": {},
           "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 3 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-1"
-              }
-            ]
-          }
+          "postClass": {}
         }
       }
     },
     {
       "courseDay": 49,
       "dateTypes": {
-        "module": "Module 5: Full-Stack Applications",
+        "module": "Module 4: Capstone",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "4.1.7: Sequelize Eager Loading",
-                "url": "https://bc.rocketacademy.co/4-backend-structure/4.1-orm-sequelize/4.1.7-sequelize-eager-loading"
-              },
-              {
-                "name": "5.2.1: AJAX POST Requests",
-                "url": "https://bc.rocketacademy.co/5-full-stack-applications/5.2-ajax/5.2.1-ajax-post-requests"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "5.ICE.3: Bug Reports AJAX",
-                "url": "https://bc.rocketacademy.co/5-full-stack-applications/5.ice-in-class-exercises/5.ice.3-bug-reports-ajax"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "5.POCE.1: Bug Reports AJAX",
-                "url": "https://bc.rocketacademy.co/5-full-stack-applications/5.poce-post-class-exercises/5.poce.1-bug-reports-ajax"
-              }
-            ]
-          }
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         },
         "css": {
           "type": "css",
@@ -3845,14 +2775,7 @@
         },
         "algos": {
           "type": "algos",
-          "preClass": {
-            "items": [
-              {
-                "name": "A.2: Intro to Python (Exercises 1-8)",
-                "url": "https://bc.rocketacademy.co/algorithms/a.2-intro-to-python"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {},
           "postClass": {}
         },
@@ -3875,47 +2798,19 @@
           "projectDue": {},
           "preClass": {},
           "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 3 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-1"
-              }
-            ]
-          }
+          "postClass": {}
         }
       }
     },
     {
       "courseDay": 50,
       "dateTypes": {
-        "module": "Module 6: Frontend Infrastructure",
+        "module": "Module 4: Capstone",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "4.1.8: Multiple FK Columns Referencing Same Table",
-                "url": "https://bc.rocketacademy.co/4-backend-structure/4.1-orm-sequelize/4.1.8-multiple-foreign-key-columns-referencing-same-table"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "5.ICE.4: Cross-Domain AJAX",
-                "url": "https://bc.rocketacademy.co/5-full-stack-applications/5.ice-in-class-exercises/5.ice.4-cross-domain-ajax"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "5.POCE.2: Bug Reports AJAX Users",
-                "url": "https://bc.rocketacademy.co/5-full-stack-applications/5.poce-post-class-exercises/5.poce.2-bug-reports-ajax-users"
-              }
-            ]
-          }
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         },
         "css": {
           "type": "css",
@@ -3925,14 +2820,7 @@
         },
         "algos": {
           "type": "algos",
-          "preClass": {
-            "items": [
-              {
-                "name": "A.2: Intro to Python (Exercises 9-11)",
-                "url": "https://bc.rocketacademy.co/algorithms/a.2-intro-to-python"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {},
           "postClass": {}
         },
@@ -3955,59 +2843,19 @@
           "projectDue": {},
           "preClass": {},
           "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 3 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-1"
-              }
-            ]
-          }
+          "postClass": {}
         }
       }
     },
     {
       "courseDay": 51,
       "dateTypes": {
-        "module": "Module 6: Frontend Infrastructure",
+        "module": "Module 4: Capstone",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "6.1: Webpack",
-                "url": "https://bc.rocketacademy.co/6-frontend-infrastructure/6.1-webpack"
-              },
-              {
-                "name": "5.2.2: AJAX Cards",
-                "url": "https://bc.rocketacademy.co/5-full-stack-applications/5.2-ajax/5.2.2-ajax-cards"
-              },
-              {
-                "name": "6.1.1: Webpack with Local Modules",
-                "url": "https://bc.rocketacademy.co/6-frontend-infrastructure/6.1-webpack/6.1.1-webpack-with-local-modules"
-              },
-              {
-                "name": "6.0: Module 6 Overview",
-                "url": "https://bc.rocketacademy.co/6-frontend-infrastructure/6.0-module-6-overview"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "Bug Reports (5.POCE.1, 5.POCE.2) Redux ",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#peer-code-review"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "5.POCE.3: AJAX Cards",
-                "url": "https://bc.rocketacademy.co/5-full-stack-applications/5.poce-post-class-exercises/5.poce.3-ajax-cards"
-              }
-            ]
-          }
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         },
         "css": {
           "type": "css",
@@ -4017,14 +2865,7 @@
         },
         "algos": {
           "type": "algos",
-          "preClass": {
-            "items": [
-              {
-                "name": "A.3: Complexity Analysis, Big-O Notation",
-                "url": "https://bc.rocketacademy.co/algorithms/a.3-complexity-analysis-big-o-notation"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {},
           "postClass": {}
         },
@@ -4043,58 +2884,23 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {
-            "items": [
-              {
-                "name": "Start: Project 3 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
-              }
-            ]
-          },
+          "projectStart": {},
           "projectDue": {},
           "preClass": {},
           "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 3 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
-              }
-            ]
-          }
+          "postClass": {}
         }
       }
     },
     {
       "courseDay": 52,
       "dateTypes": {
-        "module": "Module 6: Frontend Infrastructure",
+        "module": "Module 4: Capstone",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "6.1.2: Webpack with NPM Modules",
-                "url": "https://bc.rocketacademy.co/6-frontend-infrastructure/6.1-webpack/6.1.2-webpack-with-npm-modules"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "6.ICE.1: NPM Webpack",
-                "url": "https://bc.rocketacademy.co/6-frontend-infrastructure/6.ice-in-class-exercises/6.ice.1-npm-webpack"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "5.POCE.3: AJAX Cards",
-                "url": "https://bc.rocketacademy.co/5-full-stack-applications/5.poce-post-class-exercises/5.poce.3-ajax-cards"
-              }
-            ]
-          }
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         },
         "css": {
           "type": "css",
@@ -4104,14 +2910,7 @@
         },
         "algos": {
           "type": "algos",
-          "preClass": {
-            "items": [
-              {
-                "name": "A.5.1: Arrays - Pre-Class",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.1-arrays#pre-class"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {},
           "postClass": {}
         },
@@ -4134,44 +2933,19 @@
           "projectDue": {},
           "preClass": {},
           "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 3 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
-              }
-            ]
-          }
+          "postClass": {}
         }
       }
     },
     {
       "courseDay": 53,
       "dateTypes": {
-        "module": "Module 6: Frontend Infrastructure",
+        "module": "Module 4: Capstone",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "6.1.3: Webpack with Babel",
-                "url": "https://bc.rocketacademy.co/6-frontend-infrastructure/6.1-webpack/6.1.3-webpack-with-babel"
-              },
-              {
-                "name": "6.1.4: Webpack with SASS",
-                "url": "https://bc.rocketacademy.co/6-frontend-infrastructure/6.1-webpack/6.1.4-webpack-with-sass"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "5.POCE.3: AJAX Cards",
-                "url": "https://bc.rocketacademy.co/5-full-stack-applications/5.poce-post-class-exercises/5.poce.3-ajax-cards"
-              }
-            ]
-          }
+          "postClass": {}
         },
         "css": {
           "type": "css",
@@ -4182,22 +2956,8 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "A.5.1: Arrays - Part 1",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.1-arrays#part-1"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "A.5.1: Arrays - Part 1",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.1-arrays#part-1"
-              }
-            ]
-          }
+          "inClass": {},
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
@@ -4214,63 +2974,22 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {
-            "items": [
-              {
-                "name": "Start: Project 3",
-                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
-              }
-            ]
-          },
-          "projectDue": {
-            "items": [
-              {
-                "name": "Due: Project 3 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
-              }
-            ]
-          },
+          "projectStart": {},
+          "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Peer Planning Review",
-                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game#ideation-phase-2"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 3 Implementation",
-                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game"
-              }
-            ]
-          }
+          "inClass": {},
+          "postClass": {}
         }
       }
     },
     {
       "courseDay": 54,
       "dateTypes": {
-        "module": "Module 6: Frontend Infrastructure",
+        "module": "Module 4: Capstone",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "6.1.5: Webpack with Express",
-                "url": "https://bc.rocketacademy.co/6-frontend-infrastructure/6.1-webpack/6.1.5-webpack-with-express"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "AJAX Cards Redux"
-              }
-            ]
-          },
+          "preClass": {},
+          "inClass": {},
           "postClass": {}
         },
         "css": {
@@ -4282,22 +3001,8 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "A.5.1: Arrays - Part 2",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.1-arrays#part-2"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "A.5.1: Arrays - Part 2",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.1-arrays#part-2"
-              }
-            ]
-          }
+          "inClass": {},
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
@@ -4317,39 +3022,18 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 3 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 3 Implementation",
-                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game"
-              }
-            ]
-          }
+          "inClass": {},
+          "postClass": {}
         }
       }
     },
     {
       "courseDay": 55,
       "dateTypes": {
-        "module": "Module 6: Frontend Infrastructure",
+        "module": "Module 4: Capstone",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "Group Work (for project management)",
-                "url": "https://bc.rocketacademy.co/logistics/group-work"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {},
           "postClass": {}
         },
@@ -4361,30 +3045,9 @@
         },
         "algos": {
           "type": "algos",
-          "preClass": {
-            "items": [
-              {
-                "name": "A.5.2: Hash Tables - Pre-Class",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.2-hash-tables"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "A.5.2: Hash Tables - Part 1",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.2-hash-tables#part-1"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "A.5.2: Hash Tables - Part 1",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.2-hash-tables#part-1"
-              }
-            ]
-          }
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
@@ -4404,29 +3067,15 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 3 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 3 Implementation",
-                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game"
-              }
-            ]
-          }
+          "inClass": {},
+          "postClass": {}
         }
       }
     },
     {
       "courseDay": 56,
       "dateTypes": {
-        "module": "Module 6: Frontend Infrastructure",
+        "module": "Module 4: Capstone",
         "general": {
           "type": "general",
           "preClass": {},
@@ -4442,22 +3091,8 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "A.5.2: Hash Tables - Part 2",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.2-hash-tables#part-2"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "A.5.2: Hash Tables - Part 2",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.2-hash-tables#part-2"
-              }
-            ]
-          }
+          "inClass": {},
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
@@ -4477,29 +3112,15 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 3 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 3 Implementation",
-                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game"
-              }
-            ]
-          }
+          "inClass": {},
+          "postClass": {}
         }
       }
     },
     {
       "courseDay": 57,
       "dateTypes": {
-        "module": "Module 6: Frontend Infrastructure",
+        "module": "Module 4: Capstone",
         "general": {
           "type": "general",
           "preClass": {},
@@ -4514,22 +3135,8 @@
         },
         "algos": {
           "type": "algos",
-          "preClass": {
-            "items": [
-              {
-                "name": "A.8: Object-Oriented Programming",
-                "url": "https://bc.rocketacademy.co/algorithms/a.8-intro-to-object-oriented-programming"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "A.8: Object-Oriented Programming",
-                "url": "https://bc.rocketacademy.co/algorithms/a.8-intro-to-object-oriented-programming#in-class-exercise"
-              }
-            ]
-          },
+          "preClass": {},
+          "inClass": {},
           "postClass": {}
         },
         "ux": {
@@ -4550,29 +3157,15 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 3 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 3 Implementation",
-                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game"
-              }
-            ]
-          }
+          "inClass": {},
+          "postClass": {}
         }
       }
     },
     {
       "courseDay": 58,
       "dateTypes": {
-        "module": "Module 6: Frontend Infrastructure",
+        "module": "Module 4: Capstone",
         "general": {
           "type": "general",
           "preClass": {},
@@ -4587,30 +3180,9 @@
         },
         "algos": {
           "type": "algos",
-          "preClass": {
-            "items": [
-              {
-                "name": "A.5.3: Stacks - Pre-Class",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.3-stacks#pre-class"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "A.5.3: Stacks - Part 1",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.3-stacks#part-1"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "A.5.3: Stacks - Part 1",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.3-stacks#part-1"
-              }
-            ]
-          }
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
@@ -4628,56 +3200,20 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Due: Project 3 MVP Deadline",
-                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game#mvp-deadline"
-              }
-            ]
-          },
+          "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 3 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
-              },
-              {
-                "name": "Project 3 Peer Code Review",
-                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game#mvp-deadline"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 3 Implementation",
-                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game"
-              }
-            ]
-          }
+          "inClass": {},
+          "postClass": {}
         }
       }
     },
     {
       "courseDay": 59,
       "dateTypes": {
-        "module": "Module 6: Frontend Infrastructure",
+        "module": "Module 4: Capstone",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "4.1.10: Deploy Sequelize App to Heroku",
-                "url": "https://bc.rocketacademy.co/4-backend-structure/4.1-orm-sequelize/4.1.10-deploy-sequelize-app-to-heroku"
-              },
-              {
-                "name": "6.1.6: Deploy Webpack App to Heroku",
-                "url": "https://bc.rocketacademy.co/6-frontend-infrastructure/6.1-webpack/6.1.6-express-mvc-webpack-and-heroku"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {},
           "postClass": {}
         },
@@ -4690,22 +3226,8 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "A.5.3: Stacks - Part 2",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.3-stacks#part-2"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "A.5.3: Stacks - Part 2",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.3-stacks#part-2"
-              }
-            ]
-          }
+          "inClass": {},
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
@@ -4725,29 +3247,15 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 3 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 3 Implementation",
-                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game"
-              }
-            ]
-          }
+          "inClass": {},
+          "postClass": {}
         }
       }
     },
     {
       "courseDay": 60,
       "dateTypes": {
-        "module": "Module 6: Frontend Infrastructure",
+        "module": "Module 4: Capstone",
         "general": {
           "type": "general",
           "preClass": {},
@@ -4762,30 +3270,9 @@
         },
         "algos": {
           "type": "algos",
-          "preClass": {
-            "items": [
-              {
-                "name": "A.5.5: Linked Lists - Pre-Class",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.5-linked-lists#pre-class"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "A.5.5: Linked Lists - Part 1",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.5-linked-lists#part-1"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "A.5.5: Linked Lists - Part 1",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.5-linked-lists#part-1"
-              }
-            ]
-          }
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
@@ -4803,42 +3290,17 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Due: Project 3 Feature Freeze",
-                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game#feature-freeze"
-              }
-            ]
-          },
+          "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 3 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
-              },
-              {
-                "name": "Project 3 Feature Freeze In-Class Review",
-                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game#feature-freeze"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 3 Implementation",
-                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game"
-              }
-            ]
-          }
+          "inClass": {},
+          "postClass": {}
         }
       }
     },
     {
       "courseDay": 61,
       "dateTypes": {
-        "module": "Module 6: Frontend Infrastructure",
+        "module": "Module 4: Capstone",
         "general": {
           "type": "general",
           "preClass": {},
@@ -4854,22 +3316,8 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "A.5.5: Linked Lists - Part 2",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.5-linked-lists#part-2"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "A.5.5: Linked Lists - Part 2",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.5-linked-lists#part-2"
-              }
-            ]
-          }
+          "inClass": {},
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
@@ -4889,48 +3337,20 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 3 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 3 Implementation",
-                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game"
-              }
-            ]
-          }
+          "inClass": {},
+          "postClass": {}
         }
       }
     },
     {
       "courseDay": 62,
       "dateTypes": {
-        "module": "Module 6: Frontend Infrastructure",
+        "module": "Module 4: Capstone",
         "general": {
           "type": "general",
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 3 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 3 Implementation",
-                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game"
-              }
-            ]
-          }
+          "inClass": {},
+          "postClass": {}
         },
         "css": {
           "type": "css",
@@ -4960,35 +3380,17 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Due: Project 3 Presentations",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#presentations"
-              }
-            ]
-          },
+          "projectDue": {},
           "preClass": {},
           "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 3 Post-Mortems",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#post-mortem"
-              },
-              {
-                "name": "Project 3 Video Demo",
-                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game#video-demo"
-              }
-            ]
-          }
+          "postClass": {}
         }
       }
     },
     {
       "courseDay": 63,
       "dateTypes": {
-        "module": "Module 7: React",
+        "module": "Module 4: Capstone",
         "general": {
           "type": "general",
           "preClass": {},
@@ -5025,67 +3427,20 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Peer project review exercise",
-                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game#project-presentations"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 3 Video Demo",
-                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game#video-demo"
-              }
-            ]
-          }
+          "inClass": {},
+          "postClass": {}
         }
       }
     },
     {
       "courseDay": 64,
       "dateTypes": {
-        "module": "Module 7: React",
+        "module": "Module 4: Capstone",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "7.0: Module 7 Overview",
-                "url": "https://bc.rocketacademy.co/7-react/7.0-module-7-overview"
-              },
-              {
-                "name": "7.1: JSX Intro",
-                "url": "https://bc.rocketacademy.co/7-react/7.1-jsx-intro"
-              },
-              {
-                "name": "7.1.1: Conditional Rendering",
-                "url": "https://bc.rocketacademy.co/7-react/7.1-jsx-intro/7.1.1-conditional-rendering"
-              },
-              {
-                "name": "7.1.2: Rendering In a Loop",
-                "url": "https://bc.rocketacademy.co/7-react/7.1-jsx-intro/7.1.2-rendering-in-a-loop"
-              }
-            ]
-          },
-          "inClass": {
-            "items": [
-              {
-                "name": "7.ICE.1: JSX Products Items",
-                "url": "https://bc.rocketacademy.co/7-react/7.ice-in-class-exercises/7.ice.1-product-rendering"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "7.POCE.1: JSX Bug Reports",
-                "url": "https://bc.rocketacademy.co/7-react/7.poce-post-class-exercises/7.poce.1-bugs"
-              }
-            ]
-          }
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
         },
         "css": {
           "type": "css",
@@ -5097,14 +3452,7 @@
           "type": "algos",
           "preClass": {},
           "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "A.5.5: Linked Lists - Part 3",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-data-structures/a.5.5-linked-lists#part-3"
-              }
-            ]
-          }
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
@@ -5125,14 +3473,7 @@
           "projectDue": {},
           "preClass": {},
           "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 3 Video Demo",
-                "url": "https://bc.rocketacademy.co/projects/project-3-full-stack-game#video-demo"
-              }
-            ]
-          }
+          "postClass": {}
         }
       }
     }
