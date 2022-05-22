@@ -1306,9 +1306,46 @@
         "module": "Module 2: Full-Stack",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "preClass": {
+            "items": [
+              {
+                "name": "2.1: Internet 101",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.1-internet-101"
+              },
+              {
+                "name": "2.1.1: Chrome DevTools Network Panel",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.1-internet-101/2.1.1-chrome-devtools-network-panel"
+              },
+              {
+                "name": "0.4.6: JS Promises",
+                "url": "https://bc.rocketacademy.co/0-foundations/0.4-javascript/0.4.6-promises"
+              },
+              {
+                "name": "2.1.2: HTTP Requests and Responses",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.1-internet-101/2.1.2-http-requests-and-responses"
+              },
+              {
+                "name": "2.2.1: AJAX",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.2-advanced-react/2.2.1-ajax"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "2.E.1: Weather App",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.e-exercises/2.e.1-weather-app"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "2.E.1: Weather App",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.e-exercises/2.e.1-weather-app"
+              }
+            ]
+          }
         },
         "css": {
           "type": "css",
@@ -1318,9 +1355,30 @@
         },
         "algos": {
           "type": "algos",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "preClass": {
+            "items": [
+              {
+                "name": "A.1.3: Stacks - Pre-Class",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.3-stacks#pre-class"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "A.1.3: Stacks - Part 1",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.3-stacks#part-1"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "A.1.3: Stacks - Part 1",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.3-stacks#part-1"
+              }
+            ]
+          }
         },
         "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
@@ -1351,9 +1409,34 @@
         "module": "Module 2: Full-Stack",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "preClass": {
+            "items": [
+              {
+                "name": "2.3: Firebase",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.3-firebase"
+              },
+              {
+                "name": "2.3.1: Firebase Realtime Database",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.3-firebase/2.3.1-firebase-realtime-database"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "2.E.2: Instagram Chat",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.e-exercises/2.e.2-instagram-chat"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "2.E.2: Instagram Chat",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.e-exercises/2.e.2-instagram-chat"
+              }
+            ]
+          }
         },
         "css": {
           "type": "css",
@@ -1365,7 +1448,14 @@
           "type": "algos",
           "preClass": {},
           "inClass": {},
-          "postClass": {}
+          "postClass": {
+            "items": [
+              {
+                "name": "A.1.3: Stacks - Part 2",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.3-stacks#part-2"
+              }
+            ]
+          }
         },
         "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
@@ -1396,11 +1486,30 @@
         "module": "Module 2: Full-Stack",
         "general": {
           "type": "general",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "preClass": {
+            "items": [
+              {
+                "name": "2.3.2: Firebase Storage",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.3-firebase/2.3.2-firebase-storage"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "2.E.3: Instagram Posts",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.e-exercises/2.e.3-instagram-posts"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "2.E.3: Instagram Posts",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.e-exercises/2.e.3-instagram-posts"
+              }
+            ]
+          }
         },
         "css": {
           "type": "css",
@@ -1412,7 +1521,14 @@
           "type": "algos",
           "preClass": {},
           "inClass": {},
-          "postClass": {}
+          "postClass": {
+            "items": [
+              {
+                "name": "A.1.3: Stacks - Part 3",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.3-stacks#part-3"
+              }
+            ]
+          }
         },
         "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
@@ -1424,11 +1540,25 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
+          "projectStart": {
+            "items": [
+              {
+                "name": "Project 2 Ideation Phase 1",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+              }
+            ]
+          },
           "projectDue": {},
           "preClass": {},
           "inClass": {},
-          "postClass": {}
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 2 Ideation Phase 1",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+              }
+            ]
+          }
         }
       }
     },
@@ -1443,11 +1573,30 @@
         "module": "Module 2: Full-Stack",
         "general": {
           "type": "general",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "preClass": {
+            "items": [
+              {
+                "name": "2.3.3: Firebase Authentication",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.3-firebase/2.3.3-firebase-authentication"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "2.E.4: Instagram Auth",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.e-exercises/2.e.4-instagram-auth"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "2.E.4: Instagram Auth",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.e-exercises/2.e.4-instagram-auth"
+              }
+            ]
+          }
         },
         "css": {
           "type": "css",
@@ -1459,7 +1608,14 @@
           "type": "algos",
           "preClass": {},
           "inClass": {},
-          "postClass": {}
+          "postClass": {
+            "items": [
+              {
+                "name": "A.1.3: Stacks - Part 4",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.3-stacks#part-4"
+              }
+            ]
+          }
         },
         "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
@@ -1475,7 +1631,14 @@
           "projectDue": {},
           "preClass": {},
           "inClass": {},
-          "postClass": {}
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 2 Ideation Phase 1",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+              }
+            ]
+          }
         }
       }
     },
@@ -1490,11 +1653,38 @@
         "module": "Module 2: Full-Stack",
         "general": {
           "type": "general",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "preClass": {
+            "items": [
+              {
+                "name": "2.2.2: React Hooks",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.2-advanced-react/2.2.2-hooks"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "2.E.4: Instagram Auth",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.e-exercises/2.e.4-instagram-auth"
+              },
+              {
+                "name": "2.2.2: React Hooks - Codecademy React 101 - Hooks",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.2-advanced-react/2.2.2-hooks#post-class-exercises-codecademy-react-101"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "2.E.4: Instagram Auth",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.e-exercises/2.e.4-instagram-auth"
+              },
+              {
+                "name": "2.2.2: React Hooks - Codecademy React 101 - Hooks",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.2-advanced-react/2.2.2-hooks#post-class-exercises-codecademy-react-101"
+              }
+            ]
+          }
         },
         "css": {
           "type": "css",
@@ -1504,9 +1694,30 @@
         },
         "algos": {
           "type": "algos",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "preClass": {
+            "items": [
+              {
+                "name": "A.1.4: Queues - Pre-Class",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.4-queues#pre-class"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "A.1.4: Queues - Part 1",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.4-queues#part-1"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "A.1.4: Queues - Part 1",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.4-queues#part-1"
+              }
+            ]
+          }
         },
         "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
@@ -1522,7 +1733,14 @@
           "projectDue": {},
           "preClass": {},
           "inClass": {},
-          "postClass": {}
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 2 Ideation Phase 1",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+              }
+            ]
+          }
         }
       }
     },
@@ -1537,9 +1755,34 @@
         "module": "Module 2: Full-Stack",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "preClass": {
+            "items": [
+              {
+                "name": "2.2.3: React Router",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.2-advanced-react/2.2.3-react-router"
+              },
+              {
+                "name": "2.3.4: Firebase Hosting",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.3-firebase/2.3.4-firebase-hosting"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "2.E.5: Instagram Routes",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.e-exercises/2.e.5-instagram-routes"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "2.E.5: Instagram Routes",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.e-exercises/2.e.5-instagram-routes"
+              }
+            ]
+          }
         },
         "css": {
           "type": "css",
@@ -1549,9 +1792,34 @@
         },
         "algos": {
           "type": "algos",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "preClass": {
+            "items": [
+              {
+                "name": "A.3: Object-Oriented Programming",
+                "url": "https://bc.rocketacademy.co/algorithms/a.3-object-oriented-programming"
+              },
+              {
+                "name": "A.1.5: Linked Lists - Pre-Class",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.5-linked-lists#pre-class"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "A.1.5: Linked Lists - Part 1",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.5-linked-lists#part-1"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "A.1.5: Linked Lists - Part 1",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.5-linked-lists#part-1"
+              }
+            ]
+          }
         },
         "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
@@ -1567,7 +1835,14 @@
           "projectDue": {},
           "preClass": {},
           "inClass": {},
-          "postClass": {}
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 2 Ideation Phase 1",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+              }
+            ]
+          }
         }
       }
     },
@@ -1582,9 +1857,18 @@
         "module": "Module 2: Full-Stack",
         "general": {
           "type": "general",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "2.2.4: Higher-Order Components",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.2-advanced-react/2.2.4-higher-order-components"
+              },
+              {
+                "name": "2.2.5: React Context",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.2-advanced-react/2.2.5-context"
+              }
+            ]
+          },
           "inClass": {},
           "postClass": {}
         },
@@ -1598,7 +1882,14 @@
           "type": "algos",
           "preClass": {},
           "inClass": {},
-          "postClass": {}
+          "postClass": {
+            "items": [
+              {
+                "name": "A.1.5: Linked Lists - Part 2",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.5-linked-lists#part-2"
+              }
+            ]
+          }
         },
         "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
@@ -1610,11 +1901,25 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
+          "projectStart": {
+            "items": [
+              {
+                "name": "Project 2 Ideation Phase 2",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+              }
+            ]
+          },
           "projectDue": {},
           "preClass": {},
           "inClass": {},
-          "postClass": {}
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 2 Ideation Phase 2",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+              }
+            ]
+          }
         }
       }
     },
@@ -1629,7 +1934,14 @@
         "module": "Module 2: Full-Stack",
         "general": {
           "type": "general",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "2.2.6: Eject CRA",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.2-advanced-react/2.2.6-eject-cra"
+              }
+            ]
+          },
           "inClass": {},
           "postClass": {}
         },
@@ -1643,7 +1955,14 @@
           "type": "algos",
           "preClass": {},
           "inClass": {},
-          "postClass": {}
+          "postClass": {
+            "items": [
+              {
+                "name": "A.1.5: Linked Lists - Part 3",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.5-linked-lists#part-3"
+              }
+            ]
+          }
         },
         "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
@@ -1656,10 +1975,31 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 2 Ideation Phase 2",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+              }
+            ]
+          },
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 2 Scrum",
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 2 Implementation",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+              }
+            ]
+          }
         }
       }
     },
@@ -1698,9 +2038,30 @@
         },
         "algos": {
           "type": "algos",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "preClass": {
+            "items": [
+              {
+                "name": "A.4: Recursion - Pre-Class",
+                "url": "https://bc.rocketacademy.co/algorithms/a.4-recursion#pre-class"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "A.4: Recursion - Part 1",
+                "url": "https://bc.rocketacademy.co/algorithms/a.4-recursion#part-1"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "A.4: Recursion - Part 1",
+                "url": "https://bc.rocketacademy.co/algorithms/a.4-recursion#part-1"
+              }
+            ]
+          }
         },
         "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
@@ -1715,8 +2076,22 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 2 Scrum",
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 2 Implementation",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+              }
+            ]
+          }
         }
       }
     },
@@ -1745,7 +2120,14 @@
           "type": "algos",
           "preClass": {},
           "inClass": {},
-          "postClass": {}
+          "postClass": {
+            "items": [
+              {
+                "name": "A.4: Recursion - Part 2",
+                "url": "https://bc.rocketacademy.co/algorithms/a.4-recursion#part-2"
+              }
+            ]
+          }
         },
         "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
@@ -1758,10 +2140,31 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 2 MVP Deadline",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+              }
+            ]
+          },
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 2 Scrum",
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 2 Implementation",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+              }
+            ]
+          }
         }
       }
     },
@@ -1790,7 +2193,14 @@
           "type": "algos",
           "preClass": {},
           "inClass": {},
-          "postClass": {}
+          "postClass": {
+            "items": [
+              {
+                "name": "A.4: Recursion - Part 3",
+                "url": "https://bc.rocketacademy.co/algorithms/a.4-recursion#part-3"
+              }
+            ]
+          }
         },
         "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
@@ -1805,8 +2215,22 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 2 Scrum",
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 2 Implementation",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+              }
+            ]
+          }
         }
       }
     },
@@ -1835,7 +2259,14 @@
           "type": "algos",
           "preClass": {},
           "inClass": {},
-          "postClass": {}
+          "postClass": {
+            "items": [
+              {
+                "name": "A.4: Recursion - Part 4",
+                "url": "https://bc.rocketacademy.co/algorithms/a.4-recursion#part-4"
+              }
+            ]
+          }
         },
         "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
@@ -1850,8 +2281,22 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 2 Scrum",
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 2 Implementation",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+              }
+            ]
+          }
         }
       }
     },
@@ -1880,7 +2325,14 @@
           "type": "algos",
           "preClass": {},
           "inClass": {},
-          "postClass": {}
+          "postClass": {
+            "items": [
+              {
+                "name": "A.4: Recursion - Part 5",
+                "url": "https://bc.rocketacademy.co/algorithms/a.4-recursion#part-5"
+              }
+            ]
+          }
         },
         "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
@@ -1895,8 +2347,22 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 2 Scrum",
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 2 Implementation",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+              }
+            ]
+          }
         }
       }
     },
@@ -1938,10 +2404,31 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 2 Feature Freeze",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+              }
+            ]
+          },
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 2 Scrum",
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 2 Implementation",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+              }
+            ]
+          }
         }
       }
     },
@@ -1985,8 +2472,22 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 2 Scrum",
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 2 Implementation",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+              }
+            ]
+          }
         }
       }
     },
@@ -2028,10 +2529,31 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 2 Presentations",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+              }
+            ]
+          },
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 2 Presentations",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 2 Post-Mortems",
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#post-mortem"
+              }
+            ]
+          }
         }
       }
     },
@@ -2091,8 +2613,6 @@
         "module": "Module 3: Backend",
         "general": {
           "type": "general",
-          "projectStart": {},
-          "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {}
