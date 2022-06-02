@@ -1669,7 +1669,7 @@
               },
               {
                 "name": "3.2.1: EJS Loops",
-                "url": "https://bootcamp.rocketacademy.co/3-3-backend-applications/3.2-ejs/3.2.1-ejs-loops"
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.2-ejs/3.2.1-ejs-loops"
               }
             ]
           },
@@ -2395,7 +2395,7 @@
             "items": [
               {
                 "name": "3.3.5: Non-FK Relationship Data in Join Table",
-                "url": "https://bootcamp.rocketacademy.co/3-3-backend-applications/3.3-sql-language/3.3.5-non-fk-relationship-data-in-join-table"
+                "url": "https://bootcamp.rocketacademy.co/3-backend-applications/3.3-sql-language/3.3.5-non-fk-relationship-data-in-join-table"
               },
               {
                 "name": "3.4.6: Forms for Many-to-Many Relationships",

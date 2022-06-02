@@ -111,7 +111,7 @@ function Modules({ scheduleData, coursetype }) {
 
   return (
     <div className="sidebar-modules">
-      <h4>Modules</h4>
+      {moduleNameArray.length > 0 && <h4>Modules</h4>}
       <Nav className="flex-column">
         {moduleNameArray.map((moduleName) => {
           // creating array to store items of each section
@@ -134,7 +134,7 @@ function Modules({ scheduleData, coursetype }) {
 
           return (
             <>
-              <h6 className="sidebar-subheading">{moduleName}</h6>
+              <h6>{moduleName}</h6>
               <Accordion>
                 {sectionArray.map((section, index) => {
                   return (
@@ -148,6 +148,7 @@ function Modules({ scheduleData, coursetype }) {
                   );
                 })}
               </Accordion>
+              <br />
             </>
           );
         })}
