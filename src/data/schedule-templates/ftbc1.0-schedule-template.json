@@ -6626,14 +6626,7 @@
               }
             ]
           },
-          "inClass": {
-            "items": [
-              {
-                "name": "8.ICE.1: useContext",
-                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.ice-in-class-exercises/8.ice.1-usecontext"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
