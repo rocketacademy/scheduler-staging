@@ -5499,8 +5499,8 @@
           "preClass": {
             "items": [
               {
-                "name": "8.3.4: React E-Commerce App with Store",
-                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.2-usecontext/8.3.4-react-e-commerce-app-with-store"
+                "name": "8.4: React Router",
+                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.4-react-router"
               }
             ]
           },
@@ -5564,14 +5564,7 @@
         "module": "Module 8: Advanced React",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "8.4: React Router",
-                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.4-react-router"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
@@ -5647,14 +5640,7 @@
         "module": "Module 8: Advanced React",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "8.5: Advanced useEffect",
-                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.5-advanced-useeffect"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
@@ -5729,18 +5715,7 @@
         "module": "Module 8: Advanced React",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "8.6: Styled Components",
-                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.6-component-styling"
-              },
-              {
-                "name": "8.7: React Portals",
-                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.7-react-portals"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
@@ -5823,14 +5798,7 @@
         "module": "Module 8: Advanced React",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "8.8: React NPM Packages",
-                "url": "https://bootcamp.rocketacademy.co/8-advanced-react/8.8-react-npm-packages"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
