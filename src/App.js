@@ -2,10 +2,10 @@ import React from "react";
 import { HashRouter, Switch, Route } from "react-router-dom";
 
 import ftbc6 from "./data/10-01-2022_28-06-2022_FTBC6.json";
-import ftbc7 from "./data/28-03-2022_19-09-2022_FTBC7.json";
-import ptbc1 from "./data/17-08-2021_26-07-2022_PTBC1.json";
-import ptbc2 from "./data/16-11-2021_29-10-2022_PTBC2.json";
-import ptbc4 from "./data/14-05-2022_10-01-2023_PTBC4.json";
+import ftbc7 from "./data/28-03-2022_20-09-2022_FTBC7.json";
+import ptbc1 from "./data/17-08-2021_23-07-2022_PTBC1.json";
+import ptbc2 from "./data/16-11-2021_25-10-2022_PTBC2.json";
+import ptbc4 from "./data/14-05-2022_07-01-2023_PTBC4.json";
 
 import ScheduleContainer from "./components/schedules/ScheduleContainer";
 import BatchScheduleGenerator from "./components/BatchScheduleGenerator";
