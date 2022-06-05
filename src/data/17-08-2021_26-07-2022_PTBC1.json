@@ -2931,7 +2931,7 @@
     "28-12-2021": {
       "courseDay": null,
       "courseDate": "28-12-2021",
-      "courseWeek": 20,
+      "courseWeek": null,
       "dayNumber": 2,
       "dateTypes": {
         "holidayType": "school holiday",
@@ -2943,7 +2943,7 @@
     "01-01-2022": {
       "courseDay": null,
       "courseDate": "01-01-2022",
-      "courseWeek": 20,
+      "courseWeek": null,
       "dayNumber": 6,
       "dateTypes": {
         "holidayType": "school holiday",
@@ -6386,7 +6386,7 @@
             "items": [
               {
                 "name": "A.10: Sorting Algorithms - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.10-sorting-algorithms#divide-and-conquer"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.10-sorting-algorithms/a.10.1-divide-and-conquer-sorting"
               }
             ]
           },
@@ -6394,7 +6394,7 @@
             "items": [
               {
                 "name": "A.10: Sorting Algorithms - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.10-sorting-algorithms#divide-and-conquer"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.10-sorting-algorithms/a.10.1-divide-and-conquer-sorting"
               }
             ]
           },
