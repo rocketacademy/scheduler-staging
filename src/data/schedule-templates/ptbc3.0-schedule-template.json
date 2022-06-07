@@ -340,23 +340,16 @@
                 "url": "https://bc.rocketacademy.co/0-foundations/0.4-javascript/0.4.4-classes"
               },
               {
-                "name": "1.3: React - Hello World, Introducing JSX, Rendering Elements, Components and Props",
+                "name": "1.3: React - Hello World, Introducing JSX, Rendering Elements",
                 "url": "https://bc.rocketacademy.co/1-frontend/1.3-react"
               }
             ]
           },
-          "inClass": {
-            "items": [
-              {
-                "name": "1.3: React - Codecademy React 101 - JSX, React Components",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#post-class-exercises-codecademy-react-101"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "1.3: React - Codecademy React 101 - JSX, React Components",
+                "name": "1.3: React - Codecademy React 101 - JSX",
                 "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#post-class-exercises-codecademy-react-101"
               }
             ]
@@ -427,23 +420,16 @@
           "preClass": {
             "items": [
               {
-                "name": "1.3: React - State and Lifecycle",
+                "name": "1.3: React - Components and Props, State and Lifecycle",
                 "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#5-state-and-lifecycle"
               }
             ]
           },
-          "inClass": {
-            "items": [
-              {
-                "name": "1.3: React - Codecademy React 101 - Components Interacting, Lifecycle Methods",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#post-class-exercises-codecademy-react-101"
-              }
-            ]
-          },
+          "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "1.3: React - Codecademy React 101 - Components Interacting, Lifecycle Methods",
+                "name": "1.3: React - Codecademy React 101 - React Components, Components Interacting, Lifecycle Methods",
                 "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#post-class-exercises-codecademy-react-101"
               }
             ]
@@ -628,10 +614,6 @@
           "inClass": {
             "items": [
               {
-                "name": "1.3: React - Codecademy React 101 - React Forms",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#post-class-exercises-codecademy-react-101"
-              },
-              {
                 "name": "1.E.4: Guess The Word (Day 1 of 2)",
                 "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.4-guess-the-word"
               }
@@ -729,10 +711,6 @@
           },
           "inClass": {
             "items": [
-              {
-                "name": "1.3: React - Codecademy React 101 - Stateless Components from Stateful Components",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#post-class-exercises-codecademy-react-101"
-              },
               {
                 "name": "1.E.4: Guess The Word (Day 2 of 2)",
                 "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.4-guess-the-word"
