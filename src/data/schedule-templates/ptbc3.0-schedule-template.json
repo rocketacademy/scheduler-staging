@@ -184,8 +184,8 @@
           "inClass": {
             "items": [
               {
-                "name": "1.2: CSS - Codecademy Learn CSS - Syntax and Selectors, Visual Rules, The Box Model",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.2-css#codecademy-learn-css"
+                "name": "1.E.2: Portfolio Page (Day 1 of 2)",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.2-portfolio-page"
               }
             ]
           },
@@ -194,6 +194,10 @@
               {
                 "name": "1.2: CSS - Codecademy Learn CSS - Syntax and Selectors, Visual Rules, The Box Model",
                 "url": "https://bc.rocketacademy.co/1-frontend/1.2-css#codecademy-learn-css"
+              },
+              {
+                "name": "1.E.2: Portfolio Page (Day 1 of 2)",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.2-portfolio-page"
               }
             ]
           }
@@ -257,7 +261,7 @@
           "inClass": {
             "items": [
               {
-                "name": "1.E.2: Portfolio Page",
+                "name": "1.E.2: Portfolio Page (Day 2 of 2)",
                 "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.2-portfolio-page"
               }
             ]
@@ -265,7 +269,7 @@
           "postClass": {
             "items": [
               {
-                "name": "1.E.2: Portfolio Page",
+                "name": "1.E.2: Portfolio Page (Day 2 of 2)",
                 "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.2-portfolio-page"
               }
             ]
@@ -342,15 +346,34 @@
               {
                 "name": "1.3: React - Hello World, Introducing JSX, Rendering Elements",
                 "url": "https://bc.rocketacademy.co/1-frontend/1.3-react"
+              },
+              {
+                "name": "0.5.1: Node Modules",
+                "url": "https://bc.rocketacademy.co/0-foundations/0.5-node.js/0.5.1-node-modules"
+              },
+              {
+                "name": "0.5.2: NPM",
+                "url": "https://bc.rocketacademy.co/0-foundations/0.5-node.js/0.5.2-npm"
               }
             ]
           },
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "1.E.3: World Clock (Day 1 of 2)",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.3-world-clock"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
                 "name": "1.3: React - Codecademy React 101 - JSX",
                 "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#post-class-exercises-codecademy-react-101"
+              },
+              {
+                "name": "1.E.3: World Clock (Day 1 of 2)",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.3-world-clock"
               }
             ]
           }
@@ -389,25 +412,11 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {
-            "items": [
-              {
-                "name": "Project 1 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
-              }
-            ]
-          },
+          "projectStart": {},
           "projectDue": {},
           "preClass": {},
           "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 1 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
-              }
-            ]
-          }
+          "postClass": {}
         }
       }
     },
@@ -425,12 +434,23 @@
               }
             ]
           },
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "1.E.3: World Clock (Day 2 of 2)",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.3-world-clock"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
                 "name": "1.3: React - Codecademy React 101 - React Components, Components Interacting, Lifecycle Methods",
                 "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#post-class-exercises-codecademy-react-101"
+              },
+              {
+                "name": "1.E.3: World Clock (Day 2 of 2)",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.3-world-clock"
               }
             ]
           }
@@ -480,14 +500,7 @@
           "projectDue": {},
           "preClass": {},
           "inClass": {},
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 1 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
-              }
-            ]
-          }
+          "postClass": {}
         }
       }
     },
@@ -502,21 +515,13 @@
               {
                 "name": "1.3: React - Handling Events, Conditional Rendering, Lists and Keys",
                 "url": "https://bc.rocketacademy.co/1-frontend/1.3-react"
-              },
-              {
-                "name": "0.5.1: Node Modules",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.5-node.js/0.5.1-node-modules"
-              },
-              {
-                "name": "0.5.2: NPM",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.5-node.js/0.5.2-npm"
               }
             ]
           },
           "inClass": {
             "items": [
               {
-                "name": "1.E.3: High Card",
+                "name": "1.E.3: High Card (Day 1 of 2)",
                 "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.3-high-card"
               }
             ]
@@ -524,7 +529,7 @@
           "postClass": {
             "items": [
               {
-                "name": "1.E.3: High Card",
+                "name": "1.E.3: High Card (Day 1 of 2)",
                 "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.3-high-card"
               }
             ]
@@ -578,7 +583,14 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
+          "projectStart": {
+            "items": [
+              {
+                "name": "Project 1 Ideation Phase 1",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
+              }
+            ]
+          },
           "projectDue": {},
           "preClass": {},
           "inClass": {},
@@ -599,35 +611,20 @@
         "module": "Module 1: Frontend",
         "general": {
           "type": "general",
-          "preClass": {
-            "items": [
-              {
-                "name": "0.4.5: Destructuring and Spread Operator",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.4-javascript/0.4.5-destructuring-and-spread-operator"
-              },
-              {
-                "name": "1.3: React - Forms",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#9-forms"
-              }
-            ]
-          },
+          "preClass": {},
           "inClass": {
             "items": [
               {
-                "name": "1.E.4: Guess The Word (Day 1 of 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.4-guess-the-word"
+                "name": "1.E.3: High Card (Day 2 of 2)",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.3-high-card"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "1.3: React - Codecademy React 101 - React Forms",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#post-class-exercises-codecademy-react-101"
-              },
-              {
-                "name": "1.E.4: Guess The Word (Day 1 of 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.4-guess-the-word"
+                "name": "1.E.3: High Card (Day 2 of 2)",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.3-high-card"
               }
             ]
           }
@@ -704,15 +701,19 @@
           "preClass": {
             "items": [
               {
-                "name": "1.3: React - Lifting State Up",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#10-lifting-state-up"
+                "name": "0.4.5: Destructuring and Spread Operator",
+                "url": "https://bc.rocketacademy.co/0-foundations/0.4-javascript/0.4.5-destructuring-and-spread-operator"
+              },
+              {
+                "name": "1.3: React - Forms",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#9-forms"
               }
             ]
           },
           "inClass": {
             "items": [
               {
-                "name": "1.E.4: Guess The Word (Day 2 of 2)",
+                "name": "1.E.4: Guess The Word (Day 1 of 2)",
                 "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.4-guess-the-word"
               }
             ]
@@ -720,11 +721,11 @@
           "postClass": {
             "items": [
               {
-                "name": "1.3: React - Codecademy React 101 - Stateless Components from Stateful Components",
+                "name": "1.3: React - Codecademy React 101 - React Forms",
                 "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#post-class-exercises-codecademy-react-101"
               },
               {
-                "name": "1.E.4: Guess The Word (Day 2 of 2)",
+                "name": "1.E.4: Guess The Word (Day 1 of 2)",
                 "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.4-guess-the-word"
               }
             ]
@@ -764,21 +765,14 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {
-            "items": [
-              {
-                "name": "Project 1 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
-              }
-            ]
-          },
+          "projectStart": {},
           "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 1 Ideation Phase 2",
+                "name": "Project 1 Ideation Phase 1",
                 "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
               }
             ]
@@ -795,13 +789,31 @@
           "preClass": {
             "items": [
               {
-                "name": "1.3: React - Composition vs Inheritance, Thinking in React",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react"
+                "name": "1.3: React - Lifting State Up",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#10-lifting-state-up"
               }
             ]
           },
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "1.E.4: Guess The Word (Day 2 of 2)",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.4-guess-the-word"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "1.3: React - Codecademy React 101 - Stateless Components from Stateful Components",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#post-class-exercises-codecademy-react-101"
+              },
+              {
+                "name": "1.E.4: Guess The Word (Day 2 of 2)",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.4-guess-the-word"
+              }
+            ]
+          }
         },
         "css": {
           "type": "css",
@@ -852,20 +864,13 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Project 1 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
-              }
-            ]
-          },
+          "projectDue": {},
           "preClass": {},
           "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 1 Implementation",
+                "name": "Project 1 Ideation Phase 1",
                 "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
               }
             ]
@@ -883,7 +888,7 @@
             "items": [
               {
                 "name": "1.3: React - Composition vs Inheritance, Thinking in React",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#tutorial-intro-to-react"
+                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#11-composition-vs-inheritance"
               }
             ]
           },
@@ -924,21 +929,21 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {
+          "projectStart": {
             "items": [
               {
-                "name": "Project 1 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+                "name": "Project 1 Ideation Phase 2",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
               }
             ]
           },
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
           "postClass": {
             "items": [
               {
-                "name": "Project 1 Implementation",
+                "name": "Project 1 Ideation Phase 2",
                 "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
               }
             ]
@@ -952,7 +957,14 @@
         "module": "Module 1: Frontend",
         "general": {
           "type": "general",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "1.3: React - Tutorial: Intro to React",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#tutorial-intro-to-react"
+              }
+            ]
+          },
           "inClass": {},
           "postClass": {}
         },
@@ -994,7 +1006,7 @@
           "projectDue": {
             "items": [
               {
-                "name": "Project 1 MVP Deadline",
+                "name": "Project 1 Ideation Phase 2",
                 "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
               }
             ]
@@ -1118,7 +1130,14 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 1 MVP Deadline",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
+              }
+            ]
+          },
           "preClass": {},
           "inClass": {
             "items": [
