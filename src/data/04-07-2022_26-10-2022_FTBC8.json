@@ -2565,9 +2565,38 @@
         "module": "Module 3: Backend",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "preClass": {
+            "items": [
+              {
+                "name": "3.1: Express.js",
+                "url": "https://bc.rocketacademy.co/3-backend/3.1-express.js"
+              },
+              {
+                "name": "0.5.3: Nodemon",
+                "url": "https://bc.rocketacademy.co/0-foundations/0.5-node.js/0.5.3-nodemon"
+              },
+              {
+                "name": "0.4.6.1: Async Await",
+                "url": "https://bc.rocketacademy.co/0-foundations/0.4-javascript/0.4.6-promises/0.4.6.1-async-await"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "3.E.1: Bigfoot JSON",
+                "url": "https://bc.rocketacademy.co/3-backend/3.e-exercises/3.e.1-bigfoot-json"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "3.E.1: Bigfoot JSON",
+                "url": "https://bc.rocketacademy.co/3-backend/3.e-exercises/3.e.1-bigfoot-json"
+              }
+            ]
+          }
         },
         "css": {
           "type": "css",
@@ -2577,9 +2606,30 @@
         },
         "algos": {
           "type": "algos",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "preClass": {
+            "items": [
+              {
+                "name": "A.1.6: Trees - Pre-Class",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#pre-class"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "A.1.6: Trees - Part 1",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-1"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "A.1.6: Trees - Part 1",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-1"
+              }
+            ]
+          }
         },
         "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
@@ -2610,9 +2660,23 @@
         "module": "Module 3: Backend",
         "general": {
           "type": "general",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "3.2: SQL",
+                "url": "https://bc.rocketacademy.co/3-backend/3.2-sql"
+              }
+            ]
+          },
           "inClass": {},
-          "postClass": {}
+          "postClass": {
+            "items": [
+              {
+                "name": "3.2: SQL - Codecademy Learn SQL",
+                "url": "https://bc.rocketacademy.co/3-backend/3.2-sql#post-class-exercises-codecademy-learn-sql"
+              }
+            ]
+          }
         },
         "css": {
           "type": "css",
@@ -2623,8 +2687,22 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "A.1.6: Trees - Part 2",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-2"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "A.1.6: Trees - Part 2",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-2"
+              }
+            ]
+          }
         },
         "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
@@ -2655,9 +2733,30 @@
         "module": "Module 3: Backend",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "preClass": {
+            "items": [
+              {
+                "name": "3.3: Sequelize",
+                "url": "https://bc.rocketacademy.co/3-backend/3.3-sequelize"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "3.E.2: Bigfoot SQL",
+                "url": "https://bc.rocketacademy.co/3-backend/3.e-exercises/3.e.2-bigfoot-sql"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "3.E.2: Bigfoot SQL",
+                "url": "https://bc.rocketacademy.co/3-backend/3.e-exercises/3.e.2-bigfoot-sql"
+              }
+            ]
+          }
         },
         "css": {
           "type": "css",
@@ -2668,8 +2767,22 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "A.1.6: Trees - Part 3",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-3"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "A.1.6: Trees - Part 3",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-3"
+              }
+            ]
+          }
         },
         "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
@@ -2700,9 +2813,34 @@
         "module": "Module 3: Backend",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "preClass": {
+            "items": [
+              {
+                "name": "3.2.1: SQL 1-M Relationships",
+                "url": "https://bc.rocketacademy.co/3-backend/3.2-sql/3.2.1-sql-1-m-relationships"
+              },
+              {
+                "name": "3.3.1: Sequelize 1-M Relationships",
+                "url": "https://bc.rocketacademy.co/3-backend/3.3-sequelize/3.3.1-sequelize-1-m-relationships"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "3.E.3: Bigfoot SQL 1-M",
+                "url": "https://bc.rocketacademy.co/3-backend/3.e-exercises/3.e.3-bigfoot-sql-1-m"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "3.E.3: Bigfoot SQL 1-M",
+                "url": "https://bc.rocketacademy.co/3-backend/3.e-exercises/3.e.3-bigfoot-sql-1-m"
+              }
+            ]
+          }
         },
         "css": {
           "type": "css",
@@ -2713,8 +2851,22 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "A.1.6: Trees - Part 4",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-4"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "A.1.6: Trees - Part 4",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-4"
+              }
+            ]
+          }
         },
         "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
@@ -2726,11 +2878,25 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
+          "projectStart": {
+            "items": [
+              {
+                "name": "Project 3 Ideation Phase 1",
+                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+              }
+            ]
+          },
           "projectDue": {},
           "preClass": {},
           "inClass": {},
-          "postClass": {}
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 3 Ideation Phase 1",
+                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+              }
+            ]
+          }
         }
       }
     },
@@ -2745,9 +2911,34 @@
         "module": "Module 3: Backend",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "preClass": {
+            "items": [
+              {
+                "name": "3.2.2: SQL M-M Relationships",
+                "url": "https://bc.rocketacademy.co/3-backend/3.2-sql/3.2.2-sql-m-m-relationships"
+              },
+              {
+                "name": "3.3.2: Sequelize M-M Relationships",
+                "url": "https://bc.rocketacademy.co/3-backend/3.3-sequelize/3.3.2-sequelize-m-m-relationships"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "3.E.4: Bigfoot SQL M-M (Day 1 of 2)",
+                "url": "https://bc.rocketacademy.co/3-backend/3.e-exercises/3.e.4-bigfoot-sql-m-m"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "3.E.4: Bigfoot SQL M-M (Day 1 of 2)",
+                "url": "https://bc.rocketacademy.co/3-backend/3.e-exercises/3.e.4-bigfoot-sql-m-m"
+              }
+            ]
+          }
         },
         "css": {
           "type": "css",
@@ -2758,8 +2949,22 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "A.1.6: Trees - Part 5",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-5"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "A.1.6: Trees - Part 5",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-5"
+              }
+            ]
+          }
         },
         "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
@@ -2775,7 +2980,14 @@
           "projectDue": {},
           "preClass": {},
           "inClass": {},
-          "postClass": {}
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 3 Ideation Phase 1",
+                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+              }
+            ]
+          }
         }
       }
     },
@@ -2790,9 +3002,34 @@
         "module": "Module 3: Backend",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "preClass": {
+            "items": [
+              {
+                "name": "3.2.3: SQL Schema Design",
+                "url": "https://bc.rocketacademy.co/3-backend/3.2-sql/3.2.3-sql-schema-design"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "3.E.5: Carousell Schema Design",
+                "url": "https://bc.rocketacademy.co/3-backend/3.e-exercises/3.e.5-carousell-schema-design"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "3.E.4: Bigfoot SQL M-M (Day 2 of 2)",
+                "url": "https://bc.rocketacademy.co/3-backend/3.e-exercises/3.e.4-bigfoot-sql-m-m"
+              },
+              {
+                "name": "3.E.5: Carousell Schema Design",
+                "url": "https://bc.rocketacademy.co/3-backend/3.e-exercises/3.e.5-carousell-schema-design"
+              }
+            ]
+          }
         },
         "css": {
           "type": "css",
@@ -2803,8 +3040,22 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "A.1.6: Trees - Part 6",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-6"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "A.1.6: Trees - Part 6",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-6"
+              }
+            ]
+          }
         },
         "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
@@ -2820,7 +3071,14 @@
           "projectDue": {},
           "preClass": {},
           "inClass": {},
-          "postClass": {}
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 3 Ideation Phase 1",
+                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+              }
+            ]
+          }
         }
       }
     },
@@ -2835,9 +3093,30 @@
         "module": "Module 3: Backend",
         "general": {
           "type": "general",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "preClass": {
+            "items": [
+              {
+                "name": "3.4: Authentication",
+                "url": "https://bc.rocketacademy.co/3-backend/3.4-authentication"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "3.E.6: Carousell Auth",
+                "url": "https://bc.rocketacademy.co/3-backend/3.e-exercises/3.e.6-carousell-auth"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "3.E.6: Carousell Auth",
+                "url": "https://bc.rocketacademy.co/3-backend/3.e-exercises/3.e.6-carousell-auth"
+              }
+            ]
+          }
         },
         "css": {
           "type": "css",
@@ -2848,8 +3127,22 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "A.1.6: Trees - Part 7",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-7"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "A.1.6: Trees - Part 7",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-7"
+              }
+            ]
+          }
         },
         "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
@@ -2865,7 +3158,14 @@
           "projectDue": {},
           "preClass": {},
           "inClass": {},
-          "postClass": {}
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 3 Ideation Phase 1",
+                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+              }
+            ]
+          }
         }
       }
     },
@@ -2880,7 +3180,18 @@
         "module": "Module 3: Backend",
         "general": {
           "type": "general",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "3.2.4: Advanced SQL Concepts",
+                "url": "https://bc.rocketacademy.co/3-backend/3.2-sql/3.2.4-advanced-sql-concepts"
+              },
+              {
+                "name": "3.3.3: Advanced Sequelize Concepts",
+                "url": "https://bc.rocketacademy.co/3-backend/3.3-sequelize/3.3.3-advanced-sequelize-concepts"
+              }
+            ]
+          },
           "inClass": {},
           "postClass": {}
         },
@@ -2892,9 +3203,30 @@
         },
         "algos": {
           "type": "algos",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "preClass": {
+            "items": [
+              {
+                "name": "A.1.7: Graphs - Pre-Class",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.7-graphs#pre-class"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "A.1.7: Graphs - Part 1",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.7-graphs#part-1"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "A.1.7: Graphs - Part 1",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.7-graphs#part-1"
+              }
+            ]
+          }
         },
         "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
@@ -2906,11 +3238,32 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
+          "projectStart": {
+            "items": [
+              {
+                "name": "Project 3 Ideation Phase 2",
+                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+              }
+            ]
+          },
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 3 Ideation Phase 2",
+                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 3 Ideation Phase 2",
+                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+              }
+            ]
+          }
         }
       }
     },
@@ -2938,8 +3291,22 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "A.1.7: Graphs - Part 2",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.7-graphs#part-2"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "A.1.7: Graphs - Part 2",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.7-graphs#part-2"
+              }
+            ]
+          }
         },
         "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
@@ -2952,10 +3319,31 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 3 Ideation Phase 2",
+                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+              }
+            ]
+          },
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 3 Scrum",
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 3 Implementation",
+                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+              }
+            ]
+          }
         }
       }
     },
@@ -2983,8 +3371,22 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "A.1.7: Graphs - Part 3",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.7-graphs#part-3"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "A.1.7: Graphs - Part 3",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.7-graphs#part-3"
+              }
+            ]
+          }
         },
         "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
@@ -2999,8 +3401,22 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 3 Scrum",
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 3 Implementation",
+                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+              }
+            ]
+          }
         }
       }
     },
@@ -3042,10 +3458,31 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 3 MVP Deadline",
+                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+              }
+            ]
+          },
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 3 Scrum",
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 3 Implementation",
+                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+              }
+            ]
+          }
         }
       }
     },
@@ -3089,8 +3526,22 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 3 Scrum",
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 3 Implementation",
+                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+              }
+            ]
+          }
         }
       }
     },
@@ -3134,8 +3585,22 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 3 Scrum",
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 3 Implementation",
+                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+              }
+            ]
+          }
         }
       }
     },
@@ -3177,10 +3642,31 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 3 Feature Freeze",
+                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+              }
+            ]
+          },
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 3 Scrum",
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 3 Implementation",
+                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+              }
+            ]
+          }
         }
       }
     },
@@ -3224,8 +3710,22 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 3 Scrum",
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 3 Implementation",
+                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+              }
+            ]
+          }
         }
       }
     },
@@ -3267,10 +3767,31 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 3 Presentations",
+                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+              }
+            ]
+          },
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 3 Presentations",
+                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 3 Post-Mortems",
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#post-mortem"
+              }
+            ]
+          }
         }
       }
     },
