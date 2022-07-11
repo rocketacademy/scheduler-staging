@@ -7,42 +7,70 @@ import { DateTime } from "luxon";
 
 // helper function that finds previous course day
 const findPreviousDay = (scheduleData, today, coursetype, firstDayOfCourse) => {
-  let dayBefore;
+  let dayBeforeStr;
 
   if (coursetype === "ft" && DateTime.now() > firstDayOfCourse) {
+    // Day before Mon is prev Thu
     if (today.weekday === 1) {
-      dayBefore = today.plus({ days: -3 }).toFormat("dd-MM-yyyy");
+      dayBeforeStr = today.plus({ days: -4 }).toFormat("dd-MM-yyyy");
+      // Day before Sun is prev Thu
     } else if (today.weekday === 7) {
-      dayBefore = today.plus({ days: -2 }).toFormat("dd-MM-yyyy");
+      dayBeforeStr = today.plus({ days: -3 }).toFormat("dd-MM-yyyy");
+      // Day before Sat is prev Thu
+    } else if (today.weekday === 6) {
+      dayBeforeStr = today.plus({ days: -2 }).toFormat("dd-MM-yyyy");
+      // Day before all other days is yesterday
     } else {
-      dayBefore = today.plus({ days: -1 }).toFormat("dd-MM-yyyy");
+      dayBeforeStr = today.plus({ days: -1 }).toFormat("dd-MM-yyyy");
+    }
+
+    // If dayBefore is a course day and a holiday, use prev dayBefore
+    if (
+      scheduleData[dayBeforeStr] &&
+      scheduleData[dayBeforeStr].dateTypes.holidayType
+    ) {
+      const dayBefore = DateTime.fromFormat(dayBeforeStr, "dd-MM-yyyy");
+
+      // If dayBefore is Mon and Mon is PH, set dayBefore to prev Thu
+      if (dayBefore.weekday === 1) {
+        dayBeforeStr = dayBefore.minus({ days: 4 }).toFormat("dd-MM-yyyy");
+        // Else move dayBefore 1 more day back
+      } else {
+        dayBeforeStr = dayBefore.minus({ days: 1 }).toFormat("dd-MM-yyyy");
+      }
     }
   } else if (coursetype === "pt" && DateTime.now() > firstDayOfCourse) {
     // If today is Mon or Tue, set day before to prev Sat
     if (today.weekday === 1 || today.weekday === 2) {
-      dayBefore = today
+      dayBeforeStr = today
         .plus({ weeks: -1 })
         .set({ weekday: 6 })
         .toFormat("dd-MM-yyyy");
       // If today is Wed-Sat, set day before to prev Tue
     } else if (today.weekday > 2 && today.weekday <= 6) {
-      dayBefore = today.set({ weekday: 2 }).toFormat("dd-MM-yyyy");
+      dayBeforeStr = today.set({ weekday: 2 }).toFormat("dd-MM-yyyy");
       // If today is Sun, set day before to prev Sat
     } else {
-      dayBefore = today.set({ weekday: 6 }).toFormat("dd-MM-yyyy");
+      dayBeforeStr = today.set({ weekday: 6 }).toFormat("dd-MM-yyyy");
+    }
+
+    // If dayBefore is a course day and a holiday, use prev dayBefore
+    if (
+      scheduleData[dayBeforeStr] &&
+      scheduleData[dayBeforeStr].dateTypes.holidayType
+    ) {
+      const dayBefore = DateTime.fromFormat(dayBeforeStr, "dd-MM-yyyy");
+      // If dayBefore is Tue, use the prev Sat as dayBefore
+      if (dayBefore.weekday === 2) {
+        dayBeforeStr = dayBefore.minus({ days: 3 }).toFormat("dd-MM-yyyy");
+        // If dayBefore is Sat, use the prev Tue as dayBefore
+      } else if (dayBefore.weekday === 6) {
+        dayBeforeStr = dayBefore.minus({ days: 4 }).toFormat("dd-MM-yyyy");
+      }
     }
   }
 
-  if (
-    scheduleData[dayBefore] &&
-    scheduleData[dayBefore].dateTypes.holidayType
-  ) {
-    dayBefore = DateTime.fromFormat(dayBefore, "dd-MM-yyyy")
-      .minus({ days: 2 })
-      .toFormat("dd-MM-yyyy");
-  }
-
-  return dayBefore;
+  return dayBeforeStr;
 };
 
 //helper function that finds next course day
