@@ -904,7 +904,14 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "A.1.2: Hash Tables - Part 2",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.2-hash-tables#part-2"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
@@ -939,7 +946,14 @@
           },
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 1 Ideation Phase 2",
+                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
