@@ -3797,7 +3797,14 @@
         "module": "Module 4: Capstone",
         "general": {
           "type": "general",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "4.1: Testing",
+                "url": "https://bc.rocketacademy.co/4-capstone/4.1-testing"
+              }
+            ]
+          },
           "inClass": {},
           "postClass": {}
         },
@@ -3809,9 +3816,30 @@
         },
         "algos": {
           "type": "algos",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "preClass": {
+            "items": [
+              {
+                "name": "A.5: Dynamic Programming",
+                "url": "https://bc.rocketacademy.co/algorithms/a.5-dynamic-programming"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "A.5: Dynamic Programming - Part 1",
+                "url": "https://bc.rocketacademy.co/algorithms/a.5-dynamic-programming#part-1"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "A.5: Dynamic Programming - Part 1",
+                "url": "https://bc.rocketacademy.co/algorithms/a.5-dynamic-programming#part-1"
+              }
+            ]
+          }
         },
         "ux": {
           "type": "ux",
@@ -3828,11 +3856,32 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
+          "projectStart": {
+            "items": [
+              {
+                "name": "Project 4 Ideation Phase 1",
+                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+              }
+            ]
+          },
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 4 Ideation Phase 1",
+                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 4 Ideation Phase 1",
+                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+              }
+            ]
+          }
         }
       }
     },
@@ -3842,7 +3891,14 @@
         "module": "Module 4: Capstone",
         "general": {
           "type": "general",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "4.2: Continuous Integration",
+                "url": "https://bc.rocketacademy.co/4-capstone/4.2-continuous-integration"
+              }
+            ]
+          },
           "inClass": {},
           "postClass": {}
         },
@@ -3855,8 +3911,22 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "A.5: Dynamic Programming - Part 2",
+                "url": "https://bc.rocketacademy.co/algorithms/a.5-dynamic-programming#part-2"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "A.5: Dynamic Programming - Part 2",
+                "url": "https://bc.rocketacademy.co/algorithms/a.5-dynamic-programming#part-2"
+              }
+            ]
+          }
         },
         "ux": {
           "type": "ux",
@@ -3876,8 +3946,22 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 4 Ideation Phase 1",
+                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 4 Ideation Phase 1",
+                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+              }
+            ]
+          }
         }
       }
     },
@@ -3887,7 +3971,14 @@
         "module": "Module 4: Capstone",
         "general": {
           "type": "general",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "4.3: TypeScript",
+                "url": "https://bc.rocketacademy.co/4-capstone/4.3-typescript"
+              }
+            ]
+          },
           "inClass": {},
           "postClass": {}
         },
@@ -3900,8 +3991,22 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "A.5: Dynamic Programming - Part 3",
+                "url": "https://bc.rocketacademy.co/algorithms/a.5-dynamic-programming#part-3"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "A.5: Dynamic Programming - Part 3",
+                "url": "https://bc.rocketacademy.co/algorithms/a.5-dynamic-programming#part-3"
+              }
+            ]
+          }
         },
         "ux": {
           "type": "ux",
@@ -3921,8 +4026,22 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 4 Ideation Phase 1",
+                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 4 Ideation Phase 1",
+                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+              }
+            ]
+          }
         }
       }
     },
@@ -3932,7 +4051,14 @@
         "module": "Module 4: Capstone",
         "general": {
           "type": "general",
-          "preClass": {},
+          "preClass": {
+            "items": [
+              {
+                "name": "4.4: Security",
+                "url": "https://bc.rocketacademy.co/4-capstone/4.4-security"
+              }
+            ]
+          },
           "inClass": {},
           "postClass": {}
         },
@@ -3945,8 +4071,22 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "A.5: Dynamic Programming - Part 4",
+                "url": "https://bc.rocketacademy.co/algorithms/a.5-dynamic-programming#part-4"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "A.5: Dynamic Programming - Part 4",
+                "url": "https://bc.rocketacademy.co/algorithms/a.5-dynamic-programming#part-4"
+              }
+            ]
+          }
         },
         "ux": {
           "type": "ux",
@@ -3963,11 +4103,32 @@
         },
         "projects": {
           "type": "projects",
-          "projectStart": {},
+          "projectStart": {
+            "items": [
+              {
+                "name": "Project 4 Ideation Phase 2",
+                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+              }
+            ]
+          },
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 4 Ideation Phase 2",
+                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 4 Ideation Phase 2",
+                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+              }
+            ]
+          }
         }
       }
     },
@@ -3989,9 +4150,30 @@
         },
         "algos": {
           "type": "algos",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "preClass": {
+            "items": [
+              {
+                "name": "A.6: Bit Manipulation - Pre-Class",
+                "url": "https://bc.rocketacademy.co/algorithms/a.6-bit-manipulation#pre-class"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "A.6: Bit Manipulation - Part 1",
+                "url": "https://bc.rocketacademy.co/algorithms/a.6-bit-manipulation#part-1"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "A.6: Bit Manipulation - Part 1",
+                "url": "https://bc.rocketacademy.co/algorithms/a.6-bit-manipulation#part-1"
+              }
+            ]
+          }
         },
         "ux": {
           "type": "ux",
@@ -4009,10 +4191,31 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 4 Ideation Phase 2",
+                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+              }
+            ]
+          },
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 4 Scrum",
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 4 Implementation",
+                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+              }
+            ]
+          }
         }
       }
     },
@@ -4035,8 +4238,22 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "A.6: Bit Manipulation - Part 2",
+                "url": "https://bc.rocketacademy.co/algorithms/a.6-bit-manipulation#part-2"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "A.6: Bit Manipulation - Part 2",
+                "url": "https://bc.rocketacademy.co/algorithms/a.6-bit-manipulation#part-2"
+              }
+            ]
+          }
         },
         "ux": {
           "type": "ux",
@@ -4056,8 +4273,22 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 4 Scrum",
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 4 Implementation",
+                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+              }
+            ]
+          }
         }
       }
     },
@@ -4079,9 +4310,30 @@
         },
         "algos": {
           "type": "algos",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "preClass": {
+            "items": [
+              {
+                "name": "A.7: Python",
+                "url": "https://bc.rocketacademy.co/algorithms/a.7-python"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "A.7: Python",
+                "url": "https://bc.rocketacademy.co/algorithms/a.7-python"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "A.7: Python",
+                "url": "https://bc.rocketacademy.co/algorithms/a.7-python"
+              }
+            ]
+          }
         },
         "ux": {
           "type": "ux",
@@ -4101,8 +4353,22 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 4 Scrum",
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 4 Implementation",
+                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+              }
+            ]
+          }
         }
       }
     },
@@ -4124,9 +4390,30 @@
         },
         "algos": {
           "type": "algos",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "preClass": {
+            "items": [
+              {
+                "name": "A.1.8: Heaps - Pre-Class",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.8-heaps#pre-class"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "A.1.8: Heaps - Part 1",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.8-heaps#part-1"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "A.1.8: Heaps - Part 1",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.8-heaps#part-1"
+              }
+            ]
+          }
         },
         "ux": {
           "type": "ux",
@@ -4144,10 +4431,31 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 4 MVP Deadline",
+                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+              }
+            ]
+          },
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 4 Scrum",
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 4 Implementation",
+                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+              }
+            ]
+          }
         }
       }
     },
@@ -4170,8 +4478,22 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "A.1.8: Heaps - Part 2",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.8-heaps#part-2"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "A.1.8: Heaps - Part 2",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.8-heaps#part-2"
+              }
+            ]
+          }
         },
         "ux": {
           "type": "ux",
@@ -4191,8 +4513,22 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 4 Scrum",
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 4 Implementation",
+                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+              }
+            ]
+          }
         }
       }
     },
@@ -4215,8 +4551,22 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "A.1.8: Heaps - Part 3",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.8-heaps#part-3"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "A.1.8: Heaps - Part 3",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.8-heaps#part-3"
+              }
+            ]
+          }
         },
         "ux": {
           "type": "ux",
@@ -4236,8 +4586,22 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 4 Scrum",
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 4 Implementation",
+                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+              }
+            ]
+          }
         }
       }
     },
@@ -4281,8 +4645,22 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 4 Scrum",
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 4 Implementation",
+                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+              }
+            ]
+          }
         }
       }
     },
@@ -4326,8 +4704,22 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 4 Scrum",
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 4 Implementation",
+                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+              }
+            ]
+          }
         }
       }
     },
@@ -4371,8 +4763,22 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 4 Scrum",
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 4 Implementation",
+                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+              }
+            ]
+          }
         }
       }
     },
@@ -4414,10 +4820,31 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 4 Feature Freeze",
+                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+              }
+            ]
+          },
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 4 Scrum",
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 4 Implementation",
+                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+              }
+            ]
+          }
         }
       }
     },
@@ -4461,8 +4888,22 @@
           "projectStart": {},
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 4 Scrum",
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 4 Implementation",
+                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+              }
+            ]
+          }
         }
       }
     },
@@ -4504,10 +4945,31 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {},
+          "projectDue": {
+            "items": [
+              {
+                "name": "Project 4 Presentations",
+                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+              }
+            ]
+          },
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 4 Presentations",
+                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 4 Post-Mortems",
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#post-mortem"
+              }
+            ]
+          }
         }
       }
     }
