@@ -1450,6 +1450,10 @@
               {
                 "name": "2.3.1: Firebase Realtime Database",
                 "url": "https://bc.rocketacademy.co/2-full-stack/2.3-firebase/2.3.1-firebase-realtime-database"
+              },
+              {
+                "name": "2.2.7: Enviromental Variables",
+                "url": "https://bc.rocketacademy.co/2-full-stack/2.2-advanced-react/2.2.7-environmental-variables"
               }
             ]
           },
