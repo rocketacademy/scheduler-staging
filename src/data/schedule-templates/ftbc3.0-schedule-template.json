@@ -2831,6 +2831,10 @@
               {
                 "name": "3.3: Sequelize",
                 "url": "https://bc.rocketacademy.co/3-backend/3.3-sequelize"
+              },
+              {
+                "name": "3.1.1: MVC",
+                "url": "https://bc.rocketacademy.co/3-backend/3.1-express.js/3.1.1-mvc"
               }
             ]
           },

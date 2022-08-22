@@ -3,7 +3,7 @@
     "edit": "https://github.com/rocketacademy/scheduler/edit/main/src/data/schedule-templates/ptbc3.0-schedule-template.json"
   },
   "daysOfWeek": [2, 6],
-  "courseStartDaysOfWeekIndex": 1,
+  "courseStartDaysOfWeekIndex": 0,
   "totalCourseDays": 64,
   "days": [
     {
@@ -2831,6 +2831,10 @@
               {
                 "name": "3.3: Sequelize",
                 "url": "https://bc.rocketacademy.co/3-backend/3.3-sequelize"
+              },
+              {
+                "name": "3.1.1: MVC",
+                "url": "https://bc.rocketacademy.co/3-backend/3.1-express.js/3.1.1-mvc"
               }
             ]
           },
