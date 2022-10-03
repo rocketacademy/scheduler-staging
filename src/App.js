@@ -1,7 +1,7 @@
 import React from "react";
 import { HashRouter, Switch, Route } from "react-router-dom";
 
-import ftbc7 from "./data/28-03-2022_20-09-2022_FTBC7.json";
+import ftbc9 from "./data/17-10-2022_23-02-2023_FTBC9.json";
 import ftbc8 from "./data/04-07-2022_26-10-2022_FTBC8.json";
 import ptbc2 from "./data/16-11-2021_25-10-2022_PTBC2.json";
 import ptbc4 from "./data/14-05-2022_07-01-2023_PTBC4.json";
@@ -13,8 +13,8 @@ import BatchScheduleGenerator from "./components/BatchScheduleGenerator";
 function App() {
   // Schedule data for each batch
   const batchArray = [
-    { name: "ftbc7", content: ftbc7 },
     { name: "ftbc8", content: ftbc8 },
+    { name: "ftbc9", content: ftbc9 },
     { name: "ptbc2", content: ptbc2 },
     { name: "ptbc4", content: ptbc4 },
     { name: "ptbc5", content: ptbc5 },
