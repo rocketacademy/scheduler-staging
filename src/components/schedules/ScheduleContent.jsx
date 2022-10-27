@@ -40,6 +40,8 @@ function ScheduleContent({
     nextToday = today.plus({ months: 1 });
   }
 
+  console.log("scheduleData", scheduleData);
+
   return (
     <div className="content">
       {/* button that takes user back to the top of the page  */}

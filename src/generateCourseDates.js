@@ -40,11 +40,17 @@ let bootcampData;
 const getLocalDateTime = (courseType, date) => {
   const changedFormat = date.toFormat("yyyy-MM-dd");
   let utc;
-  if (courseType === "FTBC" || (courseType === "PTBC" && date.weekday === 6)) {
+
+  // need to alter this if you change the days of the week for the PT course.
+  if (courseType === "FTBC") {
     utc = DateTime.fromISO(`${changedFormat}T10:00`, { zone: "Singapore" })
       .toUTC()
       .toISO();
-  } else if (courseType === "PTBC" && date.weekday === 2) {
+  } else if (courseType === "PTBC" && date.weekday === 1) {
+    utc = DateTime.fromISO(`${changedFormat}T19:30`, { zone: "Singapore" })
+      .toUTC()
+      .toISO();
+  } else if (courseType === "PTBC" && date.weekday === 4) {
     utc = DateTime.fromISO(`${changedFormat}T19:30`, { zone: "Singapore" })
       .toUTC()
       .toISO();

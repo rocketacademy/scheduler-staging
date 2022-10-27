@@ -1,10 +1,12 @@
 import React from "react";
 import ScheduleContent from "./ScheduleContent";
 import SideBar from "./sidebar/SideBar";
-import { DateTime } from 'luxon';
+import { DateTime } from "luxon";
 
 function BatchSchedule({ data, title }) {
+  console.log(data, title);
   const scheduleData = JSON.parse(JSON.stringify(data.days));
+  console.log(scheduleData);
 
   // needed to generate id for use with react-scroll library, also indicates if course is full time/ part time
   let coursetype;
@@ -22,22 +24,29 @@ function BatchSchedule({ data, title }) {
   Object.keys(scheduleData).map((day) => {
     courseDatesArray.push(day);
   });
-  courseDatesArray.sort(function(a, b){return a-b});
-  const firstDayOfCourse = DateTime.fromFormat(courseDatesArray[0], 'dd-MM-yyyy');
+  courseDatesArray.sort(function (a, b) {
+    return a - b;
+  });
+  const firstDayOfCourse = DateTime.fromFormat(
+    courseDatesArray[0],
+    "dd-MM-yyyy"
+  );
 
   if (today < firstDayOfCourse) {
     today = firstDayOfCourse;
   }
+  console.log(courseDatesArray);
+  console.log(firstDayOfCourse);
 
   return (
     <div className="course-schedule">
       {/* contains links to main part of schedule page */}
 
-      <SideBar 
-        scheduleData={scheduleData} 
-        coursetype={coursetype}  
-        firstDayOfCourse={firstDayOfCourse} 
-        />
+      <SideBar
+        scheduleData={scheduleData}
+        coursetype={coursetype}
+        firstDayOfCourse={firstDayOfCourse}
+      />
       {/* contains current schedule table and main content of page */}
       <ScheduleContent
         scheduleData={scheduleData}

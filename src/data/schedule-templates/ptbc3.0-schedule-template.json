@@ -2,8 +2,8 @@
   "repoUrls": {
     "edit": "https://github.com/rocketacademy/scheduler/edit/main/src/data/schedule-templates/ptbc3.0-schedule-template.json"
   },
-  "daysOfWeek": [2, 6],
-  "courseStartDaysOfWeekIndex": 1,
+  "daysOfWeek": [1, 4],
+  "courseStartDaysOfWeekIndex": 0,
   "totalCourseDays": 64,
   "days": [
     {
@@ -1004,10 +1004,8 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {
-          },
-          "postClass": {
-          }
+          "inClass": {},
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
@@ -2008,10 +2006,8 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {
-          },
-          "postClass": {
-          }
+          "inClass": {},
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
@@ -2236,10 +2232,8 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {
-          },
-          "postClass": {
-          }
+          "inClass": {},
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
@@ -2297,10 +2291,8 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {
-          },
-          "postClass": {
-          }
+          "inClass": {},
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
@@ -2358,10 +2350,8 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {
-          },
-          "postClass": {
-          }
+          "inClass": {},
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
@@ -2887,10 +2877,8 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {
-          },
-          "postClass": {
-          }
+          "inClass": {},
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
@@ -2973,10 +2961,8 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {
-          },
-          "postClass": {
-          }
+          "inClass": {},
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
@@ -3052,10 +3038,8 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {
-          },
-          "postClass": {
-          }
+          "inClass": {},
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
@@ -3127,10 +3111,8 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {
-          },
-          "postClass": {
-          }
+          "inClass": {},
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
@@ -4970,4 +4952,5 @@
         }
       }
     }
-  ]}
+  ]
+}
