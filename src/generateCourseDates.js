@@ -54,6 +54,14 @@ const getLocalDateTime = (courseType, date) => {
     utc = DateTime.fromISO(`${changedFormat}T19:30`, { zone: "Singapore" })
       .toUTC()
       .toISO();
+  } else if (courseType === "PTBC" && date.weekday === 2) {
+    utc = DateTime.fromISO(`${changedFormat}T19:30`, { zone: "Singapore" })
+      .toUTC()
+      .toISO();
+  } else if (courseType === "PTBC" && date.weekday === 6) {
+    utc = DateTime.fromISO(`${changedFormat}T10:00`, { zone: "Singapore" })
+      .toUTC()
+      .toISO();
   }
   return utc;
 };
