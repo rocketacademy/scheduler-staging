@@ -469,7 +469,12 @@
             ]
           },
           "postClass": {
-            "items": []
+            "items": [
+              {
+                "name": "A.1.1: Arrays - Part 2",
+                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays#part-2"
+              }
+            ]
           }
         },
         "ux": {
@@ -644,28 +649,12 @@
         "algos": {
           "type": "algos",
           "preClass": {
-            "items": [
-              {
-                "name": "A.1.1.2: Sliding Windows - Pre-Class",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays/a.1.1.2-sliding-windows#pre-class"
-              }
-            ]
+            "items": []
           },
           "inClass": {
-            "items": [
-              {
-                "name": "A.1.1.2: Sliding Windows - Part 1",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays/a.1.1.2-sliding-windows#part-1"
-              }
-            ]
           },
           "postClass": {
-            "items": [
-              {
-                "name": "A.1.1.2: Sliding Windows - Part 1",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays/a.1.1.2-sliding-windows#part-1"
-              }
-            ]
+            "items": []
           }
         },
         "ux": {
