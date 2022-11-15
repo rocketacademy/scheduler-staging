@@ -2,24 +2,22 @@ import React from "react";
 import { HashRouter, Switch, Route } from "react-router-dom";
 
 import ftbc9 from "./data/17-10-2022_23-02-2023_FTBC9.json";
-// uncomment below on december 15th
-// import ftbc10 from "./data/16-01-2023_10-05-2023_FTBC10.json";
-// import ptbc6 from "./data/26-11-2022_29-07-2023_PTBC6.json";
+// import ftbc10 from "./data/30-01-2023_22-05-2023_FTBC10.json";
+
 import ptbc4 from "./data/14-05-2022_07-01-2023_PTBC4.json";
 import ptbc5 from "./data/30-08-2022_29-04-2023_PTBC5.json";
+import ptbc6 from "./data/26-11-2022_29-07-2023_PTBC6.json";
 
 import ScheduleContainer from "./components/schedules/ScheduleContainer";
 import BatchScheduleGenerator from "./components/BatchScheduleGenerator";
 
 function App() {
-  // Schedule data for each batch
   const batchArray = [
     { name: "ftbc9", content: ftbc9 },
-    // uncomment below on dec 15th
     // { name: "ftbc10", content: ftbc10 },
     { name: "ptbc4", content: ptbc4 },
     { name: "ptbc5", content: ptbc5 },
-    // { name: "ptbc6", content: ptbc6 },
+    { name: "ptbc6", content: ptbc6 },
   ];
 
   return (
