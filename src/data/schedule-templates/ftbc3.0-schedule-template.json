@@ -2,12 +2,7 @@
   "repoUrls": {
     "edit": "https://github.com/rocketacademy/scheduler/edit/main/src/data/schedule-templates/ftbc3.0-schedule-template.json"
   },
-  "daysOfWeek": [
-    1,
-    2,
-    3,
-    4
-  ],
+  "daysOfWeek": [1, 2, 3, 4],
   "courseStartDaysOfWeekIndex": 0,
   "totalCourseDays": 64,
   "days": [
@@ -21,11 +16,11 @@
             "items": [
               {
                 "name": "Required Software",
-                "url": "https://bc.rocketacademy.co/logistics/required-software"
+                "url": "https://bootcamp.rocketacademy.co/logistics/required-software"
               },
               {
                 "name": "Course Methodology",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology"
               }
             ]
           },
@@ -84,23 +79,23 @@
             "items": [
               {
                 "name": "0.1: Command Line",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.1-command-line"
+                "url": "https://bootcamp.rocketacademy.co/0-foundations/0.1-command-line"
               },
               {
                 "name": "0.2: Git",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.2-git"
+                "url": "https://bootcamp.rocketacademy.co/0-foundations/0.2-git"
               },
               {
                 "name": "0.3: GitHub",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.3-github"
+                "url": "https://bootcamp.rocketacademy.co/0-foundations/0.3-github"
               },
               {
                 "name": "0.3.1: Pull Requests",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.3-github/0.3.1-pull-requests"
+                "url": "https://bootcamp.rocketacademy.co/0-foundations/0.3-github/0.3.1-pull-requests"
               },
               {
                 "name": "1.1: HTML",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.1-html"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.1-html"
               }
             ]
           },
@@ -108,7 +103,7 @@
             "items": [
               {
                 "name": "1.E.1: Recipe Site",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.1-recipe-site"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.e-exercises/1.e.1-recipe-site"
               }
             ]
           },
@@ -116,7 +111,7 @@
             "items": [
               {
                 "name": "1.E.1: Recipe Site",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.1-recipe-site"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.e-exercises/1.e.1-recipe-site"
               }
             ]
           }
@@ -166,23 +161,23 @@
             "items": [
               {
                 "name": "1.2: CSS",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.2-css"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.2-css"
               },
               {
                 "name": "0.4.1: ES6",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.4-javascript/0.4.1-es6"
+                "url": "https://bootcamp.rocketacademy.co/0-foundations/0.4-javascript/0.4.1-es6"
               },
               {
                 "name": "0.4.2: Common Syntax",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.4-javascript/0.4.2-common-syntax"
+                "url": "https://bootcamp.rocketacademy.co/0-foundations/0.4-javascript/0.4.2-common-syntax"
               },
               {
                 "name": "0.4.3: Reference vs Value",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.4-javascript/0.4.3-reference-vs-value"
+                "url": "https://bootcamp.rocketacademy.co/0-foundations/0.4-javascript/0.4.3-reference-vs-value"
               },
               {
                 "name": "0.5: Node.js (No need to read 0.5.X submodules for now)",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.5-node.js"
+                "url": "https://bootcamp.rocketacademy.co/0-foundations/0.5-node.js"
               }
             ]
           },
@@ -190,7 +185,7 @@
             "items": [
               {
                 "name": "1.E.2: Portfolio Page (Day 1 of 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.2-portfolio-page"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.e-exercises/1.e.2-portfolio-page"
               }
             ]
           },
@@ -198,11 +193,11 @@
             "items": [
               {
                 "name": "1.2: CSS - Codecademy Learn CSS - Syntax and Selectors, Visual Rules, The Box Model",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.2-css#codecademy-learn-css"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.2-css#codecademy-learn-css"
               },
               {
                 "name": "1.E.2: Portfolio Page (Day 1 of 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.2-portfolio-page"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.e-exercises/1.e.2-portfolio-page"
               }
             ]
           }
@@ -219,7 +214,7 @@
             "items": [
               {
                 "name": "Intro to Algorithms",
-                "url": "https://bc.rocketacademy.co/algorithms"
+                "url": "https://bootcamp.rocketacademy.co/algorithms"
               }
             ]
           },
@@ -259,7 +254,7 @@
             "items": [
               {
                 "name": "1.2.1: Layout",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.2-css/1.2.1-layout"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.2-css/1.2.1-layout"
               }
             ]
           },
@@ -267,7 +262,7 @@
             "items": [
               {
                 "name": "1.E.2: Portfolio Page (Day 2 of 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.2-portfolio-page"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.e-exercises/1.e.2-portfolio-page"
               }
             ]
           },
@@ -275,7 +270,7 @@
             "items": [
               {
                 "name": "1.E.2: Portfolio Page (Day 2 of 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.2-portfolio-page"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.e-exercises/1.e.2-portfolio-page"
               }
             ]
           }
@@ -292,7 +287,7 @@
             "items": [
               {
                 "name": "A.1.1: Arrays - Pre-Class",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays#pre-class"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays#pre-class"
               }
             ]
           },
@@ -300,7 +295,7 @@
             "items": [
               {
                 "name": "A.1.1: Arrays - Part 1",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays#part-1"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays#part-1"
               }
             ]
           },
@@ -308,7 +303,7 @@
             "items": [
               {
                 "name": "A.1.1: Arrays - Part 1",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays#part-1"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays#part-1"
               }
             ]
           }
@@ -346,11 +341,11 @@
             "items": [
               {
                 "name": "0.4.4: Classes",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.4-javascript/0.4.4-classes"
+                "url": "https://bootcamp.rocketacademy.co/0-foundations/0.4-javascript/0.4.4-classes"
               },
               {
                 "name": "1.3: React - Hello World, Introducing JSX, Rendering Elements",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.3-react"
               }
             ]
           },
@@ -358,7 +353,7 @@
             "items": [
               {
                 "name": "1.E.3: World Clock (Day 1 of 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.3-world-clock"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.e-exercises/1.e.3-world-clock"
               }
             ]
           },
@@ -366,11 +361,11 @@
             "items": [
               {
                 "name": "1.3: React - Codecademy React 101 - JSX",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#post-class-exercises-codecademy-react-101"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.3-react#post-class-exercises-codecademy-react-101"
               },
               {
                 "name": "1.E.3: World Clock (Day 1 of 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.3-world-clock"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.e-exercises/1.e.3-world-clock"
               }
             ]
           }
@@ -424,7 +419,7 @@
             "items": [
               {
                 "name": "1.3: React - Components and Props, State and Lifecycle",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#5-state-and-lifecycle"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.3-react#5-state-and-lifecycle"
               }
             ]
           },
@@ -432,7 +427,7 @@
             "items": [
               {
                 "name": "1.E.3: World Clock (Day 2 of 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.3-world-clock"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.e-exercises/1.e.3-world-clock"
               }
             ]
           },
@@ -440,11 +435,11 @@
             "items": [
               {
                 "name": "1.3: React - Codecademy React 101 - React Components, Components Interacting, Lifecycle Methods",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#post-class-exercises-codecademy-react-101"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.3-react#post-class-exercises-codecademy-react-101"
               },
               {
                 "name": "1.E.3: World Clock (Day 2 of 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.3-world-clock"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.e-exercises/1.e.3-world-clock"
               }
             ]
           }
@@ -461,7 +456,7 @@
             "items": [
               {
                 "name": "A.1.1: Arrays - Part 2",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays#part-2"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays#part-2"
               }
             ]
           },
@@ -469,7 +464,7 @@
             "items": [
               {
                 "name": "A.1.1: Arrays - Part 2",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays#part-2"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays#part-2"
               }
             ]
           },
@@ -477,7 +472,7 @@
             "items": [
               {
                 "name": "A.1.1: Arrays - Part 2",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays#part-2"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays#part-2"
               }
             ]
           }
@@ -515,7 +510,7 @@
             "items": [
               {
                 "name": "1.3: React - Handling Events, Conditional Rendering, Lists and Keys",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.3-react"
               }
             ]
           },
@@ -523,7 +518,7 @@
             "items": [
               {
                 "name": "1.E.4: High Card (Day 1 of 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.4-high-card"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.e-exercises/1.e.4-high-card"
               }
             ]
           },
@@ -531,7 +526,7 @@
             "items": [
               {
                 "name": "1.E.4: High Card (Day 1 of 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.4-high-card"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.e-exercises/1.e.4-high-card"
               }
             ]
           }
@@ -548,11 +543,11 @@
             "items": [
               {
                 "name": "A.2: Complexity Analysis",
-                "url": "https://bc.rocketacademy.co/algorithms/a.2-complexity-analysis"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.2-complexity-analysis"
               },
               {
                 "name": "A.1.1: Arrays - Part 3",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays#part-3"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays#part-3"
               }
             ]
           },
@@ -560,7 +555,7 @@
             "items": [
               {
                 "name": "A.1.1: Arrays - Part 3",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays#part-3"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays#part-3"
               }
             ]
           },
@@ -568,7 +563,7 @@
             "items": [
               {
                 "name": "A.1.1: Arrays - Part 3",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays#part-3"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays#part-3"
               }
             ]
           }
@@ -592,7 +587,7 @@
             "items": [
               {
                 "name": "Project 1 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.p-frontend-app"
               }
             ]
           },
@@ -603,7 +598,7 @@
             "items": [
               {
                 "name": "Project 1 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.p-frontend-app"
               }
             ]
           }
@@ -620,11 +615,11 @@
             "items": [
               {
                 "name": "0.5.1: Node Modules",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.5-node.js/0.5.1-node-modules"
+                "url": "https://bootcamp.rocketacademy.co/0-foundations/0.5-node.js/0.5.1-node-modules"
               },
               {
                 "name": "0.5.2: NPM",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.5-node.js/0.5.2-npm"
+                "url": "https://bootcamp.rocketacademy.co/0-foundations/0.5-node.js/0.5.2-npm"
               }
             ]
           },
@@ -632,7 +627,7 @@
             "items": [
               {
                 "name": "1.E.4: High Card (Day 2 of 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.4-high-card"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.e-exercises/1.e.4-high-card"
               }
             ]
           },
@@ -640,7 +635,7 @@
             "items": [
               {
                 "name": "1.E.4: High Card (Day 2 of 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.4-high-card"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.e-exercises/1.e.4-high-card"
               }
             ]
           }
@@ -656,8 +651,7 @@
           "preClass": {
             "items": []
           },
-          "inClass": {
-          },
+          "inClass": {},
           "postClass": {
             "items": []
           }
@@ -685,7 +679,7 @@
             "items": [
               {
                 "name": "Project 1 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.p-frontend-app"
               }
             ]
           }
@@ -702,11 +696,11 @@
             "items": [
               {
                 "name": "0.4.5: Destructuring and Spread Operator",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.4-javascript/0.4.5-destructuring-and-spread-operator"
+                "url": "https://bootcamp.rocketacademy.co/0-foundations/0.4-javascript/0.4.5-destructuring-and-spread-operator"
               },
               {
                 "name": "1.3: React - Forms",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#9-forms"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.3-react#9-forms"
               }
             ]
           },
@@ -714,7 +708,7 @@
             "items": [
               {
                 "name": "1.E.5: Guess The Word (Day 1 of 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.5-guess-the-word"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.e-exercises/1.e.5-guess-the-word"
               }
             ]
           },
@@ -722,11 +716,11 @@
             "items": [
               {
                 "name": "1.3: React - Codecademy React 101 - React Forms",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#post-class-exercises-codecademy-react-101"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.3-react#post-class-exercises-codecademy-react-101"
               },
               {
                 "name": "1.E.5: Guess The Word (Day 1 of 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.5-guess-the-word"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.e-exercises/1.e.5-guess-the-word"
               }
             ]
           }
@@ -743,7 +737,7 @@
             "items": [
               {
                 "name": "A.1.2: Hash Tables - Pre-Class",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.2-hash-tables#pre-class"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.2-hash-tables#pre-class"
               }
             ]
           },
@@ -751,7 +745,7 @@
             "items": [
               {
                 "name": "A.1.2: Hash Tables - Part 1",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.2-hash-tables#part-1"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.2-hash-tables#part-1"
               }
             ]
           },
@@ -759,7 +753,7 @@
             "items": [
               {
                 "name": "A.1.2: Hash Tables - Part 1",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.2-hash-tables#part-1"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.2-hash-tables#part-1"
               }
             ]
           }
@@ -787,7 +781,7 @@
             "items": [
               {
                 "name": "Project 1 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.p-frontend-app"
               }
             ]
           }
@@ -804,7 +798,7 @@
             "items": [
               {
                 "name": "1.3: React - Lifting State Up",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#10-lifting-state-up"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.3-react#10-lifting-state-up"
               }
             ]
           },
@@ -812,7 +806,7 @@
             "items": [
               {
                 "name": "1.E.5: Guess The Word (Day 2 of 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.5-guess-the-word"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.e-exercises/1.e.5-guess-the-word"
               }
             ]
           },
@@ -820,11 +814,11 @@
             "items": [
               {
                 "name": "1.3: React - Codecademy React 101 - Stateless Components from Stateful Components",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#post-class-exercises-codecademy-react-101"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.3-react#post-class-exercises-codecademy-react-101"
               },
               {
                 "name": "1.E.5: Guess The Word (Day 2 of 2)",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.e-exercises/1.e.5-guess-the-word"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.e-exercises/1.e.5-guess-the-word"
               }
             ]
           }
@@ -842,7 +836,7 @@
             "items": [
               {
                 "name": "A.1.2: Hash Tables - Part 2",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.2-hash-tables#part-2"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.2-hash-tables#part-2"
               }
             ]
           },
@@ -850,7 +844,7 @@
             "items": [
               {
                 "name": "A.1.2: Hash Tables - Part 2",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.2-hash-tables#part-2"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.2-hash-tables#part-2"
               }
             ]
           }
@@ -878,7 +872,7 @@
             "items": [
               {
                 "name": "Project 1 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.p-frontend-app"
               }
             ]
           }
@@ -895,7 +889,7 @@
             "items": [
               {
                 "name": "1.3: React - Composition vs Inheritance, Thinking in React",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#11-composition-vs-inheritance"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.3-react#11-composition-vs-inheritance"
               }
             ]
           },
@@ -915,7 +909,7 @@
             "items": [
               {
                 "name": "A.1.2: Hash Tables - Part 2",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.2-hash-tables#part-2"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.2-hash-tables#part-2"
               }
             ]
           },
@@ -923,7 +917,7 @@
             "items": [
               {
                 "name": "A.1.2: Hash Tables - Part 2",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.2-hash-tables#part-2"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.2-hash-tables#part-2"
               }
             ]
           }
@@ -947,7 +941,7 @@
             "items": [
               {
                 "name": "Project 1 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.p-frontend-app"
               }
             ]
           },
@@ -957,7 +951,7 @@
             "items": [
               {
                 "name": "Project 1 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.p-frontend-app"
               }
             ]
           },
@@ -965,7 +959,7 @@
             "items": [
               {
                 "name": "Project 1 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.p-frontend-app"
               }
             ]
           }
@@ -982,7 +976,7 @@
             "items": [
               {
                 "name": "1.3: React - Tutorial: Intro to React",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.3-react#tutorial-intro-to-react"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.3-react#tutorial-intro-to-react"
               }
             ]
           },
@@ -998,10 +992,8 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {
-          },
-          "postClass": {
-          }
+          "inClass": {},
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
@@ -1023,7 +1015,7 @@
             "items": [
               {
                 "name": "Project 1 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.p-frontend-app"
               }
             ]
           },
@@ -1032,7 +1024,7 @@
             "items": [
               {
                 "name": "Project 1 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -1040,7 +1032,7 @@
             "items": [
               {
                 "name": "Project 1 Implementation",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.p-frontend-app"
               }
             ]
           }
@@ -1091,7 +1083,7 @@
             "items": [
               {
                 "name": "Project 1 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -1099,7 +1091,7 @@
             "items": [
               {
                 "name": "Project 1 Implementation",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.p-frontend-app"
               }
             ]
           }
@@ -1150,7 +1142,7 @@
             "items": [
               {
                 "name": "Project 1 MVP Deadline",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.p-frontend-app"
               }
             ]
           },
@@ -1159,7 +1151,7 @@
             "items": [
               {
                 "name": "Project 1 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -1167,7 +1159,7 @@
             "items": [
               {
                 "name": "Project 1 Implementation",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.p-frontend-app"
               }
             ]
           }
@@ -1216,7 +1208,7 @@
             "items": [
               {
                 "name": "Project 1 Feature Freeze",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.p-frontend-app"
               }
             ]
           },
@@ -1225,7 +1217,7 @@
             "items": [
               {
                 "name": "Project 1 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -1233,7 +1225,7 @@
             "items": [
               {
                 "name": "Project 1 Implementation",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.p-frontend-app"
               }
             ]
           }
@@ -1282,7 +1274,7 @@
             "items": [
               {
                 "name": "Project 1 Presentations",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.p-frontend-app"
               }
             ]
           },
@@ -1291,7 +1283,7 @@
             "items": [
               {
                 "name": "Project 1 Presentations",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
+                "url": "https://bootcamp.rocketacademy.co/1-frontend/1.p-frontend-app"
               }
             ]
           },
@@ -1299,7 +1291,7 @@
             "items": [
               {
                 "name": "Project 1 Post-Mortems",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#post-mortem"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#post-mortem"
               }
             ]
           }
@@ -1316,23 +1308,23 @@
             "items": [
               {
                 "name": "2.1: Internet 101",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.1-internet-101"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.1-internet-101"
               },
               {
                 "name": "2.1.1: Chrome DevTools Network Panel",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.1-internet-101/2.1.1-chrome-devtools-network-panel"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.1-internet-101/2.1.1-chrome-devtools-network-panel"
               },
               {
                 "name": "0.4.6: JS Promises",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.4-javascript/0.4.6-promises"
+                "url": "https://bootcamp.rocketacademy.co/0-foundations/0.4-javascript/0.4.6-promises"
               },
               {
                 "name": "2.1.2: HTTP Requests and Responses",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.1-internet-101/2.1.2-http-requests-and-responses"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.1-internet-101/2.1.2-http-requests-and-responses"
               },
               {
                 "name": "2.2.1: AJAX",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.2-advanced-react/2.2.1-ajax"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.2-advanced-react/2.2.1-ajax"
               }
             ]
           },
@@ -1340,7 +1332,7 @@
             "items": [
               {
                 "name": "2.E.1: Weather App",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.e-exercises/2.e.1-weather-app"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.e-exercises/2.e.1-weather-app"
               }
             ]
           },
@@ -1348,7 +1340,7 @@
             "items": [
               {
                 "name": "2.E.1: Weather App",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.e-exercises/2.e.1-weather-app"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.e-exercises/2.e.1-weather-app"
               }
             ]
           }
@@ -1365,7 +1357,7 @@
             "items": [
               {
                 "name": "A.1.3: Stacks - Pre-Class",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.3-stacks#pre-class"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.3-stacks#pre-class"
               }
             ]
           },
@@ -1373,7 +1365,7 @@
             "items": [
               {
                 "name": "A.1.3: Stacks - Part 1",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.3-stacks#part-1"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.3-stacks#part-1"
               }
             ]
           },
@@ -1381,7 +1373,7 @@
             "items": [
               {
                 "name": "A.1.3: Stacks - Part 1",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.3-stacks#part-1"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.3-stacks#part-1"
               }
             ]
           }
@@ -1419,15 +1411,15 @@
             "items": [
               {
                 "name": "2.3: Firebase",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.3-firebase"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.3-firebase"
               },
               {
                 "name": "2.3.1: Firebase Realtime Database",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.3-firebase/2.3.1-firebase-realtime-database"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.3-firebase/2.3.1-firebase-realtime-database"
               },
               {
                 "name": "2.2.7: Enviromental Variables",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.2-advanced-react/2.2.7-environmental-variables"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.2-advanced-react/2.2.7-environmental-variables"
               }
             ]
           },
@@ -1435,7 +1427,7 @@
             "items": [
               {
                 "name": "2.E.2: Instagram Chat",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.e-exercises/2.e.2-instagram-chat"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.e-exercises/2.e.2-instagram-chat"
               }
             ]
           },
@@ -1443,7 +1435,7 @@
             "items": [
               {
                 "name": "2.E.2: Instagram Chat",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.e-exercises/2.e.2-instagram-chat"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.e-exercises/2.e.2-instagram-chat"
               }
             ]
           }
@@ -1461,7 +1453,7 @@
             "items": [
               {
                 "name": "A.1.3: Stacks - Part 2",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.3-stacks#part-2"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.3-stacks#part-2"
               }
             ]
           },
@@ -1469,7 +1461,7 @@
             "items": [
               {
                 "name": "A.1.3: Stacks - Part 2",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.3-stacks#part-2"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.3-stacks#part-2"
               }
             ]
           }
@@ -1507,7 +1499,7 @@
             "items": [
               {
                 "name": "2.3.2: Firebase Storage",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.3-firebase/2.3.2-firebase-storage"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.3-firebase/2.3.2-firebase-storage"
               }
             ]
           },
@@ -1515,7 +1507,7 @@
             "items": [
               {
                 "name": "2.E.3: Instagram Posts",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.e-exercises/2.e.3-instagram-posts"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.e-exercises/2.e.3-instagram-posts"
               }
             ]
           },
@@ -1523,7 +1515,7 @@
             "items": [
               {
                 "name": "2.E.3: Instagram Posts",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.e-exercises/2.e.3-instagram-posts"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.e-exercises/2.e.3-instagram-posts"
               }
             ]
           }
@@ -1540,7 +1532,7 @@
             "items": [
               {
                 "name": "A.1.4: Queues - Pre-Class",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.4-queues#pre-class"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.4-queues#pre-class"
               }
             ]
           },
@@ -1548,7 +1540,7 @@
             "items": [
               {
                 "name": "A.1.4: Queues - Part 1",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.4-queues#part-1"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.4-queues#part-1"
               }
             ]
           },
@@ -1556,7 +1548,7 @@
             "items": [
               {
                 "name": "A.1.4: Queues - Part 1",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.4-queues#part-1"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.4-queues#part-1"
               }
             ]
           }
@@ -1580,7 +1572,7 @@
             "items": [
               {
                 "name": "Project 2 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
               }
             ]
           },
@@ -1591,7 +1583,7 @@
             "items": [
               {
                 "name": "Project 2 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
               }
             ]
           }
@@ -1608,7 +1600,7 @@
             "items": [
               {
                 "name": "2.3.3: Firebase Authentication",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.3-firebase/2.3.3-firebase-authentication"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.3-firebase/2.3.3-firebase-authentication"
               }
             ]
           },
@@ -1616,7 +1608,7 @@
             "items": [
               {
                 "name": "2.E.4: Instagram Auth",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.e-exercises/2.e.4-instagram-auth"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.e-exercises/2.e.4-instagram-auth"
               }
             ]
           },
@@ -1624,7 +1616,7 @@
             "items": [
               {
                 "name": "2.E.4: Instagram Auth",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.e-exercises/2.e.4-instagram-auth"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.e-exercises/2.e.4-instagram-auth"
               }
             ]
           }
@@ -1641,7 +1633,7 @@
             "items": [
               {
                 "name": "A.1.1.1: Binary Search - Pre-Class",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays/a.1.1.1-binary-search#pre-class"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays/a.1.1.1-binary-search#pre-class"
               }
             ]
           },
@@ -1649,7 +1641,7 @@
             "items": [
               {
                 "name": "A.1.1.1: Binary Search - Part 1",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays/a.1.1.1-binary-search#part-1"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays/a.1.1.1-binary-search#part-1"
               }
             ]
           },
@@ -1678,7 +1670,7 @@
             "items": [
               {
                 "name": "Project 2 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
               }
             ]
           }
@@ -1695,7 +1687,7 @@
             "items": [
               {
                 "name": "2.2.2: React Hooks",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.2-advanced-react/2.2.2-hooks"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.2-advanced-react/2.2.2-hooks"
               }
             ]
           },
@@ -1703,7 +1695,7 @@
             "items": [
               {
                 "name": "2.E.4: Instagram Auth",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.e-exercises/2.e.4-instagram-auth"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.e-exercises/2.e.4-instagram-auth"
               }
             ]
           },
@@ -1711,11 +1703,11 @@
             "items": [
               {
                 "name": "2.E.4: Instagram Auth",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.e-exercises/2.e.4-instagram-auth"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.e-exercises/2.e.4-instagram-auth"
               },
               {
                 "name": "2.2.2: React Hooks - Codecademy React 101 - Hooks",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.2-advanced-react/2.2.2-hooks#post-class-exercises-codecademy-react-101"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.2-advanced-react/2.2.2-hooks#post-class-exercises-codecademy-react-101"
               }
             ]
           }
@@ -1732,7 +1724,7 @@
             "items": [
               {
                 "name": "A.1.1.2: Sliding Windows - Pre-Class",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays/a.1.1.2-sliding-windows#pre-class"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays/a.1.1.2-sliding-windows#pre-class"
               }
             ]
           },
@@ -1740,7 +1732,7 @@
             "items": [
               {
                 "name": "A.1.1.2: Sliding Windows - Part 1",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays/a.1.1.2-sliding-windows#part-1"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays/a.1.1.2-sliding-windows#part-1"
               }
             ]
           },
@@ -1748,7 +1740,7 @@
             "items": [
               {
                 "name": "A.1.1.2: Sliding Windows - Part 1",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays/a.1.1.2-sliding-windows#part-1"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.1-arrays/a.1.1.2-sliding-windows#part-1"
               }
             ]
           }
@@ -1776,7 +1768,7 @@
             "items": [
               {
                 "name": "Project 2 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
               }
             ]
           }
@@ -1793,11 +1785,11 @@
             "items": [
               {
                 "name": "2.2.3: React Router",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.2-advanced-react/2.2.3-react-router"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.2-advanced-react/2.2.3-react-router"
               },
               {
                 "name": "2.3.4: Firebase Hosting",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.3-firebase/2.3.4-firebase-hosting"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.3-firebase/2.3.4-firebase-hosting"
               }
             ]
           },
@@ -1805,7 +1797,7 @@
             "items": [
               {
                 "name": "2.E.5: Instagram Routes",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.e-exercises/2.e.5-instagram-routes"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.e-exercises/2.e.5-instagram-routes"
               }
             ]
           },
@@ -1813,7 +1805,7 @@
             "items": [
               {
                 "name": "2.E.5: Instagram Routes",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.e-exercises/2.e.5-instagram-routes"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.e-exercises/2.e.5-instagram-routes"
               }
             ]
           }
@@ -1830,11 +1822,11 @@
             "items": [
               {
                 "name": "A.3: Object-Oriented Programming",
-                "url": "https://bc.rocketacademy.co/algorithms/a.3-object-oriented-programming"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.3-object-oriented-programming"
               },
               {
                 "name": "A.1.5: Linked Lists - Pre-Class",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.5-linked-lists#pre-class"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.5-linked-lists#pre-class"
               }
             ]
           },
@@ -1842,7 +1834,7 @@
             "items": [
               {
                 "name": "A.1.5: Linked Lists - Part 1",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.5-linked-lists#part-1"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.5-linked-lists#part-1"
               }
             ]
           },
@@ -1850,7 +1842,7 @@
             "items": [
               {
                 "name": "A.1.5: Linked Lists - Part 1",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.5-linked-lists#part-1"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.5-linked-lists#part-1"
               }
             ]
           }
@@ -1878,7 +1870,7 @@
             "items": [
               {
                 "name": "Project 2 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
               }
             ]
           }
@@ -1895,11 +1887,11 @@
             "items": [
               {
                 "name": "2.2.4: Higher-Order Components",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.2-advanced-react/2.2.4-higher-order-components"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.2-advanced-react/2.2.4-higher-order-components"
               },
               {
                 "name": "2.2.5: React Context",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.2-advanced-react/2.2.5-context"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.2-advanced-react/2.2.5-context"
               }
             ]
           },
@@ -1919,7 +1911,7 @@
             "items": [
               {
                 "name": "A.1.5: Linked Lists - Part 2",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.5-linked-lists#part-2"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.5-linked-lists#part-2"
               }
             ]
           },
@@ -1927,7 +1919,7 @@
             "items": [
               {
                 "name": "A.1.5: Linked Lists - Part 2",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.5-linked-lists#part-2"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.5-linked-lists#part-2"
               }
             ]
           }
@@ -1951,7 +1943,7 @@
             "items": [
               {
                 "name": "Project 2 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
               }
             ]
           },
@@ -1961,7 +1953,7 @@
             "items": [
               {
                 "name": "Project 2 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
               }
             ]
           },
@@ -1969,7 +1961,7 @@
             "items": [
               {
                 "name": "Project 2 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
               }
             ]
           }
@@ -1986,7 +1978,7 @@
             "items": [
               {
                 "name": "2.2.6: Eject CRA",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.2-advanced-react/2.2.6-eject-cra"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.2-advanced-react/2.2.6-eject-cra"
               }
             ]
           },
@@ -2002,10 +1994,8 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {
-          },
-          "postClass": {
-          }
+          "inClass": {},
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
@@ -2027,7 +2017,7 @@
             "items": [
               {
                 "name": "Project 2 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
               }
             ]
           },
@@ -2036,7 +2026,7 @@
             "items": [
               {
                 "name": "Project 2 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -2044,7 +2034,7 @@
             "items": [
               {
                 "name": "Project 2 Implementation",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
               }
             ]
           }
@@ -2073,7 +2063,7 @@
             "items": [
               {
                 "name": "A.4: Recursion - Pre-Class",
-                "url": "https://bc.rocketacademy.co/algorithms/a.4-recursion#pre-class"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.4-recursion#pre-class"
               }
             ]
           },
@@ -2081,7 +2071,7 @@
             "items": [
               {
                 "name": "A.4: Recursion - Part 1",
-                "url": "https://bc.rocketacademy.co/algorithms/a.4-recursion#part-1"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.4-recursion#part-1"
               }
             ]
           },
@@ -2089,7 +2079,7 @@
             "items": [
               {
                 "name": "A.4: Recursion - Part 1",
-                "url": "https://bc.rocketacademy.co/algorithms/a.4-recursion#part-1"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.4-recursion#part-1"
               }
             ]
           }
@@ -2116,7 +2106,7 @@
             "items": [
               {
                 "name": "Project 2 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -2124,7 +2114,7 @@
             "items": [
               {
                 "name": "Project 2 Implementation",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
               }
             ]
           }
@@ -2154,7 +2144,7 @@
             "items": [
               {
                 "name": "A.4: Recursion - Part 2",
-                "url": "https://bc.rocketacademy.co/algorithms/a.4-recursion#part-2"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.4-recursion#part-2"
               }
             ]
           },
@@ -2162,7 +2152,7 @@
             "items": [
               {
                 "name": "A.4: Recursion - Part 2",
-                "url": "https://bc.rocketacademy.co/algorithms/a.4-recursion#part-2"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.4-recursion#part-2"
               }
             ]
           }
@@ -2187,7 +2177,7 @@
             "items": [
               {
                 "name": "Project 2 MVP Deadline",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
               }
             ]
           },
@@ -2196,7 +2186,7 @@
             "items": [
               {
                 "name": "Project 2 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -2204,7 +2194,7 @@
             "items": [
               {
                 "name": "Project 2 Implementation",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
               }
             ]
           }
@@ -2230,10 +2220,8 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {
-          },
-          "postClass": {
-          }
+          "inClass": {},
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
@@ -2257,7 +2245,7 @@
             "items": [
               {
                 "name": "Project 2 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -2265,7 +2253,7 @@
             "items": [
               {
                 "name": "Project 2 Implementation",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
               }
             ]
           }
@@ -2291,10 +2279,8 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {
-          },
-          "postClass": {
-          }
+          "inClass": {},
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
@@ -2318,7 +2304,7 @@
             "items": [
               {
                 "name": "Project 2 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -2326,7 +2312,7 @@
             "items": [
               {
                 "name": "Project 2 Implementation",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
               }
             ]
           }
@@ -2352,10 +2338,8 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {
-          },
-          "postClass": {
-          }
+          "inClass": {},
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
@@ -2379,7 +2363,7 @@
             "items": [
               {
                 "name": "Project 2 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -2387,7 +2371,7 @@
             "items": [
               {
                 "name": "Project 2 Implementation",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
               }
             ]
           }
@@ -2436,7 +2420,7 @@
             "items": [
               {
                 "name": "Project 2 Feature Freeze",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
               }
             ]
           },
@@ -2445,7 +2429,7 @@
             "items": [
               {
                 "name": "Project 2 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -2453,7 +2437,7 @@
             "items": [
               {
                 "name": "Project 2 Implementation",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
               }
             ]
           }
@@ -2504,7 +2488,7 @@
             "items": [
               {
                 "name": "Project 2 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -2512,7 +2496,7 @@
             "items": [
               {
                 "name": "Project 2 Implementation",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
               }
             ]
           }
@@ -2561,7 +2545,7 @@
             "items": [
               {
                 "name": "Project 2 Presentations",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
               }
             ]
           },
@@ -2570,7 +2554,7 @@
             "items": [
               {
                 "name": "Project 2 Presentations",
-                "url": "https://bc.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
+                "url": "https://bootcamp.rocketacademy.co/2-full-stack/2.p-full-stack-app-firebase"
               }
             ]
           },
@@ -2578,7 +2562,7 @@
             "items": [
               {
                 "name": "Project 2 Post-Mortems",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#post-mortem"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#post-mortem"
               }
             ]
           }
@@ -2595,15 +2579,15 @@
             "items": [
               {
                 "name": "3.1: Express.js",
-                "url": "https://bc.rocketacademy.co/3-backend/3.1-express.js"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.1-express.js"
               },
               {
                 "name": "0.5.3: Nodemon",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.5-node.js/0.5.3-nodemon"
+                "url": "https://bootcamp.rocketacademy.co/0-foundations/0.5-node.js/0.5.3-nodemon"
               },
               {
                 "name": "0.4.6.1: Async Await",
-                "url": "https://bc.rocketacademy.co/0-foundations/0.4-javascript/0.4.6-promises/0.4.6.1-async-await"
+                "url": "https://bootcamp.rocketacademy.co/0-foundations/0.4-javascript/0.4.6-promises/0.4.6.1-async-await"
               }
             ]
           },
@@ -2611,7 +2595,7 @@
             "items": [
               {
                 "name": "3.E.1: Bigfoot JSON",
-                "url": "https://bc.rocketacademy.co/3-backend/3.e-exercises/3.e.1-bigfoot-json"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.e-exercises/3.e.1-bigfoot-json"
               }
             ]
           },
@@ -2619,7 +2603,7 @@
             "items": [
               {
                 "name": "3.E.1: Bigfoot JSON",
-                "url": "https://bc.rocketacademy.co/3-backend/3.e-exercises/3.e.1-bigfoot-json"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.e-exercises/3.e.1-bigfoot-json"
               }
             ]
           }
@@ -2636,7 +2620,7 @@
             "items": [
               {
                 "name": "A.1.6: Trees - Pre-Class",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#pre-class"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#pre-class"
               }
             ]
           },
@@ -2644,7 +2628,7 @@
             "items": [
               {
                 "name": "A.1.6: Trees - Part 1",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-1"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-1"
               }
             ]
           },
@@ -2652,7 +2636,7 @@
             "items": [
               {
                 "name": "A.1.6: Trees - Part 1",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-1"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-1"
               }
             ]
           }
@@ -2690,7 +2674,7 @@
             "items": [
               {
                 "name": "3.2: SQL",
-                "url": "https://bc.rocketacademy.co/3-backend/3.2-sql"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.2-sql"
               }
             ]
           },
@@ -2699,7 +2683,7 @@
             "items": [
               {
                 "name": "3.2: SQL - Codecademy Learn SQL",
-                "url": "https://bc.rocketacademy.co/3-backend/3.2-sql#post-class-exercises-codecademy-learn-sql"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.2-sql#post-class-exercises-codecademy-learn-sql"
               }
             ]
           }
@@ -2717,7 +2701,7 @@
             "items": [
               {
                 "name": "A.1.6: Trees - Part 2",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-2"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-2"
               }
             ]
           },
@@ -2725,7 +2709,7 @@
             "items": [
               {
                 "name": "A.1.6: Trees - Part 2",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-2"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-2"
               }
             ]
           }
@@ -2763,11 +2747,11 @@
             "items": [
               {
                 "name": "3.3: Sequelize",
-                "url": "https://bc.rocketacademy.co/3-backend/3.3-sequelize"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.3-sequelize"
               },
               {
                 "name": "3.1.1: MVC",
-                "url": "https://bc.rocketacademy.co/3-backend/3.1-express.js/3.1.1-mvc"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.1-express.js/3.1.1-mvc"
               }
             ]
           },
@@ -2775,7 +2759,7 @@
             "items": [
               {
                 "name": "3.E.2: Bigfoot SQL",
-                "url": "https://bc.rocketacademy.co/3-backend/3.e-exercises/3.e.2-bigfoot-sql"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.e-exercises/3.e.2-bigfoot-sql"
               }
             ]
           },
@@ -2783,7 +2767,7 @@
             "items": [
               {
                 "name": "3.E.2: Bigfoot SQL",
-                "url": "https://bc.rocketacademy.co/3-backend/3.e-exercises/3.e.2-bigfoot-sql"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.e-exercises/3.e.2-bigfoot-sql"
               }
             ]
           }
@@ -2801,7 +2785,7 @@
             "items": [
               {
                 "name": "A.1.6: Trees - Part 3",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-3"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-3"
               }
             ]
           },
@@ -2809,7 +2793,7 @@
             "items": [
               {
                 "name": "A.1.6: Trees - Part 3",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-3"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-3"
               }
             ]
           }
@@ -2847,11 +2831,11 @@
             "items": [
               {
                 "name": "3.2.1: SQL 1-M Relationships",
-                "url": "https://bc.rocketacademy.co/3-backend/3.2-sql/3.2.1-sql-1-m-relationships"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.2-sql/3.2.1-sql-1-m-relationships"
               },
               {
                 "name": "3.3.1: Sequelize 1-M Relationships",
-                "url": "https://bc.rocketacademy.co/3-backend/3.3-sequelize/3.3.1-sequelize-1-m-relationships"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.3-sequelize/3.3.1-sequelize-1-m-relationships"
               }
             ]
           },
@@ -2859,7 +2843,7 @@
             "items": [
               {
                 "name": "3.E.3: Bigfoot SQL 1-M",
-                "url": "https://bc.rocketacademy.co/3-backend/3.e-exercises/3.e.3-bigfoot-sql-1-m"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.e-exercises/3.e.3-bigfoot-sql-1-m"
               }
             ]
           },
@@ -2867,7 +2851,7 @@
             "items": [
               {
                 "name": "3.E.3: Bigfoot SQL 1-M",
-                "url": "https://bc.rocketacademy.co/3-backend/3.e-exercises/3.e.3-bigfoot-sql-1-m"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.e-exercises/3.e.3-bigfoot-sql-1-m"
               }
             ]
           }
@@ -2881,10 +2865,8 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {
-          },
-          "postClass": {
-          }
+          "inClass": {},
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
@@ -2905,7 +2887,7 @@
             "items": [
               {
                 "name": "Project 3 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.p-full-stack-app-express"
               }
             ]
           },
@@ -2916,7 +2898,7 @@
             "items": [
               {
                 "name": "Project 3 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.p-full-stack-app-express"
               }
             ]
           }
@@ -2933,11 +2915,11 @@
             "items": [
               {
                 "name": "3.2.2: SQL M-M Relationships",
-                "url": "https://bc.rocketacademy.co/3-backend/3.2-sql/3.2.2-sql-m-m-relationships"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.2-sql/3.2.2-sql-m-m-relationships"
               },
               {
                 "name": "3.3.2: Sequelize M-M Relationships",
-                "url": "https://bc.rocketacademy.co/3-backend/3.3-sequelize/3.3.2-sequelize-m-m-relationships"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.3-sequelize/3.3.2-sequelize-m-m-relationships"
               }
             ]
           },
@@ -2945,7 +2927,7 @@
             "items": [
               {
                 "name": "3.E.4: Bigfoot SQL M-M (Day 1 of 2)",
-                "url": "https://bc.rocketacademy.co/3-backend/3.e-exercises/3.e.4-bigfoot-sql-m-m"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.e-exercises/3.e.4-bigfoot-sql-m-m"
               }
             ]
           },
@@ -2953,7 +2935,7 @@
             "items": [
               {
                 "name": "3.E.4: Bigfoot SQL M-M (Day 1 of 2)",
-                "url": "https://bc.rocketacademy.co/3-backend/3.e-exercises/3.e.4-bigfoot-sql-m-m"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.e-exercises/3.e.4-bigfoot-sql-m-m"
               }
             ]
           }
@@ -2967,10 +2949,8 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {
-          },
-          "postClass": {
-          }
+          "inClass": {},
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
@@ -2995,7 +2975,7 @@
             "items": [
               {
                 "name": "Project 3 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.p-full-stack-app-express"
               }
             ]
           }
@@ -3012,7 +2992,7 @@
             "items": [
               {
                 "name": "3.2.3: SQL Schema Design",
-                "url": "https://bc.rocketacademy.co/3-backend/3.2-sql/3.2.3-sql-schema-design"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.2-sql/3.2.3-sql-schema-design"
               }
             ]
           },
@@ -3020,7 +3000,7 @@
             "items": [
               {
                 "name": "3.E.5: Carousell Schema Design",
-                "url": "https://bc.rocketacademy.co/3-backend/3.e-exercises/3.e.5-carousell-schema-design"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.e-exercises/3.e.5-carousell-schema-design"
               }
             ]
           },
@@ -3028,11 +3008,11 @@
             "items": [
               {
                 "name": "3.E.4: Bigfoot SQL M-M (Day 2 of 2)",
-                "url": "https://bc.rocketacademy.co/3-backend/3.e-exercises/3.e.4-bigfoot-sql-m-m"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.e-exercises/3.e.4-bigfoot-sql-m-m"
               },
               {
                 "name": "3.E.5: Carousell Schema Design",
-                "url": "https://bc.rocketacademy.co/3-backend/3.e-exercises/3.e.5-carousell-schema-design"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.e-exercises/3.e.5-carousell-schema-design"
               }
             ]
           }
@@ -3046,10 +3026,8 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {
-          },
-          "postClass": {
-          }
+          "inClass": {},
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
@@ -3074,7 +3052,7 @@
             "items": [
               {
                 "name": "Project 3 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.p-full-stack-app-express"
               }
             ]
           }
@@ -3091,7 +3069,7 @@
             "items": [
               {
                 "name": "3.4: Authentication",
-                "url": "https://bc.rocketacademy.co/3-backend/3.4-authentication"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.4-authentication"
               }
             ]
           },
@@ -3099,7 +3077,7 @@
             "items": [
               {
                 "name": "3.E.6: Carousell Auth",
-                "url": "https://bc.rocketacademy.co/3-backend/3.e-exercises/3.e.6-carousell-auth"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.e-exercises/3.e.6-carousell-auth"
               }
             ]
           },
@@ -3107,7 +3085,7 @@
             "items": [
               {
                 "name": "3.E.6: Carousell Auth",
-                "url": "https://bc.rocketacademy.co/3-backend/3.e-exercises/3.e.6-carousell-auth"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.e-exercises/3.e.6-carousell-auth"
               }
             ]
           }
@@ -3121,10 +3099,8 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {
-          },
-          "postClass": {
-          }
+          "inClass": {},
+          "postClass": {}
         },
         "ux": {
           "type": "ux",
@@ -3149,7 +3125,7 @@
             "items": [
               {
                 "name": "Project 3 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.p-full-stack-app-express"
               }
             ]
           }
@@ -3166,11 +3142,11 @@
             "items": [
               {
                 "name": "3.2.4: Advanced SQL Concepts",
-                "url": "https://bc.rocketacademy.co/3-backend/3.2-sql/3.2.4-advanced-sql-concepts"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.2-sql/3.2.4-advanced-sql-concepts"
               },
               {
                 "name": "3.3.3: Advanced Sequelize Concepts",
-                "url": "https://bc.rocketacademy.co/3-backend/3.3-sequelize/3.3.3-advanced-sequelize-concepts"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.3-sequelize/3.3.3-advanced-sequelize-concepts"
               }
             ]
           },
@@ -3189,7 +3165,7 @@
             "items": [
               {
                 "name": "A.1.7: Graphs - Pre-Class",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.7-graphs#pre-class"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.7-graphs#pre-class"
               }
             ]
           },
@@ -3197,7 +3173,7 @@
             "items": [
               {
                 "name": "A.1.7: Graphs - Part 1",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.7-graphs#part-1"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.7-graphs#part-1"
               }
             ]
           },
@@ -3205,7 +3181,7 @@
             "items": [
               {
                 "name": "A.1.7: Graphs - Part 1",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.7-graphs#part-1"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.7-graphs#part-1"
               }
             ]
           }
@@ -3229,7 +3205,7 @@
             "items": [
               {
                 "name": "Project 3 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.p-full-stack-app-express"
               }
             ]
           },
@@ -3239,7 +3215,7 @@
             "items": [
               {
                 "name": "Project 3 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.p-full-stack-app-express"
               }
             ]
           },
@@ -3247,7 +3223,7 @@
             "items": [
               {
                 "name": "Project 3 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.p-full-stack-app-express"
               }
             ]
           }
@@ -3277,7 +3253,7 @@
             "items": [
               {
                 "name": "A.1.7: Graphs - Part 2",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.7-graphs#part-2"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.7-graphs#part-2"
               }
             ]
           },
@@ -3285,7 +3261,7 @@
             "items": [
               {
                 "name": "A.1.7: Graphs - Part 2",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.7-graphs#part-2"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.7-graphs#part-2"
               }
             ]
           }
@@ -3310,7 +3286,7 @@
             "items": [
               {
                 "name": "Project 3 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.p-full-stack-app-express"
               }
             ]
           },
@@ -3319,7 +3295,7 @@
             "items": [
               {
                 "name": "Project 3 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -3327,7 +3303,7 @@
             "items": [
               {
                 "name": "Project 3 Implementation",
-                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.p-full-stack-app-express"
               }
             ]
           }
@@ -3357,7 +3333,7 @@
             "items": [
               {
                 "name": "A.1.7: Graphs - Part 3",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.7-graphs#part-3"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.7-graphs#part-3"
               }
             ]
           },
@@ -3365,7 +3341,7 @@
             "items": [
               {
                 "name": "A.1.7: Graphs - Part 3",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.7-graphs#part-3"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.7-graphs#part-3"
               }
             ]
           }
@@ -3392,7 +3368,7 @@
             "items": [
               {
                 "name": "Project 3 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -3400,7 +3376,7 @@
             "items": [
               {
                 "name": "Project 3 Implementation",
-                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.p-full-stack-app-express"
               }
             ]
           }
@@ -3449,7 +3425,7 @@
             "items": [
               {
                 "name": "Project 3 MVP Deadline",
-                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.p-full-stack-app-express"
               }
             ]
           },
@@ -3458,7 +3434,7 @@
             "items": [
               {
                 "name": "Project 3 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -3466,7 +3442,7 @@
             "items": [
               {
                 "name": "Project 3 Implementation",
-                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.p-full-stack-app-express"
               }
             ]
           }
@@ -3517,7 +3493,7 @@
             "items": [
               {
                 "name": "Project 3 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -3525,7 +3501,7 @@
             "items": [
               {
                 "name": "Project 3 Implementation",
-                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.p-full-stack-app-express"
               }
             ]
           }
@@ -3576,7 +3552,7 @@
             "items": [
               {
                 "name": "Project 3 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -3584,7 +3560,7 @@
             "items": [
               {
                 "name": "Project 3 Implementation",
-                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.p-full-stack-app-express"
               }
             ]
           }
@@ -3633,7 +3609,7 @@
             "items": [
               {
                 "name": "Project 3 Feature Freeze",
-                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.p-full-stack-app-express"
               }
             ]
           },
@@ -3642,7 +3618,7 @@
             "items": [
               {
                 "name": "Project 3 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -3650,7 +3626,7 @@
             "items": [
               {
                 "name": "Project 3 Implementation",
-                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.p-full-stack-app-express"
               }
             ]
           }
@@ -3701,7 +3677,7 @@
             "items": [
               {
                 "name": "Project 3 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -3709,7 +3685,7 @@
             "items": [
               {
                 "name": "Project 3 Implementation",
-                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.p-full-stack-app-express"
               }
             ]
           }
@@ -3758,7 +3734,7 @@
             "items": [
               {
                 "name": "Project 3 Presentations",
-                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.p-full-stack-app-express"
               }
             ]
           },
@@ -3767,7 +3743,7 @@
             "items": [
               {
                 "name": "Project 3 Presentations",
-                "url": "https://bc.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.p-full-stack-app-express"
               }
             ]
           },
@@ -3775,7 +3751,7 @@
             "items": [
               {
                 "name": "Project 3 Post-Mortems",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#post-mortem"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#post-mortem"
               }
             ]
           }
@@ -3792,7 +3768,7 @@
             "items": [
               {
                 "name": "4.1: Testing",
-                "url": "https://bc.rocketacademy.co/4-capstone/4.1-testing"
+                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.1-testing"
               }
             ]
           },
@@ -3811,7 +3787,7 @@
             "items": [
               {
                 "name": "A.5: Dynamic Programming",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-dynamic-programming"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.5-dynamic-programming"
               }
             ]
           },
@@ -3819,7 +3795,7 @@
             "items": [
               {
                 "name": "A.5: Dynamic Programming - Part 1",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-dynamic-programming#part-1"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.5-dynamic-programming#part-1"
               }
             ]
           },
@@ -3827,7 +3803,7 @@
             "items": [
               {
                 "name": "A.5: Dynamic Programming - Part 1",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-dynamic-programming#part-1"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.5-dynamic-programming#part-1"
               }
             ]
           }
@@ -3851,7 +3827,7 @@
             "items": [
               {
                 "name": "Project 4 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.p-capstone"
               }
             ]
           },
@@ -3861,7 +3837,7 @@
             "items": [
               {
                 "name": "Project 4 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.p-capstone"
               }
             ]
           },
@@ -3869,7 +3845,7 @@
             "items": [
               {
                 "name": "Project 4 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.p-capstone"
               }
             ]
           }
@@ -3886,7 +3862,7 @@
             "items": [
               {
                 "name": "4.2: Continuous Integration",
-                "url": "https://bc.rocketacademy.co/4-capstone/4.2-continuous-integration"
+                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.2-continuous-integration"
               }
             ]
           },
@@ -3906,7 +3882,7 @@
             "items": [
               {
                 "name": "A.5: Dynamic Programming - Part 2",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-dynamic-programming#part-2"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.5-dynamic-programming#part-2"
               }
             ]
           },
@@ -3914,7 +3890,7 @@
             "items": [
               {
                 "name": "A.5: Dynamic Programming - Part 2",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-dynamic-programming#part-2"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.5-dynamic-programming#part-2"
               }
             ]
           }
@@ -3941,7 +3917,7 @@
             "items": [
               {
                 "name": "Project 4 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.p-capstone"
               }
             ]
           },
@@ -3949,7 +3925,7 @@
             "items": [
               {
                 "name": "Project 4 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.p-capstone"
               }
             ]
           }
@@ -3966,7 +3942,7 @@
             "items": [
               {
                 "name": "4.3: TypeScript",
-                "url": "https://bc.rocketacademy.co/4-capstone/4.3-typescript"
+                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.3-typescript"
               }
             ]
           },
@@ -3986,7 +3962,7 @@
             "items": [
               {
                 "name": "A.5: Dynamic Programming - Part 3",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-dynamic-programming#part-3"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.5-dynamic-programming#part-3"
               }
             ]
           },
@@ -3994,7 +3970,7 @@
             "items": [
               {
                 "name": "A.5: Dynamic Programming - Part 3",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-dynamic-programming#part-3"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.5-dynamic-programming#part-3"
               }
             ]
           }
@@ -4021,7 +3997,7 @@
             "items": [
               {
                 "name": "Project 4 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.p-capstone"
               }
             ]
           },
@@ -4029,7 +4005,7 @@
             "items": [
               {
                 "name": "Project 4 Ideation Phase 1",
-                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.p-capstone"
               }
             ]
           }
@@ -4046,7 +4022,7 @@
             "items": [
               {
                 "name": "4.4: Security",
-                "url": "https://bc.rocketacademy.co/4-capstone/4.4-security"
+                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.4-security"
               }
             ]
           },
@@ -4066,7 +4042,7 @@
             "items": [
               {
                 "name": "A.5: Dynamic Programming - Part 4",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-dynamic-programming#part-4"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.5-dynamic-programming#part-4"
               }
             ]
           },
@@ -4074,7 +4050,7 @@
             "items": [
               {
                 "name": "A.5: Dynamic Programming - Part 4",
-                "url": "https://bc.rocketacademy.co/algorithms/a.5-dynamic-programming#part-4"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.5-dynamic-programming#part-4"
               }
             ]
           }
@@ -4098,7 +4074,7 @@
             "items": [
               {
                 "name": "Project 4 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.p-capstone"
               }
             ]
           },
@@ -4108,7 +4084,7 @@
             "items": [
               {
                 "name": "Project 4 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.p-capstone"
               }
             ]
           },
@@ -4116,7 +4092,7 @@
             "items": [
               {
                 "name": "Project 4 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.p-capstone"
               }
             ]
           }
@@ -4145,7 +4121,7 @@
             "items": [
               {
                 "name": "A.6: Bit Manipulation - Pre-Class",
-                "url": "https://bc.rocketacademy.co/algorithms/a.6-bit-manipulation#pre-class"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.6-bit-manipulation#pre-class"
               }
             ]
           },
@@ -4153,7 +4129,7 @@
             "items": [
               {
                 "name": "A.6: Bit Manipulation - Part 1",
-                "url": "https://bc.rocketacademy.co/algorithms/a.6-bit-manipulation#part-1"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.6-bit-manipulation#part-1"
               }
             ]
           },
@@ -4161,7 +4137,7 @@
             "items": [
               {
                 "name": "A.6: Bit Manipulation - Part 1",
-                "url": "https://bc.rocketacademy.co/algorithms/a.6-bit-manipulation#part-1"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.6-bit-manipulation#part-1"
               }
             ]
           }
@@ -4186,7 +4162,7 @@
             "items": [
               {
                 "name": "Project 4 Ideation Phase 2",
-                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.p-capstone"
               }
             ]
           },
@@ -4195,7 +4171,7 @@
             "items": [
               {
                 "name": "Project 4 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -4203,7 +4179,7 @@
             "items": [
               {
                 "name": "Project 4 Implementation",
-                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.p-capstone"
               }
             ]
           }
@@ -4233,7 +4209,7 @@
             "items": [
               {
                 "name": "A.6: Bit Manipulation - Part 2",
-                "url": "https://bc.rocketacademy.co/algorithms/a.6-bit-manipulation#part-2"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.6-bit-manipulation#part-2"
               }
             ]
           },
@@ -4241,7 +4217,7 @@
             "items": [
               {
                 "name": "A.6: Bit Manipulation - Part 2",
-                "url": "https://bc.rocketacademy.co/algorithms/a.6-bit-manipulation#part-2"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.6-bit-manipulation#part-2"
               }
             ]
           }
@@ -4268,7 +4244,7 @@
             "items": [
               {
                 "name": "Project 4 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -4276,7 +4252,7 @@
             "items": [
               {
                 "name": "Project 4 Implementation",
-                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.p-capstone"
               }
             ]
           }
@@ -4305,7 +4281,7 @@
             "items": [
               {
                 "name": "A.7: Python",
-                "url": "https://bc.rocketacademy.co/algorithms/a.7-python"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.7-python"
               }
             ]
           },
@@ -4313,7 +4289,7 @@
             "items": [
               {
                 "name": "A.7: Python",
-                "url": "https://bc.rocketacademy.co/algorithms/a.7-python"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.7-python"
               }
             ]
           },
@@ -4321,7 +4297,7 @@
             "items": [
               {
                 "name": "A.7: Python",
-                "url": "https://bc.rocketacademy.co/algorithms/a.7-python"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.7-python"
               }
             ]
           }
@@ -4348,7 +4324,7 @@
             "items": [
               {
                 "name": "Project 4 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -4356,7 +4332,7 @@
             "items": [
               {
                 "name": "Project 4 Implementation",
-                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.p-capstone"
               }
             ]
           }
@@ -4385,7 +4361,7 @@
             "items": [
               {
                 "name": "A.1.8: Heaps - Pre-Class",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.8-heaps#pre-class"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.8-heaps#pre-class"
               }
             ]
           },
@@ -4393,7 +4369,7 @@
             "items": [
               {
                 "name": "A.1.8: Heaps - Part 1",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.8-heaps#part-1"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.8-heaps#part-1"
               }
             ]
           },
@@ -4401,7 +4377,7 @@
             "items": [
               {
                 "name": "A.1.8: Heaps - Part 1",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.8-heaps#part-1"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.8-heaps#part-1"
               }
             ]
           }
@@ -4426,7 +4402,7 @@
             "items": [
               {
                 "name": "Project 4 MVP Deadline",
-                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.p-capstone"
               }
             ]
           },
@@ -4435,7 +4411,7 @@
             "items": [
               {
                 "name": "Project 4 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -4443,7 +4419,7 @@
             "items": [
               {
                 "name": "Project 4 Implementation",
-                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.p-capstone"
               }
             ]
           }
@@ -4473,7 +4449,7 @@
             "items": [
               {
                 "name": "A.1.8: Heaps - Part 2",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.8-heaps#part-2"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.8-heaps#part-2"
               }
             ]
           },
@@ -4481,7 +4457,7 @@
             "items": [
               {
                 "name": "A.1.8: Heaps - Part 2",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.8-heaps#part-2"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.8-heaps#part-2"
               }
             ]
           }
@@ -4508,7 +4484,7 @@
             "items": [
               {
                 "name": "Project 4 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -4516,7 +4492,7 @@
             "items": [
               {
                 "name": "Project 4 Implementation",
-                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.p-capstone"
               }
             ]
           }
@@ -4546,7 +4522,7 @@
             "items": [
               {
                 "name": "A.1.8: Heaps - Part 3",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.8-heaps#part-3"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.8-heaps#part-3"
               }
             ]
           },
@@ -4554,7 +4530,7 @@
             "items": [
               {
                 "name": "A.1.8: Heaps - Part 3",
-                "url": "https://bc.rocketacademy.co/algorithms/a.1-data-structures/a.1.8-heaps#part-3"
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.8-heaps#part-3"
               }
             ]
           }
@@ -4581,7 +4557,7 @@
             "items": [
               {
                 "name": "Project 4 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -4589,7 +4565,7 @@
             "items": [
               {
                 "name": "Project 4 Implementation",
-                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.p-capstone"
               }
             ]
           }
@@ -4640,7 +4616,7 @@
             "items": [
               {
                 "name": "Project 4 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -4648,7 +4624,7 @@
             "items": [
               {
                 "name": "Project 4 Implementation",
-                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.p-capstone"
               }
             ]
           }
@@ -4699,7 +4675,7 @@
             "items": [
               {
                 "name": "Project 4 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -4707,7 +4683,7 @@
             "items": [
               {
                 "name": "Project 4 Implementation",
-                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.p-capstone"
               }
             ]
           }
@@ -4758,7 +4734,7 @@
             "items": [
               {
                 "name": "Project 4 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -4766,7 +4742,7 @@
             "items": [
               {
                 "name": "Project 4 Implementation",
-                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.p-capstone"
               }
             ]
           }
@@ -4815,7 +4791,7 @@
             "items": [
               {
                 "name": "Project 4 Feature Freeze",
-                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.p-capstone"
               }
             ]
           },
@@ -4824,7 +4800,7 @@
             "items": [
               {
                 "name": "Project 4 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -4832,7 +4808,7 @@
             "items": [
               {
                 "name": "Project 4 Implementation",
-                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.p-capstone"
               }
             ]
           }
@@ -4883,7 +4859,7 @@
             "items": [
               {
                 "name": "Project 4 Scrum",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
@@ -4891,7 +4867,7 @@
             "items": [
               {
                 "name": "Project 4 Implementation",
-                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.p-capstone"
               }
             ]
           }
@@ -4940,7 +4916,7 @@
             "items": [
               {
                 "name": "Project 4 Presentations",
-                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.p-capstone"
               }
             ]
           },
@@ -4949,7 +4925,7 @@
             "items": [
               {
                 "name": "Project 4 Presentations",
-                "url": "https://bc.rocketacademy.co/4-capstone/4.p-capstone"
+                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.p-capstone"
               }
             ]
           },
@@ -4957,7 +4933,7 @@
             "items": [
               {
                 "name": "Project 4 Post-Mortems",
-                "url": "https://bc.rocketacademy.co/logistics/course-methodology#post-mortem"
+                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#post-mortem"
               }
             ]
           }
