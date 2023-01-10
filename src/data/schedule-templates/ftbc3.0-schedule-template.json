@@ -2578,7 +2578,7 @@
           "preClass": {
             "items": [
               {
-                "name": "3.1: Express.js (1)",
+                "name": "3.1: Express.js (1) Http Revision - Fruit Express App",
                 "url": "https://bootcamp.rocketacademy.co/3-backend/3.1-express.js"
               },
               {
@@ -2648,7 +2648,7 @@
           "preClass": {
             "items": [
               {
-                "name": "3.1: Express.js (2)",
+                "name": "3.1: Express.js (2) Routes - Express Structure",
                 "url": "https://bootcamp.rocketacademy.co/3-backend/3.1-express.js"
               },
               {
@@ -2805,7 +2805,7 @@
           "preClass": {
             "items": [
               {
-                "name": "3.3: Sequelize (1)",
+                "name": "3.3: Sequelize (1) Introduction, Migrations and Seeders",
                 "url": "https://bootcamp.rocketacademy.co/3-backend/3.3-sequelize"
               }
             ]
@@ -2885,7 +2885,7 @@
           "preClass": {
             "items": [
               {
-                "name": "3.3: Sequelize (2)",
+                "name": "3.3: Sequelize (2) Models Instances Model Queries",
                 "url": "https://bootcamp.rocketacademy.co/3-backend/3.3-sequelize"
               }
             ]
@@ -2959,7 +2959,7 @@
           "inClass": {
             "items": [
               {
-                "name": "3.1.1: MVC",
+                "name": "3.1.1: MVC Implementation",
                 "url": "https://bootcamp.rocketacademy.co/3-backend/3.1-express.js/3.1.1-mvc"
               }
             ]
@@ -3018,7 +3018,7 @@
           "inClass": {
             "items": [
               {
-                "name": "Application doubt clearing",
+                "name": "Doubt Clearing",
                 "url": "https://bootcamp.rocketacademy.co/3-backend/3.1-express.js/3.1.1-mvc"
               }
             ]

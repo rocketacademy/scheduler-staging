@@ -2,7 +2,7 @@ import React from "react";
 import { HashRouter, Switch, Route } from "react-router-dom";
 
 import ftbc9 from "./data/17-10-2022_23-02-2023_FTBC9.json";
-import ftbc10 from "./data/30-01-2023_22-05-2023_FTBC10 (1).json";
+import ftbc10 from "./data/30-01-2023_22-05-2023_FTBC10.json";
 import ftbc11 from "./data/20-03-2023_11-07-2023_FTBC11.json";
 import ftbc12 from "./data/08-05-2023_29-08-2023_FTBC12.json";
 
