@@ -3267,6 +3267,10 @@
               {
                 "name": "3.2.3: SQL Schema Design",
                 "url": "https://bootcamp.rocketacademy.co/3-backend/3.2-sql/3.2.3-sql-schema-design"
+              },
+              {
+                "name": "3.3.4: Database Design",
+                "url": "https://bc.rocketacademy.co/3-backend/3.3-sequelize/3.3.4-database-design"
               }
             ]
           },
