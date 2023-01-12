@@ -3192,24 +3192,32 @@
           "preClass": {
             "items": [
               {
-                "name": "3.1.1: MVC",
-                "url": "https://bootcamp.rocketacademy.co/3-backend/3.1-express.js/3.1.1-mvc"
+                "name": "3.2.3: SQL Schema Design",
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.2-sql/3.2.3-sql-schema-design"
+              },
+              {
+                "name": "3.3.4: Database Design",
+                "url": "https://bc.rocketacademy.co/3-backend/3.3-sequelize/3.3.4-database-design"
               }
             ]
           },
           "inClass": {
             "items": [
               {
-                "name": "3.1.1: MVC Implementation",
-                "url": "https://bootcamp.rocketacademy.co/3-backend/3.1-express.js/3.1.1-mvc"
+                "name": "3.E.5: Carousell Schema Design",
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.e-exercises/3.e.5-carousell-schema-design"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "3.1.1: MVC",
-                "url": "https://bootcamp.rocketacademy.co/3-backend/3.1-express.js/3.1.1-mvc#exercise"
+                "name": "3.E.4: Bigfoot SQL M-M (Day 2 of 2)",
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.e-exercises/3.e.4-bigfoot-sql-m-m"
+              },
+              {
+                "name": "3.E.5: Carousell Schema Design",
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.e-exercises/3.e.5-carousell-schema-design"
               }
             ]
           }
@@ -3265,32 +3273,24 @@
           "preClass": {
             "items": [
               {
-                "name": "3.2.3: SQL Schema Design",
-                "url": "https://bootcamp.rocketacademy.co/3-backend/3.2-sql/3.2.3-sql-schema-design"
-              },
-              {
-                "name": "3.3.4: Database Design",
-                "url": "https://bc.rocketacademy.co/3-backend/3.3-sequelize/3.3.4-database-design"
+                "name": "3.1.1: MVC",
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.1-express.js/3.1.1-mvc"
               }
             ]
           },
           "inClass": {
             "items": [
               {
-                "name": "3.E.5: Carousell Schema Design",
-                "url": "https://bootcamp.rocketacademy.co/3-backend/3.e-exercises/3.e.5-carousell-schema-design"
+                "name": "3.1.1: MVC Implementation",
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.1-express.js/3.1.1-mvc"
               }
             ]
           },
           "postClass": {
             "items": [
               {
-                "name": "3.E.4: Bigfoot SQL M-M (Day 2 of 2)",
-                "url": "https://bootcamp.rocketacademy.co/3-backend/3.e-exercises/3.e.4-bigfoot-sql-m-m"
-              },
-              {
-                "name": "3.E.5: Carousell Schema Design",
-                "url": "https://bootcamp.rocketacademy.co/3-backend/3.e-exercises/3.e.5-carousell-schema-design"
+                "name": "3.1.1: MVC",
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.1-express.js/3.1.1-mvc#exercise"
               }
             ]
           }
