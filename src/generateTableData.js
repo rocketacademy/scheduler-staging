@@ -1,5 +1,12 @@
 // function that generates data required for rendering schedule table
-const generateTableData = (scheduleData, coursetype, weekNumbers, tableData, setWeekNumbers, setTableData, today) => {
+const generateTableData = (
+  scheduleData,
+  coursetype,
+  weekNumbers,
+  setWeekNumbers,
+  setTableData,
+  today
+) => {
   let firstDay;
   let moveDate;
   let lastDay;
@@ -8,28 +15,28 @@ const generateTableData = (scheduleData, coursetype, weekNumbers, tableData, set
   let moveDateMonth;
   weekNumbers = [];
   // shows current month for part time bootcamp
-  firstDayMonth = today.startOf('month');
-  lastDayMonth = today.endOf('month');
+  firstDayMonth = today.startOf("month");
+  lastDayMonth = today.endOf("month");
 
   // shows current week for full time bootcamp
-  firstDay = today.startOf('week');
-  lastDay = today.endOf('week');
+  firstDay = today.startOf("week");
+  lastDay = today.endOf("week");
 
   moveDate = firstDay;
   const weekDatesArray = [];
   // getting all the dates between first day and last day of week inclusive and storing them in an array
   while (moveDate <= lastDay) {
-    weekDatesArray.push(moveDate.toFormat('dd-MM-yyyy'));
+    weekDatesArray.push(moveDate.toFormat("yyyy-MM-dd"));
     moveDate = moveDate.plus({ days: 1 });
   }
 
   moveDateMonth = firstDayMonth;
 
   const monthDatesArray = [];
-  if (coursetype === 'pt') {
+  if (coursetype === "pt") {
     // getting all the dates between first day and last day of week inclusive and storing them in an array
     while (moveDateMonth <= lastDayMonth) {
-      monthDatesArray.push(moveDateMonth.toFormat('dd-MM-yyyy'));
+      monthDatesArray.push(moveDateMonth.toFormat("yyyy-MM-dd"));
       moveDateMonth = moveDateMonth.plus({ days: 1 });
     }
   }
@@ -38,7 +45,7 @@ const generateTableData = (scheduleData, coursetype, weekNumbers, tableData, set
   const currentMonthData = [];
 
   // getting the data (object) for each individual day of the month (used for pt schedule table)
-  if (coursetype === 'pt') {
+  if (coursetype === "pt") {
     for (let i = 0; i < monthDatesArray.length; i += 1) {
       Object.keys(scheduleData).map((day) => {
         if (day === monthDatesArray[i]) {
@@ -62,8 +69,8 @@ const generateTableData = (scheduleData, coursetype, weekNumbers, tableData, set
   // getting the week's courseWeek that the indicator will point to
   weekDatesArray.forEach((date) => {
     if (
-      scheduleData[date]
-      && !weekNumbers.includes(scheduleData[date].courseWeek)
+      scheduleData[date] &&
+      !weekNumbers.includes(scheduleData[date].courseWeek)
     ) {
       weekNumbers.push(scheduleData[date].courseWeek);
     }

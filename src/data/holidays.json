@@ -1,340 +1,274 @@
 {
   "publicHolidays": {
-    "01-01-2021": {
-      "holidayType": "public holiday",
-      "date": "01-01-2021",
-      "location": "SG",
-      "name": "New Year's Day"
-    },
-    "12-02-2021": {
-      "holidayType": "public holiday",
-      "date": "12-02-2021",
-      "location": "SG",
-      "name": "Chinese New Year Day 1"
-    },
-    "13-02-2021": {
-      "holidayType": "public holiday",
-      "date": "13-02-2021",
-      "location": "SG",
-      "name": "Chinese New Year Day 2"
-    },
-    "02-04-2021": {
-      "holidayType": "public holiday",
-      "date": "02-04-2021",
-      "location": "SG",
-      "name": "Good Friday"
-    },
-    "01-05-2021": {
-      "holidayType": "public holiday",
-      "date": "01-05-2021",
-      "location": "SG",
-      "name": "Labour Day"
-    },
-    "13-05-2021": {
-      "holidayType": "public holiday",
-      "date": "13-05-2021",
-      "location": "SG",
-      "name": "Hari Raya Puasa"
-    },
-    "26-05-2021": {
-      "holidayType": "public holiday",
-      "date": "26-05-2021",
-      "location": "SG",
-      "name": "Vesak Day"
-    },
-    "20-07-2021": {
-      "holidayType": "public holiday",
-      "date": "20-07-2021",
-      "location": "SG",
-      "name": "Hari Raya Haji"
-    },
-    "09-08-2021": {
-      "holidayType": "public holiday",
-      "date": "09-08-2021",
-      "location": "SG",
-      "name": "National Day"
-    },
-    "04-11-2021": {
-      "holidayType": "public holiday",
-      "date": "04-11-2021",
-      "location": "SG",
-      "name": "Deepavali"
-    },
-    "25-12-2021": {
-      "holidayType": "public holiday",
-      "date": "25-12-2021",
-      "location": "SG",
-      "name": "Christmas Day"
-    },
-    "01-01-2022": {
+    "2022-01-01": {
       "holidayType": "public holiday",
       "date": "01-01-2022",
       "location": "SG",
       "name": "New Year's Day"
     },
-    "01-02-2022": {
+    "2022-02-01": {
       "holidayType": "public holiday",
       "date": "01-02-2022",
       "location": "SG",
       "name": "Chinese New Year Day 1"
     },
-    "02-02-2022": {
+    "2022-02-02": {
       "holidayType": "public holiday",
-      "date": "02-02-2022",
+      "date": "2022-02-02",
       "location": "SG",
       "name": "Chinese New Year Day 2"
     },
-    "15-04-2022": {
+    "2022-04-15": {
       "holidayType": "public holiday",
-      "date": "15-04-2022",
+      "date": "2022-04-15",
       "location": "SG",
       "name": "Good Friday"
     },
-    "03-05-2022": {
+    "2022-05-02": {
       "holidayType": "public holiday",
-      "date": "03-05-2022",
+      "date": "2022-05-02",
+      "location": "SG",
+      "name": "Hari Raya Puasa"
+    },
+    "2022-05-03": {
+      "holidayType": "public holiday",
+      "date": "2022-05-03",
       "location": "SG",
       "name": "Labour Day (observed)"
     },
-    "02-05-2022": {
+    "2022-05-16": {
       "holidayType": "public holiday",
-      "date": "02-05-2022",
-      "location": "SG",
-      "name": "Hari Raya Puasa"
-    },
-    "16-05-2022": {
-      "holidayType": "public holiday",
-      "date": "16-05-2022",
+      "date": "2022-05-16",
       "location": "SG",
       "name": "Vesak Day (observed)"
     },
-    "11-07-2022": {
+    "2022-07-11": {
       "holidayType": "public holiday",
-      "date": "11-07-2022",
+      "date": "2022-07-11",
       "location": "SG",
       "name": "Hari Raya Haji (observed)"
     },
-    "09-08-2022": {
+    "2022-08-09": {
       "holidayType": "public holiday",
-      "date": "09-08-2022",
+      "date": "2022-08-09",
       "location": "SG",
       "name": "National Day"
     },
-    "24-10-2022": {
+    "2022-10-24": {
       "holidayType": "public holiday",
-      "date": "24-10-2022",
+      "date": "2022-10-24",
       "location": "SG",
       "name": "Deepavali"
     },
-    "26-12-2022": {
+    "2022-12-26": {
       "holidayType": "public holiday",
-      "date": "26-12-2022",
+      "date": "2022-12-26",
       "location": "SG",
       "name": "Christmas Day (observed)"
     },
-    "02-01-2023": {
+    "2023-01-02": {
       "holidayType": "public holiday",
-      "date": "02-01-2023",
+      "date": "2023-01-02",
       "location": "SG",
       "name": "New Year's Day (observed)"
     },
-    "23-01-2023": {
+    "2023-01-23": {
       "holidayType": "public holiday",
-      "date": "23-01-2023",
+      "date": "2023-01-23",
       "location": "SG",
       "name": "Chinese New Year"
     },
-    "24-01-2023": {
+    "2023-01-24": {
       "holidayType": "public holiday",
-      "date": "24-01-2023",
+      "date": "2023-01-24",
       "location": "SG",
       "name": "Chinese New Year"
     },
-    "07-04-2023": {
+    "2023-04-07": {
       "holidayType": "public holiday",
-      "date": "07-04-2023",
+      "date": "2023-04-07",
       "location": "SG",
       "name": "Good Friday"
     },
-    "22-04-2023": {
+    "2023-04-22": {
       "holidayType": "public holiday",
-      "date": "22-04-2023",
+      "date": "2023-04-22",
       "location": "SG",
       "name": "Hari Raya Puasa"
     },
-    "01-05-2023": {
+    "2023-05-01": {
       "holidayType": "public holiday",
-      "date": "01-05-2023",
+      "date": "2023-05-01",
       "location": "SG",
       "name": "Labour Day"
     },
-    "03-06-2023": {
+    "2023-06-03": {
       "holidayType": "public holiday",
-      "date": "03-06-2023",
+      "date": "2023-06-03",
       "location": "SG",
       "name": "Vesak Day"
     },
-    "29-06-2023": {
+    "2023-06-29": {
       "holidayType": "public holiday",
-      "date": "29-06-2023",
+      "date": "2023-06-29",
       "location": "SG",
       "name": "Hari Raya Haji"
     },
-    "09-08-2023": {
+    "2023-08-09": {
       "holidayType": "public holiday",
-      "date": "09-08-2023",
+      "date": "2023-08-09",
       "location": "SG",
       "name": "National Day"
     },
-    "13-11-2023": {
+    "2023-05-26": {
       "holidayType": "public holiday",
-      "date": "13-11-2023",
+      "date": "2023-05-26",
+      "location": "HK",
+      "name": "Buddha's Birthday"
+    },
+    "2023-06-22": {
+      "holidayType": "public holiday",
+      "date": "2023-06-22",
+      "location": "HK",
+      "name": "Dragon Boat Festival"
+    },
+    "2023-07-01": {
+      "holidayType": "public holiday",
+      "date": "2023-07-01",
+      "location": "HK",
+      "name": "Hong Kong National Day"
+    },
+    "2023-09-30": {
+      "holidayType": "public holiday",
+      "date": "2023-09-30",
+      "location": "HK",
+      "name": "Day After Chinese Mid-Autumn Festival"
+    },
+    "2023-10-02": {
+      "holidayType": "public holiday",
+      "date": "2023-10-02",
+      "location": "HK",
+      "name": "China National Day"
+    },
+    "2023-10-23": {
+      "holidayType": "public holiday",
+      "date": "2023-10-23",
+      "location": "HK",
+      "name": "Chung Yeung Festival"
+    },
+    "2023-11-13": {
+      "holidayType": "public holiday",
+      "date": "2023-11-13",
       "location": "SG",
       "name": "Deepavali (observed)"
     },
-    "25-12-2023": {
+    "2023-12-25": {
       "holidayType": "public holiday",
-      "date": "25-12-2023",
+      "date": "2023-12-25",
       "location": "SG",
       "name": "Christmas Day"
     }
   },
   "schoolHolidays": {
-    "26-12-2021": {
+    "2022-01-01": {
       "holidayType": "school holiday",
-      "date": "26-12-2021",
+      "date": "2022-01-01",
       "location": "SG",
       "name": "winter break"
     },
-    "27-12-2021": {
+    "2022-12-18": {
       "holidayType": "school holiday",
-      "date": "27-12-2021",
+      "date": "2022-12-18",
       "location": "SG",
       "name": "winter break"
     },
-    "28-12-2021": {
+    "2022-12-19": {
       "holidayType": "school holiday",
-      "date": "28-12-2021",
+      "date": "2022-12-19",
       "location": "SG",
       "name": "winter break"
     },
-    "29-12-2021": {
+    "2022-12-20": {
       "holidayType": "school holiday",
-      "date": "29-12-2021",
+      "date": "2022-12-20",
       "location": "SG",
       "name": "winter break"
     },
-    "30-12-2021": {
+    "2022-12-21": {
       "holidayType": "school holiday",
-      "date": "30-12-2021",
+      "date": "2022-12-21",
       "location": "SG",
       "name": "winter break"
     },
-    "31-12-2021": {
+    "2022-12-22": {
       "holidayType": "school holiday",
-      "date": "31-12-2021",
+      "date": "2022-12-22",
       "location": "SG",
       "name": "winter break"
     },
-    "01-01-2022": {
+    "2022-12-23": {
       "holidayType": "school holiday",
-      "date": "01-01-2022",
+      "date": "2022-12-23",
       "location": "SG",
       "name": "winter break"
     },
-    "18-12-2022": {
+    "2022-12-24": {
       "holidayType": "school holiday",
-      "date": "18-12-2022",
+      "date": "2022-12-24",
       "location": "SG",
       "name": "winter break"
     },
-    "19-12-2022": {
+    "2022-12-25": {
       "holidayType": "school holiday",
-      "date": "19-12-2022",
+      "date": "2022-12-25",
       "location": "SG",
       "name": "winter break"
     },
-    "20-12-2022": {
+    "2022-12-26": {
       "holidayType": "school holiday",
-      "date": "20-12-2022",
+      "date": "2022-12-26",
       "location": "SG",
       "name": "winter break"
     },
-    "21-12-2022": {
+    "2022-12-27": {
       "holidayType": "school holiday",
-      "date": "21-12-2022",
+      "date": "2022-12-27",
       "location": "SG",
       "name": "winter break"
     },
-    "22-12-2022": {
+    "2022-12-28": {
       "holidayType": "school holiday",
-      "date": "22-12-2022",
+      "date": "2022-12-28",
       "location": "SG",
       "name": "winter break"
     },
-    "23-12-2022": {
+    "2022-12-29": {
       "holidayType": "school holiday",
-      "date": "23-12-2022",
+      "date": "2022-12-29",
       "location": "SG",
       "name": "winter break"
     },
-    "24-12-2022": {
+    "2022-12-30": {
       "holidayType": "school holiday",
-      "date": "24-12-2022",
+      "date": "2022-12-30",
       "location": "SG",
       "name": "winter break"
     },
-    "25-12-2022": {
+    "2022-12-31": {
       "holidayType": "school holiday",
-      "date": "25-12-2022",
+      "date": "2022-12-31",
       "location": "SG",
       "name": "winter break"
     },
-    "26-12-2022": {
+    "2023-01-01": {
       "holidayType": "school holiday",
-      "date": "26-12-2022",
+      "date": "2023-01-01",
       "location": "SG",
       "name": "winter break"
     },
-    "27-12-2022": {
+    "2023-01-02": {
       "holidayType": "school holiday",
-      "date": "27-12-2022",
-      "location": "SG",
-      "name": "winter break"
-    },
-    "28-12-2022": {
-      "holidayType": "school holiday",
-      "date": "28-12-2022",
-      "location": "SG",
-      "name": "winter break"
-    },
-    "29-12-2022": {
-      "holidayType": "school holiday",
-      "date": "29-12-2022",
-      "location": "SG",
-      "name": "winter break"
-    },
-    "30-12-2022": {
-      "holidayType": "school holiday",
-      "date": "30-12-2022",
-      "location": "SG",
-      "name": "winter break"
-    },
-    "31-12-2022": {
-      "holidayType": "school holiday",
-      "date": "31-12-2022",
-      "location": "SG",
-      "name": "winter break"
-    },
-    "01-01-2023": {
-      "holidayType": "school holiday",
-      "date": "01-01-2023",
-      "location": "SG",
-      "name": "winter break"
-    },
-    "02-01-2023": {
-      "holidayType": "school holiday",
-      "date": "02-01-2023",
+      "date": "2023-01-02",
       "location": "SG",
       "name": "winter break"
     }

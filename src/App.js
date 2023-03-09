@@ -1,22 +1,20 @@
 import React from "react";
 import { HashRouter, Switch, Route } from "react-router-dom";
 
-import ftbc9 from "./data/17-10-2022_23-02-2023_FTBC9.json";
-import ftbc10 from "./data/30-01-2023_22-05-2023_FTBC10.json";
-import ftbc11 from "./data/20-03-2023_11-07-2023_FTBC11.json";
-import ftbc12 from "./data/08-05-2023_29-08-2023_FTBC12.json";
+import ftbc10 from "./data/FTBC10_2023-01-30_2023-05-18.json"; // FTBC3.1
+import ftbc11 from "./data/FTBC11_2023-03-20_2023-07-06.json"; // FTBC3.1
+import ftbc12 from "./data/FTBC12_2023-05-22_2023-09-07.json"; // FTBC3.1 - Hk public holidays
 
-import ptbc5 from "./data/30-08-2022_29-04-2023_PTBC5.json";
-import ptbc6 from "./data/26-11-2022_29-07-2023_PTBC6.json";
-import ptbc7 from "./data/18-03-2023_31-10-2023_PTBC7.json";
-import ptbc8 from "./data/17-06-2023_23-01-2024_PTBC8.json";
+import ptbc5 from "./data/PTBC5_2022-08-30_2023-04-29.json"; // PTBC3.0, courseStartDaysOfWeekIndex 0 (Tue)
+import ptbc6 from "./data/PTBC6_2022-11-26_2023-07-29.json"; // PTBC3.0, courseStartDaysOfWeekIndex 1 (Sat)
+import ptbc7 from "./data/PTBC7_2023-03-18_2023-10-31.json"; // PTBC3.1, courseStartDaysOfWeekIndex 1 (Sat)
+// import ptbc8 from "./data/PTBC8_2023-06-17_2024-01-23.json"; // PTBC3.1
 
 import ScheduleContainer from "./components/schedules/ScheduleContainer";
 import BatchScheduleGenerator from "./components/BatchScheduleGenerator";
 
 function App() {
   const batchArray = [
-    { name: "ftbc9", content: ftbc9 },
     { name: "ftbc10", content: ftbc10 },
     { name: "ftbc11", content: ftbc11 },
     { name: "ftbc12", content: ftbc12 },
@@ -24,7 +22,7 @@ function App() {
     { name: "ptbc5", content: ptbc5 },
     { name: "ptbc6", content: ptbc6 },
     { name: "ptbc7", content: ptbc7 },
-    { name: "ptbc8", content: ptbc8 },
+    // { name: "ptbc8", content: ptbc8 },
   ];
 
   return (

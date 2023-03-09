@@ -41,7 +41,7 @@ function CourseWeeks({ scheduleData, coursetype, firstDayOfCourse }) {
 
   // storing week's dates in the array
   while (target <= lastDayOfWeek) {
-    weeksDates.push(target.toFormat("dd-MM-yyyy"));
+    weeksDates.push(target.toFormat("yyyy-MM-dd"));
     target = target.plus({ days: 1 });
   }
 

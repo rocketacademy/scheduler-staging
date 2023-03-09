@@ -29,7 +29,7 @@ function BatchSchedule({ data, title }) {
   });
   const firstDayOfCourse = DateTime.fromFormat(
     courseDatesArray[0],
-    "dd-MM-yyyy"
+    "yyyy-MM-dd"
   );
 
   if (today < firstDayOfCourse) {

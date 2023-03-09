@@ -13,8 +13,8 @@ function ScheduleTable({ weekNumbers, tableData, coursetype, today }) {
         <h5>
           {/* header shows different info depending on date and coursetype  */}
           {coursetype === "ft" &&
-            today.toFormat("dd-MM-yyyy") ===
-              DateTime.now().toFormat("dd-MM-yyyy") && (
+            today.toFormat("yyyy-MM-dd") ===
+              DateTime.now().toFormat("yyyy-MM-dd") && (
               <>
                 Current Course Week:{" "}
                 {weekNumbers.map((num) => (
@@ -23,8 +23,8 @@ function ScheduleTable({ weekNumbers, tableData, coursetype, today }) {
               </>
             )}
           {coursetype === "ft" &&
-            today.toFormat("dd-MM-yyyy") !==
-              DateTime.now().toFormat("dd-MM-yyyy") && (
+            today.toFormat("yyyy-MM-dd") !==
+              DateTime.now().toFormat("yyyy-MM-dd") && (
               <>
                 Next Course Week:{" "}
                 {weekNumbers.map((num) => (
@@ -51,7 +51,7 @@ function ScheduleTable({ weekNumbers, tableData, coursetype, today }) {
               // getting the formatted date that will be shown in the table
               const formattedDate = DateTime.fromFormat(
                 date.courseDate,
-                "dd-MM-yyyy"
+                "yyyy-MM-dd"
               ).toFormat("EEE d MMM");
               // getting the id that links formattedDate to element in main content page
               const id = `${coursetype}-week-${date.courseWeek}-day-${date.dayNumber}`;
@@ -59,9 +59,9 @@ function ScheduleTable({ weekNumbers, tableData, coursetype, today }) {
               return (
                 <tr
                   className={
-                    today.toFormat("dd-MM-yyyy") ===
-                      DateTime.now().toFormat("dd-MM-yyyy") &&
-                    date.courseDate === today.toFormat("dd-MM-yyyy")
+                    today.toFormat("yyyy-MM-dd") ===
+                      DateTime.now().toFormat("yyyy-MM-dd") &&
+                    date.courseDate === today.toFormat("yyyy-MM-dd")
                       ? "table-secondary"
                       : null
                   }

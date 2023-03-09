@@ -11,7 +11,6 @@ const ContentTable = ({ scheduleData, coursetype, startDay }) => {
       scheduleData,
       coursetype,
       weekNumbers,
-      tableData,
       setWeekNumbers,
       setTableData,
       startDay

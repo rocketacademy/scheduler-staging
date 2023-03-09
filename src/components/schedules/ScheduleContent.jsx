@@ -7,7 +7,7 @@ import ExpandLessIcon from "@material-ui/icons/ExpandLess";
 import CurrentDaySection from "./current-day/CurrentDaySection";
 import Accordion from "react-bootstrap/Accordion";
 
-// generates schedule content for a particular course
+// Generate schedule content for a particular course
 function ScheduleContent({
   scheduleData,
   coursetype,
@@ -15,23 +15,9 @@ function ScheduleContent({
   today,
   firstDayOfCourse,
 }) {
-  // used by scrollTo function to identify where to scroll to from the up arrow at the bottom of the screen
+  // Used by scrollTo function to identify where to scroll to from the up arrow at the bottom of the screen
   const id = `${coursetype}-top`;
   const todaySectionHeader = false;
-  // let today = DateTime.now();
-
-  // // checking if first day of course is after today, if so today = first day of course, so that current day
-  // // section and tables and display first day/ weeks info
-  // const courseDatesArray = [];
-  // Object.keys(scheduleData).map((day) => {
-  //   courseDatesArray.push(day);
-  // });
-  // courseDatesArray.sort(function(a, b){return a-b});
-  // const firstDayOfCourse = DateTime.fromFormat(courseDatesArray[0], 'dd-MM-yyyy');
-
-  // if (today < firstDayOfCourse) {
-  //   today = firstDayOfCourse;
-  // }
 
   let nextToday;
   if (coursetype === "ft") {

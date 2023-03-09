@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import download from "../download.js";
-import generateDataObject from "../generateCourseDates.js";
+import generateScheduleData from "../generateScheduleData.js";
 
 // Generate course schedule based on start date and course type from schedule template
 const BatchScheduleGenerator = () => {
@@ -13,8 +13,8 @@ const BatchScheduleGenerator = () => {
 
   // function that generates and downloads schedule data when download button is clicked
   const handleDownload = () => {
-    const data = generateDataObject(startDate, batchNum, courseType);
-    download(data, `${data.courseName}.json`);
+    const scheduleData = generateScheduleData(startDate, batchNum, courseType);
+    download(scheduleData, `${scheduleData.courseName}.json`);
   };
 
   return (

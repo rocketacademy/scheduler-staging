@@ -1,12 +1,11 @@
 {
-  "repoUrls": {
-    "edit": "https://github.com/rocketacademy/scheduler/edit/main/src/data/schedule-templates/ptbc3.0-schedule-template.json"
-  },
-  "daysOfWeek": [2, 6],
-  "courseStartDaysOfWeekIndex": 1,
-  "totalCourseDays": 64,
-  "days": [
-    {
+  "courseType": "PTBC",
+  "days": {
+    "2023-03-18": {
+      "courseDate": "2023-03-18",
+      "courseWeek": 1,
+      "dayNumber": 6,
+      "meetingDateTimeUtc": "2023-03-18T02:00:00.000Z",
       "courseDay": 1,
       "dateTypes": {
         "module": "Module 1: Frontend",
@@ -25,12 +24,7 @@
             ]
           },
           "inClass": {
-            "items": [
-              {
-                "name": "Orientation, class photo 😍",
-                "url": ""
-              }
-            ]
+            "items": [{ "name": "Orientation, class photo 😍", "url": "" }]
           },
           "postClass": {}
         },
@@ -46,12 +40,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -69,7 +58,11 @@
         }
       }
     },
-    {
+    "2023-03-21": {
+      "courseDate": "2023-03-21",
+      "courseWeek": 2,
+      "dayNumber": 2,
+      "meetingDateTimeUtc": "2023-03-21T11:30:00.000Z",
       "courseDay": 2,
       "dateTypes": {
         "module": "Module 1: Frontend",
@@ -128,12 +121,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -151,7 +139,11 @@
         }
       }
     },
-    {
+    "2023-03-25": {
+      "courseDate": "2023-03-25",
+      "courseWeek": 2,
+      "dayNumber": 6,
+      "meetingDateTimeUtc": "2023-03-25T02:00:00.000Z",
       "courseDay": 3,
       "dateTypes": {
         "module": "Module 1: Frontend",
@@ -221,12 +213,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -244,7 +231,11 @@
         }
       }
     },
-    {
+    "2023-03-28": {
+      "courseDate": "2023-03-28",
+      "courseWeek": 3,
+      "dayNumber": 2,
+      "meetingDateTimeUtc": "2023-03-28T11:30:00.000Z",
       "courseDay": 4,
       "dateTypes": {
         "module": "Module 1: Frontend",
@@ -308,12 +299,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -331,7 +317,11 @@
         }
       }
     },
-    {
+    "2023-04-01": {
+      "courseDate": "2023-04-01",
+      "courseWeek": 3,
+      "dayNumber": 6,
+      "meetingDateTimeUtc": "2023-04-01T02:00:00.000Z",
       "courseDay": 5,
       "dateTypes": {
         "module": "Module 1: Frontend",
@@ -379,19 +369,10 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {
-            "items": []
-          },
-          "postClass": {
-            "items": []
-          }
+          "inClass": { "items": [] },
+          "postClass": { "items": [] }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -409,7 +390,11 @@
         }
       }
     },
-    {
+    "2023-04-04": {
+      "courseDate": "2023-04-04",
+      "courseWeek": 4,
+      "dayNumber": 2,
+      "meetingDateTimeUtc": "2023-04-04T11:30:00.000Z",
       "courseDay": 6,
       "dateTypes": {
         "module": "Module 1: Frontend",
@@ -477,12 +462,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -500,7 +480,11 @@
         }
       }
     },
-    {
+    "2023-04-08": {
+      "courseDate": "2023-04-08",
+      "courseWeek": 4,
+      "dayNumber": 6,
+      "meetingDateTimeUtc": "2023-04-08T02:00:00.000Z",
       "courseDay": 7,
       "dateTypes": {
         "module": "Module 1: Frontend",
@@ -568,12 +552,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -605,7 +584,11 @@
         }
       }
     },
-    {
+    "2023-04-11": {
+      "courseDate": "2023-04-11",
+      "courseWeek": 5,
+      "dayNumber": 2,
+      "meetingDateTimeUtc": "2023-04-11T11:30:00.000Z",
       "courseDay": 8,
       "dateTypes": {
         "module": "Module 1: Frontend",
@@ -648,20 +631,11 @@
         },
         "algos": {
           "type": "algos",
-          "preClass": {
-            "items": []
-          },
+          "preClass": { "items": [] },
           "inClass": {},
-          "postClass": {
-            "items": []
-          }
+          "postClass": { "items": [] }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -686,7 +660,11 @@
         }
       }
     },
-    {
+    "2023-04-15": {
+      "courseDate": "2023-04-15",
+      "courseWeek": 5,
+      "dayNumber": 6,
+      "meetingDateTimeUtc": "2023-04-15T02:00:00.000Z",
       "courseDay": 9,
       "dateTypes": {
         "module": "Module 1: Frontend",
@@ -758,12 +736,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -788,7 +761,11 @@
         }
       }
     },
-    {
+    "2023-04-18": {
+      "courseDate": "2023-04-18",
+      "courseWeek": 6,
+      "dayNumber": 2,
+      "meetingDateTimeUtc": "2023-04-18T11:30:00.000Z",
       "courseDay": 10,
       "dateTypes": {
         "module": "Module 1: Frontend",
@@ -849,12 +826,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -879,7 +851,23 @@
         }
       }
     },
-    {
+    "2023-04-22": {
+      "courseDayIndex": null,
+      "courseDate": "2023-04-22",
+      "courseWeek": 6,
+      "dayNumber": 6,
+      "dateTypes": {
+        "holidayType": "public holiday",
+        "date": "2023-04-22",
+        "location": "SG",
+        "name": "Hari Raya Puasa"
+      }
+    },
+    "2023-04-25": {
+      "courseDate": "2023-04-25",
+      "courseWeek": 7,
+      "dayNumber": 2,
+      "meetingDateTimeUtc": "2023-04-25T11:30:00.000Z",
       "courseDay": 11,
       "dateTypes": {
         "module": "Module 1: Frontend",
@@ -922,12 +910,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -966,7 +949,11 @@
         }
       }
     },
-    {
+    "2023-04-29": {
+      "courseDate": "2023-04-29",
+      "courseWeek": 7,
+      "dayNumber": 6,
+      "meetingDateTimeUtc": "2023-04-29T02:00:00.000Z",
       "courseDay": 12,
       "dateTypes": {
         "module": "Module 1: Frontend",
@@ -995,12 +982,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1039,7 +1021,11 @@
         }
       }
     },
-    {
+    "2023-05-02": {
+      "courseDate": "2023-05-02",
+      "courseWeek": 8,
+      "dayNumber": 2,
+      "meetingDateTimeUtc": "2023-05-02T11:30:00.000Z",
       "courseDay": 13,
       "dateTypes": {
         "module": "Module 1: Frontend",
@@ -1061,12 +1047,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1098,7 +1079,11 @@
         }
       }
     },
-    {
+    "2023-05-06": {
+      "courseDate": "2023-05-06",
+      "courseWeek": 8,
+      "dayNumber": 6,
+      "meetingDateTimeUtc": "2023-05-06T02:00:00.000Z",
       "courseDay": 14,
       "dateTypes": {
         "module": "Module 1: Frontend",
@@ -1122,12 +1107,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1166,7 +1146,11 @@
         }
       }
     },
-    {
+    "2023-05-09": {
+      "courseDate": "2023-05-09",
+      "courseWeek": 9,
+      "dayNumber": 2,
+      "meetingDateTimeUtc": "2023-05-09T11:30:00.000Z",
       "courseDay": 15,
       "dateTypes": {
         "module": "Module 1: Frontend",
@@ -1188,12 +1172,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1232,7 +1211,11 @@
         }
       }
     },
-    {
+    "2023-05-13": {
+      "courseDate": "2023-05-13",
+      "courseWeek": 9,
+      "dayNumber": 6,
+      "meetingDateTimeUtc": "2023-05-13T02:00:00.000Z",
       "courseDay": 16,
       "dateTypes": {
         "module": "Module 1: Frontend",
@@ -1254,12 +1237,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1298,7 +1276,11 @@
         }
       }
     },
-    {
+    "2023-05-16": {
+      "courseDate": "2023-05-16",
+      "courseWeek": 10,
+      "dayNumber": 2,
+      "meetingDateTimeUtc": "2023-05-16T11:30:00.000Z",
       "courseDay": 17,
       "dateTypes": {
         "module": "Module 2: Full-Stack",
@@ -1378,12 +1360,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1401,7 +1378,11 @@
         }
       }
     },
-    {
+    "2023-05-20": {
+      "courseDate": "2023-05-20",
+      "courseWeek": 10,
+      "dayNumber": 6,
+      "meetingDateTimeUtc": "2023-05-20T02:00:00.000Z",
       "courseDay": 18,
       "dateTypes": {
         "module": "Module 2: Full-Stack",
@@ -1466,12 +1447,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1489,7 +1465,11 @@
         }
       }
     },
-    {
+    "2023-05-23": {
+      "courseDate": "2023-05-23",
+      "courseWeek": 11,
+      "dayNumber": 2,
+      "meetingDateTimeUtc": "2023-05-23T11:30:00.000Z",
       "courseDay": 19,
       "dateTypes": {
         "module": "Module 2: Full-Stack",
@@ -1553,12 +1533,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1590,7 +1565,11 @@
         }
       }
     },
-    {
+    "2023-05-27": {
+      "courseDate": "2023-05-27",
+      "courseWeek": 11,
+      "dayNumber": 6,
+      "meetingDateTimeUtc": "2023-05-27T02:00:00.000Z",
       "courseDay": 20,
       "dateTypes": {
         "module": "Module 2: Full-Stack",
@@ -1647,12 +1626,7 @@
           },
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1677,7 +1651,11 @@
         }
       }
     },
-    {
+    "2023-05-30": {
+      "courseDate": "2023-05-30",
+      "courseWeek": 12,
+      "dayNumber": 2,
+      "meetingDateTimeUtc": "2023-05-30T11:30:00.000Z",
       "courseDay": 21,
       "dateTypes": {
         "module": "Module 2: Full-Stack",
@@ -1745,12 +1723,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1775,7 +1748,23 @@
         }
       }
     },
-    {
+    "2023-06-03": {
+      "courseDayIndex": null,
+      "courseDate": "2023-06-03",
+      "courseWeek": 12,
+      "dayNumber": 6,
+      "dateTypes": {
+        "holidayType": "public holiday",
+        "date": "2023-06-03",
+        "location": "SG",
+        "name": "Vesak Day"
+      }
+    },
+    "2023-06-06": {
+      "courseDate": "2023-06-06",
+      "courseWeek": 13,
+      "dayNumber": 2,
+      "meetingDateTimeUtc": "2023-06-06T11:30:00.000Z",
       "courseDay": 22,
       "dateTypes": {
         "module": "Module 2: Full-Stack",
@@ -1847,12 +1836,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1877,7 +1861,11 @@
         }
       }
     },
-    {
+    "2023-06-10": {
+      "courseDate": "2023-06-10",
+      "courseWeek": 13,
+      "dayNumber": 6,
+      "meetingDateTimeUtc": "2023-06-10T02:00:00.000Z",
       "courseDay": 23,
       "dateTypes": {
         "module": "Module 2: Full-Stack",
@@ -1924,12 +1912,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -1968,7 +1951,11 @@
         }
       }
     },
-    {
+    "2023-06-13": {
+      "courseDate": "2023-06-13",
+      "courseWeek": 14,
+      "dayNumber": 2,
+      "meetingDateTimeUtc": "2023-06-13T11:30:00.000Z",
       "courseDay": 24,
       "dateTypes": {
         "module": "Module 2: Full-Stack",
@@ -1997,12 +1984,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2041,7 +2023,11 @@
         }
       }
     },
-    {
+    "2023-06-17": {
+      "courseDate": "2023-06-17",
+      "courseWeek": 14,
+      "dayNumber": 6,
+      "meetingDateTimeUtc": "2023-06-17T02:00:00.000Z",
       "courseDay": 25,
       "dateTypes": {
         "module": "Module 2: Full-Stack",
@@ -2084,12 +2070,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2121,7 +2102,11 @@
         }
       }
     },
-    {
+    "2023-06-20": {
+      "courseDate": "2023-06-20",
+      "courseWeek": 15,
+      "dayNumber": 2,
+      "meetingDateTimeUtc": "2023-06-20T11:30:00.000Z",
       "courseDay": 26,
       "dateTypes": {
         "module": "Module 2: Full-Stack",
@@ -2157,12 +2142,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2201,7 +2181,11 @@
         }
       }
     },
-    {
+    "2023-06-24": {
+      "courseDate": "2023-06-24",
+      "courseWeek": 15,
+      "dayNumber": 6,
+      "meetingDateTimeUtc": "2023-06-24T02:00:00.000Z",
       "courseDay": 27,
       "dateTypes": {
         "module": "Module 2: Full-Stack",
@@ -2223,12 +2207,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2260,7 +2239,11 @@
         }
       }
     },
-    {
+    "2023-06-27": {
+      "courseDate": "2023-06-27",
+      "courseWeek": 16,
+      "dayNumber": 2,
+      "meetingDateTimeUtc": "2023-06-27T11:30:00.000Z",
       "courseDay": 28,
       "dateTypes": {
         "module": "Module 2: Full-Stack",
@@ -2282,12 +2265,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2319,7 +2297,11 @@
         }
       }
     },
-    {
+    "2023-07-01": {
+      "courseDate": "2023-07-01",
+      "courseWeek": 16,
+      "dayNumber": 6,
+      "meetingDateTimeUtc": "2023-07-01T02:00:00.000Z",
       "courseDay": 29,
       "dateTypes": {
         "module": "Module 2: Full-Stack",
@@ -2341,12 +2323,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2378,7 +2355,11 @@
         }
       }
     },
-    {
+    "2023-07-04": {
+      "courseDate": "2023-07-04",
+      "courseWeek": 17,
+      "dayNumber": 2,
+      "meetingDateTimeUtc": "2023-07-04T11:30:00.000Z",
       "courseDay": 30,
       "dateTypes": {
         "module": "Module 2: Full-Stack",
@@ -2400,12 +2381,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2444,7 +2420,11 @@
         }
       }
     },
-    {
+    "2023-07-08": {
+      "courseDate": "2023-07-08",
+      "courseWeek": 17,
+      "dayNumber": 6,
+      "meetingDateTimeUtc": "2023-07-08T02:00:00.000Z",
       "courseDay": 31,
       "dateTypes": {
         "module": "Module 2: Full-Stack",
@@ -2466,12 +2446,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2503,7 +2478,11 @@
         }
       }
     },
-    {
+    "2023-07-11": {
+      "courseDate": "2023-07-11",
+      "courseWeek": 18,
+      "dayNumber": 2,
+      "meetingDateTimeUtc": "2023-07-11T11:30:00.000Z",
       "courseDay": 32,
       "dateTypes": {
         "module": "Module 2: Full-Stack",
@@ -2525,12 +2504,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2569,7 +2543,11 @@
         }
       }
     },
-    {
+    "2023-07-15": {
+      "courseDate": "2023-07-15",
+      "courseWeek": 18,
+      "dayNumber": 6,
+      "meetingDateTimeUtc": "2023-07-15T02:00:00.000Z",
       "courseDay": 33,
       "dateTypes": {
         "module": "Module 3: Backend",
@@ -2578,16 +2556,81 @@
           "preClass": {
             "items": [
               {
-                "name": "3.1: Express.js",
+                "name": "3.1: Express.js (1) Http Revision - Fruit Express App",
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.1-express.js"
+              },
+              {
+                "name": "0.4.6.1: Async Await",
+                "url": "https://bootcamp.rocketacademy.co/0-foundations/0.4-javascript/0.4.6-promises/0.4.6.1-async-await"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "3.E.1: Bigfoot JSON",
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.e-exercises/3.e.1-bigfoot-json"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "3.E.1: Bigfoot JSON",
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.e-exercises/3.e.1-bigfoot-json"
+              }
+            ]
+          }
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        }
+      }
+    },
+    "2023-07-18": {
+      "courseDate": "2023-07-18",
+      "courseWeek": 19,
+      "dayNumber": 2,
+      "meetingDateTimeUtc": "2023-07-18T11:30:00.000Z",
+      "courseDay": 34,
+      "dateTypes": {
+        "module": "Module 3: Backend",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "3.1: Express.js (2) Routes - Express Structure",
                 "url": "https://bootcamp.rocketacademy.co/3-backend/3.1-express.js"
               },
               {
                 "name": "0.5.3: Nodemon",
                 "url": "https://bootcamp.rocketacademy.co/0-foundations/0.5-node.js/0.5.3-nodemon"
-              },
-              {
-                "name": "0.4.6.1: Async Await",
-                "url": "https://bootcamp.rocketacademy.co/0-foundations/0.4-javascript/0.4.6-promises/0.4.6.1-async-await"
               }
             ]
           },
@@ -2641,12 +2684,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2664,8 +2702,12 @@
         }
       }
     },
-    {
-      "courseDay": 34,
+    "2023-07-22": {
+      "courseDate": "2023-07-22",
+      "courseWeek": 19,
+      "dayNumber": 6,
+      "meetingDateTimeUtc": "2023-07-22T02:00:00.000Z",
+      "courseDay": 35,
       "dateTypes": {
         "module": "Module 3: Backend",
         "general": {
@@ -2673,12 +2715,19 @@
           "preClass": {
             "items": [
               {
-                "name": "3.2: SQL",
+                "name": "3.2: SQL (1) Introduction - SQL Relationships",
                 "url": "https://bootcamp.rocketacademy.co/3-backend/3.2-sql"
               }
             ]
           },
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "3.2: SQL (1) Introduction - SQL Relationships",
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.2-sql"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
@@ -2697,29 +2746,10 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "A.1.6: Trees - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-2"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "A.1.6: Trees - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-2"
-              }
-            ]
-          }
-        },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
           "inClass": {},
           "postClass": {}
         },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2737,8 +2767,12 @@
         }
       }
     },
-    {
-      "courseDay": 35,
+    "2023-07-25": {
+      "courseDate": "2023-07-25",
+      "courseWeek": 20,
+      "dayNumber": 2,
+      "meetingDateTimeUtc": "2023-07-25T11:30:00.000Z",
+      "courseDay": 36,
       "dateTypes": {
         "module": "Module 3: Backend",
         "general": {
@@ -2746,12 +2780,145 @@
           "preClass": {
             "items": [
               {
-                "name": "3.3: Sequelize",
-                "url": "https://bootcamp.rocketacademy.co/3-backend/3.3-sequelize"
-              },
+                "name": "3.2: SQL (2) Postgres & Express",
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.2-sql/3.2.5-sql-express"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
               {
-                "name": "3.1.1: MVC",
-                "url": "https://bootcamp.rocketacademy.co/3-backend/3.1-express.js/3.1.1-mvc"
+                "name": "3.2: SQL (2) Postgres & Express",
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.2-sql/3.2.5-sql-express"
+              }
+            ]
+          },
+          "postClass": {}
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        }
+      }
+    },
+    "2023-07-29": {
+      "courseDate": "2023-07-29",
+      "courseWeek": 20,
+      "dayNumber": 6,
+      "meetingDateTimeUtc": "2023-07-29T02:00:00.000Z",
+      "courseDay": 37,
+      "dateTypes": {
+        "module": "Module 3: Backend",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "3.3: Sequelize (1) Introduction, Migrations and Seeders",
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.3-sequelize"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "3.E.2: Bigfoot SQL Setup",
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.e-exercises/3.e.2-bigfoot-sql"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "3.E.2: Bigfoot SQL",
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.e-exercises/3.e.2-bigfoot-sql"
+              }
+            ]
+          }
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "A.1.6: Trees - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-2"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "A.1.6: Trees - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-2"
+              }
+            ]
+          }
+        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        }
+      }
+    },
+    "2023-08-01": {
+      "courseDate": "2023-08-01",
+      "courseWeek": 21,
+      "dayNumber": 2,
+      "meetingDateTimeUtc": "2023-08-01T11:30:00.000Z",
+      "courseDay": 38,
+      "dateTypes": {
+        "module": "Module 3: Backend",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "3.3: Sequelize (2) Models Instances Model Queries",
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.3-sequelize"
               }
             ]
           },
@@ -2781,29 +2948,10 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "A.1.6: Trees - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-3"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "A.1.6: Trees - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-3"
-              }
-            ]
-          }
-        },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
           "inClass": {},
           "postClass": {}
         },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2821,8 +2969,12 @@
         }
       }
     },
-    {
-      "courseDay": 36,
+    "2023-08-05": {
+      "courseDate": "2023-08-05",
+      "courseWeek": 21,
+      "dayNumber": 6,
+      "meetingDateTimeUtc": "2023-08-05T02:00:00.000Z",
+      "courseDay": 39,
       "dateTypes": {
         "module": "Module 3: Backend",
         "general": {
@@ -2864,16 +3016,32 @@
         },
         "algos": {
           "type": "algos",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "preClass": {
+            "items": [
+              {
+                "name": "A.1.6: Trees - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-3"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "A.1.6: Trees - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-3"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "A.1.6: Trees - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.6-trees#part-3"
+              }
+            ]
+          }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2905,8 +3073,12 @@
         }
       }
     },
-    {
-      "courseDay": 37,
+    "2023-08-08": {
+      "courseDate": "2023-08-08",
+      "courseWeek": 22,
+      "dayNumber": 2,
+      "meetingDateTimeUtc": "2023-08-08T11:30:00.000Z",
+      "courseDay": 40,
       "dateTypes": {
         "module": "Module 3: Backend",
         "general": {
@@ -2952,12 +3124,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -2982,8 +3149,12 @@
         }
       }
     },
-    {
-      "courseDay": 38,
+    "2023-08-12": {
+      "courseDate": "2023-08-12",
+      "courseWeek": 22,
+      "dayNumber": 6,
+      "meetingDateTimeUtc": "2023-08-12T02:00:00.000Z",
+      "courseDay": 41,
       "dateTypes": {
         "module": "Module 3: Backend",
         "general": {
@@ -2993,6 +3164,10 @@
               {
                 "name": "3.2.3: SQL Schema Design",
                 "url": "https://bootcamp.rocketacademy.co/3-backend/3.2-sql/3.2.3-sql-schema-design"
+              },
+              {
+                "name": "3.3.4: Database Design",
+                "url": "https://bc.rocketacademy.co/3-backend/3.3-sequelize/3.3.4-database-design"
               }
             ]
           },
@@ -3029,12 +3204,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3059,8 +3229,84 @@
         }
       }
     },
-    {
-      "courseDay": 39,
+    "2023-08-15": {
+      "courseDate": "2023-08-15",
+      "courseWeek": 23,
+      "dayNumber": 2,
+      "meetingDateTimeUtc": "2023-08-15T11:30:00.000Z",
+      "courseDay": 42,
+      "dateTypes": {
+        "module": "Module 3: Backend",
+        "general": {
+          "type": "general",
+          "preClass": {
+            "items": [
+              {
+                "name": "3.1.1: MVC",
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.1-express.js/3.1.1-mvc"
+              }
+            ]
+          },
+          "inClass": {
+            "items": [
+              {
+                "name": "3.1.1: MVC Implementation",
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.1-express.js/3.1.1-mvc"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "3.1.1: MVC",
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.1-express.js/3.1.1-mvc#exercise"
+              }
+            ]
+          }
+        },
+        "css": {
+          "type": "css",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "algos": {
+          "type": "algos",
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
+        "ip": {
+          "type": "ip",
+          "ipDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {}
+        },
+        "projects": {
+          "type": "projects",
+          "projectStart": {},
+          "projectDue": {},
+          "preClass": {},
+          "inClass": {},
+          "postClass": {
+            "items": [
+              {
+                "name": "Project 3 Ideation Phase 1",
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.p-full-stack-app-express"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "2023-08-19": {
+      "courseDate": "2023-08-19",
+      "courseWeek": 23,
+      "dayNumber": 6,
+      "meetingDateTimeUtc": "2023-08-19T02:00:00.000Z",
+      "courseDay": 43,
       "dateTypes": {
         "module": "Module 3: Backend",
         "general": {
@@ -3102,12 +3348,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3132,8 +3373,12 @@
         }
       }
     },
-    {
-      "courseDay": 40,
+    "2023-08-22": {
+      "courseDate": "2023-08-22",
+      "courseWeek": 24,
+      "dayNumber": 2,
+      "meetingDateTimeUtc": "2023-08-22T11:30:00.000Z",
+      "courseDay": 44,
       "dateTypes": {
         "module": "Module 3: Backend",
         "general": {
@@ -3186,12 +3431,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3230,8 +3470,12 @@
         }
       }
     },
-    {
-      "courseDay": 41,
+    "2023-08-26": {
+      "courseDate": "2023-08-26",
+      "courseWeek": 24,
+      "dayNumber": 6,
+      "meetingDateTimeUtc": "2023-08-26T02:00:00.000Z",
+      "courseDay": 45,
       "dateTypes": {
         "module": "Module 3: Backend",
         "general": {
@@ -3266,12 +3510,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3310,8 +3549,12 @@
         }
       }
     },
-    {
-      "courseDay": 42,
+    "2023-08-29": {
+      "courseDate": "2023-08-29",
+      "courseWeek": 25,
+      "dayNumber": 2,
+      "meetingDateTimeUtc": "2023-08-29T11:30:00.000Z",
+      "courseDay": 46,
       "dateTypes": {
         "module": "Module 3: Backend",
         "general": {
@@ -3346,12 +3589,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3383,8 +3621,12 @@
         }
       }
     },
-    {
-      "courseDay": 43,
+    "2023-09-02": {
+      "courseDate": "2023-09-02",
+      "courseWeek": 25,
+      "dayNumber": 6,
+      "meetingDateTimeUtc": "2023-09-02T02:00:00.000Z",
+      "courseDay": 47,
       "dateTypes": {
         "module": "Module 3: Backend",
         "general": {
@@ -3405,12 +3647,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3449,8 +3686,12 @@
         }
       }
     },
-    {
-      "courseDay": 44,
+    "2023-09-05": {
+      "courseDate": "2023-09-05",
+      "courseWeek": 26,
+      "dayNumber": 2,
+      "meetingDateTimeUtc": "2023-09-05T11:30:00.000Z",
+      "courseDay": 48,
       "dateTypes": {
         "module": "Module 3: Backend",
         "general": {
@@ -3471,12 +3712,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3508,8 +3744,12 @@
         }
       }
     },
-    {
-      "courseDay": 45,
+    "2023-09-09": {
+      "courseDate": "2023-09-09",
+      "courseWeek": 26,
+      "dayNumber": 6,
+      "meetingDateTimeUtc": "2023-09-09T02:00:00.000Z",
+      "courseDay": 49,
       "dateTypes": {
         "module": "Module 3: Backend",
         "general": {
@@ -3530,12 +3770,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3567,8 +3802,12 @@
         }
       }
     },
-    {
-      "courseDay": 46,
+    "2023-09-12": {
+      "courseDate": "2023-09-12",
+      "courseWeek": 27,
+      "dayNumber": 2,
+      "meetingDateTimeUtc": "2023-09-12T11:30:00.000Z",
+      "courseDay": 50,
       "dateTypes": {
         "module": "Module 3: Backend",
         "general": {
@@ -3589,12 +3828,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3633,8 +3867,12 @@
         }
       }
     },
-    {
-      "courseDay": 47,
+    "2023-09-16": {
+      "courseDate": "2023-09-16",
+      "courseWeek": 27,
+      "dayNumber": 6,
+      "meetingDateTimeUtc": "2023-09-16T02:00:00.000Z",
+      "courseDay": 51,
       "dateTypes": {
         "module": "Module 3: Backend",
         "general": {
@@ -3655,12 +3893,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3692,8 +3925,12 @@
         }
       }
     },
-    {
-      "courseDay": 48,
+    "2023-09-19": {
+      "courseDate": "2023-09-19",
+      "courseWeek": 28,
+      "dayNumber": 2,
+      "meetingDateTimeUtc": "2023-09-19T11:30:00.000Z",
+      "courseDay": 52,
       "dateTypes": {
         "module": "Module 3: Backend",
         "general": {
@@ -3714,12 +3951,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3758,8 +3990,12 @@
         }
       }
     },
-    {
-      "courseDay": 49,
+    "2023-09-23": {
+      "courseDate": "2023-09-23",
+      "courseWeek": 28,
+      "dayNumber": 6,
+      "meetingDateTimeUtc": "2023-09-23T02:00:00.000Z",
+      "courseDay": 53,
       "dateTypes": {
         "module": "Module 4: Capstone",
         "general": {
@@ -3808,12 +4044,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3852,8 +4083,12 @@
         }
       }
     },
-    {
-      "courseDay": 50,
+    "2023-09-26": {
+      "courseDate": "2023-09-26",
+      "courseWeek": 29,
+      "dayNumber": 2,
+      "meetingDateTimeUtc": "2023-09-26T11:30:00.000Z",
+      "courseDay": 54,
       "dateTypes": {
         "module": "Module 4: Capstone",
         "general": {
@@ -3895,12 +4130,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -3932,8 +4162,12 @@
         }
       }
     },
-    {
-      "courseDay": 51,
+    "2023-09-30": {
+      "courseDate": "2023-09-30",
+      "courseWeek": 29,
+      "dayNumber": 6,
+      "meetingDateTimeUtc": "2023-09-30T02:00:00.000Z",
+      "courseDay": 55,
       "dateTypes": {
         "module": "Module 4: Capstone",
         "general": {
@@ -3975,12 +4209,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4012,8 +4241,12 @@
         }
       }
     },
-    {
-      "courseDay": 52,
+    "2023-10-03": {
+      "courseDate": "2023-10-03",
+      "courseWeek": 30,
+      "dayNumber": 2,
+      "meetingDateTimeUtc": "2023-10-03T11:30:00.000Z",
+      "courseDay": 56,
       "dateTypes": {
         "module": "Module 4: Capstone",
         "general": {
@@ -4055,12 +4288,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4099,8 +4327,12 @@
         }
       }
     },
-    {
-      "courseDay": 53,
+    "2023-10-07": {
+      "courseDate": "2023-10-07",
+      "courseWeek": 30,
+      "dayNumber": 6,
+      "meetingDateTimeUtc": "2023-10-07T02:00:00.000Z",
+      "courseDay": 57,
       "dateTypes": {
         "module": "Module 4: Capstone",
         "general": {
@@ -4142,12 +4374,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4186,8 +4413,12 @@
         }
       }
     },
-    {
-      "courseDay": 54,
+    "2023-10-10": {
+      "courseDate": "2023-10-10",
+      "courseWeek": 31,
+      "dayNumber": 2,
+      "meetingDateTimeUtc": "2023-10-10T11:30:00.000Z",
+      "courseDay": 58,
       "dateTypes": {
         "module": "Module 4: Capstone",
         "general": {
@@ -4222,12 +4453,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4259,8 +4485,12 @@
         }
       }
     },
-    {
-      "courseDay": 55,
+    "2023-10-14": {
+      "courseDate": "2023-10-14",
+      "courseWeek": 31,
+      "dayNumber": 6,
+      "meetingDateTimeUtc": "2023-10-14T02:00:00.000Z",
+      "courseDay": 59,
       "dateTypes": {
         "module": "Module 4: Capstone",
         "general": {
@@ -4302,12 +4532,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4339,8 +4564,12 @@
         }
       }
     },
-    {
-      "courseDay": 56,
+    "2023-10-17": {
+      "courseDate": "2023-10-17",
+      "courseWeek": 32,
+      "dayNumber": 2,
+      "meetingDateTimeUtc": "2023-10-17T11:30:00.000Z",
+      "courseDay": 60,
       "dateTypes": {
         "module": "Module 4: Capstone",
         "general": {
@@ -4382,12 +4611,7 @@
             ]
           }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4426,271 +4650,11 @@
         }
       }
     },
-    {
-      "courseDay": 57,
-      "dateTypes": {
-        "module": "Module 4: Capstone",
-        "general": {
-          "type": "general",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "css": {
-          "type": "css",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "algos": {
-          "type": "algos",
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "A.1.8: Heaps - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.8-heaps#part-2"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "A.1.8: Heaps - Part 2",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.8-heaps#part-2"
-              }
-            ]
-          }
-        },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "ip": {
-          "type": "ip",
-          "ipDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "projects": {
-          "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 4 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 4 Implementation",
-                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.p-capstone"
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "courseDay": 58,
-      "dateTypes": {
-        "module": "Module 4: Capstone",
-        "general": {
-          "type": "general",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "css": {
-          "type": "css",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "algos": {
-          "type": "algos",
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "A.1.8: Heaps - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.8-heaps#part-3"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "A.1.8: Heaps - Part 3",
-                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.8-heaps#part-3"
-              }
-            ]
-          }
-        },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "ip": {
-          "type": "ip",
-          "ipDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "projects": {
-          "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 4 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 4 Implementation",
-                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.p-capstone"
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "courseDay": 59,
-      "dateTypes": {
-        "module": "Module 4: Capstone",
-        "general": {
-          "type": "general",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "css": {
-          "type": "css",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "algos": {
-          "type": "algos",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "ip": {
-          "type": "ip",
-          "ipDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "projects": {
-          "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 4 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 4 Implementation",
-                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.p-capstone"
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "courseDay": 60,
-      "dateTypes": {
-        "module": "Module 4: Capstone",
-        "general": {
-          "type": "general",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "css": {
-          "type": "css",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "algos": {
-          "type": "algos",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "ip": {
-          "type": "ip",
-          "ipDue": {},
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
-        "projects": {
-          "type": "projects",
-          "projectStart": {},
-          "projectDue": {},
-          "preClass": {},
-          "inClass": {
-            "items": [
-              {
-                "name": "Project 4 Scrum",
-                "url": "https://bootcamp.rocketacademy.co/logistics/course-methodology#scrum"
-              }
-            ]
-          },
-          "postClass": {
-            "items": [
-              {
-                "name": "Project 4 Implementation",
-                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.p-capstone"
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
+    "2023-10-21": {
+      "courseDate": "2023-10-21",
+      "courseWeek": 32,
+      "dayNumber": 6,
+      "meetingDateTimeUtc": "2023-10-21T02:00:00.000Z",
       "courseDay": 61,
       "dateTypes": {
         "module": "Module 4: Capstone",
@@ -4709,15 +4673,24 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "A.1.8: Heaps - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.8-heaps#part-2"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "A.1.8: Heaps - Part 2",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.8-heaps#part-2"
+              }
+            ]
+          }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4749,7 +4722,11 @@
         }
       }
     },
-    {
+    "2023-10-24": {
+      "courseDate": "2023-10-24",
+      "courseWeek": 33,
+      "dayNumber": 2,
+      "meetingDateTimeUtc": "2023-10-24T11:30:00.000Z",
       "courseDay": 62,
       "dateTypes": {
         "module": "Module 4: Capstone",
@@ -4768,15 +4745,24 @@
         "algos": {
           "type": "algos",
           "preClass": {},
-          "inClass": {},
-          "postClass": {}
+          "inClass": {
+            "items": [
+              {
+                "name": "A.1.8: Heaps - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.8-heaps#part-3"
+              }
+            ]
+          },
+          "postClass": {
+            "items": [
+              {
+                "name": "A.1.8: Heaps - Part 3",
+                "url": "https://bootcamp.rocketacademy.co/algorithms/a.1-data-structures/a.1.8-heaps#part-3"
+              }
+            ]
+          }
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4787,14 +4773,7 @@
         "projects": {
           "type": "projects",
           "projectStart": {},
-          "projectDue": {
-            "items": [
-              {
-                "name": "Project 4 Feature Freeze",
-                "url": "https://bootcamp.rocketacademy.co/4-capstone/4.p-capstone"
-              }
-            ]
-          },
+          "projectDue": {},
           "preClass": {},
           "inClass": {
             "items": [
@@ -4815,7 +4794,11 @@
         }
       }
     },
-    {
+    "2023-10-28": {
+      "courseDate": "2023-10-28",
+      "courseWeek": 33,
+      "dayNumber": 6,
+      "meetingDateTimeUtc": "2023-10-28T02:00:00.000Z",
       "courseDay": 63,
       "dateTypes": {
         "module": "Module 4: Capstone",
@@ -4837,12 +4820,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4874,7 +4852,11 @@
         }
       }
     },
-    {
+    "2023-10-31": {
+      "courseDate": "2023-10-31",
+      "courseWeek": 34,
+      "dayNumber": 2,
+      "meetingDateTimeUtc": "2023-10-31T11:30:00.000Z",
       "courseDay": 64,
       "dateTypes": {
         "module": "Module 4: Capstone",
@@ -4896,12 +4878,7 @@
           "inClass": {},
           "postClass": {}
         },
-        "ux": {
-          "type": "ux",
-          "preClass": {},
-          "inClass": {},
-          "postClass": {}
-        },
+        "ux": { "type": "ux", "preClass": {}, "inClass": {}, "postClass": {} },
         "ip": {
           "type": "ip",
           "ipDue": {},
@@ -4940,5 +4917,9 @@
         }
       }
     }
-  ]
+  },
+  "daysOfWeek": [2, 6],
+  "courseStartDaysOfWeekIndex": 1,
+  "totalCourseDays": 64,
+  "courseName": "2023-03-18_2023-10-31_PTBC7"
 }
