@@ -1,11 +1,11 @@
 {
   "courseType": "PTBC",
   "days": {
-    "2023-06-17": {
-      "courseDate": "2023-06-17",
+    "2023-03-18": {
+      "courseDate": "2023-03-18",
       "courseWeek": 1,
       "dayNumber": 6,
-      "meetingDateTimeUtc": "2023-06-17T02:00:00.000Z",
+      "meetingDateTimeUtc": "2023-03-18T02:00:00.000Z",
       "courseDay": 1,
       "dateTypes": {
         "module": "Module 1: Frontend",
@@ -58,11 +58,11 @@
         }
       }
     },
-    "2023-06-20": {
-      "courseDate": "2023-06-20",
+    "2023-03-21": {
+      "courseDate": "2023-03-21",
       "courseWeek": 2,
       "dayNumber": 2,
-      "meetingDateTimeUtc": "2023-06-20T11:30:00.000Z",
+      "meetingDateTimeUtc": "2023-03-21T11:30:00.000Z",
       "courseDay": 2,
       "dateTypes": {
         "module": "Module 1: Frontend",
@@ -139,11 +139,11 @@
         }
       }
     },
-    "2023-06-24": {
-      "courseDate": "2023-06-24",
+    "2023-03-25": {
+      "courseDate": "2023-03-25",
       "courseWeek": 2,
       "dayNumber": 6,
-      "meetingDateTimeUtc": "2023-06-24T02:00:00.000Z",
+      "meetingDateTimeUtc": "2023-03-25T02:00:00.000Z",
       "courseDay": 3,
       "dateTypes": {
         "module": "Module 1: Frontend",
@@ -231,11 +231,11 @@
         }
       }
     },
-    "2023-06-27": {
-      "courseDate": "2023-06-27",
+    "2023-03-28": {
+      "courseDate": "2023-03-28",
       "courseWeek": 3,
       "dayNumber": 2,
-      "meetingDateTimeUtc": "2023-06-27T11:30:00.000Z",
+      "meetingDateTimeUtc": "2023-03-28T11:30:00.000Z",
       "courseDay": 4,
       "dateTypes": {
         "module": "Module 1: Frontend",
@@ -317,11 +317,11 @@
         }
       }
     },
-    "2023-07-01": {
-      "courseDate": "2023-07-01",
+    "2023-04-01": {
+      "courseDate": "2023-04-01",
       "courseWeek": 3,
       "dayNumber": 6,
-      "meetingDateTimeUtc": "2023-07-01T02:00:00.000Z",
+      "meetingDateTimeUtc": "2023-04-01T02:00:00.000Z",
       "courseDay": 5,
       "dateTypes": {
         "module": "Module 1: Frontend",
@@ -390,11 +390,11 @@
         }
       }
     },
-    "2023-07-04": {
-      "courseDate": "2023-07-04",
+    "2023-04-04": {
+      "courseDate": "2023-04-04",
       "courseWeek": 4,
       "dayNumber": 2,
-      "meetingDateTimeUtc": "2023-07-04T11:30:00.000Z",
+      "meetingDateTimeUtc": "2023-04-04T11:30:00.000Z",
       "courseDay": 6,
       "dateTypes": {
         "module": "Module 1: Frontend",
@@ -480,11 +480,11 @@
         }
       }
     },
-    "2023-07-08": {
-      "courseDate": "2023-07-08",
+    "2023-04-08": {
+      "courseDate": "2023-04-08",
       "courseWeek": 4,
       "dayNumber": 6,
-      "meetingDateTimeUtc": "2023-07-08T02:00:00.000Z",
+      "meetingDateTimeUtc": "2023-04-08T02:00:00.000Z",
       "courseDay": 7,
       "dateTypes": {
         "module": "Module 1: Frontend",
@@ -584,11 +584,11 @@
         }
       }
     },
-    "2023-07-11": {
-      "courseDate": "2023-07-11",
+    "2023-04-11": {
+      "courseDate": "2023-04-11",
       "courseWeek": 5,
       "dayNumber": 2,
-      "meetingDateTimeUtc": "2023-07-11T11:30:00.000Z",
+      "meetingDateTimeUtc": "2023-04-11T11:30:00.000Z",
       "courseDay": 8,
       "dateTypes": {
         "module": "Module 1: Frontend",
@@ -660,11 +660,11 @@
         }
       }
     },
-    "2023-07-15": {
-      "courseDate": "2023-07-15",
+    "2023-04-15": {
+      "courseDate": "2023-04-15",
       "courseWeek": 5,
       "dayNumber": 6,
-      "meetingDateTimeUtc": "2023-07-15T02:00:00.000Z",
+      "meetingDateTimeUtc": "2023-04-15T02:00:00.000Z",
       "courseDay": 9,
       "dateTypes": {
         "module": "Module 1: Frontend",
@@ -761,11 +761,11 @@
         }
       }
     },
-    "2023-07-18": {
-      "courseDate": "2023-07-18",
+    "2023-04-18": {
+      "courseDate": "2023-04-18",
       "courseWeek": 6,
       "dayNumber": 2,
-      "meetingDateTimeUtc": "2023-07-18T11:30:00.000Z",
+      "meetingDateTimeUtc": "2023-04-18T11:30:00.000Z",
       "courseDay": 10,
       "dateTypes": {
         "module": "Module 1: Frontend",
@@ -851,11 +851,23 @@
         }
       }
     },
-    "2023-07-22": {
-      "courseDate": "2023-07-22",
+    "2023-04-22": {
+      "courseDayIndex": null,
+      "courseDate": "2023-04-22",
       "courseWeek": 6,
       "dayNumber": 6,
-      "meetingDateTimeUtc": "2023-07-22T02:00:00.000Z",
+      "dateTypes": {
+        "holidayType": "public holiday",
+        "date": "2023-04-22",
+        "location": "SG",
+        "name": "Hari Raya Puasa"
+      }
+    },
+    "2023-04-25": {
+      "courseDate": "2023-04-25",
+      "courseWeek": 7,
+      "dayNumber": 2,
+      "meetingDateTimeUtc": "2023-04-25T11:30:00.000Z",
       "courseDay": 11,
       "dateTypes": {
         "module": "Module 1: Frontend",
@@ -937,11 +949,11 @@
         }
       }
     },
-    "2023-07-25": {
-      "courseDate": "2023-07-25",
+    "2023-04-29": {
+      "courseDate": "2023-04-29",
       "courseWeek": 7,
-      "dayNumber": 2,
-      "meetingDateTimeUtc": "2023-07-25T11:30:00.000Z",
+      "dayNumber": 6,
+      "meetingDateTimeUtc": "2023-04-29T02:00:00.000Z",
       "courseDay": 12,
       "dateTypes": {
         "module": "Module 1: Frontend",
@@ -1009,11 +1021,11 @@
         }
       }
     },
-    "2023-07-29": {
-      "courseDate": "2023-07-29",
-      "courseWeek": 7,
-      "dayNumber": 6,
-      "meetingDateTimeUtc": "2023-07-29T02:00:00.000Z",
+    "2023-05-02": {
+      "courseDate": "2023-05-02",
+      "courseWeek": 8,
+      "dayNumber": 2,
+      "meetingDateTimeUtc": "2023-05-02T11:30:00.000Z",
       "courseDay": 13,
       "dateTypes": {
         "module": "Module 1: Frontend",
@@ -1067,11 +1079,11 @@
         }
       }
     },
-    "2023-08-01": {
-      "courseDate": "2023-08-01",
+    "2023-05-06": {
+      "courseDate": "2023-05-06",
       "courseWeek": 8,
-      "dayNumber": 2,
-      "meetingDateTimeUtc": "2023-08-01T11:30:00.000Z",
+      "dayNumber": 6,
+      "meetingDateTimeUtc": "2023-05-06T02:00:00.000Z",
       "courseDay": 14,
       "dateTypes": {
         "module": "Module 1: Frontend",
@@ -1134,11 +1146,11 @@
         }
       }
     },
-    "2023-08-05": {
-      "courseDate": "2023-08-05",
-      "courseWeek": 8,
-      "dayNumber": 6,
-      "meetingDateTimeUtc": "2023-08-05T02:00:00.000Z",
+    "2023-05-09": {
+      "courseDate": "2023-05-09",
+      "courseWeek": 9,
+      "dayNumber": 2,
+      "meetingDateTimeUtc": "2023-05-09T11:30:00.000Z",
       "courseDay": 15,
       "dateTypes": {
         "module": "Module 1: Frontend",
@@ -1199,11 +1211,11 @@
         }
       }
     },
-    "2023-08-08": {
-      "courseDate": "2023-08-08",
+    "2023-05-13": {
+      "courseDate": "2023-05-13",
       "courseWeek": 9,
-      "dayNumber": 2,
-      "meetingDateTimeUtc": "2023-08-08T11:30:00.000Z",
+      "dayNumber": 6,
+      "meetingDateTimeUtc": "2023-05-13T02:00:00.000Z",
       "courseDay": 16,
       "dateTypes": {
         "module": "Module 1: Frontend",
@@ -1264,11 +1276,11 @@
         }
       }
     },
-    "2023-08-12": {
-      "courseDate": "2023-08-12",
-      "courseWeek": 9,
-      "dayNumber": 6,
-      "meetingDateTimeUtc": "2023-08-12T02:00:00.000Z",
+    "2023-05-16": {
+      "courseDate": "2023-05-16",
+      "courseWeek": 10,
+      "dayNumber": 2,
+      "meetingDateTimeUtc": "2023-05-16T11:30:00.000Z",
       "courseDay": 17,
       "dateTypes": {
         "module": "Module 2: Full-Stack",
@@ -1366,11 +1378,11 @@
         }
       }
     },
-    "2023-08-15": {
-      "courseDate": "2023-08-15",
+    "2023-05-20": {
+      "courseDate": "2023-05-20",
       "courseWeek": 10,
-      "dayNumber": 2,
-      "meetingDateTimeUtc": "2023-08-15T11:30:00.000Z",
+      "dayNumber": 6,
+      "meetingDateTimeUtc": "2023-05-20T02:00:00.000Z",
       "courseDay": 18,
       "dateTypes": {
         "module": "Module 2: Full-Stack",
@@ -1453,11 +1465,11 @@
         }
       }
     },
-    "2023-08-19": {
-      "courseDate": "2023-08-19",
-      "courseWeek": 10,
-      "dayNumber": 6,
-      "meetingDateTimeUtc": "2023-08-19T02:00:00.000Z",
+    "2023-05-23": {
+      "courseDate": "2023-05-23",
+      "courseWeek": 11,
+      "dayNumber": 2,
+      "meetingDateTimeUtc": "2023-05-23T11:30:00.000Z",
       "courseDay": 19,
       "dateTypes": {
         "module": "Module 2: Full-Stack",
@@ -1553,11 +1565,11 @@
         }
       }
     },
-    "2023-08-22": {
-      "courseDate": "2023-08-22",
+    "2023-05-27": {
+      "courseDate": "2023-05-27",
       "courseWeek": 11,
-      "dayNumber": 2,
-      "meetingDateTimeUtc": "2023-08-22T11:30:00.000Z",
+      "dayNumber": 6,
+      "meetingDateTimeUtc": "2023-05-27T02:00:00.000Z",
       "courseDay": 20,
       "dateTypes": {
         "module": "Module 2: Full-Stack",
@@ -1639,11 +1651,11 @@
         }
       }
     },
-    "2023-08-26": {
-      "courseDate": "2023-08-26",
-      "courseWeek": 11,
-      "dayNumber": 6,
-      "meetingDateTimeUtc": "2023-08-26T02:00:00.000Z",
+    "2023-05-30": {
+      "courseDate": "2023-05-30",
+      "courseWeek": 12,
+      "dayNumber": 2,
+      "meetingDateTimeUtc": "2023-05-30T11:30:00.000Z",
       "courseDay": 21,
       "dateTypes": {
         "module": "Module 2: Full-Stack",
@@ -1736,11 +1748,23 @@
         }
       }
     },
-    "2023-08-29": {
-      "courseDate": "2023-08-29",
+    "2023-06-03": {
+      "courseDayIndex": null,
+      "courseDate": "2023-06-03",
       "courseWeek": 12,
+      "dayNumber": 6,
+      "dateTypes": {
+        "holidayType": "public holiday",
+        "date": "2023-06-03",
+        "location": "SG",
+        "name": "Vesak Day"
+      }
+    },
+    "2023-06-06": {
+      "courseDate": "2023-06-06",
+      "courseWeek": 13,
       "dayNumber": 2,
-      "meetingDateTimeUtc": "2023-08-29T11:30:00.000Z",
+      "meetingDateTimeUtc": "2023-06-06T11:30:00.000Z",
       "courseDay": 22,
       "dateTypes": {
         "module": "Module 2: Full-Stack",
@@ -1837,11 +1861,11 @@
         }
       }
     },
-    "2023-09-02": {
-      "courseDate": "2023-09-02",
-      "courseWeek": 12,
+    "2023-06-10": {
+      "courseDate": "2023-06-10",
+      "courseWeek": 13,
       "dayNumber": 6,
-      "meetingDateTimeUtc": "2023-09-02T02:00:00.000Z",
+      "meetingDateTimeUtc": "2023-06-10T02:00:00.000Z",
       "courseDay": 23,
       "dateTypes": {
         "module": "Module 2: Full-Stack",
@@ -1927,11 +1951,11 @@
         }
       }
     },
-    "2023-09-05": {
-      "courseDate": "2023-09-05",
-      "courseWeek": 13,
+    "2023-06-13": {
+      "courseDate": "2023-06-13",
+      "courseWeek": 14,
       "dayNumber": 2,
-      "meetingDateTimeUtc": "2023-09-05T11:30:00.000Z",
+      "meetingDateTimeUtc": "2023-06-13T11:30:00.000Z",
       "courseDay": 24,
       "dateTypes": {
         "module": "Module 2: Full-Stack",
@@ -1999,11 +2023,11 @@
         }
       }
     },
-    "2023-09-09": {
-      "courseDate": "2023-09-09",
-      "courseWeek": 13,
+    "2023-06-17": {
+      "courseDate": "2023-06-17",
+      "courseWeek": 14,
       "dayNumber": 6,
-      "meetingDateTimeUtc": "2023-09-09T02:00:00.000Z",
+      "meetingDateTimeUtc": "2023-06-17T02:00:00.000Z",
       "courseDay": 25,
       "dateTypes": {
         "module": "Module 2: Full-Stack",
@@ -2078,11 +2102,11 @@
         }
       }
     },
-    "2023-09-12": {
-      "courseDate": "2023-09-12",
-      "courseWeek": 14,
+    "2023-06-20": {
+      "courseDate": "2023-06-20",
+      "courseWeek": 15,
       "dayNumber": 2,
-      "meetingDateTimeUtc": "2023-09-12T11:30:00.000Z",
+      "meetingDateTimeUtc": "2023-06-20T11:30:00.000Z",
       "courseDay": 26,
       "dateTypes": {
         "module": "Module 2: Full-Stack",
@@ -2157,11 +2181,11 @@
         }
       }
     },
-    "2023-09-16": {
-      "courseDate": "2023-09-16",
-      "courseWeek": 14,
+    "2023-06-24": {
+      "courseDate": "2023-06-24",
+      "courseWeek": 15,
       "dayNumber": 6,
-      "meetingDateTimeUtc": "2023-09-16T02:00:00.000Z",
+      "meetingDateTimeUtc": "2023-06-24T02:00:00.000Z",
       "courseDay": 27,
       "dateTypes": {
         "module": "Module 2: Full-Stack",
@@ -2215,11 +2239,11 @@
         }
       }
     },
-    "2023-09-19": {
-      "courseDate": "2023-09-19",
-      "courseWeek": 15,
+    "2023-06-27": {
+      "courseDate": "2023-06-27",
+      "courseWeek": 16,
       "dayNumber": 2,
-      "meetingDateTimeUtc": "2023-09-19T11:30:00.000Z",
+      "meetingDateTimeUtc": "2023-06-27T11:30:00.000Z",
       "courseDay": 28,
       "dateTypes": {
         "module": "Module 2: Full-Stack",
@@ -2273,11 +2297,11 @@
         }
       }
     },
-    "2023-09-23": {
-      "courseDate": "2023-09-23",
-      "courseWeek": 15,
+    "2023-07-01": {
+      "courseDate": "2023-07-01",
+      "courseWeek": 16,
       "dayNumber": 6,
-      "meetingDateTimeUtc": "2023-09-23T02:00:00.000Z",
+      "meetingDateTimeUtc": "2023-07-01T02:00:00.000Z",
       "courseDay": 29,
       "dateTypes": {
         "module": "Module 2: Full-Stack",
@@ -2331,11 +2355,11 @@
         }
       }
     },
-    "2023-09-26": {
-      "courseDate": "2023-09-26",
-      "courseWeek": 16,
+    "2023-07-04": {
+      "courseDate": "2023-07-04",
+      "courseWeek": 17,
       "dayNumber": 2,
-      "meetingDateTimeUtc": "2023-09-26T11:30:00.000Z",
+      "meetingDateTimeUtc": "2023-07-04T11:30:00.000Z",
       "courseDay": 30,
       "dateTypes": {
         "module": "Module 2: Full-Stack",
@@ -2396,11 +2420,11 @@
         }
       }
     },
-    "2023-09-30": {
-      "courseDate": "2023-09-30",
-      "courseWeek": 16,
+    "2023-07-08": {
+      "courseDate": "2023-07-08",
+      "courseWeek": 17,
       "dayNumber": 6,
-      "meetingDateTimeUtc": "2023-09-30T02:00:00.000Z",
+      "meetingDateTimeUtc": "2023-07-08T02:00:00.000Z",
       "courseDay": 31,
       "dateTypes": {
         "module": "Module 2: Full-Stack",
@@ -2454,11 +2478,11 @@
         }
       }
     },
-    "2023-10-03": {
-      "courseDate": "2023-10-03",
-      "courseWeek": 17,
+    "2023-07-11": {
+      "courseDate": "2023-07-11",
+      "courseWeek": 18,
       "dayNumber": 2,
-      "meetingDateTimeUtc": "2023-10-03T11:30:00.000Z",
+      "meetingDateTimeUtc": "2023-07-11T11:30:00.000Z",
       "courseDay": 32,
       "dateTypes": {
         "module": "Module 2: Full-Stack",
@@ -2519,11 +2543,11 @@
         }
       }
     },
-    "2023-10-07": {
-      "courseDate": "2023-10-07",
-      "courseWeek": 17,
+    "2023-07-15": {
+      "courseDate": "2023-07-15",
+      "courseWeek": 18,
       "dayNumber": 6,
-      "meetingDateTimeUtc": "2023-10-07T02:00:00.000Z",
+      "meetingDateTimeUtc": "2023-07-15T02:00:00.000Z",
       "courseDay": 33,
       "dateTypes": {
         "module": "Module 3: Backend",
@@ -2588,11 +2612,11 @@
         }
       }
     },
-    "2023-10-10": {
-      "courseDate": "2023-10-10",
-      "courseWeek": 18,
+    "2023-07-18": {
+      "courseDate": "2023-07-18",
+      "courseWeek": 19,
       "dayNumber": 2,
-      "meetingDateTimeUtc": "2023-10-10T11:30:00.000Z",
+      "meetingDateTimeUtc": "2023-07-18T11:30:00.000Z",
       "courseDay": 34,
       "dateTypes": {
         "module": "Module 3: Backend",
@@ -2678,11 +2702,11 @@
         }
       }
     },
-    "2023-10-14": {
-      "courseDate": "2023-10-14",
-      "courseWeek": 18,
+    "2023-07-22": {
+      "courseDate": "2023-07-22",
+      "courseWeek": 19,
       "dayNumber": 6,
-      "meetingDateTimeUtc": "2023-10-14T02:00:00.000Z",
+      "meetingDateTimeUtc": "2023-07-22T02:00:00.000Z",
       "courseDay": 35,
       "dateTypes": {
         "module": "Module 3: Backend",
@@ -2743,11 +2767,11 @@
         }
       }
     },
-    "2023-10-17": {
-      "courseDate": "2023-10-17",
-      "courseWeek": 19,
+    "2023-07-25": {
+      "courseDate": "2023-07-25",
+      "courseWeek": 20,
       "dayNumber": 2,
-      "meetingDateTimeUtc": "2023-10-17T11:30:00.000Z",
+      "meetingDateTimeUtc": "2023-07-25T11:30:00.000Z",
       "courseDay": 36,
       "dateTypes": {
         "module": "Module 3: Backend",
@@ -2801,11 +2825,11 @@
         }
       }
     },
-    "2023-10-21": {
-      "courseDate": "2023-10-21",
-      "courseWeek": 19,
+    "2023-07-29": {
+      "courseDate": "2023-07-29",
+      "courseWeek": 20,
       "dayNumber": 6,
-      "meetingDateTimeUtc": "2023-10-21T02:00:00.000Z",
+      "meetingDateTimeUtc": "2023-07-29T02:00:00.000Z",
       "courseDay": 37,
       "dateTypes": {
         "module": "Module 3: Backend",
@@ -2880,11 +2904,11 @@
         }
       }
     },
-    "2023-10-24": {
-      "courseDate": "2023-10-24",
-      "courseWeek": 20,
+    "2023-08-01": {
+      "courseDate": "2023-08-01",
+      "courseWeek": 21,
       "dayNumber": 2,
-      "meetingDateTimeUtc": "2023-10-24T11:30:00.000Z",
+      "meetingDateTimeUtc": "2023-08-01T11:30:00.000Z",
       "courseDay": 38,
       "dateTypes": {
         "module": "Module 3: Backend",
@@ -2945,11 +2969,11 @@
         }
       }
     },
-    "2023-10-28": {
-      "courseDate": "2023-10-28",
-      "courseWeek": 20,
+    "2023-08-05": {
+      "courseDate": "2023-08-05",
+      "courseWeek": 21,
       "dayNumber": 6,
-      "meetingDateTimeUtc": "2023-10-28T02:00:00.000Z",
+      "meetingDateTimeUtc": "2023-08-05T02:00:00.000Z",
       "courseDay": 39,
       "dateTypes": {
         "module": "Module 3: Backend",
@@ -3049,11 +3073,11 @@
         }
       }
     },
-    "2023-10-31": {
-      "courseDate": "2023-10-31",
-      "courseWeek": 21,
+    "2023-08-08": {
+      "courseDate": "2023-08-08",
+      "courseWeek": 22,
       "dayNumber": 2,
-      "meetingDateTimeUtc": "2023-10-31T11:30:00.000Z",
+      "meetingDateTimeUtc": "2023-08-08T11:30:00.000Z",
       "courseDay": 40,
       "dateTypes": {
         "module": "Module 3: Backend",
@@ -3125,11 +3149,11 @@
         }
       }
     },
-    "2023-11-04": {
-      "courseDate": "2023-11-04",
-      "courseWeek": 21,
+    "2023-08-12": {
+      "courseDate": "2023-08-12",
+      "courseWeek": 22,
       "dayNumber": 6,
-      "meetingDateTimeUtc": "2023-11-04T02:00:00.000Z",
+      "meetingDateTimeUtc": "2023-08-12T02:00:00.000Z",
       "courseDay": 41,
       "dateTypes": {
         "module": "Module 3: Backend",
@@ -3143,7 +3167,7 @@
               },
               {
                 "name": "3.3.4: Database Design",
-                "url": "https://bc.rocketacademy.co/3-backend/3.3-sequelize/3.3.4-database-design"
+                "url": "https://bootcamp.rocketacademy.co/3-backend/3.3-sequelize/3.3.4-database-design"
               }
             ]
           },
@@ -3205,11 +3229,11 @@
         }
       }
     },
-    "2023-11-07": {
-      "courseDate": "2023-11-07",
-      "courseWeek": 22,
+    "2023-08-15": {
+      "courseDate": "2023-08-15",
+      "courseWeek": 23,
       "dayNumber": 2,
-      "meetingDateTimeUtc": "2023-11-07T11:30:00.000Z",
+      "meetingDateTimeUtc": "2023-08-15T11:30:00.000Z",
       "courseDay": 42,
       "dateTypes": {
         "module": "Module 3: Backend",
@@ -3277,11 +3301,11 @@
         }
       }
     },
-    "2023-11-11": {
-      "courseDate": "2023-11-11",
-      "courseWeek": 22,
+    "2023-08-19": {
+      "courseDate": "2023-08-19",
+      "courseWeek": 23,
       "dayNumber": 6,
-      "meetingDateTimeUtc": "2023-11-11T02:00:00.000Z",
+      "meetingDateTimeUtc": "2023-08-19T02:00:00.000Z",
       "courseDay": 43,
       "dateTypes": {
         "module": "Module 3: Backend",
@@ -3349,11 +3373,11 @@
         }
       }
     },
-    "2023-11-14": {
-      "courseDate": "2023-11-14",
-      "courseWeek": 23,
+    "2023-08-22": {
+      "courseDate": "2023-08-22",
+      "courseWeek": 24,
       "dayNumber": 2,
-      "meetingDateTimeUtc": "2023-11-14T11:30:00.000Z",
+      "meetingDateTimeUtc": "2023-08-22T11:30:00.000Z",
       "courseDay": 44,
       "dateTypes": {
         "module": "Module 3: Backend",
@@ -3446,11 +3470,11 @@
         }
       }
     },
-    "2023-11-18": {
-      "courseDate": "2023-11-18",
-      "courseWeek": 23,
+    "2023-08-26": {
+      "courseDate": "2023-08-26",
+      "courseWeek": 24,
       "dayNumber": 6,
-      "meetingDateTimeUtc": "2023-11-18T02:00:00.000Z",
+      "meetingDateTimeUtc": "2023-08-26T02:00:00.000Z",
       "courseDay": 45,
       "dateTypes": {
         "module": "Module 3: Backend",
@@ -3525,11 +3549,11 @@
         }
       }
     },
-    "2023-11-21": {
-      "courseDate": "2023-11-21",
-      "courseWeek": 24,
+    "2023-08-29": {
+      "courseDate": "2023-08-29",
+      "courseWeek": 25,
       "dayNumber": 2,
-      "meetingDateTimeUtc": "2023-11-21T11:30:00.000Z",
+      "meetingDateTimeUtc": "2023-08-29T11:30:00.000Z",
       "courseDay": 46,
       "dateTypes": {
         "module": "Module 3: Backend",
@@ -3597,11 +3621,11 @@
         }
       }
     },
-    "2023-11-25": {
-      "courseDate": "2023-11-25",
-      "courseWeek": 24,
+    "2023-09-02": {
+      "courseDate": "2023-09-02",
+      "courseWeek": 25,
       "dayNumber": 6,
-      "meetingDateTimeUtc": "2023-11-25T02:00:00.000Z",
+      "meetingDateTimeUtc": "2023-09-02T02:00:00.000Z",
       "courseDay": 47,
       "dateTypes": {
         "module": "Module 3: Backend",
@@ -3662,11 +3686,11 @@
         }
       }
     },
-    "2023-11-28": {
-      "courseDate": "2023-11-28",
-      "courseWeek": 25,
+    "2023-09-05": {
+      "courseDate": "2023-09-05",
+      "courseWeek": 26,
       "dayNumber": 2,
-      "meetingDateTimeUtc": "2023-11-28T11:30:00.000Z",
+      "meetingDateTimeUtc": "2023-09-05T11:30:00.000Z",
       "courseDay": 48,
       "dateTypes": {
         "module": "Module 3: Backend",
@@ -3720,11 +3744,11 @@
         }
       }
     },
-    "2023-12-02": {
-      "courseDate": "2023-12-02",
-      "courseWeek": 25,
+    "2023-09-09": {
+      "courseDate": "2023-09-09",
+      "courseWeek": 26,
       "dayNumber": 6,
-      "meetingDateTimeUtc": "2023-12-02T02:00:00.000Z",
+      "meetingDateTimeUtc": "2023-09-09T02:00:00.000Z",
       "courseDay": 49,
       "dateTypes": {
         "module": "Module 3: Backend",
@@ -3778,11 +3802,11 @@
         }
       }
     },
-    "2023-12-05": {
-      "courseDate": "2023-12-05",
-      "courseWeek": 26,
+    "2023-09-12": {
+      "courseDate": "2023-09-12",
+      "courseWeek": 27,
       "dayNumber": 2,
-      "meetingDateTimeUtc": "2023-12-05T11:30:00.000Z",
+      "meetingDateTimeUtc": "2023-09-12T11:30:00.000Z",
       "courseDay": 50,
       "dateTypes": {
         "module": "Module 3: Backend",
@@ -3843,11 +3867,11 @@
         }
       }
     },
-    "2023-12-09": {
-      "courseDate": "2023-12-09",
-      "courseWeek": 26,
+    "2023-09-16": {
+      "courseDate": "2023-09-16",
+      "courseWeek": 27,
       "dayNumber": 6,
-      "meetingDateTimeUtc": "2023-12-09T02:00:00.000Z",
+      "meetingDateTimeUtc": "2023-09-16T02:00:00.000Z",
       "courseDay": 51,
       "dateTypes": {
         "module": "Module 3: Backend",
@@ -3901,11 +3925,11 @@
         }
       }
     },
-    "2023-12-12": {
-      "courseDate": "2023-12-12",
-      "courseWeek": 27,
+    "2023-09-19": {
+      "courseDate": "2023-09-19",
+      "courseWeek": 28,
       "dayNumber": 2,
-      "meetingDateTimeUtc": "2023-12-12T11:30:00.000Z",
+      "meetingDateTimeUtc": "2023-09-19T11:30:00.000Z",
       "courseDay": 52,
       "dateTypes": {
         "module": "Module 3: Backend",
@@ -3966,11 +3990,11 @@
         }
       }
     },
-    "2023-12-16": {
-      "courseDate": "2023-12-16",
-      "courseWeek": 27,
+    "2023-09-23": {
+      "courseDate": "2023-09-23",
+      "courseWeek": 28,
       "dayNumber": 6,
-      "meetingDateTimeUtc": "2023-12-16T02:00:00.000Z",
+      "meetingDateTimeUtc": "2023-09-23T02:00:00.000Z",
       "courseDay": 53,
       "dateTypes": {
         "module": "Module 4: Capstone",
@@ -4059,11 +4083,11 @@
         }
       }
     },
-    "2023-12-19": {
-      "courseDate": "2023-12-19",
-      "courseWeek": 28,
+    "2023-09-26": {
+      "courseDate": "2023-09-26",
+      "courseWeek": 29,
       "dayNumber": 2,
-      "meetingDateTimeUtc": "2023-12-19T11:30:00.000Z",
+      "meetingDateTimeUtc": "2023-09-26T11:30:00.000Z",
       "courseDay": 54,
       "dateTypes": {
         "module": "Module 4: Capstone",
@@ -4138,11 +4162,11 @@
         }
       }
     },
-    "2023-12-23": {
-      "courseDate": "2023-12-23",
-      "courseWeek": 28,
+    "2023-09-30": {
+      "courseDate": "2023-09-30",
+      "courseWeek": 29,
       "dayNumber": 6,
-      "meetingDateTimeUtc": "2023-12-23T02:00:00.000Z",
+      "meetingDateTimeUtc": "2023-09-30T02:00:00.000Z",
       "courseDay": 55,
       "dateTypes": {
         "module": "Module 4: Capstone",
@@ -4217,11 +4241,11 @@
         }
       }
     },
-    "2023-12-26": {
-      "courseDate": "2023-12-26",
-      "courseWeek": 29,
+    "2023-10-03": {
+      "courseDate": "2023-10-03",
+      "courseWeek": 30,
       "dayNumber": 2,
-      "meetingDateTimeUtc": "2023-12-26T11:30:00.000Z",
+      "meetingDateTimeUtc": "2023-10-03T11:30:00.000Z",
       "courseDay": 56,
       "dateTypes": {
         "module": "Module 4: Capstone",
@@ -4303,11 +4327,11 @@
         }
       }
     },
-    "2023-12-30": {
-      "courseDate": "2023-12-30",
-      "courseWeek": 29,
+    "2023-10-07": {
+      "courseDate": "2023-10-07",
+      "courseWeek": 30,
       "dayNumber": 6,
-      "meetingDateTimeUtc": "2023-12-30T02:00:00.000Z",
+      "meetingDateTimeUtc": "2023-10-07T02:00:00.000Z",
       "courseDay": 57,
       "dateTypes": {
         "module": "Module 4: Capstone",
@@ -4389,11 +4413,11 @@
         }
       }
     },
-    "2024-01-02": {
-      "courseDate": "2024-01-02",
-      "courseWeek": 30,
+    "2023-10-10": {
+      "courseDate": "2023-10-10",
+      "courseWeek": 31,
       "dayNumber": 2,
-      "meetingDateTimeUtc": "2024-01-02T11:30:00.000Z",
+      "meetingDateTimeUtc": "2023-10-10T11:30:00.000Z",
       "courseDay": 58,
       "dateTypes": {
         "module": "Module 4: Capstone",
@@ -4461,11 +4485,11 @@
         }
       }
     },
-    "2024-01-06": {
-      "courseDate": "2024-01-06",
-      "courseWeek": 30,
+    "2023-10-14": {
+      "courseDate": "2023-10-14",
+      "courseWeek": 31,
       "dayNumber": 6,
-      "meetingDateTimeUtc": "2024-01-06T02:00:00.000Z",
+      "meetingDateTimeUtc": "2023-10-14T02:00:00.000Z",
       "courseDay": 59,
       "dateTypes": {
         "module": "Module 4: Capstone",
@@ -4540,11 +4564,11 @@
         }
       }
     },
-    "2024-01-09": {
-      "courseDate": "2024-01-09",
-      "courseWeek": 31,
+    "2023-10-17": {
+      "courseDate": "2023-10-17",
+      "courseWeek": 32,
       "dayNumber": 2,
-      "meetingDateTimeUtc": "2024-01-09T11:30:00.000Z",
+      "meetingDateTimeUtc": "2023-10-17T11:30:00.000Z",
       "courseDay": 60,
       "dateTypes": {
         "module": "Module 4: Capstone",
@@ -4626,11 +4650,11 @@
         }
       }
     },
-    "2024-01-13": {
-      "courseDate": "2024-01-13",
-      "courseWeek": 31,
+    "2023-10-21": {
+      "courseDate": "2023-10-21",
+      "courseWeek": 32,
       "dayNumber": 6,
-      "meetingDateTimeUtc": "2024-01-13T02:00:00.000Z",
+      "meetingDateTimeUtc": "2023-10-21T02:00:00.000Z",
       "courseDay": 61,
       "dateTypes": {
         "module": "Module 4: Capstone",
@@ -4698,11 +4722,11 @@
         }
       }
     },
-    "2024-01-16": {
-      "courseDate": "2024-01-16",
-      "courseWeek": 32,
+    "2023-10-24": {
+      "courseDate": "2023-10-24",
+      "courseWeek": 33,
       "dayNumber": 2,
-      "meetingDateTimeUtc": "2024-01-16T11:30:00.000Z",
+      "meetingDateTimeUtc": "2023-10-24T11:30:00.000Z",
       "courseDay": 62,
       "dateTypes": {
         "module": "Module 4: Capstone",
@@ -4770,11 +4794,11 @@
         }
       }
     },
-    "2024-01-20": {
-      "courseDate": "2024-01-20",
-      "courseWeek": 32,
+    "2023-10-28": {
+      "courseDate": "2023-10-28",
+      "courseWeek": 33,
       "dayNumber": 6,
-      "meetingDateTimeUtc": "2024-01-20T02:00:00.000Z",
+      "meetingDateTimeUtc": "2023-10-28T02:00:00.000Z",
       "courseDay": 63,
       "dateTypes": {
         "module": "Module 4: Capstone",
@@ -4828,11 +4852,11 @@
         }
       }
     },
-    "2024-01-23": {
-      "courseDate": "2024-01-23",
-      "courseWeek": 33,
+    "2023-10-31": {
+      "courseDate": "2023-10-31",
+      "courseWeek": 34,
       "dayNumber": 2,
-      "meetingDateTimeUtc": "2024-01-23T11:30:00.000Z",
+      "meetingDateTimeUtc": "2023-10-31T11:30:00.000Z",
       "courseDay": 64,
       "dateTypes": {
         "module": "Module 4: Capstone",
@@ -4897,5 +4921,5 @@
   "daysOfWeek": [2, 6],
   "courseStartDaysOfWeekIndex": 1,
   "totalCourseDays": 64,
-  "courseName": "2023-06-17_2024-01-23_PTBC8"
+  "courseName": "2023-03-18_2023-10-31_PTBC7"
 }
