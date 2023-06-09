@@ -8,7 +8,6 @@ function NormalCourseDay({
   timeZoneSet,
   timeZoneSet1,
 }) {
-  // console.log("day and time", day, timeOffset);
   localDate = DateTime.fromISO(day.meetingDateTimeUtc, { zone: timeZoneSet });
   formattedDate = localDate.toFormat("EEE d MMM");
   meetingTime = localDate.toFormat("t");
@@ -48,15 +47,10 @@ function HolidayCourseDay({ day, timeZoneSet, timeZoneSet1 }) {
   // a different output will be rendered
   if (day.dateTypes.holidayType === "public holiday") {
     holiday = `${day.dateTypes.location} Public Holiday (${day.dateTypes.name})`;
-    console.log("public");
   } else {
-    console.log("school");
     holiday = "School Holiday";
   }
-  console.log("timeZone", timeZone);
-  console.log("timeZoneSet", timeZoneSet);
 
-  console.log(timeZone === timeZoneSet);
   return (
     <div>
       {timeZone === (timeZoneSet || timeZoneSet1) && (
@@ -80,11 +74,9 @@ let holiday;
 
 // function that generates the header for each course day
 function GenerateCourseDayHeader({ todaySectionHeader, day }) {
-  // console.log("one more time", todaySectionHeader, day);
   // this is the timezone of the area we are in
   const timeZoneSet = "Asia/Singapore";
   const timeZoneSet1 = "Asia/Hong_Kong";
-  console.log(day);
 
   if (day.meetingDateTimeUtc) {
     return (
