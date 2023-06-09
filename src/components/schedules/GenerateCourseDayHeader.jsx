@@ -2,7 +2,12 @@ import React from "react";
 import { DateTime } from "luxon";
 
 // Generate course day header for normal course day
-function NormalCourseDay({ todaySectionHeader, day, timeZoneSet }) {
+function NormalCourseDay({
+  todaySectionHeader,
+  day,
+  timeZoneSet,
+  timeZoneSet1,
+}) {
   // console.log("day and time", day, timeOffset);
   localDate = DateTime.fromISO(day.meetingDateTimeUtc, { zone: timeZoneSet });
   formattedDate = localDate.toFormat("EEE d MMM");
@@ -35,7 +40,7 @@ function NormalCourseDay({ todaySectionHeader, day, timeZoneSet }) {
 }
 
 // helper function that generates courseday header for a holiday
-function HolidayCourseDay({ day, timeZoneSet }) {
+function HolidayCourseDay({ day, timeZoneSet, timeZoneSet1 }) {
   localDate = DateTime.fromFormat(day.courseDate, "yyyy-MM-dd");
   formattedDate = localDate.toFormat("EEE d MMM");
   timeZone = localDate.toFormat("z");
@@ -43,18 +48,23 @@ function HolidayCourseDay({ day, timeZoneSet }) {
   // a different output will be rendered
   if (day.dateTypes.holidayType === "public holiday") {
     holiday = `${day.dateTypes.location} Public Holiday (${day.dateTypes.name})`;
+    console.log("public");
   } else {
+    console.log("school");
     holiday = "School Holiday";
   }
+  console.log("timeZone", timeZone);
+  console.log("timeZoneSet", timeZoneSet);
 
+  console.log(timeZone === timeZoneSet);
   return (
-    <>
-      {timeZone === timeZoneSet && (
+    <div>
+      {timeZone === (timeZoneSet || timeZoneSet1) && (
         <div className="main-header">
           <h2>{`${formattedDate}: ${holiday}`}</h2>
         </div>
       )}
-    </>
+    </div>
   );
 }
 
@@ -73,13 +83,15 @@ function GenerateCourseDayHeader({ todaySectionHeader, day }) {
   // console.log("one more time", todaySectionHeader, day);
   // this is the timezone of the area we are in
   const timeZoneSet = "Asia/Singapore";
+  const timeZoneSet1 = "Asia/Hong_Kong";
+  console.log(day);
 
   if (day.meetingDateTimeUtc) {
     return (
       <NormalCourseDay
         todaySectionHeader={todaySectionHeader}
         day={day}
-        timeZoneSet={timeZoneSet}
+        timeZoneSet={(timeZoneSet, timeZoneSet1)}
       />
     );
   }
@@ -87,7 +99,7 @@ function GenerateCourseDayHeader({ todaySectionHeader, day }) {
     <HolidayCourseDay
       todaySectionHeader={todaySectionHeader}
       day={day}
-      timeZoneSet={timeZoneSet}
+      timeZoneSet={(timeZoneSet, timeZoneSet1)}
     />
   );
 }
