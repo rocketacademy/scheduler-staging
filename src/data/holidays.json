@@ -241,7 +241,6 @@
       "name": "Day after Christmas Day"
     }
   },
-
   "schoolHolidays": {
     "2023-01-01": {
       "holidayType": "school holiday",
@@ -259,73 +258,73 @@
       "holidayType": "school holiday",
       "date": "2023-12-18",
       "location": "SG",
-      "name": "Winter break"
+      "name": "winter break"
     },
     "2023-12-19": {
       "holidayType": "school holiday",
       "date": "2023-12-19",
       "location": "SG",
-      "name": "Winter break"
+      "name": "winter break"
     },
     "2023-12-20": {
       "holidayType": "school holiday",
       "date": "2023-12-20",
       "location": "SG",
-      "name": "Winter break"
+      "name": "winter break"
     },
     "2023-12-21": {
       "holidayType": "school holiday",
       "date": "2023-12-21",
       "location": "SG",
-      "name": "Winter break"
+      "name": "winter break"
     },
     "2023-12-22": {
       "holidayType": "school holiday",
       "date": "2023-12-22",
       "location": "SG",
-      "name": "Winter break"
+      "name": "winter break"
     },
     "2023-12-23": {
       "holidayType": "school holiday",
       "date": "2023-12-23",
       "location": "SG",
-      "name": "Winter break"
+      "name": "winter break"
     },
     "2023-12-24": {
       "holidayType": "school holiday",
       "date": "2023-12-24",
       "location": "SG",
-      "name": "Winter break"
+      "name": "winter break"
     },
     "2023-12-27": {
       "holidayType": "school holiday",
       "date": "2023-12-27",
       "location": "SG",
-      "name": "Winter break"
+      "name": "winter break"
     },
     "2023-12-28": {
       "holidayType": "school holiday",
       "date": "2023-12-28",
       "location": "SG",
-      "name": "Winter break"
+      "name": "winter break"
     },
     "2023-12-29": {
       "holidayType": "school holiday",
       "date": "2023-12-29",
       "location": "SG",
-      "name": "Winter break"
+      "name": "winter break"
     },
     "2023-12-30": {
       "holidayType": "school holiday",
       "date": "2023-12-30",
       "location": "SG",
-      "name": "Winter break"
+      "name": "winter break"
     },
     "2023-12-31": {
       "holidayType": "school holiday",
       "date": "2023-12-31",
       "location": "SG",
-      "name": "Winter break"
+      "name": "winter break"
     }
   }
 }
