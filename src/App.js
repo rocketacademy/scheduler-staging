@@ -9,6 +9,10 @@ import ptbc8 from "./data/PTBC8_2023-06-24_2024-02-27.json"; // PTBC3.1, courseS
 
 import ptbc9 from "./data/PTBC9_2023-09-23_2024-05-28.json"; // FTBC3.1 - Hk public holidays
 
+// place holders
+import ftbc15 from "./data/FTBC15_2024-02-26_2024-06-18.json";
+import ptbc10 from "./data/PTBC10_2024-01-16_2024-09-07.json";
+
 import ScheduleContainer from "./components/schedules/ScheduleContainer";
 import BatchScheduleGenerator from "./components/BatchScheduleGenerator";
 
@@ -16,10 +20,12 @@ function App() {
   const batchArray = [
     { name: "ftbc13", content: ftbc13 },
     { name: "ftbc14", content: ftbc14 },
+    { name: "ftbc15", content: ftbc15 },
 
     { name: "ptbc7", content: ptbc7 },
     { name: "ptbc8", content: ptbc8 },
     { name: "ptbc9", content: ptbc9 },
+    { name: "ptbc10", content: ptbc10 },
   ];
 
   return (
