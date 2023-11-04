@@ -887,18 +887,25 @@
           "projectStart": {
             "items": [
               {
-                "name": "Project 1 Starting Implementation",
+                "name": "Project 1  Implementation",
                 "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
               }
             ]
           },
           "projectDue": {},
           "preClass": {},
-          "inClass": {},
+          "inClass": {
+            "items": [
+              {
+                "name": "Project 1 Scrum",
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
+              }
+            ]
+          },
           "postClass": {
             "items": [
               {
-                "name": "Project 1 Starting Implementation",
+                "name": "Project 1 Implementation",
                 "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
               }
             ]
@@ -963,8 +970,8 @@
           "inClass": {
             "items": [
               {
-                "name": "Project 1 Implementation",
-                "url": "https://bc.rocketacademy.co/1-frontend/1.p-frontend-app"
+                "name": "Project 1 Scrum",
+                "url": "https://bc.rocketacademy.co/logistics/course-methodology#scrum"
               }
             ]
           },
