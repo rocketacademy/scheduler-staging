@@ -1,7 +1,9 @@
 import { DateTime } from "luxon";
 import holidayData from "./data/holidays.json";
 // import ftbcDataJson from "./data/schedule-templates/ftbc3.0-schedule-template.json";
-import ftbcDataJson from "./data/schedule-templates/ftbc3.1-schedule-template.json";
+// import ftbcDataJson from "./data/schedule-templates/ftbc3.1-schedule-template.json";
+import ftbcDataJson from "./data/schedule-templates/ftbc3.2-schedule-template.json";
+
 // import ptbcDataJson from "./data/schedule-templates/ptbc3.0-schedule-template.json";
 import ptbcDataJson from "./data/schedule-templates/ptbc3.1-schedule-template.json";
 
